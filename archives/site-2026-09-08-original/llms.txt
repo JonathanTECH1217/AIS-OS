@@ -1,0 +1,21 @@
+# Monarc Build
+
+> Marketing and permit-intelligence agency exclusively for custom home integration companies. One integrator per US metro, full-service, month-to-month retainer.
+
+Monarc Build runs the complete marketing function for one custom home integrator per metro: demand capture (first-page search rankings, local ads on buyer searches, converting websites), demand activation (install-base check-in campaigns, system upgrade offers, monthly service plan launches), and demand creation (permit-driven builder outreach months before low-voltage bids, architect lunch-and-learn programs built and booked, designer outreach).
+
+Differentiator: weekly, human-verified county permit monitoring across each client territory, including Tyler EnerGov portals that national data feeds return empty, Accela tenants with non-obvious paths, and open datasets with stale content behind fresh dates. Deliverable is a verified bid opportunity with the approach made in the client's name, not raw data.
+
+Founded by Jonathan Beach in Annapolis, Maryland, with hands-on field experience selling and installing home integration systems, closing six-figure projects, Lutron certification, AIA presentations, and CEDIA workshops. Patrick Beach runs portal monitoring and data operations.
+
+Terms: month-to-month, thirty days notice, no minimum term, clients keep all work product. Exclusivity: one shop per metro; competitors are waitlisted.
+
+## Pages
+
+- [Home](https://monarc-build.higgsfield.app/): positioning, live signal feed, full scope of work
+- [How it works](https://monarc-build.higgsfield.app/how-it-works): the four-move engagement process
+- [Permit intelligence](https://monarc-build.higgsfield.app/permit-intelligence): coverage audit versus national feeds
+- [Territories](https://monarc-build.higgsfield.app/territories): one-integrator-per-metro exclusivity
+- [About](https://monarc-build.higgsfield.app/about): founder background and credentials
+- [Results](https://monarc-build.higgsfield.app/results): current proof and the live-demo policy
+- [Book a call](https://monarc-build.higgsfield.app/book): contact form, response within one business day

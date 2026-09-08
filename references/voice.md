@@ -1,24 +1,22 @@
-# AIS-OS Intake
+# Voice
 
-This is the source-of-truth file for your AIOS. Fill it in by typing, voice-pasting (Wispr Flow / OS dictation), or running `/onboard` for a guided conversation. Whichever mode, this file is what `/onboard` reads to scaffold your Day-1 setup.
+Filled by `/onboard` on 2026-09-07 from `aios-intake.md` Q2. Samples are pasted verbatim and unedited.
 
-**Hard cap: 7 questions.** Each answerable in under 60 seconds. Don't overthink — you can edit and re-run `/onboard` any time.
+**How to use this file:** Match this register when drafting for Jonathan. Don't fake his voice on external content (client email, LinkedIn, proposals) without showing him a draft first.
 
----
+## Register notes
 
-## Q1 — Who are you, what do you sell, who do you sell it to?
+Observed from the samples below. Not rules Jonathan wrote.
 
-Identity, offer, ICP. One paragraph each is fine.
+- Direct and confident. States the offer and asks for the meeting.
+- Specific over vague: dollar figures, square footage, rankings, dates, named products.
+- Industry vocabulary used naturally: integrators, low voltage, AIA, rough in, trim out, referral channels.
+- Consultative in email: answers each question in order, sets boundaries ("I would not in good practice..."), explains the reasoning.
+- Punchy and scripted on the phone: short lines, permission-based opener, one clear ask.
+- No em dashes. Plain paragraphs in email, not bullets.
+- Sign-off: "My Best, Jonathan"
 
-```
-I am Jonathan Beach, the founder of Monarc Build, a digital marketing agency for the home integration space. I sell managed google ads, SEO, and web management. I sell this to home integrators targeting the residential market in high profile homes.
-```
-
----
-
-## Q2 — Paste 1-2 things you've written recently. Don't edit them.
-
-An email, a LinkedIn post, a DM, a doc — anything that sounds like you when you're not trying. **Paste verbatim.** Do not type these mid-conversation with Claude — chat-shaped samples are worse than no samples (voice contamination).
+## Sample 1: cold call script
 
 ```
 Pattern Interrupt 
@@ -50,6 +48,8 @@ Give concrete next steps
 If yes send email
 ```
 
+## Sample 2: prospect email reply
+
 ```
 Certainly.
 
@@ -79,58 +79,3 @@ My Best,
 
 Jonathan
 ```
-
----
-
-## Q3 — What are your 2-3 biggest priorities for the next 90 days?
-
-Quarterly priorities. Not yearly aspirations. Things that, if not done by July, would make you say "I wasted Q2."
-
-```
-1. Sign 5 clients by December 1, 2026
-2. Nail the offer (deliverable: 1-page offer doc, context/offer.md, drafted 2026-09-07)
-```
-
----
-
-## Q4 — Where does revenue actually land, and where is it tracked?
-
-Multiple answers OK. Stripe? Skool? GoHighLevel? QuickBooks? A spreadsheet?
-
-```
-Revenue has no current landing space. No payment or tracking stack yet.
-```
-
----
-
-## Q5 — Where do you talk to customers, your team, and the outside world day-to-day?
-
-Email (which one — Gmail / Outlook)? Slack? Teams? DMs (Skool / Discord / iMessage)? Phone?
-
-```
-Customers: Proton Mail, Google Meet, and cold calls. No team chat tool. Calendar is Google Calendar.
-```
-
----
-
-## Q6 — Where do meeting recordings, notes, and important docs live?
-
-Granola? Otter? Fireflies? Google Drive? Notion? Dropbox? A folder on your desktop you keep meaning to organize?
-
-```
-Meeting recordings live in a local video folder on another machine for now. Docs and the multistage Excel outreach workbook are local files.
-```
-
----
-
-## Q7 — What's the one task that eats your week, and where do you currently track work?
-
-The single biggest time-suck or recurring drudgery. Plus where tasks/projects live (ClickUp / Asana / Linear / Notion / a notebook).
-
-```
-Top pain: outreach eats the week. Tasks are tracked in my head; no task or CRM tool.
-```
-
----
-
-When this file is filled, run `/onboard` (or re-run it) and the wizard will scaffold your Day-1 file set: `context/`, `references/voice.md`, populated `connections.md`, and a filled `CLAUDE.md`.
