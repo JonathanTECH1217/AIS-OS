@@ -1,0 +1,371 @@
+{
+ "out": "media/loom-ba/2026-10-06/hatch-electric/hatch-electric-loom-ba.mp4",
+ "states_dir": "media/looms/hatch-electric-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "hatchelectric.com",
+ "url": "https://www.hatchelectric.com/",
+ "render": "projects/Landing Page Build/prospects/hatch-electric/index.html",
+ "folder": "media/looms/d7c4866a-increase-landing-page-conversions-for-lighting-c",
+ "why": "The Hatch Electric audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-hatch-electric.md: the header and hero changes made on their live home page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:32:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.5,
+ "end_at": 224.0,
+ "pause": 0.5,
+ "cuts": [
+  [
+   23.5,
+   24.7,
+   "a false start (so I'm gonna do this one); the next line says it"
+  ],
+  [
+   41.0,
+   41.7,
+   "trails off (all of that sort)"
+  ],
+  [
+   65.0,
+   71.1,
+   "not accurate: they are in South Lake Tahoe, not the Bay Area, and the page says South Lake Tahoe (in California, if you're in the San Francisco Bay Area, San Francisco or Oakland)"
+  ],
+  [
+   109.6,
+   118.9,
+   "a slow lead-in that trails off (as far as outcomes the prospect feels inside of the service, being the things like); the outcomes come back in the next lines"
+  ],
+  [
+   126.5,
+   126.8,
+   "a stutter (d)"
+  ],
+  [
+   135.9,
+   140.7,
+   "a lead-in that restarts (that's big outcome language, and then that would want to be something included on like)"
+  ],
+  [
+   148.9,
+   151.2,
+   "a sentence that loses its thread (would really do a lot of heavy lifting for you would be)"
+  ],
+  [
+   160.2,
+   161.1,
+   "a stutter (who they stand)"
+  ],
+  [
+   175.4,
+   179.0,
+   "a lead-in with nothing in it (but below that section, you would want to have)"
+  ],
+  [
+   183.3,
+   186.5,
+   "a trade phrase that does no work (relative to the trade per landing page)"
+  ],
+  [
+   213.8,
+   214.6,
+   "a lead-in with nothing in it (besides that)"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "hour": "our"
+ },
+ "changes": [
+  {
+   "at": 0.0,
+   "kind": "css",
+   "selector": ".et_pb_slide",
+   "style": "background-image:url(http://www.hatchelectric.com/wp-content/uploads/2016/02/1-BEDROOM.jpg)!important"
+  },
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": ".et_pb_slide_1 .et_pb_slide_title",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": ".et_pb_slide_2 .et_pb_slide_title",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": ".et_pb_slide_3 .et_pb_slide_title",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": ".et_pb_slide_4 .et_pb_slide_title",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": ".et_pb_slide_5 .et_pb_slide_title",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "at": 45.7,
+   "kind": "header"
+  },
+  {
+   "at": 45.94,
+   "kind": "css",
+   "selector": "#top-header",
+   "style": "display:none!important"
+  },
+  {
+   "at": 45.94,
+   "kind": "css",
+   "selector": "#logo",
+   "style": "max-height:58px!important;height:58px!important;width:auto!important;margin-top:11px"
+  },
+  {
+   "at": 45.94,
+   "kind": "css",
+   "selector": "#main-header .container",
+   "style": "height:81px!important"
+  },
+  {
+   "at": 45.94,
+   "kind": "css",
+   "selector": "#et-top-navigation",
+   "style": "padding-top:30px!important"
+  },
+  {
+   "at": 50.67,
+   "kind": "css",
+   "selector": "#main-header",
+   "style": "background:#FFFFFF!important;box-shadow:0 1px 0 rgba(0,0,0,.08)!important"
+  },
+  {
+   "at": 50.67,
+   "kind": "css",
+   "selector": "#logo",
+   "style": "filter:brightness(0)"
+  },
+  {
+   "at": 50.67,
+   "kind": "css",
+   "selector": "#top-menu > li > a, #et_search_icon",
+   "style": "color:#1A1A1A!important"
+  },
+  {
+   "at": 55.66,
+   "kind": "css",
+   "selector": "#page-container",
+   "style": "max-width:none!important;width:100%!important"
+  },
+  {
+   "at": 55.66,
+   "kind": "css",
+   "selector": ".et_pb_slider, .et_pb_slider .et_pb_slides, .et_pb_slider .et_pb_slide, .et_pb_slider .et_pb_container",
+   "style": "height:700px!important"
+  },
+  {
+   "at": 55.66,
+   "kind": "css",
+   "selector": ".et_pb_slide",
+   "style": "background-image:linear-gradient(180deg,rgba(18,19,22,.80),rgba(18,19,22,.62)),url(http://www.hatchelectric.com/wp-content/uploads/2016/02/1-BEDROOM.jpg)!important;background-size:cover!important;background-position:50% 45%!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_text_overlay_wrapper, .et-pb-controllers",
+   "style": "visibility:hidden!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_row_0",
+   "style": "position:fixed!important;top:431px!important;left:0!important;width:100%!important;max-width:none!important;height:0!important;margin:0!important;padding:0!important;z-index:30;display:flex!important;flex-direction:column!important;justify-content:center!important;background:rgba(0,0,0,.01)!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_row_0 .et_pb_column",
+   "style": "margin:0!important;width:100%!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_text_0",
+   "style": "width:900px!important;max-width:900px!important;margin:0 auto!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:last-child",
+   "style": "display:none!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": "[data-mb-head]",
+   "style": "display:block"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:nth-of-type(1)",
+   "style": "padding-bottom:26px!important"
+  },
+  {
+   "at": 63.18,
+   "kind": "headline",
+   "text": "Lighting Control Installation in South Lake Tahoe"
+  },
+  {
+   "at": 63.18,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 63.18,
+   "kind": "colors",
+   "selector": ".et_pb_row_0",
+   "text": "#FFFFFF"
+  },
+  {
+   "at": 63.18,
+   "kind": "css",
+   "selector": "[data-mb-head]",
+   "style": "letter-spacing:0.2px!important"
+  },
+  {
+   "at": 71.42,
+   "kind": "eyebrow",
+   "reuse": true,
+   "color": "#C19C36"
+  },
+  {
+   "at": 71.42,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "margin:0 0 26px!important"
+  },
+  {
+   "at": 81.15,
+   "kind": "copy",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:nth-of-type(2)",
+   "keep": "Every light and shade in the house from one keypad, a remote, or your phone. Scenes for the morning, dinner, and bedtime, set once and there every day."
+  },
+  {
+   "at": 81.15,
+   "kind": "font",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:nth-of-type(2)",
+   "family": "Poppins",
+   "weight": 400
+  },
+  {
+   "at": 81.15,
+   "kind": "css",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:nth-of-type(2)",
+   "style": "font-weight:400!important;letter-spacing:normal!important;padding:0!important;color:rgba(255,255,255,.9)!important"
+  },
+  {
+   "at": 88.67,
+   "kind": "css",
+   "selector": ".et_pb_text_0 .et_pb_text_inner > p:nth-of-type(2)",
+   "style": "margin-bottom:100px!important"
+  },
+  {
+   "at": 88.67,
+   "kind": "cta",
+   "selector": ".et_pb_blurb_0 .et_pb_blurb_description a",
+   "text": "Book a meeting",
+   "background": "#B78C00",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 88.67,
+   "kind": "css",
+   "selector": ".et_pb_blurb_0 .et_pb_blurb_description a",
+   "style": "position:fixed!important;top:576px!important;left:50%!important;transform:translateX(-50%)!important;z-index:40!important;margin:0!important;text-decoration:none!important"
+  },
+  {
+   "at": 92.27,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 94.83,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 95.39,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 95.71,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 96.43,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 104.61,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 108.05,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 151.23,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 163.7,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 179.15,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 190.11,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 202.53,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 209.9,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 216.08,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Monarc Edge</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#131314">
+<!-- fonts.css is written by the server side; when it is missing the page falls back to Segoe UI and hides the icons -->
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="topbar" id="topbar"></header>
+  <div id="banner"></div>
+  <div class="reconnect" id="reconnect" hidden><span class="ms" aria-hidden="true">refresh</span> Reconnecting to the agent</div>
+  <main class="main" id="main"></main>
+</div>
+<!-- the page tests (?test=<name>) write PASS / FAIL / DONE lines here; projects/edge/tests/page-check.py reads them -->
+<pre id="__out" hidden></pre>
+<script type="module" src="app.js"></script>
+</body>
+</html>

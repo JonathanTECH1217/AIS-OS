@@ -1,0 +1,47 @@
+{
+  "name": "saas",
+  "label": "SaaS",
+  "pages": ["/seo/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q22 to Q27; Jonathan: a SaaS style page, modern, minimal, appealing CTAs",
+  "palette": {
+    "ground": "#FFFFFF",
+    "ink": "#0A0A0A",
+    "muted": "#6B7280",
+    "hairline": "#E5E7EB",
+    "card": "#FAFAFA",
+    "tint": "#EEF2FF",
+    "accent": "#4F46E5",
+    "button": "#4F46E5",
+    "button_text": "#FFFFFF",
+    "fit_yes": "#15803D",
+    "fit_no": "#B91C1C",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#0A0A0A", "bg": "#FFFFFF", "ratio": 19.8, "passes": "AA", "use": "body"},
+    {"fg": "#6B7280", "bg": "#FFFFFF", "ratio": 4.83, "passes": "AA", "use": "muted"},
+    {"fg": "#FFFFFF", "bg": "#4F46E5", "ratio": 6.29, "passes": "AA", "use": "button text"},
+    {"fg": "#4F46E5", "bg": "#FFFFFF", "ratio": 6.29, "passes": "AA", "use": "accent text and section labels"},
+    {"fg": "#4F46E5", "bg": "#EEF2FF", "ratio": 5.62, "passes": "AA", "use": "accent on the tint band"},
+    {"fg": "#0A0A0A", "bg": "#FAFAFA", "ratio": 18.97, "passes": "AA", "use": "body on a card"},
+    {"fg": "#15803D", "bg": "#FFFFFF", "ratio": 5.02, "passes": "AA", "use": "fit yes"},
+    {"fg": "#B91C1C", "bg": "#FFFFFF", "ratio": 6.47, "passes": "AA", "use": "fit no"}
+  ],
+  "faces": {"heading": "Manrope", "body": "Manrope", "alternate": "Plus Jakarta Sans", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap",
+  "weights": [400, 500, 600],
+  "labels": {"hero": "Get found first", "final": "Book the rank check"},
+  "button": {"shape": "pill", "radius": "999px", "icon": "arrow-right"},
+  "cards": {"opener": "3d-render", "radius": "16px", "border": "1px solid #E5E7EB", "ground": "#FAFAFA", "shadow": "none", "hover": "border darkens"},
+  "shadows": "none",
+  "section_label": "small semibold in the accent, no hairlines",
+  "hero": "split: text left, the render right; stacked on phones; h1 64px at -0.02em on desktop",
+  "hero_render": "Jonathan, 2026-09-26 (was a house mid-build): a contractor in a hard hat on a clay town map, hauling in a map pin and a five-star review card on a rope. 3D cartoonish in white, ink, and indigo; gold only on the stars.",
+  "card_renders": ["a map pin (Google Business Profile)", "a magnifier (organic search)", "a speech bubble (AEO)", "a pen (copywriting)"],
+  "notes": [
+    "Card titles are the four parts; line one glosses each in plain words (Google Business Profile, the map listing; organic search, the pages that rank; AEO, showing up in AI answers; copywriting, the words on every page).",
+    "Proof: a Page 1 row beside the Annapolis ranking line, then the Georgian card. AEO and Business Profile claim nothing.",
+    "The micro-line under the final-ask button: Fifteen minutes. Bring nothing."
+  ]
+}

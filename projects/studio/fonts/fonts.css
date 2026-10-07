@@ -1,0 +1,44 @@
+/* Written by scripts/studio_fonts.py from Google Fonts (Google Sans, Google Sans Text: SIL OFL 1.1;
+   Material Symbols: Apache 2.0). Latin only. The symbols file holds only the icons listed below. */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(google-sans-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(google-sans-500.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(google-sans-text-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(google-sans-text-500.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* icons: add, arrow_back, arrow_right_alt, arrow_selector_tool, aspect_ratio, audio_file, auto_awesome, blur_on, bookmark, bookmark_add, cancel, check, check_circle, chevron_left, chevron_right, circle, close, content_copy, content_cut, content_paste, crop_free, delete, diamond, download, drag_indicator, edit, error, event_available, expand_less, expand_more, fast_forward, fast_rewind, file_export, first_page, fit_screen, folder, folder_open, format_quote, graphic_eq, handshake, headphones, help, history, image, info, ink_pen, keyboard, keyboard_arrow_down, keyboard_arrow_left, keyboard_arrow_right, last_page, link, link_off, lock, lock_open, more_vert, movie, music_note, opacity, open_with, palette, pan_tool, pause, phone_in_talk, play_arrow, play_circle, progress_activity, radio_button_unchecked, rectangle, redo, refresh, remove, restart_alt, restore, rotate_right, schedule, search, sentiment_very_satisfied, settings, skip_next, skip_previous, star, start, stop, subtitles, swap_horiz, sync_alt, task_alt, text_fields, timer, title, undo, upload_file, vertical_align_center, video_file, visibility, visibility_off, volume_off, volume_up, warning, width, zoom_in, zoom_out */
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 300 500;
+  font-display: block;
+  src: url(material-symbols.woff2) format('woff2');
+}
+/* caption font: Montserrat Black, SIL OFL 1.1 (Montserrat-OFL.txt) */
+@font-face {font-family: 'Montserrat Black'; font-style: normal; font-weight: 400; font-display: block; src: url(Montserrat-Black.ttf) format('truetype');}

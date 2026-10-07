@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lighting Control Installation in Palm Beach County | Gold Standard Integration</title>
+<!-- A render, not their live page (2026-10-07). Built by the page engine from spec.json beside this file,
+     which carries Jonathan's Loom review of https://www.gsi-fl.com/. Their logo, faces, photos, and words come
+     from their public site. The form sends nothing anywhere. Local only. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&family=Manrope:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--eyebrow:#008AFC;--brand:#008AFC;--brand-dark:#0070CF;--accent:#5CB6FF;--black:#000000;--ink:#111111;--grey:#3A3A3A;--mist:#F0F5FA;--line:#E3E5E1;--white:#FFFFFF;
+  --title:"Newsreader",Georgia,"Times New Roman",serif;--head:"Manrope",Arial,sans-serif;--body:"Poppins",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.65 var(--body);color:var(--grey);background:var(--white);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+.col{width:100%;max-width:960px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--title);color:var(--ink);text-wrap:balance}
+h1{font-size:72px;line-height:1.05;font-weight:300;letter-spacing:-.01em}
+h2{font-size:44px;line-height:1.12;font-weight:300;letter-spacing:-.005em}
+h3{font-size:25px;line-height:1.22;font-weight:400}
+.eyebrow{font:600 14px/1 var(--head);letter-spacing:.16em;text-transform:uppercase}
+.center{text-align:center}
+section{padding:96px 0}
+.lead{margin-top:56px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:64px;padding:0 46px;border:0;border-radius:8px;background:var(--brand);color:var(--white);font:700 20px/1 var(--head);transition:background .15s ease,transform .15s ease}
+.btn:hover{background:var(--brand-dark);transform:translateY(-1px)}
+.btn:focus-visible,.ghost:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn.small{min-height:46px;padding:0 22px;font-size:16px}
+.top{position:sticky;top:0;z-index:5;background:var(--white);border-bottom:1px solid var(--line)}
+.top .col{display:flex;align-items:center;gap:24px;height:80px;max-width:1120px}
+.top img{height:46px;width:auto}
+.top .name{font:700 20px/1 var(--head);color:var(--ink)}
+.top .phone{margin-left:auto;font:600 15px/1 var(--head);color:var(--ink);white-space:nowrap}
+.top .btn.small{white-space:nowrap}
+.hero{position:relative;display:grid;place-items:center;min-height:min(84vh,700px);padding:96px 0;color:var(--white);text-align:center;background:var(--black);overflow:hidden}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,19,22,.80),rgba(18,19,22,.62))}
+.hero .col{position:relative;display:grid;justify-items:center;gap:26px}
+.hero .eyebrow{color:var(--eyebrow);line-height:1.4;max-width:92%}
+.hero h1{color:var(--white);max-width:900px}
+.hero .sub{font-size:21px;line-height:1.5;max-width:640px;color:rgba(255,255,255,.9)}
+.hero .btn{margin-top:10px}
+.trust{font:500 14px/1.5 var(--head);letter-spacing:.02em;color:rgba(255,255,255,.85);max-width:620px}
+.banner{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}
+.banner .g-mark{width:18px;height:18px;flex:none}
+.banner .stars{font-size:17px;letter-spacing:2px}
+.star-off{opacity:.28}
+.empty-banner{border:1px dashed rgba(255,255,255,.5);border-radius:6px;padding:4px 10px;color:rgba(255,255,255,.75)}
+.rating.empty-banner{border-color:#B9BFB4;color:#6B7265}
+.quote-top{display:flex;align-items:center;justify-content:space-between}
+.quote-top .g-mark{width:20px;height:20px}
+.quote .who .muted{font-weight:400;color:var(--grey)}
+.top nav{display:flex;gap:18px;margin-left:24px;white-space:nowrap}
+.top nav a{font:500 14px/1 var(--head);color:var(--ink);white-space:nowrap}
+.top nav a:hover{color:var(--brand)}
+/* hero.light (his Tru Definition audit, 2026-10-06: "that white overlay on the background with black text"): a pale scrim over the photo, dark words */
+.hero.light{color:var(--ink);background:var(--white)}
+.hero.light .hero-bg::after{background:linear-gradient(180deg,rgba(255,255,255,.86),rgba(255,255,255,.74))}
+.hero.light h1{color:var(--ink)}
+.hero.light .sub{color:var(--grey)}
+.hero.light .eyebrow{color:var(--brand)}
+.hero.light .trust{color:var(--grey)}
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.quote{border-radius:12px;padding:28px;display:grid;gap:12px;align-content:start;background:var(--mist)}
+.quote p{font-size:16px;line-height:1.6;color:var(--ink)}
+.quote .who{font:600 14px/1.3 var(--head);color:var(--grey)}
+.rating{margin-top:14px;display:flex;justify-content:center;font:600 15px/1.4 var(--head);color:var(--ink)}
+.rating .stars{margin-right:6px}
+.stars{color:#F2B01E;font-size:19px;letter-spacing:3px}
+.cards{display:grid;gap:24px}
+.card{background:var(--brand);color:var(--white);border-radius:12px;padding:32px 28px;display:grid;gap:14px;align-content:start}
+.card h3{color:var(--white)}
+.card svg{width:44px;height:44px;color:var(--white)}
+.card p{font-size:16px;line-height:1.6;color:rgba(255,255,255,.95)}
+.card.dark,.card.dark h3,.card.dark svg{color:var(--ink)}
+.card.dark p{color:rgba(0,0,0,.82)}
+.ask{display:grid;justify-items:center;gap:14px;margin-top:56px}
+.about{background:var(--mist)}
+.about .col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}
+.about .eyebrow{color:var(--brand)}
+.about p{margin-top:20px}
+.team{aspect-ratio:5/4;border-radius:12px;overflow:hidden;background:var(--white)}
+.team img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.shot{aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--mist)}
+.shot img{width:100%;height:100%;object-fit:cover}
+.empty{display:grid;place-items:center;border:2px dashed #B9BFB4;padding:20px;text-align:center;font:600 14px/1.45 var(--head);color:#6B7265;background:var(--mist)}
+.process{color:var(--white);background:var(--black)}
+.process h2{color:var(--white)}
+.process .eyebrow{color:var(--eyebrow)}
+.steps{display:grid;gap:24px;counter-reset:step}
+.step-card{border-top:3px solid var(--accent);padding-top:20px;display:grid;gap:10px;align-content:start;counter-increment:step}
+.step-card::before{content:counter(step);font:700 34px/1 var(--head);color:var(--accent)}
+.step-card h3{color:var(--white);font-size:20px}
+.step-card p{font-size:15px;line-height:1.6;color:rgba(255,255,255,.82)}
+.services .under{margin-top:16px;font-size:18px;color:var(--grey)}
+.svcs{display:grid;gap:20px}
+.svc{display:grid;gap:10px;align-content:start;padding:26px 24px;border:1px solid var(--line);border-radius:12px;background:var(--white);transition:border-color .15s ease,transform .15s ease}
+.svc:hover{border-color:var(--brand);transform:translateY(-2px)}
+.svc svg{width:36px;height:36px;color:var(--brand)}
+.svc h3{font-size:20px}
+.svc p{font-size:15px;line-height:1.55}
+.col.narrow{max-width:760px}
+.qas{display:grid;gap:28px}
+.qa{display:grid;gap:8px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.qa h3{font-size:21px}
+.qa p{font-size:16px;line-height:1.6}
+.final{text-align:center}
+.final p{margin-top:16px;font-size:19px}
+.final .btn{margin-top:40px}
+footer{background:var(--black);color:rgba(255,255,255,.78);padding:36px 0;font-size:14px}
+footer .col{display:flex;flex-wrap:wrap;align-items:center;gap:12px 36px;max-width:1120px}
+footer strong{font:600 15px/1 var(--head);color:var(--white)}
+footer .right{margin-left:auto}
+footer .creds{flex-basis:100%;padding-top:12px;border-top:1px solid rgba(255,255,255,.16);font-size:13px;color:rgba(255,255,255,.6)}
+.veil{position:fixed;inset:0;z-index:20;display:none;place-items:center;padding:24px;background:rgba(0,0,0,.66)}
+.veil.open{display:grid}
+.sheet{position:relative;width:100%;max-width:520px;background:var(--white);border-radius:14px;padding:40px 36px 32px;display:grid;gap:24px}
+.sheet .x{position:absolute;top:10px;right:12px;width:40px;height:40px;border:0;background:none;font-size:26px;line-height:1;color:var(--grey);border-radius:50%}
+.sheet .x:hover{background:var(--mist)}
+.bar{height:6px;border-radius:3px;background:var(--mist);overflow:hidden}
+.bar b{display:block;height:100%;width:25%;background:var(--brand);transition:width .2s ease}
+.count{font:600 13px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)}
+.step{display:none;gap:14px}
+.step.on{display:grid}
+.step label{font:700 26px/1.2 var(--head);color:var(--ink)}
+.step .hint{font-size:15px;color:var(--grey)}
+.step input,.step textarea{width:100%;border:2px solid #C8CCC4;border-radius:8px;padding:14px 16px;font:400 18px/1.4 var(--body);color:var(--ink)}
+.step textarea{min-height:120px;resize:vertical}
+.step input:focus,.step textarea:focus{border-color:var(--brand);outline:4px solid color-mix(in srgb,var(--brand) 22%,transparent)}
+.err{min-height:20px;font-size:14px;color:#B3261E}
+.nav{display:flex;align-items:center;gap:16px}
+.ghost{border:0;background:none;font:600 16px/1 var(--head);color:var(--grey);padding:12px 8px;border-radius:6px}
+.ghost:hover{color:var(--ink)}
+.nav .btn{margin-left:auto;min-height:54px;padding:0 34px;font-size:18px}
+.sent{display:none;gap:16px;text-align:center;justify-items:center}
+.sent.on{display:grid}
+.sent .tick{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--brand);color:var(--white)}
+.sent .tick svg{width:32px;height:32px}
+.sent h3{font-size:28px}
+.gcal{width:100%;border:1px solid #DADCE0;border-radius:10px;background:#fff;text-align:left;font:400 12px/1.3 Arial,var(--body);color:#3C4043;overflow:hidden}
+.gc-top{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:1px solid #DADCE0;font-size:13px}
+.gc-icon{width:22px;height:22px}
+.gc-grid{display:grid;grid-template-columns:44px repeat(5,minmax(0,1fr))}
+.gc-day{padding:6px 4px;text-align:center;font-weight:700;border-bottom:1px solid #DADCE0;font-size:11px;color:#70757A}
+.gc-hour{padding:4px;font-size:10px;color:#70757A;border-top:1px solid #F1F3F4;text-align:right}
+.gc-cell{height:38px;border-top:1px solid #F1F3F4;border-left:1px solid #F1F3F4;padding:2px}
+.gc-ev{height:100%;border-radius:4px;background:#E8EAED;color:#5F6368;padding:3px 5px;font-size:10px;overflow:hidden}
+.gc-ev.new{background:var(--brand);color:#fff;display:grid;align-content:start;box-shadow:0 2px 6px rgba(0,0,0,.25);animation:gcin .6s ease both}
+.gc-ev.new b{font-size:11px}
+@keyframes gcin{from{transform:translateY(-14px);opacity:0}to{transform:none;opacity:1}}
+.gc-note{padding:8px 12px;border-top:1px solid #DADCE0;font-size:11px;color:#5F6368}
+
+/* his background pattern (2026-10-06): A #0E0F11, B #FFFFFF, C #08467B */
+[data-band="cards"]{background:#FFFFFF !important}
+[data-band="cards"] h2,[data-band="cards"] .qa h3,[data-band="cards"] .step-card h3,[data-band="cards"] .rating{color:var(--ink)}[data-band="cards"] .col>div>p,[data-band="cards"] .col>p,[data-band="cards"] .center p,[data-band="cards"] .qa p,[data-band="cards"] .step-card p{color:var(--grey)}[data-band="cards"] .qa{border-color:var(--line)}[data-band="cards"] .eyebrow{color:var(--brand)}[data-band="cards"] .step-card{border-top-color:var(--brand)}[data-band="cards"] .step-card::before{color:var(--brand)}
+[data-band="about"]{background:#0E0F11 !important}
+[data-band="about"] h2,[data-band="about"] .qa h3,[data-band="about"] .step-card h3,[data-band="about"] .rating{color:#FFFFFF}[data-band="about"] .col>div>p,[data-band="about"] .col>p,[data-band="about"] .center p,[data-band="about"] .qa p,[data-band="about"] .step-card p{color:rgba(255,255,255,.8)}[data-band="about"] .qa{border-color:rgba(255,255,255,.18)}[data-band="about"] .eyebrow{color:var(--eyebrow)}
+[data-band="process"]{background:#08467B !important}
+[data-band="process"] h2,[data-band="process"] .qa h3,[data-band="process"] .step-card h3,[data-band="process"] .rating{color:#FFFFFF}[data-band="process"] .col>div>p,[data-band="process"] .col>p,[data-band="process"] .center p,[data-band="process"] .qa p,[data-band="process"] .step-card p{color:rgba(255,255,255,.8)}[data-band="process"] .qa{border-color:rgba(255,255,255,.18)}[data-band="process"] .eyebrow{color:var(--eyebrow)}
+[data-band="work"]{background:#0E0F11 !important}
+[data-band="work"] h2,[data-band="work"] .qa h3,[data-band="work"] .step-card h3,[data-band="work"] .rating{color:#FFFFFF}[data-band="work"] .col>div>p,[data-band="work"] .col>p,[data-band="work"] .center p,[data-band="work"] .qa p,[data-band="work"] .step-card p{color:rgba(255,255,255,.8)}[data-band="work"] .qa{border-color:rgba(255,255,255,.18)}[data-band="work"] .eyebrow{color:var(--eyebrow)}
+[data-band="reviews"]{background:#FFFFFF !important}
+[data-band="reviews"] h2,[data-band="reviews"] .qa h3,[data-band="reviews"] .step-card h3,[data-band="reviews"] .rating{color:var(--ink)}[data-band="reviews"] .col>div>p,[data-band="reviews"] .col>p,[data-band="reviews"] .center p,[data-band="reviews"] .qa p,[data-band="reviews"] .step-card p{color:var(--grey)}[data-band="reviews"] .qa{border-color:var(--line)}[data-band="reviews"] .eyebrow{color:var(--brand)}[data-band="reviews"] .step-card{border-top-color:var(--brand)}[data-band="reviews"] .step-card::before{color:var(--brand)}
+[data-band="services"]{background:#0E0F11 !important}
+[data-band="services"] h2,[data-band="services"] .qa h3,[data-band="services"] .step-card h3,[data-band="services"] .rating{color:#FFFFFF}[data-band="services"] .col>div>p,[data-band="services"] .col>p,[data-band="services"] .center p,[data-band="services"] .qa p,[data-band="services"] .step-card p{color:rgba(255,255,255,.8)}[data-band="services"] .qa{border-color:rgba(255,255,255,.18)}[data-band="services"] .eyebrow{color:var(--eyebrow)}
+[data-band="final"]{background:#08467B !important}
+[data-band="final"] h2,[data-band="final"] .qa h3,[data-band="final"] .step-card h3,[data-band="final"] .rating{color:#FFFFFF}[data-band="final"] .col>div>p,[data-band="final"] .col>p,[data-band="final"] .center p,[data-band="final"] .qa p,[data-band="final"] .step-card p{color:rgba(255,255,255,.8)}[data-band="final"] .qa{border-color:rgba(255,255,255,.18)}[data-band="final"] .eyebrow{color:var(--eyebrow)}
+@media (max-width:860px){
+  h1{font-size:42px}h2{font-size:32px}body{font-size:16px}
+  section{padding:72px 0}
+  .cards,.quotes,.work,.svcs{grid-template-columns:1fr !important}
+  .steps{grid-template-columns:1fr 1fr !important;gap:32px 20px}
+  .about .col{grid-template-columns:1fr;gap:32px}
+  .hero .sub{font-size:18px}
+  .hero .eyebrow{font-size:12px}
+  .top .phone{display:none}
+  .top nav{display:none}
+  .top .btn{margin-left:auto}
+  .btn{width:100%;max-width:360px}
+  .top .btn{width:auto;white-space:nowrap;padding:0 16px}
+  .top img{max-width:52vw;height:auto !important;max-height:46px}
+  .sheet{padding:36px 22px 24px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;scroll-behavior:auto !important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="col"><span class="name">Gold Standard Integration</span><nav><a href="#top">Home</a><a href="#what">Services</a><a href="#about">About</a><a href="#work">Our work</a><a href="#reviews">Reviews</a><a href="#book">Contact</a></nav><a class="phone" href="tel:+15614199449">561-419-9449</a><button class="btn small" type="button" data-book>Book a meeting</button></div></header>
+<main>
+<section class="hero" id="top" data-band="hero"><div class="hero-bg"><img src="assets/hero.jpg" alt=""></div><div class="col"><div class="eyebrow">For Palm Beach County homeowners</div><h1>Lighting Control Installation in Palm Beach County</h1><p class="sub">Scenes on a keypad you design, control from your phone or your voice, and light that warms and cools with your day.</p><button class="btn" type="button" data-book>Book a meeting</button><div class="trust banner"><svg class="g-mark" viewBox="0 0 48 48" aria-label="Google" role="img"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="stars" aria-label="5.0 stars">★★★★★<span class="star-off"></span></span><span>5 on Google from 15 reviews</span></div></div></section><section id="what" data-band="cards"><div class="col"><div class="center"><h2>What lighting control gives you</h2></div><div class="cards lead" style="grid-template-columns:repeat(3,minmax(0,1fr))"><div class="card"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="13" y="5" width="22" height="38" rx="4"/><path d="M19 14h10M19 22h10M19 30h10"/></svg><h3>Keypads with your scenes</h3><p>One press sets the whole room. Dinner, movie, morning, goodnight: scenes you name, on keypads laid out and engraved the way you want them.</p></div><div class="card"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="14" y="4" width="20" height="40" rx="4"/><path d="M21 38h6"/></svg><h3>Your phone and your voice</h3><p>Dim the kitchen from the couch, check the house from the road, or just ask out loud. Every light in the house, from wherever you are.</p></div><div class="card"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="9"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/></svg><h3>Light that follows your day</h3><p>Warm white in the morning and at night, brighter and cooler by midday. The color of the light shifts with your body clock, so the house feels right at every hour.</p></div></div></div></section><section class="about" id="about" data-band="about"><div class="col"><div class="team empty"><span>A photo of the owner or the team goes here</span></div><div><div class="eyebrow">About us</div><h2 style="margin-top:16px">A family business in Jupiter, Florida</h2><p>Gold Standard Integration is a family business working to provide the best electrical contractor service in Palm Beach County. Lighting control systems, EV charging stations, and panel upgrades, from the first design consultation to the install.</p></div></div></section><section class="process" id="process" data-band="process"><div class="col"><div class="center"><div class="eyebrow">For architects, builders, and designers</div><h2 style="margin-top:16px">Our process</h2></div><div class="steps lead" style="grid-template-columns:repeat(4,minmax(0,1fr))"><div class="step-card"><h3>Design consultation</h3><p>We walk the plans with you and settle which rooms get keypads, where each one sits, and what every scene does.</p></div><div class="step-card"><h3>Lighting plan</h3><p>Fixtures, loads, and keypad layouts on paper before the ceilings close, so nothing is guessed on site.</p></div><div class="step-card"><h3>Wiring</h3><p>Our own electricians run the wire on your schedule, alongside the other trades, so no wall is opened twice.</p></div><div class="step-card"><h3>Installation and programming</h3><p>Keypads in, scenes set, and a walkthrough with the homeowner once the house is lived in.</p></div></div></div></section><section id="work" data-band="work"><div class="col"><div class="center"><h2>Our work</h2></div><div class="work lead"><div class="shot"><img src="assets/work-stair.jpg" alt="A bright staircase and hallway in a finished home"></div><div class="shot"><img src="assets/work-kitchen.jpg" alt="A kitchen with three globe pendants over the island"></div><div class="shot"><img src="assets/hero.jpg" alt="A lit plaza at night from above"></div></div></div></section><section id="reviews" data-band="reviews"><div class="col"><div class="center"><h2>What our clients say</h2></div><div class="rating banner"><svg class="g-mark" viewBox="0 0 48 48" aria-label="Google" role="img"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg><span class="stars" aria-label="5.0 stars">★★★★★<span class="star-off"></span></span><span>5 on Google from 15 reviews</span></div><div class="quotes lead"><div class="quote"><div class="quote-top"><span class="stars" aria-label="5 stars">★★★★★<span class="star-off"></span></span><svg class="g-mark" viewBox="0 0 48 48" aria-label="Google" role="img"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg></div><p>This company in one word is AMAZING. They show up when scheduled on time EVERYTIME! They are very thorough ,going through any issue you have. Brent, the owner I would say is a wizard of an electrical contractor. His knowledge surpasses his years.</p><div class="who">Daniel G.<span class="muted"> on Google</span></div></div><div class="quote"><div class="quote-top"><span class="stars" aria-label="5 stars">★★★★★<span class="star-off"></span></span><svg class="g-mark" viewBox="0 0 48 48" aria-label="Google" role="img"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg></div><p>I can’t say enough about Gold Standard Electrical, I was “in the dark” and they solved my issue quickly and efficiently. Not only is this company prompt, kind, and courteous they made sure to clean up before during and after their work.</p><div class="who">Lyn C.<span class="muted"> on Google</span></div></div><div class="quote"><div class="quote-top"><span class="stars" aria-label="5 stars">★★★★★<span class="star-off"></span></span><svg class="g-mark" viewBox="0 0 48 48" aria-label="Google" role="img"><path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.6-.4-3.9z"/></svg></div><p>Brent and his team did an amazing job running a 100 amp panel from my house to my pole barn.</p><div class="who">Justin<span class="muted"> on Google</span></div></div></div></div></section><section class="services" id="services" data-band="services"><div class="col"><div class="center"><h2>Everything else we install</h2></div><div class="svcs lead" style="grid-template-columns:repeat(4,minmax(0,1fr))"><a class="svc" href="https://www.gsi-fl.com/"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 6v10M32 6v10"/><rect x="11" y="16" width="26" height="12" rx="3"/><path d="M24 28v8a6 6 0 0 1-6 6"/></svg><h3>EV charging stations</h3><p>Charge at home overnight.</p></a><a class="svc" href="https://www.gsi-fl.com/"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M27 5L12 27h10l-2 16 16-23H26z"/></svg><h3>Panel upgrades</h3><p>Room for everything the house pulls now and next.</p></a><a class="svc" href="https://www.gsi-fl.com/booking-calendar/generator-electrical-inspection"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="7"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/></svg><h3>Generator inspection</h3><p>Your standby generator checked before storm season.</p></a><a class="svc" href="https://www.gsi-fl.com/booking-calendar/basic-electrical-wiring"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M34 8a9 9 0 0 1 2 14l-19 19a4 4 0 0 1-6-6l19-19a9 9 0 0 1 4-8z"/><path d="M28 14l6 6"/></svg><h3>Electrical wiring</h3><p>New runs, repairs, and additions.</p></a></div></div></section><section class="final" id="book" data-band="final"><div class="col"><h2>Start your project</h2><p>Tell us about your home and the rooms you have in mind. We set a time from there.</p><button class="btn" type="button" data-book>Book a meeting</button></div></section>
+</main>
+<footer><div class="col"><strong>Gold Standard Integration</strong><span>Jupiter, FL</span><a href="tel:+15614199449">561-419-9449</a><span class="right">Jupiter and Palm Beach County</span></div></footer>
+
+<div class="veil" id="veil" role="dialog" aria-modal="true" aria-labelledby="form-title">
+  <form class="sheet" id="form" novalidate>
+    <button class="x" type="button" id="close" aria-label="Close">&times;</button>
+    <div id="steps-wrap" style="display:grid;gap:24px">
+      <div style="display:grid;gap:12px"><div class="count" id="count">Step 1 of 4</div><div class="bar"><b id="bar"></b></div></div>
+      <div class="step on" data-step="1"><label for="f-name" id="form-title">What is your first name?</label><input id="f-name" name="first_name" type="text" autocomplete="given-name" required></div><div class="step" data-step="2"><label for="f-email">What is your email?</label><input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required></div><div class="step" data-step="3"><label for="f-phone">What is the best number to call?</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div><div class="step" data-step="4"><label for="f-msg">What would you like done?</label><div class="hint">A line or two is plenty: the rooms, new build or an existing home.</div><textarea id="f-msg" name="message" required></textarea></div>
+      <div class="err" id="err" role="alert"></div>
+      <div class="nav"><button class="ghost" type="button" id="back" hidden>Back</button><button class="btn" type="submit" id="next">OK</button></div>
+    </div>
+    <div class="sent" id="sent">
+      <div class="tick"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l6 6 12-13"/></svg></div>
+      <h3 id="sent-title">Thank you.</h3>
+      <p id="sent-line">Your consultation is booked. It goes straight onto our calendar, and we confirm the time by email.</p>
+      <div class="gcal" id="cal" aria-label="The owner's calendar"><div class="gc-top"><svg viewBox="0 0 24 24" aria-hidden="true" class="gc-icon"><rect x="3" y="4" width="18" height="17" rx="3" fill="#fff" stroke="#1A73E8" stroke-width="1.6"/><rect x="3" y="4" width="18" height="5" rx="2" fill="#1A73E8"/><text x="12" y="18" text-anchor="middle" font-size="8" font-weight="700" fill="#1A73E8" font-family="Arial">31</text></svg><span><b>Google Calendar</b> · Gold Standard Integration</span></div><div class="gc-grid"><div></div><div class="gc-day">Mon</div><div class="gc-day">Tue</div><div class="gc-day">Wed</div><div class="gc-day">Thu</div><div class="gc-day">Fri</div><div class="gc-hour">9 AM</div><div class="gc-cell"><div class="gc-ev">Site visit</div></div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"><div class="gc-ev">Programming</div></div><div class="gc-hour">10 AM</div><div class="gc-cell"></div><div class="gc-cell"><div class="gc-ev new"><b id="cal-who">Consultation</b><span>New booking</span></div></div><div class="gc-cell"></div><div class="gc-cell"><div class="gc-ev">Walkthrough</div></div><div class="gc-cell"></div><div class="gc-hour">11 AM</div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"><div class="gc-ev">Install</div></div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-hour">12 PM</div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"></div><div class="gc-cell"></div></div><div class="gc-note">Goes straight to the owner's calendar, who can move it to fit the consultation.</div></div>
+      <button class="ghost" type="button" id="done">Close</button>
+    </div>
+  </form>
+</div>
+<script>
+(function () {
+  var veil = document.getElementById("veil"), form = document.getElementById("form");
+  var steps = [].slice.call(form.querySelectorAll(".step")), wrap = document.getElementById("steps-wrap");
+  var bar = document.getElementById("bar"), count = document.getElementById("count"), err = document.getElementById("err");
+  var back = document.getElementById("back"), next = document.getElementById("next"), sent = document.getElementById("sent");
+  var cal = document.getElementById("cal"), at = 0, opener = null;
+  function field(i) { return steps[i].querySelector("input, textarea"); }
+  function show(i) {
+    at = i;
+    steps.forEach(function (s, n) { s.classList.toggle("on", n === i); });
+    bar.style.width = ((i + 1) / steps.length * 100) + "%";
+    count.textContent = "Step " + (i + 1) + " of " + steps.length;
+    back.hidden = i === 0;
+    next.textContent = i === steps.length - 1 ? "Send" : "OK";
+    err.textContent = "";
+    field(i).focus();
+  }
+  function problem(i) {
+    var f = field(i), v = f.value.trim();
+    if (!v) return "Please fill this in.";
+    if (f.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) return "That email does not look right.";
+    if (f.type === "tel" && v.replace(/\D/g, "").length < 10) return "Please enter a 10 digit number.";
+    return "";
+  }
+  function open(from) {
+    opener = from || null;
+    wrap.style.display = "grid";
+    sent.classList.remove("on");
+    cal.classList.remove("on");
+    veil.classList.add("open");
+    document.body.style.overflow = "hidden";
+    show(0);
+  }
+  function close() {
+    veil.classList.remove("open");
+    document.body.style.overflow = "";
+    if (opener) opener.focus();
+  }
+  [].forEach.call(document.querySelectorAll("[data-book]"), function (b) { b.addEventListener("click", function () { open(b); }); });
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var p = problem(at);
+    if (p) { err.textContent = p; field(at).focus(); return; }
+    if (at < steps.length - 1) { show(at + 1); return; }
+    var first = field(0).value.trim().split(/\s+/)[0];
+    document.getElementById("sent-title").textContent = "Thank you, " + first + ".";
+    var who = document.getElementById("cal-who"); if (who) who.textContent = "Consultation: " + first;
+    wrap.style.display = "none";
+    sent.classList.add("on");
+    form.reset();
+  });
+  form.addEventListener("keydown", function (e) { if (e.key === "Enter" && e.target.tagName === "INPUT") { e.preventDefault(); next.click(); } });
+  back.addEventListener("click", function () { if (at > 0) show(at - 1); });
+  document.getElementById("close").addEventListener("click", close);
+  document.getElementById("done").addEventListener("click", close);
+  veil.addEventListener("mousedown", function (e) { if (e.target === veil) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && veil.classList.contains("open")) close(); });
+  var q = new URLSearchParams(location.search);
+  if (q.get("step")) { open(); show(Math.max(0, Math.min(steps.length - 1, parseInt(q.get("step"), 10) - 1))); }
+  if (q.get("sent")) { open(); wrap.style.display = "none"; sent.classList.add("on"); }
+})();
+</script>
+</body>
+</html>

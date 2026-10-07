@@ -1,0 +1,1 @@
+var d = window.__ds; d.state.prefs.side = false; d.state.prefs.pad = true; d.drone.on = true; d.player.ensureAudio = function () {}; d.player.ac = new OfflineAudioContext(1, 44100, 44100); d.renderAll();

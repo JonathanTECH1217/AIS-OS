@@ -1,0 +1,36 @@
+<!-- Section template: logo banner. Added 2026-09-25 from Jonathan's screenshot ("National Citations We Work With").
+     CSS: public_html/assets/site.css (.logos, .logo-ticker, .logo-track, .logo-set; the big marks .logos-lg; .logos-top
+     under a hero). The page must link site.css.
+     Logos: public_html/assets/logos/*.svg (Wikimedia Commons files, 2026-09-25). Every img carries alt text (Media 5).
+     The second set is a copy for the seamless loop and is hidden from screen readers.
+     Full color (Jonathan, 2026-09-26: "logos for brand recognition are full color"; Style Guide Media 6).
+     Label "We list your business on" (Jonathan, 2026-09-28): it claims no partnership. Never "We work with" (Style Guide
+     Media 7, Google's Misrepresentation policy). A page that sells a platform's ads leaves that platform's logo out.
+     Built pages (the homepage, the six service pages) take this from scripts/build_service_page.py through the
+     <!-- logo-banner --> marker; this file is the hand copy for pages that are not built (/av_marketing/, where the label
+     keeps the house hairlines, class "label rule").
+     Ad pages: no links on the logos (Style Guide 6.1). Paths below assume the page sits one folder down. -->
+<section id="citations" class="logos logos-color logos-lg"><div class="col reveal">
+<span class="label rule">We list your business on</span>
+</div>
+<div class="logo-ticker" aria-label="Yelp, Google, Apple, Facebook, Bing, Angi, Tripadvisor"><div class="logo-track">
+<span class="logo-set">
+<img class="logo-yelp" src="../assets/logos/yelp.svg" alt="Yelp">
+<img class="logo-google" src="../assets/logos/google.svg" alt="Google">
+<img class="logo-apple" src="../assets/logos/apple.svg" alt="Apple">
+<img class="logo-facebook" src="../assets/logos/facebook.svg" alt="Facebook">
+<img class="logo-bing" src="../assets/logos/bing.svg" alt="Bing">
+<img class="logo-angi" src="../assets/logos/angi.svg" alt="Angi">
+<img class="logo-tripadvisor" src="../assets/logos/tripadvisor.svg" alt="Tripadvisor">
+</span>
+<span class="logo-set" aria-hidden="true">
+<img class="logo-yelp" src="../assets/logos/yelp.svg" alt="Yelp">
+<img class="logo-google" src="../assets/logos/google.svg" alt="Google">
+<img class="logo-apple" src="../assets/logos/apple.svg" alt="Apple">
+<img class="logo-facebook" src="../assets/logos/facebook.svg" alt="Facebook">
+<img class="logo-bing" src="../assets/logos/bing.svg" alt="Bing">
+<img class="logo-angi" src="../assets/logos/angi.svg" alt="Angi">
+<img class="logo-tripadvisor" src="../assets/logos/tripadvisor.svg" alt="Tripadvisor">
+</span>
+</div></div>
+</section>

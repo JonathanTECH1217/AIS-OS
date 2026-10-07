@@ -1,0 +1,40 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.hatchelectric.com/contact",
+ "title": "Contact Us | Hatch Electric",
+ "description": "",
+ "words": 69,
+ "headings": [
+  {
+   "tag": "h3",
+   "text": "Hatch Electric Office"
+  }
+ ],
+ "phones": [
+  "530-541-3035",
+  "530-541-8132"
+ ],
+ "colors": [
+  "#32373c",
+  "#313131",
+  "#00d084",
+  "#0693e3",
+  "#000000",
+  "#7a00df",
+  "#007cba",
+  "#006ba1",
+  "#005a87",
+  "#34e2e4"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/hatchGREY300.png",
+   "alt": "Hatch Electric",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.qnorthwest.com/about-us",
+ "title": "About Us — Qnorthwest",
+ "description": "",
+ "words": 457,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "Across the nation"
+  },
+  {
+   "tag": "h2",
+   "text": "Meet our team."
+  },
+  {
+   "tag": "h2",
+   "text": "Residential"
+  },
+  {
+   "tag": "h2",
+   "text": "Commercial"
+  },
+  {
+   "tag": "h2",
+   "text": "Service"
+  },
+  {
+   "tag": "h2",
+   "text": "Join our team."
+  },
+  {
+   "tag": "h3",
+   "text": "We are the people with your technology solutions."
+  }
+ ],
+ "phones": [
+  "866.444.1224"
+ ],
+ "colors": [],
+ "faces": [
+  "Montserrat",
+  "Poppins"
+ ],
+ "social": [
+  "http://www.facebook.com/2008/fbml",
+  "https://www.facebook.com/QnorthwestTechnology",
+  "https://www.instagram.com/qnorthwest/"
+ ],
+ "pictures": [
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/f4d6d244-5089-4944-bc7b-363703f95b68/2.png",
+   "alt": "Qnorthwest",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/34f65799-cb32-4648-b6ed-4865aa61c3cf/IMG_2417.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/5b95c9cd-eb21-46ed-83ab-cf6dd90393c0/AfterlightImage+%281%29+9.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/7e090185-2bbc-463e-ac8e-18d5f8cfb964/Copy+of+Qnorthwest+Final+Logo-4.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/e6c40df2-88dc-4c1a-8db8-8d4249af0d12/053-Best-Workplaces-2023-LR+-+Mike+Anderson.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/0c925281-53fa-4e12-8b6d-d5b20c3491a8/transitional-design-south-dakota-david-charlez-designs-img_13319f350bf31dfd_14-6152-1-ab779db.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/1715113974943-311GXFV3ND25WKWAV1AG/image-asset.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/391fa5c2-0a1a-4a45-a3bb-bfecfaa82cdc/iStock-1056422796.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/a3ceb0b5-e2ce-4de1-8102-730cfef6d0b4/iStock-1420017371.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/60c0034435cff6385e46f18f/ee4cf253-fcda-4ba7-8cbe-eaff1c7b6f3b/Copy+of+Qnorthwest+Final+Logo-3.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  }
+ ]
+}

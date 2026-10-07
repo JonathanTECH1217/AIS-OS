@@ -1,0 +1,169 @@
+{
+ "company": "PAVS Smart Home Tech",
+ "short": "PAVS",
+ "page": "https://pavs.tech",
+ "loom": "https://www.loom.com/share/43385752eb5640fda728044d9cf90829",
+ "phone": "(970) 879-2217",
+ "address": "2550 Copper Ridge Dr Unit A, Steamboat Springs, CO 80487",
+ "areas": "The greater Steamboat Springs area",
+ "brand": {
+  "color": "#6CC24A",
+  "dark": "#3A9018",
+  "accent": "#9BDB7E",
+  "serif": true,
+  "head": "Lato",
+  "body": "Roboto",
+  "mist": "#F2F7EE"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 56,
+ "button": "Book a meeting",
+ "hero": {
+  "eyebrow": "Serving Steamboat Springs homes since 1997",
+  "h1": "Lighting Control Installation in Steamboat Springs",
+  "sub": "Keypads that set a whole room with one press. Lights you run by voice, by app, or on a schedule."
+ },
+ "process": {
+  "eyebrow": "How the work goes",
+  "h2": "Our process",
+  "steps": [
+   {
+    "h3": "Home consultation",
+    "p": "Free. We walk the rooms with you and talk through what you want the lights to do."
+   },
+   {
+    "h3": "Customized plan",
+    "p": "A plan for your home: which rooms, which keypads, which scenes."
+   },
+   {
+    "h3": "Skilled installation",
+    "p": "Projects large and small, installed and programmed, then tested room by room."
+   },
+   {
+    "h3": "Guided tutorial",
+    "p": "We show you how it works before we leave, with 24/7 support after."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Steamboat Springs locals since 1997",
+  "p": "PAVS Smart Home Tech is a Steamboat Springs company founded in 1997, and we have learned what works best for the mountain community. The homeowners who trusted us with their homes still call us, and we keep supporting the systems we put in, year over year."
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "We have worked with Ross and his PAVS team over the past 10 years. AV systems are constantly changing with software upgrades, etc., and PAVS has worked with us to keep our systems functioning as economically as possible.",
+    "who": "Alan W.",
+    "stars": 5
+   },
+   {
+    "p": "We have had an excellent experience working with PAVS over the past 3 years.",
+    "who": "Rhonda Z.",
+    "stars": 5
+   },
+   {
+    "p": "PAVS did an exceptional job setting up the entire A/V system, including Wi-Fi and security, throughout my house. The work was meticulously done, with great attention to every detail.",
+    "who": "Linda A.",
+    "stars": 5
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "p": "Lighting is one part of the home. These are the rest.",
+  "items": [
+   {
+    "icon": "home",
+    "h3": "Whole home automation",
+    "p": "One app for lights, shades, climate, music, and security.",
+    "href": "https://pavs.tech/services/"
+   },
+   {
+    "icon": "tv",
+    "h3": "Home theatre",
+    "p": "Screens, projectors, and seating that sounds right.",
+    "href": "https://pavs.tech/services/"
+   },
+   {
+    "icon": "speaker",
+    "h3": "Sound systems",
+    "p": "Music in any room, inside and out.",
+    "href": "https://pavs.tech/services/"
+   },
+   {
+    "icon": "camera",
+    "h3": "Security cameras",
+    "p": "Cameras and drop cams you check from your phone.",
+    "href": "https://pavs.tech/services/"
+   },
+   {
+    "icon": "thermostat",
+    "h3": "Smart thermostats and HVAC",
+    "p": "Heating and cooling linked to the rest of the house.",
+    "href": "https://pavs.tech/services/"
+   },
+   {
+    "icon": "lock",
+    "h3": "Locks and doorbells",
+    "p": "Automated locks and digital doorbells, tied into the system.",
+    "href": "https://pavs.tech/services/"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "What is a keypad?",
+    "a": "A wall panel with a few labeled buttons in place of a bank of switches. One press sets every light in the room to a scene."
+   },
+   {
+    "q": "Can I run the lights by voice or from my phone?",
+    "a": "Yes. The system ties into an app and to voice control, so you can set a scene from the couch or from the airport."
+   },
+   {
+    "q": "Does this work in a home that is already built?",
+    "a": "Yes. Wireless dimmers and keypads go into an existing home, and a new build gets wired during rough-in."
+   },
+   {
+    "q": "What happens if the internet goes down?",
+    "a": "The keypads and dimmers keep working on the wall. Only control from away needs a connection."
+   },
+   {
+    "q": "How do we start?",
+    "a": "Book a meeting. The first consultation is free and happens in your home."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book a free consultation",
+  "p": "Tell us about your home and the rooms you want lit right. We will set a time for a free lighting design visit."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, and whether the home is built or being built.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "process",
+  "about",
+  "reviews",
+  "services",
+  "faq",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom audit of pavs.tech (their home page; they have no service pages). No hero photo on purpose: every picture on their site is stock or a Savant marketing render, and the one real photo is downtown Steamboat Springs, not a home. The about block has no photo (their site shows none of the owner or team) and the engine's about block has no button, so his 'copy and a call to action' there is only the copy; the header and the band after reviews carry the button. Reviews are Google screenshots on their home page, read by eye; the owner is Ross (named in the reviews, never on the site). 'Rated 5 out of 5' and 'founded in 1997' are their site's own words. Service cards all link to https://pavs.tech/services/ because that page has no anchors and there are no separate service pages. No footer creds: the site states no license or award (a Savant logo is shown, with the alt text 'PAVS Sonos installer', so nothing is claimed). Their fonts are Roboto, Roboto Slab, and Lato (Elementor); headings use the engine's light serif per the taste rule. The pattern block is the AIOS's, not his: with no hero photo the hero and the default black process band ran together as one tall black block, so the process takes their dark green and the rest alternate mist and white; his A B A C A B A colors are still his to settle.",
+ "google": {
+  "rating": 4.9,
+  "count": 23,
+  "maps": "https://maps.google.com/?cid=17522084079703089091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

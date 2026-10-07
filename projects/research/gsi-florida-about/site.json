@@ -1,0 +1,53 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.gsi-fl.com/about",
+ "title": "About | gsIntegration.org",
+ "description": "",
+ "words": 102,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "What We Do"
+  },
+  {
+   "tag": "h1",
+   "text": "Subscribe Form"
+  }
+ ],
+ "phones": [
+  "561-419-9449"
+ ],
+ "colors": [
+  "#116dff",
+  "#3899ec",
+  "#ffffff",
+  "#5f6360",
+  "#080808",
+  "#7fccf7",
+  "#ff4040",
+  "#0f2ccf",
+  "#2f5dff",
+  "#597dff"
+ ],
+ "faces": [
+  "Arial",
+  "Helvetica",
+  "Madefor",
+  "fahkwang",
+  "helvetica-w01-roman",
+  "playfair display"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://static.wixstatic.com/media/6d3f9b_b74a0eed1c4247c8a7c5c17fa5300cdf~mv2.png/v1/fill/w_1024,h_110,al_c,q_85,enc_avif,quality_auto/Electrical%20plan%20room%20with%20blue%20prints_ed.png",
+   "alt": "Electrical plan room with blue prints_ed",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/11062b_6694be830cd1452ba1d012dc3593e29e~mv2.jpg/v1/fill/w_560,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Office%20Hallway.jpg",
+   "alt": "Office Hallway",
+   "note": ""
+  }
+ ]
+}

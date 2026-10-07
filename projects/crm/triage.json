@@ -1,0 +1,16 @@
+{
+ "_about": "Ticks and to-dos per company for the CRM's company file (2026-10-04). Keyed by the company key (website domain, else tel:<10 digits>, else mb:<MB ID>). Written by the CRM; steps come from playbook.json.",
+ "companies": {
+  "momentum-electric.com": {
+   "name": "Momentum Electrical Contractors",
+   "id": "rec86apeFpM49eGrN",
+   "done": {
+    "Booked:confirm": "2026-10-01",
+    "Booked:show": "2026-10-05"
+   },
+   "answers": {
+    "Booked:show": "No-show"
+   }
+  }
+ }
+}

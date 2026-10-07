@@ -1,0 +1,97 @@
+{
+ "read": "2026-10-06",
+ "url": "https://holmelectric.com/about/",
+ "title": "About - Holm Electric",
+ "description": "",
+ "words": 496,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "WHY CHOOSE HOLM ELECTRIC FOR MY PROJECT?"
+  }
+ ],
+ "phones": [
+  "702-818-3781",
+  "775-831-3781"
+ ],
+ "colors": [
+  "#9dbce1",
+  "#272727",
+  "#2d2d2d",
+  "#799ec8",
+  "#979797",
+  "#161515",
+  "#949494",
+  "#f0f0f0",
+  "#090909",
+  "#dedede"
+ ],
+ "faces": [
+  "Poppins",
+  "inherit",
+  "serif"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/header-logo.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/search.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/hamburger.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/cross.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/lightning.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/about/page-about-banner/",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/about/about-why-choose1/",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/about/about-why-choose2/",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/about/about-why-choose3/",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/footer.jpg",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

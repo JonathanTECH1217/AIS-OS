@@ -1,0 +1,167 @@
+{
+ "company": "Gold Standard Integration",
+ "short": "GSI",
+ "page": "https://www.gsi-fl.com/",
+ "loom": "https://www.loom.com/share/65e163700465418b8f6705154b8fe34d",
+ "phone": "561-419-9449",
+ "address": "Jupiter, FL",
+ "areas": "Jupiter and Palm Beach County",
+ "brand": {
+  "color": "#008AFC",
+  "dark": "#0070CF",
+  "accent": "#5CB6FF",
+  "serif": true,
+  "head": "Manrope",
+  "body": "Poppins",
+  "mist": "#F0F5FA"
+ },
+ "hero": {
+  "eyebrow": "For Palm Beach County homeowners",
+  "h1": "Lighting Control Installation in Palm Beach County",
+  "sub": "Scenes on a keypad you design, control from your phone or your voice, and light that warms and cools with your day.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads with your scenes",
+    "p": "One press sets the whole room. Dinner, movie, morning, goodnight: scenes you name, on keypads laid out and engraved the way you want them."
+   },
+   {
+    "icon": "phone",
+    "h3": "Your phone and your voice",
+    "p": "Dim the kitchen from the couch, check the house from the road, or just ask out loud. Every light in the house, from wherever you are."
+   },
+   {
+    "icon": "sun",
+    "h3": "Light that follows your day",
+    "p": "Warm white in the morning and at night, brighter and cooler by midday. The color of the light shifts with your body clock, so the house feels right at every hour."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "A family business in Jupiter, Florida",
+  "p": "Gold Standard Integration is a family business working to provide the best electrical contractor service in Palm Beach County. Lighting control systems, EV charging stations, and panel upgrades, from the first design consultation to the install."
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the plans with you and settle which rooms get keypads, where each one sits, and what every scene does."
+   },
+   {
+    "h3": "Lighting plan",
+    "p": "Fixtures, loads, and keypad layouts on paper before the ceilings close, so nothing is guessed on site."
+   },
+   {
+    "h3": "Wiring",
+    "p": "Our own electricians run the wire on your schedule, alongside the other trades, so no wall is opened twice."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Keypads in, scenes set, and a walkthrough with the homeowner once the house is lived in."
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-stair.jpg",
+    "alt": "A bright staircase and hallway in a finished home"
+   },
+   {
+    "src": "assets/work-kitchen.jpg",
+    "alt": "A kitchen with three globe pendants over the island"
+   },
+   {
+    "src": "assets/hero.jpg",
+    "alt": "A lit plaza at night from above"
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "This company in one word is AMAZING. They show up when scheduled on time EVERYTIME! They are very thorough ,going through any issue you have. Brent, the owner I would say is a wizard of an electrical contractor. His knowledge surpasses his years.",
+    "who": "Daniel G.",
+    "stars": 5
+   },
+   {
+    "p": "I can’t say enough about Gold Standard Electrical, I was “in the dark” and they solved my issue quickly and efficiently. Not only is this company prompt, kind, and courteous they made sure to clean up before during and after their work.",
+    "who": "Lyn C.",
+    "stars": 5
+   },
+   {
+    "p": "Brent and his team did an amazing job running a 100 amp panel from my house to my pole barn.",
+    "who": "Justin",
+    "stars": 5
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "items": [
+   {
+    "icon": "plug",
+    "h3": "EV charging stations",
+    "p": "Charge at home overnight.",
+    "href": "https://www.gsi-fl.com/"
+   },
+   {
+    "icon": "bolt",
+    "h3": "Panel upgrades",
+    "p": "Room for everything the house pulls now and next.",
+    "href": "https://www.gsi-fl.com/"
+   },
+   {
+    "icon": "cog",
+    "h3": "Generator inspection",
+    "p": "Your standby generator checked before storm season.",
+    "href": "https://www.gsi-fl.com/booking-calendar/generator-electrical-inspection"
+   },
+   {
+    "icon": "wrench",
+    "h3": "Electrical wiring",
+    "p": "New runs, repairs, and additions.",
+    "href": "https://www.gsi-fl.com/booking-calendar/basic-electrical-wiring"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Start with a design consultation",
+  "p": "Tell us about your home and the rooms you have in mind. We set a time from there."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or an existing home.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "process",
+  "work",
+  "reviews",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom (65e16370). Their site is a Wix template: no logo (the header picture is an AI drawing of a plan room, 1024x1024), one real photo (a DJI drone shot of a lit plaza at night, taken 2026-09-15; it is the hero), AI and stock pictures everywhere else (the ocean living room, the EV charger, the Siemens panel, the stage lights, the server room, the generator: all 1024x1024 or Wix stock), and four template reviews about IT work with their name typed in. So the header shows the name as text, and the team, work, and review boxes are marked empty on purpose. No street address, rating, license, or award is on the site. The three other services he named (whole home audio, media distribution, networking) are not on their site; the cards link to the services they do list. Their nav face is Playfair Display, sharper than his light serif rule, so headings keep Newsreader; Madefor and Helvetica are not Google fonts, so Manrope and Poppins. The site sells an Initial Design Consultation at $15,000, so the close does not say free.",
+ "google": {
+  "rating": 5,
+  "count": 15,
+  "maps": "https://maps.google.com/?cid=14975077599522749794&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

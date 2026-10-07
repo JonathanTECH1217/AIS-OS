@@ -1,0 +1,1630 @@
+<!DOCTYPE html><html lang="en" data-theme="light" style="--theme-mix: 0;"><head>
+    <meta charset="UTF-8">
+
+    <!-- Consent Mode v2 and owner opt-out. This must execute before GTM. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+      window.__TRU_NOTRACK = (function () {
+        try {
+          var cookieName = 'tru_notrack';
+          var nt = new URLSearchParams(location.search).get('notrack');
+          var secure = location.protocol === 'https:' ? '; Secure' : '';
+          var domain = /(^|\.)trudefinition\.com$/i.test(location.hostname) ? '; Domain=.trudefinition.com' : '';
+          var writeCookie = function (enabled) {
+            document.cookie = enabled
+              ? cookieName + '=1; Path=/; Max-Age=34560000; SameSite=Lax' + secure + domain
+              : cookieName + '=; Path=/; Max-Age=0; SameSite=Lax' + secure + domain;
+          };
+          if (nt === '1') {
+            localStorage.setItem(cookieName, '1');
+            writeCookie(true);
+          }
+          if (nt === '0') {
+            localStorage.removeItem(cookieName);
+            writeCookie(false);
+          }
+          var stored = localStorage.getItem(cookieName) === '1';
+          if (stored) writeCookie(true);
+          var cookieDisabled = document.cookie.split(';').some(function (part) {
+            return part.trim() === cookieName + '=1';
+          });
+          var adminRoute = location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+          return adminRoute || stored || cookieDisabled;
+        } catch (e) {
+          return location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+        }
+      })();
+      window.__CLIENT_NO_TRACK__ = window.__TRU_NOTRACK;
+      (function () {
+        var analyticsConsent = null;
+        var adsConsent = null;
+        try {
+          analyticsConsent = localStorage.getItem('tru_analytics_consent_v2');
+          adsConsent = localStorage.getItem('tru_ads_consent_v2');
+        } catch (e) {}
+        // Advanced Consent Mode: an undecided visitor defaults to denied, while
+        // Google tags still load and may send consent-aware cookieless pings.
+        var analyticsValue = !window.__CLIENT_NO_TRACK__ && analyticsConsent === 'granted'
+          ? 'granted' : 'denied';
+        var adsValue = !window.__CLIENT_NO_TRACK__ && analyticsValue === 'granted' && adsConsent === 'granted'
+          ? 'granted' : 'denied';
+        window.gtag('consent', 'default', {
+          analytics_storage: analyticsValue,
+          ad_storage: adsValue,
+          ad_user_data: adsValue,
+          ad_personalization: 'denied',
+          functionality_storage: 'granted',
+          security_storage: 'granted'
+        });
+      })();
+    </script>
+
+    <!-- Google Tag Manager. GA4 is configured only inside this container. -->
+    <script>
+      if (!window.__PRERENDERING && !window.__CLIENT_NO_TRACK__) {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PTPPVP63');
+      }
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=Montserrat:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <title>Dallas-Fort Worth Home Automation | TruDefinition</title>
+    <script type="module" crossorigin="" src="/assets/index-B95XkdPc.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-BpRhLXWi.css">
+  <meta name="description" content="Savant home automation, home theaters, lighting, audio, motorized shades, and networking designed, installed, and supported across Dallas-Fort Worth."><meta name="robots" content="index, follow"><link rel="canonical" href="https://www.trudefinition.com/"><meta property="og:type" content="website"><meta property="og:title" content="Dallas-Fort Worth Home Automation | TruDefinition"><meta property="og:description" content="Savant home automation, home theaters, lighting, audio, motorized shades, and networking designed, installed, and supported across Dallas-Fort Worth."><meta property="og:url" content="https://www.trudefinition.com/"><meta property="og:site_name" content="TruDefinition"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Dallas-Fort Worth Home Automation | TruDefinition"><meta name="twitter:description" content="Savant home automation, home theaters, lighting, audio, motorized shades, and networking designed, installed, and supported across Dallas-Fort Worth."><meta name="geo.region" content="US-TX"><meta name="geo.placename" content="Fort Worth, Texas"><meta name="geo.position" content="32.7555;-97.3308"><meta name="ICBM" content="32.7555, -97.3308"><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.trudefinition.com/#organization","name":"TruDefinition","url":"https://www.trudefinition.com","logo":"https://www.trudefinition.com/logo-dark.png","telephone":"+1-817-965-1042","email":"info@trudefinition.com","address":{"@type":"PostalAddress","addressLocality":"Fort Worth","addressRegion":"TX","addressCountry":"US"},"areaServed":[{"@type":"City","name":"Fort Worth","@id":"https://en.wikipedia.org/wiki/Fort_Worth,_Texas"},{"@type":"City","name":"Dallas","@id":"https://en.wikipedia.org/wiki/Dallas"},{"@type":"City","name":"Southlake","@id":"https://en.wikipedia.org/wiki/Southlake,_Texas"},{"@type":"City","name":"Westlake","@id":"https://en.wikipedia.org/wiki/Westlake,_Texas"},{"@type":"City","name":"Highland Park","@id":"https://en.wikipedia.org/wiki/Highland_Park,_Texas"},{"@type":"City","name":"Colleyville","@id":"https://en.wikipedia.org/wiki/Colleyville,_Texas"},{"@type":"City","name":"Frisco","@id":"https://en.wikipedia.org/wiki/Frisco,_Texas"}],"knowsAbout":["Home Automation","Smart Home Installation","Home Theater Design","Distributed Audio","Lighting Control","Motorized Shades","Security Systems","Energy Management","Home Networking","Outdoor Entertainment"],"sameAs":["https://www.instagram.com/trudefinition/","https://www.linkedin.com/company/trudefinition"]}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"ProfessionalService","@id":"https://www.trudefinition.com/#localbusiness","name":"TruDefinition","url":"https://www.trudefinition.com","telephone":"+1-817-965-1042","email":"info@trudefinition.com","image":"https://www.trudefinition.com/logo-dark.png","address":{"@type":"PostalAddress","addressLocality":"Fort Worth","addressRegion":"TX","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":32.7555,"longitude":-97.3308},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"14:00"}],"priceRange":"$$$$"}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"WebSite","@id":"https://www.trudefinition.com/#website","name":"TruDefinition","url":"https://www.trudefinition.com","inLanguage":"en-US"}</script></head>
+  <body>
+    <!-- The static noscript GTM iframe is intentionally omitted because it cannot
+         honor owner exclusion or the automatic /admin route exclusion. -->
+
+    <div id="root"><div style="position: fixed; bottom: 24px; right: 24px; z-index: 10001; display: flex; flex-direction: column; align-items: center; gap: 7px; opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity 0.45s, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);"><button aria-label="Chat with Sage" class="sage-launcher-pulse" style="position: relative; width: 58px; height: 58px; border-radius: 50%; border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); padding: 0px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); color: rgb(197, 165, 90); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 6px 26px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1);"><span style="width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0; background: rgb(12, 26, 46); color: rgb(197, 165, 90); display: flex; align-items: center; justify-content: center; font-size: 18.4px; font-weight: 900; letter-spacing: 0.5px; font-family: &quot;Cormorant Garamond&quot;, Georgia, serif;">S</span><span style="position: absolute; right: 3px; bottom: 3px; width: 12px; height: 12px; border-radius: 50%; background: rgb(22, 163, 74); border: 2px solid color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58));"></span></button><span style="padding: 3px 11px; border-radius: 100px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); color: color-mix(rgba(12, 26, 46, 0.55) 100%, rgba(255, 255, 255, 0.6)); font-size: 10px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; font-family: Montserrat, system-ui, sans-serif; white-space: nowrap; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 3px 12px;">Ask Sage</span></div><style>
+        @keyframes sageSlideUp {
+          from { opacity: 0; transform: translateY(16px) scale(0.97); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        @keyframes sageDotPulse {
+          0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+          40% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes sagePulseRing {
+          0% { box-shadow: 0 0 0 0 rgba(12,26,46,0.4); }
+          70% { box-shadow: 0 0 0 12px rgba(12,26,46,0); }
+          100% { box-shadow: 0 0 0 0 rgba(12,26,46,0); }
+        }
+        .sage-launcher-pulse {
+          animation: sagePulseRing 2s ease-out 3;
+        }
+        .sage-teaser {
+          animation: sageTeaserIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        @keyframes sageTeaserIn {
+          from { opacity: 0; transform: translateY(10px) scale(0.96); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .sage-quick-reply:hover {
+          background: rgba(12,26,46,0.05) !important;
+          transform: translateX(-2px);
+        }
+        .sage-chat-window::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        .sage-chat-window *::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window *::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window *::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        @media (max-width: 480px) {
+          .sage-chat-window {
+            bottom: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 0 !important;
+          }
+        }
+      </style><div class="consent-notice" role="dialog" aria-label="Privacy choices" aria-live="polite"><p>We use privacy-conscious analytics and campaign measurement to understand what works. We do not enable personalized advertising. <a href="/privacy-policy" data-discover="true">Privacy Policy</a></p><div class="consent-notice__actions"><button type="button" class="consent-notice__decline">Decline non-essential</button><button type="button" class="consent-notice__allow">Allow measurement</button></div><style>
+        .consent-notice {
+          position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 12000;
+          max-width: 920px; margin: 0 auto; padding: 1rem 1.15rem;
+          display: flex; align-items: center; justify-content: space-between;
+          gap: 1rem; flex-wrap: wrap;
+          background: var(--surface-card, #fff); color: var(--text-primary, #0c1a2e);
+          border: 1px solid var(--border-firm, rgba(12,26,46,.2)); border-radius: 10px;
+          box-shadow: 0 14px 40px rgba(0,0,0,.22);
+          font-family: 'Montserrat', system-ui, sans-serif; font-size: .78rem;
+        }
+        .consent-notice p { flex: 1 1 430px; margin: 0; line-height: 1.55; }
+        .consent-notice a { color: var(--orange, #9a7c3a); text-decoration: underline; }
+        .consent-notice__actions { display: flex; gap: .65rem; flex-wrap: wrap; }
+        .consent-notice button {
+          min-height: 38px; padding: .55rem .85rem; border-radius: 6px;
+          font: 600 .74rem 'Montserrat', system-ui, sans-serif; cursor: pointer;
+        }
+        .consent-notice__decline {
+          border: 1px solid var(--border-firm, #c9cdd2); color: inherit; background: transparent;
+        }
+        .consent-notice__allow {
+          border: 1px solid #c5a55a; background: #c5a55a; color: #0c1a2e;
+        }
+        @media (max-width: 600px) {
+          .consent-notice { bottom: .5rem; left: .5rem; right: .5rem; }
+          .consent-notice__actions, .consent-notice button { width: 100%; }
+        }
+      </style></div><div class="home-page"><header class="hdr hdr--home  "><div class="hdr__inner"><a class="hdr__logo" href="/" data-discover="true"><img alt="TruDefinition" class="hdr__logo-img" src="/logo-dark.png"></a><nav class="hdr__nav hdr__nav--desktop"><div class="hdr__nav-item "><span class="hdr__nav-link">Residential<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><div class="hdr__nav-item "><span class="hdr__nav-link">Service Areas<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><a class="hdr__nav-item" href="/about" data-discover="true"><span class="hdr__nav-link">About</span></a><a class="hdr__nav-item" href="/contact" data-discover="true"><span class="hdr__nav-link hdr__nav-link--cta">Contact</span></a><div class="sd" role="slider" tabindex="0" aria-label="Theme dimmer — drag to adjust light to dark" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><svg class="sd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg><div class="sd__track"><div class="sd__fill" style="width: 0%;"></div><div class="sd__thumb" aria-hidden="true" style="left: 0%;"></div></div><svg class="sd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A8.4 8.4 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z"></path></svg><style>
+        .sd {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.6rem;
+          padding: 0.45rem 0.7rem;
+          margin-left: 30px;
+          background: rgba(20, 22, 26, 0.75);
+          border: 1px solid rgba(176, 140, 66, 0.32);
+          border-radius: 999px;
+          backdrop-filter: blur(6px);
+          -webkit-backdrop-filter: blur(6px);
+          user-select: none;
+          touch-action: none;
+          transition: background 0.4s ease, border-color 0.4s ease;
+        }
+        .sd:focus-visible {
+          outline: 2px solid var(--orange, #9a7c3a);
+          outline-offset: 3px;
+        }
+        /* Housing shifts subtly with the dimmer — looks like the backlight on a
+           real Savant keypad responding to the current scene */
+        [data-theme="light"] .sd {
+          background: rgba(247, 240, 225, 0.65);
+          border-color: rgba(154, 124, 58, 0.28);
+        }
+        .sd__icon {
+          width: 14px; height: 14px;
+          color: var(--orange, #9a7c3a);
+          flex-shrink: 0;
+          opacity: 0.85;
+        }
+        .sd__track {
+          position: relative;
+          width: 96px; height: 6px;
+          background: rgba(255, 255, 255, 0.08);
+          border-radius: 999px;
+          cursor: pointer;
+          overflow: visible;
+        }
+        /* Invisible, much larger hit area so the thin strip is easy to grab —
+           a near-miss above/below/beside the bar still registers and moves it. */
+        .sd__track::before {
+          content: '';
+          position: absolute;
+          left: -12px; right: -12px;
+          top: -16px; bottom: -16px;
+        }
+        [data-theme="light"] .sd__track {
+          background: rgba(12, 26, 46, 0.10);
+        }
+        .sd__fill {
+          position: absolute;
+          left: 0; top: 0; bottom: 0;
+          background: linear-gradient(90deg,
+            rgba(154, 124, 58, 0.45),
+            rgba(176, 140, 66, 0.9));
+          border-radius: 999px;
+          pointer-events: none;
+        }
+        .sd__thumb {
+          position: absolute;
+          top: 50%;
+          width: 18px; height: 18px;
+          margin-left: -9px;
+          background: var(--orange, #9a7c3a);
+          border: 1px solid color-mix(in oklab, var(--orange, #9a7c3a) 70%, #ffffff);
+          border-radius: 50%;
+          transform: translateY(-50%);
+          box-shadow:
+            0 0 0 4px color-mix(in oklab, var(--orange, #9a7c3a) 14%, transparent),
+            0 0 14px color-mix(in oklab, var(--orange, #9a7c3a) 55%, transparent),
+            inset 0 1px 0 rgba(255, 255, 255, 0.25);
+          pointer-events: none;
+          transition: box-shadow 0.2s ease;
+        }
+        .sd:hover .sd__thumb,
+        .sd:focus-visible .sd__thumb {
+          box-shadow:
+            0 0 0 5px color-mix(in oklab, var(--orange, #9a7c3a) 18%, transparent),
+            0 0 18px color-mix(in oklab, var(--orange, #9a7c3a) 70%, transparent),
+            inset 0 1px 0 rgba(255, 255, 255, 0.3);
+        }
+      </style></div></nav><button class="hdr__burger " aria-label="Toggle menu"><span></span><span></span><span></span></button></div><nav class="hdr__mobile "><div class="mob__section"><button class="mob__toggle">Residential<span class="mob__plus ">+</span></button></div><div class="mob__section"><button class="mob__toggle">Service Areas<span class="mob__plus ">+</span></button></div><a class="mob__link mob__link--top" href="/about" data-discover="true">About</a><a class="mob__link mob__link--top mob__link--cta" href="/contact" data-discover="true">Contact</a><div class="mob__theme-row"><span>Theme</span><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></div></nav><style>
+ /* ===== HEADER BAR ===== */
+ .hdr {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+ background: var(--header-bg, #ffffff);
+ transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
+ border-bottom: 1px solid var(--border-soft, rgba(12, 26, 46, 0.06));
+ }
+ [data-theme="dark"] .hdr {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Home page header — seamless cream-to-transparent gradient that fades into
+    the hero image. No blur, no border — pure soft fade so the nav appears to
+    be part of the image itself. */
+ /* Home header: cream gradient whose alpha is driven by the dimmer with a
+    quadratic curve — the cream stays subtle through most of the slide and
+    only ramps up to full presence near the bright end, so it tracks the
+    perceived rate of the hero image crossfade rather than changing faster. */
+ .hdr--home,
+ [data-theme="dark"] .hdr--home {
+ background: linear-gradient(180deg,
+   rgba(247, 240, 225, calc(0.66 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 0%,
+   rgba(247, 240, 225, calc(0.49 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 45%,
+   rgba(247, 240, 225, calc(0.25 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 80%,
+   rgba(247, 240, 225, 0) 100%);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ border-bottom: none;
+ box-shadow: none;
+ }
+
+ .hdr--scrolled {
+ background: var(--header-bg, #ffffff);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ box-shadow: var(--shadow-soft, 0 6px 32px rgba(12, 26, 46, 0.06));
+ border-bottom-color: var(--border-firm, rgba(12, 26, 46, 0.08));
+ }
+ [data-theme="dark"] .hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+ /* Home + scrolled: pinned header goes solid white — the cream is only for
+    the top position where it needs to blend into the hero image. */
+ .hdr--home.hdr--scrolled {
+ background: #ffffff;
+ }
+ [data-theme="dark"] .hdr--home.hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Transparent variant — used only on the home page while at the top.
+    Logo inverts to white via filter; nav links / CTA flip to white; bg goes clear. */
+ .hdr--transparent {
+ background: transparent;
+ border-bottom-color: transparent;
+ box-shadow: none;
+ }
+ /* Logo asset itself swaps (white-gradient version) — no CSS filter needed */
+ .hdr--transparent .hdr__nav-link {
+ color: #ffffff;
+ text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+ }
+ .hdr--transparent .hdr__nav-link:hover,
+ .hdr--transparent .hdr__nav-item--active .hdr__nav-link {
+ color: var(--orange, #c5a55a);
+ }
+ .hdr--transparent .hdr__nav-link--cta {
+ color: #ffffff;
+ border-color: rgba(255,255,255,0.7);
+ text-shadow: none;
+ }
+ .hdr--transparent .hdr__nav-link--cta:hover {
+ background: #ffffff;
+ color: var(--black, #0c1a2e);
+ border-color: #ffffff;
+ }
+ .hdr--transparent .hdr__burger span {
+ background: #ffffff;
+ }
+ .hdr__inner {
+ max-width: 1280px; margin: 0 auto; padding: 0 2.5rem;
+ display: flex; align-items: center; justify-content: space-between; height: 88px;
+ }
+ .hdr__logo { display: flex; align-items: center; text-decoration: none; }
+ .hdr__logo:hover { opacity: 0.85; }
+ .hdr__logo-img { height: 42px; width: auto; object-fit: contain; }
+
+ .hdr__nav--desktop { display: flex; align-items: center; gap: 0.25rem; }
+ .hdr__nav-item { position: relative; text-decoration: none; }
+ .hdr__nav-link {
+ display: flex; align-items: center; gap: 6px;
+ padding: 1.25rem 1.1rem; font-size: 0.72rem; font-weight: 500;
+ letter-spacing: 2.2px; text-transform: uppercase;
+ color: var(--text-body, #2a3547); cursor: pointer; transition: color 0.3s ease;
+ }
+ .hdr__nav-link:hover, .hdr__nav-item--active .hdr__nav-link { color: var(--orange, #c5a55a); }
+ .hdr__nav-link--cta {
+ color: var(--orange, #c5a55a); font-weight: 600;
+ padding: 0.6rem 1.4rem; margin-left: 0.8rem;
+ border: 1px solid var(--orange, #c5a55a);
+ letter-spacing: 2.4px;
+ transition: background 0.3s ease, color 0.3s ease;
+ }
+ .hdr__nav-link--cta:hover { background: var(--orange, #c5a55a); color: #ffffff; }
+ .hdr__chev { width: 9px; height: 9px; transition: transform 0.3s; }
+ .hdr__nav-item--active .hdr__chev { transform: rotate(180deg); }
+
+ /* ===== MEGA DROPDOWN ===== */
+ /* Theme-aware tokens — defaults are the LIGHT theme */
+ .mega {
+ position: fixed; top: 88px; left: 0; right: 0;
+ background: #ffffff;
+ color: #0c1a2e;
+ box-shadow: 0 18px 50px rgba(12, 26, 46, 0.12);
+ animation: megaFade 0.25s ease;
+ z-index: 999;
+ --mega-text: #0c1a2e;
+ --mega-text-muted: #2a3547;
+ --mega-accent: #9a7c3a;
+ --mega-divider: rgba(154, 124, 58, 0.35);
+ --mega-active-bg: transparent;
+ }
+ [data-theme="dark"] .mega {
+ background: #060708;
+ color: var(--soft-white, #e8e9ed);
+ box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+ --mega-text: var(--soft-white, #e8e9ed);
+ --mega-text-muted: color-mix(in oklab, var(--soft-white, #e8e9ed), transparent 14%);
+ --mega-accent: #b08c42;
+ --mega-divider: rgba(176, 140, 66, 0.4);
+ --mega-active-bg: transparent;
+ }
+ @keyframes megaFade {
+ from { opacity: 0; transform: translateY(-4px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+ .mega__inner {
+ max-width: 1200px; margin: 0 auto; padding: 1.75rem 2.5rem;
+ display: grid; grid-template-columns: 230px 1fr 1.4fr; gap: 0;
+ min-height: 0;
+ }
+
+ /* Left: service links */
+ .mega__services {
+ border-right: 1px solid var(--mega-divider);
+ padding-right: 1.25rem;
+ display: flex; flex-direction: column; gap: 0.05rem;
+ }
+ .mega__svc-link {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 0.55rem 0.95rem; font-size: 0.88rem; font-weight: 400;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease, border-color 0.15s ease;
+ border: 1px solid transparent;
+ background: var(--mega-active-bg);
+ }
+ .mega__svc-link:hover {
+ color: var(--mega-accent);
+ }
+ .mega__svc-link--active {
+ color: var(--mega-accent);
+ border-color: var(--mega-accent);
+ font-weight: 500;
+ }
+ .mega__arrow { font-size: 1.15rem; opacity: 0.55; }
+ .mega__svc-link--active .mega__arrow { opacity: 1; color: var(--mega-accent); }
+ .mega__svc-link:hover .mega__arrow { opacity: 1; color: var(--mega-accent); }
+
+ /* Middle: sub-services */
+ .mega__subs {
+ padding: 0 2rem;
+ border-right: none;
+ }
+ .mega__subs-title {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1rem; padding-bottom: 0;
+ border-bottom: none;
+ }
+ .mega__sub-link {
+ display: block; padding: 0.4rem 0; font-size: 0.88rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__sub-link:hover { color: var(--mega-accent); padding-left: 0; }
+ .mega__view-all {
+ display: inline-flex; align-items: center; gap: 0.5rem;
+ margin-top: 1rem; font-size: 0.88rem;
+ font-weight: 500; color: var(--mega-accent); text-decoration: none;
+ letter-spacing: 0;
+ }
+ .mega__view-all:hover { text-decoration: none; opacity: 0.8; }
+
+ /* Right: image — anchored to top so it sits in the same place every time,
+    with a fixed height so its size never changes from one service to the next. */
+ .mega__image {
+ display: flex; align-items: flex-start; justify-content: center;
+ padding-left: 1.5rem; overflow: hidden;
+ }
+ .mega__image img {
+ width: 100%; height: 240px; object-fit: cover;
+ border-radius: 8px; opacity: 1;
+ box-shadow: 0 8px 24px rgba(12, 26, 46, 0.12);
+ display: block;
+ }
+
+ /* ===== AREAS MEGA ===== */
+ .mega__inner--areas {
+ grid-template-columns: 1fr; gap: 2rem;
+ min-height: auto;
+ }
+ .mega__tier { }
+ .mega__tier-label {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1.25rem; padding-bottom: 0.6rem;
+ border-bottom: 1px solid var(--mega-divider);
+ }
+ .mega__tier-cities { display: flex; flex-direction: column; gap: 0; }
+ .mega__inner--areas .mega__tier-cities {
+ display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 2.5rem;
+ }
+ .mega__inner--areas .mega__tier + .mega__tier { margin-top: 1.5rem; }
+ .mega__city-link {
+ display: block; padding: 0.5rem 0; font-size: 0.92rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__city-link:hover { color: var(--mega-accent); padding-left: 0; }
+
+ /* ===== HAMBURGER ===== */
+ .hdr__burger {
+ display: none; flex-direction: column; gap: 5px;
+ background: none; border: none; cursor: pointer; padding: 5px;
+ }
+ .hdr__burger span {
+ display: block; width: 24px; height: 2px;
+ background: var(--black, #0c1a2e); transition: all 0.3s;
+ }
+ /* Dark theme: hamburger + X bars need to be white to read on the dark header */
+ [data-theme="dark"] .hdr__burger span { background: #ffffff; }
+ .hdr__burger--open span:nth-child(1) { transform: rotate(45deg) translateY(5px) translateX(5px); }
+ .hdr__burger--open span:nth-child(2) { opacity: 0; }
+ .hdr__burger--open span:nth-child(3) { transform: rotate(-45deg) translateY(-5px) translateX(5px); }
+
+ /* ===== MOBILE NAV ===== */
+ .hdr__mobile {
+ display: none;
+ position: fixed; top: 88px; left: 0; right: 0; bottom: 0;
+ background: #fff; overflow-y: auto;
+ transform: translateX(100%); opacity: 0;
+ transition: all 0.3s ease; pointer-events: none;
+ z-index: 998;
+ }
+ .hdr__mobile--open {
+ transform: translateX(0); opacity: 1; pointer-events: all;
+ }
+
+ .mob__section { border-bottom: 1px solid #eee; }
+ .mob__toggle {
+ display: flex; align-items: center; justify-content: space-between;
+ width: 100%; padding: 1.1rem 1.5rem; background: none; border: none;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ cursor: pointer; text-align: left;
+ }
+ .mob__plus {
+ font-size: 1.3rem; color: var(--orange, #c5a55a); font-weight: 300;
+ transition: transform 0.3s;
+ }
+ .mob__plus--open { transform: rotate(45deg); }
+ .mob__panel { padding: 0 0 1rem; background: #fafafa; }
+ .mob__link {
+ display: block; text-decoration: none; color: var(--gray-dark, #333);
+ transition: color 0.2s;
+ }
+ .mob__link--top {
+ padding: 1.1rem 1.5rem; font-size: 0.9rem; font-weight: 600;
+ border-bottom: 1px solid #eee;
+ }
+ .mob__link--parent {
+ padding: 0.75rem 1.5rem; font-size: 0.88rem; font-weight: 600;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__link--child {
+ padding: 0.45rem 1.5rem 0.45rem 2.5rem; font-size: 0.82rem;
+ color: var(--gray-text, #555);
+ }
+ .mob__link:hover { color: var(--orange, #c5a55a); }
+ .mob__link--cta { color: var(--orange, #c5a55a); }
+ .mob__tier-label {
+ padding: 0.75rem 1.5rem 0.25rem; font-size: 0.68rem;
+ font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__theme-row {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 1.1rem 1.5rem; border-top: 1px solid #eee;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ }
+
+ /* ===== RESPONSIVE ===== */
+ @media (max-width: 960px) {
+ .hdr__nav--desktop { display: none; }
+ .hdr__burger { display: flex; }
+ .hdr__mobile { display: block; }
+ .mega { display: none; }
+ }
+ </style></header><section class="hp-hero"><div class="hp-hero__bg"><div class="tfi"><img alt="Bespoke luxury living room with integrated home technology in Dallas-Fort Worth" loading="eager" class="tfi__img" src="/luxury-dfw-living-room-hero.png" style="opacity: 1;"><img alt="" aria-hidden="true" loading="eager" class="tfi__img tfi__img--over" src="/luxury-dfw-living-room-hero.png" style="opacity: 0;"><style>
+        .tfi {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+        .tfi__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          display: block;
+          /* Pin both images to the same GPU composite layer + pixel grid so
+             they crossfade cleanly without subpixel drift / blur */
+          transform: translateZ(0);
+          backface-visibility: hidden;
+          will-change: opacity;
+          image-rendering: -webkit-optimize-contrast;
+          /* Smooth opacity reaction for jump cases (arrows, click-to-jump);
+             live drag already updates per-frame */
+          transition: opacity 0.18s ease-out;
+        }
+        /* Nudge the dark image up 1px to align it pixel-perfect with the light
+           variant (the two source files were exported with a slight Y offset) */
+        .tfi__img--over {
+          transform: translate3d(0, -1px, 0);
+        }
+      </style></div></div><div class="hp-hero__inner"><div class="hp-hero__content"><span class="hp-hero__eyebrow">Dallas-Fort Worth Home Automation</span><h1 class="hp-hero__title">Smart Homes,<br>Beautifully<br>Integrated</h1><p class="hp-hero__body">Savant home automation, lighting, shades, audio, networking,<br>security, and private theaters — designed, installed, and<br>supported across Dallas–Fort Worth.</p><button class="hp-hero__cta" data-cta="home_hero_estimate">REQUEST A CONSULTATION<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></div><div class="hp-partners"><div class="hp-partners__inner"><span class="hp-partners__label">Partners in Excellence</span><div class="hp-partners__list"><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-automation/savant-smart-home-systems" data-discover="true">Savant</a><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-audio/steinway-lyngdorf-audio" data-discover="true">Steinway Lyngdorf</a><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-theaters/jbl-synthesis-processors" data-discover="true">JBL Synthesis</a><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-audio/l-acoustics-loudspeakers" data-discover="true">L-Acoustics</a><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-theaters/megapixel-led-walls" data-discover="true">Megapixel</a><a class="hp-partners__brand hp-partners__brand--link" href="/services/home-theaters/kaleidescape-movie-server" data-discover="true">Kaleidescape</a></div></div></div></section><section class="hp-philosophy"><div class="hp-philosophy__text"><span class="hp-eyebrow">Our Philosophy</span><h2 class="hp-philosophy__title">Smart home technology<br>designed around your life.</h2><p>TruDefinition designs and installs integrated technology for new construction, renovations, and existing homes. Lighting control, motorized shades, audio, video, climate, security, and networking work together while the architecture stays at the center.</p><a class="hp-link" href="/about" data-discover="true">Our Approach <span aria-hidden="true">→</span></a></div><div class="hp-philosophy__img"><div class="tfi"><img alt="Modern luxury home exterior with integrated landscape lighting" loading="lazy" class="tfi__img" src="/philosophy-light.png" style="opacity: 1;"><img alt="" aria-hidden="true" loading="lazy" class="tfi__img tfi__img--over" src="/philosophy-dark.png" style="opacity: 0;"><style>
+        .tfi {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+        .tfi__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          display: block;
+          /* Pin both images to the same GPU composite layer + pixel grid so
+             they crossfade cleanly without subpixel drift / blur */
+          transform: translateZ(0);
+          backface-visibility: hidden;
+          will-change: opacity;
+          image-rendering: -webkit-optimize-contrast;
+          /* Smooth opacity reaction for jump cases (arrows, click-to-jump);
+             live drag already updates per-frame */
+          transition: opacity 0.18s ease-out;
+        }
+        /* Nudge the dark image up 1px to align it pixel-perfect with the light
+           variant (the two source files were exported with a slight Y offset) */
+        .tfi__img--over {
+          transform: translate3d(0, -1px, 0);
+        }
+      </style></div></div></section><section class="hp-experiences"><div class="hp-eyebrow-center"><h2 class="hp-eyebrow hp-eyebrow--heading">Smart Home Services in Dallas–Fort Worth</h2></div><div class="hp-services"><div class="hp-svc "><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15.5 16 5l12 10.5"></path><path d="M7.5 13v14h17V13M13 27v-8h6v8"></path></svg></div><h3 class="hp-svc__title">Home Automation</h3><p class="hp-svc__desc">Savant control for lighting, shades, climate, audio, video, security, and energy in one supported system.</p><a class="hp-link hp-link--sm" href="/services/home-automation" data-discover="true">Explore <span aria-hidden="true">→</span></a></div><div class="hp-svc hp-svc--bordered"><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="26" height="16" rx="1"></rect><line x1="11" y1="27" x2="21" y2="27"></line><line x1="16" y1="22" x2="16" y2="27"></line></svg></div><h3 class="hp-svc__title">Home Theaters</h3><p class="hp-svc__desc">Private cinemas and media rooms engineered for the room, calibrated for every seat, and simple to use.</p><a class="hp-link hp-link--sm" href="/services/home-theaters" data-discover="true">Explore <span aria-hidden="true">→</span></a></div><div class="hp-svc hp-svc--bordered"><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 24h8M13 27h6M16 6a7 7 0 00-5 11.9c1.3 1.3 2 2.4 2 3.6V22h6v-.5c0-1.2.7-2.3 2-3.6A7 7 0 0016 6z"></path></svg></div><h3 class="hp-svc__title">Lighting Control</h3><p class="hp-svc__desc">Architectural lighting and personalized scenes designed around the home, the hour, and the way you live.</p><a class="hp-link hp-link--sm" href="/services/lighting-control" data-discover="true">Explore <span aria-hidden="true">→</span></a></div><div class="hp-svc hp-svc--bordered"><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="20" height="22" rx="0.5"></rect><line x1="6" y1="10" x2="26" y2="10"></line><line x1="6" y1="16" x2="26" y2="16"></line><line x1="6" y1="22" x2="26" y2="22"></line></svg></div><h3 class="hp-svc__title">Motorized Shades</h3><p class="hp-svc__desc">Quiet, tailored shading for daylight, privacy, glare, and heat, integrated with lighting and climate.</p><a class="hp-link hp-link--sm" href="/services/motorized-shades" data-discover="true">Explore <span aria-hidden="true">→</span></a></div><div class="hp-svc hp-svc--bordered"><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8h5l7 5V7L9 12H4z"></path><path d="M21 11a6 6 0 010 10M25 7.5a11 11 0 010 17"></path></svg></div><h3 class="hp-svc__title">Whole-Home Audio</h3><p class="hp-svc__desc">Architectural speakers and distributed music that sound exceptional without competing with the room.</p><a class="hp-link hp-link--sm" href="/services/home-audio" data-discover="true">Explore <span aria-hidden="true">→</span></a></div><div class="hp-svc hp-svc--bordered"><div class="hp-svc__icon"><svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="11"></circle><path d="M5 16h22M16 5c3.4 3.2 5.2 6.9 5.2 11S19.4 23.8 16 27c-3.4-3.2-5.2-6.9-5.2-11S12.6 8.2 16 5Z"></path></svg></div><h3 class="hp-svc__title">Home Networking</h3><p class="hp-svc__desc">Enterprise-grade wired and wireless infrastructure built to carry the entire connected home reliably.</p><a class="hp-link hp-link--sm" href="/services/home-networking" data-discover="true">Explore <span aria-hidden="true">→</span></a></div></div></section><section class="hp-system-wrap"><div class="hp-system"><div class="hp-system__img"><div class="tfi"><img alt="Integrated home theater in a luxury residence" loading="lazy" class="tfi__img" src="/system-light.png" style="opacity: 1;"><img alt="" aria-hidden="true" loading="lazy" class="tfi__img tfi__img--over" src="/system-dark.png" style="opacity: 0;"><style>
+        .tfi {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+        .tfi__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          display: block;
+          /* Pin both images to the same GPU composite layer + pixel grid so
+             they crossfade cleanly without subpixel drift / blur */
+          transform: translateZ(0);
+          backface-visibility: hidden;
+          will-change: opacity;
+          image-rendering: -webkit-optimize-contrast;
+          /* Smooth opacity reaction for jump cases (arrows, click-to-jump);
+             live drag already updates per-frame */
+          transition: opacity 0.18s ease-out;
+        }
+        /* Nudge the dark image up 1px to align it pixel-perfect with the light
+           variant (the two source files were exported with a slight Y offset) */
+        .tfi__img--over {
+          transform: translate3d(0, -1px, 0);
+        }
+      </style></div></div><div class="hp-system__text"><h2>One Savant system.<br>Every detail.<br>Perfectly in sync.</h2><p>Home automation brings lighting, shades, climate, audio, video, security, and energy into one simple experience — programmed for your routines and supported by one local team.</p><a class="hp-link" href="/services" data-discover="true">See it in Action <span aria-hidden="true">→</span></a></div></div></section><section class="hp-how"><div class="hp-how__top"><div class="hp-how__text"><span class="hp-how__eyebrow">Why an Expert</span><h2 class="hp-how__title">Anyone can buy the technology. The difference is everything around it.</h2><span class="hp-how__rule" aria-hidden="true"></span><p>You’ve vetted the land, the builder, and the designer with the same care you’ve given everything you’ve built. The systems you’ll touch every day — light, climate, sound, security — deserve no less.</p><p>The decisions that make a home feel effortless are made before the walls close, by someone who knows the questions to ask. See why discerning homeowners, architects, and designers plan their technology with TruDefinition.</p><a class="hp-how__btn" href="/our-process" data-discover="true">Why TruDefinition <span aria-hidden="true">→</span></a></div><div class="hp-how__image" aria-hidden="true"><div class="tfi"><img alt="" loading="lazy" class="tfi__img" src="/how-we-work-light.png" style="opacity: 1;"><img alt="" aria-hidden="true" loading="lazy" class="tfi__img tfi__img--over" src="/how-we-work-dark.png" style="opacity: 0;"><style>
+        .tfi {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+        .tfi__img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+          display: block;
+          /* Pin both images to the same GPU composite layer + pixel grid so
+             they crossfade cleanly without subpixel drift / blur */
+          transform: translateZ(0);
+          backface-visibility: hidden;
+          will-change: opacity;
+          image-rendering: -webkit-optimize-contrast;
+          /* Smooth opacity reaction for jump cases (arrows, click-to-jump);
+             live drag already updates per-frame */
+          transition: opacity 0.18s ease-out;
+        }
+        /* Nudge the dark image up 1px to align it pixel-perfect with the light
+           variant (the two source files were exported with a slight Y offset) */
+        .tfi__img--over {
+          transform: translate3d(0, -1px, 0);
+        }
+      </style></div></div></div><div class="hp-how__pillars-wrap"><div class="hp-how__pillars"><article class="hp-pillar"><div class="hp-pillar__icon" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h14l4 4v20H7z"></path><path d="M21 4v4h4"></path><path d="M11 14h10M11 18h10M11 22h6"></path></svg></div><p class="hp-pillar__num">01</p><h3>Beautifully Integrated</h3><span class="hp-pillar__rule" aria-hidden="true"></span><p>Speakers, displays, wiring, controls, and equipment locations coordinated so the finished space stays clean and refined — technology that enhances the home without drawing attention to itself.</p></article><article class="hp-pillar"><div class="hp-pillar__icon" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="22" height="20" rx="1.5"></rect><path d="M11 4v6M21 4v6M5 13h22"></path><circle cx="11" cy="19" r="1.4" fill="currentColor" stroke="none"></circle></svg></div><p class="hp-pillar__num">02</p><h3>Discreet &amp; Serviceable</h3><span class="hp-pillar__rule" aria-hidden="true"></span><p>Core equipment centralized in ventilated, serviceable locations — electronics, wiring, and support hardware kept out of your finished living spaces.</p></article><article class="hp-pillar"><div class="hp-pillar__icon" aria-hidden="true"><svg viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4l10 3v8c0 6.5-4.5 11.5-10 13-5.5-1.5-10-6.5-10-13V7l10-3z"></path><path d="M11.5 16l3 3 6-6"></path></svg></div><p class="hp-pillar__num">03</p><h3>Proven Manufacturers</h3><span class="hp-pillar__rule" aria-hidden="true"></span><p>Systems built on trusted, premium manufacturers and tailored to your home’s architecture, performance goals, and long-term service needs.</p></article></div></div></section><footer class="footer"><div class="footer__main"><div class="footer__inner"><div class="footer__brand"><img alt="TruDefinition" class="footer__logo" src="/logo-dark.png"><p class="footer__tagline">Thoughtful technology.<br>Beautifully integrated.<br>Dallas–Fort Worth and beyond.</p><div class="footer__social"><a href="https://www.instagram.com/trudefinition/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle></svg></a><a href="https://www.linkedin.com/company/trudefinition" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v15H0V8zm7.5 0H12v2.05h.07c.62-1.17 2.14-2.4 4.41-2.4 4.72 0 5.59 3.1 5.59 7.13V23h-5v-6.85c0-1.63-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V23h-5V8z"></path></svg></a><a href="mailto:info@trudefinition.com" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></a></div></div><div class="footer__col"><h4>Company</h4><a href="/about" data-discover="true">About Us</a><a href="/our-process" data-discover="true">Our Approach</a></div><div class="footer__col"><h4>Services</h4><a href="/services/lighting-control" data-discover="true">Lighting</a><a href="/services/motorized-shades" data-discover="true">Shades</a><a href="/services/home-audio" data-discover="true">Audio</a><a href="/services/security-surveillance" data-discover="true">Security</a><a href="/services/energy-management" data-discover="true">Climate</a><a href="/services/home-theaters" data-discover="true">Entertainment</a></div><div class="footer__col"><h4>Service Areas</h4><a href="/areas-served/fort-worth" data-discover="true">Fort Worth</a><a href="/areas-served/southlake" data-discover="true">Southlake</a><a href="/areas-served/westlake" data-discover="true">Westlake</a><a href="/areas-served/highland-park" data-discover="true">Highland Park</a><a href="/areas-served" data-discover="true">All Areas</a></div><div class="footer__col footer__col--contact"><h4>Contact</h4><a href="tel:8179651042" data-cta="footer_call">(817) 965-1042</a><a href="mailto:info@trudefinition.com">info@trudefinition.com</a><a href="/contact" data-discover="true">Start a Project</a></div></div></div><div class="footer__bottom-wrap"><div class="footer__bottom"><span>© 2026 TruDefinition. All rights reserved.</span><div class="footer__legal"><a href="/privacy-policy" data-discover="true">Privacy</a><button type="button">Privacy Choices</button><a href="/terms-of-service" data-discover="true">Terms</a><a href="/accessibility" data-discover="true">Accessibility</a></div></div></div><style>
+        .footer {
+          background: var(--footer-bg, #ffffff);
+          color: var(--footer-text, #5a6577);
+          border-top: 1px solid var(--footer-top-border, rgba(12, 26, 46, 0.18));
+        }
+        .footer__main {
+          padding: 5rem 2.5rem 3.5rem;
+        }
+        .footer__inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
+          gap: 3rem;
+          align-items: start;
+        }
+
+        /* Brand column */
+        .footer__brand { }
+        .footer__logo {
+          height: 39px;
+          width: auto;
+          object-fit: contain;
+          margin-bottom: 1.5rem;
+          display: block;
+        }
+        .footer__tagline {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.85rem;
+          line-height: 1.8;
+          color: var(--footer-text, #5a6577);
+          margin: 0 0 1.75rem;
+        }
+        .footer__social {
+          display: flex;
+          gap: 1.1rem;
+          align-items: center;
+        }
+        .footer__social a {
+          color: var(--footer-icon, #2a3547);
+          transition: color 0.2s ease, opacity 0.2s ease;
+          display: inline-flex;
+        }
+        .footer__social a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Columns */
+        .footer__col h4 {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          color: var(--footer-heading, #0c1a2e);
+          margin: 0 0 1.5rem;
+        }
+        .footer__col a {
+          display: block;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem;
+          color: var(--footer-text, #5a6577);
+          text-decoration: none;
+          padding: 0.4rem 0;
+          transition: color 0.2s ease;
+        }
+        .footer__col a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Bottom bar */
+        .footer__bottom-wrap {
+          border-top: 1px solid var(--footer-divider, rgba(12, 26, 46, 0.08));
+        }
+        .footer__bottom {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 1.5rem 2.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.74rem;
+          color: var(--footer-muted, #8893a3);
+        }
+        .footer__legal {
+          display: flex;
+          gap: 1.75rem;
+        }
+        .footer__legal a,
+        .footer__legal button {
+          color: var(--footer-muted, #8893a3);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          background: none;
+          border: 0;
+          padding: 0;
+          font: inherit;
+          cursor: pointer;
+        }
+        .footer__legal a:hover,
+        .footer__legal button:hover { color: var(--orange, #9a7c3a); }
+
+        /* Light theme tokens (default) */
+        [data-theme="light"] .footer,
+        :root .footer {
+          --footer-bg: #ffffff;
+          --footer-text: #5a6577;
+          --footer-heading: #0c1a2e;
+          --footer-icon: #2a3547;
+          --footer-divider: rgba(12, 26, 46, 0.08);
+          --footer-muted: #8893a3;
+          --footer-top-border: rgba(12, 26, 46, 0.18);
+        }
+
+        /* Dark theme — deep near-black footer with brighter top border divider */
+        [data-theme="dark"] .footer {
+          --footer-bg: #05080d;
+          --footer-text: rgba(255, 255, 255, 0.6);
+          --footer-heading: #ffffff;
+          --footer-icon: rgba(255, 255, 255, 0.75);
+          --footer-divider: rgba(255, 255, 255, 0.1);
+          --footer-muted: rgba(255, 255, 255, 0.35);
+          --footer-top-border: rgba(197, 165, 90, 0.3);
+        }
+
+        @media (max-width: 1024px) {
+          .footer__inner {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2.5rem;
+          }
+          .footer__brand { grid-column: 1 / -1; }
+        }
+        @media (max-width: 640px) {
+          .footer__inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+          .footer__brand { grid-column: 1 / -1; }
+          .footer__main { padding: 3.5rem 1.5rem 2.5rem; }
+          .footer__bottom {
+            flex-direction: column;
+            gap: 0.75rem;
+            text-align: center;
+            padding: 1.25rem 1.5rem;
+          }
+        }
+      </style></footer><style>
+        /* =====================================================
+           HOME PAGE — built to match light/dark reference pair
+           ===================================================== */
+
+        /* =====================================================
+           CONTINUOUS THEME — color pairs interpolated via --theme-mix.
+           Each token defines its (light, dark) endpoints and blends in oklab
+           space. Drag the SavantDimmer in the header to scrub between them.
+           Scoped to .home-page so the rest of the site keeps binary theming.
+           ===================================================== */
+        .home-page {
+          --tm: var(--theme-mix, 0);
+          --tm-pct: calc(var(--tm) * 100%);
+
+          /* Page surfaces */
+          --hp-bg:            color-mix(in oklab, #ffffff, #060708 var(--tm-pct));
+          --hp-surface-alt:   color-mix(in oklab, #f5f5f5, #0a0d12 var(--tm-pct));
+          --hp-surface-card:  color-mix(in oklab, #ffffff, #050709 var(--tm-pct));
+          --hp-surface-deep:  color-mix(in oklab, #f5f1e8, #0a0d12 var(--tm-pct));
+
+          /* Text */
+          /* Light endpoints are pre-warmed with a 42% (primary) / 22% (body)
+             gold mix so headlines and copy harmonize with the cream/gold
+             hero palette instead of reading pure cold navy. Dark endpoints
+             stay neutral white-rgba so the dark theme keeps high contrast. */
+          --hp-text-primary:  color-mix(in oklab, color-mix(in oklab, #0c1a2e, #9a7c3a 42%), #ffffff var(--tm-pct));
+          --hp-text-body:     color-mix(in oklab, color-mix(in oklab, #2a3547, #9a7c3a 22%), rgba(255,255,255,0.78) var(--tm-pct));
+          --hp-text-muted:    color-mix(in oklab, color-mix(in oklab, #5a6577, #9a7c3a 18%), rgba(255,255,255,0.50) var(--tm-pct));
+
+          /* Accents */
+          --hp-eyebrow:       color-mix(in oklab, #9a7c3a, #b08c42 var(--tm-pct));
+          --hp-icon:          color-mix(in oklab, #9a7c3a, #b08c42 var(--tm-pct));
+
+          /* Dividers / borders */
+          --hp-divider:       color-mix(in oklab, rgba(12, 26, 46, 0.22), rgba(197, 165, 90, 0.28) var(--tm-pct));
+          --hp-border-soft:   color-mix(in oklab, rgba(12, 26, 46, 0.08), rgba(255, 255, 255, 0.08) var(--tm-pct));
+
+          /* One System card fade-to-panel — interpolates from white to near-black */
+          --hp-card-fade-0:   color-mix(in oklab, rgba(255, 255, 255, 0), rgba(5, 7, 9, 0) var(--tm-pct));
+          --hp-card-fade-1:   color-mix(in oklab, rgba(255, 255, 255, 0.50), rgba(5, 7, 9, 0.50) var(--tm-pct));
+          --hp-card-fade-2:   color-mix(in oklab, rgba(255, 255, 255, 0.95), rgba(5, 7, 9, 0.95) var(--tm-pct));
+          --hp-card-fade-3:   color-mix(in oklab, rgba(255, 255, 255, 1), rgba(5, 7, 9, 1) var(--tm-pct));
+
+          /* Hero CTA pill */
+          --hp-cta-color:    color-mix(in oklab, #9a7c3a, #faf7f1 var(--tm-pct));
+          --hp-cta-border:   color-mix(in oklab, #9a7c3a, rgba(250,247,241,0.85) var(--tm-pct));
+
+          /* Text halo behind the hero content — snaps with the binary theme
+             (visible in light, invisible in dark) instead of fading with the
+             dimmer. Prevents a half-visible halo across the middle of the slide. */
+          --hp-halo-1:       rgba(255,255,255,0.882);
+          --hp-halo-2:       rgba(255,255,255,0.828);
+          --hp-halo-3:       rgba(255,255,255,0.63);
+          --hp-halo-4:       rgba(255,255,255,0.288);
+
+          /* Left-side scrim on the hero image — invisible in light, soft dark
+             wash in dark so the H1 pops against the photo */
+          --hp-scrim-1:      color-mix(in oklab, rgba(0,0,0,0), rgba(0,0,0,0.55) var(--tm-pct));
+          --hp-scrim-2:      color-mix(in oklab, rgba(0,0,0,0), rgba(0,0,0,0.38) var(--tm-pct));
+          --hp-scrim-3:      color-mix(in oklab, rgba(0,0,0,0), rgba(0,0,0,0.18) var(--tm-pct));
+
+          background: var(--hp-bg);
+          color: var(--hp-text-body);
+        }
+
+        /* Eyebrow utility (used across all sections) */
+        .hp-eyebrow {
+          display: inline-block;
+          font-size: 0.7rem;
+          letter-spacing: 2.6px;
+          text-transform: uppercase;
+          color: var(--orange);
+          font-weight: 700;
+          margin-bottom: 1.5rem;
+        }
+        .hp-eyebrow-center { text-align: center; margin-bottom: 1.25rem; }
+
+        /* Generic gold link */
+        .hp-link {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 0.74rem;
+          font-weight: 700;
+          letter-spacing: 2.6px;
+          text-transform: uppercase;
+          color: var(--orange);
+          text-decoration: none;
+          transition: letter-spacing 0.3s ease, opacity 0.3s ease;
+        }
+        .hp-link:hover { letter-spacing: 3.2px; opacity: 0.85; color: var(--orange); }
+        .hp-link span { transition: transform 0.3s ease; }
+        .hp-link:hover span { transform: translateX(4px); }
+        .hp-link--sm { font-size: 0.7rem; letter-spacing: 2px; }
+
+        /* =================================================
+           HERO — full-bleed image with overlaid text
+           ================================================= */
+        .hp-hero {
+          position: relative;
+          min-height: 100vh;
+          overflow: hidden;
+          background: var(--surface-base);
+        }
+        .hp-hero__bg {
+          position: absolute;
+          inset: 0;
+          z-index: 0;
+        }
+        .hp-hero__bg img {
+          width: 100%; height: 100%; object-fit: cover;
+          display: block;
+        }
+        /* Dark left-side scrim over the hero image — appears in the last 10%
+           of the dimmer (themeMix 0.90 → 1). Front-loaded curve mirrors the
+           halo: starts rising sharply once you cross 0.90, fully visible by 1. */
+        .hp-hero__bg::after {
+          content: '';
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+          background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0.55) 0%,
+            rgba(0, 0, 0, 0.38) 22%,
+            rgba(0, 0, 0, 0.18) 42%,
+            rgba(0, 0, 0, 0) 65%);
+          pointer-events: none;
+          opacity: clamp(0, calc((var(--theme-mix, 0) - 0.90) * 12), 1);
+        }
+        .hp-hero__inner {
+          position: relative;
+          z-index: 2;
+          max-width: 1440px;
+          margin: 0 auto;
+          padding: 11rem 4.5rem 9rem;   /* clear 88px header, leave space for partners */
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+        }
+        .hp-hero__content {
+          position: relative;
+          max-width: 540px;
+          padding: 2.5rem 3rem 3rem;
+          margin-left: -1.5rem;
+        }
+        /* White halo behind the text — visible in the first 10% of the dimmer
+           (themeMix 0 → 0.10), and it's the FIRST thing to dim out when you
+           start moving away from full bright. Front-loaded curve: most of the
+           fade happens in the first 4% of slide, then tapers out by 10%. */
+        .hp-hero__content::before {
+          content: '';
+          position: absolute;
+          /* Inset: -20px on the left (less halo bleed past the H1), then the
+             whole shape shifted 15px to the right. Net left -13px, right -63px.
+             Bottom trimmed 20px so the halo doesn't bleed past the CTA. */
+          inset: -2rem -63px -12px -13px;
+          z-index: -1;
+          background: radial-gradient(
+            ellipse 72% 68% at 38% 50%,
+            var(--hp-halo-1) 0%,
+            var(--hp-halo-2) 30%,
+            var(--hp-halo-3) 55%,
+            var(--hp-halo-4) 78%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          filter: blur(8px);
+          pointer-events: none;
+          /* Weighted: drops from 1 → 0.6 in the first 4%, 0.6 → 0 over next 6% */
+          opacity: clamp(0, calc((0.10 - var(--theme-mix, 0)) * 12), 1);
+        }
+        .hp-hero__eyebrow {
+          display: block;
+          font-size: 0.74rem;
+          letter-spacing: 1.8px;
+          text-transform: uppercase;
+          color: var(--hp-eyebrow);
+          font-weight: 600;
+          margin-bottom: 15px;
+        }
+        /* Text colors flip with theme — dark on light hero image,
+           ivory on dark hero image */
+        .hp-hero__title {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(2.8rem, 5.5vw, 5rem);
+          font-weight: 500;
+          line-height: 1.02;
+          letter-spacing: -0.015em;
+          color: var(--hp-text-primary);
+          margin: 0 0 2rem;
+        }
+        .hp-hero__body {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.95rem;
+          line-height: 1.75;
+          color: var(--hp-text-body);
+          margin: 0 0 2.5rem;
+          max-width: 460px;
+          font-weight: 500;
+        }
+        /* CTA: gold outline+text in light, ivory outline+text in dark
+           (so it reads against either image) */
+        .hp-hero__cta {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.85rem;
+          background: transparent;
+          color: var(--hp-cta-color);
+          border: 2px solid var(--hp-cta-border);
+          padding: 1.05rem 2rem;
+          font-size: 0.72rem;
+          font-weight: 700;
+          letter-spacing: 2.6px;
+          text-transform: uppercase;
+          cursor: pointer;
+          font-family: inherit;
+          transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+        /* CTA hover: invert to filled — solid CTA-color background, page-bg text */
+        .hp-hero__cta:hover {
+          background: var(--hp-cta-color);
+          color: var(--hp-bg);
+          border-color: var(--hp-cta-color);
+        }
+        .hp-hero__cta svg { transition: transform 0.3s ease; }
+        .hp-hero__cta:hover svg { transform: translateX(3px); }
+
+        /* Partners strip — overlaid on hero bottom. Internal vertical gradient:
+           transparent at the top border (so the image bleeds through the upper
+           half), ramping to solid white at the middle and below where the brand
+           names sit. A thin gold rule marks the top edge. */
+        .hp-partners {
+          position: absolute;
+          left: 0; right: 0; bottom: 0;
+          z-index: 2;
+          background: var(--hp-bg);
+          border-top: none;
+        }
+        /* Thin gold rule across the top edge of the strip */
+        .hp-partners::after {
+          content: '';
+          position: absolute;
+          left: 0; right: 0; top: 0;
+          height: 1px;
+          background: linear-gradient(90deg,
+            rgba(154, 124, 58, 0) 0%,
+            rgba(154, 124, 58, 0.6) 12%,
+            rgba(154, 124, 58, 0.6) 88%,
+            rgba(154, 124, 58, 0) 100%);
+        }
+        .hp-partners__inner {
+          position: relative;
+          max-width: 1440px;
+          margin: 0 auto;
+          padding: 2.05rem 4rem;
+          display: flex;
+          align-items: center;
+          gap: 2.5rem;
+          flex-wrap: nowrap;
+        }
+        .hp-partners__label {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.65rem;
+          letter-spacing: 2.2px;
+          text-transform: uppercase;
+          color: var(--hp-text-primary);
+          font-weight: 600;
+          flex-shrink: 0;
+          white-space: nowrap;
+        }
+        .hp-partners__list {
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+          gap: 2rem;
+          flex: 1;
+          justify-content: space-between;
+          overflow: hidden;
+        }
+        .hp-partners__brand {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.85rem;
+          letter-spacing: 1.8px;
+          text-transform: uppercase;
+          color: var(--hp-icon);
+          font-weight: 700;
+          white-space: nowrap;
+        }
+        .hp-partners__brand--link {
+          text-decoration: none;
+          transition: opacity 0.18s ease, transform 0.18s ease;
+          cursor: pointer;
+        }
+        .hp-partners__brand--link:hover {
+          opacity: 0.7;
+          transform: translateY(-1px);
+        }
+
+        /* =================================================
+           PHILOSOPHY — split
+           ================================================= */
+        .hp-philosophy {
+          display: grid;
+          grid-template-columns: 1fr 1.1fr;
+          min-height: 520px;
+          background: var(--hp-surface-alt);
+        }
+        .hp-philosophy__text {
+          padding: 5rem 4.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 620px;
+          margin-left: auto;
+        }
+        /* Scoped: gold accent + centered eyebrow/link in the philosophy section */
+        .hp-philosophy__text .hp-eyebrow {
+          color: var(--hp-eyebrow);
+          text-align: center;
+          align-self: center;
+        }
+        .hp-philosophy__text .hp-link {
+          color: var(--hp-eyebrow);
+          align-self: center;
+        }
+        .hp-philosophy__text .hp-link:hover { color: var(--hp-eyebrow); }
+        .hp-philosophy__title {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+          font-weight: 500;
+          line-height: 1.2;
+          letter-spacing: -0.01em;
+          color: var(--hp-text-primary);
+          margin: 0 0 1.5rem;
+        }
+        .hp-philosophy__text p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.9rem;
+          line-height: 1.75;
+          color: var(--hp-text-body);
+          margin: 0 0 2rem;
+          max-width: 440px;
+        }
+        .hp-philosophy__img { overflow: hidden; }
+        .hp-philosophy__img img {
+          width: 100%; height: 100%; object-fit: cover;
+          display: block;
+        }
+
+        /* =================================================
+           EXPERIENCES — 6 service icons row
+           ================================================= */
+        .hp-experiences {
+          padding: 5rem 2rem 6rem;
+          background: var(--hp-surface-alt);
+        }
+        .hp-services {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          gap: 0;
+        }
+        .hp-svc {
+          padding: 2rem 1.75rem;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        /* Push EXPLORE link to the bottom so all 6 cards align it on the
+           same baseline regardless of title/desc length variation. */
+        .hp-svc .hp-link { margin-top: auto; }
+        .hp-svc--bordered { border-left: 1px solid var(--hp-divider); }
+        .hp-svc__icon {
+          color: var(--hp-icon);
+          margin-bottom: 1.75rem;
+          line-height: 0;
+        }
+        .hp-svc__icon svg {
+          width: 52px;
+          height: 52px;
+          stroke-width: 1.25;
+        }
+        .hp-svc__title {
+          font-size: 0.82rem;
+          font-weight: 700;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: var(--hp-text-primary);
+          margin: 0 0 1.4rem;
+        }
+        .hp-svc__desc {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.82rem;
+          line-height: 1.7;
+          color: var(--hp-text-body);
+          margin: 0 0 1.75rem;
+        }
+        /* Bolder gold EXPLORE links inside this section only */
+        .hp-svc .hp-link {
+          color: var(--hp-icon);
+          font-weight: 700;
+          letter-spacing: 2.6px;
+        }
+        .hp-svc .hp-link:hover { color: var(--hp-icon); opacity: 0.85; }
+
+        /* =================================================
+           ONE SYSTEM — framed card with image+text
+           ================================================= */
+        .hp-system-wrap {
+          padding: 0 2rem 8rem;
+          background: var(--hp-bg);
+        }
+        .hp-system {
+          position: relative;
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1.4fr 1fr;
+          gap: 0;
+          border: 1px solid #c5a55a;
+          background: var(--hp-surface-card);
+          box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18),
+                      0 8px 20px rgba(0, 0, 0, 0.10);
+          align-items: stretch;
+          overflow: hidden;
+        }
+        .hp-system__img {
+          position: relative;
+          overflow: hidden;
+          min-height: 475px;
+        }
+        .hp-system__img img {
+          width: 100%; height: 100%; object-fit: cover;
+          display: block;
+        }
+        /* Seamless fade from the image into the card panel — interpolates from
+           white (light) to near-black (dark) along with the dimmer. */
+        .hp-system__img::after {
+          content: '';
+          position: absolute;
+          top: 0; bottom: 0; right: 0;
+          width: 22%;
+          background: linear-gradient(90deg,
+            var(--hp-card-fade-0) 0%,
+            var(--hp-card-fade-1) 55%,
+            var(--hp-card-fade-2) 85%,
+            var(--hp-card-fade-3) 100%);
+          pointer-events: none;
+        }
+        .hp-system__text {
+          position: relative;
+          padding: 3.5rem 3.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: var(--hp-surface-card);
+        }
+        .hp-system__text h2 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: calc(clamp(1.6rem, 2.4vw, 2.2rem) + 2px);
+          font-weight: 500;
+          line-height: 1.35;
+          letter-spacing: -0.01em;
+          color: var(--hp-text-primary);
+          margin: 0 0 1.25rem;
+        }
+        .hp-system__text p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.88rem;
+          line-height: 1.75;
+          color: var(--hp-text-body);
+          margin: 0 0 1.75rem;
+          max-width: 320px;
+        }
+
+        /* =================================================
+           HOW WE WORK — split intro + 3-pillar band
+           All colors flow through the home page's continuous theme
+           tokens (color-mix on --theme-mix), so the section dims with
+           the SavantDimmer in lockstep with the rest of the page.
+           ================================================= */
+        .hp-how {
+          background: var(--hp-bg);
+          color: var(--hp-text-primary);
+          border-top: 1px solid var(--hp-border-soft);
+        }
+
+        .hp-how__top {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          min-height: 405px;
+        }
+        .hp-how__text {
+          padding: 3.5rem 2.5rem 3.5rem max(2rem, calc((100vw - 1280px) / 2 + 2rem));
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+        }
+        .hp-how__eyebrow {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.85rem;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.7rem;
+          font-weight: 800;
+          letter-spacing: 0.26em;
+          text-transform: uppercase;
+          color: var(--hp-eyebrow);
+          margin-bottom: 1.1rem;
+        }
+        .hp-how__eyebrow::after {
+          content: '';
+          display: inline-block;
+          width: 42px; height: 2px;
+          background: var(--hp-eyebrow);
+          margin-top: 2px;
+        }
+        .hp-how__title {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(2rem, 3.1vw, 3rem);
+          font-weight: 500;
+          line-height: 1.08;
+          letter-spacing: -0.022em;
+          color: var(--hp-text-primary);
+          margin: 0 0 1.1rem;
+          text-wrap: balance;
+        }
+        .hp-how__rule {
+          display: block;
+          width: 52px; height: 2px;
+          background: var(--hp-eyebrow);
+          margin: 0 0 1.1rem;
+        }
+        .hp-how__text p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 1rem;
+          line-height: 1.72;
+          color: var(--hp-text-body);
+          margin: 0 0 0.95rem;
+          max-width: 560px;
+        }
+        .hp-how__text p:last-of-type { margin-bottom: 1.75rem; }
+
+        .hp-how__btn {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.85rem;
+          align-self: flex-start;
+          min-height: 50px;
+          padding: 0 1.95rem;
+          border: 1.5px solid var(--hp-eyebrow);
+          background: transparent;
+          color: var(--hp-text-primary);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.78rem;
+          font-weight: 700;
+          letter-spacing: 0.24em;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+        }
+        .hp-how__btn:hover {
+          background: var(--hp-eyebrow);
+          color: #ffffff;
+          transform: translateY(-1px);
+        }
+
+        .hp-how__image {
+          position: relative;
+          overflow: hidden;
+          min-height: 405px;
+        }
+        /* Direct <img> child (no ThemedImgFade) */
+        .hp-how__image > img {
+          position: absolute; inset: 0;
+          width: 100%; height: 100%;
+          object-fit: cover;
+          object-position: right center;
+          display: block;
+        }
+        /* Override ThemedImgFade's centered crop so both light/dark
+           layers focus on the same right-edge area */
+        .hp-how__image .tfi__img { object-position: right center; }
+        /* Section-bg gradient that bleeds the image into the left text
+           column. Uses --hp-bg so the gradient interpolates light→dark
+           with the rest of the page. */
+        .hp-how__image::before {
+          content: '';
+          position: absolute; inset: 0; z-index: 2;
+          background: linear-gradient(90deg,
+            var(--hp-bg) 0%,
+            color-mix(in oklab, var(--hp-bg) 92%, transparent) 5%,
+            color-mix(in oklab, var(--hp-bg) 55%, transparent) 12%,
+            color-mix(in oklab, var(--hp-bg) 18%, transparent) 20%,
+            transparent 28%);
+          pointer-events: none;
+        }
+
+        /* 3-pillar band — sits on the same 1280px content rail as the
+           Experiences and One System sections above. */
+        .hp-how__pillars-wrap {
+          background: var(--hp-bg);
+          border-top: 1px solid var(--hp-border-soft);
+          padding: 2.75rem 2rem 3.25rem;
+        }
+        .hp-how__pillars {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 0;
+        }
+
+        .hp-pillar {
+          padding: 0 2.5rem;
+          border-left: 1px solid var(--hp-divider);
+          color: var(--hp-text-primary);
+        }
+        .hp-pillar:first-child { border-left: none; padding-left: 0; }
+        .hp-pillar:last-child { padding-right: 0; }
+
+        .hp-pillar__icon {
+          width: 50px; height: 50px;
+          border: 1.5px solid var(--hp-icon);
+          border-radius: 50%;
+          color: var(--hp-icon);
+          display: flex; align-items: center; justify-content: center;
+          margin-bottom: 1.1rem;
+        }
+        .hp-pillar__icon svg { width: 22px; height: 22px; }
+        .hp-pillar__num {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.5rem;
+          color: var(--hp-eyebrow);
+          font-size: 0.82rem;
+          font-weight: 700;
+          letter-spacing: 0.22em;
+        }
+        .hp-pillar h3 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(1.2rem, 1.6vw, 1.55rem);
+          font-weight: 500;
+          line-height: 1.18;
+          letter-spacing: -0.018em;
+          color: var(--hp-text-primary);
+          margin: 0 0 0.7rem;
+        }
+        .hp-pillar__rule {
+          display: block;
+          width: 36px; height: 1.5px;
+          background: var(--hp-eyebrow);
+          opacity: 0.45;
+          margin: 0 0 0.85rem;
+        }
+        .hp-pillar p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem;
+          line-height: 1.72;
+          color: var(--hp-text-body);
+          margin: 0;
+          max-width: 300px;
+        }
+
+        /* =================================================
+           RESPONSIVE
+           ================================================= */
+        @media (max-width: 1024px) {
+          .hp-hero { min-height: auto; }
+          .hp-hero__inner { padding: 9rem 2rem 8rem; min-height: 88vh; }
+          .hp-partners__inner { flex-direction: column; gap: 1rem; padding: 1.25rem 2rem; }
+          .hp-partners__list { flex-wrap: wrap; gap: 1rem 1.5rem; justify-content: center; overflow: visible; }
+          .hp-partners__brand { font-size: 0.9rem; letter-spacing: 1.4px; }
+
+          .hp-philosophy { grid-template-columns: 1fr; }
+          .hp-philosophy__text { padding: 3rem 2rem; max-width: 100%; margin: 0; }
+          /* Use explicit height (not min-height) so the ThemedImgFade child
+             with height: 100% has a resolvable parent height and the image
+             actually renders instead of collapsing to 0. */
+          .hp-philosophy__img { height: 360px; min-height: 0; }
+
+          .hp-services { grid-template-columns: repeat(3, 1fr); }
+          .hp-svc:nth-child(4) { border-left: none; }
+
+          .hp-system { grid-template-columns: 1fr; }
+          .hp-system__img { height: 280px; min-height: 0; }
+          .hp-system__text { padding: 2.5rem 2rem; }
+          .hp-system__img::after {
+            /* Switch from right-edge fade to bottom-edge fade for the
+               stacked vertical layout */
+            top: auto; bottom: 0; right: 0;
+            width: 100%; height: 22%;
+            background: linear-gradient(180deg,
+              var(--hp-card-fade-0) 0%,
+              var(--hp-card-fade-1) 55%,
+              var(--hp-card-fade-2) 85%,
+              var(--hp-card-fade-3) 100%);
+          }
+
+          .hp-how__top { grid-template-columns: 1fr; min-height: 0; }
+          .hp-how__text { padding: 3.5rem 2rem; max-width: 100%; }
+          .hp-how__image { height: 360px; min-height: 0; }
+          .hp-how__image .tfi__img,
+          .hp-how__image > img { object-position: center; }
+          /* Bleed direction flips on the stacked layout: cream fades up
+             into the image from the bottom edge instead of the left edge */
+          .hp-how__image::before {
+            background: linear-gradient(0deg,
+              var(--hp-bg) 0%,
+              color-mix(in oklab, var(--hp-bg) 55%, transparent) 20%,
+              transparent 45%);
+          }
+          .hp-how__pillars-wrap { padding: 3.5rem 2rem 4rem; }
+          .hp-how__pillars { grid-template-columns: 1fr; gap: 2.5rem; }
+          .hp-pillar { padding: 0 0 2.5rem; border-left: none; border-bottom: 1px solid var(--hp-border-soft); }
+          .hp-pillar:last-child { border-bottom: none; padding-bottom: 0; }
+        }
+        @media (max-width: 640px) {
+          /* Bottom padding must clear the absolute-positioned partners
+             strip (~9rem tall on mobile) so the CTA isn't obscured. */
+          .hp-hero__inner { padding: 7.5rem 1.25rem 12rem; min-height: 82vh; }
+          .hp-services { grid-template-columns: repeat(2, 1fr); }
+          .hp-svc { padding: 1.5rem 0.5rem; }
+          .hp-svc__desc { font-size: 0.8rem; line-height: 1.65; }
+          .hp-svc:nth-child(3), .hp-svc:nth-child(5) { border-left: none; }
+
+          .hp-system-wrap { padding: 0 1rem 4rem; }
+          .hp-system__img { height: 240px; }
+          .hp-system__text { padding: 2rem 1.5rem; }
+
+          .hp-how__text { padding: 2.75rem 1.25rem; }
+          .hp-how__image { height: 280px; }
+          .hp-how__pillars-wrap { padding: 2.5rem 1.25rem 3rem; }
+        }
+        @media (max-width: 420px) {
+          .hp-hero__inner { padding: 6.5rem 1.25rem 13rem; }
+          .hp-partners__brand { font-size: 0.78rem; letter-spacing: 1.2px; }
+        }
+
+      </style></div></div>
+  
+
+</body></html>

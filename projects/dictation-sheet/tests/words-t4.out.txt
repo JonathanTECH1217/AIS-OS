@@ -1,0 +1,24 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+PASS (a) same text: 10 pairs, all sim 1, in order: [{"li":0,"lrcIdx":0,"sim":1},{"li":1,"lrcIdx":1,"sim":1},{"li":2,"lrcIdx":2,"sim":1},{"li":3,"lrcIdx":3,"sim":1},{"li":4,"lrcIdx":4,"sim":1},{"li":5,"lrcIdx":5,"sim":1},{"li":6,"lrcIdx":6,"sim":1},{"li":7,"lrcIdx":7,"sim":1},{"li":8,"lrcIdx":8,"sim":1},{"li":9,"lrcIdx":9,"sim":1}]
+PASS (b) one extra typed line: 10 pairs, the extra line (li 3) skipped, lrc order kept: 0>0 1>1 2>2 4>3 5>4 6>5 7>6 8>7 9>8 10>9
+PASS (c) headers: 10 pairs, li skips the header rows (1..5, 7..11): 1>0 2>1 3>2 4>3 5>4 7>5 8>6 9>7 10>8 11>9
+FAIL (d) a one-word edit pairs with sim 0.8; a rewritten line does not pair: [{"li":2,"lrcIdx":2,"sim":0.875},null]
+PASS (e) one of two repeated lines missing: 9 pairs, all sim 1: 0>0 1>1 2>2 3>3 4>4 5>6 6>7 7>8 8>9
+PASS (f) blank stamped entries: 10 pairs, lrcIdx skips the blank: 0>0 1>1 2>2 3>3 4>5 5>6 6>7 7>8 8>9 9>10
+LOG long N=70 first pair sim 7/10: 69 pairs, lost lines [64]
+LOG long N=70 first pair sim 6/10: 69 pairs, lost lines [32]
+LOG long N=70 first pair sim 9/10: 69 pairs, lost lines [32]
+LOG long N=70 first pair sim 5/7: 70 pairs, lost lines []
+LOG long N=70 first pair sim 2/3: 69 pairs, lost lines [64]
+LOG long N=70 first pair sim 8/9: 69 pairs, lost lines [64]
+LOG long N=70 first pair sim 5/10: 70 pairs, lost lines []
+LOG long N=70 first pair sim 8/10: 69 pairs, lost lines [64]
+LOG long N=130 first pair sim 7/10: 129 pairs, lost lines [64]
+LOG long N=130 first pair sim 5/7: 129 pairs, lost lines [128]
+LOG long N=130 first pair sim 8/9: 129 pairs, lost lines [64]
+LOG long N=130 first pair sim 5/6: 129 pairs, lost lines [64]
+FAIL (g) long songs with one inexact pair keep every line: 7/10@70 lost 64; 6/10@70 lost 32; 9/10@70 lost 32; 2/3@70 lost 64; 8/9@70 lost 64; 8/10@70 lost 64; 7/10@130 lost 64; 5/7@130 lost 128; 8/9@130 lost 64; 5/6@130 lost 64
+PASS (g2) 200 exact lines all pair: 200 pairs, lost []
+LOG sim of the two "take it all" lines: [{"li":0,"lrcIdx":0,"sim":0.6666666666666666}]

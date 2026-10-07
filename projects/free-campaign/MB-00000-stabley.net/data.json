@@ -1,0 +1,593 @@
+{
+ "built": "2026-10-03T18:59:33",
+ "company": {
+  "mb": "",
+  "record_id": null,
+  "name": "Stabley",
+  "website": "stabley.net",
+  "phone": "",
+  "city": "Phoenix",
+  "state": "AZ",
+  "vertical": "",
+  "email": "",
+  "owner": "",
+  "rating": null,
+  "review_count": null,
+  "trade": "integrator",
+  "domain": "stabley.net"
+ },
+ "site": {
+  "ok": true,
+  "error": null,
+  "final_url": "https://stabley.net/",
+  "https_ok": true,
+  "platform": "wordpress",
+  "title": "Stabley Home Entertainment Specialists - Phoenix & Mesa",
+  "headings": [
+   "Simplifying Audio, Video, Home Entertainment & Automation",
+   "Stabley Blog Series Part 3: Media Room Equipment Sales & Automation",
+   "Stabley Blog Series Part 2: Outdoor Equipment & Automation",
+   "4 Reasons Why You Should Get A Smart Thermostat With Home Automation Features",
+   "Home Security Systems: 6 Signs Yours Needs An Upgrade"
+  ],
+  "nav": [
+   "About Us",
+   "Gallery",
+   "Blog",
+   "Contact Us",
+   "Automation",
+   "Security",
+   "Joshua Jacoby",
+   "View More",
+   "[email protected]",
+   "Sitemap"
+  ],
+  "subpages": [
+   {
+    "url": "https://stabley.net/about-us",
+    "title": "About Stabley Home Entertainment in Phoenix, Mesa and Scottsdale",
+    "text": "About Stabley Home Entertainment in Phoenix, Mesa and Scottsdale Skip to content 480-325-5015 Mesa Scottsdale Chandler San Tan Valley Toggle Navigation Home About Us Gallery Blog Contact Us Automation Security Home Theater 480-325-5015 Mesa Scottsdale Chandler About Us About Us Jamie Stabley 2022-05-17T07:41:28-07:00 Stabley Home Entertainment is a locally owned, family company that’s been designing and installing high-tech entertainment and security solutions for homes and businesses since 1994. We serve the greater Phoenix area, including Scottsdale, Mesa, Gilbert, Tempe, Chandler, Phoenix, and the surrounding area. We’re licensed and bonded for both residential and commercial installations. When you need honest, trustworthy recommendations, sales, and installations from an experienced team, you can count on us. We offer a wide selection of products to help bring your home theater or home security system into the future, and provide top-rated installation services to make your experience simple and hassle free. Trust our Scottsdale home theater installation and sales team to give you the right products and advice to simplify your home entertainment system. Stabley Home Entertainment is a Custom Audio Video Installation and Sales Company. We have been serving the Phoenix-Metro area since 1994. We are family owned and operated licensed for both residential and commercial installations. We take great pride in our approach to doing business. We believe the key to success is to provide our customers with expert installations and first-class customer service. Our goals are simple, we want to share our passion for quality home entertainment with our customers and we want to provide a simple, streamline system that lets you enjoy Maximum Audio /Video Output with Minimum Effort of Operation. Stabley Home Entertaiment likes to take the complicated, high tech and state of the art electronics of today and put them together so you, your family or anyone visiting your home can "
+   },
+   {
+    "url": "https://stabley.net/service/home-automation",
+    "title": "Discover the Benefits Home Automation",
+    "text": "Discover the Benefits Home Automation Skip to content 480-325-5015 Mesa Scottsdale Chandler San Tan Valley Toggle Navigation Home About Us Gallery Blog Contact Us Automation Security Home Theater 480-325-5015 Mesa Scottsdale Chandler Home Smart Joshua Jacoby 2025-01-22T08:43:25-07:00 FIND OUT MORE Best Way to reply: Email Phone Smart Home Automation Experts Stabley Home Entertainment is a top-rated home automation installation & sales company that offers a wide selection of home automation services to help simplify your life. With the most cutting edge technology, you can control a variety of areas of your home at the touch of a button, saving you both time and money. We have qualified Phoenix home automation specialists who can advise you in all areas of home automation to help you decide what’s right for you, also serving Scottsdale, Gilbert, Mesa, Chandler, and surrounding cities in the Valley. Control and monitor home security systems in real time and get customized alerts when you’re away. Adjust audio, video, lighting, temperature, and more right from the palm of your hand. The possibilities are endless with smart home automation. SELECT OPTIONS We educate you on which home automation features and services best fit your lifestyle and your budget. You may elect to automate audio/video, security, lights, window blinds, and much more. INSTALLATION PROCESS This includes installing the necessary wiring for new devices, or retrofitting wire for your existing devices. It also includes programming your heating, air conditioning, audio, video and other electronics. TEACHING YOU We teach you how to properly use your home automation system. You’ll be surprised at just how easy it is to control your home with a touch of your finger. Now you’re ready to live the smart life. TOP BRANDS WE SELL Stabley Home Entertainment sells a wide selection of some of the best home automation brands in the industry, and we are certified to install everything from your security cameras to "
+   }
+  ]
+ },
+ "llm": {
+  "is_integrator": true,
+  "market_focus": "mixed_residential_lead",
+  "offerings": {
+   "lighting_control": true,
+   "automation_control": true,
+   "audio_video": true,
+   "home_theater": true,
+   "motorized_shades": true,
+   "networking": false,
+   "security_cameras": true,
+   "outdoor_av": true
+  },
+  "brands": [],
+  "high_end_signals": [],
+  "site_quality": {
+   "has_service_pages": true,
+   "has_service_area_pages": false,
+   "has_gallery": true,
+   "has_testimonials": false,
+   "single_page": false
+  },
+  "confidence": 0.8,
+  "reason": "Phoenix-area custom AV installer since 1994 offering home theater, automation, lighting/shades, and security; residential-led but licensed for commercial, no premium brands named."
+ },
+ "service_hits": {
+  "theater": 13,
+  "automation": 34,
+  "lighting": 0,
+  "shades": 1,
+  "audio": 15,
+  "networking": 0
+ },
+ "main": {
+  "key": "theater",
+  "label": "Home theater",
+  "phrases": [
+   "home theater installation",
+   "home theater installer",
+   "media room installation"
+  ],
+  "words": [
+   "theater",
+   "theatre",
+   "media room",
+   "cinema"
+  ]
+ },
+ "second": {
+  "key": "automation",
+  "label": "Home automation",
+  "phrases": [
+   "home automation installer",
+   "smart home installation",
+   "smart home installer"
+  ]
+ },
+ "brands": [],
+ "places": {
+  "query": "home theater installation in Phoenix, AZ",
+  "own": {
+   "Name": "Stabley Home Theater",
+   "Address": "1350 S Greenfield Rd Unit 1127, Mesa, AZ 85206",
+   "State": "AZ",
+   "County": "Maricopa County",
+   "Phone": "(480) 325-5015",
+   "Website": "https://www.stabley.net/",
+   "Rating": 5,
+   "Review count": 93,
+   "Place ID": "ChIJ__8vkxWlK4cRqD86sC1m3zo",
+   "Google Maps URL": "https://maps.google.com/?cid=4242221720422465448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "Primary type": "",
+   "Business status": "OPERATIONAL",
+   "City": "Mesa",
+   "Zip": "85206",
+   "Query": "home theater installation in Phoenix, AZ"
+  },
+  "market": [
+   {
+    "Name": "Stabley Home Theater",
+    "Address": "1350 S Greenfield Rd Unit 1127, Mesa, AZ 85206",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 325-5015",
+    "Website": "https://www.stabley.net/",
+    "Rating": 5,
+    "Review count": 93,
+    "Place ID": "ChIJ__8vkxWlK4cRqD86sC1m3zo",
+    "Google Maps URL": "https://maps.google.com/?cid=4242221720422465448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "",
+    "Business status": "OPERATIONAL",
+    "City": "Mesa",
+    "Zip": "85206",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Chandler AZ Home Theater Installation",
+    "Address": "3872 E Desert Broom Dr, Chandler, AZ 85286",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 485-0222",
+    "Website": "https://www.stabley.net/chandler-home-theater-installation",
+    "Rating": 4.9,
+    "Review count": 24,
+    "Place ID": "ChIJWyth3HKrK4cR7cIPKi_7MjE",
+    "Google Maps URL": "https://maps.google.com/?cid=3545172036681712365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "",
+    "Business status": "OPERATIONAL",
+    "City": "Chandler",
+    "Zip": "85286",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Cinematic Home A/V",
+    "Address": "10658 N 32nd St, Phoenix, AZ 85028",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(602) 755-8665",
+    "Website": "https://cinematichomeav.com/",
+    "Rating": 5,
+    "Review count": 11,
+    "Place ID": "ChIJMZotRN9zK4cROz5PMzq2twk",
+    "Google Maps URL": "https://maps.google.com/?cid=700228628164591163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electronics_store",
+    "Business status": "OPERATIONAL",
+    "City": "Phoenix",
+    "Zip": "85028",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Desert Home Theater",
+    "Address": "2963 E Saltsage Dr, Phoenix, AZ 85048",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 516-2990",
+    "Website": "http://www.deserthometheater.com/",
+    "Rating": 4.8,
+    "Review count": 33,
+    "Place ID": "ChIJ8QYdjEMFK4cRiqldAwrSaYQ",
+    "Google Maps URL": "https://maps.google.com/?cid=9541388226009082250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "",
+    "Business status": "OPERATIONAL",
+    "City": "Phoenix",
+    "Zip": "85048",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Audio Video by Design",
+    "Address": "30249 N 124th Ln, Peoria, AZ 85383",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 242-6459",
+    "Website": "https://avbydesign.com/",
+    "Rating": 4.8,
+    "Review count": 25,
+    "Place ID": "ChIJGfFHHtxdK4cR5CEnfHDV9RY",
+    "Google Maps URL": "https://maps.google.com/?cid=1654463117224518116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "manufacturer",
+    "Business status": "OPERATIONAL",
+    "City": "Peoria",
+    "Zip": "85383",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Dynamic Audio Video Solutions",
+    "Address": "4410 S Carmine Cir, Mesa, AZ 85212",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "",
+    "Website": "https://www.dynamicavsolutions.com/",
+    "Rating": 4.7,
+    "Review count": 400,
+    "Place ID": "ChIJq6rO_pWzK4cR82IVtTv-tic",
+    "Google Maps URL": "https://maps.google.com/?cid=2861754145635132147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "",
+    "Business status": "OPERATIONAL",
+    "City": "Mesa",
+    "Zip": "85212",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "James Electronics",
+    "Address": "6505 N 11th Ave, Phoenix, AZ 85013",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(602) 499-2355",
+    "Website": "http://jameselectronics.com/",
+    "Rating": 4.9,
+    "Review count": 34,
+    "Place ID": "ChIJl6bo0S1tK4cRWrFwDZPaA24",
+    "Google Maps URL": "https://maps.google.com/?cid=7927420094222741850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "",
+    "Business status": "OPERATIONAL",
+    "City": "Phoenix",
+    "Zip": "85013",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Planet Geek",
+    "Address": "3205 N Arizona Ave #5, Chandler, AZ 85225",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 766-0025",
+    "Website": "https://www.planetgeekllc.com/",
+    "Rating": 4.9,
+    "Review count": 207,
+    "Place ID": "ChIJq8oIYOKrK4cRLSaY4jBeVvQ",
+    "Google Maps URL": "https://maps.google.com/?cid=17606363357304596013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "manufacturer",
+    "Business status": "OPERATIONAL",
+    "City": "Chandler",
+    "Zip": "85225",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Oasis Luxury Smart Homes",
+    "Address": "7255 E Adobe Dr Ste 115, Scottsdale, AZ 85255",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 907-7095",
+    "Website": "https://oasissmarthomes.com/",
+    "Rating": 4.6,
+    "Review count": 128,
+    "Place ID": "ChIJh3t1Xh53K4cRzXVU5EVXnws",
+    "Google Maps URL": "https://maps.google.com/?cid=837484013409301965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electronics_store",
+    "Business status": "OPERATIONAL",
+    "City": "Scottsdale",
+    "Zip": "85255",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Imagine Audio Video",
+    "Address": "20815 North 25th Pl Ste A105, Phoenix, AZ 85050",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 497-6734",
+    "Website": "https://www.iavaz.com/?utm_source=gmb&utm_medium=organic&utm_campaign=gmb_listing",
+    "Rating": 4.4,
+    "Review count": 28,
+    "Place ID": "ChIJgdTzRcipK4cRSxcQR2vv2fM",
+    "Google Maps URL": "https://maps.google.com/?cid=17571338665195476811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electronics_store",
+    "Business status": "OPERATIONAL",
+    "City": "Phoenix",
+    "Zip": "85050",
+    "Query": "home theater installation in Phoenix, AZ"
+   },
+   {
+    "Name": "Audio Video Excellence",
+    "Address": "7500 E Pinnacle Peak Rd Ste H-121, Scottsdale, AZ 85255",
+    "State": "AZ",
+    "County": "Maricopa County",
+    "Phone": "(480) 245-7500",
+    "Website": "https://www.audiovideoexcellence.com/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-listing",
+    "Rating": 4.7,
+    "Review count": 56,
+    "Place ID": "ChIJ-bknZ4iYK4cRrqU-M-1T4bo",
+    "Google Maps URL": "https://maps.google.com/?cid=13466136639046591918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "manufacturer",
+    "Business status": "OPERATIONAL",
+    "City": "Scottsdale",
+    "Zip": "85255",
+    "Query": "home theater installation in Phoenix, AZ"
+   }
+  ]
+ },
+ "serp": {
+  "source": "none",
+  "why": "--no-serp",
+  "location": null,
+  "queries": [
+   "home theater installation Phoenix",
+   "home theater installer Phoenix",
+   "home automation installer Phoenix AZ"
+  ],
+  "presence": []
+ },
+ "page": {
+  "url": "https://stabley.net/",
+  "fetched": true,
+  "has_service_page": false,
+  "final_url": "https://stabley.net/",
+  "https": true,
+  "tel_link": true,
+  "phone_in_text": true,
+  "form": true,
+  "h1": "Simplifying Audio, Video, Home Entertainment & Automation",
+  "title": "Stabley Home Entertainment Specialists - Phoenix & Mesa",
+  "words": 1511,
+  "testimonials": true,
+  "h1_says_service": false,
+  "h1_says_city": false,
+  "title_says_city": true
+ },
+ "fixes": [
+  {
+   "what": "No page of its own for home theater",
+   "fix": "Add one page for home theater with its own address, and send the ad there. Read: no page on the site names it."
+  },
+  {
+   "what": "The headline does not say home theater and Phoenix",
+   "fix": "Make the headline say home theater in Phoenix, the words the ad and the search use. Read: the h1 is \"Simplifying Audio, Video, Home Entertainment & Automation\"."
+  }
+ ],
+ "volume": {
+  "rows": {},
+  "source": "none"
+ },
+ "budget": {
+  "usd": 10,
+  "why": "no bid data; $10 a day as the floor"
+ },
+ "campaign": {
+  "keywords": [
+   {
+    "text": "home theater installation phoenix",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home theater installation phoenix az",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home theater installation near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home theater installer phoenix",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home theater installer phoenix az",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home theater installer near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "media room installation phoenix",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "media room installation near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home automation installer phoenix",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "home automation installer near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "smart home installation phoenix",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "media room installation phoenix az",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   }
+  ],
+  "negatives": 341,
+  "negatives_dropped": [],
+  "ads": [
+   {
+    "name": "Service",
+    "headlines": [
+     {
+      "text": "Home theater in Phoenix",
+      "pin": 1
+     },
+     {
+      "text": "Phoenix Home theater",
+      "pin": 1
+     },
+     {
+      "text": "Home theater, Phoenix AZ",
+      "pin": 1
+     },
+     {
+      "text": "Designed and Installed for You",
+      "pin": 2
+     },
+     {
+      "text": "Built for Phoenix Homes",
+      "pin": 2
+     },
+     {
+      "text": "One Team, Start to Finish",
+      "pin": 2
+     },
+     {
+      "text": "Call for an Estimate",
+      "pin": 3
+     },
+     {
+      "text": "Book a Home Visit",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "Stabley designs and installs home theaters in Phoenix. Call for an estimate.",
+     "One team from the first visit to the last test. Serving Phoenix and nearby.",
+     "Tell us about your home in Phoenix. We plan the work and do it ourselves."
+    ]
+   },
+   {
+    "name": "Proof",
+    "headlines": [
+     {
+      "text": "Home theater in Phoenix",
+      "pin": 1
+     },
+     {
+      "text": "Phoenix Home theater",
+      "pin": 1
+     },
+     {
+      "text": "5 Stars on Google",
+      "pin": 2
+     },
+     {
+      "text": "93 Google Reviews",
+      "pin": 2
+     },
+     {
+      "text": "Built for Phoenix Homes",
+      "pin": 2
+     },
+     {
+      "text": "Call for an Estimate",
+      "pin": 3
+     },
+     {
+      "text": "Get a Quote Today",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "Rated 5 stars by 93 Google reviews. Call today and talk to the people who do the work.",
+     "Stabley designs and installs home theaters in Phoenix. Call for an estimate.",
+     "One team from the first visit to the last test. Serving Phoenix and nearby."
+    ]
+   },
+   {
+    "name": "Home",
+    "headlines": [
+     {
+      "text": "Phoenix Home theater",
+      "pin": 1
+     },
+     {
+      "text": "Home theater, Phoenix AZ",
+      "pin": 1
+     },
+     {
+      "text": "Home theater in Phoenix",
+      "pin": 1
+     },
+     {
+      "text": "One Team, Start to Finish",
+      "pin": 2
+     },
+     {
+      "text": "Done Right the First Time",
+      "pin": 2
+     },
+     {
+      "text": "Designed and Installed for You",
+      "pin": 2
+     },
+     {
+      "text": "Get a Quote Today",
+      "pin": 3
+     },
+     {
+      "text": "Call Today",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "One team from the first visit to the last test. Serving Phoenix and nearby.",
+     "Tell us about your home in Phoenix. We plan the work and do it ourselves.",
+     "Stabley designs and installs home theaters in Phoenix. Call for an estimate."
+    ]
+   }
+  ],
+  "lint": [],
+  "daily_budget": 10,
+  "editor_rows": 370
+ },
+ "cost": {
+  "cap_usd": 0.25,
+  "spent_usd": 0,
+  "by_item": {}
+ }
+}

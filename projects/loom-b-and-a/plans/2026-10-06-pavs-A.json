@@ -1,0 +1,312 @@
+{
+ "out": "media/loom-ba/2026-10-06/pavs/pavs-loom-ba.mp4",
+ "states_dir": "media/looms/pavs-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "pavs.tech",
+ "url": "https://pavs.tech/",
+ "render": "projects/Landing Page Build/prospects/pavs/index.html",
+ "folder": "media/looms/43385752-increase-leads-with-better-landing-pages",
+ "why": "The PAVS Smart Home Tech audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-pavs.md: the hero changes made on their live home page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "246:246:31:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.6,
+ "end_at": 203.0,
+ "pause": 0.5,
+ "cuts": [
+  [
+   33.456,
+   34.816,
+   "does no work (and we all love more revenue); the line before already lands on revenue"
+  ],
+  [
+   41.152,
+   43.392,
+   "a misheard line that cannot be read for sure (that's something you'd want to vacate right away); cut when unsure, rule 1"
+  ],
+  [
+   57.68,
+   58.64,
+   "a fragment that trails (a little bit down)"
+  ],
+  [
+   95.984,
+   97.9,
+   "the copy length said a second time (that's just one of two sentences)"
+  ],
+  [
+   103.424,
+   105.0,
+   "a false start corrected at once (book an appointment); his words land on book a meeting"
+  ],
+  [
+   141.84,
+   143.2,
+   "points at their page while ours is on screen (oh, we got one right here)"
+  ],
+  [
+   178.384,
+   179.9,
+   "a line that trails off (which would be super easy to make in)"
+  ],
+  [
+   190.08,
+   193.2,
+   "a restart and a filler (for a lighting control for a lighting design, but besides that, that would be about it)"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "Lightning": "Lighting",
+  "Has": "has"
+ },
+ "changes": [
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-meta",
+   "style": "display:none !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-text-nav-container",
+   "style": "height:80px !important; overflow:hidden !important; border-bottom:1px solid #E3E5E1 !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-text-nav-wrap",
+   "style": "display:flex !important; align-items:center !important; height:80px !important; padding:0 !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-left-section, #header-right-section",
+   "style": "float:none !important; margin:0 !important; padding:0 !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-right-section",
+   "style": "margin-left:auto !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": "#header-logo-image, #header-logo-image a, #header-logo-image img",
+   "style": "height:56px !important; width:auto !important; max-height:56px !important; padding:0 !important; margin:0 !important; display:block !important"
+  },
+  {
+   "at": 49.09,
+   "kind": "css",
+   "selector": ".menu-primary-container",
+   "style": "margin:0 !important; padding:0 !important"
+  },
+  {
+   "at": 50.05,
+   "kind": "header"
+  },
+  {
+   "at": 59.2,
+   "kind": "css",
+   "selector": ".elementor-element-6880b6e > .elementor-background-overlay",
+   "style": "background:linear-gradient(180deg, rgba(18,19,22,.80), rgba(18,19,22,.62)) !important; opacity:1 !important"
+  },
+  {
+   "at": 64.32,
+   "kind": "css",
+   "selector": ".elementor-element-6880b6e",
+   "style": "background-image:none !important; background-color:#000000 !important; min-height:700px !important; height:700px !important"
+  },
+  {
+   "at": 64.32,
+   "kind": "css",
+   "selector": ".elementor-element-6880b6e > .elementor-background-overlay",
+   "style": "display:none !important"
+  },
+  {
+   "at": 64.32,
+   "kind": "css",
+   "selector": ".elementor-element-6880b6e > .elementor-container",
+   "style": "min-height:700px !important; height:700px !important"
+  },
+  {
+   "at": 64.32,
+   "kind": "css",
+   "selector": ".elementor-element-2469bbc",
+   "style": "margin-top:0 !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-9e9f112",
+   "style": "display:none !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-8176dda",
+   "style": "width:100% !important; max-width:100% !important; flex:1 1 100% !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-8176dda > .elementor-widget-wrap",
+   "style": "display:flex !important; flex-direction:column !important; flex-wrap:nowrap !important; align-items:center !important; justify-content:flex-start !important; align-content:flex-start !important; gap:26px !important; padding:0 !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-8176dda > .elementor-widget-wrap > *",
+   "style": "margin:0 !important; width:min(960px, 92vw) !important; max-width:960px !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-9eddd15",
+   "style": "margin-top:10px !important; padding:0 !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-8176dda .elementor-widget-container, .elementor-element-9eddd15 .elementor-container, .elementor-element-9eddd15 .elementor-column, .elementor-element-9eddd15 .elementor-widget-wrap",
+   "style": "margin:0 !important; padding:0 !important; width:100% !important; max-width:100% !important"
+  },
+  {
+   "at": 70.27,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Steamboat Springs"
+  },
+  {
+   "at": 70.27,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 70.27,
+   "kind": "center"
+  },
+  {
+   "at": 70.27,
+   "kind": "css",
+   "selector": ".elementor-element-bd361a0 .elementor-heading-title",
+   "style": "margin-left:auto !important; margin-right:auto !important"
+  },
+  {
+   "at": 76.88,
+   "kind": "eyebrow",
+   "text": "Serving Steamboat Springs homes since 1997",
+   "color": "#9BDB7E"
+  },
+  {
+   "at": 76.88,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font:600 14px/1.4 Lato, Arial, sans-serif !important; letter-spacing:.16em !important; text-transform:uppercase !important; color:#9BDB7E !important; margin:0 0 26px !important; text-align:center !important"
+  },
+  {
+   "at": 85.81,
+   "kind": "copy",
+   "selector": ".elementor-element-bda303c .elementor-heading-title",
+   "keep": "Keypads that set a whole room with one press. Lights you run by voice, by app, or on a schedule."
+  },
+  {
+   "at": 98.06,
+   "kind": "css",
+   "selector": ".elementor-element-e74ae7d",
+   "style": "display:none !important"
+  },
+  {
+   "at": 98.06,
+   "kind": "css",
+   "selector": ".elementor-element-03665cf",
+   "style": "width:100% !important; max-width:100% !important"
+  },
+  {
+   "at": 98.06,
+   "kind": "cta",
+   "selector": ".elementor-element-b7b0354 a.elementor-button",
+   "text": "Book a meeting",
+   "background": "#6CC24A",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 105.89,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 108.77,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 109.41,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 109.89,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 110.69,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 113.12,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 128.1,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 135.14,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 140.16,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 157.82,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 171.34,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 181.62,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 183.54,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 194.64,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

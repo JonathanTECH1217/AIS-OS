@@ -1,0 +1,222 @@
+{
+ "out": "media/loom-ba/2026-10-06/fusion-tech/fusion-tech-loom-ba.mp4",
+ "states_dir": "media/looms/fusion-tech-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "fusiontechcompanies.com",
+ "url": "https://fusiontechcompanies.com/",
+ "render": "projects/Landing Page Build/prospects/fusion-tech/index.html",
+ "folder": "media/looms/ea3b44a3-boost-conversions-with-service-landing-pages",
+ "why": "Fusion Tech Companies audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-fusion-tech.md: the hero changes made on their live home page one by one as he names them, then the rebuilt lighting control page from the four-stage form on, section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:32:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.6,
+ "end_at": 250.2,
+ "pause": 0.5,
+ "cuts": [
+  [
+   11.136,
+   14.016,
+   "a lead-in with nothing in it (one thing I want to say before I get into this is)"
+  ],
+  [
+   44.416,
+   51.312,
+   "talk about the making of the video (for sake of time's sake, I'm sure we want to keep this under like four minutes)"
+  ],
+  [
+   64.144,
+   65.664,
+   "a false start (a shot of a... an inside space)"
+  ],
+  [
+   93.728,
+   95.728,
+   "a third eyebrow option said the same way (lighting design for homeowners also works)"
+  ],
+  [
+   174.88,
+   181.648,
+   "a saying that comes out garbled (you are the best of your worst work, in the eyes of the prospect); not accurate as said"
+  ],
+  [
+   224.4,
+   226.736,
+   "a lead-in that goes nowhere (and overall these few things)"
+  ],
+  [
+   240.464,
+   244.752,
+   "talk about the making of the video (I kept this right around four minutes)"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "flighting": "lighting",
+  "letting": "lighting",
+  "hour": "our"
+ },
+ "changes": [
+  {
+   "at": 63.1,
+   "kind": "image",
+   "file": "projects/Landing Page Build/prospects/fusion-tech/assets/hero.jpg"
+  },
+  {
+   "at": 71.98,
+   "kind": "css",
+   "selector": ".et_pb_row_0",
+   "style": "box-shadow: inset 0 0 0 3000px rgba(8,14,24,0.58) !important"
+  },
+  {
+   "at": 72.46,
+   "kind": "css",
+   "selector": ".dnxt-gradient-text, .et_pb_text_1 p, .et_pb_text_1 span",
+   "style": "background: none !important; -webkit-text-fill-color: #FFFFFF !important; color: #FFFFFF !important"
+  },
+  {
+   "at": 74.86,
+   "kind": "headline",
+   "text": "Lighting Control Installation in St. Louis"
+  },
+  {
+   "at": 75.1,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 76.3,
+   "kind": "css",
+   "selector": ".et_pb_column_1",
+   "style": "position: absolute !important; top: 0; right: 24px; width: auto !important; z-index: 2"
+  },
+  {
+   "at": 76.31,
+   "kind": "css",
+   "selector": ".et_pb_section_0, .et_pb_row_0",
+   "style": "min-height: 664px !important"
+  },
+  {
+   "at": 76.32,
+   "kind": "css",
+   "selector": ".et_pb_column_0",
+   "style": "padding-left: 144px !important; padding-right: 144px !important"
+  },
+  {
+   "at": 76.46,
+   "kind": "center"
+  },
+  {
+   "at": 83.86,
+   "kind": "eyebrow",
+   "reuse": true,
+   "text": "Lighting control for homeowners"
+  },
+  {
+   "at": 95.97,
+   "kind": "copy",
+   "keep": "Light that follows the sun, keypads engraved for every room, and a color temperature you set once. Less to think about and a calmer home."
+  },
+  {
+   "at": 108.27,
+   "kind": "cta",
+   "selector": ".et_pb_button_0",
+   "text": "Book a meeting",
+   "background": "#025399",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 108.3,
+   "kind": "css",
+   "selector": ".et_pb_button_0",
+   "style": "text-transform: none !important; letter-spacing: 0 !important; border: 0 !important; position: relative !important; left: -14px; margin-top: -14px !important"
+  },
+  {
+   "at": 108.43,
+   "kind": "hide",
+   "selector": ".et_pb_button_1_wrapper"
+  },
+  {
+   "at": 110.03,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 111.31,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 111.95,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 112.43,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 113.55,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 119.39,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 136.3,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 153.07,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 166.21,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 183.62,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 199.65,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 212.29,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 218.54,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 227.06,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 244.75,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

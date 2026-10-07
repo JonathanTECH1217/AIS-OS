@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Monarc Build: invoice preview</title>
+<!-- Test run, 2026-10-05: what the first Outreach invoice carries. A preview, not the invoice: Stripe makes and sends
+     the real one (references/stripe-api.md), and it gets its number there. No account or tax numbers on this page.
+     Rendered to invoice-preview.pdf with headless Edge (--print-to-pdf). -->
+<style>
+  @page { size: Letter; margin: 0.8in 0.95in; }
+  * { box-sizing: border-box; }
+  body { font-family: "Times New Roman", Times, serif; font-size: 11.5pt; line-height: 1.38; color: #000; margin: 0; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20pt; }
+  .brand { display: flex; align-items: center; gap: 8pt; font-size: 15pt; }
+  .brand svg { width: 26pt; height: 26pt; }
+  .from { font-size: 10.5pt; line-height: 1.35; margin-top: 6pt; }
+  h1 { font-size: 26pt; font-weight: normal; margin: 0; line-height: 1.1; text-align: right; }
+  .note { font-size: 10.5pt; text-align: right; margin-top: 4pt; max-width: 250pt; }
+  .cols { display: flex; justify-content: space-between; gap: 24pt; margin-bottom: 18pt; }
+  .label { font-size: 9.5pt; text-transform: uppercase; letter-spacing: .6pt; margin-bottom: 2pt; }
+  table { width: 100%; border-collapse: collapse; }
+  .facts td { padding: 1pt 0 1pt 14pt; text-align: right; }
+  .facts td:first-child { padding-left: 0; text-align: left; }
+  .lines { margin-top: 4pt; }
+  .lines th { font-size: 9.5pt; text-transform: uppercase; letter-spacing: .6pt; font-weight: normal; text-align: left; border-bottom: 1px solid #000; padding: 4pt 0; }
+  .lines td { padding: 8pt 0; vertical-align: top; border-bottom: 1px solid #999; }
+  .lines .n { text-align: right; white-space: nowrap; padding-left: 14pt; }
+  .lines small { display: block; font-size: 10pt; margin-top: 2pt; }
+  .sum { width: 46%; margin: 8pt 0 0 auto; }
+  .sum td { padding: 3pt 0; }
+  .sum td:last-child { text-align: right; }
+  .sum .due td { border-top: 1px solid #000; font-size: 13pt; padding-top: 6pt; }
+  .terms { margin-top: 26pt; }
+  .terms p { margin: 0 0 5pt; }
+  footer { margin-top: 28pt; border-top: 1px solid #000; padding-top: 7pt; font-size: 10.5pt; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="brand">
+      <svg viewBox="2.29 0.61 59.41 59.41" aria-hidden="true"><path d="M30.20,31.00 L17.19,31.20 A12.20,12.20 0 1 1 29.16,18.03 Z" fill="#1F5ED8" stroke="#1F5ED8" stroke-width="2.6" stroke-linejoin="round"/><path d="M33.80,31.00 L34.84,18.03 A12.20,12.20 0 1 1 46.81,31.20 Z" fill="#E8604C" stroke="#E8604C" stroke-width="2.6" stroke-linejoin="round"/><path d="M30.20,35.00 L29.59,45.69 A8.60,8.60 0 1 1 19.63,36.71 Z" fill="#169C86" stroke="#169C86" stroke-width="2.6" stroke-linejoin="round"/><path d="M33.80,35.00 L44.37,36.71 A8.60,8.60 0 1 1 34.41,45.69 Z" fill="#F2A93B" stroke="#F2A93B" stroke-width="2.6" stroke-linejoin="round"/></svg>
+      <span>Monarc Build</span>
+    </div>
+    <div class="from">Monarc Build, LLC<br>Riva, Maryland<br>jonathan@monarcbuild.com<br>monarcbuild.com</div>
+  </div>
+  <div>
+    <h1>Invoice preview</h1>
+    <div class="note">A preview of the first invoice. The one you pay comes from Stripe by email, with its number and a pay link.</div>
+  </div>
+</header>
+
+<div class="cols">
+  <div>
+    <div class="label">Bill to</div>
+    Jonathan Beach<br>Monarc Build<br>jonathan@monarcbuild.com
+  </div>
+  <table class="facts" style="width:auto">
+    <tr><td>Issued</td><td>October 5, 2026</td></tr>
+    <tr><td>Due</td><td>October 12, 2026</td></tr>
+    <tr><td>Terms</td><td>Due in 7 days</td></tr>
+  </table>
+</div>
+
+<table class="lines">
+  <tr><th>What</th><th class="n">Qty</th><th class="n">Price</th><th class="n">Amount</th></tr>
+  <tr>
+    <td>Outreach, month one
+      <small>Intake, the list, the messages, the sending, the rehearsal, the record, the hand-off page, and the first monthly check. As set out in the proposal of October 5, 2026.</small></td>
+    <td class="n">1</td><td class="n">$4,859.00</td><td class="n">$4,859.00</td>
+  </tr>
+</table>
+
+<table class="sum">
+  <tr><td>Subtotal</td><td>$4,859.00</td></tr>
+  <tr class="due"><td>Amount due</td><td>$4,859.00</td></tr>
+</table>
+
+<div class="terms">
+  <p>Pay by bank transfer or card from the link in the Stripe email.</p>
+  <p>Sales tax, if any applies, is shown on the Stripe invoice.</p>
+  <p>Billed on the first of each month after this one. Month to month. Either side may end it with 30 days written notice.</p>
+</div>
+
+<footer>Jonathan Beach, Founder, Monarc Build &nbsp;·&nbsp; jonathan@monarcbuild.com &nbsp;·&nbsp; monarcbuild.com</footer>
+</body>
+</html>

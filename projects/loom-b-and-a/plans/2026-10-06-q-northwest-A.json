@@ -1,0 +1,239 @@
+{
+ "out": "media/loom-ba/2026-10-06/q-northwest/q-northwest-loom-ba.mp4",
+ "states_dir": "media/looms/q-northwest-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "qnorthwest.com",
+ "url": "https://www.qnorthwest.com/residential",
+ "render": "projects/Landing Page Build/prospects/q-northwest/index.html",
+ "folder": "media/looms/62f8953c-turn-google-landing-pages-into-phone-calls",
+ "why": "Qnorthwest audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-q-northwest.md: the hero changes made on their live residential page one by one as he names them, then the rebuilt lighting control page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:32:745",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 4.5,
+ "end_at": 222.0,
+ "pause": 0.5,
+ "cuts": [
+  [
+   43.45,
+   45.35,
+   "a lead-in said again a few lines later (so starting off)"
+  ],
+  [
+   134.83,
+   150.2,
+   "a recap of the section order that comes out garbled (so like they go from here a section to exactly what it is to offer, to broken down how the service kind of operates in their home, so the outcomes they would, they would get, and then right below that); not accurate as said"
+  ],
+  [
+   195.6,
+   198.6,
+   "a pause and a 'mm' with nothing in it"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "yet?": "yet.",
+  "Loud": "Loudspeaker,",
+  "Speaker": "",
+  "monogrome": "monochrome."
+ },
+ "changes": [
+  {
+   "at": 60.45,
+   "kind": "image",
+   "selector": ".gallery-fullscreen-slideshow",
+   "file": "projects/Landing Page Build/prospects/q-northwest/assets/hero.jpg"
+  },
+  {
+   "at": 60.46,
+   "kind": "css",
+   "selector": ".gallery-fullscreen-slideshow-item, .gallery-fullscreen-slideshow-controls",
+   "style": "opacity: 0 !important; visibility: hidden !important"
+  },
+  {
+   "at": 60.47,
+   "kind": "css",
+   "selector": ".gallery-fullscreen-slideshow",
+   "style": "background-position: 50% 45% !important; background-size: cover !important"
+  },
+  {
+   "at": 64.43,
+   "kind": "css",
+   "selector": "section.gallery-section .content-wrapper, section.gallery-section .content, section.gallery-section .gallery-section-wrapper, section.gallery-section .gallery, .gallery-fullscreen-slideshow, .gallery-fullscreen-slideshow-wrapper, .gallery-fullscreen-slideshow-list",
+   "style": "height: 605px !important; min-height: 605px !important; max-height: none !important"
+  },
+  {
+   "at": 64.44,
+   "kind": "css",
+   "selector": "section.gallery-section",
+   "style": "height: 780px !important; min-height: 780px !important; position: relative !important; z-index: 10 !important"
+  },
+  {
+   "at": 71.36,
+   "kind": "css",
+   "selector": "section.gallery-section + section.page-section",
+   "style": "margin-top: -605px !important; min-height: 605px !important; position: relative !important; z-index: 11 !important; background: transparent !important"
+  },
+  {
+   "at": 71.37,
+   "kind": "hide",
+   "selector": "section.gallery-section + section.page-section > .section-background, section.gallery-section + section.page-section > .section-border, section.gallery-section + section.page-section .section-divider-display"
+  },
+  {
+   "at": 71.38,
+   "kind": "css",
+   "selector": ".gallery-fullscreen-slideshow",
+   "style": "box-shadow: inset 0 0 0 3000px rgba(18,19,22,0.71) !important"
+  },
+  {
+   "at": 71.39,
+   "kind": "css",
+   "selector": "section.gallery-section + section.page-section h2, section.gallery-section + section.page-section p",
+   "style": "color: #FFFFFF !important; margin-top: 0 !important"
+  },
+  {
+   "at": 71.4,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Seattle"
+  },
+  {
+   "at": 71.41,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 71.42,
+   "kind": "center"
+  },
+  {
+   "at": 71.43,
+   "kind": "css",
+   "selector": "section.gallery-section + section.page-section p:not([data-mb-eyebrow])",
+   "style": "margin-top: 45px !important"
+  },
+  {
+   "at": 78.98,
+   "kind": "font",
+   "selector": "head > title",
+   "family": "Montserrat",
+   "weight": 600
+  },
+  {
+   "at": 78.99,
+   "kind": "eyebrow",
+   "text": "Lighting control for homeowners"
+  },
+  {
+   "at": 79.01,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family: Montserrat, Arial, sans-serif !important; font-size: 14px !important; font-weight: 600 !important; letter-spacing: 2.24px !important; line-height: 19.6px !important; color: #A9C3D3 !important; text-transform: uppercase !important; margin: 0 0 26px !important"
+  },
+  {
+   "at": 79.02,
+   "kind": "css",
+   "selector": "section.gallery-section + section.page-section p:not([data-mb-eyebrow])",
+   "style": "margin-top: 0 !important"
+  },
+  {
+   "at": 81.96,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family: Montserrat, Arial, sans-serif !important; font-size: 14px !important; font-weight: 600 !important; letter-spacing: 2.24px !important; line-height: 19.6px !important; color: #A9C3D3 !important; text-transform: uppercase !important; margin: 0 0 26px !important"
+  },
+  {
+   "at": 86.42,
+   "kind": "font",
+   "selector": "head > title",
+   "family": "Poppins",
+   "weight": 400
+  },
+  {
+   "at": 86.43,
+   "kind": "copy",
+   "selector": "section.gallery-section + section.page-section p:not([data-mb-eyebrow])",
+   "keep": "Every light in the house on keypads, scenes, and schedules. Designed and installed by our team for new construction and remodels."
+  },
+  {
+   "at": 86.45,
+   "kind": "css",
+   "selector": "section.gallery-section + section.page-section p:not([data-mb-eyebrow])",
+   "style": "font-family: Poppins, Arial, sans-serif !important; font-weight: 400 !important; letter-spacing: normal !important; font-size: 21px !important; line-height: 31.5px !important; max-width: 640px !important; color: rgba(255,255,255,0.9) !important"
+  },
+  {
+   "at": 96.72,
+   "kind": "cta",
+   "text": "Book a meeting",
+   "background": "#2F4858",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 96.73,
+   "kind": "css",
+   "selector": "[data-mb-cta]",
+   "style": "position: absolute !important; top: calc(100% - 69px) !important; left: 50% !important; transform: translateX(-50%) !important; margin: 0 !important"
+  },
+  {
+   "at": 102.58,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 113.2,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 132.19,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 165.71,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 167.71,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 175.52,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 179.82,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 190.59,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 198.77,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 205.55,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 214.74,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

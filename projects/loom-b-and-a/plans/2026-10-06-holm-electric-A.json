@@ -1,0 +1,270 @@
+{
+ "out": "media/loom-ba/2026-10-06/holm-electric/holm-electric-loom-ba.mp4",
+ "states_dir": "media/looms/holm-electric-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "holmelectric.com",
+ "url": "https://holmelectric.com/residential/",
+ "render": "projects/Landing Page Build/prospects/holm-electric/index.html",
+ "folder": "media/looms/56cfa2fd-boost-conversions-with-high-ticket-service-pages",
+ "why": "Holm Electric's cold audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-holm-electric.md: the first-screen changes made on their live residential page one by one as he names them, then the rebuilt lighting control page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "240:240:34:746",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.9,
+ "end_at": 280.6,
+ "pause": 0.5,
+ "cuts": [
+  [
+   17.136,
+   18.3,
+   "'It'll take about three minutes': not accurate, the cut runs past three"
+  ],
+  [
+   60.656,
+   62.5,
+   "'Let's just do it control, let's high-tick an item': lighting control as the high-ticket item is said at 0:34; misheard besides"
+  ],
+  [
+   75.15,
+   76.19,
+   "'Obviously a better thing': does no work"
+  ],
+  [
+   132.3,
+   141.1,
+   "a false start he corrects in the same breath ('a portfolio section. I'm sorry, services. So hero services, then about us')"
+  ],
+  [
+   150.03,
+   150.51,
+   "one word the transcript could not make out ('chatting'); cut rather than guessed"
+  ],
+  [
+   171.7,
+   173.33,
+   "'Something like An': a lead-in with nothing in it"
+  ],
+  [
+   188.86,
+   195.25,
+   "'these little changes can be worth lots of money over time and it basically pays for itself': a claim with nothing on screen"
+  ],
+  [
+   265.7,
+   268.4,
+   "'Robert Cialdini. Okay': a name with nothing on screen"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "hour": "our",
+  "week,15": "week, 15",
+  "L": "LTV.",
+  "T": "",
+  "V.": ""
+ },
+ "changes": [
+  {
+   "at": 46.13,
+   "kind": "header"
+  },
+  {
+   "at": 49.76,
+   "kind": "css",
+   "selector": ".header-desktop, .header-desktop > .inner, .header-desktop-empty-space",
+   "style": "height:81px !important;min-height:0 !important;padding-top:0 !important;padding-bottom:0 !important"
+  },
+  {
+   "at": 49.76,
+   "kind": "css",
+   "selector": ".header-desktop .logo-container",
+   "style": "height:81px !important;margin-top:0 !important;margin-bottom:0 !important;top:0 !important;display:flex !important;align-items:center !important"
+  },
+  {
+   "at": 49.76,
+   "kind": "css",
+   "selector": ".header-desktop img.logo",
+   "style": "height:46px !important;width:auto !important;margin:0 !important;top:0 !important"
+  },
+  {
+   "at": 54.9,
+   "kind": "css",
+   "selector": ".residential-empty-space-above",
+   "style": "height:0 !important"
+  },
+  {
+   "at": 54.9,
+   "kind": "css",
+   "selector": ".residential-container",
+   "style": "height:700px !important;min-height:700px !important;background-color:#121316 !important;overflow:hidden !important"
+  },
+  {
+   "at": 54.9,
+   "kind": "css",
+   "selector": ".residential-container .bg-blue",
+   "style": "display:none !important"
+  },
+  {
+   "at": 57.7,
+   "kind": "image",
+   "selector": ".residential-container",
+   "file": "projects/Landing Page Build/prospects/holm-electric/assets/hero.jpg"
+  },
+  {
+   "at": 57.7,
+   "kind": "css",
+   "selector": ".residential-container",
+   "style": "background-position:50% 45% !important;background-size:cover !important"
+  },
+  {
+   "at": 57.7,
+   "kind": "css",
+   "selector": ".residential-container .interactive-img-container, img.circle-tab",
+   "style": "display:none !important"
+  },
+  {
+   "at": 57.7,
+   "kind": "css",
+   "selector": ".residential-container .bg-blue",
+   "style": "display:block !important;top:0 !important;left:0 !important;right:0 !important;bottom:0 !important;width:100% !important;height:100% !important;background:linear-gradient(180deg,rgba(18,19,22,.80),rgba(18,19,22,.62)) !important;z-index:1 !important"
+  },
+  {
+   "at": 79.18,
+   "kind": "css",
+   "style": "position:fixed !important;left:50% !important;top:252px !important;transform:translateX(-50%) !important;width:900px !important;max-width:900px !important;height:auto !important;margin:0 !important;padding:0 !important;background:transparent !important;border:0 !important;box-shadow:none !important;color:#FFFFFF !important;text-align:center !important;white-space:normal !important;display:block !important;z-index:20 !important"
+  },
+  {
+   "at": 79.18,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Lake Tahoe"
+  },
+  {
+   "at": 79.18,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": "300&family=Newsreader:opsz,wght@6..72,300"
+  },
+  {
+   "at": 79.18,
+   "kind": "css",
+   "style": "font-family:\"Newsreader\", Georgia, \"Times New Roman\", serif !important;font-optical-sizing:auto !important;font-weight:300 !important;letter-spacing:-0.72px !important"
+  },
+  {
+   "at": 85.14,
+   "kind": "eyebrow",
+   "text": "Lake Tahoe homeowners, architects, and builders",
+   "color": "#799EC8"
+  },
+  {
+   "at": 85.14,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "position:fixed !important;left:50% !important;top:207px !important;transform:translateX(-50%) !important;width:max-content !important;margin:0 !important;padding:0 !important;font:600 14px/19.6px Poppins, Arial, sans-serif !important;letter-spacing:2.24px !important;text-transform:uppercase !important;color:#799EC8 !important;text-align:center !important;white-space:nowrap !important;z-index:20 !important"
+  },
+  {
+   "at": 96.24,
+   "kind": "cta",
+   "selector": ".header-desktop a.menu-item[href=\"https://holmelectric.com/projects/\"]",
+   "text": "Book a meeting",
+   "background": "#4A78B0",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 96.24,
+   "kind": "css",
+   "selector": ".header-desktop a.menu-item[href=\"https://holmelectric.com/projects/\"]",
+   "style": "position:fixed !important;left:50% !important;top:591px !important;transform:translateX(-50%) !important;margin:0 !important;border:0 !important;box-shadow:none !important;z-index:20 !important"
+  },
+  {
+   "at": 103.7,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 105.94,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 106.58,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 106.98,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 107.94,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 113.31,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 122.58,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 141.1,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 160.37,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 163.01,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 173.38,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 198.96,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 215.65,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 230.93,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 235.6,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 238.11,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 250.35,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

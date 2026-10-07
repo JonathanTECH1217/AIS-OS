@@ -1,0 +1,25 @@
+{
+ "_about": "The 20 Premier League clubs of 2026-27 and how each source spells them (built 2026-10-04 by scripts/kalshi_api.py's sibling task, no API-Football key yet). name: our spelling. fd: football-data.co.uk (mmz4281/2627/E0.csv, read 2026-10-04). kalshi: the code at the end of a KXEPLGAME market ticker (the names in yes_sub_title are in aliases or match name/fd). poly: the code in a Polymarket event slug like epl-cry-not-2026-10-11 (their titles carry FC/AFC, which edge_common.norm drops). api_id: API-Football team id, filled once the key is in (python scripts/api_football.py teams). Every spelling here resolves through edge_common.resolve_team; add an alias when a new one shows up, never a second row.",
+ "teams": [
+  {"api_id": null, "name": "Arsenal", "fd": "Arsenal", "kalshi": "ARS", "poly": "ars", "aliases": ["Arsenal FC", "Gunners"]},
+  {"api_id": null, "name": "Aston Villa", "fd": "Aston Villa", "kalshi": "AVL", "poly": "ast", "aliases": ["Aston Villa FC", "Villa"]},
+  {"api_id": null, "name": "Bournemouth", "fd": "Bournemouth", "kalshi": "BOU", "poly": "bou", "aliases": ["AFC Bournemouth", "Bournemouth AFC", "Cherries"]},
+  {"api_id": null, "name": "Brentford", "fd": "Brentford", "kalshi": "BRE", "poly": "bre", "aliases": ["Brentford FC", "Bees"]},
+  {"api_id": null, "name": "Brighton", "fd": "Brighton", "kalshi": "BRI", "poly": "bri", "aliases": ["Brighton & Hove Albion", "Brighton & Hove Albion FC", "Brighton and Hove Albion", "Brighton Hove Albion", "Seagulls"]},
+  {"api_id": null, "name": "Chelsea", "fd": "Chelsea", "kalshi": "CFC", "poly": "che", "aliases": ["Chelsea FC", "Blues"]},
+  {"api_id": null, "name": "Coventry City", "fd": "Coventry", "kalshi": "COV", "poly": "cov", "aliases": ["Coventry", "Coventry City FC", "Sky Blues"]},
+  {"api_id": null, "name": "Crystal Palace", "fd": "Crystal Palace", "kalshi": "CRY", "poly": "cry", "aliases": ["Crystal Palace FC", "Palace", "Eagles"]},
+  {"api_id": null, "name": "Everton", "fd": "Everton", "kalshi": "EVE", "poly": "eve", "aliases": ["Everton FC", "Toffees"]},
+  {"api_id": null, "name": "Fulham", "fd": "Fulham", "kalshi": "FUL", "poly": "ful", "aliases": ["Fulham FC", "Cottagers"]},
+  {"api_id": null, "name": "Hull City", "fd": "Hull", "kalshi": "HUL", "poly": "hul", "aliases": ["Hull", "Hull City AFC", "Tigers"]},
+  {"api_id": null, "name": "Ipswich Town", "fd": "Ipswich", "kalshi": "IPS", "poly": "ips", "aliases": ["Ipswich", "Ipswich Town FC", "Tractor Boys"]},
+  {"api_id": null, "name": "Leeds United", "fd": "Leeds", "kalshi": "LEE", "poly": "lee", "aliases": ["Leeds", "Leeds United FC", "Leeds Utd"]},
+  {"api_id": null, "name": "Liverpool", "fd": "Liverpool", "kalshi": "LFC", "poly": "liv", "aliases": ["Liverpool FC", "Reds"]},
+  {"api_id": null, "name": "Manchester City", "fd": "Man City", "kalshi": "MCI", "poly": "mac", "aliases": ["Manchester City FC", "Man City", "City"]},
+  {"api_id": null, "name": "Manchester United", "fd": "Man United", "kalshi": "MUN", "poly": "mun", "aliases": ["Manchester United FC", "Man United", "Man Utd", "Manchester Utd", "United"]},
+  {"api_id": null, "name": "Newcastle United", "fd": "Newcastle", "kalshi": "NEW", "poly": "new", "aliases": ["Newcastle", "Newcastle United FC", "Newcastle Utd", "Magpies"]},
+  {"api_id": null, "name": "Nottingham Forest", "fd": "Nott'm Forest", "kalshi": "NFO", "poly": "not", "aliases": ["Nottm Forest", "Forest", "Nottingham Forest FC", "Nottingham"]},
+  {"api_id": null, "name": "Sunderland", "fd": "Sunderland", "kalshi": "SUN", "poly": "sun", "aliases": ["Sunderland AFC", "Black Cats"]},
+  {"api_id": null, "name": "Tottenham", "fd": "Tottenham", "kalshi": "TOT", "poly": "tot", "aliases": ["Tottenham Hotspur", "Tottenham Hotspur FC", "Spurs"]}
+ ]
+}

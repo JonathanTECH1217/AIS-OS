@@ -1,0 +1,13 @@
+{
+  "batch": "2026-09-26 SEO card 1 redo (Jonathan: the home service icon needs to be better; Show the trades), requested as nano_banana_pro, 2k, 1:1, four generations, 8 credits",
+  "prompts": {
+    "seo/card-1-trades-a": "A single glossy 3D cartoon icon of a map location pin whose round head holds a small white house with an indigo roof; clustered around the base of the pin, four small trade tools that stand for the home service trades: a wrench (plumbing), a lightning bolt (electrical), a stack of roof shingles (roofing), and a small fan (HVAC). Pale lavender #EEF2FF ground, indigo #4F46E5 and white, no text.",
+    "seo/card-1-trades-b": "A large indigo map location pin standing on a small round platform, with a tiny home in front of it and four little trade tools leaning against the home: a wrench, a lightning bolt, roof shingles, and a small fan. Pale lavender #EEF2FF ground, indigo #4F46E5 and white, no text."
+  },
+  "jobs": [
+    {"index": 0, "file": "seo/card-1-5.jpg", "job_id": "827c7dce-d7b0-4daa-bd30-5be43e56dba2", "prompt": "seo/card-1-trades-a"},
+    {"index": 1, "file": "seo/card-1-6.jpg", "job_id": "d1b49dc6-0978-46f6-b062-b1dde6a68a19", "prompt": "seo/card-1-trades-a"},
+    {"index": 2, "file": "seo/card-1-7.jpg", "job_id": "849c8619-eb06-4420-a42f-e1119a29841a", "prompt": "seo/card-1-trades-b"},
+    {"index": 3, "file": "seo/card-1-8.jpg", "job_id": "9ff68140-58b1-4e5f-98fd-186cd61a49c4", "prompt": "seo/card-1-trades-b"}
+  ]
+}

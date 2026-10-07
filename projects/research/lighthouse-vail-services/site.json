@@ -1,0 +1,79 @@
+{
+ "read": "2026-10-06",
+ "url": "https://lighthouse-lights.com/services/",
+ "title": "SERVICES - Lighthouse Outdoor Lighting",
+ "description": "",
+ "words": 783,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "RESIDENTIAL OUTDOOR LIGHTING DESIGN"
+  },
+  {
+   "tag": "h2",
+   "text": "OUTDOOR LIGHTING DESIGN SERVICES"
+  },
+  {
+   "tag": "h2",
+   "text": "OUTDOOR LIGHTING INSTALLATION"
+  },
+  {
+   "tag": "h2",
+   "text": "OUTDOOR LIGHTING SYSTEM LEGACY CARE"
+  },
+  {
+   "tag": "h2",
+   "text": "HOLIDAY & EVENT OUTDOOR LIGHTING"
+  },
+  {
+   "tag": "h2",
+   "text": "Quick Links"
+  },
+  {
+   "tag": "h2",
+   "text": "Office Locations"
+  },
+  {
+   "tag": "h2",
+   "text": "Join Our Email List"
+  },
+  {
+   "tag": "h2",
+   "text": "Quick Links"
+  },
+  {
+   "tag": "h2",
+   "text": "Office Locations"
+  },
+  {
+   "tag": "h2",
+   "text": "Join Our Email List"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#ffffff",
+  "#2ea3f2",
+  "#000000",
+  "#a3a786",
+  "#5b5453",
+  "#164e4e",
+  "#7ebec5",
+  "#a3a585",
+  "#fefefe",
+  "#e0e0e0"
+ ],
+ "faces": [
+  "Cormorant Garamond",
+  "Courier New",
+  "ETmodules",
+  "ETmodules!important",
+  "Figtree",
+  "Open Sans",
+  "inherit"
+ ],
+ "social": [
+  "https://www.facebook.com/tr"
+ ],
+ "pictures": []
+}

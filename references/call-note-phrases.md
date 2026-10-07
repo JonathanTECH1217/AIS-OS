@@ -1,0 +1,293 @@
+# Call note phrases (Monarc Calls)
+
+The words Monarc Calls listens for to make key notes during a call (`scripts/calls_notes.py`, 2026-10-03). Jonathan's file: add a line when it misses something, cut a line when it catches junk. The next session reads it.
+
+How a line works:
+- One phrase per line, starting with "- ". Any case. It matches whole words: "booked up" catches "we're pretty booked up", not "booked upstairs".
+- `*` stands for any one word: "short on *" catches "short on guys" and "short on techs".
+- Offering, Constraint, Objection: the phrase alone is enough.
+- Services and brands: only count as an offering when the same sentence also says we, we're, our or us ("we do a lot of Control4"). Your own pitch names services too, so this keeps it out.
+- Ignore: a sentence holding any of these is yours (one mic hears both sides), so it never makes an offering, constraint or objection note. Emails, names and phone numbers are still caught in it.
+- Not names: words the name finder must never take for a person's name.
+
+Seeded from the 2026-09-28 session (its calls and the objections Claude marked in it), `references/cold-call-principles.md` and `context/icp-brands.md`.
+
+## Offering
+- we do
+- we install
+- we specialize
+- we mostly do
+- we're mostly
+- we are mostly
+- we also do
+- we work on
+- we service
+- mostly residential
+- mostly commercial
+- residential and commercial
+- commercial and residential
+- mixed residential
+- mixed commercial
+- high end residential
+- custom homes
+- new construction
+- we do starters
+- we're a dealer
+- we're an authorized
+
+## Services and brands (offering only with we, our or us in the same sentence)
+- residential
+- commercial
+- industrial
+- marine
+- retrofit
+- remodel
+- service calls
+- generators
+- generator
+- solar
+- EV charging
+- EV chargers
+- panel upgrades
+- panel upgrade
+- lighting
+- lighting control
+- shades
+- motorized shades
+- home theater
+- theaters
+- media rooms
+- audio
+- audio video
+- AV
+- smart home
+- automation
+- home automation
+- low voltage
+- networking
+- wifi
+- security
+- cameras
+- surveillance
+- access control
+- structured wiring
+- motor repair
+- Crestron
+- Control4
+- Savant
+- Josh.ai
+- Lutron
+- HomeWorks
+- RadioRA
+- Elan
+- URC
+- RTI
+- Vantage
+- Loxone
+- Ketra
+- Somfy
+- Hunter Douglas
+- Sonos
+- Sonance
+- James Loudspeaker
+- Origin Acoustics
+- Triad
+- Episode
+- SpeakerCraft
+- Russound
+- Bowers & Wilkins
+- KEF
+- Focal
+- Paradigm
+- Anthem
+- McIntosh
+- Bang & Olufsen
+- Steinway Lyngdorf
+- Trinnov
+- Kaleidescape
+- Sony
+- Samsung
+- Stewart Filmscreen
+- Screen Innovations
+- Araknis
+- Ubiquiti
+- Ruckus
+- Access Networks
+- Pakedge
+- Luxul
+- WattBox
+- Alarm.com
+- Qolsys
+- Generac
+- Enphase
+- Span
+- D-Tools
+
+## Constraint
+- booked up
+- pretty booked
+- booked out
+- fully booked
+- overbooked
+- backed up
+- months behind
+- weeks behind
+- * months out
+- full schedule
+- schedule is full
+- we're full
+- full up
+- at capacity
+- more work than we
+- more work than we know what to do with
+- all backed up
+- can't find anybody
+- can't find anyone
+- can't find people
+- can't find good help
+- can't find techs
+- can't find guys
+- hard to find
+- short on *
+- short handed
+- shorthanded
+- not enough guys
+- not enough people
+- not enough techs
+- need more guys
+- need more people
+- need more techs
+- waiting on
+- hiring
+- trying to hire
+- recruitment
+- takes too long to train
+- cost to train
+- it's just me
+- just me and
+- me and my dad
+- me and dad
+- me and my brother
+- two man
+- small shop
+- everybody's in the field
+- everyone's in the field
+- out in the field
+- don't have an email
+- no time
+- too busy
+
+## Objection
+- not interested
+- probably not interested
+- no thank you
+- no, thank you
+- we're good
+- we are good
+- we're good for now
+- all set
+- we're all set
+- calls like this
+- get calls like this
+- handling it ourselves
+- handle it ourselves
+- we handle it
+- we do it ourselves
+- do our own marketing
+- do it in house
+- in house
+- we have a marketer
+- we have a marketing
+- we already have
+- we have a guy
+- we have someone
+- we've got someone
+- we got a guy
+- we use a company
+- we work with a company
+- send me an email
+- send me some info
+- send me something
+- just email me
+- email me
+- walk in the door
+- word of mouth
+- referral
+- referrals
+- all referral
+- happy with
+- happy where we are
+- not looking
+- next year
+- not right now
+- not at this time
+- maybe later
+- don't need
+- no budget
+- too expensive
+- can't afford
+- take a message
+- not in today
+- he's not in
+- she's not in
+- he's out
+- owner's not
+- call back later
+- we tried
+- didn't work
+- got burned
+- less is more
+- been doing it
+- years doing it
+- don't call
+
+## Ignore
+- you guys
+- your guys
+- your
+- do you
+- are you
+- were you
+- if you
+- is that something
+- landing page
+- landing pages
+- google ads
+- monarch build
+- monarc build
+- monarch
+- monarc
+- cold call
+- hang up
+- I used to
+- I worked
+- I did the
+- make more money
+- make you more money
+- make you guys
+- fifteen minutes
+- 15 minutes
+- I got an offer
+- I've got an offer
+- I have an offer
+- got something to offer
+- this is Jonathan
+- my name's Jonathan
+- top of funnel
+- I'm a marketer
+- I want to help
+
+## Not names
+- Jonathan
+- Patrick
+- Monarch
+- Monarc
+- Build
+- Google
+- Okay
+- Yeah
+- Sir
+- Thanks
+- Bye
+- Hello
+- Hey

@@ -1,0 +1,66 @@
+{
+ "out": "media/looms/momentum-2026-10-05/short-before-after.mp4",
+ "idea": "the first screen of a landing page, said to home service companies",
+ "before": {
+  "folder": "media/looms/ba7df3a7-momentum",
+  "still_at": 25.0
+ },
+ "after": {
+  "folder": "media/looms/44a700d9-momentum-after",
+  "still_at": 62.0
+ },
+ "pause": 0.5,
+ "segments": [
+  [
+   "before",
+   0.5,
+   4.71
+  ],
+  [
+   "before",
+   23.81,
+   29.7
+  ],
+  [
+   "before",
+   36.4,
+   43.5
+  ],
+  [
+   "before",
+   73.9,
+   80.3
+  ],
+  [
+   "after",
+   54.8,
+   61.1
+  ],
+  [
+   "after",
+   81.7,
+   87.0
+  ],
+  [
+   "after",
+   87.0,
+   91.8
+  ],
+  [
+   "after",
+   123.6,
+   131.6
+  ]
+ ],
+ "close": [
+  [
+   "after",
+   86.9,
+   135.0
+  ]
+ ],
+ "fixes": {
+  "homeloading": "Home lighting",
+  "forum": "form"
+ }
+}

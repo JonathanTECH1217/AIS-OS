@@ -1,0 +1,479 @@
+{
+  "_about": "The journey map on the CRM's Pipeline page (Jonathan, 2026-10-01). One node per acquisition channel, top of the funnel first, in his order. sources: the CRM channels (Source.Name) and, with pick, which of their campaigns belong here (a regular expression on the campaign name). A node is in color when one of those campaigns is Live. tasks: what it takes to get the channel running (the card ticks them here). artifacts: what the channel needs to work, shown in the card's deeper view; kind files lists paths or globs from the repo root (path#Heading shows one section), the other kinds are read by scripts/crm_server.py. Edited by hand or by the AIOS; the CRM writes only the done flags.",
+  "nodes": [
+    {
+      "key": "google-ads",
+      "label": "Google Ads",
+      "sources": [
+        {
+          "channel": "google-ads"
+        }
+      ],
+      "tasks": [
+        {
+          "text": "Billing fixed on the Ads account.",
+          "who": "you",
+          "done": true
+        },
+        {
+          "text": "A test booking reached Airtable with Google's tags.",
+          "who": "you",
+          "done": true
+        },
+        {
+          "text": "Remove the /book page view as a conversion in Google Ads (Goals, Summary, click it, Remove). The last gate before Go live.",
+          "who": "you",
+          "done": true
+        },
+        {
+          "text": "Press Go live on 07 AV marketing (Channels, Google Ads, open 07). It is built and paused at $30 a day.",
+          "who": "you",
+          "done": true
+        },
+        {
+          "text": "Say go to publish 01, 02, 04, 05, and 06 (built paused, one test slot at a time).",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Landing pages, per campaign",
+          "kind": "ads-pages"
+        }
+      ]
+    },
+    {
+      "key": "linkedin-ads",
+      "label": "LinkedIn ads",
+      "sources": [
+        {
+          "channel": "linkedin",
+          "pick": "matched|\\bads?\\b"
+        }
+      ],
+      "tasks": [
+        {
+          "text": "Upload the matched company list to Campaign Manager.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Write the ad copy.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Set the budget and start the campaign.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Ad copy",
+          "kind": "files",
+          "paths": [
+            "projects/linkedin-ads/*.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "Matched company list",
+          "kind": "files",
+          "paths": [
+            "projects/outreach/linkedin-company-list-2026-09-24-integrators-full.csv"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cold-email",
+      "label": "Cold email",
+      "sources": [
+        {
+          "channel": "email"
+        }
+      ],
+      "produce": [
+        "Booked 15-minute calls from cold email to integrators and electricians."
+      ],
+      "tasks": [
+        {
+          "text": "Write the cold email copy: the first email and two follow-ups. None is written yet; you see the drafts first.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Pick the list: the integrators with an owner name and an email (the strong Meta customer list).",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Send from a separate domain and inbox, warmed up first, so jonathan@monarcbuild.com stays clean.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Cold email copy",
+          "kind": "files",
+          "paths": [
+            "templates/cold-email*.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "The list",
+          "kind": "files",
+          "paths": [
+            "projects/outreach/meta-customer-list-2026-09-24-integrators-strong.csv"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "organic",
+      "label": "Organic",
+      "sources": [
+        {
+          "channel": "google-organic"
+        }
+      ],
+      "show": "pages",
+      "tasks": [
+        {
+          "text": "Get the business name, address, and phone listed the same way across the directories (NAP citations, on Channels, Google Organic).",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Web pages",
+          "kind": "site-pages"
+        },
+        {
+          "title": "Page copy",
+          "kind": "files",
+          "paths": [
+            "projects/Landing Page Build/pages/*.md",
+            "projects/Landing Page Build/Section Spec.md"
+          ]
+        },
+        {
+          "title": "Listings and backlinks",
+          "kind": "listings"
+        }
+      ]
+    },
+    {
+      "key": "linkedin-inmail",
+      "label": "LinkedIn InMail",
+      "sources": [
+        {
+          "channel": "linkedin",
+          "pick": "messag|inmail"
+        }
+      ],
+      "tasks": [
+        {
+          "text": "Wire Patrick's sheet into the CRM, so his connects, replies, and bookings count here. Patrick runs the messages and logs them in a sheet today.",
+          "who": "AIOS",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Connect and respond messages",
+          "kind": "messages"
+        }
+      ]
+    },
+    {
+      "key": "cold",
+      "label": "Cold calling",
+      "sources": [
+        {
+          "channel": "cold"
+        }
+      ],
+      "quota": true,
+      "produce": [
+        "The daily quota: every weekday's dials, met.",
+        "The second window (2026-10-03): the free search check and campaign file, a Google review after each, 12 to 15 reviews in two weeks (projects/free-campaign/README.md)."
+      ],
+      "tasks": [
+        {
+          "text": "Approve the second-window call script (references/free-campaign-call-script.md) and the two emails (templates/free-campaign-delivery-email.md, free-campaign-review-ask.md).",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Open the DataForSEO account ($50) and put DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD in secrets.env, so the audit reads the real Google page.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Log the second window's calls in the Prospects table \"Free campaign calls\": pick the company, type the outcome, the email. A yes builds the delivery.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Build every yes (python scripts/free_campaign.py queue), draft the delivery and, two days after it is sent, the review ask; read the Sent folder back.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Approve the first three deliveries in the CRM (the row's Stage to Approved), then send each draft from Proton.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Script",
+          "kind": "files",
+          "paths": [
+            "references/voice.md#Sample 1: cold call script",
+            "references/cold-call-principles.md"
+          ]
+        },
+        {
+          "title": "The second window: the free-campaign call, the plan, the two emails",
+          "kind": "files",
+          "paths": [
+            "references/free-campaign-call-script.md",
+            "projects/free-campaign/README.md",
+            "templates/free-campaign-delivery-email.md",
+            "templates/free-campaign-review-ask.md"
+          ]
+        },
+        {
+          "title": "Objections",
+          "kind": "files",
+          "paths": [
+            "references/objections.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "Qualifying questions",
+          "kind": "files",
+          "paths": [
+            "references/qualifying-questions.md"
+          ],
+          "missing": "Not written yet."
+        }
+      ]
+    },
+    {
+      "key": "youtube",
+      "label": "YouTube ads",
+      "sources": [],
+      "produce": [
+        "Booked 15-minute calls from trades watching the channels and searches we pick."
+      ],
+      "tasks": [
+        {
+          "text": "Find the YouTube channels and the keyword phrases to advertise on.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Write the ad copy for the video.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Write the video script.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Record the video.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Build the campaign in Google Ads (YouTube runs there) and start it.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Ad copy and video script",
+          "kind": "files",
+          "paths": [
+            "projects/youtube-ads/*.md"
+          ],
+          "missing": "Not written yet."
+        }
+      ]
+    },
+    {
+      "key": "meta",
+      "label": "Meta ads",
+      "sources": [
+        {
+          "channel": "meta-ads",
+          "pick": "^Meta:"
+        }
+      ],
+      "produce": [
+        "Booked 15-minute calls from AV integrators who finish the builder search check on /builder-check/ (plan 2026-10-03, projects/meta-ads/README.md)."
+      ],
+      "tasks": [
+        {
+          "text": "Create the Meta accounts: Business Manager, the ad account with a payment method, the Page \"Monarc Build\" (butterfly profile photo), a linked Instagram, the Pixel. Send the AIOS the Pixel id and the ad account id.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Approve the three scripts (projects/meta-ads/scripts.md) and confirm the Georgian proof span.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Record three takes of each script: 4K vertical, a good mic, any room, each under 30 seconds, into media/inbox.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Higgsfield Ad Multiplier pass: the rack room and his wardrobe, every run quoted, 800 credits at most, frame QA, the raw take kept.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Cut, caption, and export the three ads in Monarc Studio.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Build /builder-check/ from projects/meta-ads/check.md once its style tile is approved; the Pixel on every page; the privacy lines; fbclid in the popup.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Approve the privacy lines and say go to push; republish the booking script, or move it and the calendar to jonathan@monarcbuild.com (tasks.md, Booker journey).",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Approve and post the three Page posts (projects/meta-ads/page-posts.md). The ad waits a week of Page age.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "A test booking on /builder-check/ with the Meta labels reaches Airtable; Events Manager shows Lead and Schedule; the campaign is built paused with its id in the row's Platform id.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Go live Tue 2026-10-20 at $30 a day. Read at $500 (about Nov 5). Stop at $1,000 unless one qualified booking was held.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Campaign brief",
+          "kind": "files",
+          "paths": [
+            "projects/meta-ads/README.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "Video scripts",
+          "kind": "files",
+          "paths": [
+            "projects/meta-ads/scripts.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "The builder search check (the page and the popup)",
+          "kind": "files",
+          "paths": [
+            "projects/meta-ads/check.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "Page posts before the ad",
+          "kind": "files",
+          "paths": [
+            "projects/meta-ads/page-posts.md"
+          ],
+          "missing": "Not written yet."
+        },
+        {
+          "title": "Customer list, round two (the lookalike seed)",
+          "kind": "files",
+          "paths": [
+            "projects/outreach/meta-customer-list-2026-09-24-integrators-strong.csv"
+          ],
+          "missing": "Not cut yet."
+        }
+      ]
+    },
+    {
+      "key": "organic-social",
+      "label": "Organic social",
+      "sources": [
+        {
+          "channel": "content"
+        },
+        {
+          "channel": "linkedin",
+          "pick": "posts?"
+        },
+        {
+          "channel": "meta-ads",
+          "pick": "^Facebook Page"
+        }
+      ],
+      "produce": [
+        "Status: proof you are on the phones every day. The cold call videos go here, and every other channel points to it."
+      ],
+      "tasks": [
+        {
+          "text": "Pick where the cold call videos go: LinkedIn, Instagram, Facebook, YouTube Shorts, TikTok.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Post the finished shorts from Monarc Studio (media/ready) through the scheduler.",
+          "who": "you",
+          "done": false
+        },
+        {
+          "text": "Point every channel at it: the profile link in the email signature, the site footer, and the ads.",
+          "who": "AIOS",
+          "done": false
+        },
+        {
+          "text": "Second input (2026-10-05): the Loom website reviews, cut into shorts by the Content Repurposer (before, the changes, the after). The tool is OpusClip (references/opusclip.md). Make the account, start Pro or its trial, and sign in through /mcp; then one review runs as the test.",
+          "who": "you",
+          "done": false
+        }
+      ],
+      "artifacts": [
+        {
+          "title": "Finished shorts",
+          "kind": "shorts"
+        },
+        {
+          "title": "How the shorts are made",
+          "kind": "files",
+          "paths": [
+            "references/studio.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

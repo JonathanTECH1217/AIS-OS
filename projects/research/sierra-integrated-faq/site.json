@@ -1,0 +1,128 @@
+{
+ "read": "2026-10-06",
+ "url": "https://sierraintegratedsystems.com/about-us/faq",
+ "title": "Smart Home & AV FAQ | Sierra Integrated Systems Nevada",
+ "description": "Have questions about smart home, AV, or lighting projects in Nevada or Tahoe? Get answers about services, scope, and working with Sierra Integrated Systems.",
+ "words": 1795,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Nevada’s Home Automation & AV Projects FAQs"
+  },
+  {
+   "tag": "h2",
+   "text": "Getting Started with Sierra Integrated Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Services, Scope, & System Capabilities"
+  },
+  {
+   "tag": "h2",
+   "text": "Project Timing & Collaborative Process"
+  },
+  {
+   "tag": "h2",
+   "text": "Support, Maintenance, & Existing Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "tag": "h2",
+   "text": "More Smart Home Installation Questions?"
+  },
+  {
+   "tag": "h3",
+   "text": "1. Early Design & Consultation"
+  },
+  {
+   "tag": "h3",
+   "text": "2. Trade Coordination & Building Codes"
+  },
+  {
+   "tag": "h3",
+   "text": "3. The Pre-Wire & Infrastructure Phase"
+  },
+  {
+   "tag": "h3",
+   "text": "4. Final Integration & Handover"
+  },
+  {
+   "tag": "h3",
+   "text": "How does the Tahoe climate affect outdoor AV and smart home equipment?"
+  },
+  {
+   "tag": "h3",
+   "text": "What are the Nevada requirements for integrated smart home security and fire monitoring?"
+  },
+  {
+   "tag": "h3",
+   "text": "How does a managed Wi-Fi network differ from a standard router in a large Lake Tahoe estate?"
+  },
+  {
+   "tag": "h3",
+   "text": "What is the benefit of hiring a professional integrator vs. buying smart devices at retail?"
+  },
+  {
+   "tag": "h3",
+   "text": "How can smart home technology improve energy efficiency in Nevada’s high-desert climate?"
+  },
+  {
+   "tag": "h3",
+   "text": "Does Sierra Integrated Systems provide 24/7 remote support for Reno residents?"
+  },
+  {
+   "tag": "h3",
+   "text": "Why should I involve a low-voltage contractor before my Nevada home’s drywall is installed?"
+  }
+ ],
+ "phones": [
+  "(775) 853-4800"
+ ],
+ "colors": [
+  "#eba900",
+  "#292929",
+  "#696969",
+  "#a0a0a0",
+  "#eba902",
+  "#f22121",
+  "#ffad45",
+  "#33c15e",
+  "#343a40",
+  "#f8f9fa"
+ ],
+ "faces": [
+  "Roboto",
+  "Roboto Condensed",
+  "Work Sans",
+  "var(--bs-font-sans-serif)"
+ ],
+ "social": [
+  "https://www.facebook.com/SierraIntegratedSystems/",
+  "https://www.linkedin.com/company/sierra-integrated-systems"
+ ],
+ "pictures": [
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/f9/logo-f9bfdada.png",
+   "alt": "Sierra Integrated Systems",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/56/SIS_Logo_Horz_White-56e8e91d.png",
+   "alt": "Sierra Integrated Systems",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/5d/logo-5df64691.png",
+   "alt": "Sierra Integrated Systems white logo",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/3f/Lutron-Black-Diamond-Dealer-2025-3f0be000.png",
+   "alt": "Lutron Black Diamond Dealer 2025",
+   "note": ""
+  }
+ ]
+}

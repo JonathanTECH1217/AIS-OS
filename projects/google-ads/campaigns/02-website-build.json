@@ -1,0 +1,229 @@
+{
+  "_note": "The one file the Ads screen and scripts/ads_publish.py read for this campaign. Keywords locked by Jonathan 2026-09-28 (keywords/picks.json). Negatives: every shared list whose 'Applies to' covers this campaign (negatives/shared-lists.md) plus negatives/website-build.md. Ad drafted 2026-09-28 from the brief and page spec, Jonathan's to approve. Approvals clear when what they cover changes.",
+  "nn": "02",
+  "service": "website-build",
+  "name": "02 Website build",
+  "brief": "projects/google-ads/campaigns/02-website-build.md",
+  "page": "https://monarcbuild.com/website-build/",
+  "page_label": "website_build",
+  "slot": "funded",
+  "daily_budget": 30,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "av integrator website design",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "website design for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "smart home company website design",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "low voltage contractor website design",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "electrician website design company",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "electrical contractor website design",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "hvac website design company",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "hvac web design",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "roofing website design company",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "plumbing website design company",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "contractor website design company",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "website design services for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "smart home installer website design",
+    "roofing web design company",
+    "plumber website design company"
+  ],
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/website-build.md"
+  },
+  "ad": {
+    "headlines": [
+      {
+        "text": "Contractor Website Design",
+        "pin": 1
+      },
+      {
+        "text": "Websites for AV Integrators",
+        "pin": 1
+      },
+      {
+        "text": "Electrician Website Design",
+        "pin": 1
+      },
+      {
+        "text": "HVAC Website Design",
+        "pin": 1
+      },
+      {
+        "text": "Roofing and Plumbing Websites",
+        "pin": 1
+      },
+      {
+        "text": "A Site That Books the Job",
+        "pin": 2
+      },
+      {
+        "text": "Smart Home Company Websites"
+      },
+      {
+        "text": "Book the Page Plan",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "A contractor website built to book the job. One page per service, three fields to book.",
+      "One page we built ranked #1 for whole home audio in Annapolis and found a $500k client.",
+      "Every form fill tagged with the page and the search it came from. You see what books.",
+      "Fifteen minutes. We walk your current site and you leave with the page plan."
+    ],
+    "path1": "Websites",
+    "path2": "Contractors"
+  },
+  "approvals": {
+    "negatives": {
+      "Builders, templates, and do it yourself": {
+        "at": "2026-09-29T17:51:25-04:00",
+        "by": "Jonathan",
+        "fp": "2239c9b5c51be4c9"
+      },
+      "Other design and tech work": {
+        "at": "2026-09-29T17:51:25-04:00",
+        "by": "Jonathan",
+        "fp": "fe9bc0e5cf03a470"
+      },
+      "From the research": {
+        "at": "2026-09-29T17:51:25-04:00",
+        "by": "Jonathan",
+        "fp": "031e7bc5ec1d7a10"
+      },
+      "Routing": {
+        "at": "2026-09-29T17:51:25-04:00",
+        "by": "Jonathan",
+        "fp": "3ab9de9a33a32338"
+      }
+    },
+    "keywords": {
+      "at": "2026-09-29T23:57:21-04:00",
+      "by": "Jonathan",
+      "fp": "8c67b2715254a557"
+    },
+    "ad": {
+      "at": "2026-09-29T23:57:36-04:00",
+      "by": "Jonathan",
+      "fp": "11d0ad034b124e02"
+    },
+    "spend": {
+      "at": "2026-09-29T23:57:45-04:00",
+      "by": "Jonathan",
+      "fp": "b644e0b25203f885"
+    }
+  },
+  "google": {},
+  "ad_bench": {
+    "headlines": [
+      {
+        "text": "Page 1 for Whole Home Audio"
+      },
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "One Page per Service"
+      },
+      {
+        "text": "One Page per Area"
+      },
+      {
+        "text": "Three Fields Above the Fold"
+      },
+      {
+        "text": "Every Lead Tagged by Page"
+      },
+      {
+        "text": "Fifteen Minutes, Bring Nothing",
+        "pin": 3
+      }
+    ],
+    "descriptions": []
+  }
+}

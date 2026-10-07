@@ -1,0 +1,340 @@
+{
+ "out": "media/loom-ba/2026-10-06/vme-electric/vme-electric-loom-ba.mp4",
+ "states_dir": "media/looms/vme-electric-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "vmeelectric.com",
+ "url": "https://vmeelectric.com/light-installations---vme-electrical-contractor-inc",
+ "render": "projects/Landing Page Build/prospects/vme-electric/index.html",
+ "folder": "media/looms/eab52faa-landing-page-redesign-for-lighting-installation",
+ "why": "The VME Electric audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-vme-electric.md: the header and hero changes made on their live light installations page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:31:745",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.6,
+ "end_at": 351.7,
+ "pause": 0.5,
+ "cuts": [
+  [
+   35.6,
+   50.83,
+   "how he got to the page and a lead-in (if we go here, click on that, look over this real quick); the cut opens on the page already"
+  ],
+  [
+   55.47,
+   60.99,
+   "a menu of options the rebuilt header does not have, with a false start (the cl, the prospect)"
+  ],
+  [
+   64.95,
+   69.0,
+   "the 70 pixels: the rebuilt header is 80, so the number is not accurate to what shows; and 'tap the bottom' does no work"
+  ],
+  [
+   74.05,
+   78.0,
+   "a false start and its correction (stock photo carousels, I'm not stock photo, I'm sorry)"
+  ],
+  [
+   89.74,
+   90.86,
+   "'right here', nothing in it"
+  ],
+  [
+   156.03,
+   169.84,
+   "who the form keeps out (TV mounts, dedicated audio and home theater): a guess about their buyers stated as fact, nothing on screen; and it trails off (across your prospects)"
+  ],
+  [
+   199.76,
+   210.4,
+   "the Google reviews icon under the button: the rebuilt page has no rating line because their site shows no Google rating, so the line is not true of what is on screen"
+  ],
+  [
+   210.7,
+   215.25,
+   "a lead-in that restarts (below the services section and below the about us section, we're gonna, excuse me)"
+  ],
+  [
+   238.6,
+   243.66,
+   "the process list said a second time (design to installation to ongoing service)"
+  ],
+  [
+   256.4,
+   260.0,
+   "a garbled line (um, repeat back, prospect)"
+  ],
+  [
+   268.7,
+   276.6,
+   "most of these people aren't capital constrained: a guess about their buyers stated as fact"
+  ],
+  [
+   281.344,
+   282.9,
+   "a misheard fragment (hyperlink, map here)"
+  ],
+  [
+   289.536,
+   301.75,
+   "the examples (dedicated theater, distributed media, whole home audio) are not the cards on the rebuilt page (landscape lighting, outdoor audio, whole-home control, new construction, renovations, pool)"
+  ],
+  [
+   343.4,
+   345.4,
+   "'or you could, um', a restart before the ask"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "inX": "in X",
+  "grade": "grid",
+  "he": "We",
+  "scounces,": "sconces,"
+ },
+ "changes": [
+  {
+   "at": 51.95,
+   "kind": "header"
+  },
+  {
+   "at": 53.95,
+   "kind": "css",
+   "selector": "#website-header > div",
+   "style": "display:flex !important; align-items:center !important; justify-content:flex-start !important; gap:24px !important; padding-left:160px !important; padding-right:160px !important; max-width:none !important"
+  },
+  {
+   "at": 53.95,
+   "kind": "css",
+   "selector": "#website-header > div > div:first-child",
+   "style": "display:none !important"
+  },
+  {
+   "at": 53.95,
+   "kind": "css",
+   "selector": "#website-header > div > div:last-child",
+   "style": "margin-left:auto !important"
+  },
+  {
+   "at": 63.55,
+   "kind": "css",
+   "selector": "#website-header > div",
+   "style": "height:80px !important; padding-top:0 !important; padding-bottom:0 !important"
+  },
+  {
+   "at": 63.55,
+   "kind": "css",
+   "selector": "#website-header img",
+   "style": "height:62px !important; width:auto !important"
+  },
+  {
+   "at": 80.02,
+   "kind": "click",
+   "selector": "#gallery-0 button[aria-label=\"next\"]",
+   "why": "he clicks to the next photo over, the pendant ceiling that becomes the hero picture"
+  },
+  {
+   "at": 88.18,
+   "kind": "image",
+   "selector": "#gallery-0",
+   "file": "projects/Landing Page Build/prospects/vme-electric/assets/hero.jpg"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0",
+   "style": "background-position:50% 45% !important; background-color:#000 !important; min-height:700px !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 > div.pointer-events-none > div",
+   "style": "background:transparent !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 > div.w-full",
+   "style": "display:grid !important; place-items:center !important; min-height:700px !important; padding:96px 0 !important; box-sizing:border-box !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 > div.w-full > div",
+   "style": "display:flex !important; flex-direction:column !important; align-items:center !important; gap:26px !important; width:100% !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 .container > div",
+   "style": "margin-bottom:0 !important; gap:26px !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 .gallery-carousel",
+   "style": "width:100% !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 .slider-container",
+   "style": "display:flex !important; flex-direction:column !important; align-items:center !important; gap:26px !important; height:auto !important; margin-bottom:0 !important"
+  },
+  {
+   "at": 88.18,
+   "kind": "css",
+   "selector": "#gallery-0 .slider-container > div",
+   "style": "display:none !important"
+  },
+  {
+   "at": 93.18,
+   "kind": "css",
+   "selector": "#gallery-0 > div.pointer-events-none > div",
+   "style": "background:linear-gradient(rgba(18,19,22,.8),rgba(18,19,22,.62)) !important"
+  },
+  {
+   "at": 95.98,
+   "kind": "cta",
+   "selector": "#gallery-0 .slider-container > div:first-child",
+   "text": "Book a meeting",
+   "background": "#E37235",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 95.98,
+   "kind": "css",
+   "selector": "#gallery-0 .slider-container > div:first-child",
+   "style": "display:inline-flex !important; position:static !important; clip:auto !important; overflow:visible !important; width:auto !important; height:auto !important; margin:10px 0 0 !important; order:2 !important; white-space:nowrap !important"
+  },
+  {
+   "at": 117.94,
+   "kind": "headline",
+   "text": "Lighting Control Installation in the Hamptons"
+  },
+  {
+   "at": 117.94,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 117.94,
+   "kind": "css",
+   "selector": "[data-mb-head]",
+   "style": "font-size:74.5px !important"
+  },
+  {
+   "at": 121.06,
+   "kind": "eyebrow",
+   "text": "For homeowners from Montauk to Southampton",
+   "color": "#F2A070"
+  },
+  {
+   "at": 121.06,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font:600 14px/19.6px 'Roboto Slab', Arial, sans-serif !important; letter-spacing:2.24px !important; text-transform:uppercase !important; margin:0 !important; color:#F2A070 !important"
+  },
+  {
+   "at": 125.54,
+   "kind": "css",
+   "selector": "#gallery-0 .slider-container > div:has(> .slider-control-bottomcenter)",
+   "style": "display:block !important; position:static !important; width:640px !important; height:94.5px !important; inset:auto !important; order:1 !important; visibility:hidden !important"
+  },
+  {
+   "at": 125.54,
+   "kind": "css",
+   "selector": "#website-footer",
+   "style": "z-index:50 !important"
+  },
+  {
+   "at": 125.54,
+   "kind": "copy",
+   "selector": "#website-footer .rich-text-block p",
+   "keep": "Every light in the house from one keypad, a schedule, or your phone. Designed, wired, and programmed by our own electricians, in a new build or the home you live in now."
+  },
+  {
+   "at": 125.54,
+   "kind": "css",
+   "selector": "#website-footer p[style*=\"font-size\"]",
+   "style": "position:fixed !important; top:445px !important; left:400px !important; width:640px !important; max-width:640px !important; margin:0 !important; text-align:center !important; color:rgba(255,255,255,.9) !important; z-index:30 !important"
+  },
+  {
+   "at": 140.29,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 142.93,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 143.73,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 144.21,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 144.93,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 148.61,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 171.28,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 191.36,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 215.62,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 229.86,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 249.6,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 279.5,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 312.42,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 336.5,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

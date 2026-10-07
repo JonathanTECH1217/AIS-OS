@@ -1,0 +1,164 @@
+{
+ "company": "Liberty Bell Smart Home",
+ "short": "Liberty Bell",
+ "page": "https://lbsmarthome.com/residential-solutions#lighting-and-shades",
+ "loom": "https://www.loom.com/share/0fd362d61f2942178544367a6491544a",
+ "phone": "916-386-9696",
+ "address": "1522 Lincoln Way, Auburn, CA 95603",
+ "areas": "Auburn, Sacramento, the Sierra Foothills, Truckee, and Lake Tahoe",
+ "brand": {
+  "color": "#003865",
+  "dark": "#002A4D",
+  "accent": "#009CDE",
+  "serif": true,
+  "head": "Montserrat",
+  "body": "Poppins",
+  "mist": "#EDF1F5"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "For luxury homeowners",
+  "h1": "Lighting Control Installation in Downtown Historic Auburn",
+  "sub": "Custom keypads, lighting scenes, voice control, and light that shifts with the day. Designed and installed by one team.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Custom keypads",
+    "p": "One button sets the whole room: Entertain, Dine, Evening, All Off. Each keypad is laid out for how you live."
+   },
+   {
+    "icon": "speaker",
+    "h3": "Voice control",
+    "p": "Say the scene and the room follows. Every light, and the shades with it, from your voice, a keypad, or the app."
+   },
+   {
+    "icon": "sun",
+    "h3": "Adjustable color temperature",
+    "p": "Cool, bright light in the morning. Warm and soft by evening. The whole house shifts on its own."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "A family company since 1981",
+  "p": "In 1981 our family home was robbed, and Liberty Bell Smart Home exists so no one else has to feel that. We believe every home should have the peace of mind, comfort, and beauty a smart system brings, designed by our ALA-certified lighting designers and installed with our sister company, Alpine Electric.",
+  "photo": "assets/team.jpg",
+  "alt": "The Liberty Bell Smart Home team outside the office"
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/truck.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the plans with you and the homeowner: how each room is used, where the light falls, and what every keypad should do."
+   },
+   {
+    "h3": "Lighting plan",
+    "p": "Ambient, task, and accent light layered on paper, with every fixture specified for the ceilings and finishes."
+   },
+   {
+    "h3": "Rough-in and wiring",
+    "p": "Loads and keypad locations handed over before drywall. With Alpine Electric it is one crew, not two."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Fixtures set, keypads programmed, scenes tuned in the room, then adjusted once the family has lived with them."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "I recently moved into a home that had Liberty Bell and decided to give them a try. What a great decision!",
+    "who": "Stephen R.",
+    "stars": 5
+   },
+   {
+    "p": "We have used Liberty Bell in our home for 32 years. Service and equipment have been exceptionally reliable. We recently upgraded the system. Again, service was great. Will in the office and Ryan, the installing technician, were very courteous, timely, knowledgeable, and professional.",
+    "who": "Edward H.",
+    "stars": 5
+   }
+  ]
+ },
+ "services": {
+  "h2": "Our other work for the home",
+  "p": "Each one has a page of its own.",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Whole home audio and video",
+    "p": "Music and TV in every room, from one app.",
+    "href": "https://www.lbsmarthome.com/residential-solutions/whole-house-audio-and-video"
+   },
+   {
+    "icon": "tv",
+    "h3": "Dedicated home theater",
+    "p": "A room built for the picture and the sound.",
+    "href": "https://www.lbsmarthome.com/residential-solutions/home-theater-media-rooms"
+   },
+   {
+    "icon": "wifi",
+    "h3": "Home networks",
+    "p": "Wi-Fi that reaches every corner and the pool house.",
+    "href": "https://www.lbsmarthome.com/residential-solutions/home-networks"
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-kitchen.jpg",
+    "alt": "Pendants over the island and recessed lights across an open kitchen and living room"
+   },
+   {
+    "src": "assets/work-lounge.jpg",
+    "alt": "An upstairs lounge with lamps, ceiling fans, and recessed lighting"
+   },
+   {
+    "src": "assets/work-gazebo.jpg",
+    "alt": "A covered patio with lights, fans, and an outdoor screen"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Free lighting consultation",
+  "p": "Tell us about your home and pick a time on our calendar."
+ },
+ "footer": {
+  "creds": "ALA-certified lighting designers. CEDIA member. Certified Control4 showroom. Lutron dealer. Established 1981."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or a remodel.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "process",
+  "reviews",
+  "services",
+  "work",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom (he signs off to Mike). Their site is lbsmarthome.com (Liberty Bell Smart Home; Auburn store 1522 Lincoln Way, 916-386-9696; Truckee store 10072 Donner Pass Rd, 530-927-8117). The place in the h1 is his; the site confirms Auburn (the Auburn store and 'New Auburn Location'). Both blues are theirs: #003865 is the logo navy (also .dsg-tools-button-secondary), #009CDE their .dsg-tools-button-primary; swap 'color' and 'accent' to get the bright blue button. Montserrat is their heading face; the body face on their site is Helvetica, so Poppins stands in. No Google rating number is on their site, so there is no trust line under the button and no rating over the reviews: read their Google profile (research.py google, about 4 cents) and add hero.trust and reviews.rating. The three reviews are the quotes shown on their home page; the names are in that page's source (commented out next to each quote) and should be checked against the Google profile. None of the four quotes on their site is about lighting. Photos: hero is their home theater photo (dark, lit sconces, star ceiling); the work grid is their kitchen, upstairs lounge, and patio photos from the home page gallery; about is the crew outside the office (DSC_5028.jpg on their about page); the process band has their truck in downtown Truckee. The Lutron vendor photos on their lighting page were skipped (not their work). The hero photo is 1200x750, upscaled a little at 1440 wide. No pattern block: his A B A C A B A colors are not settled, so the page keeps the PHA look.",
+ "google": {
+  "rating": 4.4,
+  "count": 155,
+  "maps": "https://maps.google.com/?cid=6083118612305176396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

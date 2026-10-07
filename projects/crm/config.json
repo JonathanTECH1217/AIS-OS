@@ -1,0 +1,73 @@
+{
+  "instance": "monarc",
+  "label": "Monarc Build",
+  "base_id": "appgv3njf5Fk99QXo",
+  "base_url": "https://airtable.com/appgv3njf5Fk99QXo",
+  "tables": {
+    "Companies": "tblUXKncMwR6pVbI9",
+    "People": "tblJF5Udt3NP3p40M",
+    "Deals": "tblEdmPS9veo4Y6cJ",
+    "Activities": "tblVD9l2LLhNweLp2",
+    "Sources": "tbliQKL6BM8W2KuUw",
+    "Config": "tblgm6qbdjCbElzgb"
+  },
+  "books_base_id": "appWhmipZx6UGHiqT",
+  "books": {"salary": null, "invest_pct": null, "note": "The two money rules. Set salary (monthly, dollars) and invest_pct (percent of profit) once Jonathan writes and logs them."},
+  "queue_csv_glob": "qualified-list-*.csv",
+  "verticals": [
+    {"key": "integrator", "label": "Integrators", "airtable": "Integrator", "queue_csv_glob": "qualified-list-*.csv"},
+    {"key": "electrician", "label": "Electricians", "airtable": "Electrician", "queue_csv_glob": "electrician-list-*.csv"}
+  ],
+  "calendars": [
+    {"id": "primary", "label": "Monarc"},
+    {"id": "74d611a15d0883e131529542f6bef46bb91bda5704d30c3cc95199be6addde5c@group.calendar.google.com", "label": "Monarc Build"}
+  ],
+  "dial_log": "projects/outreach/dial-log.jsonl",
+  "outbox": "projects/crm/outbox.jsonl",
+  "port": 8765,
+  "fallback_sources": [
+    {"name": "cold", "type": "Cold", "active": true},
+    {"name": "meta-ads", "type": "Meta Ads", "active": false},
+    {"name": "linkedin", "type": "Campaign", "active": false},
+    {"name": "rep", "type": "Rep", "active": true},
+    {"name": "content", "type": "Content", "active": true},
+    {"name": "warm", "type": "Warm", "active": true},
+    {"name": "referral", "type": "Referral", "active": true},
+    {"name": "inbound", "type": "Inbound", "active": true}
+  ],
+  "fallback_config": {
+    "instance": {"name": "Monarc Build", "kind": "agency"},
+    "stages": [
+      {"name": "Cold"},
+      {"name": "Contacted"},
+      {"name": "Booked"},
+      {"name": "Held"},
+      {"name": "Proposed"},
+      {"name": "Won", "closed": true, "won": true},
+      {"name": "Lost", "closed": true}
+    ],
+    "dial_outcomes": [
+      {"name": "No answer", "class": "no_contact"},
+      {"name": "Voicemail", "class": "no_contact"},
+      {"name": "Bad number", "class": "no_contact"},
+      {"name": "Connected with non-owner", "class": "contact", "to_stage": "Contacted"},
+      {"name": "Connected with owner", "class": "contact", "to_stage": "Contacted", "owner": true},
+      {"name": "Callback", "class": "contact", "to_stage": "Contacted"},
+      {"name": "Booked", "class": "contact", "to_stage": "Booked", "owner": true},
+      {"name": "Not interested", "class": "contact", "to_stage": "Lost", "closes": true}
+    ],
+    "phases": ["Untouched", "Called", "Second channel", "Third channel", "Meeting booked", "Signed"],
+    "channels": {"Dial": "phone", "Email": "email", "Text": "text", "DM": "dm", "Meeting": null, "Note": null},
+    "died_on_lines": ["DISARM", "BOUND", "PROVE", "NAME", "QUALIFY", "ASK", "SILENCE", "LOCK"],
+    "close_reasons": ["Not interested", "No budget", "Has a marketer", "Wrong fit", "Went quiet", "Timing", "Chose competitor", "Signed", "Other"],
+    "offers": [{"name": "Google Ads pilot", "value": 2500}],
+    "owner_default": "Jonathan",
+    "timezone": "America/New_York",
+    "numbers": {"pilot_days": 60, "default_close_days": 30, "dials_per_day": 22, "redial_days": 3, "record_cap": 1000, "record_warn": 850},
+    "create_company_on": "any_dial",
+    "script_version": "v1",
+    "dial_hour": {"start": "12:00", "end": "13:00"},
+    "goal": {"won": 5, "by": "2026-12-01", "assumed_rates": {"connect": 0.30, "book": 0.10, "show": 0.50, "close": 0.25}},
+    "active_campaign": null
+  }
+}

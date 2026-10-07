@@ -1,0 +1,10 @@
+{
+  "_about": "Free campaign for a review (2026-10-03). review_url: the Google Business Profile's review link, pasted by Jonathan once the profile is live (nothing asks before it is set and the Listings row says Live). asks_per_day: review-ask drafts a day, oldest delivery first. ask_delay_days: days after the delivery was sent before the ask is drafted. approvals_before_auto: the first N deliveries need the row's Stage set to Approved in the CRM. max_cost_per_company: the CostMeter cap for one build. keywords: how many per campaign.",
+  "review_url": "",
+  "asks_per_day": 3,
+  "ask_delay_days": 2,
+  "approvals_before_auto": 3,
+  "max_cost_per_company": 0.5,
+  "serp_depth": 10,
+  "keywords": 12
+}

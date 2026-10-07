@@ -1,0 +1,12 @@
+To: {email}
+Subject: One favor
+
+Hi,
+
+You've had the Louisville search check and the campaign file for a couple of days. If they were useful, a Google review would help us a lot. Say what you got, in your words.
+
+{review_url}
+
+If anything in the files needs explaining, reply here and I'll walk you through it.
+
+Jonathan.

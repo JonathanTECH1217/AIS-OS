@@ -1,0 +1,388 @@
+<title>Monarc Integrator Wireframe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+  :root {
+    --paper: #f7f6f3;
+    --ink: #262523;
+    --body: #6a6864;
+    --muted: #a09d97;
+    --line: #cfcbc4;
+    --box: #efede8;
+    --accent: #2f4b63;
+    --accent-ink: #ffffff;
+    --note: #9a968f;
+    --note-bg: #f1efe9;
+    --serif: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1c1b19; --ink: #ecebe7; --body: #b3b0aa; --muted: #7a7873; --line: #44423e; --box: #262523;
+      --accent: #8fb0cc; --accent-ink: #16202a; --note: #8a8781; --note-bg: #232220;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1c1b19; --ink: #ecebe7; --body: #b3b0aa; --muted: #7a7873; --line: #44423e; --box: #262523;
+    --accent: #8fb0cc; --accent-ink: #16202a; --note: #8a8781; --note-bg: #232220;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  h1, h2, h3 { margin: 0; text-wrap: balance; }
+  h1 { font: 600 40px/1.15 var(--serif); letter-spacing: -0.01em; }
+  h2 { font: 600 28px/1.2 var(--serif); }
+  h3 { font: 600 18px/1.3 var(--sans); }
+  p { margin: 0; color: var(--body); max-width: 60ch; }
+  .label { font: 600 11px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+  /* wireframe toolbar (not part of the site) */
+  .bar { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 10px 24px; background: var(--note-bg); border-bottom: 1px solid var(--line); font-size: 12px; color: var(--note); }
+  .bar strong { color: var(--ink); font-weight: 600; margin-right: 6px; }
+  .bar a { text-decoration: none; padding: 4px 8px; border-radius: 3px; }
+  .bar a[aria-current="page"] { background: var(--box); color: var(--ink); }
+  .bar button { margin-left: auto; font: inherit; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 3px; padding: 4px 10px; cursor: pointer; }
+
+  /* site shell */
+  .page { display: none; }
+  .page.active { display: block; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 32px; }
+  header.site { padding: 28px 0; border-bottom: 1px solid var(--line); }
+  header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+  .logo { width: 140px; height: 40px; border: 1.5px dashed var(--line); background: var(--box); display: flex; align-items: center; justify-content: center; }
+  .logo span { font: 600 11px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+  nav.site ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 28px; }
+  nav.site a { text-decoration: none; font-size: 14px; color: var(--body); }
+  nav.site a[aria-current="page"] { color: var(--ink); border-bottom: 1.5px solid var(--ink); padding-bottom: 2px; }
+
+  .btn { display: inline-block; font: 600 14px/1 var(--sans); padding: 15px 22px; border-radius: 3px; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn.quiet { background: transparent; color: var(--ink); border-color: var(--line); }
+
+  section { padding: 96px 0; position: relative; }
+  section.hero { padding: 112px 0 104px; }
+  section + section { border-top: 1px solid var(--line); }
+  .split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: center; }
+  .split.flip > .text { order: 2; }
+  .thirds { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
+  .stack { display: flex; flex-direction: column; gap: 20px; }
+  .stack.tight { gap: 12px; }
+  .lead { display: flex; flex-direction: column; gap: 24px; margin-bottom: 56px; }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  /* media placeholder: a sketched box with an X */
+  .media { position: relative; border: 1.5px dashed var(--line); background: var(--box); aspect-ratio: 4 / 3; overflow: hidden; }
+  .media.wide { aspect-ratio: 16 / 9; }
+  .media.tall { aspect-ratio: 4 / 5; }
+  .media.small { aspect-ratio: 3 / 2; }
+  .media::before, .media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top right, transparent calc(50% - 0.75px), var(--line) 50%, transparent calc(50% + 0.75px)); }
+  .media::after { background: linear-gradient(to top left, transparent calc(50% - 0.75px), var(--line) 50%, transparent calc(50% + 0.75px)); }
+  .media span { position: absolute; left: 12px; bottom: 10px; z-index: 1; font: 600 11px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); background: var(--box); padding: 3px 6px; }
+
+  /* trust strip: recognition, low contrast, after the ask */
+  .trust { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px; }
+  .trust .mark { height: 56px; border: 1.5px dashed var(--line); display: flex; align-items: center; justify-content: center; color: var(--muted); font: 600 11px/1 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; }
+  .trust-copy { margin-top: 28px; }
+
+  .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; counter-reset: step; }
+  .step { display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 1.5px solid var(--line); }
+  .step .num { font: 500 13px/1 var(--serif); color: var(--muted); }
+
+  .faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 56px; }
+  .faq .q { display: flex; flex-direction: column; gap: 10px; }
+
+  .cta-block { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: center; }
+
+  .form { display: flex; flex-direction: column; gap: 14px; }
+  .field { height: 48px; border: 1.5px dashed var(--line); background: var(--box); display: flex; align-items: center; padding: 0 14px; color: var(--muted); font-size: 14px; }
+  .field.area { height: 120px; align-items: flex-start; padding-top: 12px; }
+
+  footer.site { border-top: 1px solid var(--line); padding: 64px 0 48px; }
+  footer.site .thirds { align-items: start; }
+  footer.site ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--body); }
+  footer.site .fine { margin-top: 48px; font-size: 12px; color: var(--muted); }
+
+  /* wireframe notes */
+  .note { position: absolute; top: 20px; right: 32px; font: italic 400 12px/1.4 var(--sans); color: var(--note); max-width: 320px; text-align: right; }
+  body.notes-off .note { display: none; }
+  .spec p { max-width: 68ch; }
+  .spec .rule { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; padding: 28px 0; border-top: 1px solid var(--line); }
+  .spec .rule:last-child { border-bottom: 1px solid var(--line); }
+  .spec table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .spec th, .spec td { text-align: left; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .spec th { font-weight: 600; color: var(--ink); }
+  .spec td { color: var(--body); }
+  .table-wrap { overflow-x: auto; }
+
+  @media (max-width: 760px) {
+    h1 { font-size: 32px; }
+    h2 { font-size: 24px; }
+    section { padding: 64px 0; }
+    section.hero { padding: 72px 0; }
+    .split, .thirds, .steps, .faq, .cta-block, .trust { grid-template-columns: 1fr; }
+    .split.flip > .text { order: 0; }
+    header.site .wrap { flex-wrap: wrap; }
+    nav.site ul { flex-wrap: wrap; gap: 16px; }
+    .note { position: static; text-align: left; margin-bottom: 20px; max-width: none; }
+    .spec .rule { grid-template-columns: 1fr; gap: 8px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .page.active { animation: fade 180ms ease-out; }
+    @keyframes fade { from { opacity: 0.6; } to { opacity: 1; } }
+  }
+</style>
+
+<div class="bar" id="bar">
+  <strong>Wireframe</strong>
+  <a href="#home">Home</a>
+  <a href="#lighting">Lighting</a>
+  <a href="#audio">Audio</a>
+  <a href="#shades">Shades</a>
+  <a href="#theater">Theater</a>
+  <a href="#builders">Builders</a>
+  <a href="#book">Book</a>
+  <a href="#spec">Spec</a>
+  <button id="toggle" type="button" aria-pressed="true">Notes on</button>
+</div>
+
+<div id="app"></div>
+
+<script>
+(function () {
+  var LOREM = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.".split(" ");
+  function lorem(n, start) {
+    var s = start || 0, out = [];
+    for (var i = 0; i < n; i++) out.push(LOREM[(s + i) % LOREM.length]);
+    var t = out.join(" ").replace(/[,.]$/, "") + ".";
+    return t.charAt(0).toUpperCase() + t.slice(1);
+  }
+  function media(label, cls) { return '<div class="media ' + (cls || "") + '"><span>' + label + '</span></div>'; }
+  function note(t) { return '<div class="note">' + t + '</div>'; }
+  function btn(text, href, kind) { return '<a class="btn ' + (kind || "primary") + '" href="' + href + '">' + text + '</a>'; }
+
+  var NAV = [["lighting", "Lighting"], ["audio", "Audio"], ["shades", "Shades"], ["theater", "Theater"], ["builders", "For builders"]];
+
+  function header(id) {
+    var items = NAV.map(function (n) {
+      return '<li><a href="#' + n[0] + '"' + (n[0] === id ? ' aria-current="page"' : "") + '>' + n[1] + '</a></li>';
+    }).join("");
+    return '<header class="site"><div class="wrap">' +
+      '<a class="logo" href="#home" aria-label="Home"><span>Logo</span></a>' +
+      '<nav class="site" aria-label="Site"><ul>' + items + '</ul></nav>' +
+      btn("Book a 15 minute call", "#book", "quiet") +
+      '</div></header>';
+  }
+
+  function hero(h1, ctaText, mediaLabel) {
+    return '<section class="hero">' + note("Hero. 50 / 50. One h1, two lines of copy, one ask. The image is the room, not the gear.") +
+      '<div class="wrap split"><div class="text stack">' +
+      '<h1>' + h1 + '</h1><p>' + lorem(24, 3) + '</p>' +
+      '<div class="actions">' + btn(ctaText, "#book") + '</div>' +
+      '</div>' + media(mediaLabel || "Photo 4:3") + '</div></section>';
+  }
+
+  function outcomes(h2, items) {
+    var cards = items.map(function (it, i) {
+      return '<div class="stack tight">' + media(it.media || "Photo 3:2", "small") + '<h3>' + it.h3 + '</h3><p>' + lorem(18, 20 + i * 7) + '</p>' +
+        (it.to ? '<a href="#' + it.to + '" style="font-size:14px">See ' + it.h3.toLowerCase() + '</a>' : "") + '</div>';
+    }).join("");
+    return '<section>' + note("Three equal thirds. h2 then h3. Outcomes the prospect wants, in plain words.") +
+      '<div class="wrap"><div class="lead"><h2>' + h2 + '</h2></div><div class="thirds">' + cards + '</div></div></section>';
+  }
+
+  function proof(h2, flip, mediaLabel) {
+    return '<section>' + note("Proof. 50 / 50, image on the other side so the eye crosses the page. One real result here, in numbers. Placeholder until the client supplies it.") +
+      '<div class="wrap split' + (flip ? " flip" : "") + '"><div class="text stack">' +
+      '<h2>' + h2 + '</h2><p>' + lorem(30, 40) + '</p>' +
+      '<p class="label">[Result: what they wanted, what it cost, how long it took]</p>' +
+      '</div>' + media(mediaLabel || "Photo 4:3, finished room") + '</div></section>';
+  }
+
+  function trust() {
+    var marks = ["Dealer logo", "Dealer logo", "Dealer logo", "Years in business", "Association"].map(function (m) {
+      return '<div class="mark">' + m + '</div>';
+    }).join("");
+    return '<section>' + note("Recognition strip. Low contrast, after the ask. Brands and credentials only reduce risk. They are never the message.") +
+      '<div class="wrap"><div class="trust">' + marks + '</div><p class="trust-copy">' + lorem(16, 60) + '</p></div></section>';
+  }
+
+  function steps(h2, items) {
+    var s = items.map(function (t, i) {
+      return '<div class="step"><span class="num">' + (i + 1) + '</span><h3>' + t + '</h3><p>' + lorem(14, 70 + i * 5) + '</p></div>';
+    }).join("");
+    return '<section>' + note("A real sequence, so the numbers earn their place. Three equal columns.") +
+      '<div class="wrap"><div class="lead"><h2>' + h2 + '</h2></div><div class="steps">' + s + '</div></div></section>';
+  }
+
+  function faq(qs) {
+    var q = qs.map(function (t, i) {
+      return '<div class="q"><h3>' + t + '</h3><p>' + lorem(22, 85 + i * 6) + '</p></div>';
+    }).join("");
+    return '<section>' + note("Questions people ask on the first call. Two equal columns. h3 per question.") +
+      '<div class="wrap"><div class="lead"><h2>Questions people ask us</h2></div><div class="faq">' + q + '</div></div></section>';
+  }
+
+  function finalCta(h2, ctaText) {
+    return '<section>' + note("Final ask. 50 / 50. Same button as the hero. Nothing new to read.") +
+      '<div class="wrap cta-block"><div class="stack"><h2>' + h2 + '</h2><p>' + lorem(16, 100) + '</p>' +
+      '<div class="actions">' + btn(ctaText, "#book") + '</div></div>' + media("Photo 4:3", "") + '</div></section>';
+  }
+
+  function footer() {
+    return '<footer class="site"><div class="wrap"><div class="thirds">' +
+      '<div class="stack tight"><div class="logo"><span>Logo</span></div><p style="font-size:14px">[Street address]<br>[City, State ZIP]</p></div>' +
+      '<div class="stack tight"><span class="label">Areas we serve</span><ul><li>[Area page 1]</li><li>[Area page 2]</li><li>[Area page 3]</li><li>[Area page 4]</li></ul></div>' +
+      '<div class="stack tight"><span class="label">Talk to a person</span><ul><li>[Phone]</li><li>[Email]</li><li>Weekdays 8 to 6</li></ul></div>' +
+      '</div><p class="fine">[Company name]. [Licenses]. One line, small, no links that compete with the ask.</p></div></footer>';
+  }
+
+  // ---------- pages ----------
+  var P = {};
+
+  P.home = header("home") +
+    hero("Lights, music, and shades that do what you want, when you want.", "Book a 15 minute call", "Photo 4:3, a finished room") +
+    outcomes("Three things we do best", [
+      { h3: "Lighting that makes every room feel right", to: "lighting" },
+      { h3: "Music in every room, no speakers in sight", to: "audio" },
+      { h3: "Shades that move on their own", to: "shades" }
+    ]) +
+    proof("See it in a home like yours", false) +
+    trust() +
+    '<section>' + note("Builder channel. 50 / 50, flipped. The biggest jobs start before the drywall.") +
+      '<div class="wrap split flip"><div class="text stack"><h2>Building a new home? Talk to us before the drywall goes up.</h2><p>' + lorem(26, 110) + '</p>' +
+      '<div class="actions">' + btn("Get a first budget", "#builders", "quiet") + '</div></div>' + media("Photo 4:3, rough-in") + '</div></section>' +
+    steps("How it works", ["We talk for 15 minutes", "We walk your home with you", "We build it, then show you how it works"]) +
+    finalCta("Ready when you are", "Book a 15 minute call") +
+    footer();
+
+  P.lighting = header("lighting") +
+    hero("Lighting that makes every room feel right.", "Book a 15 minute call", "Photo 4:3, lit great room at dusk") +
+    outcomes("What changes when the lighting is done right", [
+      { h3: "One button sets the whole room" },
+      { h3: "The house looks lived in when you are away" },
+      { h3: "Warm light at night, bright light for work" }
+    ]) +
+    proof("A great room that sold the whole house", true, "Photo 4:3, before and after") +
+    trust() +
+    steps("How it works", ["We talk for 15 minutes", "We plan each room with you", "We install, then set every scene with you"]) +
+    faq(["Can it work with the lights I already have?", "What happens if the internet goes out?", "Will it match the shades and the music?", "How long does it take?"]) +
+    finalCta("See what your rooms could look like", "Book a 15 minute call") +
+    footer();
+
+  P.audio = header("audio") +
+    hero("Music in every room, and no speakers in sight.", "Book a 15 minute call", "Photo 4:3, kitchen with hidden speakers") +
+    outcomes("What you get", [
+      { h3: "Play one song everywhere, or a different one in each room" },
+      { h3: "Speakers you hear but never see" },
+      { h3: "Outside too: the patio and the pool" }
+    ]) +
+    proof("Whole home audio, wired before the walls closed", false, "Photo 4:3, rough-in with speaker wire") +
+    trust() +
+    steps("How it works", ["We talk for 15 minutes", "We pick the rooms and the sound together", "We install, then set it up on your phone"]) +
+    faq(["Can I use the apps I already use?", "Can we add rooms later?", "Do the speakers show?", "What does it cost to start?"]) +
+    finalCta("Hear it in your own home", "Book a 15 minute call") +
+    footer();
+
+  P.shades = header("shades") +
+    hero("Shades that move on their own, on your schedule.", "Book a 15 minute call", "Photo 4:3, shades half down at sunrise") +
+    outcomes("What changes", [
+      { h3: "Morning light without getting up" },
+      { h3: "Privacy at night, with one tap" },
+      { h3: "Cooler rooms in summer, lower bills" }
+    ]) +
+    proof("Shades and lighting, set together", true, "Photo 4:3, window wall") +
+    trust() +
+    steps("How it works", ["We talk for 15 minutes", "We measure and pick fabrics with you", "We install and set the schedule"]) +
+    faq(["Do they need wires?", "Can they match my lighting scenes?", "What about big windows?", "How quiet are they?"]) +
+    finalCta("See the fabrics in your light", "Book a 15 minute call") +
+    footer();
+
+  P.theater = header("theater") +
+    hero("A theater room your family will actually use.", "Book a 15 minute call", "Photo 16:9, theater from the back row") +
+    outcomes("Pick the level that fits", [
+      { h3: "Good: a great picture and clear sound" },
+      { h3: "Better: a bigger screen and deeper sound" },
+      { h3: "Best: a room built around the movie" }
+    ]) +
+    proof("A theater built from the framing up", false, "Photo 4:3, pre-wire") +
+    trust() +
+    steps("How it works", ["We talk for 15 minutes", "We design the room on paper first", "We build it, then sit down and watch one with you"]) +
+    faq(["Can it be a family room too?", "What size screen fits?", "Does it work with what we stream?", "How long does it take?"]) +
+    finalCta("See a room like yours", "Book a 15 minute call") +
+    footer();
+
+  P.builders = header("builders") +
+    hero("Get the wires in before the drywall goes up.", "Get a first budget", "Photo 4:3, rough-in with the crew") +
+    outcomes("What you get from us", [
+      { h3: "A budget your buyer can read", media: "Document" },
+      { h3: "Wire pulled on your schedule, not ours" },
+      { h3: "One call for lights, sound, shades, and security" }
+    ]) +
+    proof("A whole house, planned at the framing stage", true, "Photo 4:3, house under construction") +
+    trust() +
+    steps("How it works", ["Send us the plans", "We send a first budget in [X] days", "We meet your buyer with you"]) +
+    faq(["When should you call us?", "Do you work with our electrician?", "What does a first budget cost?", "How far do you travel?"]) +
+    finalCta("Send us the plans", "Get a first budget") +
+    footer();
+
+  P.book = header("book") +
+    '<section class="hero">' + note("Booking. 50 / 50. Form on the left, real calendar on the right. One page, one job.") +
+    '<div class="wrap split"><div class="text stack"><h1>Pick a time. We will come to you.</h1><p>' + lorem(20, 5) + '</p>' +
+    '<div class="form"><div class="field">Name</div><div class="field">Phone</div><div class="field">Email</div><div class="field">Home address</div><div class="field area">What do you want the house to do?</div>' +
+    '<div class="actions">' + btn("Send it", "#book") + '</div></div></div>' +
+    media("Calendar widget", "tall") + '</div></section>' +
+    trust() +
+    footer();
+
+  P.spec = '<section class="spec"><div class="wrap stack" style="gap:40px">' +
+    '<div class="stack"><span class="label">Wireframe spec</span><h1>Rules this wireframe follows</h1><p>Hand this page to whoever writes the copy and whoever builds the pages. Every rule below is visible somewhere in the frames.</p></div>' +
+    '<div>' +
+    '<div class="rule"><h3>Heading levels</h3><p>One h1 per page, the outcome the visitor wants. h2 opens each section. h3 for the items inside a section. Headings are real copy. Body copy is lorem ipsum until it is written.</p></div>' +
+    '<div class="rule"><h3>Reading level</h3><p>Seventh grade. Short sentences, common words, no product names in a headline. Simpler than that reads as low authority, harder than that reads as work. Speak in outcomes: what the room does for them, not what the system is.</p></div>' +
+    '<div class="rule"><h3>Recognition</h3><p>Dealer logos, years in business, and association marks appear once per page, low contrast, after the ask. They exist to reduce risk. They are never the headline and never the reason to buy.</p></div>' +
+    '<div class="rule"><h3>Ratios</h3><p>Every section divides evenly. Text and image split 50 / 50. Item groups are equal thirds. The hero and the final ask use the same split so the page starts and ends the same way. Image sides alternate down the page so the eye crosses it.</p></div>' +
+    '<div class="rule"><h3>Contrast and space</h3><p>One accent color, used only on the primary button. Everything else is ink, body gray, and a warm paper ground. 96px between sections, 56px between a section\'s two halves, 20px inside a stack. The gap is what moves the eye down, not lines or boxes.</p></div>' +
+    '<div class="rule"><h3>Media</h3><p>Every box is a photo of a finished room or a rough-in, sized to the ratio on its label. No product shots, no stock. Real photos from real jobs reduce risk more than any logo.</p></div>' +
+    '<div class="rule"><h3>One ask</h3><p>Every page has one button, repeated: book a 15 minute call. The builders page asks for plans instead. Nothing else on the page is a button.</p></div>' +
+    '</div>' +
+    '<div class="stack"><h2>Page inventory</h2><div class="table-wrap"><table><thead><tr><th>Page</th><th>h1</th><th>Sections in order</th></tr></thead><tbody>' +
+    '<tr><td>Home</td><td>Lights, music, and shades that do what you want, when you want.</td><td>Hero, three offerings, proof, recognition, builder channel, how it works, final ask, footer</td></tr>' +
+    '<tr><td>Lighting</td><td>Lighting that makes every room feel right.</td><td>Hero, outcomes, proof, recognition, how it works, questions, final ask, footer</td></tr>' +
+    '<tr><td>Audio</td><td>Music in every room, and no speakers in sight.</td><td>Same anatomy</td></tr>' +
+    '<tr><td>Shades</td><td>Shades that move on their own, on your schedule.</td><td>Same anatomy</td></tr>' +
+    '<tr><td>Theater</td><td>A theater room your family will actually use.</td><td>Same anatomy, outcomes are the good / better / best tiers</td></tr>' +
+    '<tr><td>Builders</td><td>Get the wires in before the drywall goes up.</td><td>Same anatomy, ask is "Get a first budget"</td></tr>' +
+    '<tr><td>Book</td><td>Pick a time. We will come to you.</td><td>Form and calendar, recognition, footer</td></tr>' +
+    '<tr><td>Area pages</td><td>[Offering] in [Area]</td><td>Copy of the offering page with the area named in the h1, the proof, and the footer. One per offering per area.</td></tr>' +
+    '</tbody></table></div></div>' +
+    '</div></section>';
+
+  // ---------- routing ----------
+  var app = document.getElementById("app");
+  var bar = document.getElementById("bar");
+  Object.keys(P).forEach(function (id) {
+    var el = document.createElement("div");
+    el.className = "page"; el.id = "page-" + id; el.innerHTML = P[id];
+    app.appendChild(el);
+  });
+  function show() {
+    var id = (location.hash || "#home").slice(1);
+    if (!P[id]) id = "home";
+    Array.prototype.forEach.call(app.children, function (el) { el.classList.toggle("active", el.id === "page-" + id); });
+    Array.prototype.forEach.call(bar.querySelectorAll("a"), function (a) {
+      if (a.getAttribute("href") === "#" + id) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    window.scrollTo(0, 0);
+    document.title = "Monarc Integrator Wireframe";
+  }
+  window.addEventListener("hashchange", show);
+  show();
+
+  var toggle = document.getElementById("toggle");
+  toggle.addEventListener("click", function () {
+    var off = document.body.classList.toggle("notes-off");
+    toggle.textContent = off ? "Notes off" : "Notes on";
+    toggle.setAttribute("aria-pressed", off ? "false" : "true");
+  });
+})();
+</script>

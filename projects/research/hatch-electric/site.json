@@ -1,0 +1,59 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.hatchelectric.com/",
+ "title": "Welcome to Hatch Electric.",
+ "description": "This is the website for Hatch Electric in South Lake Tahoe. Our company features some of the most highly trained technicians and product experts at Lake Tahoe.",
+ "words": 298,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "Complement the warmth and comfort of your bedroom."
+  },
+  {
+   "tag": "h2",
+   "text": "Maximize the flexibility of your kitchen’s lighting with a programmed, wireless lighting control system."
+  },
+  {
+   "tag": "h2",
+   "text": "Regulate lighting and select several preset scenes to create a desired mood."
+  },
+  {
+   "tag": "h2",
+   "text": "Integrate lighting control with high-end audio/visual systems for the ultimate home theater experience."
+  },
+  {
+   "tag": "h2",
+   "text": "Optimize your shading system, reduce glare, maximize daylight, preserve view, and enhance your overall design."
+  },
+  {
+   "tag": "h2",
+   "text": "Maintain exterior views to provide a connection to outdoor scenery and panoramic views."
+  }
+ ],
+ "phones": [
+  "530-541-3035"
+ ],
+ "colors": [
+  "#32373c",
+  "#ffffff",
+  "#313131",
+  "#00d084",
+  "#0693e3",
+  "#000000",
+  "#7a00df",
+  "#007cba",
+  "#006ba1",
+  "#005a87"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/hatchGREY300.png",
+   "alt": "Hatch Electric",
+   "note": ""
+  }
+ ]
+}

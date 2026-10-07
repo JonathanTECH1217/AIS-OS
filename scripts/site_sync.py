@@ -8,6 +8,9 @@ Commands:
   python scripts/site_sync.py pull
   python scripts/site_sync.py diff
   python scripts/site_sync.py push <path> [path ...]   (paths relative to the mirror)
+  python scripts/site_sync.py push-as <local file> <remote path>   (a copy kept outside the mirror, when the mirror's
+      file is ahead of what may go live, e.g. projects/monarcbuild-site/staging/av_marketing/index.html
+      av_marketing/index.html: the live page plus one change, 2026-09-27)
 
 Reads .env at the AIOS root. No third-party packages.
 Transport: HOSTINGER_TRANSPORT=sftp (system sftp.exe, key auth) or ftps (ftplib).
@@ -109,10 +112,10 @@ def sftp_pull(c):
     shutil.rmtree(tmp)
 
 
-def sftp_push(c, rel_paths):
+def sftp_push(c, pairs):
+    """pairs: [(local Path, remote path relative to the web root)]"""
     lines = []
-    for rel in rel_paths:
-        local = MIRROR / rel
+    for local, rel in pairs:
         remote = f"{c['remote_dir'].rstrip('/')}/{rel.replace(os.sep, '/')}"
         remote_parent = remote.rsplit("/", 1)[0]
         lines.append(f"-mkdir {remote_parent}")
@@ -173,17 +176,20 @@ def ftps_pull(c):
     ftp.quit()
 
 
-def ftps_push(c, rel_paths):
+def ftps_push(c, pairs):
+    """pairs: [(local Path, remote path relative to the web root)]"""
     ftp = ftps_connect(c)
-    for rel in rel_paths:
-        local = MIRROR / rel
+    for local, rel in pairs:
         remote = rel.replace(os.sep, "/")
         parent = remote.rsplit("/", 1)[0] if "/" in remote else ""
         if parent:
-            try:
-                ftp.mkd(parent)
-            except error_perm:
-                pass
+            # make every missing level, not just the last one (assets/generated/<slug>/ was new on 2026-09-26)
+            parts = parent.split("/")
+            for n in range(1, len(parts) + 1):
+                try:
+                    ftp.mkd("/".join(parts[:n]))
+                except error_perm:
+                    pass
         with open(local, "rb") as fh:
             ftp.storbinary(f"STOR {remote}", fh)
     ftp.quit()
@@ -238,19 +244,35 @@ def cmd_push(c, rel_paths):
         if not (MIRROR / rel).is_file():
             sys.exit(f"Not a file in the mirror: {rel}")
     print(f"Pushing {len(rel_paths)} file(s) to {c['host']}:{c['remote_dir']}")
-    (sftp_push if c["transport"] == "sftp" else ftps_push)(c, rel_paths)
+    (sftp_push if c["transport"] == "sftp" else ftps_push)(c, [(MIRROR / rel, rel) for rel in rel_paths])
+    print("Done. Verify live before pushing more.")
+
+
+def cmd_push_as(c, args):
+    """Push one local file to a remote path. For a live page whose mirror file is ahead of what may go live: the
+    staged copy (the live page plus the approved change) sits outside the mirror, e.g. projects/monarcbuild-site/staging/.
+    (Until 2026-09-27 the live homepage copy sat at projects/monarcbuild-site/live/index.html; retired with the new homepage.)"""
+    if len(args) != 2:
+        sys.exit("push-as needs <local file> <remote path>, e.g. projects/monarcbuild-site/staging/av_marketing/index.html av_marketing/index.html")
+    local = Path(args[0])
+    local = local if local.is_absolute() else (ROOT / local)
+    if not local.is_file():
+        sys.exit(f"Not a file: {local}")
+    print(f"Pushing {local.relative_to(ROOT)} as {args[1]} to {c['host']}:{c['remote_dir']}")
+    (sftp_push if c["transport"] == "sftp" else ftps_push)(c, [(local, args[1])])
     print("Done. Verify live before pushing more.")
 
 
 def main(argv):
-    if len(argv) < 2 or argv[1] not in ("list", "pull", "diff", "push"):
+    if len(argv) < 2 or argv[1] not in ("list", "pull", "diff", "push", "push-as"):
         print(__doc__)
         sys.exit(1)
     c = cfg()
     {"list": lambda: cmd_list(c),
      "pull": lambda: cmd_pull(c),
      "diff": lambda: cmd_diff(c),
-     "push": lambda: cmd_push(c, argv[2:])}[argv[1]]()
+     "push": lambda: cmd_push(c, argv[2:]),
+     "push-as": lambda: cmd_push_as(c, argv[2:])}[argv[1]]()
 
 
 if __name__ == "__main__":

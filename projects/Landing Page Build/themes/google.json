@@ -1,0 +1,49 @@
+{
+  "name": "google",
+  "label": "Google",
+  "pages": ["/google-ads/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q10 to Q15",
+  "palette": {
+    "ground": "#FFFFFF",
+    "band": "#F8F9FA",
+    "ink": "#202124",
+    "muted": "#5F6368",
+    "border": "#DADCE0",
+    "button": "#1A73E8",
+    "button_text": "#FFFFFF",
+    "accent_blue": "#4285F4",
+    "accent_red": "#EA4335",
+    "accent_yellow": "#FBBC04",
+    "accent_green": "#34A853",
+    "fit_yes": "#34A853",
+    "fit_no": "#EA4335",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#202124", "bg": "#FFFFFF", "ratio": 16.1, "passes": "AA", "use": "body"},
+    {"fg": "#5F6368", "bg": "#FFFFFF", "ratio": 6.05, "passes": "AA", "use": "muted, labels"},
+    {"fg": "#FFFFFF", "bg": "#1A73E8", "ratio": 4.51, "passes": "AA", "use": "button text"},
+    {"fg": "#202124", "bg": "#F8F9FA", "ratio": 15.27, "passes": "AA", "use": "body on the band"},
+    {"fg": "#34A853", "bg": "#FFFFFF", "ratio": 3.06, "passes": "AA-large", "use": "fit yes: the 24px heading and the check marks only, never body lines"},
+    {"fg": "#EA4335", "bg": "#FFFFFF", "ratio": 3.92, "passes": "AA-large", "use": "fit no: the 24px heading and the cross marks only, never body lines"},
+    {"fg": "#4285F4", "bg": "#FFFFFF", "ratio": 3.56, "passes": "AA-large", "use": "blue icon (non-text, 3:1)"},
+    {"fg": "#FBBC04", "bg": "#FFFFFF", "ratio": 1.71, "passes": "FAIL", "use": "yellow: decorative only (the third card's icon; one letter of the colored Google word, Style Guide Media 7; the four-dot label motif came off 2026-09-27), never body text or a meaningful icon"}
+  ],
+  "faces": {"heading": "Roboto", "body": "Roboto", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap",
+  "weights": [400, 500],
+  "labels": {"hero": "Book the audit", "final": "Book your fifteen minutes"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "material-symbols", "opener_icons": ["search", "web", "sell", "analytics"], "opener_colors": ["#4285F4", "#EA4335", "#FBBC04", "#34A853"], "radius": "8px", "border": "1px solid #DADCE0", "ground": "#FFFFFF", "shadow": "none", "hover": "1px lift"},
+  "shadows": "none",
+  "section_label": "tracked caps in muted, plain text (the four Google-colored dots before it came off, Jonathan, 2026-09-27)",
+  "hero": "split: text left (h1, sub, the search bar cycling the five trades' buyer queries, the hero button), the render right; stacked on phones",
+  "hero_render": "The cast: an angler on the bank, mid-cast over a river. 3D cartoonish, the four Google colors on white.",
+  "card_renders": null,
+  "marks": "Google Ads as a product name in text only; the Google Ads product logo only inside a card in a we-run-this context; no Google wordmark; Monarc Build is the brand mark.",
+  "notes": [
+    "The searches ticker, the pin map, the math, and about are v2.",
+    "Proof: three Material cards, waterfront first."
+  ]
+}

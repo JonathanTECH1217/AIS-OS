@@ -1,0 +1,99 @@
+{
+ "read": "2026-10-06",
+ "url": "https://sierraintegratedsystems.com/about-us/company",
+ "title": "About Us | Smart Home Experts in Reno, NV",
+ "description": "Meet the experts behind Sierra Integrated Systems, specializing in personalized smart home automation, lighting control, and AV solutions since 2002.",
+ "words": 1368,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Trusted Smart Home & AV Experts Serving Reno, Tahoe & Truckee"
+  },
+  {
+   "tag": "h2",
+   "text": "Who We Are"
+  },
+  {
+   "tag": "h2",
+   "text": "Our Mission"
+  },
+  {
+   "tag": "h2",
+   "text": "Why Us"
+  },
+  {
+   "tag": "h3",
+   "text": "Direct Dealer"
+  },
+  {
+   "tag": "h3",
+   "text": "Credentials"
+  },
+  {
+   "tag": "h3",
+   "text": "Memberships"
+  }
+ ],
+ "phones": [
+  "(775) 853-4800"
+ ],
+ "colors": [
+  "#eba900",
+  "#eba902",
+  "#a0a0a0",
+  "#696969",
+  "#292929",
+  "#f22121",
+  "#ffad45",
+  "#33c15e",
+  "#343a40",
+  "#f8f9fa"
+ ],
+ "faces": [
+  "Roboto",
+  "Roboto Condensed",
+  "Work Sans",
+  "var(--bs-font-sans-serif)"
+ ],
+ "social": [
+  "https://www.facebook.com/SierraIntegratedSystems/",
+  "https://www.linkedin.com/company/sierra-integrated-systems"
+ ],
+ "pictures": [
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/f9/logo-f9bfdada.png",
+   "alt": "Sierra Integrated Systems",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/56/SIS_Logo_Horz_White-56e8e91d.png",
+   "alt": "Sierra Integrated Systems",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/bd/LCHY%20Logo%20on%20Black%202-bdbdf8dc.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://fast.wistia.com/embed/medias/av8v1y55r4/swatch",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/images/clientimages/Burrowes_2809_w.jpg",
+   "alt": "keith",
+   "note": ""
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/5d/logo-5df64691.png",
+   "alt": "Sierra Integrated Systems white logo",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://sierraintegratedsystems.com/media/yootheme/cache/3f/Lutron-Black-Diamond-Dealer-2025-3f0be000.png",
+   "alt": "Lutron Black Diamond Dealer 2025",
+   "note": ""
+  }
+ ]
+}

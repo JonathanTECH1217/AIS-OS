@@ -1,0 +1,169 @@
+{
+ "company": "Performance Home Automation",
+ "short": "PHA",
+ "page": "https://www.pha.systems/smart-lighting-control",
+ "loom": "https://www.loom.com/share/f4f2b05e6a1048dea7e9e53ffb4beda1",
+ "phone": "410-956-9676",
+ "address": "2014 Renard Ct, Annapolis, MD 21401",
+ "areas": "Annapolis, Baltimore, Washington, D.C., Northern Virginia",
+ "brand": {
+  "color": "#3F7A17",
+  "dark": "#356B12",
+  "accent": "#5E9A1F",
+  "serif": true,
+  "head": "Manrope",
+  "body": "Poppins",
+  "mist": "#F3F6F0"
+ },
+ "logo": "../pha/assets/logo.png",
+ "hero": {
+  "eyebrow": "Projects featured in Annapolis Home Magazine and Architectural Digest",
+  "h1": "Lighting Control Installation in Annapolis",
+  "sub": "Tunable color temperature, keypad scenes set for how you live, and voice control. Light that follows your day, and a calmer home.",
+  "photo": "../pha/assets/georgian.jpg",
+  "photo_style": "object-position:50% 40%;transform-origin:53% 66%;transform:translate(-3%,1%) scale(1.16)"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Custom keypads",
+    "p": "Engraved buttons, each one a scene: mornings, entertaining, bedtime. Finishes to match the room."
+   },
+   {
+    "icon": "sun",
+    "h3": "Tunable color temperature",
+    "p": "Cool light through the day, warm light at night, so the house follows your rhythm."
+   },
+   {
+    "icon": "lamp",
+    "h3": "The fixtures you want",
+    "p": "Square or round, two inch or three inch, recessed, pendants, and sconces."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Serving Maryland homes since 2001",
+  "p": "Performance Home Automation designs and installs lighting control for new construction, renovations, and existing homes. One team takes it from the first design through installation, programming, testing, and support.",
+  "photo": "../pha/assets/team.jpg",
+  "alt": "Seven of the Performance Home Automation team in company shirts at a trade show"
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "../pha/assets/vans.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We settle the layout, where each fixture goes, and how every space is controlled."
+   },
+   {
+    "h3": "Plan drawings",
+    "p": "A lighting plan on paper before fixtures, wiring, and ceilings are final."
+   },
+   {
+    "h3": "Installation",
+    "p": "Wired, installed, programmed, and tested by one team."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "Tuned once the home is lived in, and supported after."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "We have been working with PHA for almost six years on various home electronics projects and couldn't recommend them more.",
+    "who": "Gene H.",
+    "stars": 5
+   },
+   {
+    "p": "PHA was fabulous during my home renovation. We automated Lutron lighting throughout the house, built in sonos speakers and security cameras, all operated from the phone. They also installed a ring doorbell, where no doorbell existed. They are reliable, reasonable and professional.",
+    "who": "Barbara N.",
+    "stars": 5
+   },
+   {
+    "p": "PHA is great. They do all my Ledo Pizza restaurants from security, AV systems and cameras. Their service techs are always available to come troubleshoot and fix our issues within 24 hours!",
+    "who": "Martin G.",
+    "stars": 5
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "../pha/assets/coastal.jpg",
+    "alt": "A living room with wall lights, shelf lighting, and shades"
+   },
+   {
+    "src": "../pha/assets/about-a.jpg",
+    "alt": "Hanging glass lights lit in a stairwell at dusk"
+   },
+   {
+    "src": "../pha/assets/work-lounge.jpg",
+    "alt": "A double-height lounge with long hanging lights under a beamed ceiling"
+   }
+  ]
+ },
+ "services": {
+  "h2": "More for the whole home",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Whole home audio",
+    "p": "Music in every room from one app.",
+    "href": "https://www.pha.systems/home-audio-installation-maryland"
+   },
+   {
+    "icon": "tv",
+    "h3": "Dedicated home theater",
+    "p": "A room built for picture and sound.",
+    "href": "https://www.pha.systems/home-theater-installation"
+   },
+   {
+    "icon": "network",
+    "h3": "Media distribution and networking",
+    "p": "Every screen and device on one network.",
+    "href": "https://www.pha.systems/network-installation"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book your lighting consultation",
+  "p": "Tell us about your home and pick a time on our calendar."
+ },
+ "footer": {
+  "creds": "Lutron Gold Star Dealer."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or a retrofit, the fixtures you have in mind.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "process",
+  "reviews",
+  "work",
+  "services",
+  "final"
+ ],
+ "notes": "The third PHA audit (Loom f4f2b05e, 2026-10-06). The same page as prospects/pha (hand-built 2026-10-05, seven rounds of his notes) in this Loom's order: hero, review banner, services cards, about, process, reviews, portfolio, secondary services, secondary CTA. The hand-built page is left as it is. Rating and reviews are from the Places pull of 2026-10-05. The card lines are his words in the Loom (square or round, two or three inch, new construction or retrofit).",
+ "google": {
+  "rating": 4.8,
+  "count": 19,
+  "maps": "https://maps.google.com/?cid=16335264241798799935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-05"
+ }
+}

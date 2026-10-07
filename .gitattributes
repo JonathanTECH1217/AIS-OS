@@ -1,0 +1,2 @@
+# Shell scripts keep Mac line endings on every checkout (install/mac/install.sh, 2026-10-07)
+*.sh text eol=lf

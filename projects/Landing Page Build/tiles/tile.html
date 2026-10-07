@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Style tile</title>
+<!-- One template for every theme. Open as tile.html?theme=google. The theme data comes from themes.js,
+     written by scripts/ads_tiles.py from projects/Landing Page Build/themes/*.json. Render with
+     .claude/skills/landing-page/assets/render.py at 1440 (see the landing-page skill, "tile" mode). -->
+<script src="themes.js"></script>
+<link rel="stylesheet" href="../../monarcbuild-site/public_html/assets/site.css">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light}
+:root{--col:960px;--pad:96px;--gap:56px;--stack:24px}
+body{background:var(--ground);color:var(--body);font:400 18px/1.6 var(--font-body)}
+.col{max-width:var(--col);margin:0 auto;padding:0 24px}
+section{padding:48px 0;border-top:1px solid var(--hairline)}
+section:first-of-type{border-top:0;padding-top:40px}
+h1{font-size:56px;line-height:1.1;letter-spacing:-0.01em}
+h2{font-size:40px;line-height:1.15}
+h3{font-size:24px;line-height:1.25}
+.sub{font-size:22px;line-height:1.4;max-width:34em}
+.label{font-size:13px;letter-spacing:0.12em;text-transform:uppercase}
+.label.rule{display:inline-flex;align-items:center;gap:16px}
+.label.rule::before,.label.rule::after{content:"";width:40px;height:1px;background:currentColor;opacity:0.6}
+.tile-head{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap}
+.tile-head .meta{font-size:14px;color:var(--muted)}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;margin-top:24px}
+.swatch{border:1px solid var(--hairline);border-radius:var(--radius-card);overflow:hidden;background:var(--card)}
+.swatch .chip{height:64px}
+.swatch .info{padding:10px 12px;font-size:13px;line-height:1.4;color:var(--body)}
+.swatch .info b{display:block;font-weight:500;color:var(--ink)}
+table{border-collapse:collapse;width:100%;margin-top:24px;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-top:1px solid var(--hairline);vertical-align:top}
+th{color:var(--muted);font-weight:400;font-size:12px;letter-spacing:0.08em;text-transform:uppercase}
+.pair{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:6px;border:1px solid var(--hairline)}
+.type-row{display:grid;gap:16px;margin-top:24px}
+.buttons{display:flex;gap:24px;flex-wrap:wrap;align-items:center;margin-top:24px}
+.btn{display:inline-block;padding:16px 28px;font-size:16px;letter-spacing:0.01em;border:0;cursor:pointer;text-decoration:none}
+.tile-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:24px;align-items:start}
+.step{display:grid;gap:16px;background:var(--ground);border:1px solid var(--hairline);padding:32px;border-radius:var(--radius-card)}
+.q{font-family:var(--font-heading);font-size:30px;line-height:1.25;color:var(--ink);display:flex;gap:16px;align-items:baseline}
+.q .num{font-family:var(--font-body);font-size:13px;letter-spacing:0.12em;color:var(--muted);border:1px solid var(--muted);padding:4px 8px;line-height:1;flex:none}
+.field{display:grid;gap:6px}
+.field label{font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.field input{width:100%;border:1px solid var(--hairline);padding:14px 16px;font:400 18px/1.4 var(--font-body)}
+.step-nav{display:flex;justify-content:space-between;align-items:center}
+.step-btn{font:400 16px var(--font-body);padding:16px 28px;border:1px solid transparent;background:transparent;color:var(--muted);cursor:pointer}
+.step-btn.primary{background:var(--button);color:var(--button-text);border-radius:var(--radius-button)}
+footer.sample{padding:24px;border:1px solid var(--hairline);border-radius:var(--radius-card);font-size:14px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.renders{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:24px}
+.renders .svc-render{aspect-ratio:4/3}
+.cards-mini{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:8px 0 16px}
+.cards-mini .svc-render{aspect-ratio:1/1}
+.cand{margin:0;display:grid;gap:6px}
+.cand figcaption{font-size:13px;color:var(--muted);letter-spacing:0.04em}
+.pillwrap{position:relative;height:120px;margin-top:24px;border:1px dashed var(--hairline);border-radius:var(--radius-card)}
+.pillwrap .btn{position:absolute;right:24px;bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
+.note{font-size:14px;color:var(--muted);margin-top:12px}
+</style>
+</head>
+<body>
+<section>
+  <div class="col tile-head">
+    <div>
+      <p class="label rule" id="t-label">Style tile</p>
+      <h2 id="t-name" style="margin-top:12px">Theme</h2>
+    </div>
+    <p class="meta" id="t-meta"></p>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">Palette, measured</p>
+    <div class="swatches" id="t-swatches"></div>
+    <table id="t-contrast"><thead><tr><th>Pair</th><th>Ratio</th><th>Passes</th><th>Use</th></tr></thead><tbody></tbody></table>
+    <p class="note">AA is 4.5:1 for body text and 3:1 for headings at 24px and up and for marks that carry meaning. A pair marked AA-large sits on headings and marks only (Style Guide Color 3).</p>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">Type at the invariant scale</p>
+    <div class="type-row">
+      <h1 id="t-h1">Headline at 56, 64 on desktop.</h1>
+      <h2>An h2 at forty, eight words at most.</h2>
+      <p class="sub" id="t-sub">The sub headline in the heading face at 22, twenty words or fewer on a service page.</p>
+      <p>Body at 18 over 1.6 in the body face. Short sentences. Numbers and named products. No sentence over twenty five words, every block at grade 8 or under with the brand names left out of the count.</p>
+      <p class="label rule">A section label</p>
+      <p class="mono" id="t-faces"></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">The two buttons and the pill</p>
+    <div class="buttons">
+      <a class="btn" href="#" id="t-btn-hero">Hero label</a>
+      <a class="btn" href="#" id="t-btn-final">Final-ask label</a>
+      <span class="svc-micro">Fifteen minutes. Bring nothing.</span>
+    </div>
+    <div class="pillwrap"><a class="btn" href="#" id="t-btn-pill">Hero label</a></div>
+    <p class="note">The hero label on the hero button and the floating pill, the final-ask label once. The pill sits bottom right, shown once the hero button scrolls away.</p>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">One card, and the works-for pair</p>
+    <div class="tile-grid">
+      <ul class="svc-cards" style="grid-template-columns:1fr">
+        <li class="svc-card">
+          <div class="opener" id="t-opener"></div>
+          <p class="ttl" id="t-card-title">Card title in the heading face</p>
+          <p class="line">One line on the front that says what this part does.</p>
+          <p class="txt">Two sentences that say what runs. Nothing hidden behind a tap.</p>
+        </li>
+      </ul>
+      <div class="svc-fit">
+        <div class="yes"><h3><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 13l4 4L19 7"/></svg>Works for</h3>
+          <ul><li><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>A short line in ink</li><li><svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Another short line</li></ul></div>
+        <div class="no"><h3><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>Not for</h3>
+          <ul><li><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>A short line in ink</li><li><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>Another short line</li></ul></div>
+      </div>
+    </div>
+    <p class="note" id="t-card-note"></p>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">Popup step and footer, in theme</p>
+    <div class="tile-grid">
+      <div class="step">
+        <p class="q"><span class="num">1 of 5</span>What is your first name?</p>
+        <div class="field"><label for="fn">First name</label><input id="fn" type="text" placeholder="Jonathan"></div>
+        <div class="step-nav"><button class="step-btn" type="button" data-step-btn>Back</button><button class="step-btn primary" type="button" data-step-btn>OK</button></div>
+      </div>
+      <footer class="sample"><span>Monarc Build, LLC · Annapolis, Maryland</span><span>jonathan@monarcbuild.com · Privacy</span></footer>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col">
+    <p class="label rule">Hero render candidates</p>
+    <p class="sub" id="t-render-subject" style="margin-top:12px"></p>
+    <div class="renders" id="t-renders"></div>
+    <div id="t-card-renders"></div>
+    <p class="note">Four candidates per image from the connected generator (requested as Nano Banana Pro; the generator labeled the jobs Nano Banana 2), in the palette above. Files in projects/Landing Page Build/candidates/&lt;slug&gt;/; a labeled box means that candidate is missing. Jonathan picks one per image on this tile; scripts/ads_images.py pick exports it to the site.</p>
+  </div>
+</section>
+
+<script>
+(function(){
+  var name = new URLSearchParams(location.search).get("theme") || "house";
+  var T = (window.MB_THEMES || {})[name];
+  document.documentElement.setAttribute("data-theme", name);
+  if (!T) { document.getElementById("t-name").textContent = "No theme named " + name; return; }
+  if (T.google_fonts) { var l = document.createElement("link"); l.rel = "stylesheet"; l.href = T.google_fonts; document.head.appendChild(l); }
+  document.title = "Style tile: " + T.label;
+  if (name === "google") { document.querySelectorAll(".label.rule").forEach(function(el){ el.classList.add("dots"); }); }
+  document.getElementById("t-label").textContent = "Style tile, theme " + T.name;
+  document.getElementById("t-name").textContent = T.label + " for " + (T.pages || []).join(", ");
+  document.getElementById("t-meta").textContent = T.source || "";
+  var slug = ((T.pages || [""])[0] || "").replace(/\//g, "");
+  // swatches
+  var sw = document.getElementById("t-swatches");
+  Object.keys(T.palette || {}).forEach(function(role){
+    var hex = T.palette[role]; if (!hex) return;
+    var d = document.createElement("div"); d.className = "swatch";
+    d.innerHTML = '<div class="chip" style="background:' + hex + '"></div><div class="info"><b>' + role.replace(/_/g, " ") + '</b><span class="mono">' + hex + '</span></div>';
+    sw.appendChild(d);
+  });
+  // contrast table
+  var tb = document.querySelector("#t-contrast tbody");
+  (T.contrast || []).forEach(function(c){
+    var tr = document.createElement("tr");
+    tr.innerHTML = '<td><span class="pair" style="background:' + c.fg + '"></span><span class="mono">' + c.fg + '</span> on <span class="pair" style="background:' + c.bg + '"></span><span class="mono">' + c.bg + '</span></td><td>' + c.ratio.toFixed(2) + ':1</td><td>' + c.passes + '</td><td>' + c.use + '</td>';
+    tb.appendChild(tr);
+  });
+  // type
+  var f = T.faces || {};
+  document.getElementById("t-faces").textContent = "Headings " + f.heading + (f.heading_alternate ? " (alternate " + f.heading_alternate + ")" : "") + " · Body " + f.body + (f.mono ? " · Mono " + f.mono : "") + " · Weights " + (T.weights || []).join(", ");
+  document.getElementById("t-h1").textContent = ({google:"Google Ads management for contractors.", editorial:"Contractor website design that books the job.", saas:"SEO for home services. Found first, everywhere.", commercial:"Email marketing for contractors with open proposals.", social:"Facebook and Instagram ads for contractors.", time:"AI automation for contractors. Your hours back.", house:"Book more quality leads as an AV contractor."})[name] || "Headline at 56, 64 on desktop.";
+  // buttons
+  var L = T.labels || {};
+  document.getElementById("t-btn-hero").textContent = L.hero || "Book an appointment";
+  document.getElementById("t-btn-pill").textContent = L.hero || "Book an appointment";
+  document.getElementById("t-btn-final").textContent = L.final || L.hero || "Book an appointment";
+  if (name === "saas") { document.getElementById("t-btn-hero").innerHTML += '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'; }
+  // card opener
+  var op = document.getElementById("t-opener");
+  var kind = (T.cards || {}).opener || "line-icon";
+  var icons = {
+    "material-symbols": '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>',
+    "lucide": '<svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h8"/></svg>',
+    "phosphor-bold": '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg>',
+    "line-icon": '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg>'
+  };
+  if (kind === "serif-numerals") { op.innerHTML = '<span class="num">01</span>'; }
+  else if (kind === "3d-render") {
+    op.innerHTML = '<span class="mini">card render</span>';
+    var mini = new Image(); mini.alt = "Illustration: " + ((T.card_renders || [""])[0]);
+    mini.src = "../candidates/" + slug + "/card-1-1.jpg";
+    mini.onload = function(){ var m = op.querySelector(".mini"); m.innerHTML = ""; m.appendChild(mini); };
+  }
+  else { op.innerHTML = icons[kind] || icons["line-icon"]; }
+  document.getElementById("t-card-note").textContent = "Card: radius " + ((T.cards || {}).radius || "0") + ", border " + ((T.cards || {}).border || "none") + ", ground " + ((T.cards || {}).ground || "") + ", shadow " + ((T.cards || {}).shadow || "none") + ". Opener: " + kind + ". Section label: " + (T.section_label || "") + ".";
+  // renders: candidates live in projects/Landing Page Build/candidates/<slug>/ (scripts/ads_images.py download);
+  // the pick is exported to public_html/assets/generated/<slug>/ by scripts/ads_images.py pick
+  function candidate(src, alt, label, placeholderText){
+    var fig = document.createElement("figure"); fig.className = "cand";
+    var box = document.createElement("div"); box.className = "svc-render";
+    box.innerHTML = '<div class="placeholder">' + placeholderText + '</div>';
+    var img = new Image(); img.alt = alt; img.src = src;
+    img.onload = function(){ box.innerHTML = ""; box.appendChild(img); };
+    var cap = document.createElement("figcaption"); cap.textContent = label;
+    fig.appendChild(box); fig.appendChild(cap);
+    return fig;
+  }
+  document.getElementById("t-render-subject").textContent = T.hero_render || "No render for this theme.";
+  var rs = document.getElementById("t-renders");
+  if (T.hero_render) {
+    for (var i = 1; i <= 4; i++) {
+      rs.appendChild(candidate("../candidates/" + slug + "/hero-" + i + ".jpg", "Illustration, hero candidate " + i, "Hero " + i, "Candidate " + i + "<br>" + T.hero_render));
+    }
+  }
+  if (T.card_renders && T.card_renders.length) {
+    var cr = document.getElementById("t-card-renders");
+    cr.innerHTML = '<p class="label rule" style="margin-top:32px">Card renders</p>';
+    T.card_renders.forEach(function(subject, k){
+      var head = document.createElement("p"); head.className = "note"; head.textContent = "Card " + (k + 1) + ": " + subject;
+      cr.appendChild(head);
+      var row = document.createElement("div"); row.className = "cards-mini";
+      for (var n = 1; n <= 4; n++) {
+        row.appendChild(candidate("../candidates/" + slug + "/card-" + (k + 1) + "-" + n + ".jpg", "Illustration: " + subject + ", candidate " + n, "Card " + (k + 1) + "." + n, subject));
+      }
+      cr.appendChild(row);
+    });
+  }
+})();
+</script>
+</body></html>

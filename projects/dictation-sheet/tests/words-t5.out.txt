@@ -1,0 +1,12 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+LOG Hyphenator.hyphenate("preoccupied") x100: 2.30 ms
+LOG syllableTexts x55 lines (405 words): pass 1 1.4 ms, pass 2 1.2 ms
+LOG parseLyrics 55 lines: 0.9 ms
+LOG parseLyrics 550 lines: 4.9 ms
+LOG wordsToNotes 55 lines (parse + full render): 208.9 ms
+LOG wordsToNotes again, one line added (merge + render): 325.7 ms
+LOG alignLines 56x60: 12.0 ms, 55 pairs
+LOG alignLines 550x550: 859.5 ms, 550 pairs
+LOG wall check: performance.now advanced 1417 ms, Date.now advanced 1418 ms

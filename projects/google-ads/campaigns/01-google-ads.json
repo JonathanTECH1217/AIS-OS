@@ -1,0 +1,222 @@
+{
+  "_note": "The one file the Ads screen and scripts/ads_publish.py read for this campaign. Keywords locked by Jonathan 2026-09-28 (keywords/picks.json). Negatives: every shared list whose 'Applies to' covers this campaign (negatives/shared-lists.md) plus negatives/google-ads.md. Ad drafted 2026-09-28 from the brief and page spec, Jonathan's to approve. Approvals clear when what they cover changes.",
+  "nn": "01",
+  "service": "google-ads",
+  "name": "01 Google Ads management",
+  "brief": "projects/google-ads/campaigns/01-google-ads.md",
+  "page": "https://monarcbuild.com/google-ads/",
+  "page_label": "google_ads",
+  "slot": "funded",
+  "daily_budget": 40,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "google ads agency for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads management for home automation companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ppc agency for smart home installers",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads agency for low voltage contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads management for electricians",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "electrician google ads agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads agency for hvac contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "hvac google ads management",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ppc management for roofers",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads management for plumbers",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "google ads management for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "home services google ads agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "google ads agency for home theater companies",
+    "ppc agency for electricians",
+    "google ads services for plumbing companies"
+  ],
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/google-ads.md"
+  },
+  "ad": {
+    "headlines": [
+      {
+        "text": "Google Ads for AV Integrators",
+        "pin": 1
+      },
+      {
+        "text": "Google Ads for Home Automation",
+        "pin": 1
+      },
+      {
+        "text": "Google Ads for Electricians",
+        "pin": 1
+      },
+      {
+        "text": "Google Ads for HVAC Companies",
+        "pin": 1
+      },
+      {
+        "text": "Google Ads for Contractors",
+        "pin": 1
+      },
+      {
+        "text": "More High Ticket Installs"
+      },
+      {
+        "text": "$2.5k in Ads. A $91k Install."
+      },
+      {
+        "text": "You Own the Account and Data"
+      },
+      {
+        "text": "Book the Audit",
+        "pin": 3
+      },
+      {
+        "text": "Fifteen Minutes, Bring Nothing",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "Campaigns rebuilt around the searches your buyers type. Every lead tagged to its keyword.",
+      "$2.5k in ads pulled a $91k Ketra great room. Fifteen minutes. You leave with the audit.",
+      "Wired the rough-in, closed the six figure proposal, then ran the ads. Lutron certified.",
+      "You own the account and the data. Monthly report: spend, leads by source, cost per lead."
+    ],
+    "path1": "Google-Ads",
+    "path2": "Contractors"
+  },
+  "approvals": {
+    "spend": {
+      "at": "2026-09-29T17:48:40-04:00",
+      "by": "Jonathan",
+      "fp": "fc2a4091d660e10e"
+    },
+    "keywords": {
+      "at": "2026-09-29T17:50:40-04:00",
+      "by": "Jonathan",
+      "fp": "809425485eaec006"
+    },
+    "negatives": {
+      "Head terms": {
+        "at": "2026-09-29T17:51:01-04:00",
+        "by": "Jonathan",
+        "fp": "4533b14c55c235fe"
+      },
+      "Google's own products and account help": {
+        "at": "2026-09-29T17:51:01-04:00",
+        "by": "Jonathan",
+        "fp": "c45b88f3991d5122"
+      },
+      "From the research": {
+        "at": "2026-09-29T17:51:01-04:00",
+        "by": "Jonathan",
+        "fp": "2974fa8c2018c40e"
+      }
+    },
+    "ad": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "6ce05fa3fdb69b3c"
+    }
+  },
+  "google": {},
+  "ad_bench": {
+    "headlines": [
+      {
+        "text": "Control4 and Lutron Dealers"
+      },
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "Win the $47k Lighting Jobs"
+      },
+      {
+        "text": "Every Lead Tagged by Keyword"
+      },
+      {
+        "text": "Monthly Report: Cost per Lead"
+      }
+    ]
+  }
+}

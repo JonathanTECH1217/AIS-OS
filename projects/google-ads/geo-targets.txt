@@ -1,0 +1,213 @@
+San Francisco, CA, United States
+San Jose, CA, United States
+Los Angeles, CA, United States
+San Diego, CA, United States
+Sacramento, CA, United States
+Seattle, WA, United States
+Portland, OR, United States
+Las Vegas, NV, United States
+Phoenix, AZ, United States
+Denver, CO, United States
+Dallas, TX, United States
+Houston, TX, United States
+Austin, TX, United States
+San Antonio, TX, United States
+Kansas City, MO, United States
+Minneapolis, MN, United States
+Chicago, IL, United States
+Columbus, OH, United States
+Nashville, TN, United States
+Atlanta, GA, United States
+Charlotte, NC, United States
+Miami, FL, United States
+Orlando, FL, United States
+Tampa, FL, United States
+Washington, DC, United States
+Philadelphia, PA, United States
+New York, NY, United States
+Boston, MA, United States
+Oakland, CA, United States
+Fresno, CA, United States
+Riverside, CA, United States
+Irvine, CA, United States
+Long Beach, CA, United States
+Bakersfield, CA, United States
+Santa Rosa, CA, United States
+Walnut Creek, CA, United States
+Palo Alto, CA, United States
+Pasadena, CA, United States
+Thousand Oaks, CA, United States
+Tacoma, WA, United States
+Spokane, WA, United States
+Boise, ID, United States
+Salt Lake City, UT, United States
+Reno, NV, United States
+Tucson, AZ, United States
+Albuquerque, NM, United States
+Colorado Springs, CO, United States
+Fort Collins, CO, United States
+Omaha, NE, United States
+Des Moines, IA, United States
+Oklahoma City, OK, United States
+Tulsa, OK, United States
+Fort Worth, TX, United States
+Plano, TX, United States
+Frisco, TX, United States
+El Paso, TX, United States
+McAllen, TX, United States
+Corpus Christi, TX, United States
+New Orleans, LA, United States
+Baton Rouge, LA, United States
+Little Rock, AR, United States
+Memphis, TN, United States
+Knoxville, TN, United States
+Chattanooga, TN, United States
+Birmingham, AL, United States
+Huntsville, AL, United States
+Jackson, MS, United States
+Louisville, KY, United States
+Lexington, KY, United States
+Cincinnati, OH, United States
+Cleveland, OH, United States
+Dayton, OH, United States
+Indianapolis, IN, United States
+Fort Wayne, IN, United States
+Detroit, MI, United States
+Grand Rapids, MI, United States
+Ann Arbor, MI, United States
+Milwaukee, WI, United States
+Madison, WI, United States
+St. Louis, MO, United States
+Wichita, KS, United States
+Naperville, IL, United States
+Pittsburgh, PA, United States
+Harrisburg, PA, United States
+Buffalo, NY, United States
+Rochester, NY, United States
+Albany, NY, United States
+Long Island, NY, United States
+Westchester County, NY, United States
+Newark, NJ, United States
+Princeton, NJ, United States
+Morristown, NJ, United States
+Hartford, CT, United States
+Stamford, CT, United States
+New Haven, CT, United States
+Providence, RI, United States
+Portsmouth, NH, United States
+Portland, ME, United States
+Burlington, VT, United States
+Baltimore, MD, United States
+Bethesda, MD, United States
+Annapolis, MD, United States
+Richmond, VA, United States
+Virginia Beach, VA, United States
+Northern Virginia, VA, United States
+Raleigh, NC, United States
+Durham, NC, United States
+Greensboro, NC, United States
+Asheville, NC, United States
+Wilmington, NC, United States
+Columbia, SC, United States
+Greenville, SC, United States
+Charleston, SC, United States
+Savannah, GA, United States
+Augusta, GA, United States
+Jacksonville, FL, United States
+Fort Lauderdale, FL, United States
+West Palm Beach, FL, United States
+Fort Myers, FL, United States
+Pensacola, FL, United States
+Tallahassee, FL, United States
+Gainesville, FL, United States
+Daytona Beach, FL, United States
+Honolulu, HI, United States
+Anchorage, AK, United States
+Naples, FL, United States
+Palm Beach, FL, United States
+Boca Raton, FL, United States
+Sarasota, FL, United States
+Jupiter, FL, United States
+Vero Beach, FL, United States
+Key Largo, FL, United States
+Destin, FL, United States
+Santa Rosa Beach, FL, United States
+Scottsdale, AZ, United States
+Paradise Valley, AZ, United States
+Sedona, AZ, United States
+Aspen, CO, United States
+Vail, CO, United States
+Telluride, CO, United States
+Steamboat Springs, CO, United States
+Cherry Hills Village, CO, United States
+Park City, UT, United States
+Jackson, WY, United States
+Sun Valley, ID, United States
+Big Sky, MT, United States
+Whitefish, MT, United States
+Napa, CA, United States
+Carmel-by-the-Sea, CA, United States
+Montecito, CA, United States
+Santa Barbara, CA, United States
+Newport Beach, CA, United States
+La Jolla, CA, United States
+Rancho Santa Fe, CA, United States
+Malibu, CA, United States
+Beverly Hills, CA, United States
+Atherton, CA, United States
+Los Altos, CA, United States
+Palm Springs, CA, United States
+Palm Desert, CA, United States
+South Lake Tahoe, CA, United States
+Truckee, CA, United States
+Incline Village, NV, United States
+Bellevue, WA, United States
+Mercer Island, WA, United States
+Bainbridge Island, WA, United States
+Bend, OR, United States
+Lake Oswego, OR, United States
+Boulder, CO, United States
+Greenwich, CT, United States
+Westport, CT, United States
+Darien, CT, United States
+Southampton, NY, United States
+East Hampton, NY, United States
+Rye, NY, United States
+Scarsdale, NY, United States
+Short Hills, NJ, United States
+Alpine, NJ, United States
+Cape Cod, MA, United States
+Nantucket, MA, United States
+Martha's Vineyard, MA, United States
+Wellesley, MA, United States
+Newport, RI, United States
+Kennebunkport, ME, United States
+Hilton Head Island, SC, United States
+Kiawah Island, SC, United States
+Sea Island, GA, United States
+Highlands, NC, United States
+Cashiers, NC, United States
+Lake Norman, NC, United States
+Pinehurst, NC, United States
+Lake Geneva, WI, United States
+Lake Minnetonka, MN, United States
+Barrington, IL, United States
+Lake Forest, IL, United States
+Hinsdale, IL, United States
+Ladue, MO, United States
+Leawood, KS, United States
+Franklin, TN, United States
+Brentwood, TN, United States
+Alpharetta, GA, United States
+Buckhead, GA, United States
+The Woodlands, TX, United States
+Southlake, TX, United States
+Highland Park, TX, United States
+Westlake, TX, United States
+Horseshoe Bay, TX, United States
+Fredericksburg, TX, United States
+Great Falls, VA, United States
+McLean, VA, United States
+Potomac, MD, United States
+Easton, MD, United States
+St. Michaels, MD, United States

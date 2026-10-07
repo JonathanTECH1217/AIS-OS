@@ -1,0 +1,199 @@
+{
+ "company": "Lighthouse Outdoor Lighting of Vail",
+ "short": "Lighthouse",
+ "page": "https://lighthouse-lights.com/office-colorado-vail/",
+ "loom": "https://www.loom.com/share/0257f9eee6ff464aa8911e2ee4d9b105",
+ "phone": "970.236.1567",
+ "address": "105 Edwards Village Blvd Unit# 4957, Edwards, CO",
+ "areas": "Vail and the Vail Valley, Colorado",
+ "brand": {
+  "color": "#A3A786",
+  "dark": "#878B6A",
+  "accent": "#CFD1B4",
+  "serif": true,
+  "head": "Figtree",
+  "body": "Figtree",
+  "mist": "#F4F4EF"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "For homeowners in the Vail Valley",
+  "h1": "Landscape Lighting Installation in Vail",
+  "sub": "Paths, trees, and stonework lit after dark, so the house feels safe and warm and your evenings outside run longer. Brass and copper fixtures made for Vail winters.",
+  "photo": "assets/hero-live.jpg"
+ },
+ "cards": {
+  "h2": "What landscape lighting gives you",
+  "text": "dark",
+  "items": [
+   {
+    "icon": "home",
+    "h3": "A home that glows",
+    "p": "Stone, timber, and trees lit from the right angle, so the house reads from the road and the drive after dark."
+   },
+   {
+    "icon": "lamp",
+    "h3": "Evenings that run longer",
+    "p": "Patios, outdoor kitchens, and fire pits you keep using after sunset, with light where you sit and eat."
+   },
+   {
+    "icon": "shield",
+    "h3": "Safe steps and entries",
+    "p": "Paths, stairs, and the front walk lit so no one trips, and the property looks watched when you are away."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Meet Mark Nall",
+  "p": "Mark is a partner of Lighthouse Outdoor Lighting in Vail, with a background in landscape architecture and design and installation work across several regions. His goal is to create visual works of art in any environment, with a strong dedication to customer service.",
+  "photo": "assets/mark.jpg",
+  "alt": "Mark Nall with his black dog on a rocky ridge above the Vail Valley"
+ },
+ "work": {
+  "h2": "Our work around Vail",
+  "photos": [
+   {
+    "src": "assets/work-timber-entry.jpg",
+    "alt": "A stone home's timber arched entry lit from below at dusk"
+   },
+   {
+    "src": "assets/work-bear-dance.jpg",
+    "alt": "A log home and covered entry lit at dusk, with a cut metal bollard on the drive"
+   },
+   {
+    "src": "assets/work-stone-arches.jpg",
+    "alt": "A stone house with lit arches and a lit tree under the moon"
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For builders, architects, and designers",
+  "h2": "Our process",
+  "photo": "assets/process-bollards.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the property with you, listen to the goals, and find the vantage points that matter."
+   },
+   {
+    "h3": "The plan",
+    "p": "A lighting plan with revisions, value engineering, and a working timeline so the budget and schedule hold."
+   },
+   {
+    "h3": "Installation",
+    "p": "A project manager runs the install, closes with a 20 point inspection, then the designer aims every fixture at night."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "Legacy Care keeps the system tuned as the landscape grows and the seasons turn."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "Mark with Lighthouse did an amazing job on my home. I did not install exterior lighting when I built the house, so Mark had to find some unique ways to make my house shine.",
+    "who": "Kevin M.",
+    "stars": 5
+   },
+   {
+    "p": "Mark was so helpful with is ideas and was able to create exactly what we were looking for. He was prompt, courteous and professional. He stopped by numerous times after the installation to make sure everything was perfect.",
+    "who": "John H.",
+    "stars": 5
+   },
+   {
+    "p": "Mark has a great eye for outdoor lighting design and landscaping. His lighting recommendations not only enhances the beauty  but increases security. Mark is very reliable and knowledgeable. Love his lighting designs and his strong work ethic.",
+    "who": "becky i.",
+    "stars": 5
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Why light the landscape at all?",
+    "a": "Lit paths and steps keep people safe, lit stone and trees show the house at its best, and a lit property is worth more."
+   },
+   {
+    "q": "What kind of lighting works best in Vail?",
+    "a": "Low voltage LED, in layers: soft light on decks and paths, stronger light on trees and stonework."
+   },
+   {
+    "q": "What fixtures last in the mountains?",
+    "a": "Brass and copper. They shrug off corrosion, age well, and blend into the natural surroundings."
+   },
+   {
+    "q": "How often does a system need service?",
+    "a": "Snow, wind, and wildlife take a toll, so a yearly checkup keeps it at its best. Our Legacy Care plans cover that."
+   },
+   {
+    "q": "Can lighting help plan the yard?",
+    "a": "Yes. Light marks out the zones: the paths, the seating, the garden beds, and the kitchen, so the whole yard works after dark."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Our other services",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Outdoor audio",
+    "p": "Sound designed to go with the lighting, for a quiet evening or a full party on the patio.",
+    "href": "https://lighthouse-lights.com/outdoor-audio/"
+   },
+   {
+    "icon": "cog",
+    "h3": "Legacy Care",
+    "p": "Preventive maintenance that keeps the lighting and audio performing night after night.",
+    "href": "https://lighthouse-lights.com/outdoor-lighting-maintenance/"
+   },
+   {
+    "icon": "star",
+    "h3": "Holiday and event lighting",
+    "p": "The season or a special event lit with the right equipment, your feet kept on the ground.",
+    "href": "https://lighthouse-lights.com/holiday-and-event-lighting/"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Start your project",
+  "p": "Tell us about your home and pick a time for a design consultation."
+ },
+ "footer": {
+  "creds": "Mark Nall: B.A. Landscape Architecture, Berkeley. MBA, University of Colorado."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the property, what you want lit, a new build or an existing home.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "work",
+  "process",
+  "reviews",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom 0257f9ee (4 min 33 s) over the Vail office page. He named the service as 'lighting control installation' as a stand-in ('let's just say'); this company sells landscape lighting, so the h1 says that; his to swap. The eyebrow is residential: he said the eyebrow is residential or B2B and did not pick; the page on screen speaks to homeowners and the process section carries the trade partners. He wants the cards in the olive gold with BLACK text ('I think black text would probably look better on this kind of olivish gold'); the engine draws white on the brand color and has no spec switch for it. He wants a five-star badge with the review count under the hero button; their site states no rating or count, so it is left off until the Google number is checked. No reviews on their site: three marked empty boxes. The serif on this page is the engine's Newsreader, not their Cormorant Garamond. No background pattern set (his A B A C A B A of 2026-10-06 names no colors yet), so the PHA look holds. Photos are theirs, from the Vail office page's slider and portfolio; the stone-arches job may not be in Colorado. The form sends nothing. 2026-10-07: the hero keeps their own pool-house photo, the one on their live page, so the swap to the render does not change the picture (rule 11); the cabin photo was never named.",
+ "google": {
+  "rating": 5,
+  "count": 12,
+  "maps": "https://maps.google.com/?cid=3722657397605129778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png"
+ }
+}

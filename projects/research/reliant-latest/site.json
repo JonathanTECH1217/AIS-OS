@@ -1,0 +1,97 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/latest/",
+ "title": "Electrical News: Innovations in Smart Homes - Reliant Electrical and Automation Inc.",
+ "description": "Stay updated with the latest Electrical News on energy efficiency tips and smart home innovations for your projects.",
+ "words": 702,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "Stay current with the latest updates from Reliant Electrical & Automation Inc."
+  },
+  {
+   "tag": "h2",
+   "text": "Neutral vs. Ground: Why They Bond in the Main Panel but Not Subpanels"
+  },
+  {
+   "tag": "h2",
+   "text": "How to Choose a Fresno Electrician | Licensed vs Lead Sites"
+  },
+  {
+   "tag": "h2",
+   "text": "Why Does My Breaker Keep Tripping? Overload, Short Circuit, GFCI, and AFCI Problems Explained"
+  },
+  {
+   "tag": "h2",
+   "text": "Wye vs Delta Power: Understanding 120V, 208V, and 240V Electrical Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Floating Neutral Explained: The Electrical Problem That Burns Up Homes"
+  },
+  {
+   "tag": "h2",
+   "text": "Bethany Church Lighting"
+  },
+  {
+   "tag": "h2",
+   "text": "200 Amp Service Upgrade Cost Fresno (2026) | Real Prices & PG&E Rules"
+  },
+  {
+   "tag": "h2",
+   "text": "Lighting Design Guide: Ambient vs Task vs Accent Lighting for Modern Homes in Fresno, CA"
+  },
+  {
+   "tag": "h2",
+   "text": "100 Amp vs 200 Amp Electrical Service:"
+  },
+  {
+   "tag": "h2",
+   "text": "EV Charger Installation in the Central Valley: What Homeowners Should Know"
+  },
+  {
+   "tag": "h2",
+   "text": "Do You Need a Permit for Electrical Work in the Central Valley?"
+  },
+  {
+   "tag": "h2",
+   "text": "How to Know If Your Central Valley Home Needs an Electrical Panel Upgrade"
+  },
+  {
+   "tag": "h2",
+   "text": "Posts pagination"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#ffffff",
+  "#777777",
+  "#e3e5eb",
+  "#f76a0c",
+  "#24a148",
+  "#ed9700",
+  "#f44337",
+  "#41454f",
+  "#5b616f",
+  "#767c8e"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

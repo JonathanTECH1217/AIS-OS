@@ -1,0 +1,29 @@
+{
+ "_about": "Loom briefs sent before a booked meeting, one record each, and the variations being compared (Jonathan, 2026-10-04: \"analyze the Loom walkthrough, different variations of it, to see how that affects show rate and close rate\"). Written by the CRM's company file (paste a Loom link there); read by Reports, Loom briefs. A variation is one way of making the walkthrough; change one thing at a time between variations so a difference in show rate can be read. watched: yes, no, or blank (his to mark from Loom's view emails). sent_on: the day its link first shows in a sent email to the company.",
+ "variations": [
+  {
+   "key": "A",
+   "name": "Full page review, about 11 minutes",
+   "what": "Their own landing page on screen, top to bottom, every change named before the call: split the page by service, the conversion fixes, the five-minute callback point, SEO after. Sent the day before the meeting.",
+   "added": "2026-10-04"
+  }
+ ],
+ "looms": [
+  {
+   "id": "6c28b9e84de84837843345ff005db8cc",
+   "url": "https://www.loom.com/share/6c28b9e84de84837843345ff005db8cc",
+   "company_key": "momentum-electric.com",
+   "company": "Momentum Electrical Contractors",
+   "company_id": "rec86apeFpM49eGrN",
+   "mb": "MB-03769",
+   "title": "Boosting Leads With High Converting Landing Pages",
+   "seconds": 683,
+   "summary": "This Loom reviews a client landing page for Oakland Electricians and Electric Contractors in the Bay Area, focusing on how to increase leads from the residential lighting control page. The reviewer recommends segmenting by service (for example, lighting control for homeowners) and improving conversion elements such as a stronger, centered headline with an eyebrow, clearer body text, stock image replacement, and moving reviews closer to the primary call to action. They note that responding to leads within five minutes can drive a 390% increase in revenue. They also emphasize that SEO improvements and backlinks are slower but important, and they are looking forward to the Monday meeting.",
+   "made": "2026-10-04",
+   "sent_on": null,
+   "variation": "A",
+   "watched": "",
+   "notes": ""
+  }
+ ]
+}

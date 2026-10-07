@@ -1,0 +1,51 @@
+{
+  "name": "monarc",
+  "label": "Monarc (Google type, the butterfly's colors)",
+  "pages": ["/"],
+  "source": "brainstorms/2026-09-26-homepage-google-rebuild.md round 3 (Q29 to Q31, 2026-09-27): \"it should use the google type and copy but not look like a google search results page\"; a Google product-site layout with a Works for and Not for block; the butterfly's four hues; the search bar under the sub",
+  "palette": {
+    "ground": "#FFFFFF",
+    "band": "#F8F9FA",
+    "card": "#FFFFFF",
+    "ink": "#202124",
+    "body": "#3C4043",
+    "muted": "#5F6368",
+    "hairline": "#DADCE0",
+    "link": "#1F5ED8",
+    "button": "#1F5ED8",
+    "button_text": "#FFFFFF",
+    "fit_yes": "#169C86",
+    "fit_no": "#E8604C",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": ["#E8604C", "#F2A93B", "#169C86"],
+  "hues": {"blue": "#1F5ED8", "coral": "#E8604C", "amber": "#F2A93B", "teal": "#169C86", "note": "The butterfly's four (Q7, Q30): the mark, the four-dot eyebrows, the card accents. Only the blue carries text; teal and coral carry the fit block's 24px headings and marks only."},
+  "contrast": [
+    {"fg": "#202124", "bg": "#FFFFFF", "ratio": 16.10, "passes": "AA", "use": "headings"},
+    {"fg": "#3C4043", "bg": "#FFFFFF", "ratio": 10.47, "passes": "AA", "use": "body"},
+    {"fg": "#3C4043", "bg": "#F8F9FA", "ratio": 9.93, "passes": "AA", "use": "body on the band"},
+    {"fg": "#5F6368", "bg": "#FFFFFF", "ratio": 6.05, "passes": "AA", "use": "labels, captions, the wordmark"},
+    {"fg": "#5F6368", "bg": "#F8F9FA", "ratio": 5.74, "passes": "AA", "use": "labels on the band"},
+    {"fg": "#1F5ED8", "bg": "#FFFFFF", "ratio": 5.75, "passes": "AA", "use": "links"},
+    {"fg": "#FFFFFF", "bg": "#1F5ED8", "ratio": 5.75, "passes": "AA", "use": "button text"},
+    {"fg": "#169C86", "bg": "#FFFFFF", "ratio": 3.42, "passes": "AA-large", "use": "fit yes: the 24px heading and the check marks only"},
+    {"fg": "#E8604C", "bg": "#FFFFFF", "ratio": 3.38, "passes": "AA-large", "use": "fit no: the 24px heading and the cross marks only"}
+  ],
+  "faces": {"heading": "Roboto", "body": "Roboto", "mono": null, "note": "The google theme's type (Q29). The wordmark is Outfit 500 drawn as outlines inside the mark."},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap",
+  "weights": [400, 500],
+  "labels": {"hero": "Book an appointment", "final": "Book an appointment"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "render thumbnail", "radius": "16px", "border": "1px solid #DADCE0", "ground": "#FFFFFF", "shadow": "none"},
+  "shadows": "none",
+  "section_label": "a tracked caps label in grey, plain text (the four butterfly-hue dots before it came off, Jonathan, 2026-09-27: \"remove this icon from these sections\")",
+  "hero": "centered, a Google product page's hero: the eyebrow, the h1, the sub, the search bar typing \"marketing for contractors\", the button",
+  "hero_render": null,
+  "card_renders": "the six service pages' hero renders as the service cards' pictures",
+  "marks": "No Google logo or product names as interface labels; no star ratings or review counts.",
+  "notes": [
+    "Round 3, 2026-09-27. Round 1 (the search theme) wore this type and these colors in a results-page layout, which read as a copy of Google; round 2 (a warm off-white with Outfit) was a misread of the correction. Neither shipped.",
+    "Blocks: header; hero; the six services; the three jobs; Works for and Not for; about; questions; the closing ask; footer.",
+    "No page-view conversion: the shared conversion fires on ?sent=1 only."
+  ]
+}

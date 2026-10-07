@@ -1,0 +1,44 @@
+{
+  "name": "commercial",
+  "label": "Commercial slab",
+  "pages": ["/email-marketing/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q28 to Q33; Jonathan: a commercial feel with a slab font and a golf putt",
+  "palette": {
+    "ground": "#FAF6EE",
+    "ink": "#1A1A1A",
+    "hairline": "#D9D2C5",
+    "accent": "#1E5E3A",
+    "flag": "#D7263D",
+    "button": "#1E5E3A",
+    "button_text": "#FFFFFF",
+    "card": "#FFFFFF",
+    "fit_yes": "#1E5E3A",
+    "fit_no": "#D7263D",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#1A1A1A", "bg": "#FAF6EE", "ratio": 16.15, "passes": "AA", "use": "body on cream"},
+    {"fg": "#FFFFFF", "bg": "#1E5E3A", "ratio": 7.73, "passes": "AA", "use": "button text"},
+    {"fg": "#1E5E3A", "bg": "#FAF6EE", "ratio": 7.17, "passes": "AA", "use": "fit yes"},
+    {"fg": "#D7263D", "bg": "#FAF6EE", "ratio": 4.6, "passes": "AA", "use": "fit no, the flag"},
+    {"fg": "#1A1A1A", "bg": "#FFFFFF", "ratio": 17.4, "passes": "AA", "use": "body on a card"}
+  ],
+  "faces": {"heading": "Zilla Slab", "heading_alternate": "Roboto Slab", "body": "Work Sans", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&family=Work+Sans:wght@400;600&display=swap",
+  "weights": [400, 600, 700],
+  "labels": {"hero": "Close the open proposals", "final": "Book the call"},
+  "button": {"shape": "square", "radius": "0"},
+  "cards": {"opener": "phosphor-bold", "opener_icons": ["envelope", "envelope with a bell", "envelope with a check", "envelope with a house"], "radius": "0", "border": "2px solid #1A1A1A", "ground": "#FFFFFF", "shadow": "4px 4px 0 #1A1A1A"},
+  "shadows": "hard-offset",
+  "section_label": "slab caps over a 2px ink rule",
+  "hero": "full width, not split (Jonathan, 2026-09-26): the putt render across the column in a 2px ink frame, the h1, sub, and hero button set over its beige sky in ink; on phones the sub drops below the image if it cannot fit over the sky",
+  "hero_render": "The ball on the lip of the cup, flag in red, close on the cup. 3D cartoonish on cream: course green, white ball, red flag.",
+  "card_renders": null,
+  "notes": [
+    "Bold is allowed in this theme.",
+    "The four cards are four triggered sequences: the existing base; after a lead submits; after the consultation; after the install. No days printed.",
+    "Walk-through: the five-trade row (speaker, bolt, roof, fan, drop) with one draft subject line each.",
+    "No stock image: the licensed putt photo decision of 2026-09-25 was superseded the same day by the render."
+  ]
+}

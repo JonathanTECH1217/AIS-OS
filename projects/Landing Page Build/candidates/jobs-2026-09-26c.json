@@ -1,0 +1,12 @@
+{
+  "batch": "2026-09-26 Google Ads hero edit (Jonathan: fix the fishing line to naturally fall into the water and have a salmon jumping out of the water). Image edit of hero-2 (job 9a1d1e6d) as the reference, requested as nano_banana_pro, 2k, 4:3, four generations, 8 credits. All four came back labeled nano_banana_2. AIOS pick: hero 8, exported to assets/generated/google-ads/",
+  "prompts": {
+    "google-ads/hero-salmon": "Keep everything the same; the fly line leaves the rod tip in one smooth curve and falls onto the river, the fly resting on the water with ripples, no loops in the air; add a salmon leaping out of the river beyond the fly, mid-jump with a small splash, same clay style, silver and pink."
+  },
+  "jobs": [
+    {"index": 0, "file": "google-ads/hero-5.jpg", "job_id": "44a9aabc-177c-4cf0-95bc-ddc802659732", "prompt": "google-ads/hero-salmon"},
+    {"index": 1, "file": "google-ads/hero-6.jpg", "job_id": "eaa401e6-ceec-4f53-bceb-56f30cd88c97", "prompt": "google-ads/hero-salmon"},
+    {"index": 2, "file": "google-ads/hero-7.jpg", "job_id": "d76b70ce-66fe-4092-8541-42428f90d4c7", "prompt": "google-ads/hero-salmon"},
+    {"index": 3, "file": "google-ads/hero-8.jpg", "job_id": "625f54a9-a37c-40f7-a2d8-3302ea3c3c64", "prompt": "google-ads/hero-salmon"}
+  ]
+}

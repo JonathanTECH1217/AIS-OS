@@ -1,0 +1,12 @@
+{
+  "batch": "2026-09-26 SEO hero redo (Jonathan: a map, pin icon, five star reviews, jumbled up being lassoed by who looks like a contractor in the same cartoon style; interview Q59 to Q67). Requested as nano_banana_pro, 2k, 4:3, four generations, 8 credits. References: seo hero 4 (fc4d9929-1643-42dc-8104-fffd56cb53ca) for style, seo card 1.12 (cadcfcee-b552-4b90-a4ee-0b328ebfd6b1) for the pin",
+  "prompts": {
+    "seo/hero-lasso": "Use the two reference images for style only: the same soft 3D clay cartoon look, rounded shapes, soft studio light, the clean pale lavender-white background, indigo #4F46E5 as the main color, and the same map pin as the second image (a glossy indigo pin with a white house on a white disc in its head). New scene, isometric view: a small rounded clay block shaped like a town map, pale grey streets, a few tiny white houses with indigo roofs, small round trees in soft sage green. Standing on the lower left of the town, a cartoon contractor in a white hard hat, indigo work shirt, grey work pants, brown work boots, and a tan tool belt with a small hammer leans back with both hands gripping a tan rope, boots planted, pulling hard. The rope runs up and to the right in one taut line to a lasso loop pulled tight around a big glossy indigo map pin tangled together with a white review card that shows five gold stars in a row and two short grey lines below them; the pin and the card are tilted and jumbled together, being hauled down toward his street. Gold only on the stars. No text, no letters, no logos, no watermark."
+  },
+  "jobs": [
+    {"index": 0, "file": "seo/hero-5.jpg", "job_id": "9d671d56-f3e4-40ff-8e0d-3d77dc7c67bd", "prompt": "seo/hero-lasso"},
+    {"index": 1, "file": "seo/hero-6.jpg", "job_id": "3275297b-7a36-4791-8e94-fd9998539cb8", "prompt": "seo/hero-lasso"},
+    {"index": 2, "file": "seo/hero-7.jpg", "job_id": "5dcd4a2a-5b06-47f3-beee-ddc58758b208", "prompt": "seo/hero-lasso"},
+    {"index": 3, "file": "seo/hero-8.jpg", "job_id": "5b7fd87a-406b-46ef-82fe-03109b611158", "prompt": "seo/hero-lasso"}
+  ]
+}

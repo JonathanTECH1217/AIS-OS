@@ -1,0 +1,54 @@
+{
+  "conversion": {
+    "ok": true,
+    "at": "2026-10-02T00:20:53-04:00",
+    "note": "main: Submit lead form (6)"
+  },
+  "clicks": {
+    "ok": true,
+    "at": "2026-10-02T00:20:53-04:00",
+    "note": "auto-tagging on; suffix matches account.md"
+  },
+  "h1": {
+    "01": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: Managed Google Ads for contractors."
+    },
+    "02": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: Contractor website design that books the job."
+    },
+    "03": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: SEO for home services. Found first, everywhere."
+    },
+    "04": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: Email marketing for contractors with open proposals."
+    },
+    "05": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: Facebook and Instagram ads for contractors."
+    },
+    "06": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: AI automation for contractors. Your hours back."
+    },
+    "07": {
+      "ok": true,
+      "at": "2026-10-02T00:20:53-04:00",
+      "note": "h1: Book more quality leads as an AV contractor."
+    }
+  },
+  "booking": {
+    "ok": false,
+    "at": "2026-10-02T00:20:53-04:00",
+    "note": "no lead with Google labels yet"
+  }
+}

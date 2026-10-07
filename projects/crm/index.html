@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monarc CRM</title>
+<meta name="theme-color" content="#F8FAFD">
+<link rel="icon" href="monarc-crm.ico">
+<!-- Styled like a Google product (Material 3, as in Gmail, Drive, Calendar), Jonathan 2026-09-26. Was Fluent (2026-09-23).
+     Top bar: the butterfly logo (a button, its menu is Butterfly), the name, a pill search that opens Companies, the Airtable status, the avatar.
+     Rail: Work (Today, Pipeline), Records (Companies, Activity, Artifacts, Creative since 2026-10-05), Performance (Channels, Reports, Money), Settings at the foot.
+     The Integrators or Electricians switch that sat above the rail left on 2026-10-03 (Jonathan did not know what it was for).
+     Fonts and icons are served from fonts/ so the look holds offline. -->
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+  <!-- Butterfly (2026-10-05): the logo is a button. Three options drop under it: run a skill, new project, work on a project. -->
+  <div class="brand">
+    <button class="bfly" id="butterfly" type="button" title="Butterfly" aria-label="Butterfly" aria-haspopup="menu" aria-expanded="false"></button>
+    <a class="name" href="#/today">Monarc CRM</a>
+  </div>
+  <form class="gsearch" id="gsearch" role="search">
+    <button type="submit" title="Search"><span class="ms" aria-hidden="true">search</span></button>
+    <input type="search" name="q" placeholder="Search companies" aria-label="Search companies" autocomplete="off">
+  </form>
+  <div class="top-right">
+    <!-- The chat box's button is put here by js/components/chat.js (2026-10-05): the clone in a panel on the right. -->
+    <button class="icon-btn" id="refresh-all" type="button" title="Pull the latest from Airtable (the CRM base, the call sheets, the books)"><span class="ms" aria-hidden="true">refresh</span></button>
+    <div class="status" id="status"><span class="dot"></span><span id="status-text">Connecting</span></div>
+    <span class="avatar" title="Jonathan Beach" aria-hidden="true">J</span>
+  </div>
+</header>
+<aside class="rail">
+  <nav class="nav" id="nav" aria-label="Sections">
+    <div class="rail-group">
+      <div class="label">Work</div>
+      <a href="#/today" data-route="today" title="Today"><span class="ms" aria-hidden="true">calendar_today</span><span>Today</span></a>
+      <a href="#/pipeline" data-route="pipeline" title="Pipeline"><span class="ms" aria-hidden="true">view_kanban</span><span>Pipeline</span></a>
+    </div>
+    <div class="rail-group">
+      <div class="label">Records</div>
+      <a href="#/companies" data-route="companies" title="Companies"><span class="ms" aria-hidden="true">domain</span><span>Companies</span></a>
+      <a href="#/activity" data-route="activity" title="Activity"><span class="ms" aria-hidden="true">history</span><span>Activity</span></a>
+      <a href="#/artifacts" data-route="artifacts" title="Artifacts"><span class="ms" aria-hidden="true">folder_open</span><span>Artifacts</span></a>
+      <a href="#/creative" data-route="creative" title="Creative"><span class="ms" aria-hidden="true">movie</span><span>Creative</span></a>
+    </div>
+    <div class="rail-group">
+      <div class="label">Performance</div>
+      <a href="#/channels" data-route="channels" title="Channels"><span class="ms" aria-hidden="true">campaign</span><span>Channels</span></a>
+      <a href="#/reports" data-route="reports" title="Reports"><span class="ms" aria-hidden="true">bar_chart</span><span>Reports</span></a>
+      <a href="#/money" data-route="money" title="Money"><span class="ms" aria-hidden="true">payments</span><span>Money</span></a>
+    </div>
+    <div class="rail-group rail-bottom">
+      <a href="#/settings" data-route="settings" title="Settings"><span class="ms" aria-hidden="true">settings</span><span>Settings</span></a>
+    </div>
+  </nav>
+</aside>
+<main id="view" class="view"></main>
+</div>
+<div id="modal-root"></div>
+<div id="toast" class="toast" hidden></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

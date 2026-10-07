@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Monarc Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#131314">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="topbar" id="topbar"></header>
+  <aside class="tools" id="tools" aria-label="Tools"></aside>
+  <section class="panel bin" id="bin" aria-label="Media bin"></section>
+  <div class="divider v" id="div-bin" title="Drag to resize (double-click resets)"></div>
+  <section class="panel monitor" id="monitor" aria-label="Program monitor"></section>
+  <div class="divider v" id="div-side" title="Drag to resize (double-click resets)"></div>
+  <section class="panel side" id="side" aria-label="Effect Controls and Captions"></section>
+  <div class="divider h" id="div-tl" title="Drag to resize (double-click resets)"></div>
+  <section class="panel timeline" id="timeline" aria-label="Timeline"></section>
+</div>
+<div id="modal-root"></div>
+<div id="toast" class="toast" hidden></div>
+<pre id="__out" hidden></pre>
+<script type="module" src="app.js"></script>
+</body>
+</html>

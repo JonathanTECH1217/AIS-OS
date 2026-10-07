@@ -1,0 +1,210 @@
+{
+ "company": "Fusion Tech Companies",
+ "short": "Fusion Tech",
+ "page": "https://fusiontechcompanies.com",
+ "loom": "https://www.loom.com/share/ea3b44a355c742e8ad842211b82ee3e4",
+ "phone": "314-395-8888",
+ "address": "1254 Hanley Industrial Ct, Brentwood, MO 63144",
+ "areas": "Serving the Greater St. Louis area",
+ "brand": {
+  "color": "#025399",
+  "dark": "#023F75",
+  "accent": "#0EB9DF",
+  "serif": true,
+  "head": "Barlow Semi Condensed",
+  "body": "Montserrat",
+  "mist": "#EEF4F8"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "Lighting control for homeowners",
+  "h1": "Lighting Control Installation in St. Louis",
+  "sub": "Light that follows the sun, keypads engraved for every room, and a color temperature you set once. Less to think about and a calmer home.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Engraved keypads",
+    "p": "One keypad in each room, engraved with the scenes you use: Dinner, Movie, Goodnight. No wall of switches."
+   },
+   {
+    "icon": "sun",
+    "h3": "Follows the sun",
+    "p": "Warm light at dawn and dusk, bright at midday. Your lights keep pace with the day so your body keeps its rhythm."
+   },
+   {
+    "icon": "clock",
+    "h3": "Less to think about",
+    "p": "Lights come on at dusk, off at bedtime, and dim when the movie starts. Away from home, the house keeps its routine."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Electrical expertise and media innovation",
+  "p": "Fusion Tech Companies serves the Greater St. Louis area with high-end electrical and media work for luxury homes, with over 25 years of combined experience. Our Union Local 1 technicians plan, wire, install, and program each system, and our team walks you through it once the work is done."
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-theater.jpg",
+    "alt": "A dedicated home theater with lit wall sconces and a row of red seats"
+   },
+   {
+    "src": "assets/work-kitchen.jpg",
+    "alt": "A kitchen with pendant lights over the island and a wall of windows"
+   },
+   {
+    "src": "assets/work-bedroom.jpg",
+    "alt": "A bedroom with a lounge chair at a window over the city"
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For builders, architects, and designers",
+  "h2": "Our process",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We meet with you and the homeowner, walk the plans, and settle what each room should do."
+   },
+   {
+    "h3": "System design and drawings",
+    "p": "Drawings mark every keypad, fixture, and wire drop. Hardware and labor are listed in detail and reviewed with you before anything is ordered."
+   },
+   {
+    "h3": "Installation",
+    "p": "Wire at rough-in, trim and program at finish, on the construction schedule. Drawings are updated to as-built when the work is done."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "As-built documents and the programming files are handed over at sign-off. Manufacturer warranties plus our workmanship warranty, and service for the life of the system."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "p": "Most lighting projects grow. These cover the rest of the house.",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Distributed audio",
+    "p": "Music in every room, or just one, from your phone.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   },
+   {
+    "icon": "tv",
+    "h3": "Dedicated home theater",
+    "p": "A room built for the screen, the sound, and lights that dim when the show begins.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "p": "Shades and drapes that move with the sun and with your lighting scenes.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   },
+   {
+    "icon": "home",
+    "h3": "Smart home control",
+    "p": "Lights, shades, music, climate, and cameras from one keypad, remote, or app.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   },
+   {
+    "icon": "camera",
+    "h3": "Security and cameras",
+    "p": "Cameras, access control, and monitoring for the whole property.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   },
+   {
+    "icon": "bolt",
+    "h3": "Whole home generators",
+    "p": "Power that stays on when the street goes dark.",
+    "href": "https://fusiontechcompanies.com/home-spaces/"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Does lighting control work in an existing home, or only in a new build?",
+    "a": "Both. A new build or remodel gets wired keypads at rough-in. An existing home can use wireless keypads and dimmers with no new wiring."
+   },
+   {
+    "q": "Can I keep my current fixtures?",
+    "a": "Most of the time, yes. The dimmers sit behind the wall or in a panel. We check each fixture type, LED included, before we design."
+   },
+   {
+    "q": "What happens if the internet goes down?",
+    "a": "The keypads and dimmers keep working. Only the app from outside the house needs the internet."
+   },
+   {
+    "q": "How do we change a scene later?",
+    "a": "Ask us, or change it yourself from the app. A keypad can be re-engraved if a room's use changes."
+   },
+   {
+    "q": "Do you work with my builder, electrician, or designer?",
+    "a": "Yes. Your electrician gets a wire plan, and keypad locations and finishes are set with your designer."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "We had motorized dual shades by Alta installed on the first level of our home. We absolutely love them!",
+    "who": "ashley f.",
+    "stars": 5
+   },
+   {
+    "p": "We have used Fusion for two major tech installs at two homes. They are great to work with. The team is not just  technically capable but very easy to work with, great communication and plain ole good guys.",
+    "who": "Barb B.",
+    "stars": 5
+   },
+   {
+    "p": "My family did a huge home renovation project and new build addition that took 4 years and Fusion did a phenomenal job. Smart lighting, smart TVs, security system, and speaker systems with complicated cabling and setups all within one app.",
+    "who": "Samantha M.",
+    "stars": 5
+   }
+  ]
+ },
+ "final": {
+  "h2": "Ready to plan the lighting?",
+  "p": "Tell us about the home and we will set a time to talk."
+ },
+ "footer": {
+  "creds": "BBB Accredited Business. IBEW Local 1. Lutron. CEDIA. CE Pro."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or remodel, and when you need it done.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "work",
+  "process",
+  "services",
+  "faq",
+  "reviews",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom ea3b44a3 (he reviewed their home page; they have no lighting page). Brand: the logo is cyan #0EB9DF on dark blue #025399; white words on the cyan fail contrast, so the dark blue carries the buttons, icons, and card grounds and the cyan is the accent (hero eyebrow, process numbers). Fonts: Barlow Semi Condensed and Montserrat are on their site; headings are the engine's light serif (high-end residential). Photos: hero and the three work photos are the pictures their site shows as previous work (the About page: 'Get inspired by some of our previous work'); they look like stock header photos, so ask them for real job photos before anyone outside sees this. No owner or team photo on the site (the Leadership Team block names Kevin Boone, Joe Mclafferty, Cindy Willhoyt with no pictures): the About box is left marked empty. Reviews are the six testimonials on their home page, cut to whole sentences, first name and last initial; no Google rating is on the site, so no trust line and no rating line. Secondary services all link to /home-spaces/ because that is the only page that holds them; each should get its own page. The form sends nothing. Order is the order he said the sections in the Loom, with the small review section (which he placed 'right around in one of those areas') put just before the closing ask.",
+ "google": {
+  "rating": 4.4,
+  "count": 13,
+  "maps": "https://maps.google.com/?cid=16348757973333562838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

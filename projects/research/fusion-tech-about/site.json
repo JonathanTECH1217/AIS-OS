@@ -1,0 +1,112 @@
+{
+ "read": "2026-10-06",
+ "url": "https://fusiontechcompanies.com/about-us/",
+ "title": "About Us | Fusion Tech Companies",
+ "description": "",
+ "words": 521,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "About US"
+  },
+  {
+   "tag": "h1",
+   "text": "Leadership Team"
+  },
+  {
+   "tag": "h2",
+   "text": "Building the future"
+  },
+  {
+   "tag": "h2",
+   "text": "our Work"
+  }
+ ],
+ "phones": [
+  "314-395-8888"
+ ],
+ "colors": [
+  "#2ea3f2",
+  "#ffffff",
+  "#353740",
+  "#f3f3f3",
+  "#aae5ff",
+  "#0c71c3",
+  "#000000",
+  "#abb8c3",
+  "#f78da7",
+  "#cf2e2e"
+ ],
+ "faces": [
+  "Arial",
+  "Barlow Condensed",
+  "Barlow Semi Condensed",
+  "Courier New",
+  "ETmodules",
+  "ETmodules!important",
+  "FontAwesome",
+  "FontAwesome!important",
+  "Montserrat",
+  "Open Sans"
+ ],
+ "social": [
+  "https://www.facebook.com/FusionTechCompanies"
+ ],
+ "pictures": [
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/Fusion_Tech_Horizontal.png",
+   "alt": "Fusion Tech Companies",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/header_space_commercial_spa.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/header_space_home_whole_home-38ddc81c.webp",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/header_space_home_theater.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/AB_logo_270x103.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/05/LUnewWebnotrade.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/lutron1.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/CE_Pro.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/cedia1.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/Fusion_Tech_Horizontal_V2.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://fusiontechcompanies.com/wp-content/uploads/2025/04/Facebook_Logo_2023.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  }
+ ]
+}

@@ -1,0 +1,1276 @@
+<!DOCTYPE html><html lang="en" data-theme="light" style="--theme-mix: 0;"><head>
+    <meta charset="UTF-8">
+
+    <!-- Consent Mode v2 and owner opt-out. This must execute before GTM. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+      window.__TRU_NOTRACK = (function () {
+        try {
+          var cookieName = 'tru_notrack';
+          var nt = new URLSearchParams(location.search).get('notrack');
+          var secure = location.protocol === 'https:' ? '; Secure' : '';
+          var domain = /(^|\.)trudefinition\.com$/i.test(location.hostname) ? '; Domain=.trudefinition.com' : '';
+          var writeCookie = function (enabled) {
+            document.cookie = enabled
+              ? cookieName + '=1; Path=/; Max-Age=34560000; SameSite=Lax' + secure + domain
+              : cookieName + '=; Path=/; Max-Age=0; SameSite=Lax' + secure + domain;
+          };
+          if (nt === '1') {
+            localStorage.setItem(cookieName, '1');
+            writeCookie(true);
+          }
+          if (nt === '0') {
+            localStorage.removeItem(cookieName);
+            writeCookie(false);
+          }
+          var stored = localStorage.getItem(cookieName) === '1';
+          if (stored) writeCookie(true);
+          var cookieDisabled = document.cookie.split(';').some(function (part) {
+            return part.trim() === cookieName + '=1';
+          });
+          var adminRoute = location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+          return adminRoute || stored || cookieDisabled;
+        } catch (e) {
+          return location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+        }
+      })();
+      window.__CLIENT_NO_TRACK__ = window.__TRU_NOTRACK;
+      (function () {
+        var analyticsConsent = null;
+        var adsConsent = null;
+        try {
+          analyticsConsent = localStorage.getItem('tru_analytics_consent_v2');
+          adsConsent = localStorage.getItem('tru_ads_consent_v2');
+        } catch (e) {}
+        // Advanced Consent Mode: an undecided visitor defaults to denied, while
+        // Google tags still load and may send consent-aware cookieless pings.
+        var analyticsValue = !window.__CLIENT_NO_TRACK__ && analyticsConsent === 'granted'
+          ? 'granted' : 'denied';
+        var adsValue = !window.__CLIENT_NO_TRACK__ && analyticsValue === 'granted' && adsConsent === 'granted'
+          ? 'granted' : 'denied';
+        window.gtag('consent', 'default', {
+          analytics_storage: analyticsValue,
+          ad_storage: adsValue,
+          ad_user_data: adsValue,
+          ad_personalization: 'denied',
+          functionality_storage: 'granted',
+          security_storage: 'granted'
+        });
+      })();
+    </script>
+
+    <!-- Google Tag Manager. GA4 is configured only inside this container. -->
+    <script>
+      if (!window.__PRERENDERING && !window.__CLIENT_NO_TRACK__) {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PTPPVP63');
+      }
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=Montserrat:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <title>Dallas-Fort Worth Smart Home Service Areas | TruDefinition</title>
+    <script type="module" crossorigin="" src="/assets/index-B95XkdPc.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-BpRhLXWi.css">
+  <meta name="description" content="Explore TruDefinition smart home service areas across Dallas-Fort Worth, including Dallas, Fort Worth, Southlake, Westlake, the Park Cities, Frisco, and Plano."><meta name="robots" content="index, follow"><link rel="canonical" href="https://www.trudefinition.com/areas-served"><meta property="og:type" content="website"><meta property="og:title" content="Dallas-Fort Worth Smart Home Service Areas | TruDefinition"><meta property="og:description" content="Explore TruDefinition smart home service areas across Dallas-Fort Worth, including Dallas, Fort Worth, Southlake, Westlake, the Park Cities, Frisco, and Plano."><meta property="og:url" content="https://www.trudefinition.com/areas-served"><meta property="og:site_name" content="TruDefinition"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Dallas-Fort Worth Smart Home Service Areas | TruDefinition"><meta name="twitter:description" content="Explore TruDefinition smart home service areas across Dallas-Fort Worth, including Dallas, Fort Worth, Southlake, Westlake, the Park Cities, Frisco, and Plano."><meta name="geo.region" content="US-TX"><meta name="geo.placename" content="Fort Worth, Texas"><meta name="geo.position" content="32.7555;-97.3308"><meta name="ICBM" content="32.7555, -97.3308"><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"CollectionPage","name":"Areas Served","description":"Dallas-Fort Worth communities served by TruDefinition for luxury smart-home technology.","url":"https://www.trudefinition.com/areas-served","isPartOf":{"@id":"https://www.trudefinition.com/#website"},"inLanguage":"en-US","mainEntity":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Dallas","url":"https://www.trudefinition.com/areas-served/dallas"},{"@type":"ListItem","position":2,"name":"Fort Worth","url":"https://www.trudefinition.com/areas-served/fort-worth"},{"@type":"ListItem","position":3,"name":"Southlake","url":"https://www.trudefinition.com/areas-served/southlake"},{"@type":"ListItem","position":4,"name":"Westlake","url":"https://www.trudefinition.com/areas-served/westlake"},{"@type":"ListItem","position":5,"name":"Park Cities","url":"https://www.trudefinition.com/areas-served/highland-park"},{"@type":"ListItem","position":6,"name":"Frisco","url":"https://www.trudefinition.com/areas-served/frisco"},{"@type":"ListItem","position":7,"name":"Plano","url":"https://www.trudefinition.com/areas-served/plano"},{"@type":"ListItem","position":8,"name":"Colleyville","url":"https://www.trudefinition.com/areas-served/colleyville"},{"@type":"ListItem","position":9,"name":"Keller","url":"https://www.trudefinition.com/areas-served/keller"},{"@type":"ListItem","position":10,"name":"Prosper & Celina","url":"https://www.trudefinition.com/areas-served/prosper-celina"},{"@type":"ListItem","position":11,"name":"Addison","url":"https://www.trudefinition.com/areas-served/addison"},{"@type":"ListItem","position":12,"name":"Aledo","url":"https://www.trudefinition.com/areas-served/aledo"},{"@type":"ListItem","position":13,"name":"Horseshoe Bay","url":"https://www.trudefinition.com/areas-served/horseshoe-bay"},{"@type":"ListItem","position":14,"name":"Preston Hollow","url":"https://www.trudefinition.com/areas-served/highland-park/preston-hollow"}]}}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.trudefinition.com/"},{"@type":"ListItem","position":2,"name":"Areas Served"}]}</script></head>
+  <body>
+    <!-- The static noscript GTM iframe is intentionally omitted because it cannot
+         honor owner exclusion or the automatic /admin route exclusion. -->
+
+    <div id="root"><div style="position: fixed; bottom: 24px; right: 24px; z-index: 10001; display: flex; flex-direction: column; align-items: center; gap: 7px; opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity 0.45s, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);"><button aria-label="Chat with Sage" class="sage-launcher-pulse" style="position: relative; width: 58px; height: 58px; border-radius: 50%; border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); padding: 0px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); color: rgb(197, 165, 90); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 6px 26px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1);"><span style="width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0; background: rgb(12, 26, 46); color: rgb(197, 165, 90); display: flex; align-items: center; justify-content: center; font-size: 18.4px; font-weight: 900; letter-spacing: 0.5px; font-family: &quot;Cormorant Garamond&quot;, Georgia, serif;">S</span><span style="position: absolute; right: 3px; bottom: 3px; width: 12px; height: 12px; border-radius: 50%; background: rgb(22, 163, 74); border: 2px solid color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58));"></span></button><span style="padding: 3px 11px; border-radius: 100px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); color: color-mix(rgba(12, 26, 46, 0.55) 100%, rgba(255, 255, 255, 0.6)); font-size: 10px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; font-family: Montserrat, system-ui, sans-serif; white-space: nowrap; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 3px 12px;">Ask Sage</span></div><style>
+        @keyframes sageSlideUp {
+          from { opacity: 0; transform: translateY(16px) scale(0.97); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        @keyframes sageDotPulse {
+          0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+          40% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes sagePulseRing {
+          0% { box-shadow: 0 0 0 0 rgba(12,26,46,0.4); }
+          70% { box-shadow: 0 0 0 12px rgba(12,26,46,0); }
+          100% { box-shadow: 0 0 0 0 rgba(12,26,46,0); }
+        }
+        .sage-launcher-pulse {
+          animation: sagePulseRing 2s ease-out 3;
+        }
+        .sage-teaser {
+          animation: sageTeaserIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        @keyframes sageTeaserIn {
+          from { opacity: 0; transform: translateY(10px) scale(0.96); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .sage-quick-reply:hover {
+          background: rgba(12,26,46,0.05) !important;
+          transform: translateX(-2px);
+        }
+        .sage-chat-window::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        .sage-chat-window *::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window *::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window *::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        @media (max-width: 480px) {
+          .sage-chat-window {
+            bottom: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 0 !important;
+          }
+        }
+      </style><div class="consent-notice" role="dialog" aria-label="Privacy choices" aria-live="polite"><p>We use privacy-conscious analytics and campaign measurement to understand what works. We do not enable personalized advertising. <a href="/privacy-policy" data-discover="true">Privacy Policy</a></p><div class="consent-notice__actions"><button type="button" class="consent-notice__decline">Decline non-essential</button><button type="button" class="consent-notice__allow">Allow measurement</button></div><style>
+        .consent-notice {
+          position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 12000;
+          max-width: 920px; margin: 0 auto; padding: 1rem 1.15rem;
+          display: flex; align-items: center; justify-content: space-between;
+          gap: 1rem; flex-wrap: wrap;
+          background: var(--surface-card, #fff); color: var(--text-primary, #0c1a2e);
+          border: 1px solid var(--border-firm, rgba(12,26,46,.2)); border-radius: 10px;
+          box-shadow: 0 14px 40px rgba(0,0,0,.22);
+          font-family: 'Montserrat', system-ui, sans-serif; font-size: .78rem;
+        }
+        .consent-notice p { flex: 1 1 430px; margin: 0; line-height: 1.55; }
+        .consent-notice a { color: var(--orange, #9a7c3a); text-decoration: underline; }
+        .consent-notice__actions { display: flex; gap: .65rem; flex-wrap: wrap; }
+        .consent-notice button {
+          min-height: 38px; padding: .55rem .85rem; border-radius: 6px;
+          font: 600 .74rem 'Montserrat', system-ui, sans-serif; cursor: pointer;
+        }
+        .consent-notice__decline {
+          border: 1px solid var(--border-firm, #c9cdd2); color: inherit; background: transparent;
+        }
+        .consent-notice__allow {
+          border: 1px solid #c5a55a; background: #c5a55a; color: #0c1a2e;
+        }
+        @media (max-width: 600px) {
+          .consent-notice { bottom: .5rem; left: .5rem; right: .5rem; }
+          .consent-notice__actions, .consent-notice button { width: 100%; }
+        }
+      </style></div><header class="hdr   "><div class="hdr__inner"><a class="hdr__logo" href="/" data-discover="true"><img alt="TruDefinition" class="hdr__logo-img" src="/logo-dark.png"></a><nav class="hdr__nav hdr__nav--desktop"><div class="hdr__nav-item "><span class="hdr__nav-link">Residential<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><div class="hdr__nav-item "><span class="hdr__nav-link">Service Areas<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><a class="hdr__nav-item" href="/about" data-discover="true"><span class="hdr__nav-link">About</span></a><a class="hdr__nav-item" href="/contact" data-discover="true"><span class="hdr__nav-link hdr__nav-link--cta">Contact</span></a><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></nav><button class="hdr__burger " aria-label="Toggle menu"><span></span><span></span><span></span></button></div><nav class="hdr__mobile "><div class="mob__section"><button class="mob__toggle">Residential<span class="mob__plus ">+</span></button></div><div class="mob__section"><button class="mob__toggle">Service Areas<span class="mob__plus ">+</span></button></div><a class="mob__link mob__link--top" href="/about" data-discover="true">About</a><a class="mob__link mob__link--top mob__link--cta" href="/contact" data-discover="true">Contact</a><div class="mob__theme-row"><span>Theme</span><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></div></nav><style>
+ /* ===== HEADER BAR ===== */
+ .hdr {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+ background: var(--header-bg, #ffffff);
+ transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
+ border-bottom: 1px solid var(--border-soft, rgba(12, 26, 46, 0.06));
+ }
+ [data-theme="dark"] .hdr {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Home page header — seamless cream-to-transparent gradient that fades into
+    the hero image. No blur, no border — pure soft fade so the nav appears to
+    be part of the image itself. */
+ /* Home header: cream gradient whose alpha is driven by the dimmer with a
+    quadratic curve — the cream stays subtle through most of the slide and
+    only ramps up to full presence near the bright end, so it tracks the
+    perceived rate of the hero image crossfade rather than changing faster. */
+ .hdr--home,
+ [data-theme="dark"] .hdr--home {
+ background: linear-gradient(180deg,
+   rgba(247, 240, 225, calc(0.66 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 0%,
+   rgba(247, 240, 225, calc(0.49 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 45%,
+   rgba(247, 240, 225, calc(0.25 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 80%,
+   rgba(247, 240, 225, 0) 100%);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ border-bottom: none;
+ box-shadow: none;
+ }
+
+ .hdr--scrolled {
+ background: var(--header-bg, #ffffff);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ box-shadow: var(--shadow-soft, 0 6px 32px rgba(12, 26, 46, 0.06));
+ border-bottom-color: var(--border-firm, rgba(12, 26, 46, 0.08));
+ }
+ [data-theme="dark"] .hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+ /* Home + scrolled: pinned header goes solid white — the cream is only for
+    the top position where it needs to blend into the hero image. */
+ .hdr--home.hdr--scrolled {
+ background: #ffffff;
+ }
+ [data-theme="dark"] .hdr--home.hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Transparent variant — used only on the home page while at the top.
+    Logo inverts to white via filter; nav links / CTA flip to white; bg goes clear. */
+ .hdr--transparent {
+ background: transparent;
+ border-bottom-color: transparent;
+ box-shadow: none;
+ }
+ /* Logo asset itself swaps (white-gradient version) — no CSS filter needed */
+ .hdr--transparent .hdr__nav-link {
+ color: #ffffff;
+ text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+ }
+ .hdr--transparent .hdr__nav-link:hover,
+ .hdr--transparent .hdr__nav-item--active .hdr__nav-link {
+ color: var(--orange, #c5a55a);
+ }
+ .hdr--transparent .hdr__nav-link--cta {
+ color: #ffffff;
+ border-color: rgba(255,255,255,0.7);
+ text-shadow: none;
+ }
+ .hdr--transparent .hdr__nav-link--cta:hover {
+ background: #ffffff;
+ color: var(--black, #0c1a2e);
+ border-color: #ffffff;
+ }
+ .hdr--transparent .hdr__burger span {
+ background: #ffffff;
+ }
+ .hdr__inner {
+ max-width: 1280px; margin: 0 auto; padding: 0 2.5rem;
+ display: flex; align-items: center; justify-content: space-between; height: 88px;
+ }
+ .hdr__logo { display: flex; align-items: center; text-decoration: none; }
+ .hdr__logo:hover { opacity: 0.85; }
+ .hdr__logo-img { height: 42px; width: auto; object-fit: contain; }
+
+ .hdr__nav--desktop { display: flex; align-items: center; gap: 0.25rem; }
+ .hdr__nav-item { position: relative; text-decoration: none; }
+ .hdr__nav-link {
+ display: flex; align-items: center; gap: 6px;
+ padding: 1.25rem 1.1rem; font-size: 0.72rem; font-weight: 500;
+ letter-spacing: 2.2px; text-transform: uppercase;
+ color: var(--text-body, #2a3547); cursor: pointer; transition: color 0.3s ease;
+ }
+ .hdr__nav-link:hover, .hdr__nav-item--active .hdr__nav-link { color: var(--orange, #c5a55a); }
+ .hdr__nav-link--cta {
+ color: var(--orange, #c5a55a); font-weight: 600;
+ padding: 0.6rem 1.4rem; margin-left: 0.8rem;
+ border: 1px solid var(--orange, #c5a55a);
+ letter-spacing: 2.4px;
+ transition: background 0.3s ease, color 0.3s ease;
+ }
+ .hdr__nav-link--cta:hover { background: var(--orange, #c5a55a); color: #ffffff; }
+ .hdr__chev { width: 9px; height: 9px; transition: transform 0.3s; }
+ .hdr__nav-item--active .hdr__chev { transform: rotate(180deg); }
+
+ /* ===== MEGA DROPDOWN ===== */
+ /* Theme-aware tokens — defaults are the LIGHT theme */
+ .mega {
+ position: fixed; top: 88px; left: 0; right: 0;
+ background: #ffffff;
+ color: #0c1a2e;
+ box-shadow: 0 18px 50px rgba(12, 26, 46, 0.12);
+ animation: megaFade 0.25s ease;
+ z-index: 999;
+ --mega-text: #0c1a2e;
+ --mega-text-muted: #2a3547;
+ --mega-accent: #9a7c3a;
+ --mega-divider: rgba(154, 124, 58, 0.35);
+ --mega-active-bg: transparent;
+ }
+ [data-theme="dark"] .mega {
+ background: #060708;
+ color: var(--soft-white, #e8e9ed);
+ box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+ --mega-text: var(--soft-white, #e8e9ed);
+ --mega-text-muted: color-mix(in oklab, var(--soft-white, #e8e9ed), transparent 14%);
+ --mega-accent: #b08c42;
+ --mega-divider: rgba(176, 140, 66, 0.4);
+ --mega-active-bg: transparent;
+ }
+ @keyframes megaFade {
+ from { opacity: 0; transform: translateY(-4px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+ .mega__inner {
+ max-width: 1200px; margin: 0 auto; padding: 1.75rem 2.5rem;
+ display: grid; grid-template-columns: 230px 1fr 1.4fr; gap: 0;
+ min-height: 0;
+ }
+
+ /* Left: service links */
+ .mega__services {
+ border-right: 1px solid var(--mega-divider);
+ padding-right: 1.25rem;
+ display: flex; flex-direction: column; gap: 0.05rem;
+ }
+ .mega__svc-link {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 0.55rem 0.95rem; font-size: 0.88rem; font-weight: 400;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease, border-color 0.15s ease;
+ border: 1px solid transparent;
+ background: var(--mega-active-bg);
+ }
+ .mega__svc-link:hover {
+ color: var(--mega-accent);
+ }
+ .mega__svc-link--active {
+ color: var(--mega-accent);
+ border-color: var(--mega-accent);
+ font-weight: 500;
+ }
+ .mega__arrow { font-size: 1.15rem; opacity: 0.55; }
+ .mega__svc-link--active .mega__arrow { opacity: 1; color: var(--mega-accent); }
+ .mega__svc-link:hover .mega__arrow { opacity: 1; color: var(--mega-accent); }
+
+ /* Middle: sub-services */
+ .mega__subs {
+ padding: 0 2rem;
+ border-right: none;
+ }
+ .mega__subs-title {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1rem; padding-bottom: 0;
+ border-bottom: none;
+ }
+ .mega__sub-link {
+ display: block; padding: 0.4rem 0; font-size: 0.88rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__sub-link:hover { color: var(--mega-accent); padding-left: 0; }
+ .mega__view-all {
+ display: inline-flex; align-items: center; gap: 0.5rem;
+ margin-top: 1rem; font-size: 0.88rem;
+ font-weight: 500; color: var(--mega-accent); text-decoration: none;
+ letter-spacing: 0;
+ }
+ .mega__view-all:hover { text-decoration: none; opacity: 0.8; }
+
+ /* Right: image — anchored to top so it sits in the same place every time,
+    with a fixed height so its size never changes from one service to the next. */
+ .mega__image {
+ display: flex; align-items: flex-start; justify-content: center;
+ padding-left: 1.5rem; overflow: hidden;
+ }
+ .mega__image img {
+ width: 100%; height: 240px; object-fit: cover;
+ border-radius: 8px; opacity: 1;
+ box-shadow: 0 8px 24px rgba(12, 26, 46, 0.12);
+ display: block;
+ }
+
+ /* ===== AREAS MEGA ===== */
+ .mega__inner--areas {
+ grid-template-columns: 1fr; gap: 2rem;
+ min-height: auto;
+ }
+ .mega__tier { }
+ .mega__tier-label {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1.25rem; padding-bottom: 0.6rem;
+ border-bottom: 1px solid var(--mega-divider);
+ }
+ .mega__tier-cities { display: flex; flex-direction: column; gap: 0; }
+ .mega__inner--areas .mega__tier-cities {
+ display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 2.5rem;
+ }
+ .mega__inner--areas .mega__tier + .mega__tier { margin-top: 1.5rem; }
+ .mega__city-link {
+ display: block; padding: 0.5rem 0; font-size: 0.92rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__city-link:hover { color: var(--mega-accent); padding-left: 0; }
+
+ /* ===== HAMBURGER ===== */
+ .hdr__burger {
+ display: none; flex-direction: column; gap: 5px;
+ background: none; border: none; cursor: pointer; padding: 5px;
+ }
+ .hdr__burger span {
+ display: block; width: 24px; height: 2px;
+ background: var(--black, #0c1a2e); transition: all 0.3s;
+ }
+ /* Dark theme: hamburger + X bars need to be white to read on the dark header */
+ [data-theme="dark"] .hdr__burger span { background: #ffffff; }
+ .hdr__burger--open span:nth-child(1) { transform: rotate(45deg) translateY(5px) translateX(5px); }
+ .hdr__burger--open span:nth-child(2) { opacity: 0; }
+ .hdr__burger--open span:nth-child(3) { transform: rotate(-45deg) translateY(-5px) translateX(5px); }
+
+ /* ===== MOBILE NAV ===== */
+ .hdr__mobile {
+ display: none;
+ position: fixed; top: 88px; left: 0; right: 0; bottom: 0;
+ background: #fff; overflow-y: auto;
+ transform: translateX(100%); opacity: 0;
+ transition: all 0.3s ease; pointer-events: none;
+ z-index: 998;
+ }
+ .hdr__mobile--open {
+ transform: translateX(0); opacity: 1; pointer-events: all;
+ }
+
+ .mob__section { border-bottom: 1px solid #eee; }
+ .mob__toggle {
+ display: flex; align-items: center; justify-content: space-between;
+ width: 100%; padding: 1.1rem 1.5rem; background: none; border: none;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ cursor: pointer; text-align: left;
+ }
+ .mob__plus {
+ font-size: 1.3rem; color: var(--orange, #c5a55a); font-weight: 300;
+ transition: transform 0.3s;
+ }
+ .mob__plus--open { transform: rotate(45deg); }
+ .mob__panel { padding: 0 0 1rem; background: #fafafa; }
+ .mob__link {
+ display: block; text-decoration: none; color: var(--gray-dark, #333);
+ transition: color 0.2s;
+ }
+ .mob__link--top {
+ padding: 1.1rem 1.5rem; font-size: 0.9rem; font-weight: 600;
+ border-bottom: 1px solid #eee;
+ }
+ .mob__link--parent {
+ padding: 0.75rem 1.5rem; font-size: 0.88rem; font-weight: 600;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__link--child {
+ padding: 0.45rem 1.5rem 0.45rem 2.5rem; font-size: 0.82rem;
+ color: var(--gray-text, #555);
+ }
+ .mob__link:hover { color: var(--orange, #c5a55a); }
+ .mob__link--cta { color: var(--orange, #c5a55a); }
+ .mob__tier-label {
+ padding: 0.75rem 1.5rem 0.25rem; font-size: 0.68rem;
+ font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__theme-row {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 1.1rem 1.5rem; border-top: 1px solid #eee;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ }
+
+ /* ===== RESPONSIVE ===== */
+ @media (max-width: 960px) {
+ .hdr__nav--desktop { display: none; }
+ .hdr__burger { display: flex; }
+ .hdr__mobile { display: block; }
+ .mega { display: none; }
+ }
+ </style></header><main class="sap-page"><section class="sap-hero"><div class="sap-hero__copy"><div class="sap-hero__copy-inner"><nav class="sap-breadcrumbs" aria-label="Breadcrumb"><a href="/" data-discover="true">Home</a><span>/</span><span>Locations</span></nav><h1>Smart Home Service Areas Across Dallas–Fort Worth<span class="sap-period">.</span></h1></div></div><div class="sap-hero__image" aria-hidden="true"><img alt="" loading="eager" src="/service-areas-dallas-skyline-light.png"></div></section><section class="sap-core"><div class="sap-core__inner"><div class="sap-section-copy"><p class="sap-eyebrow">Primary Markets</p><h2>Dallas, Fort Worth, and the Communities We Serve Most Often.</h2></div><div class="sap-core__intro"><p>TruDefinition designs, installs, programs, and supports home automation, theaters, lighting, shades, audio, networking, security, and energy systems throughout these primary Dallas–Fort Worth markets.</p></div><div class="sap-core__grid"><a class="sap-city-card" href="/areas-served/dallas" data-discover="true"><div class="sap-city-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18"></path><path d="M5 21V10h4v11"></path><path d="M10 21V5h4v16"></path><path d="M15 21V13h4v8"></path></svg></div><h3>Dallas</h3><p>Texas</p></a><a class="sap-city-card" href="/areas-served/fort-worth" data-discover="true"><div class="sap-city-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.9L12 3Z"></path></svg></div><h3>Fort Worth</h3><p>Texas</p></a><a class="sap-city-card" href="/areas-served/southlake" data-discover="true"><div class="sap-city-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4c-8 0-14 6-14 14"></path><path d="M20 4c0 8-6 14-14 14"></path><path d="M6 18c4-1 7-4 9-8"></path></svg></div><h3>Southlake</h3><p>Texas</p></a><a class="sap-city-card" href="/areas-served/westlake" data-discover="true"><div class="sap-city-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21h16"></path><path d="M6 21V7l6-4 6 4v14"></path><path d="M9 10h.01"></path><path d="M12 10h.01"></path><path d="M15 10h.01"></path><path d="M9 14h.01"></path><path d="M12 14h.01"></path><path d="M15 14h.01"></path></svg></div><h3>Westlake</h3><p>Texas</p></a><a class="sap-city-card" href="/areas-served/highland-park" data-discover="true"><div class="sap-city-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 4v3"></path><path d="M12 17v3"></path><path d="M4 12h3"></path><path d="M17 12h3"></path></svg></div><h3>Park Cities</h3><p>Texas</p></a></div></div></section><section class="sap-drives"><div class="sap-drives__inner"><div class="sap-section-copy"><p class="sap-eyebrow">Additional Active Markets</p><h2>More North Texas<br>communities with<br>dedicated local pages.</h2></div><div class="sap-drive-list"><a class="sap-pill" href="/areas-served/frisco" data-discover="true">Frisco</a><a class="sap-pill" href="/areas-served/plano" data-discover="true">Plano</a><a class="sap-pill" href="/areas-served/colleyville" data-discover="true">Colleyville</a><a class="sap-pill" href="/areas-served/keller" data-discover="true">Keller</a><a class="sap-pill" href="/areas-served/prosper-celina" data-discover="true">Prosper &amp; Celina</a></div></div></section><section class="sap-rest"><div class="sap-rest__inner"><div class="sap-section-copy"><p class="sap-eyebrow">Extended Service Area</p><h2>Projects Across the Metroplex and Beyond.</h2></div><div class="sap-rest__copy"><p>Location, project scope, construction phase, and service requirements all matter. If your community does not have a dedicated page, tell us where the home is and what you are planning so we can confirm fit and availability.</p></div><div class="sap-rest__list"><a class="sap-pill sap-pill--soft" href="/areas-served/addison" data-discover="true">Addison</a><a class="sap-pill sap-pill--soft" href="/areas-served/aledo" data-discover="true">Aledo</a><span class="sap-pill sap-pill--soft sap-pill--label">Bedford</span><span class="sap-pill sap-pill--soft sap-pill--label">Coppell</span><span class="sap-pill sap-pill--soft sap-pill--label">Denton</span><span class="sap-pill sap-pill--soft sap-pill--label">Euless</span><span class="sap-pill sap-pill--soft sap-pill--label">Garland</span><span class="sap-pill sap-pill--soft sap-pill--label">Haslet</span><span class="sap-pill sap-pill--soft sap-pill--label">Heath</span><a class="sap-pill sap-pill--soft" href="/areas-served/horseshoe-bay" data-discover="true">Horseshoe Bay</a><span class="sap-pill sap-pill--soft sap-pill--label">Keller</span><span class="sap-pill sap-pill--soft sap-pill--label">Little Elm</span><span class="sap-pill sap-pill--soft sap-pill--label">Mansfield</span><span class="sap-pill sap-pill--soft sap-pill--label">Murphy</span><span class="sap-pill sap-pill--soft sap-pill--label">Park Cities</span><span class="sap-pill sap-pill--soft sap-pill--label">Parker</span><a class="sap-pill sap-pill--soft" href="/areas-served/highland-park/preston-hollow" data-discover="true">Preston Hollow</a><span class="sap-pill sap-pill--soft sap-pill--label">Richardson</span><span class="sap-pill sap-pill--soft sap-pill--label">Sachse</span><span class="sap-pill sap-pill--soft sap-pill--label">Trophy Club</span><span class="sap-pill sap-pill--soft sap-pill--label">University Park</span><span class="sap-pill sap-pill--soft sap-pill--label">Waxahachie</span><span class="sap-pill sap-pill--soft sap-pill--label">Westlake</span><span class="sap-pill sap-pill--soft sap-pill--label">Wylie</span><button class="sap-pill sap-pill--soft" type="button" data-cta="areas__beyond_estimate">&amp; Beyond</button></div></div></section><section class="sap-cta"><div class="sap-cta__inner"><div class="sap-cta__monogram" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M12 8h24" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path><path d="M24 8v32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path><path d="M14 16c0 9 4 16 10 16s10-7 10-16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path><path d="M10 40h28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"></path></svg></div><h2>Let’s Bring Your Vision to Life.</h2><button class="sap-button" type="button" data-cta="areas_final_estimate">Schedule a Consultation</button></div></section></main><footer class="footer"><div class="footer__main"><div class="footer__inner"><div class="footer__brand"><img alt="TruDefinition" class="footer__logo" src="/logo-dark.png"><p class="footer__tagline">Thoughtful technology.<br>Beautifully integrated.<br>Dallas–Fort Worth and beyond.</p><div class="footer__social"><a href="https://www.instagram.com/trudefinition/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle></svg></a><a href="https://www.linkedin.com/company/trudefinition" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v15H0V8zm7.5 0H12v2.05h.07c.62-1.17 2.14-2.4 4.41-2.4 4.72 0 5.59 3.1 5.59 7.13V23h-5v-6.85c0-1.63-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V23h-5V8z"></path></svg></a><a href="mailto:info@trudefinition.com" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></a></div></div><div class="footer__col"><h4>Company</h4><a href="/about" data-discover="true">About Us</a><a href="/our-process" data-discover="true">Our Approach</a></div><div class="footer__col"><h4>Services</h4><a href="/services/lighting-control" data-discover="true">Lighting</a><a href="/services/motorized-shades" data-discover="true">Shades</a><a href="/services/home-audio" data-discover="true">Audio</a><a href="/services/security-surveillance" data-discover="true">Security</a><a href="/services/energy-management" data-discover="true">Climate</a><a href="/services/home-theaters" data-discover="true">Entertainment</a></div><div class="footer__col"><h4>Service Areas</h4><a href="/areas-served/fort-worth" data-discover="true">Fort Worth</a><a href="/areas-served/southlake" data-discover="true">Southlake</a><a href="/areas-served/westlake" data-discover="true">Westlake</a><a href="/areas-served/highland-park" data-discover="true">Highland Park</a><a href="/areas-served" data-discover="true">All Areas</a></div><div class="footer__col footer__col--contact"><h4>Contact</h4><a href="tel:8179651042" data-cta="footer_call">(817) 965-1042</a><a href="mailto:info@trudefinition.com">info@trudefinition.com</a><a href="/contact" data-discover="true">Start a Project</a></div></div></div><div class="footer__bottom-wrap"><div class="footer__bottom"><span>© 2026 TruDefinition. All rights reserved.</span><div class="footer__legal"><a href="/privacy-policy" data-discover="true">Privacy</a><button type="button">Privacy Choices</button><a href="/terms-of-service" data-discover="true">Terms</a><a href="/accessibility" data-discover="true">Accessibility</a></div></div></div><style>
+        .footer {
+          background: var(--footer-bg, #ffffff);
+          color: var(--footer-text, #5a6577);
+          border-top: 1px solid var(--footer-top-border, rgba(12, 26, 46, 0.18));
+        }
+        .footer__main {
+          padding: 5rem 2.5rem 3.5rem;
+        }
+        .footer__inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
+          gap: 3rem;
+          align-items: start;
+        }
+
+        /* Brand column */
+        .footer__brand { }
+        .footer__logo {
+          height: 39px;
+          width: auto;
+          object-fit: contain;
+          margin-bottom: 1.5rem;
+          display: block;
+        }
+        .footer__tagline {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.85rem;
+          line-height: 1.8;
+          color: var(--footer-text, #5a6577);
+          margin: 0 0 1.75rem;
+        }
+        .footer__social {
+          display: flex;
+          gap: 1.1rem;
+          align-items: center;
+        }
+        .footer__social a {
+          color: var(--footer-icon, #2a3547);
+          transition: color 0.2s ease, opacity 0.2s ease;
+          display: inline-flex;
+        }
+        .footer__social a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Columns */
+        .footer__col h4 {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          color: var(--footer-heading, #0c1a2e);
+          margin: 0 0 1.5rem;
+        }
+        .footer__col a {
+          display: block;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem;
+          color: var(--footer-text, #5a6577);
+          text-decoration: none;
+          padding: 0.4rem 0;
+          transition: color 0.2s ease;
+        }
+        .footer__col a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Bottom bar */
+        .footer__bottom-wrap {
+          border-top: 1px solid var(--footer-divider, rgba(12, 26, 46, 0.08));
+        }
+        .footer__bottom {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 1.5rem 2.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.74rem;
+          color: var(--footer-muted, #8893a3);
+        }
+        .footer__legal {
+          display: flex;
+          gap: 1.75rem;
+        }
+        .footer__legal a,
+        .footer__legal button {
+          color: var(--footer-muted, #8893a3);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          background: none;
+          border: 0;
+          padding: 0;
+          font: inherit;
+          cursor: pointer;
+        }
+        .footer__legal a:hover,
+        .footer__legal button:hover { color: var(--orange, #9a7c3a); }
+
+        /* Light theme tokens (default) */
+        [data-theme="light"] .footer,
+        :root .footer {
+          --footer-bg: #ffffff;
+          --footer-text: #5a6577;
+          --footer-heading: #0c1a2e;
+          --footer-icon: #2a3547;
+          --footer-divider: rgba(12, 26, 46, 0.08);
+          --footer-muted: #8893a3;
+          --footer-top-border: rgba(12, 26, 46, 0.18);
+        }
+
+        /* Dark theme — deep near-black footer with brighter top border divider */
+        [data-theme="dark"] .footer {
+          --footer-bg: #05080d;
+          --footer-text: rgba(255, 255, 255, 0.6);
+          --footer-heading: #ffffff;
+          --footer-icon: rgba(255, 255, 255, 0.75);
+          --footer-divider: rgba(255, 255, 255, 0.1);
+          --footer-muted: rgba(255, 255, 255, 0.35);
+          --footer-top-border: rgba(197, 165, 90, 0.3);
+        }
+
+        @media (max-width: 1024px) {
+          .footer__inner {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2.5rem;
+          }
+          .footer__brand { grid-column: 1 / -1; }
+        }
+        @media (max-width: 640px) {
+          .footer__inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+          .footer__brand { grid-column: 1 / -1; }
+          .footer__main { padding: 3.5rem 1.5rem 2.5rem; }
+          .footer__bottom {
+            flex-direction: column;
+            gap: 0.75rem;
+            text-align: center;
+            padding: 1.25rem 1.5rem;
+          }
+        }
+      </style></footer><style>
+        .sap-page {
+          background: var(--surface-base);
+          color: var(--text-body);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          overflow-x: hidden;
+        }
+
+        .sap-page *,
+        .sap-page *::before,
+        .sap-page *::after {
+          box-sizing: border-box;
+        }
+
+        .sap-page a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        /* HERO — site-standard split layout (text left, themed image right
+           with cream-to-image gradient bleeding from the left edge). */
+        .sap-hero {
+          position: relative;
+          padding-top: 88px;
+          background: #fefdf7;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: stretch;
+          overflow: hidden;
+          border-bottom: 1px solid rgba(12, 26, 46, 0.14);
+          --sap-inset: calc(4rem + 60px);
+        }
+        [data-theme="dark"] .sap-hero {
+          background: #060708;
+          border-bottom-color: rgba(154, 124, 58, 0.32);
+        }
+
+        .sap-hero__copy {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          padding: 2.5rem 1.5rem 2.5rem var(--sap-inset);
+        }
+        .sap-hero__copy-inner {
+          max-width: 620px;
+          width: 100%;
+        }
+
+        .sap-breadcrumbs {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin-bottom: 1.75rem;
+          color: var(--text-muted, #5a6577);
+          font-size: 0.68rem;
+          line-height: 1.2;
+          font-weight: 900;
+          letter-spacing: 0.22em;
+          text-transform: uppercase;
+        }
+        .sap-breadcrumbs a {
+          color: var(--text-muted, #5a6577);
+          transition: color 180ms ease;
+        }
+        .sap-breadcrumbs a:hover { color: var(--orange); }
+        [data-theme="dark"] .sap-breadcrumbs,
+        [data-theme="dark"] .sap-breadcrumbs a { color: rgba(255, 255, 255, 0.65); }
+
+        .sap-hero h1 {
+          margin: 0;
+          color: var(--text-primary, #0c1a2e);
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(2.4rem, 4.4vw, 4.4rem);
+          line-height: 0.96;
+          letter-spacing: -0.04em;
+          font-weight: 500;
+          max-width: 620px;
+        }
+        [data-theme="dark"] .sap-hero h1 { color: #ffffff; }
+        .sap-period { color: var(--orange); }
+
+        .sap-hero__image {
+          position: relative;
+          overflow: hidden;
+          min-height: 480px;
+          margin-left: -230px;
+        }
+        .sap-hero__image img {
+          width: 100%; height: 100%; object-fit: cover; display: block;
+        }
+        .sap-hero__image::before {
+          content: '';
+          position: absolute; inset: 0; z-index: 1;
+          background: linear-gradient(90deg,
+            #fefdf7 0%,
+            rgba(254, 253, 247, 0.97) 8%,
+            rgba(254, 253, 247, 0.82) 18%,
+            rgba(254, 253, 247, 0.58) 30%,
+            rgba(254, 253, 247, 0.32) 44%,
+            rgba(254, 253, 247, 0.14) 58%,
+            rgba(254, 253, 247, 0.04) 72%,
+            rgba(254, 253, 247, 0) 88%);
+          pointer-events: none;
+        }
+        [data-theme="dark"] .sap-hero__image::before {
+          background: linear-gradient(90deg,
+            #060708 0%,
+            rgba(6, 7, 8, 0.97) 8%,
+            rgba(6, 7, 8, 0.82) 18%,
+            rgba(6, 7, 8, 0.58) 30%,
+            rgba(6, 7, 8, 0.32) 44%,
+            rgba(6, 7, 8, 0.14) 58%,
+            rgba(6, 7, 8, 0.04) 72%,
+            rgba(6, 7, 8, 0) 88%);
+        }
+
+        .sap-core,
+        .sap-drives,
+        .sap-rest {
+          background: var(--surface-base);
+        }
+
+        .sap-core__inner,
+        .sap-drives__inner,
+        .sap-rest__inner {
+          width: min(1180px, calc(100% - 48px));
+          margin: 0 auto;
+        }
+
+        .sap-core__inner {
+          padding: clamp(40px, 5vw, 64px) 0 36px;
+          display: grid;
+          grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr);
+          gap: clamp(28px, 5vw, 56px);
+          align-items: start;
+        }
+
+        .sap-eyebrow {
+          margin: 0 0 10px;
+          color: var(--orange);
+          font-size: 0.72rem;
+          line-height: 1.2;
+          font-weight: 900;
+          letter-spacing: 0.24em;
+          text-transform: uppercase;
+        }
+
+        .sap-section-copy h2,
+        .sap-cta h2 {
+          margin: 0;
+          color: var(--text-primary, #0c1a2e);
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(1.5rem, 2.4vw, 2.7rem);
+          line-height: 1.04;
+          letter-spacing: -0.025em;
+          font-weight: 500;
+        }
+        [data-theme="dark"] .sap-section-copy h2 { color: #ffffff; }
+
+        .sap-core__intro {
+          position: relative;
+          padding-left: 44px;
+        }
+
+        .sap-core__intro::before,
+        .sap-rest__copy::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 4px;
+          width: 1px;
+          height: 64px;
+          background: var(--orange);
+        }
+
+        .sap-core__intro p,
+        .sap-rest__copy p {
+          margin: 0;
+          max-width: 470px;
+          color: var(--text-body, #2a3547);
+          font-size: 1rem;
+          line-height: 1.82;
+        }
+
+        .sap-core__grid {
+          grid-column: 1 / -1;
+          display: grid;
+          grid-template-columns: repeat(5, minmax(0, 1fr));
+          gap: 18px;
+          margin-top: 22px;
+          padding-bottom: 22px;
+          border-bottom: 1px solid var(--border-soft);
+        }
+
+        .sap-city-card {
+          min-height: 150px;
+          padding: 22px 18px 18px;
+          border: 1px solid var(--border-soft);
+          background: var(--surface-base);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          transition:
+            transform 180ms ease,
+            border-color 180ms ease,
+            box-shadow 180ms ease;
+        }
+
+        .sap-city-card:hover {
+          transform: translateY(-3px);
+          border-color: var(--border-firm, rgba(12, 26, 46, 0.18));
+          box-shadow: 0 22px 60px color-mix(in srgb, var(--surface-deep, #0c1a2e) 9%, transparent);
+        }
+
+        .sap-city-card__icon {
+          width: 34px;
+          height: 34px;
+          margin-bottom: 14px;
+          color: var(--orange);
+        }
+
+        .sap-city-card__icon svg {
+          width: 100%;
+          height: 100%;
+          stroke-width: 1.45;
+        }
+
+        .sap-city-card h3 {
+          margin: 0 0 6px;
+          color: var(--text-primary, #0c1a2e);
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+          line-height: 1.1;
+          letter-spacing: -0.02em;
+          font-weight: 500;
+        }
+        [data-theme="dark"] .sap-city-card h3 { color: #ffffff; }
+
+        .sap-city-card p {
+          margin: 0;
+          color: var(--orange);
+          font-size: 0.68rem;
+          line-height: 1.2;
+          font-weight: 900;
+          letter-spacing: 0.22em;
+          text-transform: uppercase;
+        }
+
+        .sap-drives {
+          padding: 0 0 clamp(36px, 4vw, 56px);
+        }
+
+        .sap-drives__inner {
+          display: grid;
+          grid-template-columns: minmax(0, 0.58fr) minmax(0, 1fr);
+          gap: clamp(28px, 5vw, 56px);
+          align-items: center;
+          padding-top: 28px;
+          border-bottom: 1px solid var(--border-soft);
+          padding-bottom: clamp(36px, 4vw, 56px);
+        }
+
+        .sap-drive-list {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 12px;
+        }
+
+        .sap-pill {
+          min-height: 40px;
+          padding: 0 18px;
+          border: 1px solid var(--border-soft);
+          border-radius: 999px;
+          background: var(--surface-base);
+          color: var(--text-primary, #0c1a2e);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          font-size: 0.72rem;
+          line-height: 1.2;
+          font-weight: 900;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition:
+            transform 180ms ease,
+            border-color 180ms ease,
+            color 180ms ease,
+            background 180ms ease;
+        }
+
+        .sap-pill:hover {
+          transform: translateY(-2px);
+          border-color: var(--orange);
+          color: var(--orange);
+          background: var(--surface-card, #ffffff);
+        }
+
+        .sap-rest__inner {
+          padding: 28px 0 clamp(40px, 5vw, 60px);
+          display: grid;
+          grid-template-columns: minmax(0, 0.58fr) minmax(0, 1fr);
+          gap: clamp(28px, 5vw, 56px);
+          align-items: start;
+        }
+
+        .sap-rest__copy {
+          position: relative;
+          padding-left: 44px;
+        }
+
+        .sap-rest__list {
+          grid-column: 1 / -1;
+          display: grid;
+          grid-template-columns: repeat(8, minmax(0, 1fr));
+          gap: 12px;
+          margin-top: 22px;
+        }
+
+        .sap-pill--soft {
+          min-height: 36px;
+          color: var(--text-muted, #5a6577);
+          background: color-mix(in srgb, var(--surface-card, #ffffff) 58%, transparent);
+        }
+
+        .sap-pill--label {
+          cursor: default;
+        }
+        .sap-pill--label:hover {
+          transform: none;
+          border-color: var(--border-soft);
+          color: var(--text-muted, #5a6577);
+          background: color-mix(in srgb, var(--surface-card, #ffffff) 58%, transparent);
+        }
+
+        .sap-cta {
+          width: min(1360px, calc(100% - 48px));
+          margin: 0 auto clamp(28px, 4vw, 48px);
+          background:
+            radial-gradient(
+              circle at 72% 50%,
+              color-mix(in srgb, var(--orange) 9%, transparent),
+              transparent 24rem
+            ),
+            var(--surface-deep, #0c1a2e);
+          color: #ffffff;
+          border: 1px solid color-mix(in srgb, var(--orange) 18%, var(--border-soft));
+        }
+
+        .sap-cta__inner {
+          min-height: 120px;
+          padding: 24px clamp(24px, 4vw, 56px);
+          display: grid;
+          grid-template-columns: 56px minmax(0, 1fr) auto;
+          align-items: center;
+          gap: clamp(20px, 4vw, 44px);
+        }
+
+        .sap-cta__monogram {
+          width: 38px;
+          height: 38px;
+          color: var(--orange);
+          border-right: 1px solid color-mix(in srgb, var(--orange) 36%, transparent);
+          padding-right: 18px;
+        }
+
+        .sap-cta__monogram svg {
+          width: 100%;
+          height: 100%;
+        }
+
+        .sap-cta h2 {
+          color: #ffffff;
+          max-width: 620px;
+        }
+
+        .sap-button {
+          min-height: 52px;
+          padding: 0 30px;
+          border: 1px solid var(--orange);
+          background: transparent;
+          color: var(--orange);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          line-height: 1;
+          font-weight: 900;
+          letter-spacing: 0.18em;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition:
+            transform 180ms ease,
+            background 180ms ease,
+            color 180ms ease,
+            border-color 180ms ease;
+        }
+
+        .sap-button:hover {
+          transform: translateY(-1px);
+          background: var(--orange);
+          color: #ffffff;
+        }
+
+        [data-theme="dark"] .sap-page,
+        [data-theme="dark"] .sap-core,
+        [data-theme="dark"] .sap-drives,
+        [data-theme="dark"] .sap-rest {
+          background: var(--surface-base);
+        }
+
+        [data-theme="dark"] .sap-hero__media img {
+          filter: saturate(0.95) contrast(1.04) brightness(0.82);
+        }
+
+        [data-theme="dark"] .sap-hero__veil {
+          background:
+            linear-gradient(
+              90deg,
+              var(--surface-base) 0%,
+              color-mix(in srgb, var(--surface-base) 96%, transparent) 28%,
+              color-mix(in srgb, var(--surface-base) 78%, transparent) 44%,
+              color-mix(in srgb, var(--surface-base) 32%, transparent) 68%,
+              transparent 100%
+            );
+        }
+
+        [data-theme="dark"] .sap-city-card,
+        [data-theme="dark"] .sap-pill {
+          background: var(--surface-card, #14161a);
+          border-color: color-mix(in srgb, var(--orange) 14%, var(--border-soft));
+        }
+
+        [data-theme="dark"] .sap-city-card:hover,
+        [data-theme="dark"] .sap-pill:hover {
+          border-color: color-mix(in srgb, var(--orange) 42%, var(--border-firm, rgba(255,255,255,0.18)));
+        }
+
+        @media (max-width: 1280px) { .sap-hero { --sap-inset: 4rem; } }
+        @media (max-width: 1080px) {
+          .sap-hero { --sap-inset: 2.5rem; }
+          .sap-core__grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+
+          .sap-drive-list {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          .sap-rest__list {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+          }
+        }
+
+        @media (max-width: 1020px) {
+          .sap-hero {
+            grid-template-columns: 1fr;
+          }
+          .sap-hero__copy { padding: 2.25rem var(--sap-inset) 2rem; }
+          .sap-hero__image { min-height: 320px; margin-left: 0; }
+          .sap-hero__image::before {
+            background: linear-gradient(180deg,
+              transparent 0%,
+              rgba(254, 253, 247, 0.45) 100%);
+          }
+          [data-theme="dark"] .sap-hero__image::before {
+            background: linear-gradient(180deg,
+              transparent 0%,
+              rgba(6, 7, 8, 0.45) 100%);
+          }
+        }
+
+        @media (max-width: 820px) {
+          .sap-core__inner,
+          .sap-drives__inner,
+          .sap-rest__inner,
+          .sap-cta__inner {
+            grid-template-columns: 1fr;
+          }
+
+          .sap-core__intro,
+          .sap-rest__copy {
+            padding-left: 0;
+          }
+
+          .sap-core__intro::before,
+          .sap-rest__copy::before {
+            display: none;
+          }
+
+          .sap-core__grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          .sap-cta__monogram {
+            border-right: 0;
+            padding-right: 0;
+          }
+        }
+
+        @media (max-width: 620px) {
+          .sap-hero { --sap-inset: 1.25rem; }
+          .sap-core__inner,
+          .sap-drives__inner,
+          .sap-rest__inner,
+          .sap-cta {
+            width: min(100% - 32px, 1180px);
+          }
+          .sap-hero h1 {
+            font-size: clamp(2rem, 9vw, 2.8rem);
+          }
+
+          .sap-breadcrumbs {
+            margin-bottom: 1.25rem;
+          }
+
+          .sap-core__grid,
+          .sap-drive-list,
+          .sap-rest__list {
+            grid-template-columns: 1fr;
+          }
+
+          .sap-city-card {
+            min-height: 120px;
+          }
+
+          .sap-cta__inner {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+          }
+          .sap-button { justify-self: start; }
+        }
+      </style></div>
+  
+
+</body></html>

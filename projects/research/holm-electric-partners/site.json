@@ -1,0 +1,135 @@
+{
+ "read": "2026-10-06",
+ "url": "https://holmelectric.com/partners/",
+ "title": "Partners - Holm Electric",
+ "description": "",
+ "words": 405,
+ "headings": [],
+ "phones": [
+  "702-818-3781",
+  "775-831-3781"
+ ],
+ "colors": [
+  "#818a91",
+  "#9dbce1",
+  "#272727",
+  "#2d2d2d",
+  "#d9534f",
+  "#d4d4d4",
+  "#799ec8",
+  "#979797",
+  "#161515",
+  "#949494"
+ ],
+ "faces": [
+  "Arial",
+  "Poppins",
+  "Roboto",
+  "eicons",
+  "inherit",
+  "serif"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/header-logo.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/search.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/hamburger.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/cross.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/lightning.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/partners/partners-banner/",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/lutron-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/ketra-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/savant-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/rti-big-image.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/generac-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/marantz-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/amx-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/elan-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/paradigm-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/krell-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/03/audiocontrol-big-image.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/footer.jpg",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

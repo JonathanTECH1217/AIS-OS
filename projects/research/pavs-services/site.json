@@ -1,0 +1,158 @@
+{
+ "read": "2026-10-06",
+ "url": "https://pavs.tech/services/",
+ "title": "Services - PAVS",
+ "description": "PAVS is a whole home automation company specializing in audio video systems, tv installation, digital doorbells, smart thermostats, home theatres and more.",
+ "words": 103,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Services"
+  },
+  {
+   "tag": "h2",
+   "text": "Our Services"
+  },
+  {
+   "tag": "h2",
+   "text": "Smart Thermostats"
+  },
+  {
+   "tag": "h2",
+   "text": "Home Security Cameras"
+  },
+  {
+   "tag": "h2",
+   "text": "Drop Cams"
+  },
+  {
+   "tag": "h2",
+   "text": "Automated Locks"
+  },
+  {
+   "tag": "h2",
+   "text": "Digital Doorbells"
+  },
+  {
+   "tag": "h2",
+   "text": "HVAC Linking"
+  },
+  {
+   "tag": "h2",
+   "text": "Entertainment Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Controlled Lighting"
+  },
+  {
+   "tag": "h2",
+   "text": "Remote Access"
+  },
+  {
+   "tag": "h2",
+   "text": "Home Theatre"
+  },
+  {
+   "tag": "h2",
+   "text": "Complimentary Tutorials"
+  },
+  {
+   "tag": "h3",
+   "text": "PAVS"
+  },
+  {
+   "tag": "h3",
+   "text": "TVs/TV Installation"
+  }
+ ],
+ "phones": [
+  "(970) 879-2217"
+ ],
+ "colors": [
+  "#6cc24a",
+  "#24292f",
+  "#e1e4e8",
+  "#3a9018",
+  "#eaeaea",
+  "#1a73e8",
+  "#fbfbfb",
+  "#f2f2f2",
+  "#eb6e00",
+  "#4cbb30"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [
+  "https://www.facebook.com/ponderosaav/",
+  "https://www.linkedin.com/company/18062552/admin/"
+ ],
+ "pictures": [
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/08/cropped-Logo-Small.png",
+   "alt": "PAVS",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/TV-Wall-Mount-642x300.jpg",
+   "alt": "PAVS tv installation and mount for Steamboat Springs homes and properties",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Smart-Thermostat-3-642x300.png",
+   "alt": "PAVS smart thermostat for app based thermostat control",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Home-Security-Camera-642x300.jpg",
+   "alt": "PAVS home security camera installation",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Drop-Cam-642x300.jpg",
+   "alt": "PAVS drop cam for Steamboat Springs homes",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Automated-Locks-642x300.jpeg",
+   "alt": "Steamboat Springs automated lock installation",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Digital-Doorbell-642x300.jpg",
+   "alt": "PAVS digital doorbell installation and maintenance",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/HVAC-642x300.jpg",
+   "alt": "Steamboat Springs connected heating and cooling - smart home tech",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Home-Theatre-Design-642x300.jpg",
+   "alt": "Steamboat Springs entertainment system design and installation",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Interior-lighting-642x300.jpg",
+   "alt": "PAVS interior lighting control and installation",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Smart-Home-Tablet-642x300.jpg",
+   "alt": "PAVS Steamboat Springs smart home technology with remote access to control your home",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Home-Theatre-642x300.jpg",
+   "alt": "PAVS home theatre installation for Steamboat Springs houses",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/PAVS-Smart-Home-642x300.png",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

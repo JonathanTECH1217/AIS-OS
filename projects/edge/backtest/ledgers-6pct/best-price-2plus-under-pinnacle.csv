@@ -1,0 +1,1001 @@
+round,date,league,match,bet,odds,won,bankroll_before,stake_6pct,result,change,bankroll_after
+1,2019-08-09,France,Monaco v Lyon,away,2.36,True,2500.0,150.0,won,204.0,2704.0
+2,2019-08-11,England,Man United v Chelsea,home,2.2,True,2704.0,162.24,won,194.69,2898.69
+3,2019-08-11,England,Newcastle v Arsenal,home,3.76,False,2898.69,173.92,lost,-173.92,2724.77
+4,2019-08-16,Germany,Bayern Munich v Hertha,home,1.25,False,2724.77,163.49,lost,-163.49,2561.28
+5,2019-08-17,Germany,Dortmund v Augsburg,home,1.2,True,2561.28,153.68,won,30.74,2592.02
+6,2019-08-17,Germany,Wolfsburg v FC Koln,away,4.1,False,2592.02,155.52,lost,-155.52,2436.5
+7,2019-08-17,England,Brighton v West Ham,away,3.74,False,2436.5,146.19,lost,-146.19,2290.31
+8,2019-08-17,Spain,Celta v Real Madrid,home,6.0,False,2290.31,137.42,lost,-137.42,2152.89
+9,2019-08-17,Spain,Celta v Real Madrid,away,1.75,True,2152.89,129.17,won,96.88,2249.77
+10,2019-08-18,Spain,Alaves v Levante,away,3.58,False,2249.77,134.99,lost,-134.99,2114.78
+11,2019-08-18,Germany,Ein Frankfurt v Hoffenheim,away,3.76,False,2114.78,126.89,lost,-126.89,1987.89
+12,2019-08-24,Germany,Mainz v M'gladbach,home,3.25,False,1987.89,119.27,lost,-119.27,1868.62
+13,2019-08-24,Germany,Fortuna Dusseldorf v Leverkusen,away,1.75,True,1868.62,112.12,won,84.09,1952.71
+14,2019-08-24,Germany,Augsburg v Union Berlin,away,3.32,False,1952.71,117.16,lost,-117.16,1835.55
+15,2019-08-24,Spain,Celta v Valencia,home,3.58,True,1835.55,110.13,won,284.14,2119.69
+16,2019-08-24,England,Sheffield United v Leicester,home,3.64,False,2119.69,127.18,lost,-127.18,1992.51
+17,2019-08-24,Germany,Paderborn v Freiburg,home,2.69,False,1992.51,119.55,lost,-119.55,1872.96
+18,2019-08-24,Spain,Osasuna v Eibar,away,3.05,False,1872.96,112.38,lost,-112.38,1760.58
+19,2019-08-24,Germany,Schalke 04 v Bayern Munich,away,1.5,True,1760.58,105.63,won,52.81,1813.39
+20,2019-08-25,Spain,Leganes v Ath Madrid,home,5.9,False,1813.39,108.8,lost,-108.8,1704.59
+21,2019-08-25,Spain,Leganes v Ath Madrid,draw,3.3,False,1704.59,102.28,lost,-102.28,1602.31
+22,2019-08-25,Germany,RB Leipzig v Ein Frankfurt,home,1.5,True,1602.31,96.14,won,48.07,1650.38
+23,2019-08-25,England,Bournemouth v Man City,away,1.2,True,1650.38,99.02,won,19.8,1670.18
+24,2019-08-25,France,Strasbourg v Rennes,home,3.2,False,1670.18,100.21,lost,-100.21,1569.97
+25,2019-08-25,Italy,Roma v Genoa,away,6.5,False,1569.97,94.2,lost,-94.2,1475.77
+26,2019-08-27,France,Montpellier v Lyon,home,4.68,True,1475.77,88.55,won,325.86,1801.63
+27,2019-08-31,France,Angers v Dijon,away,6.75,False,1801.63,108.1,lost,-108.1,1693.53
+28,2019-08-31,France,Nimes v Brest,home,2.14,True,1693.53,101.61,won,115.84,1809.37
+29,2019-08-31,Spain,Betis v Leganes,away,4.12,False,1809.37,108.56,lost,-108.56,1700.81
+30,2019-09-01,Spain,Villarreal v Real Madrid,home,4.26,False,1700.81,102.05,lost,-102.05,1598.76
+31,2019-09-01,Italy,Genoa v Fiorentina,home,3.16,True,1598.76,95.93,won,207.21,1805.97
+32,2019-09-01,Italy,Genoa v Fiorentina,away,2.8,False,1805.97,108.36,lost,-108.36,1697.61
+33,2019-09-01,France,Strasbourg v Monaco,home,2.75,False,1697.61,101.86,lost,-101.86,1595.75
+34,2019-09-01,Spain,Espanol v Granada,home,2.15,False,1595.75,95.74,lost,-95.74,1500.01
+35,2019-09-01,Italy,Lazio v Roma,home,2.2,False,1500.01,90.0,lost,-90.0,1410.01
+36,2019-09-01,Spain,Valencia v Mallorca,home,1.5,True,1410.01,84.6,won,42.3,1452.31
+37,2019-09-01,Germany,Werder Bremen v Augsburg,home,1.7,True,1452.31,87.14,won,61.0,1513.31
+38,2019-09-01,Germany,Werder Bremen v Augsburg,away,7.2,False,1513.31,90.8,lost,-90.8,1422.51
+39,2019-09-14,Germany,RB Leipzig v Bayern Munich,away,2.0,False,1422.51,85.35,lost,-85.35,1337.16
+40,2019-09-14,Germany,FC Koln v M'gladbach,home,2.4,False,1337.16,80.23,lost,-80.23,1256.93
+41,2019-09-14,France,Bordeaux v Metz,away,5.7,False,1256.93,75.42,lost,-75.42,1181.51
+42,2019-09-15,England,Bournemouth v Everton,home,3.76,True,1181.51,70.89,won,195.66,1377.17
+43,2019-09-15,Italy,Genoa v Atalanta,home,3.96,False,1377.17,82.63,lost,-82.63,1294.54
+44,2019-09-15,France,Monaco v Marseille,home,2.3,False,1294.54,77.67,lost,-77.67,1216.87
+45,2019-09-20,Italy,Cagliari v Genoa,away,2.63,False,1216.87,73.01,lost,-73.01,1143.86
+46,2019-09-21,Germany,Freiburg v Augsburg,away,4.58,False,1143.86,68.63,lost,-68.63,1075.23
+47,2019-09-21,Germany,Hertha v Paderborn,home,1.75,True,1075.23,64.51,won,48.38,1123.61
+48,2019-09-21,Germany,Leverkusen v Union Berlin,home,1.43,True,1123.61,67.42,won,28.99,1152.6
+49,2019-09-21,England,Leicester v Tottenham,home,3.0,True,1152.6,69.16,won,138.32,1290.92
+50,2019-09-21,Italy,Udinese v Brescia,home,2.0,False,1290.92,77.46,lost,-77.46,1213.46
+51,2019-09-21,Italy,Juventus v Verona,home,1.27,True,1213.46,72.81,won,19.66,1233.12
+52,2019-09-21,Italy,Milan v Inter,away,2.3,True,1233.12,73.99,won,96.19,1329.31
+53,2019-09-22,Italy,Atalanta v Fiorentina,home,2.29,False,1329.31,79.76,lost,-79.76,1249.55
+54,2019-09-22,Spain,Getafe v Mallorca,home,1.85,True,1249.55,74.97,won,63.72,1313.27
+55,2019-09-22,Germany,Ein Frankfurt v Dortmund,away,1.8,False,1313.27,78.8,lost,-78.8,1234.47
+56,2019-09-22,Spain,Valencia v Leganes,home,1.73,False,1234.47,74.07,lost,-74.07,1160.4
+57,2019-09-24,France,Monaco v Nice,home,2.1,True,1160.4,69.62,won,76.58,1236.98
+58,2019-09-24,Spain,Betis v Levante,home,2.0,True,1236.98,74.22,won,74.22,1311.2
+59,2019-09-24,Spain,Barcelona v Villarreal,home,1.32,True,1311.2,78.67,won,25.17,1336.37
+60,2019-09-24,France,Dijon v Marseille,home,3.9,False,1336.37,80.18,lost,-80.18,1256.19
+61,2019-09-25,Italy,Napoli v Cagliari,home,1.22,False,1256.19,75.37,lost,-75.37,1180.82
+62,2019-09-28,France,Bordeaux v Paris SG,away,1.48,True,1180.82,70.85,won,34.01,1214.83
+63,2019-09-28,England,Tottenham v Southampton,home,1.47,True,1214.83,72.89,won,34.26,1249.09
+64,2019-09-28,England,Sheffield United v Liverpool,away,1.4,True,1249.09,74.95,won,29.98,1279.07
+65,2019-09-28,France,Monaco v Brest,home,1.55,True,1279.07,76.74,won,42.21,1321.28
+66,2019-09-28,Italy,Sassuolo v Atalanta,away,1.9,True,1321.28,79.28,won,71.35,1392.63
+67,2019-09-28,France,Lyon v Nantes,home,1.6,False,1392.63,83.56,lost,-83.56,1309.07
+68,2019-09-29,Italy,Lazio v Genoa,home,1.5,True,1309.07,78.54,won,39.27,1348.34
+69,2019-09-29,Italy,Napoli v Brescia,home,1.25,True,1348.34,80.9,won,20.23,1368.57
+70,2019-09-29,Spain,Eibar v Celta,home,2.5,True,1368.57,82.11,won,123.16,1491.73
+71,2019-09-29,France,Nimes v St Etienne,away,3.33,True,1491.73,89.5,won,208.53,1700.26
+72,2019-09-30,Italy,Parma v Torino,home,3.5,True,1700.26,102.02,won,255.05,1955.31
+73,2019-10-05,Spain,Real Madrid v Granada,home,1.35,True,1955.31,117.32,won,41.06,1996.37
+74,2019-10-05,France,Brest v Metz,away,3.1,False,1996.37,119.78,lost,-119.78,1876.59
+75,2019-10-05,France,Paris SG v Angers,home,1.22,True,1876.59,112.6,won,24.77,1901.36
+76,2019-10-06,Spain,Barcelona v Sevilla,home,1.52,True,1901.36,114.08,won,59.32,1960.68
+77,2019-10-06,Germany,M'gladbach v Augsburg,away,7.3,False,1960.68,117.64,lost,-117.64,1843.04
+78,2019-10-06,Italy,Atalanta v Lecce,home,1.3,True,1843.04,110.58,won,33.17,1876.21
+79,2019-10-18,Germany,Ein Frankfurt v Leverkusen,home,3.07,True,1876.21,112.57,won,233.02,2109.23
+80,2019-10-18,France,Nice v Paris SG,away,1.45,True,2109.23,126.55,won,56.95,2166.18
+81,2019-10-18,Spain,Granada v Osasuna,away,3.74,False,2166.18,129.97,lost,-129.97,2036.21
+82,2019-10-19,Germany,Dortmund v M'gladbach,home,1.65,True,2036.21,122.17,won,79.41,2115.62
+83,2019-10-19,Germany,Augsburg v Bayern Munich,away,1.2,False,2115.62,126.94,lost,-126.94,1988.68
+84,2019-10-19,England,Everton v West Ham,home,2.0,True,1988.68,119.32,won,119.32,2108.0
+85,2019-10-19,France,Lyon v Dijon,home,1.45,False,2108.0,126.48,lost,-126.48,1981.52
+86,2019-10-20,Italy,Udinese v Torino,home,3.34,True,1981.52,118.89,won,278.2,2259.72
+87,2019-10-20,Spain,Sevilla v Levante,home,1.4,True,2259.72,135.58,won,54.23,2313.95
+88,2019-10-20,Italy,Milan v Lecce,home,1.5,False,2313.95,138.84,lost,-138.84,2175.11
+89,2019-10-25,Italy,Verona v Sassuolo,home,2.5,False,2175.11,130.51,lost,-130.51,2044.6
+90,2019-10-26,Spain,Leganes v Mallorca,home,1.85,True,2044.6,122.68,won,104.28,2148.88
+91,2019-10-26,Spain,Ath Madrid v Ath Bilbao,home,1.77,True,2148.88,128.93,won,99.28,2248.16
+92,2019-10-26,England,Man City v Aston Villa,home,1.1,True,2248.16,134.89,won,13.49,2261.65
+93,2019-10-26,Germany,Freiburg v RB Leipzig,away,1.9,False,2261.65,135.7,lost,-135.7,2125.95
+94,2019-10-26,France,Reims v Nimes,home,1.75,False,2125.95,127.56,lost,-127.56,1998.39
+95,2019-10-27,England,Newcastle v Wolves,away,2.7,False,1998.39,119.9,lost,-119.9,1878.49
+96,2019-10-27,England,Liverpool v Tottenham,home,1.55,True,1878.49,112.71,won,61.99,1940.48
+97,2019-10-30,Italy,Lazio v Torino,home,1.6,True,1940.48,116.43,won,69.86,2010.34
+98,2019-10-30,Spain,Ath Bilbao v Espanol,home,2.0,True,2010.34,120.62,won,120.62,2130.96
+99,2019-11-02,Germany,Werder Bremen v Freiburg,home,2.0,False,2130.96,127.86,lost,-127.86,2003.1
+100,2019-11-02,Germany,RB Leipzig v Mainz,home,1.42,True,2003.1,120.19,won,50.48,2053.58
+101,2019-11-02,Germany,Leverkusen v M'gladbach,home,2.1,False,2053.58,123.21,lost,-123.21,1930.37
+102,2019-11-02,Germany,Ein Frankfurt v Bayern Munich,away,1.5,False,1930.37,115.82,lost,-115.82,1814.55
+103,2019-11-02,Germany,Dortmund v Wolfsburg,home,1.62,True,1814.55,108.87,won,67.5,1882.05
+104,2019-11-02,England,Brighton v Norwich,home,1.75,True,1882.05,112.92,won,84.69,1966.74
+105,2019-11-02,France,Amiens v Brest,home,1.7,True,1966.74,118.0,won,82.6,2049.34
+106,2019-11-02,Spain,Levante v Barcelona,away,1.32,False,2049.34,122.96,lost,-122.96,1926.38
+107,2019-11-02,England,Aston Villa v Liverpool,away,1.35,True,1926.38,115.58,won,40.45,1966.83
+108,2019-11-03,Germany,Augsburg v Schalke 04,away,2.0,True,1966.83,118.01,won,118.01,2084.84
+109,2019-11-03,Italy,Genoa v Udinese,home,1.97,False,2084.84,125.09,lost,-125.09,1959.75
+110,2019-11-08,France,Nice v Bordeaux,home,2.38,False,1959.75,117.58,lost,-117.58,1842.17
+111,2019-11-08,England,Norwich v Watford,away,2.63,True,1842.17,110.53,won,180.16,2022.33
+112,2019-11-08,Germany,FC Koln v Hoffenheim,home,2.6,False,2022.33,121.34,lost,-121.34,1900.99
+113,2019-11-09,Italy,Inter v Verona,home,1.4,True,1900.99,114.06,won,45.62,1946.61
+114,2019-11-09,France,Reims v Angers,away,3.5,False,1946.61,116.8,lost,-116.8,1829.81
+115,2019-11-09,Italy,Napoli v Genoa,home,1.35,False,1829.81,109.79,lost,-109.79,1720.02
+116,2019-11-09,France,Brest v Paris SG,away,1.3,True,1720.02,103.2,won,30.96,1750.98
+117,2019-11-09,Germany,Hertha v RB Leipzig,away,1.85,True,1750.98,105.06,won,89.3,1840.28
+118,2019-11-09,Germany,Mainz v Union Berlin,away,3.35,True,1840.28,110.42,won,259.49,2099.77
+119,2019-11-09,Germany,Bayern Munich v Dortmund,home,1.7,True,2099.77,125.99,won,88.19,2187.96
+120,2019-11-09,England,Newcastle v Bournemouth,away,3.12,False,2187.96,131.28,lost,-131.28,2056.68
+121,2019-11-09,France,Monaco v Dijon,home,1.5,True,2056.68,123.4,won,61.7,2118.38
+122,2019-11-09,England,Leicester v Arsenal,home,2.05,True,2118.38,127.1,won,133.45,2251.83
+123,2019-11-10,Germany,Freiburg v Ein Frankfurt,home,3.15,True,2251.83,135.11,won,290.49,2542.32
+124,2019-11-10,England,Liverpool v Man City,away,2.83,False,2542.32,152.54,lost,-152.54,2389.78
+125,2019-11-10,Spain,Betis v Sevilla,away,2.15,True,2389.78,143.39,won,164.9,2554.68
+126,2019-11-10,Italy,Lazio v Lecce,home,1.25,True,2554.68,153.28,won,38.32,2593.0
+127,2019-11-10,France,Marseille v Lyon,home,2.65,True,2593.0,155.58,won,256.71,2849.71
+128,2019-11-10,Italy,Sampdoria v Atalanta,away,1.78,False,2849.71,170.98,lost,-170.98,2678.73
+129,2019-11-10,Italy,Parma v Roma,home,5.7,True,2678.73,160.72,won,755.38,3434.11
+130,2019-11-10,England,Wolves v Aston Villa,home,1.85,True,3434.11,206.05,won,175.14,3609.25
+131,2019-11-23,Germany,Leverkusen v Freiburg,home,1.55,False,3609.25,216.55,lost,-216.55,3392.7
+132,2019-11-23,England,Everton v Norwich,home,1.4,False,3392.7,203.56,lost,-203.56,3189.14
+133,2019-11-23,Germany,Union Berlin v M'gladbach,home,4.1,True,3189.14,191.35,won,593.18,3782.32
+134,2019-11-23,Germany,Werder Bremen v Schalke 04,away,2.85,True,3782.32,226.94,won,419.84,4202.16
+135,2019-11-23,England,Man City v Chelsea,home,1.45,True,4202.16,252.13,won,113.46,4315.62
+136,2019-11-23,France,Metz v Reims,away,2.88,False,4315.62,258.94,lost,-258.94,4056.68
+137,2019-11-24,Italy,Sassuolo v Lazio,away,1.7,True,4056.68,243.4,won,170.38,4227.06
+138,2019-11-24,France,Toulouse v Marseille,home,3.92,False,4227.06,253.62,lost,-253.62,3973.44
+139,2019-11-24,France,St Etienne v Montpellier,away,3.17,False,3973.44,238.41,lost,-238.41,3735.03
+140,2019-11-24,France,Bordeaux v Monaco,home,3.94,True,3735.03,224.1,won,658.85,4393.88
+141,2019-11-24,Germany,Augsburg v Hertha,away,3.02,False,4393.88,263.63,lost,-263.63,4130.25
+142,2019-11-30,England,Burnley v Crystal Palace,home,2.25,False,4130.25,247.81,lost,-247.81,3882.44
+143,2019-11-30,France,Nimes v Metz,home,2.25,False,3882.44,232.95,lost,-232.95,3649.49
+144,2019-11-30,France,Lille v Dijon,home,1.5,True,3649.49,218.97,won,109.48,3758.97
+145,2019-11-30,France,Strasbourg v Lyon,home,2.64,False,3758.97,225.54,lost,-225.54,3533.43
+146,2019-11-30,Germany,Hertha v Dortmund,away,1.85,True,3533.43,212.01,won,180.21,3713.64
+147,2019-11-30,Spain,Valencia v Villarreal,away,4.1,False,3713.64,222.82,lost,-222.82,3490.82
+148,2019-12-01,Spain,Espanol v Osasuna,away,3.8,True,3490.82,209.45,won,586.46,4077.28
+149,2019-12-01,Italy,Juventus v Sassuolo,home,1.22,False,4077.28,244.64,lost,-244.64,3832.64
+150,2019-12-02,Italy,Cagliari v Sampdoria,away,4.82,False,3832.64,229.96,lost,-229.96,3602.68
+151,2019-12-02,Germany,Mainz v Ein Frankfurt,away,2.45,False,3602.68,216.16,lost,-216.16,3386.52
+152,2019-12-04,England,Liverpool v Everton,draw,4.8,False,3386.52,203.19,lost,-203.19,3183.33
+153,2019-12-04,England,Liverpool v Everton,away,7.5,False,3183.33,191.0,lost,-191.0,2992.33
+154,2019-12-05,England,Arsenal v Brighton,away,6.3,True,2992.33,179.54,won,951.56,3943.89
+155,2019-12-05,England,Sheffield United v Newcastle,home,1.95,False,3943.89,236.63,lost,-236.63,3707.26
+156,2019-12-06,France,Lille v Brest,home,1.4,True,3707.26,222.44,won,88.98,3796.24
+157,2019-12-06,Spain,Villarreal v Ath Madrid,home,4.42,False,3796.24,227.77,lost,-227.77,3568.47
+158,2019-12-07,France,Rennes v Angers,away,4.2,False,3568.47,214.11,lost,-214.11,3354.36
+159,2019-12-07,Italy,Lazio v Juventus,home,3.4,True,3354.36,201.26,won,483.02,3837.38
+160,2019-12-07,Italy,Udinese v Napoli,away,1.65,False,3837.38,230.24,lost,-230.24,3607.14
+161,2019-12-07,Spain,Levante v Valencia,home,4.04,False,3607.14,216.43,lost,-216.43,3390.71
+162,2019-12-07,Spain,Levante v Valencia,away,2.25,True,3390.71,203.44,won,254.3,3645.01
+163,2019-12-07,Italy,Atalanta v Verona,home,1.45,True,3645.01,218.7,won,98.41,3743.42
+164,2019-12-07,England,Man City v Man United,home,1.37,False,3743.42,224.61,lost,-224.61,3518.81
+165,2019-12-07,Germany,RB Leipzig v Hoffenheim,home,1.5,True,3518.81,211.13,won,105.56,3624.37
+166,2019-12-07,Germany,M'gladbach v Bayern Munich,away,1.65,False,3624.37,217.46,lost,-217.46,3406.91
+167,2019-12-07,Germany,Freiburg v Wolfsburg,away,2.5,False,3406.91,204.41,lost,-204.41,3202.5
+168,2019-12-08,Spain,Osasuna v Sevilla,home,3.86,False,3202.5,192.15,lost,-192.15,3010.35
+169,2019-12-08,Spain,Valladolid v Sociedad,home,3.74,False,3010.35,180.62,lost,-180.62,2829.73
+170,2019-12-09,England,West Ham v Arsenal,home,4.08,False,2829.73,169.78,lost,-169.78,2659.95
+171,2019-12-14,England,Southampton v West Ham,home,1.97,False,2659.95,159.6,lost,-159.6,2500.35
+172,2019-12-14,Spain,Granada v Levante,away,4.16,True,2500.35,150.02,won,474.06,2974.41
+173,2019-12-14,Germany,Bayern Munich v Werder Bremen,home,1.2,True,2974.41,178.46,won,35.69,3010.1
+174,2019-12-14,England,Sheffield United v Aston Villa,home,1.9,True,3010.1,180.61,won,162.55,3172.65
+175,2019-12-14,Germany,Mainz v Dortmund,away,1.6,True,3172.65,190.36,won,114.22,3286.87
+176,2019-12-15,France,St Etienne v Paris SG,away,1.35,True,3286.87,197.21,won,69.02,3355.89
+177,2019-12-15,Italy,Fiorentina v Inter,home,4.16,False,3355.89,201.35,lost,-201.35,3154.54
+178,2019-12-15,Germany,Schalke 04 v Ein Frankfurt,home,2.01,True,3154.54,189.27,won,191.16,3345.7
+179,2019-12-17,Germany,Werder Bremen v Mainz,home,1.85,False,3345.7,200.74,lost,-200.74,3144.96
+180,2019-12-18,Germany,Leverkusen v Hertha,home,1.6,False,3144.96,188.7,lost,-188.7,2956.26
+181,2019-12-18,Germany,Freiburg v Bayern Munich,away,1.27,True,2956.26,177.38,won,47.89,3004.15
+182,2019-12-18,Germany,Wolfsburg v Schalke 04,home,2.3,False,3004.15,180.25,lost,-180.25,2823.9
+183,2019-12-20,Spain,Eibar v Granada,home,2.15,True,2823.9,169.43,won,194.84,3018.74
+184,2019-12-20,Germany,Hoffenheim v Dortmund,away,1.87,False,3018.74,181.12,lost,-181.12,2837.62
+185,2019-12-21,Spain,Mallorca v Sevilla,away,1.7,True,2837.62,170.26,won,119.18,2956.8
+186,2019-12-21,Spain,Valladolid v Valencia,away,2.45,False,2956.8,177.41,lost,-177.41,2779.39
+187,2019-12-21,Germany,RB Leipzig v Augsburg,home,1.3,True,2779.39,166.76,won,50.03,2829.42
+188,2019-12-21,France,Montpellier v Brest,home,1.65,True,2829.42,169.77,won,110.35,2939.77
+189,2019-12-21,France,Monaco v Lille,home,2.4,True,2939.77,176.39,won,246.95,3186.72
+190,2019-12-22,Italy,Lecce v Bologna,home,3.72,False,3186.72,191.2,lost,-191.2,2995.52
+191,2019-12-22,Spain,Leganes v Espanol,home,2.3,True,2995.52,179.73,won,233.65,3229.17
+192,2019-12-22,Italy,Sassuolo v Napoli,away,1.75,True,3229.17,193.75,won,145.31,3374.48
+193,2019-12-26,England,Bournemouth v Arsenal,home,4.32,False,3374.48,202.47,lost,-202.47,3172.01
+194,2019-12-26,England,Sheffield United v Watford,home,1.95,False,3172.01,190.32,lost,-190.32,2981.69
+195,2019-12-28,England,West Ham v Leicester,home,2.9,False,2981.69,178.9,lost,-178.9,2802.79
+196,2019-12-28,England,Watford v Aston Villa,home,1.9,True,2802.79,168.17,won,151.35,2954.14
+197,2019-12-29,England,Liverpool v Wolves,home,1.33,True,2954.14,177.25,won,58.49,3012.63
+198,2020-01-01,England,Norwich v Crystal Palace,home,2.58,False,3012.63,180.76,lost,-180.76,2831.87
+199,2020-01-01,England,Watford v Wolves,home,3.58,True,2831.87,169.91,won,438.37,3270.24
+200,2020-01-01,England,Southampton v Tottenham,home,3.94,True,3270.24,196.21,won,576.86,3847.1
+201,2020-01-01,England,Newcastle v Leicester,home,4.75,False,3847.1,230.83,lost,-230.83,3616.27
+202,2020-01-04,Spain,Ath Madrid v Levante,home,1.3,True,3616.27,216.98,won,65.09,3681.36
+203,2020-01-04,Spain,Getafe v Real Madrid,home,5.2,False,3681.36,220.88,lost,-220.88,3460.48
+204,2020-01-06,Italy,Atalanta v Parma,home,1.35,True,3460.48,207.63,won,72.67,3533.15
+205,2020-01-06,Italy,Juventus v Cagliari,home,1.3,True,3533.15,211.99,won,63.6,3596.75
+206,2020-01-10,England,Sheffield United v West Ham,home,2.04,True,3596.75,215.8,won,224.43,3821.18
+207,2020-01-11,France,Bordeaux v Lyon,home,4.12,False,3821.18,229.27,lost,-229.27,3591.91
+208,2020-01-11,England,Crystal Palace v Arsenal,away,1.9,False,3591.91,215.51,lost,-215.51,3376.4
+209,2020-01-12,France,Paris SG v Monaco,home,1.2,False,3376.4,202.58,lost,-202.58,3173.82
+210,2020-01-12,England,Aston Villa v Man City,away,1.2,True,3173.82,190.43,won,38.09,3211.91
+211,2020-01-15,France,Nimes v Rennes,home,4.08,False,3211.91,192.71,lost,-192.71,3019.2
+212,2020-01-15,France,Monaco v Paris SG,home,5.5,False,3019.2,181.15,lost,-181.15,2838.05
+213,2020-01-18,Spain,Levante v Alaves,away,4.14,True,2838.05,170.28,won,534.68,3372.73
+214,2020-01-18,Germany,Augsburg v Dortmund,away,1.65,True,3372.73,202.36,won,131.53,3504.26
+215,2020-01-18,Germany,RB Leipzig v Union Berlin,home,1.3,True,3504.26,210.26,won,63.08,3567.34
+216,2020-01-18,Germany,FC Koln v Wolfsburg,away,2.55,False,3567.34,214.04,lost,-214.04,3353.3
+217,2020-01-18,England,Arsenal v Sheffield United,away,4.7,False,3353.3,201.2,lost,-201.2,3152.1
+218,2020-01-18,Italy,Lazio v Sampdoria,home,1.41,True,3152.1,189.13,won,77.54,3229.64
+219,2020-01-19,Germany,Hertha v Bayern Munich,away,1.4,True,3229.64,193.78,won,77.51,3307.15
+220,2020-01-19,Italy,Bologna v Verona,away,4.06,False,3307.15,198.43,lost,-198.43,3108.72
+221,2020-01-21,England,Crystal Palace v Southampton,away,3.04,True,3108.72,186.52,won,380.5,3489.22
+222,2020-01-21,England,Everton v Newcastle,home,1.6,False,3489.22,209.35,lost,-209.35,3279.87
+223,2020-01-22,England,Tottenham v Norwich,home,1.46,True,3279.87,196.79,won,90.52,3370.39
+224,2020-01-24,France,Nice v Rennes,home,2.99,False,3370.39,202.22,lost,-202.22,3168.17
+225,2020-01-24,Germany,Dortmund v FC Koln,home,1.33,True,3168.17,190.09,won,62.73,3230.9
+226,2020-01-25,Italy,Torino v Atalanta,away,1.8,True,3230.9,193.85,won,155.08,3385.98
+227,2020-01-25,France,Montpellier v Dijon,home,1.75,True,3385.98,203.16,won,152.37,3538.35
+228,2020-01-25,Germany,M'gladbach v Mainz,away,6.5,False,3538.35,212.3,lost,-212.3,3326.05
+229,2020-01-26,Spain,Sociedad v Mallorca,home,1.5,True,3326.05,199.56,won,99.78,3425.83
+230,2020-01-26,Spain,Valladolid v Real Madrid,away,1.55,True,3425.83,205.55,won,113.05,3538.88
+231,2020-01-26,Italy,Napoli v Juventus,home,3.94,True,3538.88,212.33,won,624.25,4163.13
+232,2020-01-26,France,Lille v Paris SG,home,7.8,False,4163.13,249.79,lost,-249.79,3913.34
+233,2020-02-01,France,Angers v Reims,home,2.18,False,3913.34,234.8,lost,-234.8,3678.54
+234,2020-02-01,France,Paris SG v Montpellier,home,1.15,True,3678.54,220.71,won,33.11,3711.65
+235,2020-02-01,France,Nimes v Monaco,home,4.55,True,3711.65,222.7,won,790.58,4502.23
+236,2020-02-01,Germany,Mainz v Bayern Munich,away,1.2,True,4502.23,270.13,won,54.03,4556.26
+237,2020-02-01,Germany,Fortuna Dusseldorf v Ein Frankfurt,away,2.2,False,4556.26,273.38,lost,-273.38,4282.88
+238,2020-02-01,England,Watford v Everton,away,2.7,True,4282.88,256.97,won,436.85,4719.73
+239,2020-02-02,Spain,Barcelona v Levante,home,1.15,True,4719.73,283.18,won,42.48,4762.21
+240,2020-02-02,England,Tottenham v Man City,away,1.6,False,4762.21,285.73,lost,-285.73,4476.48
+241,2020-02-02,France,Metz v St Etienne,away,2.9,False,4476.48,268.59,lost,-268.59,4207.89
+242,2020-02-02,France,Nice v Lyon,away,2.1,False,4207.89,252.47,lost,-252.47,3955.42
+243,2020-02-05,France,Nimes v Dijon,home,2.44,True,3955.42,237.33,won,341.76,4297.18
+244,2020-02-05,France,Reims v Nice,home,2.15,False,4297.18,257.83,lost,-257.83,4039.35
+245,2020-02-08,France,Nice v Nimes,away,4.5,True,4039.35,242.36,won,848.26,4887.61
+246,2020-02-08,Spain,Getafe v Valencia,home,2.23,True,4887.61,293.26,won,360.71,5248.32
+247,2020-02-08,Germany,Werder Bremen v Union Berlin,away,3.75,True,5248.32,314.9,won,865.97,6114.29
+248,2020-02-08,Italy,Torino v Sampdoria,away,3.66,True,6114.29,366.86,won,975.85,7090.14
+249,2020-02-08,Germany,Leverkusen v Dortmund,home,4.1,True,7090.14,425.41,won,1318.77,8408.91
+250,2020-02-09,Spain,Espanol v Mallorca,home,1.7,True,8408.91,504.53,won,353.17,8762.08
+251,2020-02-09,France,Strasbourg v Reims,home,2.25,True,8762.08,525.72,won,657.15,9419.23
+252,2020-02-09,France,Montpellier v St Etienne,home,2.15,True,9419.23,565.15,won,649.92,10069.15
+253,2020-02-14,England,Wolves v Leicester,home,2.93,False,10069.15,604.15,lost,-604.15,9465.0
+254,2020-02-14,France,Monaco v Montpellier,home,1.79,True,9465.0,567.9,won,448.64,9913.64
+255,2020-02-15,Germany,Paderborn v Hertha,home,2.8,False,9913.64,594.82,lost,-594.82,9318.82
+256,2020-02-15,Germany,Union Berlin v Leverkusen,home,3.7,False,9318.82,559.13,lost,-559.13,8759.69
+257,2020-02-15,Germany,Fortuna Dusseldorf v M'gladbach,home,4.8,False,8759.69,525.58,lost,-525.58,8234.11
+258,2020-02-15,England,Southampton v Burnley,home,1.8,False,8234.11,494.05,lost,-494.05,7740.06
+259,2020-02-16,Italy,Cagliari v Napoli,away,2.05,True,7740.06,464.4,won,487.62,8227.68
+260,2020-02-16,France,Lyon v Strasbourg,home,1.77,False,8227.68,493.66,lost,-493.66,7734.02
+261,2020-02-22,Germany,M'gladbach v Hoffenheim,home,1.67,False,7734.02,464.04,lost,-464.04,7269.98
+262,2020-02-23,Italy,Roma v Lecce,home,1.33,True,7269.98,436.2,won,143.95,7413.93
+263,2020-02-23,Germany,Leverkusen v Augsburg,away,6.73,False,7413.93,444.84,lost,-444.84,6969.09
+264,2020-02-24,Germany,Ein Frankfurt v Union Berlin,away,4.84,True,6969.09,418.15,won,1605.7,8574.79
+265,2020-02-29,England,Bournemouth v Chelsea,home,4.68,False,8574.79,514.49,lost,-514.49,8060.3
+266,2020-02-29,Germany,Dortmund v Freiburg,home,1.25,True,8060.3,483.62,won,120.91,8181.21
+267,2020-02-29,Spain,Valencia v Betis,home,2.2,True,8181.21,490.87,won,589.04,8770.25
+268,2020-02-29,Germany,Hoffenheim v Bayern Munich,away,1.43,True,8770.25,526.22,won,226.27,8996.52
+269,2020-02-29,France,Paris SG v Dijon,home,1.14,True,8996.52,539.79,won,75.57,9072.09
+270,2020-02-29,Germany,FC Koln v Schalke 04,home,2.35,True,9072.09,544.33,won,734.85,9806.94
+271,2020-03-01,Spain,Ath Bilbao v Villarreal,home,2.42,True,9806.94,588.42,won,835.56,10642.5
+272,2020-03-01,England,Tottenham v Wolves,away,3.03,True,10642.5,638.55,won,1296.26,11938.76
+273,2020-03-01,Spain,Real Madrid v Barcelona,home,2.4,True,11938.76,716.33,won,1002.86,12941.62
+274,2020-03-07,England,Liverpool v Bournemouth,home,1.27,True,12941.62,776.5,won,209.66,13151.28
+275,2020-03-08,England,Chelsea v Everton,home,2.0,True,13151.28,789.08,won,789.08,13940.36
+276,2020-03-11,Germany,M'gladbach v FC Koln,away,4.42,False,13940.36,836.42,lost,-836.42,13103.94
+277,2020-05-23,Germany,Wolfsburg v Dortmund,home,4.25,False,13103.94,786.24,lost,-786.24,12317.7
+278,2020-05-27,Germany,RB Leipzig v Hertha,home,1.4,False,12317.7,739.06,lost,-739.06,11578.64
+279,2020-05-30,Germany,Hertha v Augsburg,home,1.9,True,11578.64,694.72,won,625.25,12203.89
+280,2020-06-06,Germany,Leverkusen v Bayern Munich,away,1.55,True,12203.89,732.23,won,402.73,12606.62
+281,2020-06-07,Germany,Werder Bremen v Wolfsburg,away,2.1,True,12606.62,756.4,won,832.04,13438.66
+282,2020-06-12,Germany,Hoffenheim v RB Leipzig,away,1.55,True,13438.66,806.32,won,443.48,13882.14
+283,2020-06-13,Germany,Wolfsburg v Freiburg,home,1.7,False,13882.14,832.93,lost,-832.93,13049.21
+284,2020-06-13,Spain,Espanol v Alaves,home,2.05,True,13049.21,782.95,won,822.1,13871.31
+285,2020-06-14,Spain,Real Madrid v Eibar,home,1.25,True,13871.31,832.28,won,208.07,14079.38
+286,2020-06-14,Germany,Mainz v Augsburg,home,2.2,False,14079.38,844.76,lost,-844.76,13234.62
+287,2020-06-15,Spain,Betis v Granada,away,5.15,False,13234.62,794.08,lost,-794.08,12440.54
+288,2020-06-16,Germany,Werder Bremen v Bayern Munich,away,1.25,True,12440.54,746.43,won,186.61,12627.15
+289,2020-06-16,Spain,Villarreal v Mallorca,home,1.46,True,12627.15,757.63,won,348.51,12975.66
+290,2020-06-16,Germany,M'gladbach v Wolfsburg,away,3.34,False,12975.66,778.54,lost,-778.54,12197.12
+291,2020-06-17,England,Man City v Arsenal,home,1.35,True,12197.12,731.83,won,256.14,12453.26
+292,2020-06-19,Spain,Sevilla v Barcelona,home,4.0,False,12453.26,747.2,lost,-747.2,11706.06
+293,2020-06-20,England,Bournemouth v Crystal Palace,away,3.2,True,11706.06,702.36,won,1545.19,13251.25
+294,2020-06-20,England,West Ham v Wolves,away,2.1,True,13251.25,795.07,won,874.58,14125.83
+295,2020-06-20,Germany,Schalke 04 v Wolfsburg,away,1.75,True,14125.83,847.55,won,635.66,14761.49
+296,2020-06-20,Germany,FC Koln v Ein Frankfurt,away,2.55,False,14761.49,885.69,lost,-885.69,13875.8
+297,2020-06-20,Germany,Fortuna Dusseldorf v Augsburg,home,1.95,False,13875.8,832.55,lost,-832.55,13043.25
+298,2020-06-20,Germany,Mainz v Werder Bremen,home,2.6,True,13043.25,782.6,won,1252.16,14295.41
+299,2020-06-20,Germany,Hertha v Leverkusen,away,1.75,False,14295.41,857.72,lost,-857.72,13437.69
+300,2020-06-20,Germany,Hoffenheim v Union Berlin,home,1.72,True,13437.69,806.26,won,580.51,14018.2
+301,2020-06-20,Germany,Paderborn v M'gladbach,away,1.3,True,14018.2,841.09,won,252.33,14270.53
+302,2020-06-21,Italy,Inter v Sampdoria,home,1.4,True,14270.53,856.23,won,342.49,14613.02
+303,2020-06-22,Italy,Fiorentina v Brescia,home,1.4,False,14613.02,876.78,lost,-876.78,13736.24
+304,2020-06-22,Italy,Lecce v Milan,away,1.6,True,13736.24,824.17,won,494.5,14230.74
+305,2020-06-22,England,Man City v Burnley,home,1.2,True,14230.74,853.84,won,170.77,14401.51
+306,2020-06-23,England,Tottenham v West Ham,home,1.65,True,14401.51,864.09,won,561.66,14963.17
+307,2020-06-23,Spain,Barcelona v Ath Bilbao,home,1.3,True,14963.17,897.79,won,269.34,15232.51
+308,2020-06-25,England,Chelsea v Man City,away,1.98,False,15232.51,913.95,lost,-913.95,14318.56
+309,2020-06-27,Spain,Ath Madrid v Alaves,home,1.33,True,14318.56,859.11,won,283.51,14602.07
+310,2020-06-27,Spain,Celta v Barcelona,away,1.45,False,14602.07,876.12,lost,-876.12,13725.95
+311,2020-06-27,Germany,Ein Frankfurt v Paderborn,home,1.32,True,13725.95,823.56,won,263.54,13989.49
+312,2020-06-30,Spain,Leganes v Sevilla,home,4.9,False,13989.49,839.37,lost,-839.37,13150.12
+313,2020-06-30,Spain,Barcelona v Ath Madrid,draw,4.58,True,13150.12,789.01,won,2824.66,15974.78
+314,2020-07-01,Italy,Inter v Brescia,home,1.26,True,15974.78,958.49,won,249.21,16223.99
+315,2020-07-04,Italy,Lazio v Milan,home,2.3,False,16223.99,973.44,lost,-973.44,15250.55
+316,2020-07-04,England,Chelsea v Watford,home,1.45,True,15250.55,915.03,won,411.76,15662.31
+317,2020-07-05,Italy,Cagliari v Atalanta,home,6.09,False,15662.31,939.74,lost,-939.74,14722.57
+318,2020-07-05,England,Liverpool v Aston Villa,home,1.27,True,14722.57,883.35,won,238.5,14961.07
+319,2020-07-07,Spain,Valencia v Valladolid,home,1.9,True,14961.07,897.66,won,807.89,15768.96
+320,2020-07-11,Spain,Ath Madrid v Betis,home,1.4,True,15768.96,946.14,won,378.46,16147.42
+321,2020-07-11,England,Brighton v Man City,away,1.32,True,16147.42,968.85,won,310.03,16457.45
+322,2020-07-11,Italy,Brescia v Roma,away,1.6,True,16457.45,987.45,won,592.47,17049.92
+323,2020-07-11,Italy,Lazio v Sassuolo,home,1.7,False,17049.92,1023.0,lost,-1023.0,16026.92
+324,2020-07-12,England,Bournemouth v Leicester,home,5.25,True,16026.92,961.62,won,4086.89,20113.81
+325,2020-07-12,Spain,Leganes v Valencia,home,2.92,True,20113.81,1206.83,won,2317.11,22430.92
+326,2020-07-13,Spain,Alaves v Getafe,home,3.55,False,22430.92,1345.86,lost,-1345.86,21085.06
+327,2020-07-16,Italy,Spal v Inter,away,1.29,True,21085.06,1265.1,won,366.88,21451.94
+328,2020-07-16,Spain,Valencia v Espanol,away,4.32,False,21451.94,1287.12,lost,-1287.12,20164.82
+329,2020-07-16,Spain,Real Madrid v Villarreal,home,1.42,True,20164.82,1209.89,won,508.15,20672.97
+330,2020-07-16,Spain,Sociedad v Sevilla,home,2.28,False,20672.97,1240.38,lost,-1240.38,19432.59
+331,2020-07-16,Spain,Celta v Levante,home,1.57,False,19432.59,1165.96,lost,-1165.96,18266.63
+332,2020-07-16,England,Leicester v Sheffield United,away,4.3,False,18266.63,1096.0,lost,-1096.0,17170.63
+333,2020-07-16,Spain,Barcelona v Osasuna,home,1.19,False,17170.63,1030.24,lost,-1030.24,16140.39
+334,2020-07-16,Spain,Betis v Alaves,home,2.19,False,16140.39,968.42,lost,-968.42,15171.97
+335,2020-07-19,Italy,Genoa v Lecce,away,4.4,False,15171.97,910.32,lost,-910.32,14261.65
+336,2020-07-19,Spain,Alaves v Barcelona,away,1.48,True,14261.65,855.7,won,410.74,14672.39
+337,2020-07-19,Spain,Villarreal v Eibar,home,1.74,True,14672.39,880.34,won,651.45,15323.84
+338,2020-07-19,Spain,Espanol v Celta,home,5.85,False,15323.84,919.43,lost,-919.43,14404.41
+339,2020-07-19,Spain,Granada v Ath Bilbao,home,1.8,True,14404.41,864.26,won,691.41,15095.82
+340,2020-07-19,Spain,Leganes v Real Madrid,away,2.31,False,15095.82,905.75,lost,-905.75,14190.07
+341,2020-07-19,Spain,Valladolid v Betis,away,2.62,False,14190.07,851.4,lost,-851.4,13338.67
+342,2020-07-26,England,Man City v Norwich,home,1.07,True,13338.67,800.32,won,56.02,13394.69
+343,2020-07-26,Italy,Juventus v Sampdoria,home,1.31,True,13394.69,803.68,won,249.14,13643.83
+344,2020-07-26,England,Arsenal v Watford,away,4.1,False,13643.83,818.63,lost,-818.63,12825.2
+345,2020-08-28,France,Lyon v Dijon,home,1.3,True,12825.2,769.51,won,230.85,13056.05
+346,2020-08-29,France,Strasbourg v Nice,home,2.25,False,13056.05,783.36,lost,-783.36,12272.69
+347,2020-08-30,France,Brest v Marseille,home,4.65,False,12272.69,736.36,lost,-736.36,11536.33
+348,2020-08-30,France,Brest v Marseille,draw,3.8,False,11536.33,692.18,lost,-692.18,10844.15
+349,2020-09-15,France,Montpellier v Lyon,home,4.1,True,10844.15,650.65,won,2017.01,12861.16
+350,2020-09-18,France,Lyon v Nimes,home,1.4,False,12861.16,771.67,lost,-771.67,12089.49
+351,2020-09-19,England,Arsenal v West Ham,home,1.6,True,12089.49,725.37,won,435.22,12524.71
+352,2020-09-20,England,Chelsea v Liverpool,home,3.65,False,12524.71,751.48,lost,-751.48,11773.23
+353,2020-09-20,Italy,Juventus v Sampdoria,draw,5.8,False,11773.23,706.39,lost,-706.39,11066.84
+354,2020-09-20,Italy,Juventus v Sampdoria,away,10.5,False,11066.84,664.01,lost,-664.01,10402.83
+355,2020-09-20,England,Leicester v Burnley,home,1.64,True,10402.83,624.17,won,399.47,10802.3
+356,2020-09-26,Spain,Valencia v Huesca,away,3.94,False,10802.3,648.14,lost,-648.14,10154.16
+357,2020-09-27,Italy,Napoli v Genoa,home,1.3,True,10154.16,609.25,won,182.78,10336.94
+358,2020-09-27,France,Bordeaux v Nice,home,2.64,False,10336.94,620.22,lost,-620.22,9716.72
+359,2020-10-02,Italy,Fiorentina v Sampdoria,away,5.5,True,9716.72,583.0,won,2623.5,12340.22
+360,2020-10-02,France,Paris SG v Angers,home,1.15,True,12340.22,740.41,won,111.06,12451.28
+361,2020-10-03,Germany,Stuttgart v Leverkusen,draw,4.07,True,12451.28,747.08,won,2293.54,14744.82
+362,2020-10-03,England,Leeds v Man City,away,1.33,False,14744.82,884.69,lost,-884.69,13860.13
+363,2020-10-03,Germany,Dortmund v Freiburg,home,1.43,True,13860.13,831.61,won,357.59,14217.72
+364,2020-10-03,Germany,RB Leipzig v Schalke 04,home,1.34,True,14217.72,853.06,won,290.04,14507.76
+365,2020-10-04,France,Lyon v Marseille,away,5.44,False,14507.76,870.47,lost,-870.47,13637.29
+366,2020-10-04,Germany,Wolfsburg v Augsburg,home,2.1,False,13637.29,818.24,lost,-818.24,12819.05
+367,2020-10-04,Italy,Lazio v Inter,home,3.25,False,12819.05,769.14,lost,-769.14,12049.91
+368,2020-10-16,France,Nimes v Paris SG,away,1.4,True,12049.91,722.99,won,289.2,12339.11
+369,2020-10-17,Italy,Crotone v Juventus,home,7.1,False,12339.11,740.35,lost,-740.35,11598.76
+370,2020-10-17,Germany,Hoffenheim v Dortmund,away,1.85,True,11598.76,695.93,won,591.54,12190.3
+371,2020-10-17,Germany,Augsburg v RB Leipzig,away,1.6,True,12190.3,731.42,won,438.85,12629.15
+372,2020-10-17,Spain,Celta v Ath Madrid,away,1.87,True,12629.15,757.75,won,659.24,13288.39
+373,2020-10-17,France,Marseille v Bordeaux,home,2.3,True,13288.39,797.3,won,1036.49,14324.88
+374,2020-10-17,Germany,Bielefeld v Bayern Munich,away,1.22,True,14324.88,859.49,won,189.09,14513.97
+375,2020-10-18,Germany,FC Koln v Ein Frankfurt,home,3.27,False,14513.97,870.84,lost,-870.84,13643.13
+376,2020-10-18,Italy,Spezia v Fiorentina,away,1.6,False,13643.13,818.59,lost,-818.59,12824.54
+377,2020-10-18,France,Monaco v Montpellier,away,4.49,False,12824.54,769.47,lost,-769.47,12055.07
+378,2020-10-18,France,Strasbourg v Lyon,away,1.88,True,12055.07,723.3,won,636.5,12691.57
+379,2020-10-18,Italy,Roma v Benevento,home,1.45,True,12691.57,761.49,won,342.67,13034.24
+380,2020-10-18,Spain,Eibar v Osasuna,draw,3.09,True,13034.24,782.05,won,1634.48,14668.72
+381,2020-10-23,Germany,Stuttgart v FC Koln,home,2.69,False,14668.72,880.12,lost,-880.12,13788.6
+382,2020-10-24,France,Lorient v Marseille,draw,3.4,False,13788.6,827.32,lost,-827.32,12961.28
+383,2020-10-24,Italy,Atalanta v Sampdoria,home,1.63,False,12961.28,777.68,lost,-777.68,12183.6
+384,2020-10-24,Germany,Dortmund v Schalke 04,home,1.25,True,12183.6,731.02,won,182.75,12366.35
+385,2020-10-24,Spain,Barcelona v Real Madrid,home,2.0,False,12366.35,741.98,lost,-741.98,11624.37
+386,2020-10-31,France,Nantes v Paris SG,home,8.09,False,11624.37,697.46,lost,-697.46,10926.91
+387,2020-10-31,Spain,Real Madrid v Huesca,home,1.4,True,10926.91,655.61,won,262.24,11189.15
+388,2020-11-01,Germany,Freiburg v Leverkusen,away,2.73,True,11189.15,671.35,won,1161.44,12350.59
+389,2020-11-01,France,Monaco v Bordeaux,home,1.91,True,12350.59,741.04,won,674.35,13024.94
+390,2020-11-01,Italy,Sampdoria v Genoa,home,2.0,False,13024.94,781.5,lost,-781.5,12243.44
+391,2020-11-06,England,Brighton v Burnley,home,2.69,False,12243.44,734.61,lost,-734.61,11508.83
+392,2020-11-07,France,Paris SG v Rennes,away,8.0,False,11508.83,690.53,lost,-690.53,10818.3
+393,2020-11-07,Germany,Dortmund v Bayern Munich,home,3.45,False,10818.3,649.1,lost,-649.1,10169.2
+394,2020-11-07,Germany,Dortmund v Bayern Munich,draw,4.6,False,10169.2,610.15,lost,-610.15,9559.05
+395,2020-11-07,England,Everton v Man United,away,2.38,True,9559.05,573.54,won,791.49,10350.54
+396,2020-11-07,Spain,Huesca v Eibar,home,2.42,False,10350.54,621.03,lost,-621.03,9729.51
+397,2020-11-08,England,West Brom v Tottenham,away,1.57,True,9729.51,583.77,won,332.75,10062.26
+398,2020-11-08,Italy,Atalanta v Inter,home,3.15,False,10062.26,603.74,lost,-603.74,9458.52
+399,2020-11-20,France,Monaco v Paris SG,away,1.61,False,9458.52,567.51,lost,-567.51,8891.01
+400,2020-11-20,France,Rennes v Bordeaux,away,4.54,True,8891.01,533.46,won,1888.45,10779.46
+401,2020-11-21,England,Aston Villa v Brighton,away,3.45,True,10779.46,646.77,won,1584.59,12364.05
+402,2020-11-21,Germany,Ein Frankfurt v RB Leipzig,away,1.91,False,12364.05,741.84,lost,-741.84,11622.21
+403,2020-11-22,Italy,Verona v Sassuolo,away,2.73,True,11622.21,697.33,won,1206.38,12828.59
+404,2020-11-27,France,Strasbourg v Rennes,away,2.74,False,12828.59,769.72,lost,-769.72,12058.87
+405,2020-11-28,Spain,Elche v Cadiz,draw,2.98,True,12058.87,723.53,won,1432.59,13491.46
+406,2020-11-28,Germany,Union Berlin v Ein Frankfurt,home,2.58,False,13491.46,809.49,lost,-809.49,12681.97
+407,2020-11-29,England,Chelsea v Tottenham,home,2.15,False,12681.97,760.92,lost,-760.92,11921.05
+408,2020-11-29,France,St Etienne v Lille,home,4.06,False,11921.05,715.26,lost,-715.26,11205.79
+409,2020-11-29,Spain,Celta v Granada,home,2.07,True,11205.79,672.35,won,719.41,11925.2
+410,2020-11-29,Germany,Mainz v Hoffenheim,home,3.33,False,11925.2,715.51,lost,-715.51,11209.69
+411,2020-11-29,France,Lyon v Reims,home,1.45,True,11209.69,672.58,won,302.66,11512.35
+412,2020-11-30,Italy,Genoa v Parma,draw,3.59,False,11512.35,690.74,lost,-690.74,10821.61
+413,2020-11-30,Spain,Betis v Eibar,home,1.88,False,10821.61,649.3,lost,-649.3,10172.31
+414,2020-11-30,England,Leicester v Fulham,away,6.49,True,10172.31,610.34,won,3350.77,13523.08
+415,2020-12-05,Italy,Spezia v Lazio,away,1.74,True,13523.08,811.38,won,600.42,14123.5
+416,2020-12-05,England,Burnley v Everton,home,4.19,False,14123.5,847.41,lost,-847.41,13276.09
+417,2020-12-05,Germany,FC Koln v Wolfsburg,away,2.22,False,13276.09,796.57,lost,-796.57,12479.52
+418,2020-12-06,France,Lille v Monaco,draw,3.82,False,12479.52,748.77,lost,-748.77,11730.75
+419,2020-12-06,Germany,Schalke 04 v Leverkusen,home,7.22,False,11730.75,703.85,lost,-703.85,11026.9
+420,2020-12-13,Italy,Atalanta v Fiorentina,home,1.68,True,11026.9,661.61,won,449.89,11476.79
+421,2020-12-13,England,Arsenal v Burnley,away,8.65,True,11476.79,688.61,won,5267.87,16744.66
+422,2020-12-16,France,Rennes v Marseille,home,2.37,True,16744.66,1004.68,won,1376.41,18121.07
+423,2020-12-16,Germany,Hoffenheim v RB Leipzig,away,1.75,True,18121.07,1087.26,won,815.44,18936.51
+424,2020-12-16,France,Paris SG v Lorient,home,1.21,True,18936.51,1136.19,won,238.6,19175.11
+425,2020-12-16,England,West Ham v Crystal Palace,home,2.34,False,19175.11,1150.51,lost,-1150.51,18024.6
+426,2020-12-19,Spain,Ath Madrid v Elche,home,1.25,True,18024.6,1081.48,won,270.37,18294.97
+427,2020-12-23,France,Montpellier v Lille,away,2.14,True,18294.97,1097.7,won,1251.38,19546.35
+428,2020-12-26,England,Fulham v Southampton,home,3.12,False,19546.35,1172.78,lost,-1172.78,18373.57
+429,2020-12-28,England,Chelsea v Aston Villa,away,4.7,False,18373.57,1102.41,lost,-1102.41,17271.16
+430,2020-12-30,Spain,Elche v Real Madrid,away,1.32,False,17271.16,1036.27,lost,-1036.27,16234.89
+431,2021-01-01,England,Everton v West Ham,away,3.81,True,16234.89,974.09,won,2737.19,18972.08
+432,2021-01-02,England,Tottenham v Leeds,away,4.5,False,18972.08,1138.32,lost,-1138.32,17833.76
+433,2021-01-02,Germany,Hertha v Schalke 04,home,1.8,True,17833.76,1070.03,won,856.02,18689.78
+434,2021-01-02,Germany,Ein Frankfurt v Leverkusen,away,2.26,False,18689.78,1121.39,lost,-1121.39,17568.39
+435,2021-01-03,Germany,Bayern Munich v Mainz,home,1.13,True,17568.39,1054.1,won,137.03,17705.42
+436,2021-01-06,Italy,Lazio v Fiorentina,home,1.91,True,17705.42,1062.33,won,966.72,18672.14
+437,2021-01-06,France,St Etienne v Paris SG,away,1.32,False,18672.14,1120.33,lost,-1120.33,17551.81
+438,2021-01-09,Germany,Schalke 04 v Hoffenheim,away,2.0,False,17551.81,1053.11,lost,-1053.11,16498.7
+439,2021-01-09,Italy,Benevento v Atalanta,away,1.46,True,16498.7,989.92,won,455.36,16954.06
+440,2021-01-09,France,Metz v Nice,away,2.84,False,16954.06,1017.24,lost,-1017.24,15936.82
+441,2021-01-09,France,Nimes v Lille,home,8.89,False,15936.82,956.21,lost,-956.21,14980.61
+442,2021-01-09,Spain,Sevilla v Sociedad,home,2.23,True,14980.61,898.84,won,1105.57,16086.18
+443,2021-01-09,France,Reims v St Etienne,away,2.99,False,16086.18,965.17,lost,-965.17,15121.01
+444,2021-01-09,France,Paris SG v Brest,home,1.21,True,15121.01,907.26,won,190.52,15311.53
+445,2021-01-10,Spain,Valladolid v Valencia,away,3.0,True,15311.53,918.69,won,1837.38,17148.91
+446,2021-01-11,Italy,Spezia v Sampdoria,home,3.62,True,17148.91,1028.93,won,2695.8,19844.71
+447,2021-01-12,England,Sheffield United v Newcastle,home,2.51,True,19844.71,1190.68,won,1797.93,21642.64
+448,2021-01-16,Germany,Wolfsburg v RB Leipzig,away,2.04,False,21642.64,1298.56,lost,-1298.56,20344.08
+449,2021-01-16,France,Angers v Paris SG,away,1.32,True,20344.08,1220.64,won,390.6,20734.68
+450,2021-01-16,England,Wolves v West Brom,home,1.79,False,20734.68,1244.08,lost,-1244.08,19490.6
+451,2021-01-16,Italy,Bologna v Verona,home,2.45,True,19490.6,1169.44,won,1695.69,21186.29
+452,2021-01-17,Italy,Atalanta v Genoa,home,1.24,False,21186.29,1271.18,lost,-1271.18,19915.11
+453,2021-01-19,Spain,Alaves v Sevilla,home,5.51,False,19915.11,1194.91,lost,-1194.91,18720.2
+454,2021-01-20,Germany,Augsburg v Bayern Munich,away,1.22,True,18720.2,1123.21,won,247.11,18967.31
+455,2021-01-20,Spain,Betis v Celta,home,2.26,True,18967.31,1138.04,won,1433.93,20401.24
+456,2021-01-22,Germany,M'gladbach v Dortmund,away,2.2,False,20401.24,1224.07,lost,-1224.07,19177.17
+457,2021-01-24,Spain,Ath Madrid v Valencia,home,1.54,True,19177.17,1150.63,won,621.34,19798.51
+458,2021-01-26,England,Crystal Palace v West Ham,away,2.38,True,19798.51,1187.91,won,1639.32,21437.83
+459,2021-01-27,England,Burnley v Aston Villa,away,1.96,False,21437.83,1286.27,lost,-1286.27,20151.56
+460,2021-01-29,Spain,Valladolid v Huesca,home,2.3,False,20151.56,1209.09,lost,-1209.09,18942.47
+461,2021-01-30,Spain,Real Madrid v Levante,home,1.37,False,18942.47,1136.55,lost,-1136.55,17805.92
+462,2021-01-30,Spain,Villarreal v Sociedad,home,2.72,False,17805.92,1068.36,lost,-1068.36,16737.56
+463,2021-01-30,England,Southampton v Aston Villa,away,2.33,True,16737.56,1004.25,won,1335.65,18073.21
+464,2021-01-30,England,West Brom v Fulham,away,2.5,False,18073.21,1084.39,lost,-1084.39,16988.82
+465,2021-01-30,Germany,Union Berlin v M'gladbach,away,2.23,False,16988.82,1019.33,lost,-1019.33,15969.49
+466,2021-01-30,France,Montpellier v Lens,away,2.67,True,15969.49,958.17,won,1600.14,17569.63
+467,2021-01-30,Germany,Ein Frankfurt v Hertha,home,1.8,True,17569.63,1054.18,won,843.34,18412.97
+468,2021-01-30,England,Arsenal v Man United,away,2.4,False,18412.97,1104.78,lost,-1104.78,17308.19
+469,2021-01-30,Germany,Bayern Munich v Hoffenheim,home,1.27,True,17308.19,1038.49,won,280.39,17588.58
+470,2021-01-31,Italy,Cagliari v Sassuolo,home,3.19,False,17588.58,1055.31,lost,-1055.31,16533.27
+471,2021-01-31,Spain,Getafe v Alaves,home,2.67,False,16533.27,992.0,lost,-992.0,15541.27
+472,2021-01-31,Spain,Getafe v Alaves,draw,3.55,True,15541.27,932.48,won,2377.82,17919.09
+473,2021-01-31,France,Nice v St Etienne,draw,3.8,False,17919.09,1075.15,lost,-1075.15,16843.94
+474,2021-01-31,France,Nice v St Etienne,away,3.17,True,16843.94,1010.64,won,2193.09,19037.03
+475,2021-01-31,Germany,FC Koln v Bielefeld,draw,3.3,False,19037.03,1142.22,lost,-1142.22,17894.81
+476,2021-01-31,Germany,Wolfsburg v Freiburg,draw,3.96,False,17894.81,1073.69,lost,-1073.69,16821.12
+477,2021-01-31,Germany,Wolfsburg v Freiburg,away,4.3,False,16821.12,1009.27,lost,-1009.27,15811.85
+478,2021-01-31,England,West Ham v Liverpool,draw,3.95,False,15811.85,948.71,lost,-948.71,14863.14
+479,2021-01-31,England,Brighton v Tottenham,home,3.62,True,14863.14,891.79,won,2336.49,17199.63
+480,2021-01-31,Spain,Cadiz v Ath Madrid,home,8.3,False,17199.63,1031.98,lost,-1031.98,16167.65
+481,2021-01-31,Spain,Cadiz v Ath Madrid,draw,3.98,False,16167.65,970.06,lost,-970.06,15197.59
+482,2021-02-03,France,Bordeaux v Lille,away,2.74,True,15197.59,911.86,won,1586.64,16784.23
+483,2021-02-03,England,Aston Villa v West Ham,away,3.25,True,16784.23,1007.05,won,2265.86,19050.09
+484,2021-02-05,Germany,Hertha v Bayern Munich,away,1.4,True,19050.09,1143.01,won,457.2,19507.29
+485,2021-02-05,Italy,Fiorentina v Inter,away,1.55,True,19507.29,1170.44,won,643.74,20151.03
+486,2021-02-06,Germany,Augsburg v Wolfsburg,away,1.9,True,20151.03,1209.06,won,1088.15,21239.18
+487,2021-02-06,Germany,Leverkusen v Stuttgart,home,2.09,True,21239.18,1274.35,won,1389.04,22628.22
+488,2021-02-06,Germany,Mainz v Union Berlin,home,3.41,True,22628.22,1357.69,won,3272.03,25900.25
+489,2021-02-07,England,Tottenham v West Brom,home,1.47,True,25900.25,1554.01,won,730.38,26630.63
+490,2021-02-07,Italy,Benevento v Sampdoria,away,2.64,False,26630.63,1597.84,lost,-1597.84,25032.79
+491,2021-02-07,France,Brest v Bordeaux,away,2.9,False,25032.79,1501.97,lost,-1501.97,23530.82
+492,2021-02-08,England,Leeds v Crystal Palace,draw,4.17,False,23530.82,1411.85,lost,-1411.85,22118.97
+493,2021-02-08,Spain,Ath Madrid v Celta,home,1.91,False,22118.97,1327.14,lost,-1327.14,20791.83
+494,2021-02-12,Germany,RB Leipzig v Augsburg,home,1.3,True,20791.83,1247.51,won,374.25,21166.08
+495,2021-02-13,Italy,Torino v Genoa,home,2.14,False,21166.08,1269.96,lost,-1269.96,19896.12
+496,2021-02-13,England,Brighton v Aston Villa,home,3.14,False,19896.12,1193.77,lost,-1193.77,18702.35
+497,2021-02-13,England,Crystal Palace v Burnley,away,3.1,True,18702.35,1122.14,won,2356.49,21058.84
+498,2021-02-13,England,Leicester v Liverpool,away,2.05,False,21058.84,1263.53,lost,-1263.53,19795.31
+499,2021-02-13,Italy,Spezia v Milan,away,1.59,False,19795.31,1187.72,lost,-1187.72,18607.59
+500,2021-02-13,Germany,Werder Bremen v Freiburg,home,2.93,False,18607.59,1116.46,lost,-1116.46,17491.13
+501,2021-02-14,Spain,Real Madrid v Valencia,home,1.43,True,17491.13,1049.47,won,451.27,17942.4
+502,2021-02-14,Italy,Crotone v Sassuolo,away,2.74,True,17942.4,1076.54,won,1873.18,19815.58
+503,2021-02-14,England,Southampton v Wolves,home,2.68,False,19815.58,1188.93,lost,-1188.93,18626.65
+504,2021-02-15,England,Chelsea v Newcastle,home,1.33,True,18626.65,1117.6,won,368.81,18995.46
+505,2021-02-15,Spain,Cadiz v Ath Bilbao,away,2.07,True,18995.46,1139.73,won,1219.51,20214.97
+506,2021-02-17,England,Burnley v Fulham,draw,3.47,True,20214.97,1212.9,won,2995.86,23210.83
+507,2021-02-19,Spain,Betis v Getafe,away,4.25,False,23210.83,1392.65,lost,-1392.65,21818.18
+508,2021-02-20,Germany,FC Koln v Stuttgart,away,2.1,True,21818.18,1309.09,won,1440.0,23258.18
+509,2021-02-20,Germany,Schalke 04 v Dortmund,away,1.35,True,23258.18,1395.49,won,488.42,23746.6
+510,2021-02-21,England,Aston Villa v Leicester,home,4.16,False,23746.6,1424.8,lost,-1424.8,22321.8
+511,2021-02-21,Spain,Barcelona v Cadiz,home,1.16,False,22321.8,1339.31,lost,-1339.31,20982.49
+512,2021-02-21,France,Nice v Metz,home,2.33,False,20982.49,1258.95,lost,-1258.95,19723.54
+513,2021-02-24,France,Nimes v Lorient,away,2.4,False,19723.54,1183.41,lost,-1183.41,18540.13
+514,2021-02-26,Spain,Levante v Ath Bilbao,away,2.4,False,18540.13,1112.41,lost,-1112.41,17427.72
+515,2021-02-27,Germany,RB Leipzig v M'gladbach,home,1.7,True,17427.72,1045.66,won,731.96,18159.68
+516,2021-02-27,England,West Brom v Brighton,away,1.97,False,18159.68,1089.58,lost,-1089.58,17070.1
+517,2021-02-27,Italy,Bologna v Lazio,away,1.99,False,17070.1,1024.21,lost,-1024.21,16045.89
+518,2021-02-27,Spain,Sevilla v Barcelona,away,2.38,True,16045.89,962.75,won,1328.59,17374.48
+519,2021-02-27,Spain,Getafe v Valencia,home,2.7,True,17374.48,1042.47,won,1772.2,19146.68
+520,2021-02-27,Spain,Getafe v Valencia,draw,3.43,False,19146.68,1148.8,lost,-1148.8,17997.88
+521,2021-02-28,Italy,Udinese v Fiorentina,home,3.02,True,17997.88,1079.87,won,2181.34,20179.22
+522,2021-02-28,England,Chelsea v Man United,draw,3.69,True,20179.22,1210.75,won,3256.92,23436.14
+523,2021-02-28,England,Leicester v Arsenal,home,2.58,False,23436.14,1406.17,lost,-1406.17,22029.97
+524,2021-02-28,France,Marseille v Lyon,away,1.74,False,22029.97,1321.8,lost,-1321.8,20708.17
+525,2021-03-02,England,Man City v Wolves,home,1.27,True,20708.17,1242.49,won,335.47,21043.64
+526,2021-03-03,Italy,Sassuolo v Napoli,home,3.77,False,21043.64,1262.62,lost,-1262.62,19781.02
+527,2021-03-03,England,Burnley v Leicester,home,4.36,False,19781.02,1186.86,lost,-1186.86,18594.16
+528,2021-03-06,England,Sheffield United v Southampton,home,4.29,False,18594.16,1115.65,lost,-1115.65,17478.51
+529,2021-03-06,England,Aston Villa v Wolves,draw,3.47,True,17478.51,1048.71,won,2590.31,20068.82
+530,2021-03-06,Spain,Elche v Sevilla,home,6.81,True,20068.82,1204.13,won,6996.0,27064.82
+531,2021-03-07,Italy,Verona v Milan,home,3.23,False,27064.82,1623.89,lost,-1623.89,25440.93
+532,2021-03-07,Spain,Ath Madrid v Real Madrid,draw,3.38,True,25440.93,1526.46,won,3632.97,29073.9
+533,2021-03-08,Italy,Inter v Atalanta,draw,3.97,False,29073.9,1744.43,lost,-1744.43,27329.47
+534,2021-03-13,Germany,Mainz v Freiburg,home,2.65,True,27329.47,1639.77,won,2705.62,30035.09
+535,2021-03-14,Germany,RB Leipzig v Ein Frankfurt,home,1.78,False,30035.09,1802.11,lost,-1802.11,28232.98
+536,2021-03-14,Germany,RB Leipzig v Ein Frankfurt,away,6.26,False,28232.98,1693.98,lost,-1693.98,26539.0
+537,2021-03-14,Germany,Leverkusen v Bielefeld,away,9.74,True,26539.0,1592.34,won,13917.05,40456.05
+538,2021-03-14,Italy,Torino v Inter,away,1.38,True,40456.05,2427.36,won,922.4,41378.45
+539,2021-03-14,Spain,Celta v Ath Bilbao,draw,3.51,True,41378.45,2482.71,won,6231.6,47610.05
+540,2021-03-17,Italy,Torino v Sassuolo,draw,3.72,False,47610.05,2856.6,lost,-2856.6,44753.45
+541,2021-03-20,France,Nice v Marseille,home,3.89,True,44753.45,2685.21,won,7760.26,52513.71
+542,2021-03-20,France,Nice v Marseille,draw,3.71,False,52513.71,3150.82,lost,-3150.82,49362.89
+543,2021-03-20,Germany,Werder Bremen v Wolfsburg,away,1.93,True,49362.89,2961.77,won,2754.45,52117.34
+544,2021-03-20,Italy,Crotone v Bologna,away,1.96,True,52117.34,3127.04,won,3001.96,55119.3
+545,2021-03-21,Germany,Hertha v Leverkusen,home,3.97,True,55119.3,3307.16,won,9822.27,64941.57
+546,2021-03-21,France,Montpellier v Bordeaux,draw,3.75,False,64941.57,3896.49,lost,-3896.49,61045.08
+547,2021-03-21,France,Strasbourg v Lens,home,2.95,False,61045.08,3662.7,lost,-3662.7,57382.38
+548,2021-03-21,Italy,Sampdoria v Torino,home,2.77,True,57382.38,3442.94,won,6094.0,63476.38
+549,2021-03-21,England,West Ham v Arsenal,home,3.99,False,63476.38,3808.58,lost,-3808.58,59667.8
+550,2021-04-03,Italy,Genoa v Fiorentina,away,2.55,False,59667.8,3580.07,lost,-3580.07,56087.73
+551,2021-04-03,Germany,M'gladbach v Freiburg,home,1.83,True,56087.73,3365.26,won,2793.17,58880.9
+552,2021-04-03,Italy,Cagliari v Verona,away,2.9,True,58880.9,3532.85,won,6712.41,65593.31
+553,2021-04-03,Germany,RB Leipzig v Bayern Munich,home,2.9,False,65593.31,3935.6,lost,-3935.6,61657.71
+554,2021-04-04,Germany,Stuttgart v Werder Bremen,home,2.05,True,61657.71,3699.46,won,3884.43,65542.14
+555,2021-04-04,Germany,Union Berlin v Hertha,draw,3.6,True,65542.14,3932.53,won,10224.58,75766.72
+556,2021-04-04,Spain,Alaves v Celta,away,2.65,True,75766.72,4546.0,won,7500.9,83267.62
+557,2021-04-07,Spain,Sociedad v Ath Bilbao,away,3.62,False,83267.62,4996.06,lost,-4996.06,78271.56
+558,2021-04-09,England,Fulham v Wolves,draw,3.42,False,78271.56,4696.29,lost,-4696.29,73575.27
+559,2021-04-09,Germany,Bielefeld v Freiburg,draw,3.54,False,73575.27,4414.52,lost,-4414.52,69160.75
+560,2021-04-10,Germany,Hertha v M'gladbach,home,3.6,False,69160.75,4149.64,lost,-4149.64,65011.11
+561,2021-04-10,Germany,Ein Frankfurt v Wolfsburg,away,3.1,False,65011.11,3900.67,lost,-3900.67,61110.44
+562,2021-04-11,England,Tottenham v Man United,away,2.6,True,61110.44,3666.63,won,5866.61,66977.05
+563,2021-04-11,Spain,Betis v Ath Madrid,home,3.88,False,66977.05,4018.62,lost,-4018.62,62958.43
+564,2021-04-12,England,Brighton v Everton,home,2.3,False,62958.43,3777.51,lost,-3777.51,59180.92
+565,2021-04-12,Spain,Celta v Sevilla,draw,3.8,False,59180.92,3550.86,lost,-3550.86,55630.06
+566,2021-04-17,Germany,M'gladbach v Ein Frankfurt,home,2.61,True,55630.06,3337.8,won,5373.86,61003.92
+567,2021-04-18,Spain,Alaves v Huesca,draw,3.32,False,61003.92,3660.24,lost,-3660.24,57343.68
+568,2021-04-18,Spain,Getafe v Real Madrid,home,4.79,False,57343.68,3440.62,lost,-3440.62,53903.06
+569,2021-04-18,Spain,Levante v Villarreal,home,5.93,False,53903.06,3234.18,lost,-3234.18,50668.88
+570,2021-04-18,Italy,Napoli v Inter,draw,3.74,True,50668.88,3040.13,won,8329.96,58998.84
+571,2021-04-20,Germany,Bielefeld v Schalke 04,draw,3.97,False,58998.84,3539.93,lost,-3539.93,55458.91
+572,2021-04-21,Italy,Spezia v Inter,away,1.35,False,55458.91,3327.53,lost,-3327.53,52131.38
+573,2021-04-21,Spain,Osasuna v Valencia,home,2.87,True,52131.38,3127.88,won,5849.14,57980.52
+574,2021-04-21,Italy,Udinese v Cagliari,away,3.73,True,57980.52,3478.83,won,9497.21,67477.73
+575,2021-04-21,Spain,Alaves v Villarreal,away,1.8,False,67477.73,4048.66,lost,-4048.66,63429.07
+576,2021-04-22,Spain,Sociedad v Celta,home,1.91,True,63429.07,3805.74,won,3463.22,66892.29
+577,2021-04-24,Italy,Genoa v Spezia,draw,3.43,False,66892.29,4013.54,lost,-4013.54,62878.75
+578,2021-04-24,Spain,Valladolid v Cadiz,home,1.88,False,62878.75,3772.72,lost,-3772.72,59106.03
+579,2021-04-24,France,Metz v Paris SG,away,1.26,True,59106.03,3546.36,won,922.05,60028.08
+580,2021-04-24,Germany,Wolfsburg v Dortmund,home,3.92,False,60028.08,3601.68,lost,-3601.68,56426.4
+581,2021-04-24,Germany,Mainz v Bayern Munich,away,1.33,False,56426.4,3385.58,lost,-3385.58,53040.82
+582,2021-04-24,Italy,Sassuolo v Sampdoria,away,4.09,False,53040.82,3182.45,lost,-3182.45,49858.37
+583,2021-04-25,Spain,Huesca v Getafe,draw,3.2,False,49858.37,2991.5,lost,-2991.5,46866.87
+584,2021-04-25,England,Wolves v Burnley,draw,3.4,False,46866.87,2812.01,lost,-2812.01,44054.86
+585,2021-04-25,France,Lens v Nimes,away,5.25,False,44054.86,2643.29,lost,-2643.29,41411.57
+586,2021-04-25,Spain,Celta v Osasuna,home,1.91,True,41411.57,2484.69,won,2261.07,43672.64
+587,2021-04-25,Italy,Fiorentina v Juventus,away,1.71,False,43672.64,2620.36,lost,-2620.36,41052.28
+588,2021-05-02,France,Lorient v Angers,draw,3.67,False,41052.28,2463.14,lost,-2463.14,38589.14
+589,2021-05-02,Italy,Sampdoria v Roma,away,2.49,False,38589.14,2315.35,lost,-2315.35,36273.79
+590,2021-05-02,England,Newcastle v Arsenal,home,4.23,False,36273.79,2176.43,lost,-2176.43,34097.36
+591,2021-05-06,Germany,Hertha v Freiburg,away,3.83,False,34097.36,2045.84,lost,-2045.84,32051.52
+592,2021-05-08,Spain,Cadiz v Huesca,draw,3.62,False,32051.52,1923.09,lost,-1923.09,30128.43
+593,2021-05-08,Spain,Cadiz v Huesca,away,2.25,False,30128.43,1807.71,lost,-1807.71,28320.72
+594,2021-05-08,England,Man City v Chelsea,draw,3.75,False,28320.72,1699.24,lost,-1699.24,26621.48
+595,2021-05-09,France,Angers v Dijon,home,1.74,True,26621.48,1597.29,won,1181.99,27803.47
+596,2021-05-09,France,Strasbourg v Montpellier,home,1.71,False,27803.47,1668.21,lost,-1668.21,26135.26
+597,2021-05-09,England,Wolves v Brighton,away,2.27,False,26135.26,1568.12,lost,-1568.12,24567.14
+598,2021-05-09,Italy,Genoa v Sassuolo,away,2.15,True,24567.14,1474.03,won,1695.13,26262.27
+599,2021-05-09,Italy,Benevento v Cagliari,home,3.2,False,26262.27,1575.74,lost,-1575.74,24686.53
+600,2021-05-09,Spain,Villarreal v Celta,home,1.95,False,24686.53,1481.19,lost,-1481.19,23205.34
+601,2021-05-09,Germany,FC Koln v Freiburg,home,2.1,False,23205.34,1392.32,lost,-1392.32,21813.02
+602,2021-05-11,England,Man United v Leicester,away,2.22,True,21813.02,1308.78,won,1596.71,23409.73
+603,2021-05-11,England,Southampton v Crystal Palace,home,2.01,True,23409.73,1404.58,won,1418.63,24828.36
+604,2021-05-11,Spain,Osasuna v Cadiz,home,1.92,True,24828.36,1489.7,won,1370.52,26198.88
+605,2021-05-12,Italy,Bologna v Genoa,home,2.27,False,26198.88,1571.93,lost,-1571.93,24626.95
+606,2021-05-12,Spain,Ath Madrid v Sociedad,home,1.72,True,24626.95,1477.62,won,1063.89,25690.84
+607,2021-05-13,Spain,Valladolid v Villarreal,away,1.94,True,25690.84,1541.45,won,1448.96,27139.8
+608,2021-05-13,Spain,Eibar v Betis,draw,3.75,True,27139.8,1628.39,won,4478.07,31617.87
+609,2021-05-14,England,Newcastle v Man City,home,11.0,False,31617.87,1897.07,lost,-1897.07,29720.8
+610,2021-05-15,Italy,Spezia v Torino,home,3.73,True,29720.8,1783.25,won,4868.27,34589.07
+611,2021-05-16,France,Bordeaux v Lens,draw,3.96,False,34589.07,2075.34,lost,-2075.34,32513.73
+612,2021-05-16,France,Nimes v Lyon,away,1.36,True,32513.73,1950.82,won,702.3,33216.03
+613,2021-05-16,France,Nice v Strasbourg,draw,3.75,False,33216.03,1992.96,lost,-1992.96,31223.07
+614,2021-05-16,France,Montpellier v Brest,away,3.01,False,31223.07,1873.38,lost,-1873.38,29349.69
+615,2021-05-16,France,Monaco v Rennes,draw,4.42,False,29349.69,1760.98,lost,-1760.98,27588.71
+616,2021-05-16,France,Marseille v Angers,home,1.51,True,27588.71,1655.32,won,844.21,28432.92
+617,2021-05-16,France,Lorient v Metz,draw,4.5,False,28432.92,1705.98,lost,-1705.98,26726.94
+618,2021-05-16,Spain,Valencia v Eibar,home,2.63,True,26726.94,1603.62,won,2613.9,29340.84
+619,2021-05-16,France,Paris SG v Reims,home,1.17,True,29340.84,1760.45,won,299.28,29640.12
+620,2021-05-16,Germany,RB Leipzig v Wolfsburg,home,2.16,False,29640.12,1778.41,lost,-1778.41,27861.71
+621,2021-05-16,Spain,Ath Bilbao v Real Madrid,home,6.5,False,27861.71,1671.7,lost,-1671.7,26190.01
+622,2021-05-16,Italy,Benevento v Crotone,home,1.46,False,26190.01,1571.4,lost,-1571.4,24618.61
+623,2021-05-17,Italy,Verona v Bologna,home,2.4,False,24618.61,1477.12,lost,-1477.12,23141.49
+624,2021-05-18,Italy,Lazio v Torino,away,3.8,False,23141.49,1388.49,lost,-1388.49,21753.0
+625,2021-05-19,England,Newcastle v Sheffield United,home,1.95,True,21753.0,1305.18,won,1239.92,22992.92
+626,2021-05-19,England,Everton v Wolves,draw,4.13,False,22992.92,1379.58,lost,-1379.58,21613.34
+627,2021-05-22,Italy,Cagliari v Genoa,home,2.02,False,21613.34,1296.8,lost,-1296.8,20316.54
+628,2021-05-22,Spain,Huesca v Valencia,home,1.83,False,20316.54,1218.99,lost,-1218.99,19097.55
+629,2021-05-22,Germany,Hoffenheim v Hertha,home,1.8,True,19097.55,1145.85,won,916.68,20014.23
+630,2021-05-22,Germany,Ein Frankfurt v Freiburg,away,3.45,False,20014.23,1200.85,lost,-1200.85,18813.38
+631,2021-05-23,France,Angers v Lille,home,11.0,False,18813.38,1128.8,lost,-1128.8,17684.58
+632,2021-05-23,France,Rennes v Nimes,home,1.28,True,17684.58,1061.07,won,297.1,17981.68
+633,2021-05-23,France,Strasbourg v Lorient,away,5.0,False,17981.68,1078.9,lost,-1078.9,16902.78
+634,2021-05-23,Italy,Napoli v Verona,home,1.31,False,16902.78,1014.17,lost,-1014.17,15888.61
+635,2021-05-23,Italy,Bologna v Juventus,away,1.3,True,15888.61,953.32,won,286.0,16174.61
+636,2021-05-23,Italy,Spezia v Roma,home,5.57,False,16174.61,970.48,lost,-970.48,15204.13
+637,2021-05-23,Spain,Granada v Getafe,draw,3.6,True,15204.13,912.25,won,2371.85,17575.98
+638,2021-05-23,Spain,Sevilla v Alaves,home,1.42,True,17575.98,1054.56,won,442.92,18018.9
+639,2021-05-23,England,Wolves v Man United,draw,3.73,False,18018.9,1081.13,lost,-1081.13,16937.77
+640,2021-08-06,France,Monaco v Nantes,home,1.53,False,16937.77,1016.27,lost,-1016.27,15921.5
+641,2021-08-07,France,Troyes v Paris SG,away,1.42,True,15921.5,955.29,won,401.22,16322.72
+642,2021-08-08,France,Montpellier v Marseille,away,2.23,True,16322.72,979.36,won,1204.61,17527.33
+643,2021-08-14,Spain,Mallorca v Betis,home,3.3,False,17527.33,1051.64,lost,-1051.64,16475.69
+644,2021-08-14,Spain,Cadiz v Levante,away,2.6,False,16475.69,988.54,lost,-988.54,15487.15
+645,2021-08-14,Germany,Augsburg v Hoffenheim,home,3.68,False,15487.15,929.23,lost,-929.23,14557.92
+646,2021-08-14,Germany,Wolfsburg v Bochum,home,1.55,True,14557.92,873.48,won,480.41,15038.33
+647,2021-08-15,France,Reims v Montpellier,draw,3.75,True,15038.33,902.3,won,2481.32,17519.65
+648,2021-08-16,Spain,Villarreal v Granada,home,1.59,False,17519.65,1051.18,lost,-1051.18,16468.47
+649,2021-08-21,Spain,Espanol v Villarreal,home,3.33,False,16468.47,988.11,lost,-988.11,15480.36
+650,2021-08-21,England,Liverpool v Burnley,home,1.31,True,15480.36,928.82,won,287.93,15768.29
+651,2021-08-21,Germany,Leverkusen v M'gladbach,home,2.45,True,15768.29,946.1,won,1371.85,17140.14
+652,2021-08-21,Germany,Bochum v Mainz,away,2.65,False,17140.14,1028.41,lost,-1028.41,16111.73
+653,2021-08-22,France,Rennes v Nantes,home,1.77,True,16111.73,966.7,won,744.36,16856.09
+654,2021-08-22,England,Southampton v Man United,away,1.7,False,16856.09,1011.37,lost,-1011.37,15844.72
+655,2021-08-23,Spain,Getafe v Sevilla,home,3.83,False,15844.72,950.68,lost,-950.68,14894.04
+656,2021-08-27,Germany,Dortmund v Hoffenheim,home,1.48,True,14894.04,893.64,won,428.95,15322.99
+657,2021-08-28,Italy,Juventus v Empoli,home,1.31,False,15322.99,919.38,lost,-919.38,14403.61
+658,2021-08-28,Spain,Betis v Real Madrid,away,1.99,True,14403.61,864.22,won,855.58,15259.19
+659,2021-08-28,Germany,Mainz v Greuther Furth,home,1.67,True,15259.19,915.55,won,613.42,15872.61
+660,2021-08-29,France,Troyes v Monaco,home,5.63,False,15872.61,952.36,lost,-952.36,14920.25
+661,2021-08-29,Spain,Ath Madrid v Villarreal,home,1.77,False,14920.25,895.21,lost,-895.21,14025.04
+662,2021-08-29,Spain,Vallecano v Granada,home,2.37,True,14025.04,841.5,won,1152.86,15177.9
+663,2021-08-29,Spain,Barcelona v Getafe,home,1.48,True,15177.9,910.67,won,437.12,15615.02
+664,2021-08-29,England,Tottenham v Watford,home,1.51,True,15615.02,936.9,won,477.82,16092.84
+665,2021-09-11,France,Monaco v Marseille,home,2.12,False,16092.84,965.57,lost,-965.57,15127.27
+666,2021-09-11,Germany,Greuther Furth v Wolfsburg,home,6.2,False,15127.27,907.64,lost,-907.64,14219.63
+667,2021-09-11,England,Arsenal v Norwich,home,1.5,True,14219.63,853.18,won,426.59,14646.22
+668,2021-09-11,Italy,Napoli v Juventus,home,2.65,True,14646.22,878.77,won,1449.97,16096.19
+669,2021-09-11,Italy,Empoli v Venezia,home,1.81,False,16096.19,965.77,lost,-965.77,15130.42
+670,2021-09-11,Germany,Union Berlin v Augsburg,home,1.79,False,15130.42,907.83,lost,-907.83,14222.59
+671,2021-09-12,Spain,Cadiz v Sociedad,away,1.78,True,14222.59,853.36,won,665.62,14888.21
+672,2021-09-12,England,Leeds v Liverpool,away,1.75,True,14888.21,893.29,won,669.97,15558.18
+673,2021-09-17,France,Strasbourg v Metz,home,1.99,True,15558.18,933.49,won,924.16,16482.34
+674,2021-09-18,Italy,Inter v Bologna,home,1.58,True,16482.34,988.94,won,573.59,17055.93
+675,2021-09-18,Germany,Mainz v Freiburg,home,2.11,False,17055.93,1023.36,lost,-1023.36,16032.57
+676,2021-09-18,Germany,Augsburg v M'gladbach,home,4.21,True,16032.57,961.95,won,3087.86,19120.43
+677,2021-09-18,Italy,Salernitana v Atalanta,away,1.33,True,19120.43,1147.23,won,378.59,19499.02
+678,2021-09-18,England,Burnley v Arsenal,away,2.11,True,19499.02,1169.94,won,1298.63,20797.65
+679,2021-09-18,England,Aston Villa v Everton,home,2.39,True,20797.65,1247.86,won,1734.53,22532.18
+680,2021-09-19,Spain,Betis v Espanol,home,2.0,False,22532.18,1351.93,lost,-1351.93,21180.25
+681,2021-09-19,Germany,Wolfsburg v Ein Frankfurt,home,2.04,False,21180.25,1270.82,lost,-1270.82,19909.43
+682,2021-09-19,France,Paris SG v Lyon,home,1.37,True,19909.43,1194.57,won,441.99,20351.42
+683,2021-09-19,England,Tottenham v Chelsea,home,4.82,False,20351.42,1221.09,lost,-1221.09,19130.33
+684,2021-09-20,Spain,Barcelona v Granada,home,1.36,False,19130.33,1147.82,lost,-1147.82,17982.51
+685,2021-09-21,Italy,Atalanta v Sassuolo,home,1.57,True,17982.51,1078.95,won,615.0,18597.51
+686,2021-09-21,Italy,Fiorentina v Inter,away,1.97,True,18597.51,1115.85,won,1082.37,19679.88
+687,2021-09-21,Spain,Ath Bilbao v Vallecano,home,1.9,False,19679.88,1180.79,lost,-1180.79,18499.09
+688,2021-09-21,Spain,Getafe v Ath Madrid,away,1.82,True,18499.09,1109.95,won,910.16,19409.25
+689,2021-09-22,France,Rennes v Clermont,home,2.2,True,19409.25,1164.56,won,1397.47,20806.72
+690,2021-09-22,France,Lorient v Nice,away,2.37,False,20806.72,1248.4,lost,-1248.4,19558.32
+691,2021-09-22,France,Lyon v Troyes,home,1.43,True,19558.32,1173.5,won,504.6,20062.92
+692,2021-09-22,France,Metz v Paris SG,away,1.31,True,20062.92,1203.78,won,373.17,20436.09
+693,2021-09-22,Spain,Villarreal v Elche,home,1.58,True,20436.09,1226.17,won,711.18,21147.27
+694,2021-09-22,Spain,Real Madrid v Mallorca,home,1.31,True,21147.27,1268.84,won,393.34,21540.61
+695,2021-09-22,Spain,Sevilla v Valencia,home,1.7,True,21540.61,1292.44,won,904.71,22445.32
+696,2021-09-22,Spain,Espanol v Alaves,home,1.89,True,22445.32,1346.72,won,1198.58,23643.9
+697,2021-09-22,Italy,Spezia v Juventus,away,1.51,True,23643.9,1418.63,won,723.5,24367.4
+698,2021-09-23,Italy,Sampdoria v Napoli,away,1.87,True,24367.4,1462.04,won,1271.97,25639.37
+699,2021-09-23,Italy,Roma v Udinese,home,1.67,True,25639.37,1538.36,won,1030.7,26670.07
+700,2021-09-23,Spain,Cadiz v Barcelona,away,1.59,False,26670.07,1600.2,lost,-1600.2,25069.87
+701,2021-09-25,Spain,Sevilla v Espanol,home,1.69,True,25069.87,1504.19,won,1037.89,26107.76
+702,2021-09-25,Spain,Real Madrid v Villarreal,home,1.63,False,26107.76,1566.47,lost,-1566.47,24541.29
+703,2021-09-25,Spain,Valencia v Ath Bilbao,away,3.0,False,24541.29,1472.48,lost,-1472.48,23068.81
+704,2021-09-25,Spain,Alaves v Ath Madrid,away,1.61,False,23068.81,1384.13,lost,-1384.13,21684.68
+705,2021-09-25,England,Brentford v Liverpool,away,1.56,False,21684.68,1301.08,lost,-1301.08,20383.6
+706,2021-09-25,England,Watford v Newcastle,home,2.35,False,20383.6,1223.02,lost,-1223.02,19160.58
+707,2021-09-25,Germany,M'gladbach v Dortmund,home,4.05,True,19160.58,1149.63,won,3506.37,22666.95
+708,2021-09-25,Germany,M'gladbach v Dortmund,away,2.36,False,22666.95,1360.02,lost,-1360.02,21306.93
+709,2021-09-25,France,Paris SG v Montpellier,home,1.2,True,21306.93,1278.42,won,255.68,21562.61
+710,2021-09-25,France,Lyon v Lorient,home,1.39,False,21562.61,1293.76,lost,-1293.76,20268.85
+711,2021-09-25,Germany,Hoffenheim v Wolfsburg,home,2.97,True,20268.85,1216.13,won,2395.78,22664.63
+712,2021-09-25,Italy,Inter v Atalanta,home,2.06,False,22664.63,1359.88,lost,-1359.88,21304.75
+713,2021-09-25,Italy,Inter v Atalanta,away,4.48,False,21304.75,1278.28,lost,-1278.28,20026.47
+714,2021-09-25,Italy,Genoa v Verona,home,2.9,False,20026.47,1201.59,lost,-1201.59,18824.88
+715,2021-09-26,England,Southampton v Wolves,home,2.7,False,18824.88,1129.49,lost,-1129.49,17695.39
+716,2021-09-26,Spain,Betis v Getafe,home,1.91,True,17695.39,1061.72,won,966.17,18661.56
+717,2021-09-26,Spain,Sociedad v Elche,draw,4.75,False,18661.56,1119.69,lost,-1119.69,17541.87
+718,2021-09-26,Spain,Barcelona v Levante,draw,5.5,False,17541.87,1052.51,lost,-1052.51,16489.36
+719,2021-09-26,Spain,Barcelona v Levante,away,8.75,False,16489.36,989.36,lost,-989.36,15500.0
+720,2021-09-26,Spain,Mallorca v Osasuna,home,2.9,False,15500.0,930.0,lost,-930.0,14570.0
+721,2021-09-26,Germany,Bochum v Stuttgart,home,3.63,False,14570.0,874.2,lost,-874.2,13695.8
+722,2021-09-26,Germany,Freiburg v Augsburg,home,1.97,True,13695.8,821.75,won,797.1,14492.9
+723,2021-09-26,France,Marseille v Lens,home,1.83,False,14492.9,869.57,lost,-869.57,13623.33
+724,2021-09-26,France,Clermont v Monaco,away,2.05,True,13623.33,817.4,won,858.27,14481.6
+725,2021-09-26,Italy,Juventus v Sampdoria,home,1.42,True,14481.6,868.9,won,364.94,14846.54
+726,2021-09-26,Italy,Napoli v Cagliari,home,1.3,True,14846.54,890.79,won,267.24,15113.78
+727,2021-09-26,Italy,Sassuolo v Salernitana,home,1.45,True,15113.78,906.83,won,408.07,15521.85
+728,2021-09-26,France,Bordeaux v Rennes,away,2.3,False,15521.85,931.31,lost,-931.31,14590.54
+729,2021-10-01,Germany,FC Koln v Greuther Furth,home,1.5,True,14590.54,875.43,won,437.71,15028.25
+730,2021-10-02,Spain,Ath Madrid v Barcelona,home,2.12,True,15028.25,901.69,won,1009.89,16038.14
+731,2021-10-02,Italy,Sassuolo v Inter,away,1.82,True,16038.14,962.29,won,789.08,16827.22
+732,2021-10-02,Germany,Dortmund v Augsburg,home,1.3,True,16827.22,1009.63,won,302.89,17130.11
+733,2021-10-02,France,Nice v Brest,home,1.63,True,17130.11,1027.81,won,647.52,17777.63
+734,2021-10-02,Italy,Salernitana v Genoa,home,2.98,True,17777.63,1066.66,won,2111.99,19889.62
+735,2021-10-02,England,Brighton v Arsenal,away,2.52,False,19889.62,1193.38,lost,-1193.38,18696.24
+736,2021-10-02,Germany,RB Leipzig v Bochum,home,1.24,True,18696.24,1121.77,won,269.22,18965.46
+737,2021-10-02,Germany,Wolfsburg v M'gladbach,home,2.2,False,18965.46,1137.93,lost,-1137.93,17827.53
+738,2021-10-03,Spain,Granada v Sevilla,away,1.8,False,17827.53,1069.65,lost,-1069.65,16757.88
+739,2021-10-03,Spain,Getafe v Sociedad,home,3.95,False,16757.88,1005.47,lost,-1005.47,15752.41
+740,2021-10-03,Italy,Atalanta v Milan,home,2.31,False,15752.41,945.14,lost,-945.14,14807.27
+741,2021-10-03,Germany,Bayern Munich v Ein Frankfurt,home,1.15,False,14807.27,888.44,lost,-888.44,13918.83
+742,2021-10-03,England,Liverpool v Man City,draw,3.97,True,13918.83,835.13,won,2480.34,16399.17
+743,2021-10-03,England,West Ham v Brentford,home,1.88,False,16399.17,983.95,lost,-983.95,15415.22
+744,2021-10-03,Germany,Bielefeld v Leverkusen,away,1.8,True,15415.22,924.91,won,739.93,16155.15
+745,2021-10-15,Germany,Hoffenheim v FC Koln,away,3.72,False,16155.15,969.31,lost,-969.31,15185.84
+746,2021-10-15,France,Paris SG v Angers,home,1.56,True,15185.84,911.15,won,510.24,15696.08
+747,2021-10-16,England,Aston Villa v Wolves,home,2.4,False,15696.08,941.76,lost,-941.76,14754.32
+748,2021-10-16,England,Leicester v Man United,away,2.15,False,14754.32,885.26,lost,-885.26,13869.06
+749,2021-10-16,Germany,Dortmund v Mainz,home,1.47,True,13869.06,832.14,won,391.11,14260.17
+750,2021-10-16,Germany,Union Berlin v Wolfsburg,home,2.7,True,14260.17,855.61,won,1454.54,15714.71
+751,2021-10-16,England,Southampton v Leeds,home,2.38,True,15714.71,942.88,won,1301.17,17015.88
+752,2021-10-16,Italy,Milan v Verona,home,1.69,True,17015.88,1020.95,won,704.46,17720.34
+753,2021-10-16,England,Norwich v Brighton,away,2.2,False,17720.34,1063.22,lost,-1063.22,16657.12
+754,2021-10-17,Germany,Augsburg v Bielefeld,away,4.22,False,16657.12,999.43,lost,-999.43,15657.69
+755,2021-10-17,Italy,Empoli v Atalanta,away,1.68,True,15657.69,939.46,won,638.83,16296.52
+756,2021-10-22,England,Arsenal v Aston Villa,away,4.55,False,16296.52,977.79,lost,-977.79,15318.73
+757,2021-10-22,Germany,Mainz v Augsburg,home,1.75,True,15318.73,919.12,won,689.34,16008.07
+758,2021-10-23,France,Lille v Brest,home,1.67,False,16008.07,960.48,lost,-960.48,15047.59
+759,2021-10-23,Germany,Hertha v M'gladbach,away,2.33,False,15047.59,902.86,lost,-902.86,14144.73
+760,2021-10-23,England,Brighton v Man City,away,1.57,True,14144.73,848.68,won,483.75,14628.48
+761,2021-10-23,England,Leeds v Wolves,away,3.15,False,14628.48,877.71,lost,-877.71,13750.77
+762,2021-10-23,Italy,Bologna v Milan,home,4.03,False,13750.77,825.05,lost,-825.05,12925.72
+763,2021-10-24,Germany,FC Koln v Leverkusen,home,3.7,False,12925.72,775.54,lost,-775.54,12150.18
+764,2021-10-24,Germany,Stuttgart v Union Berlin,home,2.65,False,12150.18,729.01,lost,-729.01,11421.17
+765,2021-10-24,France,Marseille v Paris SG,away,1.67,False,11421.17,685.27,lost,-685.27,10735.9
+766,2021-10-24,Spain,Barcelona v Real Madrid,home,2.64,False,10735.9,644.15,lost,-644.15,10091.75
+767,2021-10-24,Italy,Inter v Juventus,draw,3.9,True,10091.75,605.5,won,1755.95,11847.7
+768,2021-10-24,England,Man United v Liverpool,away,2.55,True,11847.7,710.86,won,1101.83,12949.53
+769,2021-10-24,England,West Ham v Tottenham,home,2.4,True,12949.53,776.97,won,1087.76,14037.29
+770,2021-10-25,Spain,Getafe v Celta,draw,3.26,False,14037.29,842.24,lost,-842.24,13195.05
+771,2021-10-26,Spain,Villarreal v Cadiz,home,1.42,False,13195.05,791.7,lost,-791.7,12403.35
+772,2021-10-26,Italy,Milan v Torino,home,1.82,True,12403.35,744.2,won,610.24,13013.59
+773,2021-10-27,Spain,Real Madrid v Osasuna,home,1.43,False,13013.59,780.82,lost,-780.82,12232.77
+774,2021-10-27,Spain,Vallecano v Barcelona,away,2.03,False,12232.77,733.97,lost,-733.97,11498.8
+775,2021-10-27,France,Nice v Marseille,home,3.29,False,11498.8,689.93,lost,-689.93,10808.87
+776,2021-10-27,Italy,Juventus v Sassuolo,home,1.63,False,10808.87,648.53,lost,-648.53,10160.34
+777,2021-10-27,Italy,Cagliari v Roma,away,1.65,True,10160.34,609.62,won,396.25,10556.59
+778,2021-10-27,Italy,Empoli v Inter,away,1.59,True,10556.59,633.4,won,373.71,10930.3
+779,2021-10-27,Italy,Lazio v Fiorentina,home,1.95,True,10930.3,655.82,won,623.03,11553.33
+780,2021-10-28,Italy,Napoli v Bologna,home,1.4,True,11553.33,693.2,won,277.28,11830.61
+781,2021-10-28,Spain,Levante v Ath Madrid,away,1.67,False,11830.61,709.84,lost,-709.84,11120.77
+782,2021-10-29,Germany,Hoffenheim v Hertha,away,5.2,False,11120.77,667.25,lost,-667.25,10453.52
+783,2021-10-30,England,Watford v Southampton,home,3.62,False,10453.52,627.21,lost,-627.21,9826.31
+784,2021-10-31,England,Aston Villa v West Ham,home,3.22,False,9826.31,589.58,lost,-589.58,9236.73
+785,2021-10-31,Spain,Ath Madrid v Betis,home,1.57,True,9236.73,554.2,won,315.89,9552.62
+786,2021-11-05,England,Southampton v Aston Villa,away,4.0,False,9552.62,573.16,lost,-573.16,8979.46
+787,2021-11-06,Italy,Spezia v Torino,home,3.9,True,8979.46,538.77,won,1562.43,10541.89
+788,2021-11-06,Germany,Bochum v Hoffenheim,away,2.05,False,10541.89,632.51,lost,-632.51,9909.38
+789,2021-11-06,Italy,Cagliari v Atalanta,draw,5.35,False,9909.38,594.56,lost,-594.56,9314.82
+790,2021-11-06,Germany,RB Leipzig v Dortmund,home,2.0,True,9314.82,558.89,won,558.89,9873.71
+791,2021-11-06,Spain,Espanol v Granada,draw,3.97,False,9873.71,592.42,lost,-592.42,9281.29
+792,2021-11-07,Italy,Milan v Inter,draw,3.95,True,9281.29,556.88,won,1642.8,10924.09
+793,2021-11-07,Italy,Sampdoria v Bologna,draw,3.62,False,10924.09,655.45,lost,-655.45,10268.64
+794,2021-11-19,Spain,Levante v Ath Bilbao,home,4.18,False,10268.64,616.12,lost,-616.12,9652.52
+795,2021-11-20,Germany,Union Berlin v Hertha,home,2.15,True,9652.52,579.15,won,666.02,10318.54
+796,2021-11-20,Germany,Union Berlin v Hertha,draw,3.87,False,10318.54,619.11,lost,-619.11,9699.43
+797,2021-11-20,Germany,M'gladbach v Greuther Furth,home,1.33,True,9699.43,581.97,won,192.05,9891.48
+798,2021-11-20,Spain,Celta v Villarreal,home,2.7,False,9891.48,593.49,lost,-593.49,9297.99
+799,2021-11-20,England,Newcastle v Brentford,home,2.7,False,9297.99,557.88,lost,-557.88,8740.11
+800,2021-11-20,Italy,Fiorentina v Milan,away,2.63,False,8740.11,524.41,lost,-524.41,8215.7
+801,2021-11-21,Italy,Inter v Napoli,draw,3.89,False,8215.7,492.94,lost,-492.94,7722.76
+802,2021-11-21,Germany,Freiburg v Ein Frankfurt,home,2.01,False,7722.76,463.37,lost,-463.37,7259.39
+803,2021-11-21,France,Brest v Lens,away,2.36,False,7259.39,435.56,lost,-435.56,6823.83
+804,2021-11-21,Germany,Mainz v FC Koln,home,2.28,False,6823.83,409.43,lost,-409.43,6414.4
+805,2021-11-27,Italy,Empoli v Fiorentina,away,2.1,False,6414.4,384.86,lost,-384.86,6029.54
+806,2021-11-27,England,Liverpool v Southampton,home,1.3,True,6029.54,361.77,won,108.53,6138.07
+807,2021-11-27,Germany,Wolfsburg v Dortmund,home,3.1,False,6138.07,368.28,lost,-368.28,5769.79
+808,2021-11-27,Germany,Bayern Munich v Bielefeld,home,1.12,True,5769.79,346.19,won,41.54,5811.33
+809,2021-11-28,Spain,Betis v Levante,home,1.79,True,5811.33,348.68,won,275.46,6086.79
+810,2021-11-28,Germany,RB Leipzig v Leverkusen,away,4.1,True,6086.79,365.21,won,1132.15,7218.94
+811,2021-12-01,England,Wolves v Burnley,home,2.05,False,7218.94,433.14,lost,-433.14,6785.8
+812,2021-12-01,England,Watford v Chelsea,away,1.39,True,6785.8,407.15,won,158.79,6944.59
+813,2021-12-01,Italy,Bologna v Roma,draw,3.71,False,6944.59,416.68,lost,-416.68,6527.91
+814,2021-12-01,Italy,Genoa v Milan,away,1.63,True,6527.91,391.67,won,246.75,6774.66
+815,2021-12-04,Italy,Roma v Inter,away,2.05,True,6774.66,406.48,won,426.8,7201.46
+816,2021-12-04,Italy,Napoli v Atalanta,away,2.82,True,7201.46,432.09,won,786.4,7987.86
+817,2021-12-04,Italy,Milan v Salernitana,home,1.3,True,7987.86,479.27,won,143.78,8131.64
+818,2021-12-04,France,Marseille v Brest,away,6.43,True,8131.64,487.9,won,2649.3,10780.94
+819,2021-12-04,England,Southampton v Brighton,away,3.35,False,10780.94,646.86,lost,-646.86,10134.08
+820,2021-12-04,England,Wolves v Liverpool,away,1.44,True,10134.08,608.04,won,267.54,10401.62
+821,2021-12-04,Germany,Bielefeld v FC Koln,home,3.58,False,10401.62,624.1,lost,-624.1,9777.52
+822,2021-12-04,Germany,Dortmund v Bayern Munich,home,4.08,False,9777.52,586.65,lost,-586.65,9190.87
+823,2021-12-05,England,Aston Villa v Leicester,away,3.51,False,9190.87,551.45,lost,-551.45,8639.42
+824,2021-12-05,Spain,Celta v Valencia,home,2.02,False,8639.42,518.37,lost,-518.37,8121.05
+825,2021-12-05,Spain,Vallecano v Espanol,home,2.19,True,8121.05,487.26,won,579.84,8700.89
+826,2021-12-06,England,Everton v Arsenal,home,3.95,True,8700.89,522.05,won,1540.05,10240.94
+827,2021-12-06,Italy,Empoli v Udinese,home,2.51,True,10240.94,614.46,won,927.83,11168.77
+828,2021-12-10,England,Brentford v Watford,away,3.21,False,11168.77,670.13,lost,-670.13,10498.64
+829,2021-12-11,England,Man City v Wolves,home,1.2,True,10498.64,629.92,won,125.98,10624.62
+830,2021-12-11,England,Chelsea v Leeds,home,1.3,True,10624.62,637.48,won,191.24,10815.86
+831,2021-12-11,Italy,Fiorentina v Salernitana,home,1.31,True,10815.86,648.95,won,201.17,11017.03
+832,2021-12-11,France,Reims v St Etienne,draw,3.44,False,11017.03,661.02,lost,-661.02,10356.01
+833,2021-12-11,Spain,Espanol v Levante,home,2.12,True,10356.01,621.36,won,695.92,11051.93
+834,2021-12-12,Italy,Torino v Bologna,away,3.92,False,11051.93,663.12,lost,-663.12,10388.81
+835,2021-12-12,England,Leicester v Newcastle,home,1.79,True,10388.81,623.33,won,492.43,10881.24
+836,2021-12-12,Italy,Sassuolo v Lazio,home,2.48,True,10881.24,652.87,won,966.25,11847.49
+837,2021-12-12,France,Metz v Lorient,home,2.61,True,11847.49,710.85,won,1144.47,12991.96
+838,2021-12-14,Germany,Wolfsburg v FC Koln,away,3.63,True,12991.96,779.52,won,2050.14,15042.1
+839,2021-12-14,England,Man City v Leeds,home,1.18,True,15042.1,902.53,won,162.46,15204.56
+840,2021-12-15,Germany,M'gladbach v Ein Frankfurt,home,2.19,False,15204.56,912.27,lost,-912.27,14292.29
+841,2021-12-15,Germany,Augsburg v RB Leipzig,away,1.53,False,14292.29,857.54,lost,-857.54,13434.75
+842,2021-12-15,Germany,Leverkusen v Hoffenheim,draw,4.35,True,13434.75,806.08,won,2700.37,16135.12
+843,2021-12-15,Germany,Leverkusen v Hoffenheim,away,4.05,False,16135.12,968.11,lost,-968.11,15167.01
+844,2021-12-15,England,Crystal Palace v Southampton,home,2.27,False,15167.01,910.02,lost,-910.02,14256.99
+845,2021-12-15,England,Brighton v Wolves,home,2.38,False,14256.99,855.42,lost,-855.42,13401.57
+846,2021-12-15,England,Arsenal v West Ham,away,3.78,False,13401.57,804.09,lost,-804.09,12597.48
+847,2021-12-16,England,Liverpool v Newcastle,home,1.15,True,12597.48,755.85,won,113.38,12710.86
+848,2021-12-17,Germany,Bayern Munich v Wolfsburg,home,1.25,True,12710.86,762.65,won,190.66,12901.52
+849,2021-12-17,Italy,Lazio v Genoa,draw,4.33,False,12901.52,774.09,lost,-774.09,12127.43
+850,2021-12-18,Germany,Bochum v Union Berlin,draw,3.84,False,12127.43,727.65,lost,-727.65,11399.78
+851,2021-12-18,Germany,Ein Frankfurt v Mainz,away,3.18,False,11399.78,683.99,lost,-683.99,10715.79
+852,2021-12-19,England,Wolves v Chelsea,away,1.88,False,10715.79,642.95,lost,-642.95,10072.84
+853,2021-12-19,Germany,Freiburg v Leverkusen,away,2.79,False,10072.84,604.37,lost,-604.37,9468.47
+854,2021-12-19,England,Tottenham v Liverpool,away,1.74,False,9468.47,568.11,lost,-568.11,8900.36
+855,2021-12-19,Spain,Ath Bilbao v Betis,away,3.8,False,8900.36,534.02,lost,-534.02,8366.34
+856,2021-12-21,Spain,Sevilla v Barcelona,away,3.75,False,8366.34,501.98,lost,-501.98,7864.36
+857,2021-12-22,Spain,Granada v Ath Madrid,away,1.7,False,7864.36,471.86,lost,-471.86,7392.5
+858,2021-12-22,Italy,Sassuolo v Bologna,away,3.85,True,7392.5,443.55,won,1264.12,8656.62
+859,2021-12-22,Italy,Venezia v Lazio,home,4.46,False,8656.62,519.4,lost,-519.4,8137.22
+860,2021-12-22,Italy,Venezia v Lazio,draw,3.58,False,8137.22,488.23,lost,-488.23,7648.99
+861,2021-12-22,Italy,Inter v Torino,home,1.33,True,7648.99,458.94,won,151.45,7800.44
+862,2021-12-22,Italy,Napoli v Spezia,home,1.32,False,7800.44,468.03,lost,-468.03,7332.41
+863,2021-12-22,France,St Etienne v Nantes,home,2.65,False,7332.41,439.94,lost,-439.94,6892.47
+864,2021-12-22,France,Marseille v Reims,home,1.61,False,6892.47,413.55,lost,-413.55,6478.92
+865,2021-12-22,France,Lyon v Metz,home,1.42,False,6478.92,388.74,lost,-388.74,6090.18
+866,2021-12-26,England,Man City v Leicester,home,1.17,True,6090.18,365.41,won,62.12,6152.3
+867,2022-01-02,Spain,Alaves v Sociedad,away,2.01,False,6152.3,369.14,lost,-369.14,5783.16
+868,2022-01-02,Spain,Elche v Granada,away,3.36,False,5783.16,346.99,lost,-346.99,5436.17
+869,2022-01-02,England,Everton v Brighton,away,2.98,True,5436.17,326.17,won,645.82,6081.99
+870,2022-01-02,England,Leeds v Burnley,draw,3.92,False,6081.99,364.92,lost,-364.92,5717.07
+871,2022-01-06,Italy,Spezia v Verona,away,2.3,True,5717.07,343.02,won,445.93,6163.0
+872,2022-01-06,Italy,Lazio v Empoli,home,1.66,False,6163.0,369.78,lost,-369.78,5793.22
+873,2022-01-07,Germany,Bayern Munich v M'gladbach,home,1.45,False,5793.22,347.59,lost,-347.59,5445.63
+874,2022-01-08,Germany,Ein Frankfurt v Dortmund,away,1.93,True,5445.63,326.74,won,303.87,5749.5
+875,2022-01-08,Spain,Levante v Mallorca,draw,3.63,False,5749.5,344.97,lost,-344.97,5404.53
+876,2022-01-08,Spain,Granada v Barcelona,home,5.57,False,5404.53,324.27,lost,-324.27,5080.26
+877,2022-01-09,Spain,Sevilla v Getafe,home,1.64,True,5080.26,304.82,won,195.08,5275.34
+878,2022-01-09,Spain,Vallecano v Betis,away,2.75,False,5275.34,316.52,lost,-316.52,4958.82
+879,2022-01-09,Germany,Bochum v Wolfsburg,away,2.38,False,4958.82,297.53,lost,-297.53,4661.29
+880,2022-01-14,Germany,Dortmund v Freiburg,home,1.55,True,4661.29,279.68,won,153.82,4815.11
+881,2022-01-15,Italy,Sampdoria v Torino,away,2.39,True,4815.11,288.91,won,401.58,5216.69
+882,2022-01-15,England,Aston Villa v Man United,home,2.95,False,5216.69,313.0,lost,-313.0,4903.69
+883,2022-01-15,England,Newcastle v Watford,home,2.03,False,4903.69,294.22,lost,-294.22,4609.47
+884,2022-01-15,France,Paris SG v Brest,home,1.31,True,4609.47,276.57,won,85.74,4695.21
+885,2022-01-16,Spain,Elche v Villarreal,away,1.76,False,4695.21,281.71,lost,-281.71,4413.5
+886,2022-01-16,Germany,Augsburg v Ein Frankfurt,away,2.65,False,4413.5,264.81,lost,-264.81,4148.69
+887,2022-01-16,France,Lorient v Angers,home,2.38,False,4148.69,248.92,lost,-248.92,3899.77
+888,2022-01-18,Spain,Cadiz v Espanol,home,3.45,False,3899.77,233.99,lost,-233.99,3665.78
+889,2022-01-18,England,Brighton v Chelsea,away,1.84,False,3665.78,219.95,lost,-219.95,3445.83
+890,2022-01-19,England,Brentford v Man United,away,1.87,True,3445.83,206.75,won,179.87,3625.7
+891,2022-01-19,Spain,Valencia v Sevilla,draw,3.46,True,3625.7,217.54,won,535.15,4160.85
+892,2022-01-19,Spain,Celta v Osasuna,draw,4.07,False,4160.85,249.65,lost,-249.65,3911.2
+893,2022-01-21,Spain,Espanol v Betis,home,3.43,False,3911.2,234.67,lost,-234.67,3676.53
+894,2022-01-22,Germany,Hoffenheim v Dortmund,away,2.1,True,3676.53,220.59,won,242.65,3919.18
+895,2022-01-22,England,Everton v Aston Villa,home,3.02,False,3919.18,235.15,lost,-235.15,3684.03
+896,2022-01-22,England,Leeds v Newcastle,home,2.0,False,3684.03,221.04,lost,-221.04,3462.99
+897,2022-01-22,England,Brentford v Wolves,draw,3.43,False,3462.99,207.78,lost,-207.78,3255.21
+898,2022-01-22,Italy,Lazio v Atalanta,home,2.5,False,3255.21,195.31,lost,-195.31,3059.9
+899,2022-01-22,Italy,Lazio v Atalanta,draw,3.92,True,3059.9,183.59,won,536.08,3595.98
+900,2022-01-23,England,Crystal Palace v Liverpool,away,1.72,True,3595.98,215.76,won,155.35,3751.33
+901,2022-01-23,England,Leicester v Brighton,away,3.08,False,3751.33,225.08,lost,-225.08,3526.25
+902,2022-01-23,Spain,Real Madrid v Elche,home,1.21,False,3526.25,211.57,lost,-211.57,3314.68
+903,2022-02-04,Germany,Hertha v Bochum,away,3.62,False,3314.68,198.88,lost,-198.88,3115.8
+904,2022-02-04,France,Marseille v Angers,home,1.57,True,3115.8,186.95,won,106.56,3222.36
+905,2022-02-05,Italy,Inter v Milan,home,2.04,False,3222.36,193.34,lost,-193.34,3029.02
+906,2022-02-05,Italy,Roma v Genoa,home,1.43,False,3029.02,181.74,lost,-181.74,2847.28
+907,2022-02-05,Spain,Mallorca v Cadiz,draw,3.75,False,2847.28,170.84,lost,-170.84,2676.44
+908,2022-02-06,Italy,Atalanta v Cagliari,home,1.27,False,2676.44,160.59,lost,-160.59,2515.85
+909,2022-02-06,France,Reims v Bordeaux,home,2.1,True,2515.85,150.95,won,166.04,2681.89
+910,2022-02-06,France,Lille v Paris SG,away,1.83,True,2681.89,160.91,won,133.56,2815.45
+911,2022-02-06,Spain,Betis v Villarreal,draw,3.84,False,2815.45,168.93,lost,-168.93,2646.52
+912,2022-02-06,Spain,Barcelona v Ath Madrid,draw,3.55,False,2646.52,158.79,lost,-158.79,2487.73
+913,2022-02-06,Italy,Udinese v Torino,away,2.65,False,2487.73,149.26,lost,-149.26,2338.47
+914,2022-02-06,Italy,Juventus v Verona,home,1.69,True,2338.47,140.31,won,96.81,2435.28
+915,2022-02-07,Spain,Ath Bilbao v Espanol,home,1.73,True,2435.28,146.12,won,106.67,2541.95
+916,2022-02-08,England,Burnley v Man United,away,1.67,False,2541.95,152.52,lost,-152.52,2389.43
+917,2022-02-09,England,Norwich v Crystal Palace,home,3.92,False,2389.43,143.37,lost,-143.37,2246.06
+918,2022-02-09,England,Tottenham v Southampton,home,1.67,False,2246.06,134.76,lost,-134.76,2111.3
+919,2022-02-10,England,Liverpool v Leicester,home,1.27,True,2111.3,126.68,won,34.2,2145.5
+920,2022-02-10,England,Wolves v Arsenal,away,2.41,True,2145.5,128.73,won,181.51,2327.01
+921,2022-02-11,France,Paris SG v Rennes,home,1.7,True,2327.01,139.62,won,97.73,2424.74
+922,2022-02-11,Spain,Sevilla v Elche,home,1.48,True,2424.74,145.48,won,69.83,2494.57
+923,2022-02-12,England,Man United v Southampton,home,1.65,False,2494.57,149.67,lost,-149.67,2344.9
+924,2022-02-12,England,Brentford v Crystal Palace,away,3.0,False,2344.9,140.69,lost,-140.69,2204.21
+925,2022-02-12,England,Everton v Leeds,away,3.0,False,2204.21,132.25,lost,-132.25,2071.96
+926,2022-02-12,Spain,Vallecano v Osasuna,home,2.4,False,2071.96,124.32,lost,-124.32,1947.64
+927,2022-02-12,Spain,Villarreal v Real Madrid,home,3.01,False,1947.64,116.86,lost,-116.86,1830.78
+928,2022-02-12,England,Watford v Brighton,away,2.27,True,1830.78,109.85,won,139.51,1970.29
+929,2022-02-12,Italy,Napoli v Inter,draw,3.79,True,1970.29,118.22,won,329.83,2300.12
+930,2022-02-12,Germany,Ein Frankfurt v Wolfsburg,home,2.26,False,2300.12,138.01,lost,-138.01,2162.11
+931,2022-02-12,Germany,Leverkusen v Stuttgart,home,1.56,True,2162.11,129.73,won,72.65,2234.76
+932,2022-02-12,Germany,M'gladbach v Augsburg,home,1.63,True,2234.76,134.09,won,84.48,2319.24
+933,2022-02-12,Germany,Greuther Furth v Hertha,home,2.99,True,2319.24,139.15,won,276.91,2596.15
+934,2022-02-13,Germany,Hoffenheim v Bielefeld,home,1.61,True,2596.15,155.77,won,95.02,2691.17
+935,2022-02-13,France,Lens v Bordeaux,home,1.63,True,2691.17,161.47,won,101.73,2792.9
+936,2022-02-13,England,Leicester v West Ham,away,2.6,False,2792.9,167.57,lost,-167.57,2625.33
+937,2022-02-13,Spain,Espanol v Barcelona,away,1.76,False,2625.33,157.52,lost,-157.52,2467.81
+938,2022-02-13,England,Burnley v Liverpool,away,1.27,True,2467.81,148.07,won,39.98,2507.79
+939,2022-02-14,Spain,Mallorca v Ath Bilbao,home,3.47,True,2507.79,150.47,won,371.66,2879.45
+940,2022-02-15,England,Man United v Brighton,home,1.97,True,2879.45,172.77,won,167.59,3047.04
+941,2022-02-16,Spain,Ath Madrid v Levante,home,1.37,False,3047.04,182.82,lost,-182.82,2864.22
+942,2022-02-18,France,Lille v Metz,home,1.69,False,2864.22,171.85,lost,-171.85,2692.37
+943,2022-02-19,Spain,Real Madrid v Alaves,home,1.31,True,2692.37,161.54,won,50.08,2742.45
+944,2022-02-19,England,Aston Villa v Watford,home,1.7,False,2742.45,164.55,lost,-164.55,2577.9
+945,2022-02-19,England,Arsenal v Brentford,home,1.61,True,2577.9,154.67,won,94.35,2672.25
+946,2022-02-19,France,Nantes v Paris SG,away,1.48,False,2672.25,160.34,lost,-160.34,2511.91
+947,2022-02-19,Germany,Wolfsburg v Hoffenheim,away,2.54,True,2511.91,150.71,won,232.09,2744.0
+948,2022-02-19,Italy,Salernitana v Milan,away,1.43,False,2744.0,164.64,lost,-164.64,2579.36
+949,2022-02-19,England,Brighton v Burnley,draw,3.97,False,2579.36,154.76,lost,-154.76,2424.6
+950,2022-02-19,England,Crystal Palace v Chelsea,away,1.78,True,2424.6,145.48,won,113.47,2538.07
+951,2022-02-19,England,West Ham v Newcastle,home,1.71,False,2538.07,152.28,lost,-152.28,2385.79
+952,2022-02-19,England,Man City v Tottenham,home,1.38,False,2385.79,143.15,lost,-143.15,2242.64
+953,2022-02-19,England,Southampton v Everton,home,2.17,True,2242.64,134.56,won,157.44,2400.08
+954,2022-02-20,Spain,Betis v Mallorca,home,1.67,True,2400.08,144.0,won,96.48,2496.56
+955,2022-02-20,Spain,Valencia v Barcelona,home,3.95,False,2496.56,149.79,lost,-149.79,2346.77
+956,2022-02-20,Spain,Ath Bilbao v Sociedad,home,2.46,True,2346.77,140.81,won,205.58,2552.35
+957,2022-02-20,France,Marseille v Clermont,home,1.57,False,2552.35,153.14,lost,-153.14,2399.21
+958,2022-02-20,England,Leeds v Man United,away,1.8,True,2399.21,143.95,won,115.16,2514.37
+959,2022-02-20,England,Wolves v Leicester,home,2.35,True,2514.37,150.86,won,203.66,2718.03
+960,2022-02-20,Italy,Fiorentina v Atalanta,home,2.84,True,2718.03,163.08,won,300.07,3018.1
+961,2022-02-20,France,Bordeaux v Monaco,away,1.8,False,3018.1,181.09,lost,-181.09,2837.01
+962,2022-02-20,Italy,Udinese v Lazio,draw,3.57,True,2837.01,170.22,won,437.47,3274.48
+963,2022-02-20,Italy,Udinese v Lazio,away,2.9,False,3274.48,196.47,lost,-196.47,3078.01
+964,2022-02-23,England,Burnley v Tottenham,away,2.05,False,3078.01,184.68,lost,-184.68,2893.33
+965,2022-02-23,England,Liverpool v Leeds,home,1.22,True,2893.33,173.6,won,38.19,2931.52
+966,2022-02-25,France,Montpellier v Rennes,away,1.88,True,2931.52,175.89,won,154.78,3086.3
+967,2022-02-25,England,Southampton v Norwich,home,1.61,True,3086.3,185.18,won,112.96,3199.26
+968,2022-02-25,Italy,Genoa v Inter,away,1.48,False,3199.26,191.96,lost,-191.96,3007.3
+969,2022-02-25,Italy,Milan v Udinese,home,1.63,False,3007.3,180.44,lost,-180.44,2826.86
+970,2022-02-26,Germany,Ein Frankfurt v Bayern Munich,away,1.61,True,2826.86,169.61,won,103.46,2930.32
+971,2022-02-26,Spain,Vallecano v Real Madrid,away,1.71,True,2930.32,175.82,won,124.83,3055.15
+972,2022-02-26,England,Brentford v Newcastle,home,2.57,False,3055.15,183.31,lost,-183.31,2871.84
+973,2022-02-26,England,Everton v Man City,away,1.45,True,2871.84,172.31,won,77.54,2949.38
+974,2022-02-26,Germany,Freiburg v Hertha,home,1.5,True,2949.38,176.96,won,88.48,3037.86
+975,2022-02-26,Italy,Empoli v Juventus,away,1.88,True,3037.86,182.27,won,160.4,3198.26
+976,2022-02-27,Spain,Sociedad v Osasuna,away,5.0,False,3198.26,191.9,lost,-191.9,3006.36
+977,2022-02-27,Italy,Torino v Cagliari,draw,4.13,False,3006.36,180.38,lost,-180.38,2825.98
+978,2022-02-27,France,Lyon v Lille,home,1.88,False,2825.98,169.56,lost,-169.56,2656.42
+979,2022-02-27,Italy,Spezia v Roma,away,1.92,True,2656.42,159.39,won,146.64,2803.06
+980,2022-02-27,Spain,Barcelona v Ath Bilbao,home,1.67,True,2803.06,168.18,won,112.68,2915.74
+981,2022-02-27,Italy,Verona v Venezia,away,6.24,False,2915.74,174.94,lost,-174.94,2740.8
+982,2022-02-28,Italy,Atalanta v Sampdoria,home,1.48,True,2740.8,164.45,won,78.94,2819.74
+983,2022-03-04,France,Lorient v Lyon,away,1.92,True,2819.74,169.18,won,155.65,2975.39
+984,2022-03-04,Italy,Inter v Salernitana,home,1.2,True,2975.39,178.52,won,35.7,3011.09
+985,2022-03-04,Germany,Bielefeld v Augsburg,home,2.65,False,3011.09,180.67,lost,-180.67,2830.42
+986,2022-03-05,England,Leicester v Leeds,away,3.92,False,2830.42,169.83,lost,-169.83,2660.59
+987,2022-03-05,France,Lens v Brest,home,1.87,False,2660.59,159.64,lost,-159.64,2500.95
+988,2022-03-05,Spain,Valencia v Granada,home,1.98,True,2500.95,150.06,won,147.06,2648.01
+989,2022-03-05,Germany,Bayern Munich v Leverkusen,home,1.45,False,2648.01,158.88,lost,-158.88,2489.13
+990,2022-03-05,England,Liverpool v West Ham,home,1.42,True,2489.13,149.35,won,62.73,2551.86
+991,2022-03-06,Italy,Napoli v Milan,draw,3.6,False,2551.86,153.11,lost,-153.11,2398.75
+992,2022-03-06,Spain,Cadiz v Vallecano,draw,3.37,False,2398.75,143.92,lost,-143.92,2254.83
+993,2022-03-06,Spain,Elche v Barcelona,away,1.48,True,2254.83,135.29,won,64.94,2319.77
+994,2022-03-06,France,Lille v Clermont,home,1.82,True,2319.77,139.19,won,114.14,2433.91
+995,2022-03-06,Italy,Venezia v Sassuolo,away,2.2,True,2433.91,146.03,won,175.24,2609.15
+996,2022-03-06,France,Marseille v Monaco,away,3.25,True,2609.15,156.55,won,352.24,2961.39
+997,2022-03-06,England,Man City v Man United,home,1.57,True,2961.39,177.68,won,101.28,3062.67
+998,2022-03-07,Spain,Ath Bilbao v Levante,home,1.67,True,3062.67,183.76,won,123.12,3185.79
+999,2022-03-10,England,Southampton v Newcastle,home,2.08,False,3185.79,191.15,lost,-191.15,2994.64
+1000,2022-03-10,England,Norwich v Chelsea,away,1.42,True,2994.64,179.68,won,75.47,3070.11

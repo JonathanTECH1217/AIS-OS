@@ -1,0 +1,43 @@
+{
+  "name": "editorial",
+  "label": "Editorial",
+  "pages": ["/website-build/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q16 to Q21; Jonathan: the editorial style on a white ground so the rounded portfolio cards contrast",
+  "palette": {
+    "ground": "#FFFFFF",
+    "ink": "#111111",
+    "muted": "#6B6B6B",
+    "hairline": "#E6E6E6",
+    "card": "#F4F4F2",
+    "button": "#111111",
+    "button_text": "#FFFFFF",
+    "fit_yes": "#15803D",
+    "fit_no": "#B91C1C",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#111111", "bg": "#FFFFFF", "ratio": 18.88, "passes": "AA", "use": "body"},
+    {"fg": "#6B6B6B", "bg": "#FFFFFF", "ratio": 5.33, "passes": "AA", "use": "muted"},
+    {"fg": "#111111", "bg": "#F4F4F2", "ratio": 17.15, "passes": "AA", "use": "body on a card"},
+    {"fg": "#FFFFFF", "bg": "#111111", "ratio": 18.88, "passes": "AA", "use": "button text"},
+    {"fg": "#15803D", "bg": "#FFFFFF", "ratio": 5.02, "passes": "AA", "use": "fit yes"},
+    {"fg": "#B91C1C", "bg": "#FFFFFF", "ratio": 6.47, "passes": "AA", "use": "fit no"}
+  ],
+  "faces": {"heading": "Fraunces", "heading_alternate": "Instrument Serif", "body": "Inter", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter:wght@400;500&display=swap",
+  "weights": [400, 500],
+  "labels": {"hero": "Book the page plan", "final": "Book your fifteen minutes"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "serif-numerals", "radius": "20px", "border": "none", "ground": "#F4F4F2", "shadow": "none", "portfolio": "browser frames (three dots in the top bar) at 16:10"},
+  "shadows": "none",
+  "section_label": "a serif italic numeral plus a short tracked caps label",
+  "hero": "split: text left, the render right; stacked on phones",
+  "hero_render": "A shopfront at dusk, lights on, door open, a sign with no words. 3D cartoonish in ink, white, and warm greys.",
+  "card_renders": null,
+  "notes": [
+    "No accent: the only color on the page is the fit block.",
+    "Proof slot: the portfolio of the other five service pages in browser frames, rounded cards on white; labeled placeholders until each sibling ships.",
+    "The h1 sits at 64px/1.02 at 1024 and up."
+  ]
+}

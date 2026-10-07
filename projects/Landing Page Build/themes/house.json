@@ -1,0 +1,41 @@
+{
+  "name": "house",
+  "label": "Monarc house",
+  "pages": ["/", "/av_marketing/", "/about/", "/book/", "/privacy/"],
+  "source": "Style Guide sections 1 to 7; Jonathan's five colors of 2026-09-12 plus the Paper and White placeholders",
+  "palette": {
+    "ground": "#F6F3EF",
+    "band": "#C2B3A9",
+    "ink": "#2F334D",
+    "body": "#4B4C5C",
+    "muted": "#6E6E78",
+    "button": "#61534E",
+    "button_text": "#FFFFFF",
+    "white": "#FFFFFF",
+    "fit_yes": null,
+    "fit_no": null
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#4B4C5C", "bg": "#F6F3EF", "ratio": 7.63, "passes": "AA", "use": "body on Paper"},
+    {"fg": "#2F334D", "bg": "#C2B3A9", "ratio": 6.06, "passes": "AA", "use": "ink on Sand (body on a Sand band is set in Charcoal Blue)"},
+    {"fg": "#FFFFFF", "bg": "#61534E", "ratio": 7.35, "passes": "AA", "use": "button text"},
+    {"fg": "#6E6E78", "bg": "#F6F3EF", "ratio": 4.56, "passes": "AA", "use": "label on Paper"},
+    {"fg": "#4B4C5C", "bg": "#C2B3A9", "ratio": 4.15, "passes": "AA-large", "use": "body on Sand: not used for body text (Color 3)"}
+  ],
+  "faces": {"heading": "Cormorant Garamond", "body": "Inter", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:ital,wght@0,400;1,400&display=swap",
+  "weights": [400],
+  "labels": {"hero": "Book an appointment", "final": "Book an appointment", "legacy": "Book a 15 minute call"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "line-icon", "radius": "0", "border": "none", "ground": "#FFFFFF", "shadow": "none"},
+  "shadows": "none",
+  "section_label": "sans 13px, tracked 0.12em, Stone, a 40px hairline each side",
+  "hero": "stacked and centered: headline, sub, visual, button (Layout 2)",
+  "hero_render": null,
+  "card_renders": null,
+  "notes": [
+    "The theme the homepage and /av_marketing/ already follow; nothing here changes those pages.",
+    "The legacy label is allowed on the homepage only until Jonathan relabels it (decision 2026-09-23)."
+  ]
+}

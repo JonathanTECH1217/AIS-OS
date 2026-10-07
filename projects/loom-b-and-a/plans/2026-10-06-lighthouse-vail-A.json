@@ -1,0 +1,226 @@
+{
+ "out": "media/loom-ba/2026-10-06/lighthouse-vail/lighthouse-vail-loom-ba.mp4",
+ "states_dir": "media/looms/lighthouse-vail-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "lighthouse-lights.com",
+ "url": "https://lighthouse-lights.com/services/",
+ "render": "projects/Landing Page Build/prospects/lighthouse-vail/index.html",
+ "folder": "media/looms/0257f9ee-improving-service-page-conversions-with-trust",
+ "why": "The Lighthouse Outdoor Lighting of Vail audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-lighthouse-vail.md: the hero changes made on their live services page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "246:246:31:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.3,
+ "end_at": 272.8,
+ "pause": 0.5,
+ "cuts": [
+  [
+   11.8,
+   27.5,
+   "claims not on file (better than anybody, thousands of times, renown in the industry); cut when unsure, rule 1"
+  ],
+  [
+   27.5,
+   37.6,
+   "a false start (one thing I want to get into is, you guys, very good work); the point lands in the next line"
+  ],
+  [
+   66.1,
+   72.85,
+   "a garbled restart of the point just made (as the landing page, just landing on services here, per offering)"
+  ],
+  [
+   88.95,
+   96.4,
+   "the same choice said a second way (residential or B2B targeting in that eyebrow)"
+  ],
+  [
+   101.9,
+   108.8,
+   "the copy point said again; 'what Lighting Control does' is not their service, they sell landscape lighting"
+  ],
+  [
+   157.9,
+   162.15,
+   "a line that trails off (the uh, the specific offering, then)"
+  ],
+  [
+   187.0,
+   192.9,
+   "a line that restarts and trails (shine your, your stars align right here with the prospect)"
+  ],
+  [
+   222.55,
+   224.6,
+   "does no work (not gonna get super technical on that)"
+  ],
+  [
+   229.6,
+   237.7,
+   "integrator items this company does not sell (whole home audio, distributed audio, media distribution, home theater); the render's cards are outdoor audio, Legacy Care, and holiday lighting"
+  ],
+  [
+   261.4,
+   271.85,
+   "the sign-off (thank you for tuning in, a lot more stuff in this playbook); the ask ends on 'give me a call'"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "loader,": "owner,",
+  "loader": "builder,",
+  "inX": "in X"
+ },
+ "changes": [
+  {
+   "at": 73.73,
+   "kind": "headline",
+   "text": "Landscape Lighting Installation in Vail"
+  },
+  {
+   "at": 79.25,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_text_0",
+   "style": "padding-bottom:0 !important; margin-bottom:26px !important"
+  },
+  {
+   "at": 79.25,
+   "kind": "eyebrow",
+   "reuse": true,
+   "text": "For homeowners in the Vail Valley"
+  },
+  {
+   "at": 96.43,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_divider_0",
+   "style": "display:none !important"
+  },
+  {
+   "at": 96.43,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_text_1",
+   "style": "margin-bottom:26px !important"
+  },
+  {
+   "at": 96.43,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_text_2",
+   "style": "margin-top:0 !important; margin-bottom:35px !important"
+  },
+  {
+   "at": 96.43,
+   "kind": "css",
+   "selector": ".et_pb_section_0, .et_pb_section_0 .et_pb_row_0",
+   "style": "height:auto !important; min-height:1100px !important"
+  },
+  {
+   "at": 96.43,
+   "kind": "copy",
+   "keep": "Paths, trees, and stonework lit after dark, so the house feels safe and warm and your evenings outside run longer. Brass and copper fixtures made for Vail winters.",
+   "view": 120
+  },
+  {
+   "at": 108.91,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_icon_0",
+   "style": "margin-top:0 !important; margin-bottom:0 !important; opacity:1 !important; transform:none !important; width:auto !important; max-width:none !important"
+  },
+  {
+   "at": 108.91,
+   "kind": "cta",
+   "selector": ".et_pb_section_0 .et_pb_icon_0 .et-pb-icon",
+   "text": "Book a meeting",
+   "background": "#A3A786",
+   "color": "#FFFFFF",
+   "view": 120
+  },
+  {
+   "at": 123.04,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300,
+   "view": 120
+  },
+  {
+   "at": 125.04,
+   "kind": "css",
+   "selector": ".et_pb_section_0",
+   "style": "height:900px !important; min-height:900px !important; overflow:hidden !important"
+  },
+  {
+   "at": 125.04,
+   "kind": "css",
+   "selector": ".et_pb_section_0 .et_pb_row_0",
+   "style": "padding-top:0 !important; height:auto !important; min-height:0 !important"
+  },
+  {
+   "at": 125.04,
+   "kind": "center"
+  },
+  {
+   "at": 128.19,
+   "kind": "header"
+  },
+  {
+   "at": 128.59,
+   "kind": "css",
+   "selector": ".et_pb_section_0",
+   "style": "height:780px !important; min-height:780px !important"
+  },
+  {
+   "at": 135.47,
+   "kind": "note"
+  },
+  {
+   "at": 149.02,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 150.06,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 171.06,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 185.97,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 199.97,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 211.49,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 220.7,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 226.62,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 250.62,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

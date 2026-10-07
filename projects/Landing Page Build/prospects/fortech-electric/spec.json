@@ -1,0 +1,190 @@
+{
+ "company": "For-Tech Electric",
+ "short": "For-Tech",
+ "page": "https://fortechelectric.com/home-automation/",
+ "loom": "https://www.loom.com/share/4aaccade87a24ebbbc9cd6ee238fe5be",
+ "button": "Book a consultation",
+ "phone": "732-FORTECH",
+ "address": "500 James St, Unit 11, Lakewood, NJ 08701",
+ "areas": "Bergen, Passaic, Union, Middlesex, Monmouth, and Ocean counties",
+ "brand": {
+  "color": "#C8143A",
+  "dark": "#9E0F2D",
+  "accent": "#FF6F86",
+  "serif": true,
+  "head": "Kumbh Sans",
+  "body": "Poppins",
+  "mist": "#F6F3F3"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 50,
+ "hero": {
+  "eyebrow": "Home automation for residential",
+  "h1": "Home Automation Installation for New Jersey Homes",
+  "sub": "Transform your home into a smarter, more convenient living space with custom home automation systems.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "Pick the parts of home automation you want",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Lighting control",
+    "p": "One touch sets the room. Scenes for Away, Movie Night, and Good Morning."
+   },
+   {
+    "icon": "shield",
+    "h3": "Added security",
+    "p": "Locks, sensors, and alerts you can check and set from your phone."
+   },
+   {
+    "icon": "speaker",
+    "h3": "AV and media",
+    "p": "Music and video in any room, run from one app or one wall panel."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "I was extremely happy with my choice of For-Tech for the purchase and installation of my home backup generator. From the initial salesman to the site survey to the electricians and plumbers who installed the equipment, the entire crew was very courteous and professional.",
+    "who": "Nicholas B.",
+    "stars": 5
+   },
+   {
+    "p": "We had an excellent experience with For-Tech Electric during the installation of our full-house generator. From start to finish, the office team provided outstanding service with clear, consistent communication every step of the way. The installers were friendly, professional, and always on time.",
+    "who": "Robyn",
+    "stars": 5
+   },
+   {
+    "p": "For-Tech came highly recommended by several friends. Going in there was slight hesitation as it was from the higher quotes. BUT the best money ever spent. The service is impeccable,  reliable and genuine.",
+    "who": "A Google reviewer",
+    "stars": 5
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, designers, and contractors",
+  "h2": "Our process",
+  "photo": "assets/process.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We sit down with you and the owner and settle what each room controls."
+   },
+   {
+    "h3": "Clean pre-wire",
+    "p": "Low-voltage wiring run neatly during construction, before the walls close."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Lighting, AV, security, and climate set up to work together from one app."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "We stay on after move-in for changes, new scenes, and support."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Serving New Jersey homes since 2009",
+  "p": "For-Tech Electric designs lighting plans for custom homes and installs smart home systems and generators across New Jersey. Founder Yaakov Forchheimer opened For-Tech in 2009 to build a company around safety, reliability, and happy customers.",
+  "photo": "assets/founder.jpg",
+  "alt": "For-Tech Electric's founder at his desk"
+ },
+ "services": {
+  "h2": "More we install in New Jersey homes",
+  "items": [
+   {
+    "icon": "tv",
+    "h3": "AV systems",
+    "p": "Home theaters and TVs, mounted and wired clean.",
+    "href": "https://fortechelectric.com/av/"
+   },
+   {
+    "icon": "shield",
+    "h3": "Alarms and monitoring",
+    "p": "Alarm systems that alert you the moment something trips.",
+    "href": "https://fortechelectric.com/alarms/"
+   },
+   {
+    "icon": "camera",
+    "h3": "Security cameras",
+    "p": "Cameras you can check from your phone.",
+    "href": "https://fortechelectric.com/security-cameras/"
+   },
+   {
+    "icon": "wifi",
+    "h3": "Internet and WiFi",
+    "p": "Strong WiFi in every room of the house.",
+    "href": "https://fortechelectric.com/internet-wifi/"
+   },
+   {
+    "icon": "lock",
+    "h3": "Intercom and access control",
+    "p": "See who is at the door and let them in from anywhere.",
+    "href": "https://fortechelectric.com/intercom-access-control/"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Can home automation work in an existing home?",
+    "a": "Yes. We install in new construction and in finished homes with little disruption."
+   },
+   {
+    "q": "What systems do you work with?",
+    "a": "Lutron, Control4, Nest, Ring, and others, picked for what your home needs."
+   },
+   {
+    "q": "Do I need special wiring?",
+    "a": "Many systems use low-voltage wiring, which we run cleanly and out of sight. Wireless works where it fits."
+   },
+   {
+    "q": "Can lighting, AV, and security be controlled together?",
+    "a": "Yes. We design one system so a single app or wall panel runs all of it."
+   },
+   {
+    "q": "Do you automate outdoor spaces?",
+    "a": "Yes. Lighting, audio, and security for patios, pools, and the outside of the house."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book a home automation consultation",
+  "p": "Tell us about your home or your project and pick a time."
+ },
+ "footer": {
+  "creds": "Lutron Gold Dealer. Licensed and insured in New Jersey."
+ },
+ "form": {
+  "hint": "A line or two is plenty: new build or existing home, and what you want to control.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "reviews",
+  "process",
+  "about",
+  "services",
+  "faq",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom audit of fortechelectric.com/home-automation/ (no lighting control page exists). No rating is stated anywhere on their site, so the hero has no reviews banner and the reviews band has no rating line: pull the Google rating before this goes to them. The three reviews are real Google reviews from their site's Trustindex widget, but none is about home automation (most are generator jobs); swap in home automation reviews when they exist. Lutron Gold Dealer is read from the dealer badge image on their site; licensed and insured from their home page description. The founder photo sits beside the founder's message on their About page and is read as him. Hero photo: fortech-166.jpg from their Portfolio (New Construction), a lit home at night, cropped to 16:9 and upscaled from 796 px wide. Process photo: fortech-107.jpg from the same portfolio. Their hero image (WhatsApp-Image-2025-12-30) and the five 2026-01 WhatsApp images are AI-made and are not used.",
+ "google": {
+  "rating": 4.8,
+  "count": 26,
+  "maps": "https://maps.google.com/?cid=11518320053910194134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

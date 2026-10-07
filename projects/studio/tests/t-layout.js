@@ -1,0 +1,31 @@
+import { test, wait } from "./harness.js";
+
+test("layout", async (t, st) => {
+  st.layout.reset();
+  await wait(50);
+  const bin = document.getElementById("bin");
+  const w0 = bin.getBoundingClientRect().width;
+  const div = document.getElementById("div-bin");
+  const r = div.getBoundingClientRect();
+  const p = { x: r.left + r.width / 2, y: r.top + 50 };
+  div.dispatchEvent(t.pe("pointerdown", p));
+  div.dispatchEvent(t.pe("pointermove", { x: p.x + 80, y: p.y }));
+  div.dispatchEvent(t.pe("pointerup", { x: p.x + 80, y: p.y }));
+  await wait(50);
+  t.near("bin divider drags wider", bin.getBoundingClientRect().width, w0 + 80, 2);
+  t.near("size remembered", JSON.parse(localStorage.getItem("studio.layout.v1")).bin, w0 + 80, 2);
+  const tl = document.getElementById("timeline");
+  const h0 = tl.getBoundingClientRect().height;
+  const dh = document.getElementById("div-tl");
+  const rh = dh.getBoundingClientRect();
+  const q = { x: rh.left + 300, y: rh.top + rh.height / 2 };
+  dh.dispatchEvent(t.pe("pointerdown", q));
+  dh.dispatchEvent(t.pe("pointermove", { x: q.x, y: q.y - 60 }));
+  dh.dispatchEvent(t.pe("pointerup", { x: q.x, y: q.y - 60 }));
+  await wait(50);
+  t.near("timeline divider drags taller", tl.getBoundingClientRect().height, h0 + 60, 2);
+  st.actions.run("resetLayout");
+  await wait(50);
+  t.near("reset layout restores bin width", bin.getBoundingClientRect().width, 300, 2);
+  t.near("reset layout restores timeline height", tl.getBoundingClientRect().height, 320, 2);
+});

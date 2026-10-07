@@ -1,0 +1,166 @@
+{
+ "company": "Holm Electric",
+ "short": "Holm Electric",
+ "page": "https://holmelectric.com/residential/",
+ "loom": "https://www.loom.com/share/56cfa2fd6f6644148769298a61285b5e",
+ "phone": "775-831-3781",
+ "address": "919 Incline Way, Ste. 21, Incline Village, NV 89450",
+ "areas": "Lake Tahoe and Las Vegas",
+ "brand": {
+  "color": "#4A78B0",
+  "dark": "#3E6A9E",
+  "accent": "#799EC8",
+  "serif": true,
+  "head": "Poppins",
+  "body": "Poppins",
+  "mist": "#F0F4F9"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "Lake Tahoe homeowners, architects, and builders",
+  "h1": "Lighting Control Installation in Lake Tahoe",
+  "sub": "Every light in the home set from a keypad, the app, or your voice, with scenes, schedules, and the color of the light tuned to the hour. Designed, installed, and serviced by one team since 1998.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads",
+    "p": "One button sets the whole room: scenes for morning, dinner, a movie, and bedtime."
+   },
+   {
+    "icon": "phone",
+    "h3": "Control from anywhere",
+    "p": "Every light in the house from the app or your voice, at home or from the road."
+   },
+   {
+    "icon": "sun",
+    "h3": "Kelvin color control",
+    "p": "Bright white light by day, warm light at night. The color of the light changes with the hour, not just how bright it is."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Lake Tahoe and Las Vegas since 1998",
+  "p": "Since 1998, Holm Electric has partnered with homeowners and contractors on residential electrical, home automation, and integration work. Our engineers design the system to fit how you live now and later, and you get a fully documented project when it is done."
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-vanity.jpg",
+    "alt": "Vanity lights on both sides of a mirror in a wood-clad bathroom"
+   },
+   {
+    "src": "assets/work-theater.jpg",
+    "alt": "Wall sconces in a home theater with leather seating"
+   },
+   {
+    "src": "assets/work-media-wall.jpg",
+    "alt": "A built-in media wall under ceiling spots"
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/home.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We meet with you and the owner, walk the plans, and settle how every space will be lit and controlled."
+   },
+   {
+    "h3": "Engineering and drawings",
+    "p": "Our engineers design the system to the plans: fixtures, loads, keypad locations, and the wiring your crew pulls once."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "We install, program, and test every scene before the owner moves in, and tune it once they do."
+   },
+   {
+    "h3": "Documentation and ongoing service",
+    "p": "You get a fully documented project with drawings, so service and upgrades never depend on one installer's memory."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "We’re in a very old cabin in KB that’s going through probate and has a lot of issues. After having an emergency electric shut off, I was told by Liberty Utilities I needed a full panel replacement and inspection before returning power.",
+    "who": "Kerry N.",
+    "stars": 5
+   },
+   {
+    "p": "Very helpful and professional. Pricing estimates very high as is everything else. Will not do project because of high costs.",
+    "who": "Elizabeth S.",
+    "stars": 5
+   },
+   {
+    "p": "I had a very small job that required replacing a low voltage transformer and replacing some LED strips. It DID take a while to get their attention but once I did they did the job.",
+    "who": "David C.",
+    "stars": 4
+   }
+  ]
+ },
+ "services": {
+  "h2": "More we do for the home",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Whole home audio",
+    "p": "Music in every room, from one app.",
+    "href": "https://holmelectric.com/residential/"
+   },
+   {
+    "icon": "tv",
+    "h3": "Dedicated home theater",
+    "p": "Projector, screen, surround sound, and seating.",
+    "href": "https://holmelectric.com/residential/"
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "p": "Shades that move with the light and the scenes.",
+    "href": "https://holmelectric.com/residential/"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book a lighting design consultation",
+  "p": "Tell us about the home and we will set a time."
+ },
+ "footer": {
+  "creds": "Holm Electric, Inc. Since 1998. Systems we integrate: Lutron, Ketra, Savant, RTI. Las Vegas office: 5045 S Rogers St, Ste. 3, Las Vegas, NV 89118, 702-818-3781."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the home, the rooms, new build or a remodel.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "work",
+  "process",
+  "reviews",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom audit of holmelectric.com/residential/ (one page for all residential services, with an interactive map in the hero). The map is left off on purpose: he said it is likely hurting conversion. The headline names Lake Tahoe because their first office is Incline Village and the residential page lists Lake Tahoe first; Las Vegas is in the footer. Their site's blue is #799EC8 (white on it reads at 2.79:1), so the button and card blue is the same hue one step darker, #4A78B0 (4.56:1); #799EC8 is the accent on the process step rules. Poppins is the face their site uses; the serif titles come from the engine (high-end residential rule). The hero photo is their own bar-with-pendants interior from the home page, served at 959 px wide, so it is soft on a wide screen; the sharper lakefront home at dusk (1920 px) sits behind the process band and would be the swap if he wants the hero sharper. No reviews, rating, team photo, license number, or awards are on their site: the review boxes and the about photo are marked empty, there is no trust line, and the footer carries only what the site states. The three secondary service cards all link to /residential/ because no page per service exists yet (his first point in the Loom). The form sends nothing.",
+ "google": {
+  "rating": 4.2,
+  "count": 15,
+  "maps": "https://maps.google.com/?cid=2020804678928729249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

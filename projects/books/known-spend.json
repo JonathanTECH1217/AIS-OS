@@ -1,0 +1,13 @@
+{
+  "_about": "Money out that the AIOS knows from its own files and no bank CSV has brought into the book yet (Jonathan, 2026-10-06: \"update my spend in the CRM to reflect any money out or in\"). scripts/books.py spend-sync reads this list, skips any row already in Transactions (by External id), and writes the rest with --write. Amounts negative = money out. Never an account or card number here. Add a row when a charge is known before the statement; delete it once the bank row covers it, or leave it and let import-bank's skip rule handle the bank twin (see books.md).",
+  "rows": [
+    {"Date": "2026-09-13", "Memo": "Google Places API, national integrator sweep (10,077 rows)", "Counterparty": "Google Cloud", "Amount": -53.90, "Account": "Software", "External id": "manual:2026-09-13:google-places", "Notes": "From tasks.md, Week 0. The card charge arrives on the Google Cloud bill."},
+    {"Date": "2026-09-13", "Memo": "Anthropic API, Opus 5 batch read of 6,461 sites", "Counterparty": "Anthropic", "Amount": -75.58, "Account": "Software", "External id": "manual:2026-09-13:anthropic-batch", "Notes": "From tasks.md, Week 0."},
+    {"Date": "2026-10-04", "Memo": "AI Acquisition, Incubator + DFY Package", "Counterparty": "AI Acquisition", "Amount": -1990.00, "Account": "Professional services", "External id": "manual:2026-10-04:ai-acquisition", "Notes": "From decisions/log.md, 2026-10-05. Confirm the amount against the receipt."}
+  ],
+  "not_in_dollars_yet": [
+    "2026-09-25: 112 Higgsfield image credits for the six landing pages (a credit pack, not a dollar line here until the pack's price is on file).",
+    "DataForSEO: a $50 minimum was planned 2026-10-03; not confirmed opened or paid.",
+    "Clay: not opened."
+  ]
+}

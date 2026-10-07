@@ -1,0 +1,1001 @@
+round,date,league,match,bet,odds,won,bankroll_before,stake_6pct,result,change,bankroll_after
+1,2019-08-09,France,Monaco v Lyon,draw,3.66,False,2500.0,150.0,lost,-150.0,2350.0
+2,2019-08-09,England,Liverpool v Norwich,draw,10.5,False,2350.0,141.0,lost,-141.0,2209.0
+3,2019-08-10,France,Nice v Amiens,draw,3.08,False,2209.0,132.54,lost,-132.54,2076.46
+4,2019-08-10,France,Dijon v St Etienne,draw,3.48,False,2076.46,124.59,lost,-124.59,1951.87
+5,2019-08-10,France,Montpellier v Rennes,draw,3.37,False,1951.87,117.11,lost,-117.11,1834.76
+6,2019-08-10,France,Marseille v Reims,draw,3.7,False,1834.76,110.09,lost,-110.09,1724.67
+7,2019-08-10,England,Tottenham v Aston Villa,draw,5.7,False,1724.67,103.48,lost,-103.48,1621.19
+8,2019-08-10,England,Bournemouth v Sheffield United,draw,3.7,True,1621.19,97.27,won,262.63,1883.82
+9,2019-08-10,England,Watford v Brighton,draw,3.38,False,1883.82,113.03,lost,-113.03,1770.79
+10,2019-08-10,England,Crystal Palace v Everton,draw,3.5,True,1770.79,106.25,won,265.62,2036.41
+11,2019-08-10,England,Burnley v Southampton,draw,3.26,False,2036.41,122.18,lost,-122.18,1914.23
+12,2019-08-10,France,Brest v Toulouse,draw,3.48,True,1914.23,114.85,won,284.83,2199.06
+13,2019-08-10,England,West Ham v Man City,draw,7.0,False,2199.06,131.94,lost,-131.94,2067.12
+14,2019-08-10,France,Angers v Bordeaux,draw,3.3,False,2067.12,124.03,lost,-124.03,1943.09
+15,2019-08-11,France,Strasbourg v Metz,draw,3.26,True,1943.09,116.59,won,263.49,2206.58
+16,2019-08-11,France,Lille v Nantes,draw,3.2,False,2206.58,132.39,lost,-132.39,2074.19
+17,2019-08-11,England,Man United v Chelsea,draw,3.5,False,2074.19,124.45,lost,-124.45,1949.74
+18,2019-08-11,England,Newcastle v Arsenal,draw,3.65,False,1949.74,116.98,lost,-116.98,1832.76
+19,2019-08-11,England,Leicester v Wolves,draw,3.25,True,1832.76,109.97,won,247.43,2080.19
+20,2019-08-11,France,Paris SG v Nimes,draw,13.75,False,2080.19,124.81,lost,-124.81,1955.38
+21,2019-08-16,Spain,Ath Bilbao v Barcelona,draw,3.9,False,1955.38,117.32,lost,-117.32,1838.06
+22,2019-08-16,Germany,Bayern Munich v Hertha,draw,9.1,True,1838.06,110.28,won,893.27,2731.33
+23,2019-08-16,France,Lyon v Angers,draw,4.75,False,2731.33,163.88,lost,-163.88,2567.45
+24,2019-08-17,Germany,Werder Bremen v Fortuna Dusseldorf,draw,4.32,False,2567.45,154.05,lost,-154.05,2413.4
+25,2019-08-17,France,Amiens v Lille,draw,3.28,False,2413.4,144.8,lost,-144.8,2268.6
+26,2019-08-17,France,Bordeaux v Montpellier,draw,3.05,True,2268.6,136.12,won,279.05,2547.65
+27,2019-08-17,France,Metz v Monaco,draw,3.28,False,2547.65,152.86,lost,-152.86,2394.79
+28,2019-08-17,France,Nimes v Nice,draw,3.5,False,2394.79,143.69,lost,-143.69,2251.1
+29,2019-08-17,France,Toulouse v Dijon,draw,3.58,False,2251.1,135.07,lost,-135.07,2116.03
+30,2019-08-17,Germany,Dortmund v Augsburg,draw,8.8,False,2116.03,126.96,lost,-126.96,1989.07
+31,2019-08-17,Germany,Freiburg v Mainz,draw,3.38,False,1989.07,119.34,lost,-119.34,1869.73
+32,2019-08-17,Germany,Wolfsburg v FC Koln,draw,3.7,False,1869.73,112.18,lost,-112.18,1757.55
+33,2019-08-17,Germany,M'gladbach v Schalke 04,draw,3.68,True,1757.55,105.45,won,282.61,2040.16
+34,2019-08-17,France,Nantes v Marseille,draw,3.32,True,2040.16,122.41,won,283.99,2324.15
+35,2019-08-17,Germany,Leverkusen v Paderborn,draw,7.05,False,2324.15,139.45,lost,-139.45,2184.7
+36,2019-08-17,Spain,Leganes v Osasuna,draw,3.26,False,2184.7,131.08,lost,-131.08,2053.62
+37,2019-08-17,Spain,Valencia v Sociedad,draw,3.95,True,2053.62,123.22,won,363.5,2417.12
+38,2019-08-17,Spain,Mallorca v Eibar,draw,3.29,False,2417.12,145.03,lost,-145.03,2272.09
+39,2019-08-17,England,Arsenal v Burnley,draw,5.6,False,2272.09,136.33,lost,-136.33,2135.76
+40,2019-08-17,Spain,Villarreal v Granada,draw,4.2,True,2135.76,128.15,won,410.08,2545.84
+41,2019-08-17,England,Aston Villa v Bournemouth,draw,3.75,False,2545.84,152.75,lost,-152.75,2393.09
+42,2019-08-17,England,Brighton v West Ham,draw,3.6,True,2393.09,143.59,won,373.33,2766.42
+43,2019-08-17,England,Everton v Watford,draw,3.88,False,2766.42,165.99,lost,-165.99,2600.43
+44,2019-08-17,England,Norwich v Newcastle,draw,3.6,False,2600.43,156.03,lost,-156.03,2444.4
+45,2019-08-17,England,Southampton v Liverpool,draw,4.85,False,2444.4,146.66,lost,-146.66,2297.74
+46,2019-08-17,Spain,Celta v Real Madrid,draw,4.52,False,2297.74,137.86,lost,-137.86,2159.88
+47,2019-08-17,England,Man City v Tottenham,draw,5.7,True,2159.88,129.59,won,609.07,2768.95
+48,2019-08-18,France,Reims v Strasbourg,draw,3.28,True,2768.95,166.14,won,378.8,3147.75
+49,2019-08-18,Spain,Ath Madrid v Getafe,draw,4.05,False,3147.75,188.86,lost,-188.86,2958.89
+50,2019-08-18,Spain,Betis v Valladolid,draw,3.65,False,2958.89,177.53,lost,-177.53,2781.36
+51,2019-08-18,Spain,Espanol v Sevilla,draw,3.47,False,2781.36,166.88,lost,-166.88,2614.48
+52,2019-08-18,Spain,Alaves v Levante,draw,3.42,False,2614.48,156.87,lost,-156.87,2457.61
+53,2019-08-18,Germany,Ein Frankfurt v Hoffenheim,draw,3.85,False,2457.61,147.46,lost,-147.46,2310.15
+54,2019-08-18,France,St Etienne v Brest,draw,4.05,True,2310.15,138.61,won,422.76,2732.91
+55,2019-08-18,Germany,Union Berlin v RB Leipzig,draw,4.15,False,2732.91,163.97,lost,-163.97,2568.94
+56,2019-08-18,France,Rennes v Paris SG,draw,5.5,False,2568.94,154.14,lost,-154.14,2414.8
+57,2019-08-18,England,Sheffield United v Crystal Palace,draw,3.33,False,2414.8,144.89,lost,-144.89,2269.91
+58,2019-08-18,England,Chelsea v Leicester,draw,4.0,True,2269.91,136.19,won,408.57,2678.48
+59,2019-08-19,England,Wolves v Man United,draw,3.4,True,2678.48,160.71,won,385.7,3064.18
+60,2019-08-23,Spain,Levante v Villarreal,draw,3.7,False,3064.18,183.85,lost,-183.85,2880.33
+61,2019-08-23,Spain,Granada v Sevilla,draw,3.68,False,2880.33,172.82,lost,-172.82,2707.51
+62,2019-08-23,England,Aston Villa v Everton,draw,3.72,False,2707.51,162.45,lost,-162.45,2545.06
+63,2019-08-23,Germany,FC Koln v Dortmund,draw,4.88,False,2545.06,152.7,lost,-152.7,2392.36
+64,2019-08-24,France,Angers v Metz,draw,3.3,False,2392.36,143.54,lost,-143.54,2248.82
+65,2019-08-24,Germany,Mainz v M'gladbach,draw,3.6,False,2248.82,134.93,lost,-134.93,2113.89
+66,2019-08-24,Germany,Hoffenheim v Werder Bremen,draw,3.9,False,2113.89,126.83,lost,-126.83,1987.06
+67,2019-08-24,Germany,Fortuna Dusseldorf v Leverkusen,draw,4.65,False,1987.06,119.22,lost,-119.22,1867.84
+68,2019-08-24,Germany,Augsburg v Union Berlin,draw,3.54,True,1867.84,112.07,won,284.66,2152.5
+69,2019-08-24,Spain,Celta v Valencia,draw,3.6,False,2152.5,129.15,lost,-129.15,2023.35
+70,2019-08-24,Italy,Parma v Juventus,draw,5.35,False,2023.35,121.4,lost,-121.4,1901.95
+71,2019-08-24,Italy,Fiorentina v Napoli,draw,3.78,False,1901.95,114.12,lost,-114.12,1787.83
+72,2019-08-24,England,Sheffield United v Leicester,draw,3.38,False,1787.83,107.27,lost,-107.27,1680.56
+73,2019-08-24,England,Liverpool v Arsenal,draw,5.2,False,1680.56,100.83,lost,-100.83,1579.73
+74,2019-08-24,England,Watford v West Ham,draw,3.62,False,1579.73,94.78,lost,-94.78,1484.95
+75,2019-08-24,Germany,Paderborn v Freiburg,draw,3.86,False,1484.95,89.1,lost,-89.1,1395.85
+76,2019-08-24,England,Man United v Crystal Palace,draw,5.6,False,1395.85,83.75,lost,-83.75,1312.1
+77,2019-08-24,England,Brighton v Southampton,draw,3.36,False,1312.1,78.73,lost,-78.73,1233.37
+78,2019-08-24,England,Norwich v Chelsea,draw,4.2,False,1233.37,74.0,lost,-74.0,1159.37
+79,2019-08-24,Spain,Osasuna v Eibar,draw,3.26,True,1159.37,69.56,won,157.21,1316.58
+80,2019-08-24,Spain,Getafe v Ath Bilbao,draw,2.95,True,1316.58,78.99,won,154.03,1470.61
+81,2019-08-24,France,Amiens v Nantes,draw,3.18,False,1470.61,88.24,lost,-88.24,1382.37
+82,2019-08-24,Germany,Schalke 04 v Bayern Munich,draw,5.75,False,1382.37,82.94,lost,-82.94,1299.43
+83,2019-08-24,Spain,Real Madrid v Valladolid,draw,7.5,True,1299.43,77.97,won,506.81,1806.24
+84,2019-08-24,France,Dijon v Bordeaux,draw,3.25,False,1806.24,108.37,lost,-108.37,1697.87
+85,2019-08-24,France,Brest v Reims,draw,3.16,False,1697.87,101.87,lost,-101.87,1596.0
+86,2019-08-25,England,Tottenham v Newcastle,draw,6.35,False,1596.0,95.76,lost,-95.76,1500.24
+87,2019-08-25,Spain,Barcelona v Betis,draw,5.3,False,1500.24,90.01,lost,-90.01,1410.23
+88,2019-08-25,Spain,Leganes v Ath Madrid,draw,3.3,False,1410.23,84.61,lost,-84.61,1325.62
+89,2019-08-25,Spain,Mallorca v Sociedad,draw,3.32,False,1325.62,79.54,lost,-79.54,1246.08
+90,2019-08-25,Spain,Alaves v Espanol,draw,3.17,True,1246.08,74.76,won,162.23,1408.31
+91,2019-08-25,Germany,RB Leipzig v Ein Frankfurt,draw,5.15,False,1408.31,84.5,lost,-84.5,1323.81
+92,2019-08-25,Germany,Hertha v Wolfsburg,draw,3.5,False,1323.81,79.43,lost,-79.43,1244.38
+93,2019-08-25,Italy,Udinese v Milan,draw,3.5,False,1244.38,74.66,lost,-74.66,1169.72
+94,2019-08-25,Italy,Sampdoria v Lazio,draw,3.55,False,1169.72,70.18,lost,-70.18,1099.54
+95,2019-08-25,Italy,Spal v Atalanta,draw,3.92,False,1099.54,65.97,lost,-65.97,1033.57
+96,2019-08-25,Italy,Torino v Sassuolo,draw,3.6,False,1033.57,62.01,lost,-62.01,971.56
+97,2019-08-25,Italy,Verona v Bologna,draw,3.45,True,971.56,58.29,won,142.81,1114.37
+98,2019-08-25,England,Bournemouth v Man City,draw,9.5,False,1114.37,66.86,lost,-66.86,1047.51
+99,2019-08-25,France,Paris SG v Toulouse,draw,12.5,False,1047.51,62.85,lost,-62.85,984.66
+100,2019-08-25,England,Wolves v Burnley,draw,3.6,True,984.66,59.08,won,153.61,1138.27
+101,2019-08-25,France,Strasbourg v Rennes,draw,3.2,False,1138.27,68.3,lost,-68.3,1069.97
+102,2019-08-25,France,Monaco v Nimes,draw,4.1,True,1069.97,64.2,won,199.02,1268.99
+103,2019-08-25,Italy,Cagliari v Brescia,draw,3.7,False,1268.99,76.14,lost,-76.14,1192.85
+104,2019-08-25,Italy,Roma v Genoa,draw,4.0,True,1192.85,71.57,won,214.71,1407.56
+105,2019-08-26,Italy,Inter v Lecce,draw,6.4,False,1407.56,84.45,lost,-84.45,1323.11
+106,2019-08-27,France,Montpellier v Lyon,draw,3.7,False,1323.11,79.39,lost,-79.39,1243.72
+107,2019-08-28,France,Nice v Marseille,draw,3.29,False,1243.72,74.62,lost,-74.62,1169.1
+108,2019-08-28,France,Lille v St Etienne,draw,3.48,False,1169.1,70.15,lost,-70.15,1098.95
+109,2019-08-30,France,Metz v Paris SG,draw,4.6,False,1098.95,65.94,lost,-65.94,1033.01
+110,2019-08-30,Germany,M'gladbach v RB Leipzig,draw,4.06,False,1033.01,61.98,lost,-61.98,971.03
+111,2019-08-30,Spain,Sevilla v Celta,draw,4.25,True,971.03,58.26,won,189.34,1160.37
+112,2019-08-30,Italy,Bologna v Spal,draw,3.72,False,1160.37,69.62,lost,-69.62,1090.75
+113,2019-08-30,Spain,Ath Bilbao v Sociedad,draw,3.2,False,1090.75,65.44,lost,-65.44,1025.31
+114,2019-08-31,France,Lyon v Bordeaux,draw,4.3,True,1025.31,61.52,won,203.02,1228.33
+115,2019-08-31,Italy,Milan v Brescia,draw,4.2,False,1228.33,73.7,lost,-73.7,1154.63
+116,2019-08-31,Italy,Juventus v Napoli,draw,3.5,False,1154.63,69.28,lost,-69.28,1085.35
+117,2019-08-31,France,Angers v Dijon,draw,3.94,False,1085.35,65.12,lost,-65.12,1020.23
+118,2019-08-31,Spain,Levante v Valladolid,draw,3.66,False,1020.23,61.21,lost,-61.21,959.02
+119,2019-08-31,France,Nimes v Brest,draw,3.47,False,959.02,57.54,lost,-57.54,901.48
+120,2019-08-31,England,Southampton v Man United,draw,3.65,True,901.48,54.09,won,143.34,1044.82
+121,2019-08-31,England,Chelsea v Sheffield United,draw,5.3,True,1044.82,62.69,won,269.57,1314.39
+122,2019-08-31,England,Crystal Palace v Aston Villa,draw,3.49,False,1314.39,78.86,lost,-78.86,1235.53
+123,2019-08-31,England,Leicester v Bournemouth,draw,4.2,False,1235.53,74.13,lost,-74.13,1161.4
+124,2019-08-31,England,Man City v Brighton,draw,13.06,False,1161.4,69.68,lost,-69.68,1091.72
+125,2019-08-31,England,Newcastle v Watford,draw,3.28,True,1091.72,65.5,won,149.34,1241.06
+126,2019-08-31,England,West Ham v Norwich,draw,4.2,False,1241.06,74.46,lost,-74.46,1166.6
+127,2019-08-31,England,Burnley v Liverpool,draw,6.05,False,1166.6,70.0,lost,-70.0,1096.6
+128,2019-08-31,Germany,Union Berlin v Dortmund,draw,5.7,False,1096.6,65.8,lost,-65.8,1030.8
+129,2019-08-31,France,Nantes v Montpellier,draw,3.14,False,1030.8,61.85,lost,-61.85,968.95
+130,2019-08-31,Germany,Wolfsburg v Paderborn,draw,5.05,True,968.95,58.14,won,235.47,1204.42
+131,2019-08-31,Germany,Leverkusen v Hoffenheim,draw,5.25,True,1204.42,72.27,won,307.15,1511.57
+132,2019-08-31,Germany,Freiburg v FC Koln,draw,3.55,False,1511.57,90.69,lost,-90.69,1420.88
+133,2019-08-31,Germany,Bayern Munich v Mainz,draw,12.25,False,1420.88,85.25,lost,-85.25,1335.63
+134,2019-08-31,Spain,Osasuna v Barcelona,draw,4.5,True,1335.63,80.14,won,280.49,1616.12
+135,2019-08-31,Spain,Getafe v Alaves,draw,3.32,True,1616.12,96.97,won,224.97,1841.09
+136,2019-08-31,Spain,Betis v Leganes,draw,3.25,False,1841.09,110.47,lost,-110.47,1730.62
+137,2019-08-31,France,Toulouse v Amiens,draw,3.34,False,1730.62,103.84,lost,-103.84,1626.78
+138,2019-08-31,Germany,Schalke 04 v Hertha,draw,3.68,False,1626.78,97.61,lost,-97.61,1529.17
+139,2019-09-01,England,Everton v Wolves,draw,3.36,False,1529.17,91.75,lost,-91.75,1437.42
+140,2019-09-01,England,Arsenal v Tottenham,draw,3.75,True,1437.42,86.25,won,237.19,1674.61
+141,2019-09-01,France,Reims v Lille,draw,3.1,False,1674.61,100.48,lost,-100.48,1574.13
+142,2019-09-01,Spain,Villarreal v Real Madrid,draw,4.15,True,1574.13,94.45,won,297.52,1871.65
+143,2019-09-01,Italy,Genoa v Fiorentina,draw,3.55,False,1871.65,112.3,lost,-112.3,1759.35
+144,2019-09-01,France,Strasbourg v Monaco,draw,3.34,True,1759.35,105.56,won,247.01,2006.36
+145,2019-09-01,Spain,Ath Madrid v Eibar,draw,4.6,False,2006.36,120.38,lost,-120.38,1885.98
+146,2019-09-01,Spain,Espanol v Granada,draw,3.38,False,1885.98,113.16,lost,-113.16,1772.82
+147,2019-09-01,France,Rennes v Nice,draw,3.7,False,1772.82,106.37,lost,-106.37,1666.45
+148,2019-09-01,Italy,Lazio v Roma,draw,3.8,True,1666.45,99.99,won,279.97,1946.42
+149,2019-09-01,Italy,Atalanta v Torino,draw,4.33,False,1946.42,116.79,lost,-116.79,1829.63
+150,2019-09-01,Italy,Cagliari v Inter,draw,4.3,False,1829.63,109.78,lost,-109.78,1719.85
+151,2019-09-01,Italy,Lecce v Verona,draw,3.56,False,1719.85,103.19,lost,-103.19,1616.66
+152,2019-09-01,Italy,Sassuolo v Sampdoria,draw,3.55,False,1616.66,97.0,lost,-97.0,1519.66
+153,2019-09-01,Italy,Udinese v Parma,draw,3.7,False,1519.66,91.18,lost,-91.18,1428.48
+154,2019-09-01,Spain,Valencia v Mallorca,draw,4.81,False,1428.48,85.71,lost,-85.71,1342.77
+155,2019-09-01,France,Marseille v St Etienne,draw,3.8,False,1342.77,80.57,lost,-80.57,1262.2
+156,2019-09-01,Germany,Werder Bremen v Augsburg,draw,4.6,False,1262.2,75.73,lost,-75.73,1186.47
+157,2019-09-01,Germany,Ein Frankfurt v Fortuna Dusseldorf,draw,4.45,False,1186.47,71.19,lost,-71.19,1115.28
+158,2019-09-13,Spain,Mallorca v Ath Bilbao,draw,3.14,True,1115.28,66.92,won,143.21,1258.49
+159,2019-09-13,Germany,Fortuna Dusseldorf v Wolfsburg,draw,3.8,True,1258.49,75.51,won,211.43,1469.92
+160,2019-09-13,France,Amiens v Lyon,draw,3.6,True,1469.92,88.2,won,229.32,1699.24
+161,2019-09-13,France,Lille v Angers,draw,3.5,False,1699.24,101.95,lost,-101.95,1597.29
+162,2019-09-14,England,Liverpool v Newcastle,draw,8.05,False,1597.29,95.84,lost,-95.84,1501.45
+163,2019-09-14,Germany,RB Leipzig v Bayern Munich,draw,4.56,True,1501.45,90.09,won,320.72,1822.17
+164,2019-09-14,England,Wolves v Chelsea,draw,3.5,False,1822.17,109.33,lost,-109.33,1712.84
+165,2019-09-14,England,Tottenham v Crystal Palace,draw,5.2,False,1712.84,102.77,lost,-102.77,1610.07
+166,2019-09-14,Germany,FC Koln v M'gladbach,draw,3.8,False,1610.07,96.6,lost,-96.6,1513.47
+167,2019-09-14,Germany,Mainz v Hertha,draw,3.64,False,1513.47,90.81,lost,-90.81,1422.66
+168,2019-09-14,Germany,Dortmund v Leverkusen,draw,4.15,False,1422.66,85.36,lost,-85.36,1337.3
+169,2019-09-14,Germany,Augsburg v Ein Frankfurt,draw,4.1,False,1337.3,80.24,lost,-80.24,1257.06
+170,2019-09-14,England,Sheffield United v Southampton,draw,3.38,False,1257.06,75.42,lost,-75.42,1181.64
+171,2019-09-14,England,Brighton v Burnley,draw,3.52,True,1181.64,70.9,won,178.67,1360.31
+172,2019-09-14,Germany,Union Berlin v Werder Bremen,draw,3.89,False,1360.31,81.62,lost,-81.62,1278.69
+173,2019-09-14,England,Man United v Leicester,draw,3.46,False,1278.69,76.72,lost,-76.72,1201.97
+174,2019-09-14,Italy,Napoli v Sampdoria,draw,6.51,False,1201.97,72.12,lost,-72.12,1129.85
+175,2019-09-14,Italy,Inter v Udinese,draw,5.5,False,1129.85,67.79,lost,-67.79,1062.06
+176,2019-09-14,Spain,Real Madrid v Levante,draw,6.94,False,1062.06,63.72,lost,-63.72,998.34
+177,2019-09-14,Spain,Leganes v Villarreal,draw,3.2,False,998.34,59.9,lost,-59.9,938.44
+178,2019-09-14,Spain,Sociedad v Ath Madrid,draw,3.2,False,938.44,56.31,lost,-56.31,882.13
+179,2019-09-14,Spain,Barcelona v Valencia,draw,4.3,False,882.13,52.93,lost,-52.93,829.2
+180,2019-09-14,England,Norwich v Man City,draw,13.63,False,829.2,49.75,lost,-49.75,779.45
+181,2019-09-14,France,Montpellier v Nice,draw,3.53,False,779.45,46.77,lost,-46.77,732.68
+182,2019-09-14,France,Paris SG v Strasbourg,draw,8.74,False,732.68,43.96,lost,-43.96,688.72
+183,2019-09-14,France,Bordeaux v Metz,draw,3.36,False,688.72,41.32,lost,-41.32,647.4
+184,2019-09-14,France,Brest v Rennes,draw,3.28,True,647.4,38.84,won,88.56,735.96
+185,2019-09-14,France,Dijon v Nimes,draw,3.44,True,735.96,44.16,won,107.75,843.71
+186,2019-09-14,Italy,Fiorentina v Juventus,draw,3.75,True,843.71,50.62,won,139.2,982.91
+187,2019-09-15,Spain,Valladolid v Osasuna,draw,3.2,True,982.91,58.97,won,129.73,1112.64
+188,2019-09-15,Spain,Alaves v Sevilla,draw,3.4,False,1112.64,66.76,lost,-66.76,1045.88
+189,2019-09-15,Spain,Eibar v Espanol,draw,3.48,False,1045.88,62.75,lost,-62.75,983.13
+190,2019-09-15,Spain,Betis v Getafe,draw,3.5,True,983.13,58.99,won,147.47,1130.6
+191,2019-09-15,Spain,Celta v Granada,draw,4.01,False,1130.6,67.84,lost,-67.84,1062.76
+192,2019-09-15,Germany,Hoffenheim v Freiburg,draw,3.9,False,1062.76,63.77,lost,-63.77,998.99
+193,2019-09-15,Italy,Spal v Lazio,draw,4.3,False,998.99,59.94,lost,-59.94,939.05
+194,2019-09-15,England,Watford v Arsenal,draw,4.05,True,939.05,56.34,won,171.84,1110.89
+195,2019-09-15,England,Bournemouth v Everton,draw,3.65,False,1110.89,66.65,lost,-66.65,1044.24
+196,2019-09-15,Italy,Genoa v Atalanta,draw,3.78,False,1044.24,62.65,lost,-62.65,981.59
+197,2019-09-15,Italy,Brescia v Bologna,draw,3.65,False,981.59,58.9,lost,-58.9,922.69
+198,2019-09-15,Italy,Parma v Cagliari,draw,3.4,False,922.69,55.36,lost,-55.36,867.33
+199,2019-09-15,Italy,Roma v Sassuolo,draw,4.7,False,867.33,52.04,lost,-52.04,815.29
+200,2019-09-15,Italy,Verona v Milan,draw,3.62,False,815.29,48.92,lost,-48.92,766.37
+201,2019-09-15,France,Monaco v Marseille,draw,3.82,False,766.37,45.98,lost,-45.98,720.39
+202,2019-09-15,France,St Etienne v Toulouse,draw,4.34,True,720.39,43.22,won,144.35,864.74
+203,2019-09-15,France,Nantes v Reims,draw,3.17,False,864.74,51.88,lost,-51.88,812.86
+204,2019-09-15,Germany,Paderborn v Schalke 04,draw,3.8,False,812.86,48.77,lost,-48.77,764.09
+205,2019-09-16,England,Aston Villa v West Ham,draw,3.73,True,764.09,45.85,won,125.17,889.26
+206,2019-09-16,Italy,Torino v Lecce,draw,5.0,False,889.26,53.36,lost,-53.36,835.9
+207,2019-09-20,Germany,Schalke 04 v Mainz,draw,4.25,False,835.9,50.15,lost,-50.15,785.75
+208,2019-09-20,Spain,Osasuna v Betis,draw,3.46,True,785.75,47.14,won,115.96,901.71
+209,2019-09-20,Italy,Cagliari v Genoa,draw,3.46,False,901.71,54.1,lost,-54.1,847.61
+210,2019-09-20,France,Strasbourg v Nantes,draw,3.13,False,847.61,50.86,lost,-50.86,796.75
+211,2019-09-20,England,Southampton v Bournemouth,draw,3.7,False,796.75,47.8,lost,-47.8,748.95
+212,2019-09-21,Spain,Ath Madrid v Celta,draw,4.4,True,748.95,44.94,won,152.8,901.75
+213,2019-09-21,Germany,Bayern Munich v FC Koln,draw,11.0,False,901.75,54.1,lost,-54.1,847.65
+214,2019-09-21,Germany,Freiburg v Augsburg,draw,3.95,True,847.65,50.86,won,150.04,997.69
+215,2019-09-21,Germany,Hertha v Paderborn,draw,4.78,False,997.69,59.86,lost,-59.86,937.83
+216,2019-09-21,Germany,Leverkusen v Union Berlin,draw,5.7,False,937.83,56.27,lost,-56.27,881.56
+217,2019-09-21,Germany,Werder Bremen v RB Leipzig,draw,4.45,False,881.56,52.89,lost,-52.89,828.67
+218,2019-09-21,England,Man City v Watford,draw,12.5,False,828.67,49.72,lost,-49.72,778.95
+219,2019-09-21,England,Everton v Sheffield United,draw,3.7,False,778.95,46.74,lost,-46.74,732.21
+220,2019-09-21,England,Burnley v Norwich,draw,3.9,False,732.21,43.93,lost,-43.93,688.28
+221,2019-09-21,England,Leicester v Tottenham,draw,3.51,False,688.28,41.3,lost,-41.3,646.98
+222,2019-09-21,France,Reims v Monaco,draw,3.38,True,646.98,38.82,won,92.39,739.37
+223,2019-09-21,France,Nimes v Toulouse,draw,3.7,False,739.37,44.36,lost,-44.36,695.01
+224,2019-09-21,France,Nice v Dijon,draw,3.7,False,695.01,41.7,lost,-41.7,653.31
+225,2019-09-21,France,Metz v Amiens,draw,3.17,False,653.31,39.2,lost,-39.2,614.11
+226,2019-09-21,France,Bordeaux v Brest,draw,3.58,True,614.11,36.85,won,95.07,709.18
+227,2019-09-21,England,Newcastle v Brighton,draw,3.3,True,709.18,42.55,won,97.86,807.04
+228,2019-09-21,France,Marseille v Montpellier,draw,3.35,True,807.04,48.42,won,113.79,920.83
+229,2019-09-21,Italy,Udinese v Brescia,draw,3.7,False,920.83,55.25,lost,-55.25,865.58
+230,2019-09-21,Italy,Juventus v Verona,draw,6.8,False,865.58,51.93,lost,-51.93,813.65
+231,2019-09-21,Italy,Milan v Inter,draw,3.41,False,813.65,48.82,lost,-48.82,764.83
+232,2019-09-21,Spain,Villarreal v Valladolid,draw,4.15,False,764.83,45.89,lost,-45.89,718.94
+233,2019-09-21,Spain,Levante v Eibar,draw,3.6,True,718.94,43.14,won,112.16,831.1
+234,2019-09-21,Spain,Granada v Barcelona,draw,5.0,False,831.1,49.87,lost,-49.87,781.23
+235,2019-09-22,France,Rennes v Lille,draw,3.17,True,781.23,46.87,won,101.71,882.94
+236,2019-09-22,France,Lyon v Paris SG,draw,4.34,False,882.94,52.98,lost,-52.98,829.96
+237,2019-09-22,France,Angers v St Etienne,draw,3.44,False,829.96,49.8,lost,-49.8,780.16
+238,2019-09-22,Italy,Atalanta v Fiorentina,draw,3.65,True,780.16,46.81,won,124.05,904.21
+239,2019-09-22,Spain,Espanol v Sociedad,draw,3.32,False,904.21,54.25,lost,-54.25,849.96
+240,2019-09-22,Spain,Getafe v Mallorca,draw,3.6,False,849.96,51.0,lost,-51.0,798.96
+241,2019-09-22,Italy,Sampdoria v Torino,draw,3.5,False,798.96,47.94,lost,-47.94,751.02
+242,2019-09-22,Italy,Lecce v Napoli,draw,5.05,False,751.02,45.06,lost,-45.06,705.96
+243,2019-09-22,Italy,Bologna v Roma,draw,3.73,False,705.96,42.36,lost,-42.36,663.6
+244,2019-09-22,Italy,Sassuolo v Spal,draw,3.6,False,663.6,39.82,lost,-39.82,623.78
+245,2019-09-22,Germany,M'gladbach v Fortuna Dusseldorf,draw,4.1,False,623.78,37.43,lost,-37.43,586.35
+246,2019-09-22,Germany,Ein Frankfurt v Dortmund,draw,4.68,True,586.35,35.18,won,129.46,715.81
+247,2019-09-22,England,Chelsea v Liverpool,draw,3.84,False,715.81,42.95,lost,-42.95,672.86
+248,2019-09-22,Italy,Lazio v Parma,draw,6.45,False,672.86,40.37,lost,-40.37,632.49
+249,2019-09-22,England,West Ham v Man United,draw,3.68,False,632.49,37.95,lost,-37.95,594.54
+250,2019-09-22,England,Crystal Palace v Wolves,draw,3.2,True,594.54,35.67,won,78.47,673.01
+251,2019-09-22,Spain,Valencia v Leganes,draw,3.85,True,673.01,40.38,won,115.08,788.09
+252,2019-09-22,England,Arsenal v Aston Villa,draw,5.35,False,788.09,47.29,lost,-47.29,740.8
+253,2019-09-22,Spain,Sevilla v Real Madrid,draw,3.85,False,740.8,44.45,lost,-44.45,696.35
+254,2019-09-22,Spain,Ath Bilbao v Alaves,draw,3.66,False,696.35,41.78,lost,-41.78,654.57
+255,2019-09-23,Germany,Wolfsburg v Hoffenheim,draw,3.87,True,654.57,39.27,won,112.7,767.27
+256,2019-09-24,Italy,Brescia v Juventus,draw,4.55,False,767.27,46.04,lost,-46.04,721.23
+257,2019-09-24,France,Monaco v Nice,draw,3.95,False,721.23,43.27,lost,-43.27,677.96
+258,2019-09-24,Italy,Verona v Udinese,draw,3.25,True,677.96,40.68,won,91.53,769.49
+259,2019-09-24,Spain,Valladolid v Granada,draw,3.19,True,769.49,46.17,won,101.11,870.6
+260,2019-09-24,Spain,Betis v Levante,draw,3.95,False,870.6,52.24,lost,-52.24,818.36
+261,2019-09-24,Spain,Barcelona v Villarreal,draw,7.11,False,818.36,49.1,lost,-49.1,769.26
+262,2019-09-24,France,Dijon v Marseille,draw,3.6,True,769.26,46.16,won,120.02,889.28
+263,2019-09-25,France,Nantes v Rennes,draw,3.18,False,889.28,53.36,lost,-53.36,835.92
+264,2019-09-25,France,Montpellier v Nimes,draw,3.5,False,835.92,50.16,lost,-50.16,785.76
+265,2019-09-25,France,Lille v Strasbourg,draw,3.6,False,785.76,47.15,lost,-47.15,738.61
+266,2019-09-25,France,Amiens v Bordeaux,draw,3.1,False,738.61,44.32,lost,-44.32,694.29
+267,2019-09-25,France,St Etienne v Metz,draw,3.52,False,694.29,41.66,lost,-41.66,652.63
+268,2019-09-25,Italy,Genoa v Bologna,draw,3.6,True,652.63,39.16,won,101.82,754.45
+269,2019-09-25,Italy,Parma v Sassuolo,draw,3.48,False,754.45,45.27,lost,-45.27,709.18
+270,2019-09-25,Italy,Napoli v Cagliari,draw,8.62,False,709.18,42.55,lost,-42.55,666.63
+271,2019-09-25,Italy,Inter v Lazio,draw,3.65,False,666.63,40.0,lost,-40.0,626.63
+272,2019-09-25,Italy,Fiorentina v Sampdoria,draw,4.3,False,626.63,37.6,lost,-37.6,589.03
+273,2019-09-25,Italy,Roma v Atalanta,draw,3.85,False,589.03,35.34,lost,-35.34,553.69
+274,2019-09-25,France,Toulouse v Angers,draw,3.32,False,553.69,33.22,lost,-33.22,520.47
+275,2019-09-25,Italy,Spal v Lecce,draw,3.5,False,520.47,31.23,lost,-31.23,489.24
+276,2019-09-25,France,Paris SG v Reims,draw,6.5,False,489.24,29.35,lost,-29.35,459.89
+277,2019-09-25,France,Brest v Lyon,draw,4.15,True,459.89,27.59,won,86.91,546.8
+278,2019-09-25,Spain,Leganes v Ath Bilbao,draw,2.95,True,546.8,32.81,won,63.98,610.78
+279,2019-09-25,Spain,Mallorca v Ath Madrid,draw,3.87,False,610.78,36.65,lost,-36.65,574.13
+280,2019-09-25,Spain,Valencia v Getafe,draw,3.1,True,574.13,34.45,won,72.35,646.48
+281,2019-09-25,Spain,Real Madrid v Osasuna,draw,5.6,False,646.48,38.79,lost,-38.79,607.69
+282,2019-09-26,Italy,Torino v Milan,draw,3.2,False,607.69,36.46,lost,-36.46,571.23
+283,2019-09-26,Spain,Sociedad v Alaves,draw,4.06,False,571.23,34.27,lost,-34.27,536.96
+284,2019-09-26,Spain,Celta v Espanol,draw,3.7,True,536.96,32.22,won,86.99,623.95
+285,2019-09-26,Spain,Eibar v Sevilla,draw,3.46,False,623.95,37.44,lost,-37.44,586.51
+286,2019-09-27,Germany,Union Berlin v Ein Frankfurt,draw,3.7,False,586.51,35.19,lost,-35.19,551.32
+287,2019-09-27,Spain,Villarreal v Betis,draw,4.1,False,551.32,33.08,lost,-33.08,518.24
+288,2019-09-28,Germany,Augsburg v Leverkusen,draw,4.4,False,518.24,31.09,lost,-31.09,487.15
+289,2019-09-28,Germany,Hoffenheim v M'gladbach,draw,3.7,False,487.15,29.23,lost,-29.23,457.92
+290,2019-09-28,Germany,Mainz v Wolfsburg,draw,3.61,False,457.92,27.48,lost,-27.48,430.44
+291,2019-09-28,Germany,Paderborn v Bayern Munich,draw,12.0,False,430.44,25.83,lost,-25.83,404.61
+292,2019-09-28,France,Bordeaux v Paris SG,draw,5.4,False,404.61,24.28,lost,-24.28,380.33
+293,2019-09-28,England,Wolves v Watford,draw,3.6,False,380.33,22.82,lost,-22.82,357.51
+294,2019-09-28,England,Tottenham v Southampton,draw,5.4,False,357.51,21.45,lost,-21.45,336.06
+295,2019-09-28,England,Crystal Palace v Norwich,draw,3.91,False,336.06,20.16,lost,-20.16,315.9
+296,2019-09-28,England,Chelsea v Brighton,draw,5.0,False,315.9,18.95,lost,-18.95,296.95
+297,2019-09-28,England,Bournemouth v West Ham,draw,3.7,True,296.95,17.82,won,48.11,345.06
+298,2019-09-28,England,Aston Villa v Burnley,draw,3.55,True,345.06,20.7,won,52.78,397.84
+299,2019-09-28,England,Sheffield United v Liverpool,draw,5.65,False,397.84,23.87,lost,-23.87,373.97
+300,2019-09-28,England,Everton v Man City,draw,6.0,False,373.97,22.44,lost,-22.44,351.53
+301,2019-09-28,Spain,Ath Bilbao v Valencia,draw,3.32,False,351.53,21.09,lost,-21.09,330.44
+302,2019-09-28,Spain,Getafe v Barcelona,draw,3.5,False,330.44,19.83,lost,-19.83,310.61
+303,2019-09-28,Spain,Granada v Leganes,draw,3.1,False,310.61,18.64,lost,-18.64,291.97
+304,2019-09-28,France,Angers v Amiens,draw,3.7,True,291.97,17.52,won,47.3,339.27
+305,2019-09-28,France,Metz v Toulouse,draw,3.4,True,339.27,20.36,won,48.86,388.13
+306,2019-09-28,France,Monaco v Brest,draw,5.19,False,388.13,23.29,lost,-23.29,364.84
+307,2019-09-28,France,Nice v Lille,draw,3.3,True,364.84,21.89,won,50.35,415.19
+308,2019-09-28,France,Reims v Dijon,draw,3.7,False,415.19,24.91,lost,-24.91,390.28
+309,2019-09-28,Italy,Sassuolo v Atalanta,draw,4.45,False,390.28,23.42,lost,-23.42,366.86
+310,2019-09-28,Italy,Sampdoria v Inter,draw,3.88,False,366.86,22.01,lost,-22.01,344.85
+311,2019-09-28,Italy,Juventus v Spal,draw,7.64,False,344.85,20.69,lost,-20.69,324.16
+312,2019-09-28,France,Lyon v Nantes,draw,4.5,False,324.16,19.45,lost,-19.45,304.71
+313,2019-09-28,Germany,RB Leipzig v Schalke 04,draw,4.5,False,304.71,18.28,lost,-18.28,286.43
+314,2019-09-28,Germany,Dortmund v Werder Bremen,draw,6.0,True,286.43,17.19,won,85.95,372.38
+315,2019-09-28,Spain,Ath Madrid v Real Madrid,draw,3.44,True,372.38,22.34,won,54.51,426.89
+316,2019-09-29,Italy,Udinese v Bologna,draw,3.32,False,426.89,25.61,lost,-25.61,401.28
+317,2019-09-29,Italy,Milan v Fiorentina,draw,3.3,False,401.28,24.08,lost,-24.08,377.2
+318,2019-09-29,Spain,Sevilla v Sociedad,draw,3.64,False,377.2,22.63,lost,-22.63,354.57
+319,2019-09-29,Italy,Lazio v Genoa,draw,5.6,False,354.57,21.27,lost,-21.27,333.3
+320,2019-09-29,Italy,Napoli v Brescia,draw,8.02,False,333.3,20.0,lost,-20.0,313.3
+321,2019-09-29,Spain,Levante v Osasuna,draw,3.5,True,313.3,18.8,won,47.0,360.3
+322,2019-09-29,Spain,Alaves v Mallorca,draw,3.1,False,360.3,21.62,lost,-21.62,338.68
+323,2019-09-29,Spain,Eibar v Celta,draw,3.5,False,338.68,20.32,lost,-20.32,318.36
+324,2019-09-29,Spain,Espanol v Valladolid,draw,3.27,False,318.36,19.1,lost,-19.1,299.26
+325,2019-09-29,Germany,FC Koln v Hertha,draw,3.7,False,299.26,17.96,lost,-17.96,281.3
+326,2019-09-29,Italy,Cagliari v Verona,draw,3.32,True,281.3,16.88,won,39.16,320.46
+327,2019-09-29,Italy,Lecce v Roma,draw,4.47,False,320.46,19.23,lost,-19.23,301.23
+328,2019-09-29,Germany,Fortuna Dusseldorf v Freiburg,draw,3.6,False,301.23,18.07,lost,-18.07,283.16
+329,2019-09-29,France,Nimes v St Etienne,draw,3.41,False,283.16,16.99,lost,-16.99,266.17
+330,2019-09-29,France,Marseille v Rennes,draw,3.64,True,266.17,15.97,won,42.16,308.33
+331,2019-09-29,France,Strasbourg v Montpellier,draw,3.28,False,308.33,18.5,lost,-18.5,289.83
+332,2019-09-29,England,Leicester v Newcastle,draw,4.44,False,289.83,17.39,lost,-17.39,272.44
+333,2019-09-30,England,Man United v Arsenal,draw,3.68,True,272.44,16.35,won,43.82,316.26
+334,2019-09-30,Italy,Parma v Torino,draw,3.3,False,316.26,18.98,lost,-18.98,297.28
+335,2019-10-04,France,Amiens v Marseille,draw,3.48,False,297.28,17.84,lost,-17.84,279.44
+336,2019-10-04,Germany,Hertha v Fortuna Dusseldorf,draw,4.33,False,279.44,16.77,lost,-16.77,262.67
+337,2019-10-04,Spain,Betis v Eibar,draw,3.7,True,262.67,15.76,won,42.55,305.22
+338,2019-10-05,Germany,Schalke 04 v FC Koln,draw,4.51,True,305.22,18.31,won,64.27,369.49
+339,2019-10-05,Germany,Paderborn v Mainz,draw,4.1,False,369.49,22.17,lost,-22.17,347.32
+340,2019-10-05,Germany,Leverkusen v RB Leipzig,draw,3.85,True,347.32,20.84,won,59.39,406.71
+341,2019-10-05,Spain,Osasuna v Villarreal,draw,3.36,False,406.71,24.4,lost,-24.4,382.31
+342,2019-10-05,Spain,Valencia v Alaves,draw,4.17,False,382.31,22.94,lost,-22.94,359.37
+343,2019-10-05,Spain,Real Madrid v Granada,draw,6.35,False,359.37,21.56,lost,-21.56,337.81
+344,2019-10-05,Spain,Leganes v Levante,draw,3.5,False,337.81,20.27,lost,-20.27,317.54
+345,2019-10-05,Germany,Freiburg v Dortmund,draw,4.31,True,317.54,19.05,won,63.06,380.6
+346,2019-10-05,Germany,Bayern Munich v Hoffenheim,draw,12.0,False,380.6,22.84,lost,-22.84,357.76
+347,2019-10-05,England,West Ham v Crystal Palace,draw,3.8,False,357.76,21.47,lost,-21.47,336.29
+348,2019-10-05,England,Watford v Sheffield United,draw,3.4,True,336.29,20.18,won,48.43,384.72
+349,2019-10-05,England,Liverpool v Leicester,draw,4.55,False,384.72,23.08,lost,-23.08,361.64
+350,2019-10-05,France,Montpellier v Monaco,draw,3.48,False,361.64,21.7,lost,-21.7,339.94
+351,2019-10-05,England,Brighton v Tottenham,draw,4.05,False,339.94,20.4,lost,-20.4,319.54
+352,2019-10-05,France,Nantes v Nice,draw,3.42,False,319.54,19.17,lost,-19.17,300.37
+353,2019-10-05,France,Toulouse v Bordeaux,draw,3.3,False,300.37,18.02,lost,-18.02,282.35
+354,2019-10-05,England,Burnley v Everton,draw,3.37,False,282.35,16.94,lost,-16.94,265.41
+355,2019-10-05,Italy,Verona v Sampdoria,draw,3.36,False,265.41,15.92,lost,-15.92,249.49
+356,2019-10-05,Italy,Genoa v Milan,draw,3.36,False,249.49,14.97,lost,-14.97,234.52
+357,2019-10-05,England,Norwich v Aston Villa,draw,3.75,False,234.52,14.07,lost,-14.07,220.45
+358,2019-10-05,Italy,Spal v Parma,draw,3.35,False,220.45,13.23,lost,-13.23,207.22
+359,2019-10-05,France,Brest v Metz,draw,3.34,False,207.22,12.43,lost,-12.43,194.79
+360,2019-10-05,France,Paris SG v Angers,draw,8.33,False,194.79,11.69,lost,-11.69,183.1
+361,2019-10-05,France,Dijon v Strasbourg,draw,3.1,False,183.1,10.99,lost,-10.99,172.11
+362,2019-10-06,Spain,Barcelona v Sevilla,draw,4.86,False,172.11,10.33,lost,-10.33,161.78
+363,2019-10-06,Italy,Torino v Napoli,draw,3.86,True,161.78,9.71,won,27.77,189.55
+364,2019-10-06,Italy,Roma v Cagliari,draw,5.45,True,189.55,11.37,won,50.6,240.15
+365,2019-10-06,Italy,Bologna v Lazio,draw,3.72,True,240.15,14.41,won,39.2,279.35
+366,2019-10-06,Germany,Ein Frankfurt v Werder Bremen,draw,4.03,True,279.35,16.76,won,50.78,330.13
+367,2019-10-06,Germany,M'gladbach v Augsburg,draw,4.65,False,330.13,19.81,lost,-19.81,310.32
+368,2019-10-06,Germany,Wolfsburg v Union Berlin,draw,3.66,False,310.32,18.62,lost,-18.62,291.7
+369,2019-10-06,Italy,Inter v Juventus,draw,3.2,False,291.7,17.5,lost,-17.5,274.2
+370,2019-10-06,Spain,Valladolid v Ath Madrid,draw,3.75,True,274.2,16.45,won,45.24,319.44
+371,2019-10-06,England,Man City v Wolves,draw,10.0,False,319.44,19.17,lost,-19.17,300.27
+372,2019-10-06,France,Lille v Nimes,draw,4.06,True,300.27,18.02,won,55.14,355.41
+373,2019-10-06,France,Rennes v Reims,draw,3.16,False,355.41,21.32,lost,-21.32,334.09
+374,2019-10-06,France,St Etienne v Lyon,draw,3.72,False,334.09,20.05,lost,-20.05,314.04
+375,2019-10-06,Spain,Sociedad v Getafe,draw,3.25,False,314.04,18.84,lost,-18.84,295.2
+376,2019-10-06,Spain,Celta v Ath Bilbao,draw,3.14,False,295.2,17.71,lost,-17.71,277.49
+377,2019-10-06,Spain,Mallorca v Espanol,draw,3.18,False,277.49,16.65,lost,-16.65,260.84
+378,2019-10-06,England,Newcastle v Man United,draw,3.45,False,260.84,15.65,lost,-15.65,245.19
+379,2019-10-06,England,Southampton v Chelsea,draw,4.5,False,245.19,14.71,lost,-14.71,230.48
+380,2019-10-06,Italy,Fiorentina v Udinese,draw,4.35,False,230.48,13.83,lost,-13.83,216.65
+381,2019-10-06,England,Arsenal v Bournemouth,draw,6.0,False,216.65,13.0,lost,-13.0,203.65
+382,2019-10-06,Italy,Atalanta v Lecce,draw,7.6,False,203.65,12.22,lost,-12.22,191.43
+383,2019-10-18,Germany,Ein Frankfurt v Leverkusen,draw,3.9,False,191.43,11.49,lost,-11.49,179.94
+384,2019-10-18,France,Nice v Paris SG,draw,5.25,False,179.94,10.8,lost,-10.8,169.14
+385,2019-10-18,Spain,Granada v Osasuna,draw,3.08,False,169.14,10.15,lost,-10.15,158.99
+386,2019-10-19,Spain,Ath Madrid v Valencia,draw,3.95,True,158.99,9.54,won,28.14,187.13
+387,2019-10-19,Germany,RB Leipzig v Wolfsburg,draw,4.6,True,187.13,11.23,won,40.43,227.56
+388,2019-10-19,Germany,Union Berlin v Freiburg,draw,3.46,False,227.56,13.65,lost,-13.65,213.91
+389,2019-10-19,Spain,Getafe v Leganes,draw,3.0,False,213.91,12.83,lost,-12.83,201.08
+390,2019-10-19,Germany,Dortmund v M'gladbach,draw,4.9,False,201.08,12.06,lost,-12.06,189.02
+391,2019-10-19,Germany,Werder Bremen v Hertha,draw,3.7,True,189.02,11.34,won,30.62,219.64
+392,2019-10-19,Germany,Augsburg v Bayern Munich,draw,10.25,True,219.64,13.18,won,121.91,341.55
+393,2019-10-19,Germany,Fortuna Dusseldorf v Mainz,draw,3.74,False,341.55,20.49,lost,-20.49,321.06
+394,2019-10-19,Spain,Eibar v Barcelona,draw,4.95,False,321.06,19.26,lost,-19.26,301.8
+395,2019-10-19,Spain,Mallorca v Real Madrid,draw,4.7,False,301.8,18.11,lost,-18.11,283.69
+396,2019-10-19,Italy,Napoli v Verona,draw,6.9,False,283.69,17.02,lost,-17.02,266.67
+397,2019-10-19,England,Chelsea v Newcastle,draw,6.5,False,266.67,16.0,lost,-16.0,250.67
+398,2019-10-19,France,Nimes v Amiens,draw,3.48,True,250.67,15.04,won,37.3,287.97
+399,2019-10-19,France,Reims v Montpellier,draw,3.04,False,287.97,17.28,lost,-17.28,270.69
+400,2019-10-19,France,Toulouse v Lille,draw,3.36,False,270.69,16.24,lost,-16.24,254.45
+401,2019-10-19,England,Everton v West Ham,draw,4.2,False,254.45,15.27,lost,-15.27,239.18
+402,2019-10-19,England,Aston Villa v Brighton,draw,3.58,False,239.18,14.35,lost,-14.35,224.83
+403,2019-10-19,England,Leicester v Burnley,draw,4.59,False,224.83,13.49,lost,-13.49,211.34
+404,2019-10-19,Italy,Lazio v Atalanta,draw,3.8,True,211.34,12.68,won,35.5,246.84
+405,2019-10-19,Italy,Juventus v Bologna,draw,5.55,False,246.84,14.81,lost,-14.81,232.03
+406,2019-10-19,France,Lyon v Dijon,draw,5.44,True,232.03,13.92,won,61.8,293.83
+407,2019-10-19,England,Bournemouth v Norwich,draw,4.45,True,293.83,17.63,won,60.82,354.65
+408,2019-10-19,England,Crystal Palace v Man City,draw,8.0,False,354.65,21.28,lost,-21.28,333.37
+409,2019-10-19,England,Wolves v Southampton,draw,3.48,True,333.37,20.0,won,49.6,382.97
+410,2019-10-19,England,Tottenham v Watford,draw,4.75,True,382.97,22.98,won,86.17,469.14
+411,2019-10-19,France,Angers v Brest,draw,3.95,False,469.14,28.15,lost,-28.15,440.99
+412,2019-10-19,France,Metz v Nantes,draw,3.15,False,440.99,26.46,lost,-26.46,414.53
+413,2019-10-20,Germany,FC Koln v Paderborn,draw,4.62,False,414.53,24.87,lost,-24.87,389.66
+414,2019-10-20,England,Man United v Liverpool,draw,3.68,True,389.66,23.38,won,62.66,452.32
+415,2019-10-20,Germany,Hoffenheim v Schalke 04,draw,3.7,False,452.32,27.14,lost,-27.14,425.18
+416,2019-10-20,Italy,Udinese v Torino,draw,3.24,False,425.18,25.51,lost,-25.51,399.67
+417,2019-10-20,Italy,Parma v Genoa,draw,3.3,False,399.67,23.98,lost,-23.98,375.69
+418,2019-10-20,Italy,Sampdoria v Roma,draw,3.56,True,375.69,22.54,won,57.7,433.39
+419,2019-10-20,Italy,Cagliari v Spal,draw,3.6,False,433.39,26.0,lost,-26.0,407.39
+420,2019-10-20,France,Bordeaux v St Etienne,draw,3.2,False,407.39,24.44,lost,-24.44,382.95
+421,2019-10-20,France,Monaco v Rennes,draw,4.06,False,382.95,22.98,lost,-22.98,359.97
+422,2019-10-20,France,Marseille v Strasbourg,draw,3.6,False,359.97,21.6,lost,-21.6,338.37
+423,2019-10-20,Italy,Sassuolo v Inter,draw,4.02,False,338.37,20.3,lost,-20.3,318.07
+424,2019-10-20,Spain,Alaves v Celta,draw,3.09,False,318.07,19.08,lost,-19.08,298.99
+425,2019-10-20,Spain,Sociedad v Betis,draw,4.05,False,298.99,17.94,lost,-17.94,281.05
+426,2019-10-20,Spain,Espanol v Villarreal,draw,3.5,False,281.05,16.86,lost,-16.86,264.19
+427,2019-10-20,Spain,Ath Bilbao v Valladolid,draw,3.48,True,264.19,15.85,won,39.31,303.5
+428,2019-10-20,Spain,Sevilla v Levante,draw,6.25,False,303.5,18.21,lost,-18.21,285.29
+429,2019-10-20,Italy,Milan v Lecce,draw,5.23,True,285.29,17.12,won,72.42,357.71
+430,2019-10-21,Italy,Brescia v Fiorentina,draw,4.08,True,357.71,21.46,won,66.1,423.81
+431,2019-10-21,England,Sheffield United v Arsenal,draw,3.69,False,423.81,25.43,lost,-25.43,398.38
+432,2019-10-25,Spain,Villarreal v Alaves,draw,4.22,False,398.38,23.9,lost,-23.9,374.48
+433,2019-10-25,France,Nantes v Monaco,draw,3.51,False,374.48,22.47,lost,-22.47,352.01
+434,2019-10-25,England,Southampton v Leicester,draw,3.46,False,352.01,21.12,lost,-21.12,330.89
+435,2019-10-25,Italy,Verona v Sassuolo,draw,3.36,False,330.89,19.85,lost,-19.85,311.04
+436,2019-10-25,Germany,Mainz v FC Koln,draw,3.8,False,311.04,18.66,lost,-18.66,292.38
+437,2019-10-26,Italy,Genoa v Brescia,draw,3.78,False,292.38,17.54,lost,-17.54,274.84
+438,2019-10-26,Italy,Inter v Parma,draw,6.0,True,274.84,16.49,won,82.45,357.29
+439,2019-10-26,Spain,Leganes v Mallorca,draw,3.64,False,357.29,21.44,lost,-21.44,335.85
+440,2019-10-26,Spain,Ath Madrid v Ath Bilbao,draw,3.55,False,335.85,20.15,lost,-20.15,315.7
+441,2019-10-26,Spain,Valladolid v Eibar,draw,3.2,False,315.7,18.94,lost,-18.94,296.76
+442,2019-10-26,Italy,Lecce v Juventus,draw,5.6,True,296.76,17.81,won,81.93,378.69
+443,2019-10-26,Germany,Schalke 04 v Dortmund,draw,3.72,True,378.69,22.72,won,61.8,440.49
+444,2019-10-26,Germany,Paderborn v Fortuna Dusseldorf,draw,3.95,False,440.49,26.43,lost,-26.43,414.06
+445,2019-10-26,France,Lille v Bordeaux,draw,3.68,False,414.06,24.84,lost,-24.84,389.22
+446,2019-10-26,England,Man City v Aston Villa,draw,17.0,False,389.22,23.35,lost,-23.35,365.87
+447,2019-10-26,Germany,Bayern Munich v Union Berlin,draw,13.0,False,365.87,21.95,lost,-21.95,343.92
+448,2019-10-26,Germany,Freiburg v RB Leipzig,draw,4.29,False,343.92,20.64,lost,-20.64,323.28
+449,2019-10-26,Germany,Hertha v Hoffenheim,draw,4.0,False,323.28,19.4,lost,-19.4,303.88
+450,2019-10-26,England,Watford v Bournemouth,draw,3.68,True,303.88,18.23,won,48.86,352.74
+451,2019-10-26,England,West Ham v Sheffield United,draw,3.5,True,352.74,21.16,won,52.9,405.64
+452,2019-10-26,Germany,Leverkusen v Werder Bremen,draw,4.44,True,405.64,24.34,won,83.73,489.37
+453,2019-10-26,England,Brighton v Everton,draw,3.45,False,489.37,29.36,lost,-29.36,460.01
+454,2019-10-26,France,Strasbourg v Nice,draw,3.55,False,460.01,27.6,lost,-27.6,432.41
+455,2019-10-26,France,Montpellier v Angers,draw,3.28,True,432.41,25.94,won,59.14,491.55
+456,2019-10-26,England,Burnley v Chelsea,draw,4.2,False,491.55,29.49,lost,-29.49,462.06
+457,2019-10-26,France,Lyon v Metz,draw,4.8,False,462.06,27.72,lost,-27.72,434.34
+458,2019-10-26,France,Brest v Dijon,draw,3.4,False,434.34,26.06,lost,-26.06,408.28
+459,2019-10-26,France,Reims v Nimes,draw,3.85,True,408.28,24.5,won,69.83,478.11
+460,2019-10-27,England,Newcastle v Wolves,draw,3.2,True,478.11,28.69,won,63.12,541.23
+461,2019-10-27,England,Arsenal v Crystal Palace,draw,4.9,True,541.23,32.47,won,126.63,667.86
+462,2019-10-27,England,Liverpool v Tottenham,draw,5.09,False,667.86,40.07,lost,-40.07,627.79
+463,2019-10-27,Spain,Osasuna v Valencia,draw,3.32,False,627.79,37.67,lost,-37.67,590.12
+464,2019-10-27,Spain,Sevilla v Getafe,draw,3.7,False,590.12,35.41,lost,-35.41,554.71
+465,2019-10-27,Spain,Levante v Espanol,draw,3.5,False,554.71,33.28,lost,-33.28,521.43
+466,2019-10-27,Spain,Granada v Betis,draw,3.36,False,521.43,31.29,lost,-31.29,490.14
+467,2019-10-27,Spain,Celta v Sociedad,draw,3.4,False,490.14,29.41,lost,-29.41,460.73
+468,2019-10-27,France,Paris SG v Marseille,draw,8.0,False,460.73,27.64,lost,-27.64,433.09
+469,2019-10-27,England,Norwich v Man United,draw,3.9,False,433.09,25.99,lost,-25.99,407.1
+470,2019-10-27,Italy,Atalanta v Udinese,draw,5.05,False,407.1,24.43,lost,-24.43,382.67
+471,2019-10-27,France,St Etienne v Amiens,draw,3.33,True,382.67,22.96,won,53.5,436.17
+472,2019-10-27,Germany,M'gladbach v Ein Frankfurt,draw,3.91,False,436.17,26.17,lost,-26.17,410.0
+473,2019-10-27,Germany,Wolfsburg v Augsburg,draw,4.4,True,410.0,24.6,won,83.64,493.64
+474,2019-10-27,Italy,Bologna v Sampdoria,draw,3.66,False,493.64,29.62,lost,-29.62,464.02
+475,2019-10-27,France,Rennes v Toulouse,draw,3.8,False,464.02,27.84,lost,-27.84,436.18
+476,2019-10-27,Italy,Roma v Milan,draw,3.56,False,436.18,26.17,lost,-26.17,410.01
+477,2019-10-27,Italy,Fiorentina v Lazio,draw,3.55,False,410.01,24.6,lost,-24.6,385.41
+478,2019-10-27,Italy,Spal v Napoli,draw,4.65,True,385.41,23.12,won,84.39,469.8
+479,2019-10-27,Italy,Torino v Cagliari,draw,3.94,True,469.8,28.19,won,82.88,552.68
+480,2019-10-29,Italy,Parma v Verona,draw,3.2,False,552.68,33.16,lost,-33.16,519.52
+481,2019-10-29,Italy,Brescia v Inter,draw,5.25,False,519.52,31.17,lost,-31.17,488.35
+482,2019-10-29,Spain,Alaves v Ath Madrid,draw,3.3,True,488.35,29.3,won,67.39,555.74
+483,2019-10-29,Spain,Barcelona v Valladolid,draw,11.0,False,555.74,33.34,lost,-33.34,522.4
+484,2019-10-30,Italy,Udinese v Roma,draw,3.5,False,522.4,31.34,lost,-31.34,491.06
+485,2019-10-30,Italy,Sassuolo v Fiorentina,draw,3.48,False,491.06,29.46,lost,-29.46,461.6
+486,2019-10-30,Italy,Sampdoria v Lecce,draw,4.03,True,461.6,27.7,won,83.93,545.53
+487,2019-10-30,Italy,Lazio v Torino,draw,4.6,False,545.53,32.73,lost,-32.73,512.8
+488,2019-10-30,Spain,Betis v Celta,draw,3.6,False,512.8,30.77,lost,-30.77,482.03
+489,2019-10-30,Spain,Real Madrid v Leganes,draw,6.17,False,482.03,28.92,lost,-28.92,453.11
+490,2019-10-30,Spain,Ath Bilbao v Espanol,draw,3.32,False,453.11,27.19,lost,-27.19,425.92
+491,2019-10-30,Spain,Sociedad v Levante,draw,4.6,False,425.92,25.56,lost,-25.56,400.36
+492,2019-10-30,Italy,Cagliari v Bologna,draw,3.5,False,400.36,24.02,lost,-24.02,376.34
+493,2019-10-30,Italy,Napoli v Atalanta,draw,3.75,True,376.34,22.58,won,62.09,438.43
+494,2019-10-30,Italy,Juventus v Genoa,draw,7.75,False,438.43,26.31,lost,-26.31,412.12
+495,2019-10-30,Spain,Valencia v Sevilla,draw,3.42,True,412.12,24.73,won,59.85,471.97
+496,2019-10-31,Spain,Eibar v Villarreal,draw,3.56,False,471.97,28.32,lost,-28.32,443.65
+497,2019-10-31,Spain,Mallorca v Osasuna,draw,3.15,True,443.65,26.62,won,57.23,500.88
+498,2019-10-31,Italy,Milan v Spal,draw,4.1,False,500.88,30.05,lost,-30.05,470.83
+499,2019-10-31,Spain,Getafe v Granada,draw,3.58,False,470.83,28.25,lost,-28.25,442.58
+500,2019-11-01,Germany,Hoffenheim v Paderborn,draw,5.3,False,442.58,26.55,lost,-26.55,416.03
+501,2019-11-01,France,Dijon v Paris SG,draw,7.2,False,416.03,24.96,lost,-24.96,391.07
+502,2019-11-02,Italy,Roma v Napoli,draw,3.75,False,391.07,23.46,lost,-23.46,367.61
+503,2019-11-02,Spain,Espanol v Valencia,draw,3.38,False,367.61,22.06,lost,-22.06,345.55
+504,2019-11-02,England,Arsenal v Wolves,draw,4.0,True,345.55,20.73,won,62.19,407.74
+505,2019-11-02,Germany,Union Berlin v Hertha,draw,3.48,False,407.74,24.46,lost,-24.46,383.28
+506,2019-11-02,Germany,Werder Bremen v Freiburg,draw,4.14,True,383.28,23.0,won,72.22,455.5
+507,2019-11-02,Germany,RB Leipzig v Mainz,draw,6.09,False,455.5,27.33,lost,-27.33,428.17
+508,2019-11-02,Germany,Leverkusen v M'gladbach,draw,4.1,False,428.17,25.69,lost,-25.69,402.48
+509,2019-11-02,Germany,Ein Frankfurt v Bayern Munich,draw,5.91,False,402.48,24.15,lost,-24.15,378.33
+510,2019-11-02,Germany,Dortmund v Wolfsburg,draw,4.66,False,378.33,22.7,lost,-22.7,355.63
+511,2019-11-02,England,Watford v Chelsea,draw,4.49,False,355.63,21.34,lost,-21.34,334.29
+512,2019-11-02,England,West Ham v Newcastle,draw,3.9,False,334.29,20.06,lost,-20.06,314.23
+513,2019-11-02,England,Sheffield United v Burnley,draw,3.34,False,314.23,18.85,lost,-18.85,295.38
+514,2019-11-02,England,Bournemouth v Man United,draw,3.7,False,295.38,17.72,lost,-17.72,277.66
+515,2019-11-02,England,Brighton v Norwich,draw,4.7,False,277.66,16.66,lost,-16.66,261.0
+516,2019-11-02,England,Man City v Southampton,draw,15.0,False,261.0,15.66,lost,-15.66,245.34
+517,2019-11-02,France,Toulouse v Lyon,draw,4.2,False,245.34,14.72,lost,-14.72,230.62
+518,2019-11-02,France,Metz v Montpellier,draw,3.1,True,230.62,13.84,won,29.06,259.68
+519,2019-11-02,France,Angers v Strasbourg,draw,3.21,False,259.68,15.58,lost,-15.58,244.1
+520,2019-11-02,France,Amiens v Brest,draw,4.1,False,244.1,14.65,lost,-14.65,229.45
+521,2019-11-02,France,Marseille v Lille,draw,3.36,False,229.45,13.77,lost,-13.77,215.68
+522,2019-11-02,Italy,Bologna v Inter,draw,3.75,False,215.68,12.94,lost,-12.94,202.74
+523,2019-11-02,Spain,Levante v Barcelona,draw,7.89,False,202.74,12.16,lost,-12.16,190.58
+524,2019-11-02,Spain,Sevilla v Ath Madrid,draw,3.24,True,190.58,11.43,won,25.6,216.18
+525,2019-11-02,Spain,Real Madrid v Betis,draw,7.5,True,216.18,12.97,won,84.31,300.49
+526,2019-11-02,England,Aston Villa v Liverpool,draw,6.95,False,300.49,18.03,lost,-18.03,282.46
+527,2019-11-02,Italy,Torino v Juventus,draw,4.26,False,282.46,16.95,lost,-16.95,265.51
+528,2019-11-03,Italy,Lecce v Sassuolo,draw,3.49,True,265.51,15.93,won,39.67,305.18
+529,2019-11-03,Italy,Verona v Brescia,draw,3.38,False,305.18,18.31,lost,-18.31,286.87
+530,2019-11-03,Italy,Atalanta v Cagliari,draw,6.07,False,286.87,17.21,lost,-17.21,269.66
+531,2019-11-03,Germany,Augsburg v Schalke 04,draw,4.1,False,269.66,16.18,lost,-16.18,253.48
+532,2019-11-03,England,Crystal Palace v Leicester,draw,3.65,False,253.48,15.21,lost,-15.21,238.27
+533,2019-11-03,England,Everton v Tottenham,draw,3.68,True,238.27,14.3,won,38.32,276.59
+534,2019-11-03,Italy,Fiorentina v Parma,draw,4.3,True,276.59,16.6,won,54.78,331.37
+535,2019-11-03,Germany,Fortuna Dusseldorf v FC Koln,draw,3.55,False,331.37,19.88,lost,-19.88,311.49
+536,2019-11-03,Italy,Milan v Lazio,draw,3.55,False,311.49,18.69,lost,-18.69,292.8
+537,2019-11-03,Italy,Genoa v Udinese,draw,3.76,False,292.8,17.57,lost,-17.57,275.23
+538,2019-11-03,Spain,Valladolid v Mallorca,draw,3.4,False,275.23,16.51,lost,-16.51,258.72
+539,2019-11-03,France,St Etienne v Monaco,draw,3.58,False,258.72,15.52,lost,-15.52,243.2
+540,2019-11-03,France,Nice v Reims,draw,3.16,False,243.2,14.59,lost,-14.59,228.61
+541,2019-11-03,Spain,Granada v Sociedad,draw,3.23,False,228.61,13.72,lost,-13.72,214.89
+542,2019-11-03,Spain,Leganes v Eibar,draw,3.2,False,214.89,12.89,lost,-12.89,202.0
+543,2019-11-03,Spain,Celta v Getafe,draw,3.17,False,202.0,12.12,lost,-12.12,189.88
+544,2019-11-03,Spain,Osasuna v Alaves,draw,3.55,False,189.88,11.39,lost,-11.39,178.49
+545,2019-11-03,Spain,Villarreal v Ath Bilbao,draw,3.4,True,178.49,10.71,won,25.7,204.19
+546,2019-11-03,France,Bordeaux v Nantes,draw,3.07,False,204.19,12.25,lost,-12.25,191.94
+547,2019-11-04,Italy,Spal v Sampdoria,draw,3.32,False,191.94,11.52,lost,-11.52,180.42
+548,2019-11-08,France,Nice v Bordeaux,draw,3.23,True,180.42,10.83,won,24.15,204.57
+549,2019-11-08,Spain,Sociedad v Leganes,draw,3.45,True,204.57,12.27,won,30.06,234.63
+550,2019-11-08,England,Norwich v Watford,draw,3.7,False,234.63,14.08,lost,-14.08,220.55
+551,2019-11-08,Italy,Sassuolo v Bologna,draw,3.6,False,220.55,13.23,lost,-13.23,207.32
+552,2019-11-08,Germany,FC Koln v Hoffenheim,draw,3.85,False,207.32,12.44,lost,-12.44,194.88
+553,2019-11-09,Italy,Brescia v Torino,draw,3.36,False,194.88,11.69,lost,-11.69,183.19
+554,2019-11-09,England,Chelsea v Crystal Palace,draw,5.0,False,183.19,10.99,lost,-10.99,172.2
+555,2019-11-09,Italy,Inter v Verona,draw,5.75,False,172.2,10.33,lost,-10.33,161.87
+556,2019-11-09,Spain,Alaves v Valladolid,draw,3.16,False,161.87,9.71,lost,-9.71,152.16
+557,2019-11-09,Spain,Valencia v Granada,draw,3.85,False,152.16,9.13,lost,-9.13,143.03
+558,2019-11-09,Spain,Eibar v Real Madrid,draw,4.5,False,143.03,8.58,lost,-8.58,134.45
+559,2019-11-09,Spain,Barcelona v Celta,draw,7.95,False,134.45,8.07,lost,-8.07,126.38
+560,2019-11-09,France,Reims v Angers,draw,3.09,True,126.38,7.58,won,15.84,142.22
+561,2019-11-09,Italy,Napoli v Genoa,draw,6.45,True,142.22,8.53,won,46.49,188.71
+562,2019-11-09,France,Lille v Metz,draw,4.1,True,188.71,11.32,won,35.09,223.8
+563,2019-11-09,France,Strasbourg v Nimes,draw,3.7,False,223.8,13.43,lost,-13.43,210.37
+564,2019-11-09,France,Brest v Paris SG,draw,6.9,False,210.37,12.62,lost,-12.62,197.75
+565,2019-11-09,Germany,Hertha v RB Leipzig,draw,4.38,False,197.75,11.87,lost,-11.87,185.88
+566,2019-11-09,Germany,Mainz v Union Berlin,draw,3.5,False,185.88,11.15,lost,-11.15,174.73
+567,2019-11-09,Germany,Paderborn v Augsburg,draw,3.85,False,174.73,10.48,lost,-10.48,164.25
+568,2019-11-09,Germany,Schalke 04 v Fortuna Dusseldorf,draw,4.14,True,164.25,9.86,won,30.96,195.21
+569,2019-11-09,Germany,Bayern Munich v Dortmund,draw,5.0,False,195.21,11.71,lost,-11.71,183.5
+570,2019-11-09,England,Newcastle v Bournemouth,draw,3.47,False,183.5,11.01,lost,-11.01,172.49
+571,2019-11-09,France,Monaco v Dijon,draw,5.2,False,172.49,10.35,lost,-10.35,162.14
+572,2019-11-09,England,Southampton v Everton,draw,3.56,False,162.14,9.73,lost,-9.73,152.41
+573,2019-11-09,England,Burnley v West Ham,draw,3.7,False,152.41,9.14,lost,-9.14,143.27
+574,2019-11-09,England,Leicester v Arsenal,draw,4.2,False,143.27,8.6,lost,-8.6,134.67
+575,2019-11-09,England,Tottenham v Sheffield United,draw,4.45,True,134.67,8.08,won,27.88,162.55
+576,2019-11-10,Spain,Ath Madrid v Espanol,draw,4.28,False,162.55,9.75,lost,-9.75,152.8
+577,2019-11-10,Spain,Mallorca v Villarreal,draw,3.55,False,152.8,9.17,lost,-9.17,143.63
+578,2019-11-10,Spain,Getafe v Osasuna,draw,3.44,True,143.63,8.62,won,21.03,164.66
+579,2019-11-10,Germany,M'gladbach v Werder Bremen,draw,4.08,False,164.66,9.88,lost,-9.88,154.78
+580,2019-11-10,Germany,Freiburg v Ein Frankfurt,draw,3.82,False,154.78,9.29,lost,-9.29,145.49
+581,2019-11-10,England,Liverpool v Man City,draw,3.75,False,145.49,8.73,lost,-8.73,136.76
+582,2019-11-10,Germany,Wolfsburg v Leverkusen,draw,3.72,False,136.76,8.21,lost,-8.21,128.55
+583,2019-11-10,Spain,Betis v Sevilla,draw,3.72,False,128.55,7.71,lost,-7.71,120.84
+584,2019-11-10,Spain,Ath Bilbao v Levante,draw,4.05,False,120.84,7.25,lost,-7.25,113.59
+585,2019-11-10,Italy,Lazio v Lecce,draw,8.4,False,113.59,6.82,lost,-6.82,106.77
+586,2019-11-10,Italy,Cagliari v Fiorentina,draw,3.36,False,106.77,6.41,lost,-6.41,100.36
+587,2019-11-10,France,Marseille v Lyon,draw,3.58,False,100.36,6.02,lost,-6.02,94.34
+588,2019-11-10,Italy,Sampdoria v Atalanta,draw,4.2,True,94.34,5.66,won,18.11,112.45
+589,2019-11-10,Italy,Udinese v Spal,draw,3.38,True,112.45,6.75,won,16.06,128.51
+590,2019-11-10,Italy,Parma v Roma,draw,4.2,False,128.51,7.71,lost,-7.71,120.8
+591,2019-11-10,France,Montpellier v Toulouse,draw,3.67,False,120.8,7.25,lost,-7.25,113.55
+592,2019-11-10,France,Nantes v St Etienne,draw,3.6,False,113.55,6.81,lost,-6.81,106.74
+593,2019-11-10,England,Man United v Brighton,draw,3.9,False,106.74,6.4,lost,-6.4,100.34
+594,2019-11-10,Italy,Juventus v Milan,draw,5.0,False,100.34,6.02,lost,-6.02,94.32
+595,2019-11-10,England,Wolves v Aston Villa,draw,4.0,False,94.32,5.66,lost,-5.66,88.66
+596,2019-11-10,France,Rennes v Amiens,draw,3.4,False,88.66,5.32,lost,-5.32,83.34
+597,2019-11-22,Germany,Dortmund v Paderborn,draw,9.5,True,83.34,5.0,won,42.5,125.84
+598,2019-11-22,France,Paris SG v Lille,draw,6.1,False,125.84,7.55,lost,-7.55,118.29
+599,2019-11-22,Spain,Levante v Mallorca,draw,3.86,False,118.29,7.1,lost,-7.1,111.19
+600,2019-11-23,England,Bournemouth v Wolves,draw,3.32,False,111.19,6.67,lost,-6.67,104.52
+601,2019-11-23,Italy,Torino v Inter,draw,3.59,False,104.52,6.27,lost,-6.27,98.25
+602,2019-11-23,Italy,Milan v Napoli,draw,3.48,True,98.25,5.89,won,14.61,112.86
+603,2019-11-23,France,Lyon v Nice,draw,4.48,False,112.86,6.77,lost,-6.77,106.09
+604,2019-11-23,Italy,Atalanta v Juventus,draw,3.65,False,106.09,6.37,lost,-6.37,99.72
+605,2019-11-23,Germany,Ein Frankfurt v Wolfsburg,draw,3.66,False,99.72,5.98,lost,-5.98,93.74
+606,2019-11-23,Germany,Fortuna Dusseldorf v Bayern Munich,draw,7.5,False,93.74,5.62,lost,-5.62,88.12
+607,2019-11-23,Germany,Leverkusen v Freiburg,draw,4.9,True,88.12,5.29,won,20.63,108.75
+608,2019-11-23,England,Brighton v Leicester,draw,3.71,False,108.75,6.52,lost,-6.52,102.23
+609,2019-11-23,England,Crystal Palace v Liverpool,draw,4.7,False,102.23,6.13,lost,-6.13,96.1
+610,2019-11-23,England,Everton v Norwich,draw,5.7,False,96.1,5.77,lost,-5.77,90.33
+611,2019-11-23,France,Angers v Nimes,draw,3.71,False,90.33,5.42,lost,-5.42,84.91
+612,2019-11-23,France,Amiens v Strasbourg,draw,3.2,False,84.91,5.09,lost,-5.09,79.82
+613,2019-11-23,Spain,Real Madrid v Sociedad,draw,5.6,False,79.82,4.79,lost,-4.79,75.03
+614,2019-11-23,Spain,Granada v Ath Madrid,draw,3.35,True,75.03,4.5,won,10.58,85.61
+615,2019-11-23,Spain,Betis v Valencia,draw,3.72,False,85.61,5.14,lost,-5.14,80.47
+616,2019-11-23,Spain,Leganes v Barcelona,draw,4.5,False,80.47,4.83,lost,-4.83,75.64
+617,2019-11-23,Germany,Union Berlin v M'gladbach,draw,3.9,False,75.64,4.54,lost,-4.54,71.1
+618,2019-11-23,Germany,Werder Bremen v Schalke 04,draw,3.68,False,71.1,4.27,lost,-4.27,66.83
+619,2019-11-23,Germany,RB Leipzig v FC Koln,draw,5.1,False,66.83,4.01,lost,-4.01,62.82
+620,2019-11-23,England,Watford v Burnley,draw,3.45,False,62.82,3.77,lost,-3.77,59.05
+621,2019-11-23,England,Arsenal v Southampton,draw,5.1,True,59.05,3.54,won,14.51,73.56
+622,2019-11-23,England,Man City v Chelsea,draw,6.0,False,73.56,4.41,lost,-4.41,69.15
+623,2019-11-23,France,Metz v Reims,draw,3.02,True,69.15,4.15,won,8.38,77.53
+624,2019-11-23,France,Dijon v Rennes,draw,3.36,False,77.53,4.65,lost,-4.65,72.88
+625,2019-11-23,France,Brest v Nantes,draw,3.3,True,72.88,4.37,won,10.05,82.93
+626,2019-11-23,England,West Ham v Tottenham,draw,4.57,False,82.93,4.98,lost,-4.98,77.95
+627,2019-11-24,Italy,Bologna v Parma,draw,3.92,True,77.95,4.68,won,13.67,91.62
+628,2019-11-24,England,Sheffield United v Man United,draw,3.5,True,91.62,5.5,won,13.75,105.37
+629,2019-11-24,Italy,Sampdoria v Udinese,draw,3.46,False,105.37,6.32,lost,-6.32,99.05
+630,2019-11-24,Italy,Roma v Brescia,draw,5.7,False,99.05,5.94,lost,-5.94,93.11
+631,2019-11-24,Italy,Sassuolo v Lazio,draw,4.54,False,93.11,5.59,lost,-5.59,87.52
+632,2019-11-24,Spain,Villarreal v Celta,draw,4.06,False,87.52,5.25,lost,-5.25,82.27
+633,2019-11-24,Italy,Verona v Fiorentina,draw,3.5,False,82.27,4.94,lost,-4.94,77.33
+634,2019-11-24,Spain,Valladolid v Sevilla,draw,3.86,False,77.33,4.64,lost,-4.64,72.69
+635,2019-11-24,Spain,Eibar v Alaves,draw,3.64,False,72.69,4.36,lost,-4.36,68.33
+636,2019-11-24,France,Toulouse v Marseille,draw,3.65,False,68.33,4.1,lost,-4.1,64.23
+637,2019-11-24,France,St Etienne v Montpellier,draw,3.33,True,64.23,3.85,won,8.97,73.2
+638,2019-11-24,France,Bordeaux v Monaco,draw,3.7,False,73.2,4.39,lost,-4.39,68.81
+639,2019-11-24,Spain,Osasuna v Ath Bilbao,draw,3.05,False,68.81,4.13,lost,-4.13,64.68
+640,2019-11-24,Spain,Espanol v Getafe,draw,3.0,True,64.68,3.88,won,7.76,72.44
+641,2019-11-24,Germany,Augsburg v Hertha,draw,3.75,False,72.44,4.35,lost,-4.35,68.09
+642,2019-11-24,Germany,Hoffenheim v Mainz,draw,4.3,False,68.09,4.09,lost,-4.09,64.0
+643,2019-11-25,Italy,Lecce v Cagliari,draw,3.6,True,64.0,3.84,won,9.98,73.98
+644,2019-11-25,England,Aston Villa v Newcastle,draw,3.7,False,73.98,4.44,lost,-4.44,69.54
+645,2019-11-25,Italy,Spal v Genoa,draw,3.4,True,69.54,4.17,won,10.01,79.55
+646,2019-11-29,Spain,Celta v Valladolid,draw,3.8,True,79.55,4.77,won,13.36,92.91
+647,2019-11-29,Germany,Schalke 04 v Union Berlin,draw,4.1,False,92.91,5.57,lost,-5.57,87.34
+648,2019-11-29,France,Marseille v Brest,draw,5.0,False,87.34,5.24,lost,-5.24,82.1
+649,2019-11-30,England,Tottenham v Bournemouth,draw,5.85,False,82.1,4.93,lost,-4.93,77.17
+650,2019-11-30,England,Newcastle v Man City,draw,8.5,True,77.17,4.63,won,34.73,111.9
+651,2019-11-30,Germany,Paderborn v RB Leipzig,draw,6.48,False,111.9,6.71,lost,-6.71,105.19
+652,2019-11-30,Germany,Hoffenheim v Fortuna Dusseldorf,draw,4.02,True,105.19,6.31,won,19.06,124.25
+653,2019-11-30,England,Burnley v Crystal Palace,draw,3.58,False,124.25,7.46,lost,-7.46,116.79
+654,2019-11-30,England,Chelsea v West Ham,draw,6.65,False,116.79,7.01,lost,-7.01,109.78
+655,2019-11-30,England,Liverpool v Brighton,draw,7.75,False,109.78,6.59,lost,-6.59,103.19
+656,2019-11-30,Germany,Bayern Munich v Leverkusen,draw,7.4,False,103.19,6.19,lost,-6.19,97.0
+657,2019-11-30,England,Southampton v Watford,draw,3.66,False,97.0,5.82,lost,-5.82,91.18
+658,2019-11-30,Germany,FC Koln v Augsburg,draw,4.0,True,91.18,5.47,won,16.41,107.59
+659,2019-11-30,Spain,Alaves v Real Madrid,draw,5.15,False,107.59,6.46,lost,-6.46,101.13
+660,2019-11-30,France,Reims v Bordeaux,draw,3.2,True,101.13,6.07,won,13.35,114.48
+661,2019-11-30,France,Nimes v Metz,draw,3.36,True,114.48,6.87,won,16.21,130.69
+662,2019-11-30,France,Nice v Angers,draw,3.32,False,130.69,7.84,lost,-7.84,122.85
+663,2019-11-30,France,Montpellier v Amiens,draw,3.7,False,122.85,7.37,lost,-7.37,115.48
+664,2019-11-30,Italy,Fiorentina v Lecce,draw,4.79,False,115.48,6.93,lost,-6.93,108.55
+665,2019-11-30,Italy,Genoa v Torino,draw,3.32,False,108.55,6.51,lost,-6.51,102.04
+666,2019-11-30,Italy,Brescia v Atalanta,draw,5.11,False,102.04,6.12,lost,-6.12,95.92
+667,2019-11-30,France,Lille v Dijon,draw,5.0,False,95.92,5.76,lost,-5.76,90.16
+668,2019-11-30,France,Strasbourg v Lyon,draw,3.34,False,90.16,5.41,lost,-5.41,84.75
+669,2019-11-30,Germany,Hertha v Dortmund,draw,4.32,False,84.75,5.08,lost,-5.08,79.67
+670,2019-11-30,Spain,Mallorca v Betis,draw,3.39,False,79.67,4.78,lost,-4.78,74.89
+671,2019-11-30,Spain,Valencia v Villarreal,draw,3.86,False,74.89,4.49,lost,-4.49,70.4
+672,2019-11-30,Spain,Sociedad v Eibar,draw,4.04,False,70.4,4.22,lost,-4.22,66.18
+673,2019-12-01,France,Nantes v Toulouse,draw,3.7,False,66.18,3.97,lost,-3.97,62.21
+674,2019-12-01,Spain,Sevilla v Leganes,draw,4.2,False,62.21,3.73,lost,-3.73,58.48
+675,2019-12-01,Spain,Ath Bilbao v Granada,draw,3.49,False,58.48,3.51,lost,-3.51,54.97
+676,2019-12-01,Germany,Wolfsburg v Werder Bremen,draw,3.88,False,54.97,3.3,lost,-3.3,51.67
+677,2019-12-01,Germany,M'gladbach v Freiburg,draw,4.6,False,51.67,3.1,lost,-3.1,48.57
+678,2019-12-01,Spain,Espanol v Osasuna,draw,3.27,False,48.57,2.91,lost,-2.91,45.66
+679,2019-12-01,Spain,Getafe v Levante,draw,3.85,False,45.66,2.74,lost,-2.74,42.92
+680,2019-12-01,Spain,Ath Madrid v Barcelona,draw,3.33,False,42.92,2.58,lost,-2.58,40.34
+681,2019-12-01,England,Wolves v Sheffield United,draw,3.4,True,40.34,2.42,won,5.81,46.15
+682,2019-12-01,Italy,Verona v Roma,draw,3.96,False,46.15,2.77,lost,-2.77,43.38
+683,2019-12-01,England,Norwich v Arsenal,draw,4.65,True,43.38,2.6,won,9.49,52.87
+684,2019-12-01,England,Leicester v Everton,draw,4.5,False,52.87,3.17,lost,-3.17,49.7
+685,2019-12-01,England,Man United v Aston Villa,draw,4.9,True,49.7,2.98,won,11.62,61.32
+686,2019-12-01,Italy,Juventus v Sassuolo,draw,8.45,True,61.32,3.68,won,27.42,88.74
+687,2019-12-01,France,Rennes v St Etienne,draw,3.46,False,88.74,5.32,lost,-5.32,83.42
+688,2019-12-01,Italy,Lazio v Udinese,draw,5.95,False,83.42,5.01,lost,-5.01,78.41
+689,2019-12-01,Italy,Napoli v Bologna,draw,4.85,False,78.41,4.7,lost,-4.7,73.71
+690,2019-12-01,Italy,Parma v Milan,draw,3.37,False,73.71,4.42,lost,-4.42,69.29
+691,2019-12-01,Italy,Inter v Spal,draw,6.25,False,69.29,4.16,lost,-4.16,65.13
+692,2019-12-02,Italy,Cagliari v Sampdoria,draw,3.54,False,65.13,3.91,lost,-3.91,61.22
+693,2019-12-02,Germany,Mainz v Ein Frankfurt,draw,4.03,False,61.22,3.67,lost,-3.67,57.55
+694,2019-12-03,France,Angers v Marseille,draw,3.34,False,57.55,3.45,lost,-3.45,54.1
+695,2019-12-03,France,Bordeaux v Nimes,draw,3.43,False,54.1,3.25,lost,-3.25,50.85
+696,2019-12-03,France,Brest v Strasbourg,draw,3.36,False,50.85,3.05,lost,-3.05,47.8
+697,2019-12-03,France,Lyon v Lille,draw,3.55,False,47.8,2.87,lost,-2.87,44.93
+698,2019-12-03,England,Crystal Palace v Bournemouth,draw,3.56,False,44.93,2.7,lost,-2.7,42.23
+699,2019-12-03,England,Burnley v Man City,draw,7.75,False,42.23,2.53,lost,-2.53,39.7
+700,2019-12-04,France,Toulouse v Monaco,draw,3.85,False,39.7,2.38,lost,-2.38,37.32
+701,2019-12-04,France,St Etienne v Nice,draw,3.5,False,37.32,2.24,lost,-2.24,35.08
+702,2019-12-04,France,Metz v Rennes,draw,3.16,False,35.08,2.1,lost,-2.1,32.98
+703,2019-12-04,France,Paris SG v Nantes,draw,10.0,False,32.98,1.98,lost,-1.98,31.0
+704,2019-12-04,France,Dijon v Montpellier,draw,3.18,True,31.0,1.86,won,4.05,35.05
+705,2019-12-04,England,Chelsea v Aston Villa,draw,6.0,False,35.05,2.1,lost,-2.1,32.95
+706,2019-12-04,England,Man United v Tottenham,draw,3.52,False,32.95,1.98,lost,-1.98,30.97
+707,2019-12-04,England,Liverpool v Everton,draw,4.8,False,30.97,1.86,lost,-1.86,29.11
+708,2019-12-04,England,Wolves v West Ham,draw,4.2,False,29.11,1.75,lost,-1.75,27.36
+709,2019-12-04,England,Southampton v Norwich,draw,4.08,False,27.36,1.64,lost,-1.64,25.72
+710,2019-12-04,England,Leicester v Watford,draw,5.7,False,25.72,1.54,lost,-1.54,24.18
+711,2019-12-05,England,Arsenal v Brighton,draw,4.64,False,24.18,1.45,lost,-1.45,22.73
+712,2019-12-05,England,Sheffield United v Newcastle,draw,3.7,False,22.73,1.36,lost,-1.36,21.37
+713,2019-12-06,France,Lille v Brest,draw,5.7,False,21.37,1.28,lost,-1.28,20.09
+714,2019-12-06,France,Nimes v Lyon,draw,4.2,False,20.09,1.21,lost,-1.21,18.88
+715,2019-12-06,Germany,Ein Frankfurt v Hertha,draw,4.15,True,18.88,1.13,won,3.56,22.44
+716,2019-12-06,Italy,Inter v Roma,draw,4.1,True,22.44,1.35,won,4.18,26.62
+717,2019-12-06,Spain,Villarreal v Ath Madrid,draw,3.46,True,26.62,1.6,won,3.94,30.56
+718,2019-12-07,France,Nice v Metz,draw,3.71,False,30.56,1.83,lost,-1.83,28.73
+719,2019-12-07,France,Rennes v Angers,draw,3.3,False,28.73,1.72,lost,-1.72,27.01
+720,2019-12-07,France,Strasbourg v Toulouse,draw,3.91,False,27.01,1.62,lost,-1.62,25.39
+721,2019-12-07,Spain,Real Madrid v Espanol,draw,7.35,False,25.39,1.52,lost,-1.52,23.87
+722,2019-12-07,Spain,Granada v Alaves,draw,3.14,False,23.87,1.43,lost,-1.43,22.44
+723,2019-12-07,Italy,Lazio v Juventus,draw,3.7,False,22.44,1.35,lost,-1.35,21.09
+724,2019-12-07,Italy,Udinese v Napoli,draw,4.5,True,21.09,1.27,won,4.45,25.54
+725,2019-12-07,Spain,Levante v Valencia,draw,4.08,False,25.54,1.53,lost,-1.53,24.01
+726,2019-12-07,Spain,Barcelona v Mallorca,draw,12.4,False,24.01,1.44,lost,-1.44,22.57
+727,2019-12-07,Italy,Atalanta v Verona,draw,5.6,False,22.57,1.35,lost,-1.35,21.22
+728,2019-12-07,France,Monaco v Amiens,draw,5.05,False,21.22,1.27,lost,-1.27,19.95
+729,2019-12-07,England,Man City v Man United,draw,6.3,False,19.95,1.2,lost,-1.2,18.75
+730,2019-12-07,Germany,Augsburg v Mainz,draw,3.94,False,18.75,1.12,lost,-1.12,17.63
+731,2019-12-07,Germany,RB Leipzig v Hoffenheim,draw,5.45,False,17.63,1.06,lost,-1.06,16.57
+732,2019-12-07,Germany,M'gladbach v Bayern Munich,draw,5.35,False,16.57,0.99,lost,-0.99,15.58
+733,2019-12-07,Germany,Freiburg v Wolfsburg,draw,3.58,False,15.58,0.93,lost,-0.93,14.65
+734,2019-12-07,Germany,Dortmund v Fortuna Dusseldorf,draw,5.95,False,14.65,0.88,lost,-0.88,13.77
+735,2019-12-07,Germany,Leverkusen v Schalke 04,draw,4.0,False,13.77,0.83,lost,-0.83,12.94
+736,2019-12-07,England,Everton v Chelsea,draw,3.88,False,12.94,0.78,lost,-0.78,12.16
+737,2019-12-07,France,Montpellier v Paris SG,draw,5.22,False,12.16,0.73,lost,-0.73,11.43
+738,2019-12-07,England,Watford v Crystal Palace,draw,3.48,True,11.43,0.69,won,1.71,13.14
+739,2019-12-07,England,Tottenham v Burnley,draw,5.0,False,13.14,0.79,lost,-0.79,12.35
+740,2019-12-07,England,Bournemouth v Liverpool,draw,5.0,False,12.35,0.74,lost,-0.74,11.61
+741,2019-12-08,Italy,Torino v Fiorentina,draw,3.31,False,11.61,0.7,lost,-0.7,10.91
+742,2019-12-08,Italy,Sassuolo v Cagliari,draw,3.7,True,10.91,0.65,won,1.76,12.67
+743,2019-12-08,Italy,Lecce v Genoa,draw,3.7,True,12.67,0.76,won,2.05,14.72
+744,2019-12-08,Spain,Betis v Ath Bilbao,draw,3.3,False,14.72,0.88,lost,-0.88,13.84
+745,2019-12-08,Spain,Eibar v Getafe,draw,3.06,False,13.84,0.83,lost,-0.83,13.01
+746,2019-12-08,Italy,Sampdoria v Parma,draw,3.5,False,13.01,0.78,lost,-0.78,12.23
+747,2019-12-08,Italy,Bologna v Milan,draw,3.48,False,12.23,0.73,lost,-0.73,11.5
+748,2019-12-08,Spain,Osasuna v Sevilla,draw,3.51,True,11.5,0.69,won,1.73,13.23
+749,2019-12-08,Italy,Spal v Brescia,draw,3.38,False,13.23,0.79,lost,-0.79,12.44
+750,2019-12-08,England,Aston Villa v Leicester,draw,4.35,False,12.44,0.75,lost,-0.75,11.69
+751,2019-12-08,France,Reims v St Etienne,draw,3.18,False,11.69,0.7,lost,-0.7,10.99
+752,2019-12-08,England,Newcastle v Southampton,draw,3.44,False,10.99,0.66,lost,-0.66,10.33
+753,2019-12-08,England,Norwich v Sheffield United,draw,3.6,False,10.33,0.62,lost,-0.62,9.71
+754,2019-12-08,France,Nantes v Dijon,draw,4.05,False,9.71,0.58,lost,-0.58,9.13
+755,2019-12-08,France,Marseille v Bordeaux,draw,4.0,False,9.13,0.55,lost,-0.55,8.58
+756,2019-12-08,England,Brighton v Wolves,draw,3.26,True,8.58,0.51,won,1.15,9.73
+757,2019-12-08,Germany,Werder Bremen v Paderborn,draw,5.05,False,9.73,0.58,lost,-0.58,9.15
+758,2019-12-08,Germany,Union Berlin v FC Koln,draw,3.6,False,9.15,0.55,lost,-0.55,8.6
+759,2019-12-08,Spain,Valladolid v Sociedad,draw,3.32,True,8.6,0.52,won,1.21,9.81
+760,2019-12-08,Spain,Leganes v Celta,draw,3.15,False,9.81,0.59,lost,-0.59,9.22
+761,2019-12-09,England,West Ham v Arsenal,draw,4.33,False,9.22,0.55,lost,-0.55,8.67
+762,2019-12-13,France,Lille v Montpellier,draw,3.6,False,8.67,0.52,lost,-0.52,8.15
+763,2019-12-13,Germany,Hoffenheim v Augsburg,draw,4.1,False,8.15,0.49,lost,-0.49,7.66
+764,2019-12-13,Spain,Alaves v Leganes,draw,3.1,True,7.66,0.46,won,0.97,8.63
+765,2019-12-14,Italy,Brescia v Lecce,draw,3.86,False,8.63,0.52,lost,-0.52,8.11
+766,2019-12-14,Italy,Napoli v Parma,draw,5.85,False,8.11,0.49,lost,-0.49,7.62
+767,2019-12-14,Italy,Genoa v Sampdoria,draw,3.13,False,7.62,0.46,lost,-0.46,7.16
+768,2019-12-14,England,Southampton v West Ham,draw,4.12,False,7.16,0.43,lost,-0.43,6.73
+769,2019-12-14,Germany,FC Koln v Leverkusen,draw,4.02,False,6.73,0.4,lost,-0.4,6.33
+770,2019-12-14,Spain,Granada v Levante,draw,3.73,False,6.33,0.38,lost,-0.38,5.95
+771,2019-12-14,Spain,Sociedad v Barcelona,draw,4.54,True,5.95,0.36,won,1.27,7.22
+772,2019-12-14,Spain,Ath Bilbao v Eibar,draw,3.75,True,7.22,0.43,won,1.18,8.4
+773,2019-12-14,Spain,Ath Madrid v Osasuna,draw,4.55,False,8.4,0.5,lost,-0.5,7.9
+774,2019-12-14,France,Metz v Marseille,draw,3.7,True,7.9,0.47,won,1.27,9.17
+775,2019-12-14,France,Amiens v Dijon,draw,3.46,True,9.17,0.55,won,1.35,10.52
+776,2019-12-14,France,Angers v Monaco,draw,3.58,True,10.52,0.63,won,1.63,12.15
+777,2019-12-14,Germany,Bayern Munich v Werder Bremen,draw,12.0,False,12.15,0.73,lost,-0.73,11.42
+778,2019-12-14,France,Nimes v Nantes,draw,3.36,False,11.42,0.69,lost,-0.69,10.73
+779,2019-12-14,France,Toulouse v Reims,draw,3.36,False,10.73,0.64,lost,-0.64,10.09
+780,2019-12-14,England,Sheffield United v Aston Villa,draw,4.0,False,10.09,0.61,lost,-0.61,9.48
+781,2019-12-14,France,Brest v Nice,draw,3.5,True,9.48,0.57,won,1.42,10.9
+782,2019-12-14,England,Chelsea v Bournemouth,draw,7.2,False,10.9,0.65,lost,-0.65,10.25
+783,2019-12-14,England,Burnley v Newcastle,draw,3.58,False,10.25,0.61,lost,-0.61,9.64
+784,2019-12-14,England,Liverpool v Watford,draw,8.58,False,9.64,0.58,lost,-0.58,9.06
+785,2019-12-14,Germany,Hertha v Freiburg,draw,3.76,False,9.06,0.54,lost,-0.54,8.52
+786,2019-12-14,Germany,Mainz v Dortmund,draw,5.05,False,8.52,0.51,lost,-0.51,8.01
+787,2019-12-14,Germany,Paderborn v Union Berlin,draw,3.82,True,8.01,0.48,won,1.35,9.36
+788,2019-12-14,Germany,Fortuna Dusseldorf v RB Leipzig,draw,5.25,False,9.36,0.56,lost,-0.56,8.8
+789,2019-12-14,England,Leicester v Norwich,draw,7.26,True,8.8,0.53,won,3.32,12.12
+790,2019-12-15,France,St Etienne v Paris SG,draw,7.0,False,12.12,0.73,lost,-0.73,11.39
+791,2019-12-15,Italy,Fiorentina v Inter,draw,3.6,True,11.39,0.68,won,1.77,13.16
+792,2019-12-15,Italy,Roma v Spal,draw,6.0,False,13.16,0.79,lost,-0.79,12.37
+793,2019-12-15,Italy,Milan v Sassuolo,draw,4.85,True,12.37,0.74,won,2.85,15.22
+794,2019-12-15,Italy,Juventus v Udinese,draw,6.5,False,15.22,0.91,lost,-0.91,14.31
+795,2019-12-15,Italy,Bologna v Atalanta,draw,3.97,False,14.31,0.86,lost,-0.86,13.45
+796,2019-12-15,Italy,Verona v Torino,draw,3.22,True,13.45,0.81,won,1.8,15.25
+797,2019-12-15,Spain,Getafe v Valladolid,draw,3.5,False,15.25,0.91,lost,-0.91,14.34
+798,2019-12-15,Spain,Espanol v Betis,draw,3.51,True,14.34,0.86,won,2.16,16.5
+799,2019-12-15,Spain,Sevilla v Villarreal,draw,4.4,False,16.5,0.99,lost,-0.99,15.51
+800,2019-12-15,Spain,Valencia v Real Madrid,draw,4.24,True,15.51,0.93,won,3.01,18.52
+801,2019-12-15,Germany,Wolfsburg v M'gladbach,draw,3.6,False,18.52,1.11,lost,-1.11,17.41
+802,2019-12-15,Germany,Schalke 04 v Ein Frankfurt,draw,4.05,False,17.41,1.04,lost,-1.04,16.37
+803,2019-12-15,France,Bordeaux v Strasbourg,draw,3.3,False,16.37,0.98,lost,-0.98,15.39
+804,2019-12-15,France,Lyon v Rennes,draw,4.06,False,15.39,0.92,lost,-0.92,14.47
+805,2019-12-15,England,Arsenal v Man City,draw,6.26,False,14.47,0.87,lost,-0.87,13.6
+806,2019-12-15,England,Wolves v Tottenham,draw,3.75,False,13.6,0.82,lost,-0.82,12.78
+807,2019-12-15,England,Man United v Everton,draw,4.13,True,12.78,0.77,won,2.41,15.19
+808,2019-12-15,Spain,Celta v Mallorca,draw,4.2,True,15.19,0.91,won,2.91,18.1
+809,2019-12-16,England,Crystal Palace v Brighton,draw,3.3,True,18.1,1.09,won,2.51,20.61
+810,2019-12-16,Italy,Cagliari v Lazio,draw,4.3,False,20.61,1.24,lost,-1.24,19.37
+811,2019-12-17,Germany,Werder Bremen v Mainz,draw,4.42,False,19.37,1.16,lost,-1.16,18.21
+812,2019-12-17,Germany,Dortmund v RB Leipzig,draw,3.98,True,18.21,1.09,won,3.25,21.46
+813,2019-12-17,Germany,Union Berlin v Hoffenheim,draw,3.7,False,21.46,1.29,lost,-1.29,20.17
+814,2019-12-17,Germany,Augsburg v Fortuna Dusseldorf,draw,4.0,False,20.17,1.21,lost,-1.21,18.96
+815,2019-12-18,Germany,Leverkusen v Hertha,draw,4.65,False,18.96,1.14,lost,-1.14,17.82
+816,2019-12-18,Germany,M'gladbach v Paderborn,draw,5.95,False,17.82,1.07,lost,-1.07,16.75
+817,2019-12-18,Germany,Freiburg v Bayern Munich,draw,8.73,False,16.75,1.0,lost,-1.0,15.75
+818,2019-12-18,Germany,Ein Frankfurt v FC Koln,draw,3.9,False,15.75,0.94,lost,-0.94,14.81
+819,2019-12-18,Spain,Barcelona v Real Madrid,draw,4.49,True,14.81,0.89,won,3.11,17.92
+820,2019-12-18,Italy,Sampdoria v Juventus,draw,4.8,False,17.92,1.08,lost,-1.08,16.84
+821,2019-12-18,Germany,Wolfsburg v Schalke 04,draw,3.7,True,16.84,1.01,won,2.73,19.57
+822,2019-12-18,Italy,Brescia v Sassuolo,draw,3.7,False,19.57,1.17,lost,-1.17,18.4
+823,2019-12-20,Italy,Fiorentina v Roma,draw,3.6,False,18.4,1.1,lost,-1.1,17.3
+824,2019-12-20,Spain,Eibar v Granada,draw,3.48,False,17.3,1.04,lost,-1.04,16.26
+825,2019-12-20,Germany,Hoffenheim v Dortmund,draw,4.58,False,16.26,0.98,lost,-0.98,15.28
+826,2019-12-21,England,Aston Villa v Southampton,draw,3.84,False,15.28,0.92,lost,-0.92,14.36
+827,2019-12-21,England,Bournemouth v Burnley,draw,3.4,False,14.36,0.86,lost,-0.86,13.5
+828,2019-12-21,England,Brighton v Sheffield United,draw,3.5,False,13.5,0.81,lost,-0.81,12.69
+829,2019-12-21,England,Newcastle v Crystal Palace,draw,3.2,False,12.69,0.76,lost,-0.76,11.93
+830,2019-12-21,England,Norwich v Wolves,draw,3.98,False,11.93,0.72,lost,-0.72,11.21
+831,2019-12-21,Italy,Torino v Spal,draw,3.9,False,11.21,0.67,lost,-0.67,10.54
+832,2019-12-21,Italy,Inter v Genoa,draw,4.8,False,10.54,0.63,lost,-0.63,9.91
+833,2019-12-21,Italy,Udinese v Cagliari,draw,3.36,False,9.91,0.59,lost,-0.59,9.32
+834,2019-12-21,England,Everton v Arsenal,draw,3.95,True,9.32,0.56,won,1.65,10.97
+835,2019-12-21,Spain,Barcelona v Alaves,draw,10.25,False,10.97,0.66,lost,-0.66,10.31
+836,2019-12-21,Spain,Mallorca v Sevilla,draw,4.2,False,10.31,0.62,lost,-0.62,9.69
+837,2019-12-21,England,Man City v Leicester,draw,6.15,False,9.69,0.58,lost,-0.58,9.11
+838,2019-12-21,Spain,Valladolid v Valencia,draw,3.39,True,9.11,0.55,won,1.31,10.42
+839,2019-12-21,France,Dijon v Metz,draw,3.28,True,10.42,0.63,won,1.44,11.86
+840,2019-12-21,France,Marseille v Nimes,draw,5.2,False,11.86,0.71,lost,-0.71,11.15
+841,2019-12-21,Spain,Villarreal v Getafe,draw,3.2,False,11.15,0.67,lost,-0.67,10.48
+842,2019-12-21,Germany,Hertha v M'gladbach,draw,3.7,True,10.48,0.63,won,1.7,12.18
+843,2019-12-21,Germany,Schalke 04 v Freiburg,draw,3.9,True,12.18,0.73,won,2.12,14.3
+844,2019-12-21,Germany,Mainz v Leverkusen,draw,4.2,False,14.3,0.86,lost,-0.86,13.44
+845,2019-12-21,Germany,FC Koln v Werder Bremen,draw,4.0,False,13.44,0.81,lost,-0.81,12.63
+846,2019-12-21,Germany,Bayern Munich v Wolfsburg,draw,8.0,False,12.63,0.76,lost,-0.76,11.87
+847,2019-12-21,France,Strasbourg v St Etienne,draw,3.48,False,11.87,0.71,lost,-0.71,11.16
+848,2019-12-21,Germany,RB Leipzig v Augsburg,draw,7.0,False,11.16,0.67,lost,-0.67,10.49
+849,2019-12-21,France,Reims v Lyon,draw,3.17,True,10.49,0.63,won,1.37,11.86
+850,2019-12-21,France,Paris SG v Amiens,draw,18.0,False,11.86,0.71,lost,-0.71,11.15
+851,2019-12-21,France,Nice v Toulouse,draw,4.13,False,11.15,0.67,lost,-0.67,10.48
+852,2019-12-21,France,Nantes v Angers,draw,3.19,False,10.48,0.63,lost,-0.63,9.85
+853,2019-12-21,France,Montpellier v Brest,draw,4.3,False,9.85,0.59,lost,-0.59,9.26
+854,2019-12-21,France,Monaco v Lille,draw,3.65,False,9.26,0.56,lost,-0.56,8.7
+855,2019-12-21,France,Rennes v Bordeaux,draw,3.48,False,8.7,0.52,lost,-0.52,8.18
+856,2019-12-22,Italy,Parma v Brescia,draw,3.6,True,8.18,0.49,won,1.27,9.45
+857,2019-12-22,Germany,Fortuna Dusseldorf v Union Berlin,draw,3.5,False,9.45,0.57,lost,-0.57,8.88
+858,2019-12-22,Germany,Paderborn v Ein Frankfurt,draw,4.16,False,8.88,0.53,lost,-0.53,8.35
+859,2019-12-22,Spain,Real Madrid v Ath Bilbao,draw,5.65,True,8.35,0.5,won,2.33,10.68
+860,2019-12-22,Spain,Levante v Celta,draw,3.6,False,10.68,0.64,lost,-0.64,10.04
+861,2019-12-22,Spain,Betis v Ath Madrid,draw,3.55,False,10.04,0.6,lost,-0.6,9.44
+862,2019-12-22,Spain,Osasuna v Sociedad,draw,3.5,False,9.44,0.57,lost,-0.57,8.87
+863,2019-12-22,Italy,Lecce v Bologna,draw,3.8,False,8.87,0.53,lost,-0.53,8.34
+864,2019-12-22,Spain,Leganes v Espanol,draw,3.08,False,8.34,0.5,lost,-0.5,7.84
+865,2019-12-22,Italy,Atalanta v Milan,draw,3.95,False,7.84,0.47,lost,-0.47,7.37
+866,2019-12-22,Italy,Sassuolo v Napoli,draw,4.45,False,7.37,0.44,lost,-0.44,6.93
+867,2019-12-22,England,Watford v Man United,draw,3.95,False,6.93,0.42,lost,-0.42,6.51
+868,2019-12-22,England,Tottenham v Chelsea,draw,3.68,False,6.51,0.39,lost,-0.39,6.12
+869,2019-12-26,England,Chelsea v Southampton,draw,5.35,False,6.12,0.37,lost,-0.37,5.75
+870,2019-12-26,England,Leicester v Liverpool,draw,4.2,False,5.75,0.34,lost,-0.34,5.41
+871,2019-12-26,England,Tottenham v Brighton,draw,4.62,False,5.41,0.32,lost,-0.32,5.09
+872,2019-12-26,England,Aston Villa v Norwich,draw,3.85,False,5.09,0.31,lost,-0.31,4.78
+873,2019-12-26,England,Man United v Newcastle,draw,5.6,False,4.78,0.29,lost,-0.29,4.49
+874,2019-12-26,England,Bournemouth v Arsenal,draw,4.3,True,4.49,0.27,won,0.89,5.38
+875,2019-12-26,England,Sheffield United v Watford,draw,3.7,True,5.38,0.32,won,0.86,6.24
+876,2019-12-26,England,Crystal Palace v West Ham,draw,3.55,False,6.24,0.37,lost,-0.37,5.87
+877,2019-12-26,England,Everton v Burnley,draw,3.85,False,5.87,0.35,lost,-0.35,5.52
+878,2019-12-27,England,Wolves v Man City,draw,5.7,False,5.52,0.33,lost,-0.33,5.19
+879,2019-12-28,England,West Ham v Leicester,draw,3.75,False,5.19,0.31,lost,-0.31,4.88
+880,2019-12-28,England,Norwich v Tottenham,draw,4.7,True,4.88,0.29,won,1.07,5.95
+881,2019-12-28,England,Watford v Aston Villa,draw,4.25,False,5.95,0.36,lost,-0.36,5.59
+882,2019-12-28,England,Southampton v Crystal Palace,draw,3.66,True,5.59,0.34,won,0.9,6.49
+883,2019-12-28,England,Newcastle v Everton,draw,3.46,False,6.49,0.39,lost,-0.39,6.1
+884,2019-12-28,England,Brighton v Bournemouth,draw,3.95,False,6.1,0.37,lost,-0.37,5.73
+885,2019-12-28,England,Burnley v Man United,draw,3.78,False,5.73,0.34,lost,-0.34,5.39
+886,2019-12-29,England,Man City v Sheffield United,draw,7.6,False,5.39,0.32,lost,-0.32,5.07
+887,2019-12-29,England,Arsenal v Chelsea,draw,3.88,False,5.07,0.3,lost,-0.3,4.77
+888,2019-12-29,England,Liverpool v Wolves,draw,6.65,False,4.77,0.29,lost,-0.29,4.48
+889,2020-01-01,England,Arsenal v Man United,draw,3.78,False,4.48,0.27,lost,-0.27,4.21
+890,2020-01-01,England,West Ham v Bournemouth,draw,3.85,False,4.21,0.25,lost,-0.25,3.96
+891,2020-01-01,England,Norwich v Crystal Palace,draw,3.5,True,3.96,0.24,won,0.6,4.56
+892,2020-01-01,England,Man City v Everton,draw,6.2,False,4.56,0.27,lost,-0.27,4.29
+893,2020-01-01,England,Watford v Wolves,draw,3.46,False,4.29,0.26,lost,-0.26,4.03
+894,2020-01-01,England,Southampton v Tottenham,draw,4.0,False,4.03,0.24,lost,-0.24,3.79
+895,2020-01-01,England,Brighton v Chelsea,draw,4.08,True,3.79,0.23,won,0.71,4.5
+896,2020-01-01,England,Burnley v Aston Villa,draw,3.61,False,4.5,0.27,lost,-0.27,4.23
+897,2020-01-01,England,Newcastle v Leicester,draw,4.06,False,4.23,0.25,lost,-0.25,3.98
+898,2020-01-02,England,Liverpool v Sheffield United,draw,6.05,False,3.98,0.24,lost,-0.24,3.74
+899,2020-01-03,Spain,Valladolid v Leganes,draw,2.95,True,3.74,0.22,won,0.43,4.17
+900,2020-01-03,Spain,Sevilla v Ath Bilbao,draw,3.85,True,4.17,0.25,won,0.71,4.88
+901,2020-01-04,Spain,Valencia v Eibar,draw,4.26,False,4.88,0.29,lost,-0.29,4.59
+902,2020-01-04,Spain,Ath Madrid v Levante,draw,6.55,False,4.59,0.28,lost,-0.28,4.31
+903,2020-01-04,Spain,Espanol v Barcelona,draw,5.95,True,4.31,0.26,won,1.29,5.6
+904,2020-01-04,Spain,Getafe v Real Madrid,draw,3.84,False,5.6,0.34,lost,-0.34,5.26
+905,2020-01-05,Italy,Roma v Torino,draw,4.6,False,5.26,0.32,lost,-0.32,4.94
+906,2020-01-05,Italy,Genoa v Sassuolo,draw,3.58,False,4.94,0.3,lost,-0.3,4.64
+907,2020-01-05,Spain,Alaves v Betis,draw,3.41,True,4.64,0.28,won,0.67,5.31
+908,2020-01-05,Italy,Brescia v Lazio,draw,4.2,False,5.31,0.32,lost,-0.32,4.99
+909,2020-01-05,Spain,Granada v Mallorca,draw,3.61,False,4.99,0.3,lost,-0.3,4.69
+910,2020-01-05,Spain,Sociedad v Villarreal,draw,4.1,False,4.69,0.28,lost,-0.28,4.41
+911,2020-01-05,Spain,Celta v Osasuna,draw,3.66,True,4.41,0.26,won,0.69,5.1
+912,2020-01-05,Italy,Spal v Verona,draw,3.32,False,5.1,0.31,lost,-0.31,4.79
+913,2020-01-06,Italy,Bologna v Fiorentina,draw,3.66,True,4.79,0.29,won,0.77,5.56
+914,2020-01-06,Italy,Atalanta v Parma,draw,6.45,False,5.56,0.33,lost,-0.33,5.23
+915,2020-01-06,Italy,Juventus v Cagliari,draw,6.95,False,5.23,0.31,lost,-0.31,4.92
+916,2020-01-06,Italy,Milan v Sampdoria,draw,4.0,True,4.92,0.3,won,0.9,5.82
+917,2020-01-06,Italy,Lecce v Udinese,draw,3.55,False,5.82,0.35,lost,-0.35,5.47
+918,2020-01-06,Italy,Napoli v Inter,draw,3.58,False,5.47,0.33,lost,-0.33,5.14
+919,2020-01-10,England,Sheffield United v West Ham,draw,3.6,False,5.14,0.31,lost,-0.31,4.83
+920,2020-01-10,France,Rennes v Marseille,draw,3.3,False,4.83,0.29,lost,-0.29,4.54
+921,2020-01-11,Italy,Cagliari v Milan,draw,3.57,False,4.54,0.27,lost,-0.27,4.27
+922,2020-01-11,Italy,Lazio v Napoli,draw,3.92,False,4.27,0.26,lost,-0.26,4.01
+923,2020-01-11,Italy,Inter v Atalanta,draw,3.75,True,4.01,0.24,won,0.66,4.67
+924,2020-01-11,England,Wolves v Newcastle,draw,4.75,True,4.67,0.28,won,1.05,5.72
+925,2020-01-11,France,Metz v Strasbourg,draw,3.06,False,5.72,0.34,lost,-0.34,5.38
+926,2020-01-11,France,Angers v Nice,draw,3.85,True,5.38,0.32,won,0.91,6.29
+927,2020-01-11,France,Amiens v Montpellier,draw,3.17,False,6.29,0.38,lost,-0.38,5.91
+928,2020-01-11,France,Bordeaux v Lyon,draw,3.38,False,5.91,0.35,lost,-0.35,5.56
+929,2020-01-11,England,Crystal Palace v Arsenal,draw,4.05,True,5.56,0.33,won,1.01,6.57
+930,2020-01-11,England,Chelsea v Burnley,draw,6.0,False,6.57,0.39,lost,-0.39,6.18
+931,2020-01-11,France,Nimes v Reims,draw,3.16,False,6.18,0.37,lost,-0.37,5.81
+932,2020-01-11,England,Leicester v Southampton,draw,4.2,False,5.81,0.35,lost,-0.35,5.46
+933,2020-01-11,England,Everton v Brighton,draw,3.96,False,5.46,0.33,lost,-0.33,5.13
+934,2020-01-11,England,Tottenham v Liverpool,draw,4.25,False,5.13,0.31,lost,-0.31,4.82
+935,2020-01-11,England,Man United v Norwich,draw,6.2,False,4.82,0.29,lost,-0.29,4.53
+936,2020-01-11,France,Toulouse v Brest,draw,3.5,False,4.53,0.27,lost,-0.27,4.26
+937,2020-01-12,France,Paris SG v Monaco,draw,10.0,True,4.26,0.26,won,2.34,6.6
+938,2020-01-12,Italy,Roma v Juventus,draw,3.7,False,6.6,0.4,lost,-0.4,6.2
+939,2020-01-12,France,Dijon v Lille,draw,3.45,False,6.2,0.37,lost,-0.37,5.83
+940,2020-01-12,Italy,Verona v Genoa,draw,3.5,False,5.83,0.35,lost,-0.35,5.48
+941,2020-01-12,Italy,Torino v Bologna,draw,3.57,False,5.48,0.33,lost,-0.33,5.15
+942,2020-01-12,Italy,Sampdoria v Brescia,draw,3.45,False,5.15,0.31,lost,-0.31,4.84
+943,2020-01-12,France,St Etienne v Nantes,draw,3.1,False,4.84,0.29,lost,-0.29,4.55
+944,2020-01-12,Italy,Udinese v Sassuolo,draw,3.48,False,4.55,0.27,lost,-0.27,4.28
+945,2020-01-12,Italy,Fiorentina v Spal,draw,4.36,False,4.28,0.26,lost,-0.26,4.02
+946,2020-01-12,England,Bournemouth v Watford,draw,3.58,False,4.02,0.24,lost,-0.24,3.78
+947,2020-01-12,England,Aston Villa v Man City,draw,11.0,False,3.78,0.23,lost,-0.23,3.55
+948,2020-01-13,Italy,Parma v Lecce,draw,4.22,False,3.55,0.21,lost,-0.21,3.34
+949,2020-01-15,France,Amiens v Reims,draw,2.98,True,3.34,0.2,won,0.4,3.74
+950,2020-01-15,France,Nimes v Rennes,draw,3.33,False,3.74,0.22,lost,-0.22,3.52
+951,2020-01-15,France,Monaco v Paris SG,draw,5.0,False,3.52,0.21,lost,-0.21,3.31
+952,2020-01-17,Germany,Schalke 04 v M'gladbach,draw,3.7,False,3.31,0.2,lost,-0.2,3.11
+953,2020-01-17,Spain,Leganes v Getafe,draw,2.94,False,3.11,0.19,lost,-0.19,2.92
+954,2020-01-18,Spain,Osasuna v Valladolid,draw,3.74,True,2.92,0.18,won,0.49,3.41
+955,2020-01-18,Spain,Eibar v Ath Madrid,draw,3.75,False,3.41,0.2,lost,-0.2,3.21
+956,2020-01-18,Spain,Real Madrid v Sevilla,draw,4.2,False,3.21,0.19,lost,-0.19,3.02
+957,2020-01-18,Spain,Levante v Alaves,draw,3.65,False,3.02,0.18,lost,-0.18,2.84
+958,2020-01-18,Germany,Augsburg v Dortmund,draw,4.85,False,2.84,0.17,lost,-0.17,2.67
+959,2020-01-18,Italy,Sassuolo v Torino,draw,3.56,False,2.67,0.16,lost,-0.16,2.51
+960,2020-01-18,Germany,RB Leipzig v Union Berlin,draw,6.85,False,2.51,0.15,lost,-0.15,2.36
+961,2020-01-18,Germany,Mainz v Freiburg,draw,3.81,False,2.36,0.14,lost,-0.14,2.22
+962,2020-01-18,Germany,Hoffenheim v Ein Frankfurt,draw,3.88,False,2.22,0.13,lost,-0.13,2.09
+963,2020-01-18,Germany,Fortuna Dusseldorf v Werder Bremen,draw,3.65,False,2.09,0.13,lost,-0.13,1.96
+964,2020-01-18,Germany,FC Koln v Wolfsburg,draw,3.5,False,1.96,0.12,lost,-0.12,1.84
+965,2020-01-18,England,Newcastle v Chelsea,draw,4.7,False,1.84,0.11,lost,-0.11,1.73
+966,2020-01-18,England,West Ham v Everton,draw,3.55,True,1.73,0.1,won,0.26,1.99
+967,2020-01-18,England,Southampton v Wolves,draw,3.35,False,1.99,0.12,lost,-0.12,1.87
+968,2020-01-18,England,Man City v Crystal Palace,draw,13.5,True,1.87,0.11,won,1.38,3.25
+969,2020-01-18,England,Norwich v Bournemouth,draw,3.6,False,3.25,0.2,lost,-0.2,3.05
+970,2020-01-18,England,Arsenal v Sheffield United,draw,3.7,True,3.05,0.18,won,0.49,3.54
+971,2020-01-18,England,Watford v Tottenham,draw,3.84,True,3.54,0.21,won,0.6,4.14
+972,2020-01-18,Italy,Napoli v Fiorentina,draw,4.3,False,4.14,0.25,lost,-0.25,3.89
+973,2020-01-18,England,Brighton v Aston Villa,draw,4.35,True,3.89,0.23,won,0.77,4.66
+974,2020-01-18,Italy,Lazio v Sampdoria,draw,5.5,False,4.66,0.28,lost,-0.28,4.38
+975,2020-01-19,Germany,Hertha v Bayern Munich,draw,7.12,False,4.38,0.26,lost,-0.26,4.12
+976,2020-01-19,Spain,Mallorca v Valencia,draw,3.68,False,4.12,0.25,lost,-0.25,3.87
+977,2020-01-19,England,Burnley v Leicester,draw,3.8,False,3.87,0.23,lost,-0.23,3.64
+978,2020-01-19,England,Liverpool v Man United,draw,4.88,False,3.64,0.22,lost,-0.22,3.42
+979,2020-01-19,Spain,Betis v Sociedad,draw,3.82,False,3.42,0.21,lost,-0.21,3.21
+980,2020-01-19,Spain,Villarreal v Espanol,draw,3.7,False,3.21,0.19,lost,-0.19,3.02
+981,2020-01-19,Spain,Ath Bilbao v Celta,draw,3.48,True,3.02,0.18,won,0.45,3.47
+982,2020-01-19,Spain,Barcelona v Granada,draw,9.65,False,3.47,0.21,lost,-0.21,3.26
+983,2020-01-19,Germany,Paderborn v Leverkusen,draw,4.66,False,3.26,0.2,lost,-0.2,3.06
+984,2020-01-19,Italy,Lecce v Inter,draw,6.65,True,3.06,0.18,won,1.02,4.08
+985,2020-01-19,Italy,Brescia v Cagliari,draw,3.5,True,4.08,0.24,won,0.6,4.68
+986,2020-01-19,Italy,Juventus v Parma,draw,7.45,False,4.68,0.28,lost,-0.28,4.4
+987,2020-01-19,Italy,Bologna v Verona,draw,3.56,True,4.4,0.26,won,0.67,5.07
+988,2020-01-19,Italy,Milan v Udinese,draw,4.15,False,5.07,0.3,lost,-0.3,4.77
+989,2020-01-19,Italy,Genoa v Roma,draw,3.75,False,4.77,0.29,lost,-0.29,4.48
+990,2020-01-20,Italy,Atalanta v Spal,draw,8.1,False,4.48,0.27,lost,-0.27,4.21
+991,2020-01-21,England,Crystal Palace v Southampton,draw,3.26,False,4.21,0.25,lost,-0.25,3.96
+992,2020-01-21,England,Bournemouth v Brighton,draw,3.4,False,3.96,0.24,lost,-0.24,3.72
+993,2020-01-21,England,Chelsea v Arsenal,draw,4.05,True,3.72,0.22,won,0.67,4.39
+994,2020-01-21,England,Sheffield United v Man City,draw,5.15,False,4.39,0.26,lost,-0.26,4.13
+995,2020-01-21,England,Everton v Newcastle,draw,4.5,True,4.13,0.25,won,0.88,5.01
+996,2020-01-21,England,Aston Villa v Watford,draw,3.55,False,5.01,0.3,lost,-0.3,4.71
+997,2020-01-22,England,Leicester v West Ham,draw,5.0,False,4.71,0.28,lost,-0.28,4.43
+998,2020-01-22,England,Tottenham v Norwich,draw,5.7,False,4.43,0.27,lost,-0.27,4.16
+999,2020-01-22,England,Man United v Burnley,draw,4.8,False,4.16,0.25,lost,-0.25,3.91
+1000,2020-01-23,England,Wolves v Liverpool,draw,4.1,False,3.91,0.23,lost,-0.23,3.68

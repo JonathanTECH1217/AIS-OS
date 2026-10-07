@@ -1,0 +1,49 @@
+{
+ "_note": "Stand-in for the Prospects base (studio_prospects.Fake), used by session-unit.py and the t-calls tests. Copied to a temp folder per run; writes land in the copy.",
+ "contacts": {
+  "fields": [
+   {"name": "Name", "type": "singleLineText"},
+   {"name": "Phone", "type": "phoneNumber"},
+   {"name": "Website", "type": "url"},
+   {"name": "Email", "type": "email"},
+   {"name": "Owner", "type": "singleLineText"},
+   {"name": "Status (typed)", "type": "multilineText"},
+   {"name": "Status changed", "type": "lastModifiedTime"},
+   {"name": "Company ID", "type": "formula"},
+   {"name": "Call order", "type": "formula"},
+   {"name": "Vertical", "type": "singleSelect", "options": {"choices": [{"name": "AV integrator"}, {"name": "Electrician"}, {"name": "Security"}]}},
+   {"name": "City", "type": "singleLineText"},
+   {"name": "State", "type": "singleLineText"},
+   {"name": "Local time at noon ET", "type": "singleLineText"}
+  ],
+  "records": [
+   {"id": "recAcme0000001", "fields": {"Name": "Acme Audio Video", "Phone": "(512) 555-0134", "Website": "acmeav.com", "Company ID": "MB-03501", "Call order": 3270.00001, "Vertical": "AV integrator", "City": "Austin", "State": "TX", "Local time at noon ET": "11:00 AM"}},
+   {"id": "recBrio0000002", "fields": {"Name": "Brio Home Theater", "Phone": "(303) 555-0199", "Website": "https://www.briohome.com/", "Owner": "Dana Brio (owner)", "Company ID": "MB-03502", "Call order": 3270.00002, "Vertical": "AV integrator", "City": "Denver", "State": "CO"}},
+   {"id": "recCrest000003", "fields": {"Name": "Crest Smart Homes", "Phone": "(480) 555-0110", "Website": "crestsmarthomes.com", "Email": "info@crestsmarthomes.com", "Company ID": "MB-03503", "Call order": 3270.00003, "Vertical": "AV integrator", "City": "Scottsdale", "State": "AZ"}},
+   {"id": "recDelta000004", "fields": {"Name": "Delta Integration", "Phone": "(919) 555-0177", "Company ID": "MB-03504", "Call order": 3270.00004, "Vertical": "AV integrator", "City": "Raleigh", "State": "NC"}},
+   {"id": "recEcho0000005", "fields": {"Name": "Echo Systems", "Phone": "(206) 555-0145", "Website": "echosystems.net", "Company ID": "MB-03505", "Call order": 3270.00005, "Vertical": "AV integrator", "City": "Seattle", "State": "WA"}},
+   {"id": "recFox00000006", "fields": {"Name": "Fox Lighting & Control", "Phone": "(615) 555-0102", "Website": "foxcontrol.com", "Company ID": "MB-03506", "Call order": 3270.00006, "Vertical": "AV integrator", "City": "Nashville", "State": "TN"}},
+   {"id": "recCalled00007", "fields": {"Name": "Already Called AV", "Phone": "(305) 555-0123", "Status (typed)": "vm", "Company ID": "MB-03507", "Call order": 3270.00007, "Vertical": "AV integrator", "City": "Miami", "State": "FL"}},
+   {"id": "recGrid0000008", "fields": {"Name": "Grid Electric", "Phone": "(704) 555-0150", "Website": "gridelectric.com", "Company ID": "MB-00025", "Call order": 25, "Vertical": "Electrician", "City": "Charlotte", "State": "NC"}},
+   {"id": "recHalo0000009", "fields": {"Name": "Halo AV", "Phone": "(702) 555-0166", "Company ID": "MB-03509", "Call order": 3270.00009, "Vertical": "AV integrator", "Local time at noon ET": "9:00 AM"}}
+  ]
+ },
+ "log": {
+  "fields": [
+   {"name": "Company ID", "type": "singleLineText"},
+   {"name": "Channel", "type": "singleSelect", "options": {"choices": [{"name": "Cold Call"}, {"name": "Email"}, {"name": "LinkedIn"}, {"name": "Website form"}]}},
+   {"name": "Day", "type": "date"},
+   {"name": "Person", "type": "singleLineText"},
+   {"name": "Role", "type": "singleSelect"},
+   {"name": "Direction", "type": "singleSelect"},
+   {"name": "Touchpoint #", "type": "singleLineText"},
+   {"name": "Transcript", "type": "multilineText"},
+   {"name": "Company", "type": "multipleRecordLinks"},
+   {"name": "MB ID", "type": "multipleLookupValues"}
+  ],
+  "records": [
+   {"id": "recLogOld00001", "fields": {"Company ID": "MB-03502", "Channel": "LinkedIn", "Day": "2026-09-29", "Direction": "Outbound", "Touchpoint #": "1", "Company": ["recBrio0000002"]}}
+  ]
+ },
+ "failFirst": ["recDelta000004"]
+}

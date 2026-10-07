@@ -1,0 +1,44 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.hatchelectric.com/planning-consulting",
+ "title": "Planning and Consulting | Hatch Electric",
+ "description": "",
+ "words": 184,
+ "headings": [],
+ "phones": [
+  "530-541-3035"
+ ],
+ "colors": [
+  "#32373c",
+  "#000000",
+  "#313131",
+  "#00d084",
+  "#0693e3",
+  "#7a00df",
+  "#007cba",
+  "#006ba1",
+  "#005a87",
+  "#34e2e4"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/hatchGREY300.png",
+   "alt": "Hatch Electric",
+   "note": ""
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/03/Shade_roof_hi.jpg",
+   "alt": "Hatch Electric, electrical services, planning, consulting",
+   "note": ""
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/03/BedRm_Ven_Preset_hi.jpg",
+   "alt": "Hatch Electric, electrical services, planning, consulting",
+   "note": ""
+  }
+ ]
+}

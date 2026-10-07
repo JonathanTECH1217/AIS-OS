@@ -1,0 +1,53 @@
+{
+  "name": "search",
+  "label": "Search page",
+  "pages": ["/"],
+  "source": "brainstorms/2026-09-26-homepage-google-rebuild.md Q1 to Q22; Jonathan: \"The home page style should be rebuilt with the new copy, and google style guideline\", then the search page look (Q2)",
+  "palette": {
+    "ground": "#FFFFFF",
+    "band": "#F8F9FA",
+    "ink": "#202124",
+    "body": "#4D5156",
+    "muted": "#70757A",
+    "hairline": "#DADCE0",
+    "card": "#FFFFFF",
+    "link": "#1F5ED8",
+    "button": "#1F5ED8",
+    "button_text": "#FFFFFF",
+    "wordmark": "#5F6368",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": ["#E8604C", "#F2A93B", "#169C86"],
+  "hues": {"blue": "#1F5ED8", "coral": "#E8604C", "amber": "#F2A93B", "teal": "#169C86", "note": "Monarc's own four (Q7): the butterfly, the tab underline, the loading line. Only the blue carries text."},
+  "contrast": [
+    {"fg": "#202124", "bg": "#FFFFFF", "ratio": 16.10, "passes": "AA", "use": "headings and ink"},
+    {"fg": "#4D5156", "bg": "#FFFFFF", "ratio": 7.99, "passes": "AA", "use": "snippets and body"},
+    {"fg": "#70757A", "bg": "#FFFFFF", "ratio": 4.65, "passes": "AA", "use": "URL lines and labels on white only (4.41:1 on the band, so never on the band)"},
+    {"fg": "#1F5ED8", "bg": "#FFFFFF", "ratio": 5.75, "passes": "AA", "use": "links and the button"},
+    {"fg": "#FFFFFF", "bg": "#1F5ED8", "ratio": 5.75, "passes": "AA", "use": "button text"},
+    {"fg": "#1F5ED8", "bg": "#F8F9FA", "ratio": 5.46, "passes": "AA", "use": "links on the band"},
+    {"fg": "#5F6368", "bg": "#FFFFFF", "ratio": 6.05, "passes": "AA", "use": "the wordmark"},
+    {"fg": "#E8604C", "bg": "#FFFFFF", "ratio": 3.38, "passes": "graphics only", "use": "the mark and accents, never text"},
+    {"fg": "#169C86", "bg": "#FFFFFF", "ratio": 3.42, "passes": "graphics only", "use": "the mark and accents, never text"},
+    {"fg": "#F2A93B", "bg": "#FFFFFF", "ratio": 2.00, "passes": "decorative", "use": "the mark, the tab underline, and the loading line only"}
+  ],
+  "faces": {"heading": "Roboto", "body": "Roboto", "mono": null, "wordmark": "Outfit 500, drawn as outlines in the mark (no page load)"},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap",
+  "weights": [400, 500],
+  "sizes": "results-page scale (Typography 5 is still Pending, so this is a theme setting): h1 40px in the answer box (30px on phones), result titles 22px, snippets 16px, URL lines 14px, body 16px",
+  "labels": {"hero": "Book an appointment", "final": "Book an appointment"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "none", "radius": "16px", "border": "1px solid #DADCE0", "ground": "#FFFFFF", "shadow": "none"},
+  "shadows": "one soft shadow, on the search bar only (the panel and the boxes take the hairline)",
+  "section_label": "none: sections open on plain headings, the way a results page does",
+  "hero": "the results-page header (the lockup, the search bar typing \"marketing for contractors\", the service tabs, the button top right), then the featured answer box holding the h1 (Layout 2 exception, 2026-09-26)",
+  "hero_render": null,
+  "card_renders": null,
+  "marks": "Guard (Media 7 exception, 2026-09-26): Monarc Build sits where Google's logo would; no Google logo, no Google buttons, no Google product names as interface labels, no star ratings or review counts anywhere.",
+  "notes": [
+    "RETIRED 2026-09-27 before it ever shipped (Jonathan: \"It looking like google does not really work well\"; it read as a copy of Google). The homepage wears themes/monarc.json; this file is the round 1 record.",
+    "Blocks in order: header and tabs; the loading line; the featured answer (h1); the business panel (right column on desktop, under the answer on phones); local results (the three jobs, listings only); the six service pages as results with their render thumbnails; People also ask (four); the closing ask; the grey footer.",
+    "The query types once, a thin line in the four hues runs across once, then the blocks fade in one after another. Still without JavaScript, under reduced motion, and on ?static=1.",
+    "No page-view conversion: the shared conversion fires on ?sent=1 only."
+  ]
+}

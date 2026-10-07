@@ -1,0 +1,53 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/lighting/",
+ "title": "Lighting - Reliant Electrical and Automation Inc.",
+ "description": "Explore smart and architectural lighting with Oelo, Diode LED, SlabLite, and Control4 LUX. Designed and installed by licensed lighting experts.",
+ "words": 504,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "Architectural & Smart Lighting Solutions"
+  },
+  {
+   "tag": "h2",
+   "text": "Lighting That Works Smarter"
+  },
+  {
+   "tag": "h3",
+   "text": "Let’s Light the Way"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#ffffff",
+  "#e3e5eb",
+  "#f76a0c",
+  "#f7fafc",
+  "#1a202c",
+  "#3182ce",
+  "#24a148",
+  "#ed9700",
+  "#f44337",
+  "#41454f"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

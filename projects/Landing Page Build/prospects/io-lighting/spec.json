@@ -1,0 +1,194 @@
+{
+ "company": "Innovative Outdoor Lighting and Audio",
+ "short": "Innovative Outdoor",
+ "page": "https://io-lightingandaudio.com/copy-of-holiday-event-lifghting",
+ "loom": "https://www.loom.com/share/6b2cdd19f09945af8381b03f1445d8ee",
+ "phone": "(760) 880-2722",
+ "address": "74170 CA-111, Suite 3, Palm Desert, CA 92260",
+ "areas": "Palm Desert, the Coachella Valley, and Southern California",
+ "brand": {
+  "color": "#116DFF",
+  "dark": "#0D56CC",
+  "accent": "#ACBEFF",
+  "serif": true,
+  "head": "Manrope",
+  "body": "Poppins",
+  "mist": "#EAEFFF"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 56,
+ "hero": {
+  "eyebrow": "For homeowners across the Coachella Valley",
+  "h1": "Outdoor Lighting Design in Palm Desert",
+  "sub": "Path lights, step lights, well lights, up lights, and wall washers, in warm white, cool white, or full color. Our designers lay out the property, show you a night-time demo, then our installers set and aim every light.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What we light, and how",
+  "items": [
+   {
+    "icon": "lamp",
+    "h3": "Pathways",
+    "p": "Low path lights along walks and planting beds, so the way to the door is lit and nothing glares."
+   },
+   {
+    "icon": "gate",
+    "h3": "Driveways and entries",
+    "p": "Well lights and wall washers along the drive and across the front of the house. The entry is the first thing a guest sees."
+   },
+   {
+    "icon": "home",
+    "h3": "Steps and decks",
+    "p": "Surface-mount step lights and strip lighting on stair edges and decks, so each step shows and no fixture is underfoot."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "A Coachella Valley team, led by Sabrina",
+  "p": "Sabrina grew up in the Coachella Valley, and her team designs and installs outdoor lighting that gives a home the feel of a resort. Customer service comes first, and you can come in and plan the design with the team at the design center on CA-111 in Palm Desert."
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "I hired Innovative Outdoor Lighting for a landscape lighting project at my Palm Desert home and had a great experience from start to finish. Sabrina, the owner, was extremely responsive and easy to communicate with when scheduling and planning the project.",
+    "who": "IcingOnTheRing",
+    "stars": 5
+   },
+   {
+    "p": "Sabrina and team really stick the landing - from bidding and design to installation I was so glad to have gone with IO Lighting. Clean work, no baby sitting - just great results.",
+    "who": "Josh L.",
+    "stars": 5
+   },
+   {
+    "p": "Sabrina and her worker David did a great job replacing the lights in our backyard! From beginning to end the communication was good and every concern was addressed. Our backyard now lights up so beautifully at night!",
+    "who": "Harry F.",
+    "stars": 5
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process, design to installation",
+  "photo": "assets/process.jpg",
+  "steps": [
+   {
+    "h3": "Site visit",
+    "p": "We come to the property, walk it with you, and note what you want to see lit."
+   },
+   {
+    "h3": "Lighting layout",
+    "p": "Our designers draw the custom layout: each light, where it sits, and its color temperature."
+   },
+   {
+    "h3": "Night-time demo",
+    "p": "A complimentary demo after dark on your own property, before you make a final decision."
+   },
+   {
+    "h3": "Installation",
+    "p": "Our installers set and wire every light, then aim each one after dark."
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions about outdoor lighting design",
+  "items": [
+   {
+    "q": "Which color temperature should I choose?",
+    "a": "Warm white suits stone, stucco, and wood. Cooler white suits palms, water, and a modern home. The night-time demo shows both, so you pick by eye."
+   },
+   {
+    "q": "Do I need to know what I want before you come out?",
+    "a": "No. Tell us what you want to see and we build it, or let our designers put a layout together from your property and your needs."
+   },
+   {
+    "q": "Can you add to the lighting I already have?",
+    "a": "Yes. If you are happy with your system and only want a few fixtures replaced or added, we do that too."
+   },
+   {
+    "q": "Will outdoor lighting raise my power bill much?",
+    "a": "Everything we install is high-efficiency LED, so a whole property draws far less than the old halogen systems did."
+   },
+   {
+    "q": "Where do you work?",
+    "a": "Palm Desert and the Coachella Valley, with projects throughout Southern California."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we do outdoors",
+  "p": "Each one has its own page.",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Outdoor audio and entertainment",
+    "href": "https://www.io-lightingandaudio.com/copy-of-security-lighting",
+    "p": "Landscape speakers that blend into the planting, and outdoor TVs for the patio and the pool."
+   },
+   {
+    "icon": "shield",
+    "h3": "Security lighting",
+    "href": "https://www.io-lightingandaudio.com/copy-of-repairs",
+    "p": "Lighting set to keep the property seen after dark."
+   },
+   {
+    "icon": "star",
+    "h3": "Holiday and event lighting",
+    "href": "https://www.io-lightingandaudio.com/about-3",
+    "p": "Lighting for the holidays or for one event."
+   },
+   {
+    "icon": "wrench",
+    "h3": "Professional installation",
+    "href": "https://www.io-lightingandaudio.com/copy-of-custom-lighting-design",
+    "p": "Our installers, for a new system or for fixtures you already have."
+   },
+   {
+    "icon": "cog",
+    "h3": "Maintenance program",
+    "href": "https://www.io-lightingandaudio.com/copy-of-professional-installation",
+    "p": "Regular checks so every light keeps working and keeps its aim."
+   },
+   {
+    "icon": "bolt",
+    "h3": "Repairs",
+    "href": "https://www.io-lightingandaudio.com/copy-of-maintenance-program",
+    "p": "A light out or a wire cut: we find it and fix it."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book a meeting with our design team",
+  "p": "Tell us about your property and pick a time. We come out, lay out the lighting, and show you a night-time demo before you decide."
+ },
+ "footer": {
+  "creds": "Resale and wholesale design center. Professional-grade fixtures made in the USA."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the front of the house, the pool, the palms, new build or an upgrade.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "reviews",
+  "process",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom. Their site has no photo of Sabrina or the team and no reviews, so the about photo and the three review boxes are marked empty on purpose; no rating line for the same reason. The hero is their own gallery photo (a lit home with uplit palms); the process band carries the picture from the audited page. Their Wix menu's hrefs do not match the page names (the audio page lives at /copy-of-security-lighting, checked by reading it): the hrefs here are the ones their own menu uses. Networking, distributed media, and indoor lighting control are not on their site, so they are not on the page; the six secondary services are the six pages they have. Fonts: their faces (Avenir, DIN Next, Proxima Nova) are not Google fonts, so Manrope and Poppins stand in. Blue #116DFF is theirs; the dark and the accent are shades of it (the accent is on their page).",
+ "google": {
+  "rating": 5,
+  "count": 21,
+  "maps": "https://maps.google.com/?cid=2875675703038663296&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

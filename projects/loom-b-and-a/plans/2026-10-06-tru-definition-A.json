@@ -1,0 +1,268 @@
+{
+ "out": "media/loom-ba/2026-10-06/tru-definition/tru-definition-loom-ba.mp4",
+ "states_dir": "media/looms/tru-definition-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "trudefinition.com",
+ "url": "https://www.trudefinition.com/services/lighting-control",
+ "render": "projects/Landing Page Build/prospects/tru-definition/index.html",
+ "folder": "media/looms/86afd9c4-boost-your-low-voltage-landing-page-conversions",
+ "why": "The TruDefinition lighting control audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-tru-definition.md: the first-screen changes made on their live page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:31:743",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 1.5,
+ "end_at": 360.5,
+ "pause": 0.5,
+ "cuts": [
+  [
+   3.38,
+   36.21,
+   "past work together, the national operation, a line that trails off, and how the site changed since last time: about him and them, not the page on screen"
+  ],
+  [
+   43.04,
+   47.65,
+   "a lead-in with nothing in it (okay, one thing I do want to preface before I go over this is)"
+  ],
+  [
+   47.65,
+   48.05,
+   "the first 'we're' of a stutter"
+  ],
+  [
+   50.43,
+   54.03,
+   "a false start: 'commercial', then 'you're arc'; he corrects it to the architect, builder, and designer"
+  ],
+  [
+   57.57,
+   58.13,
+   "'sorry', the correction word"
+  ],
+  [
+   62.7,
+   69.3,
+   "high ticket said a second way"
+  ],
+  [
+   115.36,
+   131.28,
+   "the white overlay with dark words: not accurate since his note of 2026-10-07 ('white text on a dark background definitely carries'); the hero goes dark at the photo line"
+  ],
+  [
+   179.98,
+   186.59,
+   "a sentence that does not land (people building your building trust); the heavy lifting is said cleanly at 3:17"
+  ],
+  [
+   229.62,
+   238.42,
+   "a sentence that does not land (you understand this is the right guy for our company)"
+  ],
+  [
+   315.15,
+   320.37,
+   "'which is totally fine, because it increases the efficiency': softens the point just made and does no work"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "you're": "your",
+  "hour": "our",
+  "scots": "sconce",
+  "v": "",
+  "views": "reviews",
+  "sh": "",
+  "locked": "lock"
+ },
+ "changes": [
+  {
+   "at": 0.0,
+   "kind": "hide",
+   "selector": ".consent-notice, .sage-teaser"
+  },
+  {
+   "at": 91.41,
+   "kind": "css",
+   "selector": ".sp-crumbs__link--current, .sp-hero__bullet-mark, .hdr__nav-link--cta",
+   "style": "color:#0C1A2E !important;border-color:#0C1A2E !important"
+  },
+  {
+   "at": 91.41,
+   "kind": "css",
+   "selector": ".sp-hero .sp-rule",
+   "style": "background:#0C1A2E !important"
+  },
+  {
+   "at": 96.85,
+   "kind": "hide",
+   "selector": ".sage-teaser"
+  },
+  {
+   "at": 96.85,
+   "kind": "headline",
+   "text": "Lighting Control in Dallas Fort Worth"
+  },
+  {
+   "at": 99.33,
+   "kind": "center"
+  },
+  {
+   "at": 99.33,
+   "kind": "css",
+   "selector": ".sp-hero__image",
+   "style": "height:420px !important;flex:none !important"
+  },
+  {
+   "at": 99.33,
+   "kind": "css",
+   "selector": ".sp-hero .sp-rule",
+   "style": "margin-left:auto !important;margin-right:auto !important"
+  },
+  {
+   "at": 102.82,
+   "kind": "hide",
+   "selector": ".sp-crumbs__link:not(.sp-crumbs__link--current), .sp-crumbs__sep, .sage-teaser"
+  },
+  {
+   "at": 102.82,
+   "kind": "eyebrow",
+   "reuse": true,
+   "text": "Lighting design for residential"
+  },
+  {
+   "at": 132.16,
+   "kind": "hide",
+   "selector": ".sage-teaser"
+  },
+  {
+   "at": 133.76,
+   "kind": "image",
+   "selector": ".sp-hero__image img",
+   "file": "projects/Landing Page Build/prospects/tru-definition/assets/hero-google.jpg"
+  },
+  {
+   "at": 133.76,
+   "kind": "css",
+   "selector": ".sp-hero__image",
+   "style": "position:absolute !important;inset:0 !important;width:100% !important;max-width:none !important;height:100% !important;z-index:0 !important;margin:0 !important;filter:brightness(.42) !important"
+  },
+  {
+   "at": 133.76,
+   "kind": "css",
+   "selector": ".sp-hero__image img",
+   "style": "width:100% !important;height:100% !important;object-fit:cover !important"
+  },
+  {
+   "at": 133.76,
+   "kind": "css",
+   "selector": ".sp-hero__copy",
+   "style": "z-index:1 !important;position:relative !important"
+  },
+  {
+   "at": 133.76,
+   "kind": "css",
+   "selector": ".sp-hero",
+   "style": "position:relative !important;background:#111214 !important"
+  },
+  {
+   "at": 133.76,
+   "kind": "colors",
+   "text": "#FFFFFF"
+  },
+  {
+   "at": 137.23,
+   "kind": "hide",
+   "selector": ".sp-hero__bullet:not(:first-child), .sp-hero__bullet-mark"
+  },
+  {
+   "at": 137.23,
+   "kind": "cta",
+   "selector": ".sp-hero__bullets",
+   "text": "Book a meeting",
+   "background": "#0C1A2E",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 140.75,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 143.39,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 144.35,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 144.83,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 145.39,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 151.55,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 178.93,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 199.31,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 213.58,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 238.42,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 266.03,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 278.82,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 298.7,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 306.03,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 341.87,
+   "kind": "form",
+   "step": "sent"
+  }
+ ]
+}

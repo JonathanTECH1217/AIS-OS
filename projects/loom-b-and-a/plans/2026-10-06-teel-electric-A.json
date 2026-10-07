@@ -1,0 +1,257 @@
+{
+ "out": "media/loom-ba/2026-10-06/teel-electric/teel-electric-loom-ba.mp4",
+ "states_dir": "media/looms/teel-electric-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "teelelectricco.com",
+ "url": "https://www.teelelectricco.com/home-automation",
+ "render": "projects/Landing Page Build/prospects/teel-electric/index.html",
+ "folder": "media/looms/c8b55c6b-rebuild-service-landing-pages-to-convert",
+ "why": "The Teel Electric Company audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-teel-electric.md: the hero changes made on their live home automation page one by one as he names them, then the rebuilt lighting control page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "246:246:31:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 1.0,
+ "end_at": 225.4,
+ "pause": 0.5,
+ "cuts": [
+  [
+   36.45,
+   47.15,
+   "talk about the making of the video (um, okay, let's see here, some kind of template we have to work with, okay, so let's just start with)"
+  ],
+  [
+   53.99,
+   54.95,
+   "'high' said twice"
+  ],
+  [
+   55.7,
+   58.45,
+   "'Okay.' does no work"
+  ],
+  [
+   61.85,
+   62.07,
+   "'a' said twice"
+  ],
+  [
+   62.82,
+   67.3,
+   "a false start (and uh, behind that, what or); the point lands in 'right in front of that'"
+  ],
+  [
+   112.57,
+   114.79,
+   "a garbled lead-in (link to it, so uh)"
+  ],
+  [
+   142.03,
+   145.25,
+   "a garbled line (we do a lot of lifting right by the call to action); the banner point is made"
+  ],
+  [
+   195.1,
+   202.48,
+   "items not on their site (James Loudspeaker installation, media distribution) and a misheard lead-in (that sorting); the cards on screen are home automation, whole home audio, and motorized shades"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "Lightning": "Lighting",
+  "hour": "our"
+ },
+ "changes": [
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#comp-kkmx88nk, #comp-kkmx88nk > div, #comp-kkmx88nk1",
+   "style": "height:480px !important; min-height:480px !important; max-height:480px !important"
+  },
+  {
+   "at": 59.6,
+   "kind": "image",
+   "selector": "#img_comp-kkmx88nk1 img",
+   "file": "projects/Landing Page Build/prospects/teel-electric/assets/hero.jpg"
+  },
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#comp-kkmx88nk",
+   "style": "z-index:5 !important; position:relative !important; overflow:visible !important"
+  },
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#comp-kkmx88nk > div, #comp-kkmx88nk1, #bgLayers_comp-kkmx88nk1, #bgMedia_comp-kkmx88nk1, #img_comp-kkmx88nk1",
+   "style": "overflow:visible !important"
+  },
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#img_comp-kkmx88nk1",
+   "style": "opacity:1 !important"
+  },
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#comp-kkmx88nl4",
+   "style": "transform:translateY(200px) !important"
+  },
+  {
+   "at": 59.6,
+   "kind": "css",
+   "selector": "#img_comp-kkmx88nk1 img",
+   "style": "height:680px !important; object-position:50% 45% !important; filter:brightness(.75) !important"
+  },
+  {
+   "at": 68.62,
+   "kind": "css",
+   "selector": "#img_comp-kkmx88nk1 img",
+   "style": "filter:brightness(.3) !important"
+  },
+  {
+   "at": 68.62,
+   "kind": "colors",
+   "text": "#FFFFFF"
+  },
+  {
+   "at": 71.66,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Jupiter"
+  },
+  {
+   "at": 71.66,
+   "kind": "font",
+   "family": "Newsreader:opsz,wght@6..72,300&family=Poppins",
+   "weight": 600
+  },
+  {
+   "at": 71.66,
+   "kind": "css",
+   "selector": "[data-mb-head], [data-mb-head] *",
+   "style": "font-family:Newsreader, Georgia, serif !important; font-weight:300 !important; font-optical-sizing:auto !important"
+  },
+  {
+   "at": 71.66,
+   "kind": "center"
+  },
+  {
+   "at": 71.66,
+   "kind": "css",
+   "selector": "#comp-kkmx88nl .wixui-rich-text, #comp-kkmx88nl .wixui-rich-text h1, #comp-kkmx88nl .wixui-rich-text p",
+   "style": "margin-left:auto !important; margin-right:auto !important; text-align:center !important"
+  },
+  {
+   "at": 77.39,
+   "kind": "eyebrow",
+   "text": "For South Florida homeowners",
+   "color": "#3A8DD9"
+  },
+  {
+   "at": 77.39,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family:Poppins, Arial, sans-serif !important; font-size:14px !important; font-weight:600 !important; line-height:1.4 !important; letter-spacing:.16em !important; margin:0 auto 26px !important; color:#3A8DD9 !important; text-align:center !important"
+  },
+  {
+   "at": 83.2,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family:Poppins, Arial, sans-serif !important; font-size:14px !important; font-weight:600 !important; line-height:1.4 !important; letter-spacing:.16em !important; margin:0 auto 26px !important; color:#3A8DD9 !important; text-align:center !important"
+  },
+  {
+   "at": 83.2,
+   "kind": "copy",
+   "keep": "Every light in the house from a keypad, your phone, or your voice. Scenes for the evening, schedules while you travel, and a lit entry when you get home."
+  },
+  {
+   "at": 96.88,
+   "kind": "cta",
+   "text": "Book an appointment",
+   "background": "#26529C",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 96.88,
+   "kind": "css",
+   "selector": "[data-mb-cta]",
+   "style": "order:99 !important; margin-top:10px !important"
+  },
+  {
+   "at": 99.2,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 103.74,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 104.3,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 104.62,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 105.34,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 107.18,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 110.8,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 126.03,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 145.3,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 156.88,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 171.31,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 189.46,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 202.51,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 209.04,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

@@ -1,0 +1,222 @@
+{
+  "_note": "The one file the Ads screen and scripts/ads_publish.py read for this campaign. Keywords locked by Jonathan 2026-09-28 (keywords/picks.json). Negatives: every shared list whose 'Applies to' covers this campaign (negatives/shared-lists.md) plus negatives/facebook-ads.md. Ad drafted 2026-09-28 from the brief and page spec, Jonathan's to approve. Approvals clear when what they cover changes.",
+  "nn": "05",
+  "service": "facebook-ads",
+  "name": "05 Facebook ads",
+  "brief": "projects/google-ads/campaigns/05-facebook-ads.md",
+  "page": "https://monarcbuild.com/facebook-ads/",
+  "page_label": "facebook_ads",
+  "slot": "test",
+  "daily_budget": 20,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "facebook ads agency for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "facebook ads agency for home automation companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "facebook ads agency for electricians",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "facebook ads agency for hvac companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "facebook ads management for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "facebook ads agency for home services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "meta ads agency for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "meta ads agency for smart home installers",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "meta ads agency for electricians",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "meta ads agency for hvac companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "meta ads agency for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "roofing meta ads agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "facebook ads agency for smart home installers",
+    "roofing facebook ads agency",
+    "facebook ads agency for plumbers",
+    "facebook ad management services for contractors",
+    "facebook ads agency for contractors",
+    "facebook advertising agency for home service companies",
+    "hvac meta ads"
+  ],
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/facebook-ads.md"
+  },
+  "ad": {
+    "headlines": [
+      {
+        "text": "Facebook Ads for Contractors",
+        "pin": 1
+      },
+      {
+        "text": "Facebook Ads for Integrators",
+        "pin": 1
+      },
+      {
+        "text": "Facebook Ads for Electricians",
+        "pin": 1
+      },
+      {
+        "text": "Roofing Facebook Ads Agency",
+        "pin": 1
+      },
+      {
+        "text": "Facebook and Instagram Ads",
+        "pin": 1
+      },
+      {
+        "text": "Your Best Job on Their Feed"
+      },
+      {
+        "text": "Seen Before They Search"
+      },
+      {
+        "text": "Facebook Ads for HVAC"
+      },
+      {
+        "text": "Smart Home Facebook Ads"
+      },
+      {
+        "text": "Creative From Your Real Jobs"
+      },
+      {
+        "text": "Seen Again by Every Visitor"
+      },
+      {
+        "text": "Every Lead Tagged by Ad"
+      },
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "Reach the Buyer First",
+        "pin": 3
+      },
+      {
+        "text": "Book the Call",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "Your finished jobs in front of homeowners and builders in the towns you serve.",
+      "Real work you finished, never stock. Photos from the job, cut for the feed.",
+      "Everyone who visited and did not book sees your next job until they are ready.",
+      "Fifteen minutes. We look at your service area and your best jobs, then scope the ads."
+    ],
+    "path1": "Facebook-Ads",
+    "path2": "Contractors"
+  },
+  "approvals": {
+    "spend": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "4eee785230b4e0b4"
+    },
+    "keywords": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "16457409c3beb2c5"
+    },
+    "negatives": {
+      "Facebook and Instagram, other meanings": {
+        "at": "2026-09-30T11:08:37-04:00",
+        "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+        "fp": "8d45415587f1c0c3"
+      },
+      "From the research": {
+        "at": "2026-09-30T11:08:37-04:00",
+        "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+        "fp": "b0398f9878cddd3e"
+      },
+      "Routing": {
+        "at": "2026-09-30T11:08:37-04:00",
+        "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+        "fp": "520dd6058f6d81cc"
+      }
+    },
+    "ad": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "91614a7bc9621c37"
+    }
+  },
+  "google": {}
+}

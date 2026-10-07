@@ -1,0 +1,263 @@
+{
+ "out": "media/loom-ba/2026-10-06/reliant-theater/reliant-theater-loom-ba.mp4",
+ "states_dir": "media/looms/reliant-theater-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "reliant.services",
+ "url": "https://reliant.services/home-theater-automation/",
+ "render": "projects/Landing Page Build/prospects/reliant-theater/index.html",
+ "folder": "media/looms/6c3519b9-increase-home-theater-landing-page-conversions",
+ "why": "The Reliant home theater audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-reliant-theater.md: the first-screen changes made on their live page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:31:743",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.7,
+ "end_at": 292.08,
+ "pause": 0.5,
+ "cuts": [
+  [
+   8.7,
+   12.35,
+   "the swear: 'getting shitloads of revenue, pardon my French, but'"
+  ],
+  [
+   23.6,
+   24.5,
+   "a false start ('Starting off'); he starts off again at the header"
+  ],
+  [
+   83.39,
+   86.8,
+   "not accurate: the eyebrow sits on the photo, not 'a white background with black text'; he puts it right in the next line"
+  ],
+  [
+   99.6,
+   100.5,
+   "a false start ('Zero') before 'low latency streaming'"
+  ],
+  [
+   132.8,
+   136.2,
+   "words that do not land ('Also said was good')"
+  ],
+  [
+   161.6,
+   162.9,
+   "a word the transcript cannot read ('in vis'); 'in wall, in ceiling' stays"
+  ],
+  [
+   164.05,
+   165.2,
+   "the same unread word ('in vis') a second time"
+  ],
+  [
+   165.9,
+   169.75,
+   "a lead-in with nothing in it ('all of that sort of stuff just kind of gets covered')"
+  ],
+  [
+   208.4,
+   209.1,
+   "'That's what I would do', a line with nothing in it"
+  ],
+  [
+   209.7,
+   214.1,
+   "a false start ('I would be a, so just') before the photos"
+  ],
+  [
+   231.7,
+   233.2,
+   "'Below that' said twice"
+  ],
+  [
+   271.5,
+   273.3,
+   "misheard in the captions ('each two individual landing pages'); the linked cards already show it"
+  ]
+ ],
+ "keep_whole": [
+  [
+   241.55,
+   243.7
+  ]
+ ],
+ "fixes": {
+  "feeder": "theater",
+  "feeders": "theaters",
+  "7-1,": "7.1,",
+  "7-2,": "7.2,",
+  "15-1.": "15.1.",
+  "doingXLRs": "doing XLRs",
+  "SDO.": "SEO."
+ },
+ "changes": [
+  {
+   "at": 48.85,
+   "kind": "headline",
+   "text": "Home Theater Installation in Fresno"
+  },
+  {
+   "at": 53.14,
+   "kind": "header"
+  },
+  {
+   "at": 53.62,
+   "kind": "css",
+   "selector": "#masthead",
+   "style": "background-color:#FFFFFF !important; box-shadow:0 1px 0 rgba(0,0,0,0.08) !important"
+  },
+  {
+   "at": 53.62,
+   "kind": "css",
+   "selector": "#masthead .main-navigation a, #masthead .main-navigation .dropdown-nav-toggle",
+   "style": "color:#111111 !important"
+  },
+  {
+   "at": 55.86,
+   "kind": "css",
+   "selector": ".kb-row-layout-id347_874ca0-3a > .kt-row-layout-overlay",
+   "style": "background:linear-gradient(180deg,rgba(18,19,22,0.80),rgba(18,19,22,0.62)) !important; opacity:1 !important"
+  },
+  {
+   "at": 55.86,
+   "kind": "css",
+   "selector": ".kb-row-layout-id347_874ca0-3a",
+   "style": "min-height:781px !important"
+  },
+  {
+   "at": 61.57,
+   "kind": "css",
+   "selector": ".kt-adv-heading347_153d4b-7f",
+   "style": "position:fixed !important; top:538px !important; left:50% !important; transform:translateX(-50%) !important; margin:0 !important; z-index:5 !important; text-decoration:none !important; text-transform:none !important"
+  },
+  {
+   "at": 61.57,
+   "kind": "cta",
+   "selector": ".kt-adv-heading347_153d4b-7f",
+   "text": "Book a meeting",
+   "background": "#F76A0C",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 68.35,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 68.35,
+   "kind": "center",
+   "selector": ".kb-row-layout-id347_874ca0-3a"
+  },
+  {
+   "at": 74.11,
+   "kind": "eyebrow",
+   "text": "For luxury homeowners"
+  },
+  {
+   "at": 74.11,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family:Montserrat, Arial, sans-serif !important; font-size:14px !important; font-weight:600 !important; letter-spacing:2.24px !important; line-height:19.6px !important; margin:0 0 26px !important; text-align:center !important; transform:translateY(80px) !important; color:#FFFFFF !important"
+  },
+  {
+   "at": 86.99,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "color:#FB8A3C !important"
+  },
+  {
+   "at": 91.6,
+   "kind": "css",
+   "selector": ".kt-adv-heading347_3e17fb-d6",
+   "style": "position:fixed !important; top:407px !important; left:50% !important; transform:translateX(-50%) !important; width:640px !important; margin:0 !important; text-align:center !important; color:rgba(255,255,255,0.9) !important; z-index:5 !important"
+  },
+  {
+   "at": 91.6,
+   "kind": "copy",
+   "selector": ".kt-adv-heading347_3e17fb-d6",
+   "keep": "Acoustic tuning, high-resolution picture and sound, and streaming with no lag. One licensed team handles the design, the wiring, and the installation."
+  },
+  {
+   "at": 106.77,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 108.29,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 108.77,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 109.17,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 110.13,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 118.93,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 136.5,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 179.65,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 199.14,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 209.14,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 233.25,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 237.39,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 256.56,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 260.05,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 275.54,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

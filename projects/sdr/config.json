@@ -1,0 +1,30 @@
+{
+  "_about": "The SDR's inbox (scripts/sdr_inbox.py), Jonathan 2026-10-05: a reply comes in, the drip stops, and a question about times gets two open times read from his calendar; a picked time gets booked. His to edit. \"send\" and \"book\" are off: with them off nothing goes to a prospect and nothing is booked for one; a reply is laid in Drafts for him, and on a test thread (he plays the prospect) it is laid in his own INBOX and a quiet hold is put on his calendar. The AIOS never turns \"send\" or \"book\" on. \"approved\" marks each answer he has read and passed; an answer that is not approved is never sent, whatever \"send\" says. The phrases are plain rules, no model: add a line when a real reply is sorted wrong.",
+  "mailbox": "patrick@monarcbuild.com",
+  "daily_new": 20,
+  "sequence": [
+    {"day": 0, "channel": "linkedin", "step": "connection note"},
+    {"day": 1, "channel": "phone", "step": "the call in the dial hour"},
+    {"day": 2, "channel": "email", "step": "email 1"},
+    {"day": 4, "channel": "linkedin", "step": "message after accept"},
+    {"day": 5, "channel": "email", "step": "email 2"},
+    {"day": 8, "channel": "email", "step": "email 3, the last"}
+  ],
+  "name": "Jonathan Beach",
+  "send": false,
+  "book": false,
+  "booking_name": "Monarc Build",
+  "approved": {"times": false, "booked": false, "confirmation": false},
+  "meeting": {"minutes": 15, "title": "Monarc Build audit: {first}"},
+  "hours": {"start": "09:00", "end": "17:00", "blocked": [["12:00", "13:00"]], "step_minutes": 30, "lead_minutes": 45, "days_ahead": 3},
+  "copy": {
+    "times": "{first},\n\n{times_line} Fifteen minutes on Google Meet. Give me the word and I'll send the invite.\n\nJonathan.",
+    "booked": "{first},\n\nBooked. {when}. Fifteen minutes on Google Meet: {meet}\n\nJonathan.",
+    "confirmation_subject": "Booked: {weekday} at {time} with Monarc Build",
+    "confirmation": "{first},\n\nBooked. {when_long}. Fifteen minutes on Google Meet: {meet}\n\nBring nothing.\n\nMy Best,\nMonarc Build"
+  },
+  "phrases": {
+    "stop": ["stop", "unsubscribe", "remove me", "take me off", "not interested", "no thanks", "no thank you", "don't email", "do not email"],
+    "times": ["availability", "available", "what time", "what times", "when are you", "when can you", "when works", "when would", "do you have time", "can you do", "can we do", "free to talk", "free for a call", "schedule", "set up a call", "book a time", "your calendar", "works for me", "let's talk", "lets talk"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "captionColors": {
+  "you": "#4D80E6",
+  "youWord": "#FFFFFF",
+  "woman": "#FF5FA2",
+  "man": "#FF3B30",
+  "themWord": "#FFFFFF",
+  "unknown": "#FFFFFF"
+ },
+ "autoFindMax": 3
+}

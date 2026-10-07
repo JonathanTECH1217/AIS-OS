@@ -1,0 +1,1938 @@
+{
+ "_note": "The free campaign, the shape of projects/google-ads/campaigns/NN-<service>.json. Built by scripts/free_campaign.py; the Editor file beside it is what the prospect loads.",
+ "name": "Stabley | Home theater | Phoenix",
+ "service": "theater",
+ "trade": "integrator",
+ "page": "https://stabley.net/",
+ "daily_budget": 10,
+ "bidding": {
+  "strategy": "maximize_clicks",
+  "max_cpc": null
+ },
+ "network": {
+  "search_partners": false,
+  "display": false
+ },
+ "geo": {
+  "location": "Phoenix, Arizona, United States"
+ },
+ "language": "en",
+ "keywords": [
+  {
+   "text": "home theater installation phoenix",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home theater installation phoenix az",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home theater installation near me",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home theater installer phoenix",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home theater installer phoenix az",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home theater installer near me",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "media room installation phoenix",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "media room installation near me",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home automation installer phoenix",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "home automation installer near me",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "smart home installation phoenix",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  },
+  {
+   "text": "media room installation phoenix az",
+   "match": [
+    "exact",
+    "phrase"
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "text": "job",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "jobs",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "career",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "careers",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "salary",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "salaries",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "wage",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "wages",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "pay scale",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "hourly pay",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "resume",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "resumes",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "cv",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "intern",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "interns",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "internship",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "internships",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "apprentice",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "apprentices",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "apprenticeship",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "apprenticeships",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "recruiter",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "recruiters",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "recruiting",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "recruitment",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "staffing",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "employment",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "vacancy",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "vacancies",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "job openings",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "now hiring",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "hiring near me",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "companies hiring",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "part time",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "full time",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "entry level",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "work from home",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "side hustle",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "indeed",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "glassdoor",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "ziprecruiter",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "how to become",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "become a",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "trade school",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "journeyman",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "ibew",
+   "match": "broad",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "license exam",
+   "match": "phrase",
+   "list": "Jobs and careers"
+  },
+  {
+   "text": "how to",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "how do",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "how does",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "how can",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "what is",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "what are",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "what does",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "why is",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "why are",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "why do",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "tutorial",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "tutorials",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "course",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "courses",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "class",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "classes",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "lesson",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "lessons",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "training",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "certification",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "certifications",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "certificate",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "certificates",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "exam",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "exams",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "quiz",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "guide",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "guides",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "step by step",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "tips",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "tricks",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "hacks",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "ideas",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "example",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "examples",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "sample",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "samples",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "template",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "templates",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "checklist",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "checklists",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "cheat sheet",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "worksheet",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "diy",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "do it yourself",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "yourself",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "myself",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "on my own",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "pdf",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "ebook",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "ebooks",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "books",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "podcast",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "podcasts",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "youtube",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "webinar",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "webinars",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "reddit",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "quora",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "forum",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "forums",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "wiki",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "wikipedia",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "definition",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "meaning",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "for dummies",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "for beginners",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "beginner",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "beginners",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "learn",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "learning",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "statistics",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "stats",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "trends",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "benchmarks",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "glossary",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "udemy",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "coursera",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "skillshare",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "skillshop",
+   "match": "broad",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "hubspot academy",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "chatgpt prompts",
+   "match": "phrase",
+   "list": "Learn and do it yourself"
+  },
+  {
+   "text": "angi",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "angies list",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "angie's list",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "homeadvisor",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "home advisor",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "thumbtack",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "houzz",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "porch",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "networx",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "bark",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "yelp",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "nextdoor",
+   "match": "broad",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "buy leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "buying leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "pay per lead",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "pay per call",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "exclusive leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "shared leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "lead list",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "lead lists",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "leads list",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "leads for sale",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "construction leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "contractor leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "roofing leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "hvac leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "plumbing leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "electrical leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "electrician leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "solar leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "permit data",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "permit leads",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "building permits",
+   "match": "phrase",
+   "list": "Lead buyers"
+  },
+  {
+   "text": "white label",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "whitelabel",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "white labeled",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "reseller",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "resellers",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "resell",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "private label",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "freelancer",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "freelancers",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "freelance",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "upwork",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "fiverr",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "toptal",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "peopleperhour",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "affiliate",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "affiliates",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "affiliate program",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "partner program",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "become a partner",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "agency partner",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "for agencies",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "start an agency",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "start a marketing agency",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "agency owner",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "agency owners",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "sell seo",
+   "match": "phrase",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "offshore",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "overseas",
+   "match": "broad",
+   "list": "Labor shoppers"
+  },
+  {
+   "text": "canada",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "canadian",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "uk",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "united kingdom",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "british",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "scotland",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "ireland",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "irish",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "australia",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "australian",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "new zealand",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "nz",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "india",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "pakistan",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "bangladesh",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "philippines",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "nigeria",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "kenya",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "south africa",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "uae",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "dubai",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "abu dhabi",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "saudi arabia",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "qatar",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "singapore",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "malaysia",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "indonesia",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "germany",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "france",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "spain",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "brazil",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "hong kong",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "toronto",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "vancouver",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "calgary",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "edmonton",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "montreal",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "ottawa",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "winnipeg",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "british columbia",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "alberta",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "quebec",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "nova scotia",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "halifax",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "saskatchewan",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "manitoba",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "mississauga",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "brampton",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "glasgow",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "edinburgh",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "cardiff",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "sydney",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "brisbane",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "adelaide",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "auckland",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "queensland",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "new south wales",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "mumbai",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "delhi",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "bangalore",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "bengaluru",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "hyderabad",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "chennai",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "pune",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "kolkata",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "noida",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "gurgaon",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "ahmedabad",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "optimisation",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "optimise",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "organisation",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "gas engineer",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "gas engineers",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "tradie",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "tradies",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "sparky",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "sparkies",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "plumbers merchant",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "postcode",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "spanish",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "espanol",
+   "match": "broad",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "en espanol",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "cerca de mi",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "para contratistas",
+   "match": "phrase",
+   "list": "Wrong country or language"
+  },
+  {
+   "text": "login",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "log in",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "sign in",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "signin",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "sign up",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "signup",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "customer service",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "customer support",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "support number",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "phone number",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "contact number",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "help center",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "refund",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "refunds",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "cancel",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "unsubscribe",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "delete account",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "account suspended",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "password reset",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "reset password",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "forgot password",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "lawsuit",
+   "match": "broad",
+   "list": "Account and support"
+  },
+  {
+   "text": "class action",
+   "match": "phrase",
+   "list": "Account and support"
+  },
+  {
+   "text": "commercial",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "conference room",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "meeting room",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "office",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "church",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "house of worship",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "school",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "classroom",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "hospital",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "restaurant",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "bar",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "stadium",
+   "match": "broad",
+   "list": "Not the home"
+  },
+  {
+   "text": "digital signage",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "av rental",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "av rentals",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "event av",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "event production",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "live sound",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "car audio",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "car stereo",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "marine audio",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "boat audio",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "rv audio",
+   "match": "phrase",
+   "list": "Not the home"
+  },
+  {
+   "text": "for sale",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "used",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "refurbished",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "amazon",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "best buy",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "home depot",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "lowes",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "manual",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "user manual",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "firmware",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "app download",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "remote control replacement",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "replacement remote",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "speaker wire",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "hdmi cable",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "av receiver",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "av receivers",
+   "match": "phrase",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "projector bulb",
+   "match": "broad",
+   "list": "Parts, gear, and software"
+  },
+  {
+   "text": "technician jobs",
+   "match": "phrase",
+   "list": "Jobs and training (beyond the shared list)"
+  },
+  {
+   "text": "installer jobs",
+   "match": "phrase",
+   "list": "Jobs and training (beyond the shared list)"
+  },
+  {
+   "text": "cedia training",
+   "match": "phrase",
+   "list": "Jobs and training (beyond the shared list)"
+  }
+ ],
+ "ads": [
+  {
+   "name": "Service",
+   "headlines": [
+    {
+     "text": "Home theater in Phoenix",
+     "pin": 1
+    },
+    {
+     "text": "Phoenix Home theater",
+     "pin": 1
+    },
+    {
+     "text": "Home theater, Phoenix AZ",
+     "pin": 1
+    },
+    {
+     "text": "Designed and Installed for You",
+     "pin": 2
+    },
+    {
+     "text": "Built for Phoenix Homes",
+     "pin": 2
+    },
+    {
+     "text": "One Team, Start to Finish",
+     "pin": 2
+    },
+    {
+     "text": "Call for an Estimate",
+     "pin": 3
+    },
+    {
+     "text": "Book a Home Visit",
+     "pin": 3
+    }
+   ],
+   "descriptions": [
+    "Stabley designs and installs home theaters in Phoenix. Call for an estimate.",
+    "One team from the first visit to the last test. Serving Phoenix and nearby.",
+    "Tell us about your home in Phoenix. We plan the work and do it ourselves."
+   ]
+  },
+  {
+   "name": "Proof",
+   "headlines": [
+    {
+     "text": "Home theater in Phoenix",
+     "pin": 1
+    },
+    {
+     "text": "Phoenix Home theater",
+     "pin": 1
+    },
+    {
+     "text": "5 Stars on Google",
+     "pin": 2
+    },
+    {
+     "text": "93 Google Reviews",
+     "pin": 2
+    },
+    {
+     "text": "Built for Phoenix Homes",
+     "pin": 2
+    },
+    {
+     "text": "Call for an Estimate",
+     "pin": 3
+    },
+    {
+     "text": "Get a Quote Today",
+     "pin": 3
+    }
+   ],
+   "descriptions": [
+    "Rated 5 stars by 93 Google reviews. Call today and talk to the people who do the work.",
+    "Stabley designs and installs home theaters in Phoenix. Call for an estimate.",
+    "One team from the first visit to the last test. Serving Phoenix and nearby."
+   ]
+  },
+  {
+   "name": "Home",
+   "headlines": [
+    {
+     "text": "Phoenix Home theater",
+     "pin": 1
+    },
+    {
+     "text": "Home theater, Phoenix AZ",
+     "pin": 1
+    },
+    {
+     "text": "Home theater in Phoenix",
+     "pin": 1
+    },
+    {
+     "text": "One Team, Start to Finish",
+     "pin": 2
+    },
+    {
+     "text": "Done Right the First Time",
+     "pin": 2
+    },
+    {
+     "text": "Designed and Installed for You",
+     "pin": 2
+    },
+    {
+     "text": "Get a Quote Today",
+     "pin": 3
+    },
+    {
+     "text": "Call Today",
+     "pin": 3
+    }
+   ],
+   "descriptions": [
+    "One team from the first visit to the last test. Serving Phoenix and nearby.",
+    "Tell us about your home in Phoenix. We plan the work and do it ourselves.",
+    "Stabley designs and installs home theaters in Phoenix. Call for an estimate."
+   ]
+  }
+ ],
+ "status": "paused"
+}

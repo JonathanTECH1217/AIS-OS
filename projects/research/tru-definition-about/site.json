@@ -1,0 +1,120 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.trudefinition.com/about",
+ "title": "About TruDefinition Smart Home Team | TruDefinition",
+ "description": "Meet the Dallas-Fort Worth team that plans, installs, programs, and supports Savant home automation, theaters, lighting, shades, audio, and networking.",
+ "words": 738,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Dallas–Fort Worth Smart Home Design. Built Around How You Live."
+  },
+  {
+   "tag": "h2",
+   "text": "Built Around a Better Question."
+  },
+  {
+   "tag": "h2",
+   "text": "If It Can’t Be Done, It Hasn’t Been Designed Yet."
+  },
+  {
+   "tag": "h2",
+   "text": "The House Rules."
+  },
+  {
+   "tag": "h2",
+   "text": "Why Homeowners and Project Teams Choose TruDefinition."
+  },
+  {
+   "tag": "h2",
+   "text": "Let’s Talk About Your Home."
+  },
+  {
+   "tag": "h3",
+   "text": "We Listen."
+  },
+  {
+   "tag": "h3",
+   "text": "We Design."
+  },
+  {
+   "tag": "h3",
+   "text": "We Build."
+  },
+  {
+   "tag": "h3",
+   "text": "We Stay."
+  },
+  {
+   "tag": "h3",
+   "text": "One Home. One Plan."
+  },
+  {
+   "tag": "h3",
+   "text": "Small Team. Real Names."
+  },
+  {
+   "tag": "h3",
+   "text": "Outcomes, Not Gear."
+  },
+  {
+   "tag": "h3",
+   "text": "Savant Authorized Dealer"
+  },
+  {
+   "tag": "h3",
+   "text": "CEDIA Member"
+  },
+  {
+   "tag": "h3",
+   "text": "40+ Years Combined"
+  }
+ ],
+ "phones": [
+  "(817) 965-1042"
+ ],
+ "colors": [
+  "#c5a55a",
+  "#ffffff",
+  "#0c1a2e",
+  "#9a7c3a",
+  "#2a3547",
+  "#5a6577",
+  "#0d1117",
+  "#e8e9ed",
+  "#8893a3",
+  "#d6d9df"
+ ],
+ "faces": [
+  "&quot",
+  "Montserrat",
+  "inherit",
+  "var(--font-display-serif)"
+ ],
+ "social": [
+  "https://www.instagram.com/trudefinition/",
+  "https://www.linkedin.com/company/trudefinition"
+ ],
+ "pictures": [
+  {
+   "url": "https://www.trudefinition.com/logo-dark.png",
+   "alt": "TruDefinition",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://www.trudefinition.com/hero-light.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://www.trudefinition.com/About%20us%20cant%20be%20done%20image.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://www.trudefinition.com/About%20us%20CTA.png",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

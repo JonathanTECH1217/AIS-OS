@@ -1,0 +1,57 @@
+{
+ "read": "2026-10-07",
+ "query": "PAVS Smart Home Tech 2550 Copper Ridge Dr Unit A, Steamboat Springs, CO 80487",
+ "place_id": "ChIJeb4yRdpoQocRw986b6LyKvM",
+ "name": "PAVS Smart Home Tech",
+ "address": "2550 Copper Ridge Dr # A, Steamboat Springs, CO 80477, USA",
+ "website": "https://pavs.tech/",
+ "maps": "https://maps.google.com/?cid=17522084079703089091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+ "rating": 4.9,
+ "reviews_count": 23,
+ "reviews": [
+  {
+   "name": "Alan W.",
+   "rating": 5,
+   "date": "2024-03-22",
+   "text": "We have worked with Ross and his PAVS team over the past 10 years.  AV systems are constantly changing with software upgrades, etc., and PAVS has worked with us to keep our systems functioning as economically as possible.  They have been very responsive, either remotely or on-site, when YVEA power outages or Zirkel Wireless system issues have occurred that impact our technology.  We continue to seek the service and advice from Ross and his team as they have been great to work with on our complex AV systems."
+  },
+  {
+   "name": "Rhonda Z.",
+   "rating": 5,
+   "date": "2020-10-27",
+   "text": "We have had an excellent experience working with PAVS over the past 3 years.  They are always quick to respond and our system is managed remotely so any issues are addressed  in minutes, We interviewed a few companies to install our home system, we went PAVS and were happy with our choice. PAVS offered the latest technology over their competitors. Our system has the options to make our house a smart home and the capability to expand / upgrade easily in the future. We highly recommend PAVS."
+  },
+  {
+   "name": "Linda A.",
+   "rating": 5,
+   "date": "2024-03-28",
+   "text": "PAVS did an exceptional job setting up the entire A/V system, including Wi-Fi and security, throughout my house. The work was meticulously done, with great attention to every detail. I was impressed by the professionalism and responsiveness of the team, led by Ross, Joey, and everyone involved. They provided excellent customer care and service, always keeping me informed of any new updates. I highly recommend PAVS; they are truly the best in Steamboat."
+  },
+  {
+   "name": "Robert L.",
+   "rating": 5,
+   "date": "2023-08-22",
+   "text": "Can't say enough great things about the team at PAVS.  Best customer service!  They were in constant contact, showed up on time, respected my home and cleaned up when they were done with the install.  The tech's also stayed to make sure everything worked before leaving and thanked us for our business.  Highly recommend!"
+  },
+  {
+   "name": "Marlin B.",
+   "rating": 5,
+   "date": "2019-04-30",
+   "text": "We had a very positive experience with PAVS putting in our new big screen TV and Sonos system. Ross gave us great pricing, service and follow up when we needed it.  I would recommend his company to anyone looking for honest and reliable AV service."
+  }
+ ],
+ "photos": [
+  {
+   "file": "projects/research/pavs/photos/g00.jpg",
+   "width": 2560,
+   "height": 1440,
+   "by": "PAVS Smart Home Tech"
+  },
+  {
+   "file": "projects/research/pavs/photos/g01.jpg",
+   "width": 400,
+   "height": 300,
+   "by": "PAVS Smart Home Tech"
+  }
+ ]
+}

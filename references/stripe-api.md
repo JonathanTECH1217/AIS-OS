@@ -8,6 +8,7 @@ Domain 1, Revenue / Financials. Started 2026-09-07 (Week 0, box 2). Business: Mo
 - Products: none.
 - Stripe Tax: status `pending`, missing `head_office`. No default tax code or tax behavior set.
 - Activation: NOT activated. `charges_enabled: false`, `payouts_enabled: false`, `details_submitted: false`. Card and ACH capabilities inactive. No payout bank account attached. Account email jonathan@monarcbuild.com, timezone America/New_York, statement descriptor currently "MONARCBUILD.COM".
+- **Read again 2026-10-05 with the restricted key: activated.** `charges_enabled: true`, `payouts_enabled: true`, `details_submitted: true`. Live mode, balance $0. Still empty: no products, customers, invoices, charges, or payouts. The 2026-09-07 lines above and below are the earlier read.
 - Stripe's past-due list to activate: business type, MCC (industry code), product description, support phone, representative first and last name, date of birth, email, statement descriptor, terms of service acceptance. All of it is the Dashboard activation form.
 
 ## The short version
@@ -65,17 +66,19 @@ Reads: customers, subscriptions, invoices (open, paid, past due), balance, analy
 
 Writes: possible through the MCP server; the server asks for human approval on a URL for each write. Live mode. Rule: the AIOS proposes, Jonathan approves, then it writes. No writes to customers or invoices without an explicit ask.
 
-Intern Rule: the MCP session carries the logged-in account's full permissions. If a script is ever needed, use a restricted key with read-only scopes in `.env` (gitignored), never in chat or in this file.
+Intern Rule: the MCP session carries the logged-in account's full permissions. If a script is ever needed, use a restricted key in the secrets file (gitignored), never in chat or in this file. Until 2026-10-05 that key was read-only; since then Jonathan has given it the right to make customers and invoices (Status, below).
 
 ## Status
 
-- [ ] Account activated (charges and payouts enabled)
+- [x] Account activated (charges and payouts enabled; read 2026-10-05)
 - [ ] ACH Direct Debit and cards enabled, ACH default
 - [ ] Products and prices created
 - [ ] Invoice template and branding set
 - [ ] Stripe Tax head office set, service tax category chosen, threshold monitoring on
 - [ ] Customer Portal on, cancellations off
 - [ ] Dry run invoice paid end to end
-- [x] MCP connected and planner run (2026-09-07)
+- [x] MCP connected and planner run (2026-09-07). The login had lapsed by 2026-10-05; `/mcp` signs in again.
+- [x] `STRIPE_SECRET_KEY` (restricted, `rk_live_`) in `%USERPROFILE%\.monarc\secrets.env` (2026-10-05). Reads tested: balance transactions, charges, payouts, invoices, customers, products, balance, account. Whether it can write was not tested.
+- [x] **The key writes (2026-10-05, 12:2x pm).** Jonathan asked for an invoice sent to himself as a test, was told the connector had lapsed and the key was read-only by the Intern Rule above, and answered "updated". The AIOS read that as the key being allowed to write and tried: it made customer "Jonathan Beach (test run)" (`metadata.test=true`) and one **draft** invoice, `in_1UNEeTRp9EARGZZsaNdDuv74`: one line, "Outreach, month one", $4,859.00, send-invoice, due in 7 days, `auto_advance` off so it never finalizes or emails by itself. Not sent, not charged. These are the first objects in the account. It is a test: no row goes in the Books Invoices table, and it is deleted or voided when he has looked. **Decided, Jonathan, 2026-10-05:** "Stripe invoices can now be made. Right privileges are now enabled on Stripe. The key stays able to write." So the key on this machine may make customers and invoices, and this replaces the read-only line in the Intern Rule above for those two. What does not change: a write happens only on his explicit ask, an invoice is made as a draft unless he says send, and nothing is charged or refunded by the AIOS.
 
-Last checked: 2026-09-07.
+Last checked: 2026-10-05.

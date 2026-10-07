@@ -1,0 +1,210 @@
+{
+ "out": "media/looms/pha-v2-2026-10-06/loom-ba-A.mp4",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "pha.systems",
+ "url": "https://www.pha.systems/smart-lighting-control",
+ "render": "projects/Landing Page Build/prospects/pha-v2/index.html",
+ "folder": "media/looms/f4f2b05e-audit-16",
+ "why": "The third PHA audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-pha-v2.md: the hero changes made on their live page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:31:743",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 3.0,
+ "end_at": 448.1,
+ "pause": 0.5,
+ "cuts": [
+  [
+   22.6,
+   36.2,
+   "a sentence that does not land (seeing this brand as somebody they to bring on); SEO is said again later"
+  ],
+  [
+   55.6,
+   72.7,
+   "warm-up: do a little bit of a rework, just so we can get a better idea, the first take"
+  ],
+  [
+   238.1,
+   242.6,
+   "the banner's reason said a second way"
+  ],
+  [
+   267.5,
+   270.4,
+   "a lead-in with nothing in it (in this section here, right after that)"
+  ],
+  [
+   312.3,
+   317.2,
+   "a line that restarts the point just made"
+  ],
+  [
+   165.04,
+   171.7,
+   "the tail of the outcomes list trails off (the customizability these clients spend more on)"
+  ],
+  [
+   211.2,
+   231.0,
+   "the calendar notifications told twice; the form point is made"
+  ],
+  [
+   288.3,
+   296.43,
+   "the about section described a second time"
+  ],
+  [
+   331.8,
+   341.22,
+   "a list of fears that trails off; kept from 'time and cost'"
+  ],
+  [
+   348.77,
+   352.5,
+   "tire kickers said a second time"
+  ],
+  [
+   384.8,
+   394.88,
+   "repeat of the revenue line"
+  ],
+  [
+   409.28,
+   441.5,
+   "the email point said twice, so overall, and the deep research and searching lines: claims with nothing on screen; under five minutes"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "Kettler": "",
+  "hour": "our",
+  "diggers": "kickers",
+  "figures": "fixtures"
+ },
+ "changes": [
+  {
+   "at": 80.98,
+   "kind": "cta",
+   "text": "Book a meeting",
+   "background": "#3F7A17",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 88.9,
+   "kind": "image",
+   "file": "projects/Landing Page Build/prospects/pha/assets/georgian.jpg"
+  },
+  {
+   "at": 103.73,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Annapolis"
+  },
+  {
+   "at": 116.13,
+   "kind": "center"
+  },
+  {
+   "at": 117.41,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 140.11,
+   "kind": "eyebrow",
+   "reuse": true,
+   "color": "#5E9A1F"
+  },
+  {
+   "at": 144.35,
+   "kind": "colors",
+   "text": "#FFFFFF"
+  },
+  {
+   "at": 146.78,
+   "kind": "copy",
+   "keep": "Tunable color temperature, keypad scenes set for how you live, and voice control. Light that follows your day, and a calmer home."
+  },
+  {
+   "at": 172.4,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 184.08,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 186.24,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 187.28,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 188.32,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 212.34,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 232.75,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 244.34,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 270.61,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 296.59,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 319.36,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 352.61,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 363.41,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 396.64,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 441.62,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+WORD|you're|1|1|you're
+WORD|don't|1|1|don't
+WORD|I'm|1|1|I'm
+WORD|can't|1|1|can't
+WORD|won't|1|1|won't
+WORD|we'll|1|1|we'll
+WORD|they've|1|1|they've
+WORD|it's|1|1|it's
+WORD|there's|2|1|the-re's|WRONG
+WORD|where's|2|1|whe-re's|WRONG
+WORD|he's|1|1|he's
+WORD|that's|1|1|that's
+WORD|what's|1|1|what's
+WORD|I'll|1|1|I'll
+WORD|'Cause|1|1|'Cause
+WORD|’Cause|1|1|’Cause
+WORD|you’re|1|1|you’re
+WORD|there’s|2|1|the-re’s|WRONG
+WORD|Blurry|2|2|Blur-ry
+WORD|BLURRY|2|2|BLUR-RY
+WORD|blurry|2|2|blur-ry
+WORD|Everything|2|3|Every-thing|WRONG
+WORD|EVERYTHING|2|3|EVERY-THING|WRONG
+WORD|SOMEONE|2|2|SOME-ONE
+WORD|YOU|1|1|YOU
+WORD|I|1|1|I
+WORD|A|1|1|A
+WORD|shoved|2|1|sho-ved|WRONG
+WORD|messed|2|1|mes-sed|WRONG
+WORD|showed|2|1|sho-wed|WRONG
+WORD|loved|2|1|lo-ved|WRONG
+WORD|lived|2|1|li-ved|WRONG
+WORD|walked|2|1|wal-ked|WRONG
+WORD|jumped|2|1|jum-ped|WRONG
+WORD|wanted|2|2|want-ed
+WORD|needed|2|2|need-ed
+WORD|takes|2|1|ta-kes|WRONG
+WORD|makes|2|1|ma-kes|WRONG
+WORD|faces|2|2|fa-ces
+WORD|places|2|2|pla-ces
+WORD|gave|1|1|gave
+WORD|scene|1|1|scene
+WORD|whole|1|1|whole
+WORD|little|2|2|lit-tle
+WORD|stumble|2|2|stum-ble
+WORD|someone|2|2|some-one
+WORD|someone,|2|2|some-one,
+WORD|oceans|2|2|o-ceans
+WORD|imagine|2|3|imag-ine|WRONG
+WORD|nobody|2|3|no-body|WRONG
+WORD|everybody's|2|4|every-body's|WRONG
+WORD|everyone's|2|3|every-one's|WRONG
+WORD|preoccupied|4|4|pre-oc-cu-pied
+WORD|obscene|2|2|ob-scene
+WORD|surrounds|2|2|sur-rounds
+WORD|changing|2|2|chang-ing
+WORD|real|2|1|re-al|WRONG
+WORD|fire|1|1|fire
+WORD|hour|1|1|hour
+WORD|every|3|2|e-ve-ry|WRONG
+WORD|family|3|3|fam-i-ly
+WORD|different|3|2|dif-fer-ent|WRONG
+WORD|twin-kle|2|2|twin-kle
+WORD|some-one|2|2|some-one
+WORD|well-known|2|2|well-known
+WORD|co-operate|2|4|co-operate|WRONG
+WORD|twenty-one|2|3|twenty-one|WRONG
+WORD|ex-girlfriend|2|3|ex-girlfriend|WRONG
+WORD|Nobo-,|2|2|Nobo-,
+WORD|-|0|0|
+WORD|--|0|0|
+WORD|a-|1|1|a
+WORD|-a|1|1|a
+WORD|2|1|1|2
+WORD|4|1|1|4
+WORD|7|1|1|7
+WORD|100|1|1|100
+WORD|4ever|2|2|4e-ver
+WORD|2nite|1|1|2nite
+WORD|1st|1|1|1st
+WORD|3rd|1|1|3rd
+WORD|24/7|1|1|24/7
+WORD|—|1|0|—|WRONG
+WORD|...|1|0|...|WRONG
+WORD|&|1|0|&|WRONG
+WORD|(oh)|1|1|(oh)
+WORD|(Oh-oh)|2|2|(Oh-oh)
+WORD|oh-oh-oh|3|3|oh-oh-oh
+WORD|yeah|1|1|yeah
+WORD|ooh|1|1|ooh
+WORD|mmm|1|0|mmm|WRONG
+WORD|hmm|1|0|hmm|WRONG
+WORD|la|1|1|la
+WORD|<00:12.34>|1|0|<00:12.34>|WRONG
+WORD|<00:12.34>You|1|1|<00:12.34>You
+LOG 30 of 95 words off: there's=the-re's(2 for 1); where's=whe-re's(2 for 1); there’s=the-re’s(2 for 1); Everything=Every-thing(2 for 3); EVERYTHING=EVERY-THING(2 for 3); shoved=sho-ved(2 for 1); messed=mes-sed(2 for 1); showed=sho-wed(2 for 1); loved=lo-ved(2 for 1); lived=li-ved(2 for 1); walked=wal-ked(2 for 1); jumped=jum-ped(2 for 1); takes=ta-kes(2 for 1); makes=ma-kes(2 for 1); imagine=imag-ine(2 for 3); nobody=no-body(2 for 3); everybody's=every-body's(2 for 4); everyone's=every-one's(2 for 3); real=re-al(2 for 1); every=e-ve-ry(3 for 2); different=dif-fer-ent(3 for 2); co-operate=co-operate(2 for 4); twenty-one=twenty-one(2 for 3); ex-girlfriend=ex-girlfriend(2 for 3); —=—(1 for 0); ...=...(1 for 0); &=&(1 for 0); mmm=mmm(1 for 0); hmm=hmm(1 for 0); <00:12.34>=<00:12.34>(1 for 0)
+LOG parseLyrics kinds: H(Chorus) L(6:You|could|be|my|some|one) H(Verse 1) H(Bridge) L(4:[Cho|rus]|la|la) L(4:Tab|spa|ced|words)
+FAIL [Chorus], [Verse 1], [Bridge] are headers; blank and whitespace lines skipped; "[Chorus] la la" is a line
+LRC|0|23|No fraction|3|No frac-tion
+LRC|1|23.09|<00:23.09> Everything's <00:23.60> so <00:24.10> blurry|8|<00:23.09> Every-thing's <00:23.60> so <00:24.10> blur-ry
+LRC|2|23.09|Millis|2|Mil-lis
+LRC|3|23.5|Short minute|3|Short mi-nute
+LRC|4|30|Well  know (x2)|3|Well know (x2)
+LRC|5|72.94|Can you take it all away?|7|Can you take it all a-way?
+LRC|6|75.94|Can you take it all away?|7|Can you take it all a-way?
+LRC|7|79.01|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LRC|8|79.01|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LRC|9|171.16||1|
+FAIL word tags <mm:ss.xx> do not leak into the text: leaked: "<00:23.09> Everything's <00:23.60> so <00:24.10> blurry" -> 8 syllables: <00:23.09> Every-thing's <00:23.60> so <00:24.10> blur-ry
+PASS a stamp used twice on one line gives two entries with the same text
+PASS two lines with the same stamp both kept, in order
+PASS metadata tags [ar:] [ti:] [offset:] give no entries
+PASS [00:23] (no fraction) and [0:23.5] and [00:23.090] parse
+FAIL [00:23:50] (colon hundredths) parses: dropped
+PASS blank stamped line is kept as an empty entry (an end marker for the line before)
+FAIL [I] inside a lyric survives: "Well  know (x2)"
+LOG panel line: 23 syllables: Well, you sho-ved it in my face; the-re's no one left (that's re-al) — "quot-ed" 'sin-gle' ... yeah!

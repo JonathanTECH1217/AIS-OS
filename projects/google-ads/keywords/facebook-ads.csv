@@ -1,0 +1,402 @@
+keyword,service,trade,intent,searcher,match_type,source,planner_avg_monthly,planner_competition,planner_bid_low,planner_bid_high,serp_ad_count,serp_advertisers,status,ad_group,landing_page,notes
+facebook ads for contractors,facebook-ads,contractor,buy,contractor,phrase,seed+serp,,,,,,,candidate,,/facebook-ads/,"Seed. SERP is guides (ServiceTitan, LeadsBridge, Handoff); no agency page in top 8. https://www.servicetitan.com/blog/contractor-facebook-ads | seed from the plan"
+facebook ads for home automation,facebook-ads,integrator,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,Seed. No integrator page ranks; Design.com ad templates appear. https://hookagency.com/blog/home-services-facebook-ads-guide/ | seed from the plan
+facebook ads agency for home services,facebook-ads,contractor,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,"Seed. Agency pages rank (Superpath, Service Allies, Built-Right, LMH). https://superpath.com/facebook-advertising/ | seed from the plan"
+instagram ads for electricians,facebook-ads,electrician,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,Seed. One exact page (AD Leaf); rest are Facebook pages. https://www.theadleaf.com/industries/instagram-ads-for-electricians/ | seed from the plan
+facebook ads management for contractors,facebook-ads,contractor,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,"Seed. Footbridge title, Blue Corona, CMN rank beside guides. https://www.footbridgemedia.com/services/facebook-ads-management | seed from the plan"
+facebook lead ads for hvac,facebook-ads,hvac,buy,contractor,phrase,seed+serp,,,,,,,candidate,,/facebook-ads/,Seed. How-to (Plumber SEO) and Fiverr gigs rank; watch learners. https://www.plumberseo.net/how-to-set-up-facebook-lead-ads-for-hvac-services/ | seed from the plan
+facebook ads for roofing companies,facebook-ads,roofing,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,"Seed. Guides and roofing software rank (JobNimbus, Roofr, ServiceTitan). https://builtrightdigital.com/roofing-meta-ads-guide/ | seed from the plan"
+social media ads for contractors,facebook-ads,contractor,compare,contractor,phrase,seed+serp,,,,,,,parked,,/facebook-ads/,"Seed. SERP mixes posting services (Buildertrend, Footbridge, Silverback). https://upfrog.com/social-media-ads/ | Parked 2026-09-26 per the naming verdict in facebook-ads-research.md: 5 of 6 social media titles mean posting, not ads. | seed from the plan"
+facebook ads for smart home installers,facebook-ads,integrator,buy,contractor,exact,seed+serp,,,,,,,candidate,,/facebook-ads/,Seed. Only Clicks Geek targets the trade; Malaysian page ranks. https://clicksgeek.com/industries/smart-home-installers/ | seed from the plan
+facebook ads for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av company facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for av integrators,facebook-ads,integrator,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,One Firefly names AV integrators; $200/mo minimum. https://onefirefly.com/marketing-services/digital-marketing/paid-advertising/social-media-advertising
+facebook ads agency for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av integrator facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for home automation companies,facebook-ads,integrator,buy,contractor,exact,matrix+serp,,,,,,,candidate,,/facebook-ads/,Seed variant with company word; only tips pages rank. Planner check. https://www.brainito.com/marketing-strategies-for-home-automation-businesses
+facebook ads agency for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home automation company facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+smart home installer facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for home theater companies,facebook-ads,integrator,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,No ranking page found; CE Pro video story shows the format. https://www.cepro.com/news/facebook-mantelmount-installation-video-insight-security/108224/
+facebook ads agency for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home theater company facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for low voltage contractors,facebook-ads,integrator,buy,contractor,exact,matrix+serp,,,,,,,candidate,,/facebook-ads/,No ranking page found; trade word from method. Planner check. https://clicksgeek.com/industries/smart-home-installers/
+facebook ads agency for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+low voltage contractor facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+integrator facebook ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for electricians,facebook-ads,electrician,buy,contractor,exact,matrix+serp,,,,,,,candidate,,/facebook-ads/,Leads4Build and CMP rank; $15-40 per lead claim. https://leads4build.com/insights/facebook-electrician-advertisement
+facebook ads agency for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrician facebook ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrical contractor facebook ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for hvac companies,facebook-ads,hvac,buy,contractor,exact,matrix+serp,,,,,,,candidate,,/facebook-ads/,Blue Corona title 'Social Media Ads For HVAC Companies'. http://www.bluecorona.com/digital-marketing/social-media/facebook/hvac/
+facebook ads agency for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+hvac company facebook ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+heating and air company facebook ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofing company facebook ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for roofers,facebook-ads,roofing,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,Profit Roofing Systems title; Roofing Webmasters guide. https://profitroofingsystems.com/services/roofing-facebook-ads/
+facebook ads agency for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofer facebook ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for plumbers,facebook-ads,plumbing,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,No exact page read; LMH and Blue Corona list plumbers. https://lmh.agency/meta-ad-for-home-services/
+facebook ads agency for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumber facebook ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for plumbing companies,facebook-ads,plumbing,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,No exact page read; Blue Corona 'Services for Plumbers' h2. https://www.bluecorona.com/digital-marketing/paid-media/social-media-ads/contractors/
+facebook ads agency for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumbing company facebook ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for contractors,facebook-ads,contractor,buy,contractor,exact,matrix+competitor,,,,,,,candidate,,/facebook-ads/,CMN h2 'Working with a Facebook advertising agency'. https://contractormarketingnetwork.com/services/facebook-ads/
+contractor facebook ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads agency for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home services company facebook ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads services for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av company instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av integrator instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home automation company instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+smart home installer instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home theater company instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+low voltage contractor instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+integrator instagram ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrician instagram ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrical contractor instagram ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+hvac company instagram ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+heating and air company instagram ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofing company instagram ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofer instagram ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumber instagram ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumbing company instagram ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,CMP title 'Instagram & Facebook Ads For Contractors' (h1 says Meta). No trade forum thread title says Instagram. https://contractormarketingpros.net/services/paid-ads/meta-ads/
+instagram ads agency for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+contractor instagram ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads agency for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home services company instagram ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+instagram ads services for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av company meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av integrator meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home automation company meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+smart home installer meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home theater company meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+low voltage contractor meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+integrator meta ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,CMP title 'Meta Ads For Electricians'. https://contractormarketingpros.net/electricians/meta-ads/
+meta ads agency for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrician meta ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrical contractor meta ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+hvac company meta ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+heating and air company meta ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,"Contractor Dynamics h1 'Meta Ads Engine'; $3,000/mo. https://www.contractordynamics.com/growth-engine/"
+meta ads agency for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofing company meta ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofer meta ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,LMH names plumbers first. https://lmh.agency/meta-ad-for-home-services/
+meta ads agency for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumber meta ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumbing company meta ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,CMP h1 'Meta Ads for Contractors'; naming test group. https://contractormarketingpros.net/services/paid-ads/meta-ads/
+meta ads agency for contractors,facebook-ads,contractor,buy,contractor,exact,matrix+serp,,,,,,,candidate,,/facebook-ads/,Built-Right result title on the 'meta ads for contractors' query; its title tag says home services. Meta test group. https://builtrightdigital.com/meta-ads/
+contractor meta ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads agency for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home services company meta ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+meta ads services for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av company social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av integrator social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home automation company social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+smart home installer social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home theater company social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+low voltage contractor social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+integrator social media ads company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrician social media ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrical contractor social media ads company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+hvac company social media ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+heating and air company social media ads company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofing company social media ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofer social media ads company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumber social media ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumbing company social media ads company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+contractor social media ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads agency for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home services company social media ads company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+social media ads services for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av company facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for av companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+av integrator facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for av integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home automation company facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for home automation companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+smart home installer facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for smart home installers,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home theater company facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for home theater companies,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+low voltage contractor facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for low voltage contractors,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+integrator facebook advertising company,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for integrators,facebook-ads,integrator,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrician facebook advertising company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for electricians,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+electrical contractor facebook advertising company,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for electrical contractors,facebook-ads,electrician,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+hvac company facebook advertising company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for hvac companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+heating and air company facebook advertising company,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for heating and air companies,facebook-ads,hvac,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofing company facebook advertising company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for roofing companies,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+roofer facebook advertising company,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for roofers,facebook-ads,roofing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumber facebook advertising company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for plumbers,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+plumbing company facebook advertising company,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for plumbing companies,facebook-ads,plumbing,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix+competitor,,,,,,,candidate,,/facebook-ads/,Blue Corona h1 'Facebook advertising for contractors will do it'. https://www.bluecorona.com/social-media-marketing/facebook-advertising-campaigns/
+facebook advertising agency for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+contractor facebook advertising company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for contractors,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising agency for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+home services company facebook advertising company,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook advertising services for home services companies,facebook-ads,contractor,buy,contractor,phrase,matrix,,,,,,,candidate,,/facebook-ads/,
+facebook ads for home services,facebook-ads,contractor,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Hook title 'Facebook Ads For Home Services | Paid Social For Contractors'. https://hookagency.com/paid-social/
+facebook advertising agency for home service companies,facebook-ads,contractor,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,Superpath page title. https://superpath.com/facebook-advertising/
+facebook ads company for contractors,facebook-ads,contractor,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,CMN h1 'Facebook Ads Company for Contractors'; $100/mo starter. https://contractormarketingnetwork.com/services/facebook-ads/
+facebook ad management services for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,CMN wording 'Facebook ad management services'. https://contractormarketingnetwork.com/services/facebook-ads/
+facebook marketing for contractors,facebook-ads,contractor,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Blue Corona and Handoff titles; 'marketing' also pulls organic posting. https://www.handoff.ai/blog/facebook-marketing-for-contractors
+facebook ads for home improvement contractors,facebook-ads,contractor,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Contractor Click and Service Allies titles. https://www.contractor.click/services/facebook-advertising
+facebook and instagram ads for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,CMP title 'Instagram & Facebook Ads For Contractors'. https://contractormarketingpros.net/services/paid-ads/meta-ads/
+meta ads agency for home services,facebook-ads,contractor,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,Built-Right h1 'Meta Ads Agency for Home Services'. https://builtrightdigital.com/meta-ads/
+meta ads for home services contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,LMH title. https://lmh.agency/meta-ad-for-home-services/
+facebook ads for home service companies,facebook-ads,contractor,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Clicks Geek guide and Superpath titles. https://clicksgeek.com/facebook-ads-for-home-service-companies/
+paid social for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Hook title 'Paid Social For Contractors'; agency jargon. https://hookagency.com/paid-social/
+social media advertising for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,UpFrog h1. https://upfrog.com/social-media-ads/
+social media marketing for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,parked,,/facebook-ads/,"Blue Corona and Footbridge h1; posting packages at $199/mo, not ads. https://www.footbridgemedia.com/services/facebook-ads-management"
+facebook ads for smart home companies,facebook-ads,integrator,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Clicks Geek names Facebook and Meta Ads for smart home. https://clicksgeek.com/industries/smart-home-installers/
+social media advertising for av integrators,facebook-ads,integrator,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,One Firefly h1. https://onefirefly.com/marketing-services/digital-marketing/paid-advertising/social-media-advertising
+facebook ads for home security installers,facebook-ads,integrator,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,"Clicks Geek h1; adjacent trade, $4,000-$8,000/mo spend. https://clicksgeek.com/facebook-ads-for-home-security-installers/"
+facebook ads for hvac contractors,facebook-ads,hvac,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,Service Allies title; $60 CPL claim. https://www.serviceallies.com/facebook-ads/hvac-facebook-ads
+hvac facebook ads,facebook-ads,hvac,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,"SERP is guides (Hook, ServiceTitan); no agency page. https://hookagency.com/blog/hvac-facebook-ads/"
+hvac facebook marketing,facebook-ads,hvac,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Blue Corona h1 'Facebook Marketing for HVAC Companies'. http://www.bluecorona.com/digital-marketing/social-media/facebook/hvac/
+hvac facebook leads,facebook-ads,hvac,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Service Allies title 'HVAC Facebook Leads'; lead-buyer intent. https://www.serviceallies.com/facebook-ads/hvac-facebook-ads
+hvac meta ads,facebook-ads,hvac,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Built-Right 'HVAC Meta Ads Guide'. https://builtrightdigital.com/hvac-meta-ads-guide/
+facebook ads for roofing contractors,facebook-ads,roofing,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,JobNimbus (ex Roofer Marketers) title. https://jobnimbus.com/marketing/services/facebook-ads
+roofing facebook ads,facebook-ads,roofing,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Profit Roofing Systems h1; ServiceTitan guide. https://profitroofingsystems.com/services/roofing-facebook-ads/
+roofing facebook ads agency,facebook-ads,roofing,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,Built-Right 'Best Roofing Meta Ads Agency | Facebook Ads For ROI'. https://builtrightdigital.com/best-roofing-meta-ads-agencies/
+roofing meta ads agency,facebook-ads,roofing,buy,contractor,exact,competitor,,,,,,,candidate,,/facebook-ads/,Built-Right h1. https://builtrightdigital.com/best-roofing-meta-ads-agencies/
+social media advertising for roofing companies,facebook-ads,roofing,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Contractor Dynamics title. https://www.contractordynamics.com/growth-engine/
+facebook marketing for roofing,facebook-ads,roofing,buy,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,JobNimbus blog title. https://www.jobnimbus.com/blog/top-facebook-ads-for-roofers-boost-your-business-with-these-proven-strategies
+best facebook ads agency for roofers,facebook-ads,roofing,compare,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,Built-Right 'Best Roofing Meta Ads Agency'; compare group. https://builtrightdigital.com/best-roofing-meta-ads-agencies/
+best facebook ads agency for contractors,facebook-ads,contractor,compare,contractor,phrase,serp,,,,,,,candidate,,/facebook-ads/,Clicks Geek and Gorizen roundups rank; compare group. https://blog.gorizen.com/best-tools-and-agencies-for-facebook-ads-in-home-services
+best facebook ads management services agencies,facebook-ads,contractor,compare,contractor,phrase,serp,,,,,,,parked,,/facebook-ads/,"National head term; Disruptive $3,000-$5,000 minimum. https://clicksgeek.com/facebook-ads-management-services-agency/"
+how much do facebook ads cost for contractors,facebook-ads,contractor,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,CMP FAQ 'How much do Meta ads cost for contractors?'; no PAA block surfaced. https://contractormarketingpros.net/services/paid-ads/meta-ads/
+how much should a contractor spend on facebook ads,facebook-ads,contractor,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,Handoff FAQ; no PAA block surfaced. https://www.handoff.ai/blog/facebook-marketing-for-contractors
+how much should roofing companies spend on facebook ads,facebook-ads,roofing,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,JobNimbus heading. https://www.jobnimbus.com/blog/top-facebook-ads-for-roofers-boost-your-business-with-these-proven-strategies
+do facebook ads work for roofing companies,facebook-ads,roofing,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,JobNimbus FAQ. https://www.jobnimbus.com/blog/top-facebook-ads-for-roofers-boost-your-business-with-these-proven-strategies
+do facebook ads work for hvac,facebook-ads,hvac,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,ServiceTitan heading 'Do Facebook Ads Work for HVAC?'. https://www.servicetitan.com/blog/hvac-facebook-ads
+do facebook ads work for contractors,facebook-ads,contractor,compare,contractor,phrase,forum,,,,,,,candidate,,/facebook-ads/,Contractor Fight listener: 'Do you think Facebook advertising is a good idea?' https://thecontractorfight.com/tcf495-contractor-qa-is-facebook-advertising-a-good-idea/
+are facebook ads worth it for roofers,facebook-ads,roofing,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,Hook title 'Are Roofing Facebook Ads Worth It?'. https://hookagency.com/blog/roofing-facebook-ads-worth-it/
+should i hire an agency for facebook ads,facebook-ads,contractor,compare,contractor,phrase,paa,,,,,,,candidate,,/facebook-ads/,JobNimbus FAQ 'run Facebook ads myself or hire an agency?'; Hook 'hire help'. https://www.jobnimbus.com/blog/top-facebook-ads-for-roofers-boost-your-business-with-these-proven-strategies
+facebook ads vs google ads for contractors,facebook-ads,contractor,compare,contractor,phrase,forum,,,,,,,candidate,,/facebook-ads/,"ContractorTalk thread 'PPC Google vs Facebook ads' (paywalled, unread). https://www.contractortalk.com/threads/ppc-google-vs-facebook-ads.294738/"
+how long before facebook ads produce leads,facebook-ads,contractor,learn,contractor,phrase,paa,,,,,,,parked,,/facebook-ads/,"JobNimbus FAQ; learn tier, content candidate. https://www.jobnimbus.com/blog/top-facebook-ads-for-roofers-boost-your-business-with-these-proven-strategies"
+why contractor facebook ads fail,facebook-ads,contractor,learn,contractor,phrase,paa,,,,,,,parked,,/facebook-ads/,Handoff FAQ 'most common reason contractor Facebook ads fail'; content candidate. https://www.handoff.ai/blog/facebook-marketing-for-contractors
+how to run facebook ads,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,Learner trap; how-to guides rank across every seed. https://clicksgeek.com/facebook-ads-for-home-service-companies/
+how to set up facebook ads,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,Plumber SEO and Clicks Geek how-to pages rank. https://www.plumberseo.net/how-to-set-up-facebook-lead-ads-for-hvac-services/
+facebook ads course,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,Learner trap from method; I Am Builders sells training on its page. https://www.iambuilders.com/articles/grow-construction-business-facebook-ads/
+facebook ads manager,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,Tool and login trap; guides tell owners to use Ads Manager. https://www.servicetitan.com/blog/contractor-facebook-ads
+facebook ad examples,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,'examples' is a learn signal; ServiceTitan and Zeely rank. https://zeely.ai/blog/electrician-advertising/
+facebook ad template,facebook-ads,contractor,learn,learner,negative,serp,,,,,,,negative,,/facebook-ads/,Design.com ad maker ranks for the home automation seed. https://www.design.com/facebook-ad-maker/tag/home-automation
+facebook ads jobs,facebook-ads,contractor,learn,jobseeker,negative,serp,,,,,,,negative,,/facebook-ads/,Jobseeker trap from method; DesignCrowd gig posts rank for trade queries. https://www.designcrowd.com/jobs/job/3611980
+facebook marketplace,facebook-ads,contractor,learn,homeowner,negative,serp,,,,,,,negative,,/facebook-ads/,Homeowner trap from method; not SERP-verified this session. https://leadsbridge.com/blog/facebook-ads-for-contractors/
+fiverr,facebook-ads,contractor,buy,vendor,negative,serp,,,,,,,negative,,/facebook-ads/,Labor shopper; Fiverr gigs rank for 'facebook lead ads for hvac'. https://block.fiverr.com/gigs/hvac-leads
+freelancer,facebook-ads,contractor,buy,vendor,negative,serp,,,,,,,negative,,/facebook-ads/,Labor shopper; 'facebook ads contractor' can mean a freelance ads person. Not SERP-verified. https://block.fiverr.com/gigs/facebook-leads?page=3
+malaysia,facebook-ads,contractor,buy,contractor,negative,serp,,,,,,,negative,,/facebook-ads/,Wrong country; ZenWeb Malaysia ranks for smart home meta ads. https://zenweb.my/industries/smart-home/meta-ads
+gohighlevel,facebook-ads,contractor,learn,vendor,negative,serp,,,,,,,negative,,/facebook-ads/,Software vendor help pages rank for trade plus facebook queries. https://help.gohighlevel.com/support/solutions/articles/155000004605
+social advertising for home services,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,candidate,,/facebook-ads/,"Scorpion title 'Social Advertising for Home Services Businesses'; agency wording, Planner check. https://www.scorpion.co/home-services/marketing-solutions/social-advertising/"
+social media management for contractors,facebook-ads,contractor,buy,contractor,phrase,competitor,,,,,,,parked,,/facebook-ads/,"Footbridge title 'Social Media Marketing for Contractors | Social Media Management'; posting plans $199 to $249 a month, not ads. Negative candidate. https://www.footbridgemedia.com/services/social-media-marketing"
+boost post,facebook-ads,contractor,learn,learner,negative,forum,,,,,,,negative,,/facebook-ads/,Owners boost posts themselves in forum threads; the campaign brief lists it as a negative. https://www.plumbingzone.com/threads/anyone-running-facebook-ads.34281/
+facebook groups,facebook-ads,contractor,learn,learner,negative,forum,,,,,,,negative,,/facebook-ads/,"Owners prefer free local groups: 'Facebook is important, but not for advertising.' Organic intent. https://www.electriciantalk.com/threads/facebook-marketing.284486/page-2"

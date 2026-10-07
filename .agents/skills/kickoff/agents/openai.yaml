@@ -1,0 +1,6 @@
+interface:
+  display_name: "Client Kickoff"
+  short_description: "Book and run the client kickoff questionnaire, capture access and business facts"
+  default_prompt: "Use $kickoff to prep, run, or wrap the kickoff for this client."
+policy:
+  allow_implicit_invocation: true

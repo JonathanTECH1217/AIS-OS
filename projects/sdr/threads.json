@@ -1,0 +1,53 @@
+{
+  "_about": "The threads the SDR started: its prospects in the pipeline. Written by scripts/sdr_inbox.py.",
+  "threads": [
+    {
+      "id": "<179122361249.29880.12517286248467781531@monarcbuild.com>",
+      "ids": [
+        "<179122361249.29880.12517286248467781531@monarcbuild.com>",
+        "<gHYFD-tnMHax_mFZJMydUBu4MxIiAdJP4DvPUcTfjdQfk0T4t5JZppogWa4wA7-VwdDmdWVz-gkdm5cYX1k36y7Bgdnrz8jVy4LiMJ9_ZYw=@monarcbuild.com>",
+        "<179122431357.32784.18049302825331013495@monarcbuild.com>",
+        "<Fo19gOQnTs2MY8h34lJHK2Lu7Ws2baYtJtyvl1Hto1sg4StwA71cGglrcPjw2XlplbdTqnDuR7ou9yVQAAoU_Qci3SGkuVtj4IPRsoX80Y4=@monarcbuild.com>",
+        "<179122603100.5956.17454186089861884013@monarcbuild.com>",
+        "<179122634767.25636.7498519407300353993@monarcbuild.com>"
+      ],
+      "to": "jonathan@monarcbuild.com",
+      "first": "Jonathan",
+      "zone": "America/New_York",
+      "test": true,
+      "subject": "Your contact form, two days",
+      "started": "2026-10-05T14:18-04:00",
+      "drip": "cancelled",
+      "status": "booked",
+      "seen": [
+        "<gHYFD-tnMHax_mFZJMydUBu4MxIiAdJP4DvPUcTfjdQfk0T4t5JZppogWa4wA7-VwdDmdWVz-gkdm5cYX1k36y7Bgdnrz8jVy4LiMJ9_ZYw=@monarcbuild.com>",
+        "<Fo19gOQnTs2MY8h34lJHK2Lu7Ws2baYtJtyvl1Hto1sg4StwA71cGglrcPjw2XlplbdTqnDuR7ou9yVQAAoU_Qci3SGkuVtj4IPRsoX80Y4=@monarcbuild.com>"
+      ],
+      "offered": [
+        "2026-10-05T15:30:00-04:00",
+        "2026-10-05T16:30:00-04:00"
+      ],
+      "scene": "sdr cold-outreach email-1 slow-form-reply",
+      "event": "sgtp97kgt9atufbdmkp8rpdjio",
+      "booked": "2026-10-05T15:30:00-04:00",
+      "meet": "https://meet.google.com/sdr-cuyz-ycu"
+    },
+    {
+      "id": "<179122634987.25636.4507369155930973379@monarcbuild.com>",
+      "ids": [
+        "<179122634987.25636.4507369155930973379@monarcbuild.com>"
+      ],
+      "to": "jonathan@monarcbuild.com",
+      "first": "Jonathan",
+      "zone": "America/New_York",
+      "test": true,
+      "subject": "Booked: Monday at 3:30 pm with Monarc Build",
+      "started": "2026-10-05T14:52-04:00",
+      "drip": "running",
+      "status": "sent",
+      "seen": [],
+      "offered": [],
+      "scene": "sdr inbox-replies"
+    }
+  ]
+}

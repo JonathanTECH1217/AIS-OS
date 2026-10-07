@@ -1,0 +1,13 @@
+{
+  "_about": "Butterfly, the logo's menu in the CRM (Jonathan, 2026-10-05). The projects made from the menu, and any chat pinned by hand. A project is an artifact, a campaign, a skill, or a workflow. A skill is a role, like the SDR; its workflows live under it, one file each in .claude/skills/<skill>/workflows/. The CRM's campaigns, the skills, their workflows, and the groups in artifacts.json show in the list by themselves and need no row here. A chat opened from the menu starts with a line ending \"(butterfly: <id>)\", which is how the project finds that chat again; \"session\" pins a chat that was started before that. \"workspace\" (a folder from the repo root) says where new chats start; without it they start in the folder of the latest chat. Read by scripts/crm_butterfly.py.",
+  "projects": [
+    {
+      "id": "project-skills-and-workflows",
+      "kind": "skill",
+      "name": "Skills and workflows",
+      "line": "The SDR skill and its four workflows, the coach skill to come, and list building.",
+      "session": "7cd6ff8c-32de-414c-b4d4-edb70177950f",
+      "created": "2026-10-05"
+    }
+  ]
+}

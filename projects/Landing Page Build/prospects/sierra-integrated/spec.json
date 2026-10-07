@@ -1,0 +1,221 @@
+{
+ "company": "Sierra Integrated Systems",
+ "short": "SIS",
+ "page": "https://sierraintegratedsystems.com/solutions/lighting-design",
+ "loom": "https://www.loom.com/share/8c241718d7e543b0a3531d6d49266967",
+ "phone": "(775) 853-4800",
+ "address": "8060 Double R Boulevard #500, Reno, NV 89511",
+ "areas": "Reno, Tahoe, Truckee, Carson City, Incline Village, Crystal Bay",
+ "brand": {
+  "color": "#EBA900",
+  "dark": "#C48D00",
+  "accent": "#FFC247",
+  "serif": true,
+  "head": "Roboto Condensed",
+  "body": "Roboto",
+  "mist": "#F7F3EA"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "For homeowners in Reno, Tahoe, and Truckee",
+  "h1": "Lighting Design for Your Nevada Home",
+  "sub": "Lighting has the power to shape how your home looks and feels. Our lighting design services bring intention, comfort, and performance to every space.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting design gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypad lighting scenes",
+    "p": "One press sets the room. Welcome Home, Movie Night, and Goodnight scenes from a keypad on the wall, each light at the level you chose."
+   },
+   {
+    "icon": "clock",
+    "h3": "Automation and voice control",
+    "p": "Lights follow your schedule, dim at sunset, and answer a voice command. Away from home, your phone runs the house."
+   },
+   {
+    "icon": "sun",
+    "h3": "Color temperature and circadian rhythm",
+    "p": "Tunable white light shifts from cool in the morning to warm at night, the way daylight does. It keeps your body clock on track and helps you wind down."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Built on performance and integrity since 2002",
+  "p": "Keith Burrowes founded Sierra Integrated Systems in 2002 to design and install lighting control and home technology for high-end homes. One team designs, installs, and supports your system, and works with you, your architect, builder, and designer to make your vision come to life.",
+  "photo": "assets/team.jpg",
+  "alt": "Keith Burrowes, founder of Sierra Integrated Systems"
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "We were very fortunate to work with Ashley Shores at Sierra Integrated Systems. The quality of work in installing a surround sound system in our home was exceptional. Ashley and Shawn were extremely professional, knowledgeable, and informative and the other staff was amazing as well.",
+    "who": "Laura B.",
+    "stars": 5
+   },
+   {
+    "p": "We selected Sierra Integrated Systems to do a complete furnish and installation of lighting controls and automated window shades on a new custom home. They are very good to deal with and really know their products.",
+    "who": "Kevin R.",
+    "stars": 5
+   },
+   {
+    "p": "Ryan and his team are the best. They are very professional, extremely responsive, very easy to work with and great on follow up. I would recommend their work to anyone, for A/V, lighting, security. Excellence is achieved only with hard work, and they have.",
+    "who": "Claudia H.",
+    "stars": 5
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-greybull-living.jpg",
+    "alt": "A living room with a lit wood ceiling, a stone fireplace, and the kitchen beyond"
+   },
+   {
+    "src": "assets/work-kitchen.jpg",
+    "alt": "A kitchen with chandeliers over the island and recessed lights, looking out to the lake"
+   },
+   {
+    "src": "assets/work-great-room.jpg",
+    "alt": "A sitting room with cove lighting along the ceiling and a pendant under the arch"
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "We work with architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/work-greybull-exterior.jpg",
+  "steps": [
+   {
+    "h3": "Discovery and consultation",
+    "p": "We begin with a lighting design consultation to understand your home, lifestyle, and goals: plans, room usage, aesthetic preferences, and any smart home integration needs."
+   },
+   {
+    "h3": "Conceptual design",
+    "p": "A lighting concept that balances function, atmosphere, and architectural intent. Fixture types, layering, and control approaches are outlined for each space."
+   },
+   {
+    "h3": "Detailed lighting plan",
+    "p": "Fixture placement, beam spreads, control zones, and performance requirements, so builders and electricians have clarity."
+   },
+   {
+    "h3": "Installation support and final tuning",
+    "p": "We support the installation and fine-tune lighting scenes, dimming, and controls for a polished final result."
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Do I really need a lighting designer if I already have an electrician or architect?",
+    "a": "Electricians and architects play important roles, but a lighting design specialist focuses specifically on light quality, layering, and performance to enhance the final experience."
+   },
+   {
+    "q": "Can you work from my existing blueprints or during a remodel?",
+    "a": "Yes. We regularly design lighting for both new construction and remodels using existing plans."
+   },
+   {
+    "q": "How long does the lighting design process usually take?",
+    "a": "Timelines vary by project size, but most lighting design services align with the early planning and construction phases."
+   },
+   {
+    "q": "Can you work with fixtures I've already purchased?",
+    "a": "When possible, we can incorporate existing fixtures while ensuring compatibility and performance."
+   },
+   {
+    "q": "Will the lighting system be easy for my family to use?",
+    "a": "Absolutely. We design lighting controls to be intuitive, with simple keypads, scenes, and app-based access."
+   },
+   {
+    "q": "What areas do you service?",
+    "a": "We provide lighting design services throughout Reno, Tahoe, Truckee, Carson City, Incline Village, Crystal Bay, and other surrounding areas of Nevada."
+   }
+  ]
+ },
+ "services": {
+  "h2": "More for your home",
+  "p": "One team for lighting, shades, audio, video, and the wiring behind them.",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Whole-home audio and video",
+    "p": "Rich multi-room audio and crisp video distribution tailored to every space in your residence.",
+    "href": "https://sierraintegratedsystems.com/solutions/audio-video"
+   },
+   {
+    "icon": "tv",
+    "h3": "Home theater",
+    "p": "A custom private cinema with high-performance sound and high-definition displays.",
+    "href": "https://sierraintegratedsystems.com/solutions/home-theater"
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shading",
+    "p": "Lutron motorized shades that adjust to changing sunlight or your daily schedule.",
+    "href": "https://sierraintegratedsystems.com/solutions/shading-solutions"
+   },
+   {
+    "icon": "home",
+    "h3": "Smart home automation",
+    "p": "Custom touchscreens and keypads, with mobile control from your phone.",
+    "href": "https://sierraintegratedsystems.com/solutions/smart-home-automation"
+   },
+   {
+    "icon": "keypad",
+    "h3": "Lighting control",
+    "p": "Scenes like Welcome Home, Movie Night, or Goodnight, from wall keypads or your phone.",
+    "href": "https://sierraintegratedsystems.com/solutions/lighting-control"
+   },
+   {
+    "icon": "bolt",
+    "h3": "Electrical services",
+    "p": "Complete electrical wiring, backup generators, and low-voltage wiring under one roof.",
+    "href": "https://sierraintegratedsystems.com/solutions/electrical-services"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Start with a private consultation",
+  "p": "Tell us about your home and pick a time."
+ },
+ "footer": {
+  "creds": "Lutron Black Diamond Dealer. Control4 and Crestron direct dealer. CEDIA member. Licensed in Nevada and California."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or a remodel.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "reviews",
+  "work",
+  "process",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom 8c241718 on their lighting design page. Every word, photo, and credential is from sierraintegratedsystems.com (the lighting design page, the home page, /about-us/company, /gallery), read the same day; see brief.md. No rating line: their site states no Google rating or count, and the Google profile pull costs money and waits on his go. The hero is their page's own photo (a rendered room, probably stock); their Greybull house (assets/work-greybull-exterior.jpg, their own project) is behind the process band and could take the hero instead. logo.png is their white horizontal logo painted their dark grey (#292929) for the white header bar; team.jpg is the founder's portrait cut to 5:4. No pattern block: his A B A C A B A colors are his to settle (Taste Log 2026-10-06). The reviews are three of the six on their home page, cut not rewritten; a cut is marked with three periods.",
+ "google": {
+  "rating": 3.9,
+  "count": 14,
+  "maps": "https://maps.google.com/?cid=1343301888390653031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png"
+ }
+}

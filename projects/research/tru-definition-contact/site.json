@@ -1,0 +1,64 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.trudefinition.com/contact",
+ "title": "Request a Home Technology Consultation | TruDefinition DFW",
+ "description": "Discuss your Dallas-Fort Worth home technology project with TruDefinition. Request a consultation for automation, theaters, lighting, shades and more, or call (817) 965-1042.",
+ "words": 311,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Let's Plan Your Home Technology Project."
+  },
+  {
+   "tag": "h2",
+   "text": "Request a Consultation"
+  },
+  {
+   "tag": "h3",
+   "text": "Call"
+  },
+  {
+   "tag": "h3",
+   "text": "Email"
+  },
+  {
+   "tag": "h3",
+   "text": "Where We Show Up"
+  },
+  {
+   "tag": "h3",
+   "text": "What to discuss"
+  }
+ ],
+ "phones": [
+  "(817) 965-1042"
+ ],
+ "colors": [
+  "#c5a55a",
+  "#0c1a2e",
+  "#ffffff",
+  "#2a3547",
+  "#5a6577",
+  "#9a7c3a",
+  "#0d1117",
+  "#e8e9ed",
+  "#8893a3",
+  "#d6d9df"
+ ],
+ "faces": [
+  "&quot",
+  "Montserrat",
+  "inherit"
+ ],
+ "social": [
+  "https://www.instagram.com/trudefinition/",
+  "https://www.linkedin.com/company/trudefinition"
+ ],
+ "pictures": [
+  {
+   "url": "https://www.trudefinition.com/logo-dark.png",
+   "alt": "TruDefinition",
+   "note": "a logo or an icon"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "_about": "Records, Creative (2026-10-05): the OpusClip projects whose clips show on the tab, and what Jonathan has marked published. The clone adds a project here each time it sends a video to OpusClip. The cuts in media/looms and the Studio shorts in media/ready are read from the folders, not from this file.",
+ "opusclip_projects": [
+  {"id": "P3100520O21H", "title": "Momentum: owner version", "made": "2026-10-05", "note": "the review joined to the after, wide, filler words out"},
+  {"id": "P3100520NmUy", "title": "Momentum: review plus after, shorts", "made": "2026-10-05", "note": "vertical, filler words out"},
+  {"id": "P3100519EN55", "title": "Test: Momentum website review (the October 4 Loom)", "made": "2026-10-05", "note": "the first test, 15 clips"}
+ ],
+ "published": {}
+}

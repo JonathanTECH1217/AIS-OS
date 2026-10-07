@@ -1,0 +1,1 @@
+Four pages removed from monarcbuild.com on 2026-09-24 at Jonathan's word ("results can go, how it works can go, territories can go, permit intelligence can go"). These are the live copies at removal, with the GA4 tag. The /avmarketing 301 was removed the same time.

@@ -1,0 +1,200 @@
+{
+ "company": "Reliant Electrical and Automation Inc.",
+ "short": "Reliant",
+ "page": "https://reliant.services/home-theater-automation/",
+ "loom": "https://www.loom.com/share/6c3519b9bb5e48558e7e9846d1da1289",
+ "phone": "(559) 338-4458",
+ "address": "144 E Weldon Ave, Fresno, CA 93704",
+ "areas": "Fresno, Clovis, Madera, and Fresno County",
+ "title": "Home Theater Installation in Fresno | Reliant Electrical and Automation Inc.",
+ "brand": {
+  "color": "#F76A0C",
+  "dark": "#D4590A",
+  "accent": "#FB8A3C",
+  "serif": true,
+  "head": "Montserrat",
+  "body": "Inter",
+  "mist": "#FAF3EC"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 56,
+ "hero": {
+  "eyebrow": "For luxury homeowners",
+  "h1": "Home Theater Installation in Fresno",
+  "sub": "Acoustic tuning, high-resolution picture and sound, and streaming with no lag. One licensed team handles the design, the wiring, and the installation.",
+  "photo": "assets/hero-theater.jpg"
+ },
+ "cards": {
+  "h2": "What a home theater is made of",
+  "text": "dark",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Speaker layouts",
+    "p": "5.1, 7.1, 7.2, and up to 15.1. The layout follows the room, the seats, and how you want to hear it."
+   },
+   {
+    "icon": "home",
+    "h3": "In-wall and in-ceiling speakers",
+    "p": "Hidden in the walls and ceiling, placed for sightlines and tuned to the room. Nothing on the floor."
+   },
+   {
+    "icon": "bolt",
+    "h3": "Gear that keeps the quality",
+    "p": "Balanced cable runs, dedicated circuits, grounding, and surge protection. The sound stays clean and the electronics stay safe."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "From tugboats to smart homes",
+  "p": "Reliant Electrical and Automation started on the docks and in industrial corridors, wiring vessels and running sound for live shows. That background in power and mission-critical systems is what we bring to every theater: a system that is invisible but intelligent, reliable day after day, and simple for the people who use it."
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "I hired Reliant Electrical and Automation Inc. to rewire my home in Fresno (a craftsman-style 2 bed, 1.5 bath built in 1941). The original wiring was knob and tube, which I discovered wouldn’t be covered by insurance in the event of an electrical claim.",
+    "who": "Spee K.",
+    "stars": 5
+   },
+   {
+    "p": "Great work! Marshal (Reliant Electrical & Automation Inc.) quickly figured out the reason that our main garage light socket was no longer turning the lightbulb on/off (wall switches for it were bad and needed to be replaced).",
+    "who": "Jane",
+    "stars": 5
+   },
+   {
+    "p": "I’m very satisfied with Reliant Electrical’s work at my house. I hired them to replace our ceiling fans. Both Marshal and Evan had done an outstanding job. They’re courteous, tidy, punctual, and very competent. I highly recommend Reliant Electrical’s service.👍",
+    "who": "Lersak P.",
+    "stars": 5
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/hero-theater.jpg",
+    "alt": "A dedicated home theater: a wall-mounted screen, tiered seating, and wall sconces on dimmers in a dark red room."
+   },
+   {
+    "src": "assets/work-game-room.jpg",
+    "alt": "A backlit onyx bar top in a wood-paneled game room, lit edge to edge with no visible fixtures."
+   },
+   {
+    "src": "assets/work-gameroom.jpg",
+    "alt": "A game room with a screen, lit table, and color lighting"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "What does a home theater include?",
+    "a": "A display or a projector and screen, surround or Atmos-style audio, seating, acoustic panels, lighting control, and one remote or touch panel that runs it all."
+   },
+   {
+    "q": "Can a theater go into an existing home?",
+    "a": "In most cases, yes. We check electrical capacity, network readiness, and access for new wiring, then plan the room around what is there."
+   },
+   {
+    "q": "Is it better to plan it during construction or a remodel?",
+    "a": "Yes. Wiring and conduit go in while the walls are open, which avoids wall damage later and keeps future options open."
+   },
+   {
+    "q": "Will the system be hard to use?",
+    "a": "No. Well-designed systems run on presets, so one button starts movie night. Simple controls are there when you want to adjust something."
+   },
+   {
+    "q": "Do you work in Clovis and Madera?",
+    "a": "Yes. We install home theaters throughout Fresno, Clovis, Madera, and the surrounding Fresno County communities."
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "steps": [
+   {
+    "h3": "Consultation",
+    "p": "We meet in the room, measure it, and talk through seating, sightlines, ambient light, and what you want it to do."
+   },
+   {
+    "h3": "Design and wiring plan",
+    "p": "Speaker placement, the display or screen, dedicated circuits, and the wiring layout on paper before the walls close."
+   },
+   {
+    "h3": "Equipment",
+    "p": "We select and source the gear to match the room and the plan, and work around your carpentry and drywall trades."
+   },
+   {
+    "h3": "Installation and tuning",
+    "p": "Installed, programmed, and tuned to the room, with a cleanup and a walkthrough so you know every button."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Book your theater consultation",
+  "p": "Tell us about the room and pick a time."
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "items": [
+   {
+    "icon": "wifi",
+    "h3": "Networking",
+    "p": "Wired and wireless coverage that keeps 4K streams and the control system steady.",
+    "href": "https://reliant.services/networking/"
+   },
+   {
+    "icon": "keypad",
+    "h3": "Lighting control",
+    "p": "Scenes, dimming, and keypads for the theater and the whole house.",
+    "href": "https://reliant.services/lighting/"
+   },
+   {
+    "icon": "home",
+    "h3": "Whole-home automation",
+    "p": "Lights, climate, shades, and entertainment under one control.",
+    "href": "https://reliant.services/smart-home-evolution-plan/"
+   },
+   {
+    "icon": "bolt",
+    "h3": "Backup power",
+    "p": "Battery backup and generators that keep the house running through an outage.",
+    "href": "https://reliant.services/energy-resiliency/"
+   }
+  ]
+ },
+ "footer": {
+  "creds": "CSLB License #1128802."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the room, new build or an existing home.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "reviews",
+  "work",
+  "faq",
+  "process",
+  "final",
+  "services"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom audit of their mixed theater-and-automation page. This is the HOME THEATER page only; automation is a services card at the foot. Hover text: he asked for each work photo to darken on hover and show two or three sentences on the project; the engine has no hover text, so the project line sits in each photo's alt. Photos: their site has one real theater photo (Theater-scaled.webp, a phone shot) and three Pixel-phone job photos (a lit house, a backlit onyx bar in a game room, a kitchen island under construction); the rest are Control4 and Snap One marketing images (Avalon Beach, AU_2G_Dine, EMEA_C4, the C4 drip image, the Araknis rack) and were not used. The theater photo is the hero and the first work tile; the game room is the second; the third is marked empty. No owner or team photo on the site: the about box is marked empty. Reviews are from the Google widget on their home page (5.0, 17 reviews); only Mason D. speaks to audio, the other two are general. Outdoor entertainment has no page on their site, so it is not linked. Their orange is #F76A0C from their CSS; fonts Montserrat and Inter are theirs; the light serif for headings is his rule for high-end residential.",
+ "google": {
+  "rating": 5,
+  "count": 17,
+  "maps": "https://maps.google.com/?cid=5006419034719644372&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

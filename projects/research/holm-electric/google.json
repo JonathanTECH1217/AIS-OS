@@ -1,0 +1,63 @@
+{
+ "read": "2026-10-07",
+ "query": "Holm Electric 919 Incline Way, Ste. 21, Incline Village, NV 89450",
+ "place_id": "ChIJtTNBt0lwmYARoYT-FyZXCxw",
+ "name": "Holm Electric",
+ "address": "919 Incline Way Building 5, Unit 21, Incline Village, NV 89451, USA",
+ "website": "http://holmelectric.com/",
+ "maps": "https://maps.google.com/?cid=2020804678928729249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+ "rating": 4.2,
+ "reviews_count": 15,
+ "reviews": [
+  {
+   "name": "Kerry N.",
+   "rating": 5,
+   "date": "2024-02-14",
+   "text": "We’re in a very old cabin in KB that’s going through probate and has a lot of issues. After having an emergency electric shut off, I was told by Liberty Utilities I needed a full panel replacement and inspection before returning power. Holm was the first electrician to answer and Elisa immediately sent Jason over to assess the situation. Jason got right to work securing electricians, equipment, and permits. Brandon and Jordan were the electricians who came out and got the weird, old, sketchy job done perfectly! Then, the whole team helped me push the permit through to an inspection with the county and Elisa filtered through all the weird estate paperwork we have to help out. Would 12/10 recommend Holm or hire them again!!"
+  },
+  {
+   "name": "Jordan A.",
+   "rating": 2,
+   "date": "2019-07-10",
+   "text": "Disclaimer: Holm electric didn't do any work for me. The reason they didn't do any work is because they couldn't be bothered to get back to me, even after calling twice and speaking with the receptionist who took my info both times. I ended up going with AAA Electric and they did a great job. For all I know, Holm Electric could be great at what they do but if you can't get back to customers how are they supposed to know? Frustrating situation to say the least, hopefully they get a system in place."
+  },
+  {
+   "name": "David C.",
+   "rating": 4,
+   "date": "2020-04-06",
+   "text": "I had a very small job that required replacing a low voltage transformer and replacing some LED strips.  It DID take a while to get their attention but once I did they did the job.  Kevin made sure someone came and Jeff, who came was a rock star.  Easy to work with, just be patient."
+  },
+  {
+   "name": "Elizabeth S.",
+   "rating": 5,
+   "date": "2024-10-15",
+   "text": "Very helpful and professional. Pricing estimates very high as is everything else.\nWill not do project because of high costs."
+  },
+  {
+   "name": "dan h.",
+   "rating": 1,
+   "date": "2020-04-29",
+   "text": "The quality of the work was adequate but the cost and hours were ridiculous! Over 66 hours to run electrical and hang 7 tv's"
+  }
+ ],
+ "photos": [
+  {
+   "file": "projects/research/holm-electric/photos/g00.jpg",
+   "width": 2016,
+   "height": 1512,
+   "by": "Holm Electric"
+  },
+  {
+   "file": "projects/research/holm-electric/photos/g01.jpg",
+   "width": 2016,
+   "height": 1512,
+   "by": "Holm Electric"
+  },
+  {
+   "file": "projects/research/holm-electric/photos/g02.jpg",
+   "width": 750,
+   "height": 339,
+   "by": "Holm Electric"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+/* Service page base (Style Guide 6.16). No hex values here: every color comes from the page's theme scope in
+   assets/site.css (html[data-theme]), which also maps the house names (--oak, --blue, --sand...) used by the popup.
+   Spacing and ratios are the invariants (Style Guide 3). Written 2026-09-26 for /google-ads/. */
+:root{--col:960px;--pad:96px;--gap:56px;--stack:24px}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none !important}
+html{color-scheme:light}
+body.modal-open{overflow:hidden}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit;text-decoration:none}
+p{text-wrap:pretty}
+h1,h2,h3{text-wrap:balance}
+h1{font-size:56px;line-height:1.1;letter-spacing:-0.01em}
+h2{font-size:40px;line-height:1.15}
+h3{font-size:24px;line-height:1.25}
+.sub{font-size:22px;line-height:1.4;max-width:34em}
+.label{font-size:13px;letter-spacing:0.12em;text-transform:uppercase;display:inline-flex;align-items:center}
+.col{max-width:var(--col);margin:0 auto;padding:0 24px}
+section{padding:var(--pad) 0}
+.head{display:grid;gap:var(--stack);margin-bottom:var(--gap);justify-items:start}
+.btn{display:inline-block;font-size:16px;font-weight:var(--weight-button,500);padding:16px 28px;letter-spacing:0.01em;border:0;cursor:pointer;transition:transform 0.2s ease,opacity 0.2s ease}
+.btn,.step-btn.primary{background:var(--button);color:var(--button-text);border-radius:var(--radius-button)}
+.btn:hover{transform:translateY(-1px);opacity:0.92}
+.btn:focus-visible,.step-btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.mark{padding:24px 0;text-align:center}
+.brand{font-family:var(--font-heading);font-size:20px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink)}
+.placeholder{display:flex;align-items:center;justify-content:center;font-size:14px;text-align:center;padding:16px}
+/* proof: static cards (pages capture Q5 applied to the proof block too) */
+.proof-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.proof-card{background:var(--card);border:var(--card-border);border-radius:var(--radius-card);box-shadow:var(--card-shadow);overflow:hidden;display:grid;align-content:start}
+.proof-card .media{aspect-ratio:4/3;overflow:hidden;background:var(--band)}
+.crop-top{object-position:center 20%}
+.crop-mid{object-position:center 38%}
+.cap{display:grid;gap:6px;padding:16px 20px 20px}
+.fig{font-family:var(--font-heading);font-size:40px;line-height:1;color:var(--ink);font-variant-numeric:lining-nums tabular-nums}
+.proof-card .title{font-family:var(--font-heading);font-size:22px;line-height:1.2;color:var(--ink)}
+.proof-card .txt{font-size:15px;line-height:1.5;color:var(--muted)}
+.proof-cards.one{grid-template-columns:minmax(0,360px)}
+/* a figure row: the large figure beside its line (the ad page's Page 1 row) */
+.svc-row{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:baseline;margin-bottom:40px}
+.svc-row .fig{font-size:72px;white-space:nowrap}
+.svc-row p{font-size:18px;max-width:34em}
+/* Phosphor icons ship as filled shapes, not strokes (the email page) */
+.svc-card .opener svg.ph,.svc-trades svg.ph{fill:currentColor;stroke:none}
+/* hero over the render (the email page, Jonathan 2026-09-26: "the headline overlaying the beige sky"): on desktop the
+   h1, sub, and button sit over the sky left of the flag; under 1024px the sky is too narrow, so the text stacks above */
+.svc-hero.svc-hero-over .col{display:block}
+.svc-over{position:relative;display:grid;gap:32px}
+@media (min-width:1024px){
+.svc-over{display:block}
+.svc-hero-over .svc-hero-text{position:absolute;left:40px;top:20px;width:calc(55% - 72px);z-index:1;gap:12px}
+.svc-hero.svc-hero-over h1{font-size:40px;line-height:1.05;letter-spacing:-0.005em}
+.svc-hero-over .sub{font-size:19px;line-height:1.35}
+}
+/* the five-trade row (the email page's walk-through): one draft subject line per trade */
+.svc-trades{list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:0;margin:0;background:var(--card);border:var(--card-border);border-radius:var(--radius-card);box-shadow:var(--card-shadow)}
+.svc-trades li{display:grid;gap:10px;align-content:start;padding:24px 20px}
+.svc-trades li+li{border-left:var(--card-border)}
+.svc-trades svg{width:32px;height:32px;color:var(--ink)}
+.svc-trades .trade{font-family:var(--font-heading);font-size:15px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink)}
+.svc-trades .subj{font-size:16px;line-height:1.45;color:var(--body)}
+.svc-note{margin-top:24px}
+/* the feed-post frame (the Facebook page's walk-through, Media 3): a layout preview, no counts, no comments */
+.svc-feed{display:grid;justify-items:center;gap:16px}
+.feed-post{width:100%;max-width:420px;background:var(--card);border:var(--card-border);border-radius:var(--radius-card);box-shadow:var(--card-shadow);overflow:hidden}
+.feed-post .top{display:flex;align-items:center;gap:10px;padding:12px 14px}
+.feed-post .ring{width:44px;height:44px;border-radius:50%;padding:2px;display:grid;flex:none;background:var(--hairline)}
+.feed-post .avatar{border-radius:50%;background:var(--ground);border:2px solid var(--card)}
+.feed-post .name{font-size:15px;color:var(--ink)}
+.feed-post .tag{margin-left:auto;font-size:12px;letter-spacing:0.04em;border:1px solid var(--hairline);border-radius:999px;padding:3px 10px;color:var(--muted)}
+.feed-post .media{aspect-ratio:4/5;overflow:hidden;background:var(--ground)}
+/* a week, before and after (the automation page's walk-through): two five-day grids, labels in the mono face */
+.svc-week{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.wk{display:grid;gap:14px;align-content:start}
+.wk-title{font-family:var(--font-mono);font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink)}
+.wk-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.wk-day{display:grid;gap:6px;align-content:start}
+.wk-day > span{display:grid;place-items:center;font:400 11px/1.25 var(--font-mono);letter-spacing:0.04em;padding:8px 4px;border-radius:6px;text-align:center;min-height:34px;overflow-wrap:anywhere}
+.wk-day .dn{min-height:0;padding:0 0 2px;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase}
+.wk-day .site{min-height:112px;background:var(--band);border:1px solid var(--hairline);color:var(--ink)}
+.wk-day .admin{background:var(--hairline);color:var(--muted)}
+.wk-day .home{min-height:74px;border:1px solid var(--accent);color:var(--accent)}
+/* faq */
+.faq details{padding:20px 0}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.faq h3{font-size:22px}
+.plus{position:relative;width:16px;height:16px;flex:none;transition:transform 0.2s ease}
+.plus::before,.plus::after{content:"";position:absolute;left:0;top:7px;width:16px;height:1px}
+.plus::after{transform:rotate(90deg)}
+details[open] .plus{transform:rotate(45deg)}
+.faq details p{margin-top:12px;max-width:60ch;font-size:17px}
+/* final ask */
+.final .col{text-align:center;display:grid;gap:var(--stack);justify-items:center}
+.caption{font-size:14px;color:var(--muted)}
+/* floating pill */
+.pill{position:fixed;right:40px;bottom:40px;z-index:5}
+html:not(.js) .pill{display:none}
+/* reveal on scroll (only with html.motion: JS on, motion allowed, not a static render) */
+html.motion .reveal{opacity:0;transform:translateY(12px);transition:opacity 0.5s ease-out,transform 0.5s ease-out}
+html.motion .reveal.in{opacity:1;transform:none}
+/* popup (Style Guide 6.10, 6.11); colors from the theme */
+.modal{position:fixed;inset:0;z-index:10;overflow:auto;padding:40px 16px}
+.dialog{position:relative;max-width:680px;margin:0 auto;padding:48px 32px 24px;border-radius:var(--radius-card)}
+.close{position:absolute;top:12px;right:12px;width:40px;height:40px;border:1px solid;font:400 22px/1 var(--font-body);cursor:pointer;border-radius:999px}
+.close:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+html:not(.js) .modal{position:static;background:none;padding:var(--gap) 0}
+html:not(.js) .modal[hidden]{display:block !important}
+html:not(.js) .close{display:none}
+.step{border:0;padding:16px 0;display:grid;gap:var(--stack)}
+html.js .step:not(.is-active){display:none}
+.step:focus{outline:none}
+html:not(.js) .step-nav,html:not(.js) .progress{display:none}
+html.js .nojs{display:none}
+.q{font-family:var(--font-heading);font-size:30px;line-height:1.25;color:var(--ink);display:flex;gap:16px;align-items:baseline}
+.q .num{font-family:var(--font-body);font-size:13px;letter-spacing:0.12em;color:var(--muted);border:1px solid var(--muted);padding:4px 8px;line-height:1;flex:none}
+.hint{font-size:15px;color:var(--muted)}
+.cal{display:grid;gap:12px}
+.cal-head{display:flex;justify-content:space-between;align-items:center}
+.cal-title{font-family:var(--font-heading);font-size:22px;color:var(--ink)}
+.cal-nav{width:36px;height:36px;border:1px solid var(--hairline);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer;font:400 18px/1 var(--font-body)}
+.cal-nav:disabled{opacity:0.35;cursor:default}
+.cal-nav:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal-wd{font:400 11px var(--font-body);letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);text-align:center;padding:4px 0}
+.day{aspect-ratio:1;display:grid;place-items:center;font:400 15px var(--font-body);color:var(--muted);opacity:0.45;border:1px solid transparent;background:none;border-radius:8px;cursor:default;font-variant-numeric:tabular-nums}
+.day.open{opacity:1;cursor:pointer;transition:border-color 0.2s ease}
+.day.open:hover{border-color:var(--ink)}
+.day:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.opts{display:grid;gap:12px}
+.opts.slots{grid-template-columns:1fr 1fr}
+.opt{position:relative;display:flex;gap:14px;align-items:center;border:1px solid;padding:14px 16px;cursor:pointer;font-size:18px;border-radius:8px}
+.opt input{position:absolute;opacity:0;width:1px;height:1px}
+.opt .key{width:30px;height:30px;border:1px solid var(--muted);display:grid;place-items:center;font-size:13px;letter-spacing:0.06em;color:var(--muted);flex:none;border-radius:4px}
+.opt .alt{margin-left:auto;font-size:14px;color:var(--muted);white-space:nowrap}
+.opt.wide{grid-column:1 / -1}
+.opt:has(input:checked) .key,.opt.is-checked .key{border-color:var(--ink);color:var(--ink)}
+.opt:has(input:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
+.fields{display:grid;gap:16px}
+.field{display:grid;gap:6px}
+.field label{font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.field input{width:100%;border:1px solid;padding:14px 16px;font:400 18px/1.4 var(--font-body);border-radius:8px}
+.field input:focus{outline:none;border-color:var(--ink)}
+.step-nav{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.step-btn{font-family:var(--font-body);font-size:16px;line-height:normal;font-weight:var(--weight-button,500);padding:16px 28px;border-radius:999px;border:1px solid transparent;background:transparent;color:var(--muted);cursor:pointer;letter-spacing:0.01em;transition:transform 0.2s ease,opacity 0.2s ease}
+.step-btn.primary:hover{transform:translateY(-1px);opacity:0.92}
+.step-btn.primary:disabled{opacity:0.6;cursor:wait;transform:none}
+.step-btn[hidden]{display:none}
+.step-nav .progress{margin-left:auto;margin-right:16px}
+.fine{font-size:14px;color:var(--muted)}
+#sent{padding-top:0;scroll-margin-top:24px}
+#sent .col{display:grid;gap:var(--stack);justify-items:start}
+/* "Other services" (Jonathan, 2026-09-27: every page links to the other service pages): a quiet row of five text links
+   above the footer, under the final ask; the page keeps its one main action (Style Guide 6.1, dated exception) */
+.svc-others{border-top:1px solid var(--hairline);padding:22px 0}
+.svc-others .col{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 22px;font-size:14px}
+.svc-others .label{font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.svc-others .label::before,.svc-others .label::after{display:none !important}
+.svc-others a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.svc-others a:hover{color:var(--ink)}
+.svc-others a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+footer{padding:40px 0;font-size:14px}
+footer .col{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+@media (max-width:767px){
+:root{--pad:64px;--gap:32px;--stack:16px}
+h1,.svc-hero h1{font-size:36px}h2{font-size:30px}h3{font-size:22px}.sub{font-size:19px}
+body{font-size:17px}
+.brand{font-size:17px}
+.proof-cards,.proof-cards.one{grid-template-columns:1fr}
+.svc-trades{grid-template-columns:minmax(0,1fr)}
+.svc-trades li{grid-template-columns:32px minmax(0,1fr);column-gap:16px;padding:18px 20px}
+.svc-trades li svg{grid-row:span 2}
+.svc-trades li+li{border-left:0;border-top:var(--card-border)}
+.svc-week{grid-template-columns:minmax(0,1fr);gap:32px}
+.wk-grid{gap:4px}
+.wk-day > span{font-size:10px;letter-spacing:0;padding:6px 2px}
+/* phones: headings, the copy under them, and the buttons centered (Jonathan, 2026-09-26); card bodies, the check lists,
+   and the FAQ answers stay left for reading */
+.svc-hero-text{justify-items:center;text-align:center}
+.svc-hero-text .sub,.svc-hero-text .line{margin-left:auto;margin-right:auto}
+.svc-search{margin:0 auto}
+.head{justify-items:center;text-align:center}
+.head .sub{margin-left:auto;margin-right:auto}
+#sent .col{justify-items:center;text-align:center}
+.svc-row{justify-items:center;text-align:center}
+.svc-row p{margin:0 auto}
+.svc-row{grid-template-columns:1fr;gap:8px}
+.svc-row .fig{font-size:48px}
+.pill{right:24px;bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.q{font-size:24px}
+.opts.slots{grid-template-columns:1fr}
+.cal-grid{gap:4px}
+.modal{padding:0}
+.dialog{min-height:100%;max-width:none;padding:64px 20px 16px;border-radius:0}
+.step-nav{position:sticky;bottom:0;background:var(--ground);padding:12px 0;border-top:1px solid var(--hairline);margin-top:8px}
+.step-btn.primary{flex:1;text-align:center}
+.step-nav .progress{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+*,*::before,*::after{transition:none !important;animation:none !important}
+}

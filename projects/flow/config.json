@@ -1,0 +1,13 @@
+{
+  "mic": "",
+  "sounds": true,
+  "space_after": true,
+  "min_hold_seconds": 0.3,
+  "tail_ms": 200,
+  "restore_clipboard_ms": 400,
+  "one_go_seconds": 15,
+  "pause_cut_seconds": 0.8,
+  "min_piece_seconds": 6,
+  "max_take_minutes": 10,
+  "threads": 4
+}

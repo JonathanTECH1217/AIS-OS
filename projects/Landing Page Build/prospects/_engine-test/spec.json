@@ -1,0 +1,39 @@
+{
+ "company": "Performance Home Automation",
+ "short": "PHA",
+ "page": "https://www.pha.systems/smart-lighting-control",
+ "loom": "https://www.loom.com/share/46e5021a96ec4847b92cc3997b8dca31",
+ "phone": "410-956-9676",
+ "address": "2014 Renard Ct, Annapolis, MD 21401",
+ "areas": "Annapolis, Baltimore, Washington, D.C., Northern Virginia",
+ "brand": {"color": "#3F7A17", "dark": "#356B12", "accent": "#5E9A1F", "serif": true, "head": "Manrope", "body": "Poppins", "mist": "#F3F6F0"},
+ "logo": "../pha/assets/logo.png",
+ "hero": {"eyebrow": "Projects featured in Architectural Digest and Annapolis Home Magazine", "h1": "Lighting Control Installation in Annapolis",
+          "sub": "Scenes, schedules, and every light in the house from a keypad, an app, or your voice.", "photo": "../pha/assets/georgian.jpg",
+          "trust": "4.8 on Google from 19 reviews"},
+ "cards": {"h2": "What lighting control gives you", "items": [
+   {"icon": "keypad", "h3": "Keypads", "p": "One button sets the whole room. Scenes for mornings, entertaining, relaxing, and bedtime."},
+   {"icon": "clock", "h3": "Automation", "p": "Lights follow your schedule. Motorized shades and the rest of the house can move with them."},
+   {"icon": "shield", "h3": "Security", "p": "Lit walkways, driveways, and entries. Lights that keep running while you travel."}]},
+ "process": {"eyebrow": "For architects, builders, and designers", "h2": "Our process", "photo": "../pha/assets/vans.jpg", "steps": [
+   {"h3": "Design consultation", "p": "We settle the layout, where each fixture goes, and how every space is controlled."},
+   {"h3": "Plan drawings", "p": "A lighting plan on paper before fixtures, wiring, and ceilings are final."},
+   {"h3": "Wire schedule", "p": "Every run and every load listed, so your electrician pulls it once."},
+   {"h3": "Installation and adjustments", "p": "Installed, programmed, and tested, then tuned once the home is lived in."}]},
+ "work": {"h2": "Our work", "photos": [
+   {"src": "../pha/assets/coastal.jpg", "alt": "A living room with wall lights, shelf lighting, and shades"},
+   {"src": "../pha/assets/about-a.jpg", "alt": "Hanging glass lights lit in a stairwell at dusk"},
+   {"src": "../pha/assets/work-lounge.jpg", "alt": "A double-height lounge with long hanging lights under a beamed ceiling"}]},
+ "about": {"eyebrow": "About us", "h2": "Serving Maryland homes since 2001",
+           "p": "Performance Home Automation designs and installs lighting control for new construction, renovations, and existing homes. One team takes it from the first design through installation, programming, testing, and support.",
+           "photo": "../pha/assets/team.jpg", "alt": "Seven of the Performance Home Automation team in company shirts at a trade show"},
+ "reviews": {"h2": "What our clients say", "rating": "4.8 on Google from 19 reviews", "items": [
+   {"p": "PHA was fabulous during my home renovation. We automated Lutron lighting throughout the house, built in sonos speakers and security cameras, all operated from the phone. They are reliable, reasonable and professional.", "who": "Barbara N."},
+   {"p": "We have been working with PHA for almost six years on various home electronics projects and couldn't recommend them more.", "who": "Gene H."},
+   {"p": "Fantastic job getting my home AV set up with all the accoutrements. Very friendly, efficient and priced well. Very pleased.", "who": "Michael M."}]},
+ "final": {"h2": "Free lighting consultation", "p": "Tell us about your home and pick a time."},
+ "footer": {"creds": "Lutron Gold Star Dealer."},
+ "form": {"hint": "A line or two is plenty: the rooms, new build or a retrofit.", "order": ["first_name", "phone", "email", "message"]},
+ "order": ["hero", "cards", "process", "work", "about", "reviews", "final"],
+ "notes": "The PHA page as a spec: the engine's check that it reproduces the hand-built page, and the example every new spec copies. PHA's form order was first name, phone, email, message; the cold audits' default is first name, email, phone, message."
+}

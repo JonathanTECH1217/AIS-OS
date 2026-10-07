@@ -1,0 +1,112 @@
+# Words readability.py counts as one syllable (Style Guide Copy 7, 2026-09-25).
+# One per line, case does not matter. A # starts a comment.
+# Brand names and trade terms only: the score should read sentence length and everyday words.
+# Any capitalized word that does not open a sentence is treated the same way, so most brands
+# need no line here; this list catches the lowercase and mixed-case ones and the trade terms.
+
+# Monarc and its places
+Monarc
+monarcbuild
+Annapolis
+Baltimore
+Georgian
+Maryland
+
+# Integrator brands (context/icp-brands.md)
+Lutron
+HomeWorks
+RadioRA
+Caseta
+Ketra
+Control4
+Crestron
+Savant
+Josh.ai
+Kaleidescape
+Sonance
+Sonos
+Ubiquiti
+Araknis
+Snap One
+SnapAV
+Origin Acoustics
+Steinway Lyngdorf
+James Loudspeaker
+Coastal Source
+Hunter Douglas
+Vantage
+Sony
+Yamaha
+Stewart
+Kinetico
+Waterworks
+Rohl
+CEDIA
+HTSA
+ProSource
+D-Tools
+
+# Other trades (context/trades/*.md)
+Generac
+Kohler
+Cummins
+Enphase
+Tesla
+Powerwall
+SPAN
+Leviton
+Legrand
+Lucifer
+WAC
+Mitsubishi
+Daikin
+Trane
+Carrier
+Lennox
+Navien
+Rinnai
+GAF
+Velux
+CertainTeed
+DaVinci
+
+# Platforms named on the pages
+Google
+Facebook
+Instagram
+Meta
+LinkedIn
+YouTube
+ChatGPT
+Airtable
+
+# Trade terms and acronyms
+rough-in
+trim-out
+integrator
+integrators
+subpanel
+geothermal
+ductless
+tankless
+trenchless
+retarget
+retargeting
+retargeted
+keyword
+keywords
+impression
+impressions
+automation
+automations
+AEO
+SEO
+GBP
+PPC
+CRM
+VSL
+HVAC
+EV
+AV
+UTM
+UTMs

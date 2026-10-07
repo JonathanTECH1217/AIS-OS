@@ -1,0 +1,51 @@
+{
+  "_about": "Records, Artifacts in the CRM (Jonathan, 2026-10-02): the documents the selling runs on, grouped by what they are used for, each category with its icon. Groups read like the journey cards' artifacts (scripts/crm_server.py _resolve_group): kind files lists paths or globs from the repo root (path#Heading shows one markdown section); kind messages reads the Prospects base's Messages table; kind ads-pages lists each Google Ads campaign's page and brief. A group with nothing in it shows its missing line. Tasks (Jonathan, 2026-10-05: \"Add the rewrites as tasks and those live in the artifacts as well\"): the open boxes of the tasks.md sections named in task_sections show on every group whose file they name, marked To do; task_words names a group that has no file path. Edited by hand or by the AIOS.",
+  "task_sections": ["The rewrite"],
+  "categories": [
+    {
+      "key": "offer", "label": "Offer", "icon": "offer",
+      "use": "What they get and what it costs: sent with the booked call and walked through on the meeting.",
+      "groups": [
+        {"title": "Offering PDF", "kind": "files", "paths": ["projects/artifacts/offer/*.pdf"], "missing": "Not picked yet. Tell the AIOS which PDF is the current offer, or drop it in projects/artifacts/offer/."},
+        {"title": "The offer page", "kind": "files", "paths": ["context/offer.md"]},
+        {"title": "Pilot Service Agreement", "kind": "files", "paths": ["templates/Monarc_Pilot_Service_Agreement.pdf"]},
+        {"title": "Proposals and invoice previews, by workflow", "kind": "files", "paths": ["projects/artifacts/proposals/*/*.pdf"], "missing": "None made yet."}
+      ]
+    },
+    {
+      "key": "calls", "label": "Sales calls", "icon": "calls",
+      "use": "On the phone: the cold call, who gets called, and what to say when they push back.",
+      "groups": [
+        {"title": "Sales script", "kind": "files", "paths": ["references/voice.md#Sample 1: cold call script"]},
+        {"title": "Script rules", "kind": "files", "paths": ["references/cold-call-principles.md"]},
+        {"title": "The free-campaign call (the second window)", "kind": "files", "paths": ["references/free-campaign-call-script.md"]},
+        {"title": "Objections", "kind": "files", "paths": ["references/objections.md"], "missing": "Not written yet."},
+        {"title": "Qualifying questions", "kind": "files", "paths": ["references/qualifying-questions.md"], "missing": "Not written yet."},
+        {"title": "Call lists", "kind": "files", "paths": ["projects/outreach/qualified-list-*.csv", "projects/outreach/electrician-list-*.csv"], "task_words": ["Recut the call list"], "missing": "No call list file yet."}
+      ]
+    },
+    {
+      "key": "cold-email", "label": "Email", "icon": "email",
+      "use": "Every email: the first one to someone who has never heard of us, the replies, and what goes out after a call.",
+      "groups": [
+        {"title": "Cold email scripts", "kind": "files", "paths": ["templates/cold-email*.md"], "missing": "Not written yet."},
+        {"title": "Email copy, the blocks every reply is built from", "kind": "files", "paths": ["references/mycopy.md"]},
+        {"title": "The free-campaign emails (delivery, review ask)", "kind": "files", "paths": ["templates/free-campaign-delivery-email.md", "templates/free-campaign-review-ask.md"]}
+      ]
+    },
+    {
+      "key": "linkedin", "label": "LinkedIn", "icon": "linkedin",
+      "use": "Connecting with integrators on LinkedIn and answering them (Patrick sends these).",
+      "groups": [
+        {"title": "Connection messages", "kind": "messages"}
+      ]
+    },
+    {
+      "key": "ads", "label": "Ads and landing pages", "icon": "ads",
+      "use": "What a searcher sees: each Google Ads campaign's ad brief and the page it lands on.",
+      "groups": [
+        {"title": "Google Ads campaigns and their pages", "kind": "ads-pages", "task_words": ["projects/google-ads/campaigns/"]}
+      ]
+    }
+  ]
+}

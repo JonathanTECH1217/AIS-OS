@@ -1,0 +1,97 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.gsi-fl.com/book-online",
+ "title": "Book Online | gsIntegration.org",
+ "description": "",
+ "words": 95,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Our Services"
+  },
+  {
+   "tag": "h1",
+   "text": "Subscribe Form"
+  },
+  {
+   "tag": "h2",
+   "text": "Lighting Installation"
+  },
+  {
+   "tag": "h2",
+   "text": "Basic Electrical Wiring"
+  },
+  {
+   "tag": "h2",
+   "text": "Initial Design Consultation"
+  },
+  {
+   "tag": "h2",
+   "text": "Server Maintenance"
+  },
+  {
+   "tag": "h2",
+   "text": "Generator Electrical Inspection"
+  }
+ ],
+ "phones": [
+  "561-419-9449"
+ ],
+ "colors": [
+  "#116dff",
+  "#df3131",
+  "#3899ec",
+  "#0f2ccf",
+  "#2f5dff",
+  "#597dff",
+  "#acbeff",
+  "#d5dfff",
+  "#eaefff",
+  "#f5f7ff"
+ ],
+ "faces": [
+  "Arial",
+  "Helvetica",
+  "Madefor",
+  "fahkwang",
+  "helvetica-w01-roman",
+  "playfair display",
+  "var(--bookButtonFont-family)",
+  "var(--courseAvailabilityFont-family)",
+  "var(--discountNameFont-family)",
+  "var(--explorePlansFont-family)"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://static.wixstatic.com/media/6d3f9b_b74a0eed1c4247c8a7c5c17fa5300cdf~mv2.png/v1/fill/w_1024,h_110,al_c,q_85,enc_avif,quality_auto/Electrical%20plan%20room%20with%20blue%20prints_ed.png",
+   "alt": "Electrical plan room with blue prints_ed",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/d2d94fbccb164613a4e94e6043510ae8.jpg/v1/fit/w_50,h_50,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/d2d94fbccb164613a4e94e6043510ae8.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/11062b_bcb16046feb1410a9fc14971ff6d61bf~mv2.jpeg/v1/fit/w_50,h_50,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/11062b_bcb16046feb1410a9fc14971ff6d61bf~mv2.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/11062b_61624eb28aaf4844901ddb11bfeea35d~mv2.jpeg/v1/fill/w_50,h_33,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/11062b_61624eb28aaf4844901ddb11bfeea35d~mv2.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/6d3f9b_59bdbc7e3d5f4b4d9e3452cd30b806e8~mv2.jpg/v1/fill/w_50,h_28,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/6d3f9b_59bdbc7e3d5f4b4d9e3452cd30b806e8~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/6d3f9b_a59cd6fdce9843f5973c8e6e4ee1d814~mv2.jpg/v1/fill/w_50,h_50,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/6d3f9b_a59cd6fdce9843f5973c8e6e4ee1d814~mv2.jpg",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

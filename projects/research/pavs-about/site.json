@@ -1,0 +1,68 @@
+{
+ "read": "2026-10-06",
+ "url": "https://pavs.tech/about/",
+ "title": "Top Steamboat Springs Home Tech Company - PAVS",
+ "description": "PAVS is a Steamboat Springs-based company who specializes in home automation and smart home technology, including audio video systems and more.",
+ "words": 228,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "About"
+  },
+  {
+   "tag": "h2",
+   "text": "About PAVS"
+  },
+  {
+   "tag": "h2",
+   "text": "Reach out to us"
+  },
+  {
+   "tag": "h3",
+   "text": "PAVS"
+  },
+  {
+   "tag": "h3",
+   "text": "PAVS Smart Home Tech is a Steamboat Springs-based company, founded in 1997. With over 15 years of experience in the industry, we have become well-versed in what"
+  }
+ ],
+ "phones": [
+  "(970) 879-2217"
+ ],
+ "colors": [
+  "#6cc24a",
+  "#24292f",
+  "#e1e4e8",
+  "#3a9018",
+  "#eaeaea",
+  "#1a73e8",
+  "#fbfbfb",
+  "#f2f2f2",
+  "#eb6e00",
+  "#4cbb30"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [
+  "https://www.facebook.com/ponderosaav/",
+  "https://www.linkedin.com/company/18062552/admin/"
+ ],
+ "pictures": [
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/08/cropped-Logo-Small.png",
+   "alt": "PAVS",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/Steamboat-Springs-Official.jpeg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://pavs.tech/wp-content/uploads/2019/06/savant_80_wide2_transparent-1024x444.png",
+   "alt": "PAVS Sonos installer",
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+LOG first pair: {"li":0,"lrcIdx":0,"sim":0.6666666666666666} sheet text "Ohohoh w0x1 w0x2 w0x3 w0x4 w0x5 w0x6" vs lrc "Oh-oh-oh w0x1 w0x2 w0x3 w0x4 w0x5 w0x6"
+FAIL a hyphenated word in line 1 of a 70-line song: every line still pairs: 69 of 70 pairs, lost: 64 "w64x0 w64x1 w64x2 w64x3 w64x4 w64x5 w64x6"
+PASS "Oh-oh" in line 2 of a 40-line song: every line still pairs: 40 of 40 pairs, lost: 
+PASS "Nobo-," keeps sim 1 (the hyphen piece is only punctuation): {"li":0,"lrcIdx":0,"sim":1} lost 0
+PASS the same dp in Float64 pairs all 70: 70 pairs
+LOG largest Float32 rounding gap on the diagonal: 3.81e-6 at line 65 (tolerance 1e-6; Float32 ulp at 32..64 is 3.8e-6, at 64..128 7.6e-6)

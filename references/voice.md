@@ -16,6 +16,33 @@ Observed from the samples below. Not rules Jonathan wrote.
 - No em dashes. Plain paragraphs in email, not bullets.
 - Sign-off: "My Best, Jonathan"
 
+Rules Jonathan set (2026-09-09):
+- Never "I think," "I believe," "probably," or any hedge. State it or cut it.
+- Shorter than feels comfortable. An outbound email has one job; cut everything not doing that job.
+- Write to the person he actually spoke to. Copy the others; don't address a room he hasn't met.
+- The email only reflects what was said on the call. Never put a question or a number in the prospect's mouth. If money wasn't mentioned, the email carries no price; price is quoted on the call after the free value.
+
+## How Jonathan actually sends (from his Proton Sent folder, read 2026-09-09)
+
+These outrank the register notes above. Drafts are built from these patterns.
+
+- Opens cold: first name, comma, then the point. "Derich, One example." "Garrett, My fault on this morning." No warm-up, no "hope you're well."
+- One artifact carries the proof: a permit number and portal link, a photo of the job, the winning proposal attached. Never a website link, never "search it."
+- Terms are stated flat, one sentence each, no framing: "The retainer is $2.5k/month, plus a recommended minimum of $1,000/month in ad spend."
+- The ask is two times and a length: "Rebooking us: tomorrow at 10:30 or Thursday at 9. Fifteen minutes."
+- Signature phrases: "And so it's said plainly:" "Give me the word and I'll send it over." "Give me the word."
+- Meeting invites are bare: date · time, Google Meet link, one-line agenda.
+- Sign-off is usually just "Jonathan." "My Best, Jonathan" on first-touch emails.
+- Length: 60 to 120 words. Dense with specifics, no explanation of method.
+
+Excerpts (verbatim):
+
+> Derich, One example. $2.5k in ad spend pulled a $90k install for the integrator I worked for on the East Coast. I built and ran the campaign, worked the project with the specifier, and installed the system myself. The great room in the attached photo is that job, fitted with Lutron Ketra lighting, and the winning proposal from it is attached with it. The retainer is $2.5k/month, plus a recommended minimum of $1,000/month in ad spend. And so it's said plainly: this is the demand capture side. (2026-08-27, "Case Study")
+
+> Garrett, My fault on this morning. The calendar invite went to a mistyped address and I just caught it, so you never had us on the books. Rebooking us: tomorrow at 10:30 or Thursday at 9. Fifteen minutes. Attached is the Kentfield permit from our call so you have it in hand either way. (2026-08-25)
+
+> 15 minutes to discuss what's live in the North Bay right now (current permit ledger), how the seat works, and next steps. Meeting Link: [Meet] (2026-08-26, "Meeting at 9:30")
+
 ## Sample 1: cold call script
 
 ```

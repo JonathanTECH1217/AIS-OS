@@ -1,0 +1,91 @@
+{
+ "env": "prod",
+ "dry_run": true,
+ "paper_auto": true,
+ "rehearsal_passed": false,
+ "mode": "approve",
+ "port": 8800,
+ "league_id": 39,
+ "season": 2026,
+ "kalshi_series": "KXEPLGAME",
+ "gap_floor_points": 7,
+ "big_gap_points": 10.0,
+ "stake": {
+  "floor_pct": 6.0,
+  "cap_pct": 8.0,
+  "cap_from_points": 17.0
+ },
+ "fees": {
+  "taker_rate": 0.07,
+  "maker_rate": 0.0175,
+  "assume_taker": true,
+  "schedule_checked": ""
+ },
+ "busy": {
+  "min_volume_contracts": 10000,
+  "max_spread_cents": 2,
+  "min_depth_multiple": 1.0
+ },
+ "bankroll_usd": 1000.0,
+ "drawdown": {
+  "on": true,
+  "auto_only": true,
+  "pct": 25.0
+ },
+ "window": {
+  "snapshot_minutes": 60,
+  "lineup_from_minutes": 75,
+  "lineup_poll_minutes": 5,
+  "decide_by_minutes": 20,
+  "decide_without_lineups": false,
+  "cancel_before_kickoff_minutes": 2,
+  "listing_lookahead_days": 16
+ },
+ "auto_windows": {
+  "lineup_hour": true,
+  "clv_proven_bands": true,
+  "min_band_cards": 30
+ },
+ "gate": {
+  "min_settled": 200,
+  "band_width_points": 10,
+  "band_tolerance_points": 5.0,
+  "min_band_n": 30,
+  "pooled_tolerance_points": 3.0,
+  "min_clv_points": 5.0
+ },
+ "model": {
+  "version": "",
+  "window_matches": 10,
+  "venue_weight": 0.6,
+  "sot_blend": 0.5
+ },
+ "polymarket": {
+  "on": true,
+  "disagree_points": 5.0,
+  "block_when_disagree": false
+ },
+ "claude": {
+  "on": true,
+  "max_usd_per_day": 1.0,
+  "model": ""
+ },
+ "api_football": {
+  "daily_budget": 6000,
+  "odds_witness": false,
+  "cache_hours": {
+   "fixtures": 6,
+   "team_stats": 24,
+   "players": 24,
+   "h2h": 168,
+   "injuries": 6,
+   "odds": 3,
+   "lineups_pending": 0
+  }
+ },
+ "legal_watch": {
+  "note": "Maryland v. Kalshi, 4th Cir., argued 2026-05-07, enforcement paused pending ruling",
+  "checked": "2026-10-04"
+ },
+ "_about": "Monarc Edge (2026-10-04): bets against Kalshi's English Premier League match-winner prices when the market sits 7 points or more from our model's chance after fees, in busy markets, sized from the gap. Every number Jonathan set in the interview (brainstorms/2026-10-03-betting-market-agent.md) lives here; scripts/edge_common.py holds the same defaults. env: demo or prod (prod with dry_run false needs rehearsal_passed). mode: approve (every card waits for his click) or auto (refused until the gate passes). paper_auto: while dry_run is on, every ready card is paper-filled at the ask by itself so the record builds without a click (Jonathan, 2026-10-04: run paper on the account); his click matters once dry_run is off. gap_floor_points: the gap a card needs to be green. stake: percent of the match-day opening bankroll, floor_pct at the floor rising on a straight line to cap_pct at cap_from_points. fees: Kalshi taker 0.07 x price x (1 - price) per contract; schedule_checked is the date Jonathan read the fee PDF. busy: the floor a market needs (contracts traded, spread in cents, depth at the touch as a multiple of our count). drawdown: stop placing when equity falls pct below its peak; auto_only means approve mode is never stopped. window: snapshot cadence, when lineup polling starts, the no-lineups fallback. auto_windows: when auto mode may bet (the lineup hour, and hours-to-kickoff bands whose CLV record is positive over min_band_cards). gate: the four lights that unlock auto. polymarket: the second witness. claude: the reasoning writer, never the number. legal_watch: a note Jonathan edits by hand."
+}

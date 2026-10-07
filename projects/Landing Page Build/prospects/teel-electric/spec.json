@@ -1,0 +1,179 @@
+{
+ "company": "Teel Electric Company",
+ "short": "Teel Electric",
+ "page": "https://www.teelelectricco.com/home-automation",
+ "loom": "https://www.loom.com/share/c8b55c6b28a242fbad943c322ba0393e",
+ "button": "Book an appointment",
+ "phone": "561-747-9646",
+ "address": "612 North Orange Ave Suite A14, Jupiter, FL 33458",
+ "areas": "Jupiter and South Florida",
+ "brand": {
+  "color": "#26529C",
+  "dark": "#1C3E79",
+  "accent": "#3A8DD9",
+  "serif": true,
+  "head": "Poppins",
+  "body": "Poppins"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 48,
+ "hero": {
+  "eyebrow": "For South Florida homeowners",
+  "h1": "Lighting Control Installation in Jupiter",
+  "sub": "Every light in the house from a keypad, your phone, or your voice. Scenes for the evening, schedules while you travel, and a lit entry when you get home.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads",
+    "p": "One engraved button sets the room: bright, entertain, movie, off. No wall of switches."
+   },
+   {
+    "icon": "clock",
+    "h3": "Automation",
+    "p": "Lights follow your schedule and the sun. The house looks lived in while you are away."
+   },
+   {
+    "icon": "phone",
+    "h3": "Voice control",
+    "p": "Ask for a scene from the couch, or tap it on your phone from anywhere in the world."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Electrical and home automation from one company",
+  "p": "Teel Electric Company is an electrical and home automation contractor serving South Florida from Jupiter. We are a Lutron dealer and installer, and our licensed electricians take a home from the first estimate to the finished lighting system."
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "I have used Teel Electric multiple times on a variety of projects. They’ve installed everything from fans to generators. I’ve hired them to do complete Commerical remodels and repairs on existing buildings.",
+    "who": "Jeffrey W.",
+    "stars": 5
+   },
+   {
+    "p": "A representative from Teel Electric came to our home in NC after Hurricane Florence blow a tree onto our house. They were very personal and efficient.",
+    "who": "Sandy M.",
+    "stars": 5
+   },
+   {
+    "p": "This company really knows what they are doing. David came to our house and installed the Lutron radio RA2 system. He was very professional and helpful in answering all my questions. He went above and beyond what he needed to do.",
+    "who": "Jennifer N.",
+    "stars": 5
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/process.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the plans with you and settle what each room needs: fixtures, keypads, shades, and how they are controlled."
+   },
+   {
+    "h3": "Lighting plan",
+    "p": "Loads, keypad locations, and the wire schedule on paper before the walls close."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Our licensed electricians pull the wire, set the panels, and program every scene."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "After the walkthrough we stay on the job: scene changes, new rooms, and support once the home is lived in."
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "What is lighting control?",
+    "a": "One system runs every light in the house from keypads, an app, and schedules, in place of a wall of switches."
+   },
+   {
+    "q": "Can it go into a home that is already built?",
+    "a": "Yes. Lutron RadioRA 2 is wireless, so in most existing homes the dimmers and keypads go in without opening walls."
+   },
+   {
+    "q": "Does it work with shades and audio?",
+    "a": "Yes. Lutron shades and Sonos run from the same keypads and app."
+   },
+   {
+    "q": "Can I control it when I am away?",
+    "a": "Yes. The app works from anywhere with a connection, so you can check the house and set the lights from the road."
+   },
+   {
+    "q": "Do you do the electrical work too?",
+    "a": "Yes. We are licensed electricians, so the wiring, the panel, and the lighting system come from one company."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "items": [
+   {
+    "icon": "home",
+    "h3": "Home automation",
+    "p": "Lutron HomeWorks and RadioRA 2 for the whole house.",
+    "href": "https://www.teelelectricco.com/home-automation"
+   },
+   {
+    "icon": "speaker",
+    "h3": "Whole home audio",
+    "p": "Sonos in every room, from the same app.",
+    "href": "https://www.teelelectricco.com/home-automation"
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "p": "Lutron shades that move with the light.",
+    "href": "https://www.teelelectricco.com/projects"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Ready to plan your lighting?",
+  "p": "Tell us about the home and pick a time that suits you."
+ },
+ "footer": {
+  "creds": "Lutron dealer and installer."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, a new build or an existing home.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "reviews",
+  "process",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom c8b55c6b (he took their /home-automation page as the template for a lighting control page). Their site is four Wix pages (Home, Services, Home Automation, Projects): no about page, no reviews, no rating, no owner or team photo, no license number, and no James Loudspeaker or media distribution page, so the reviews and the about photo are marked empty and the secondary services are the three their site shows (home automation, Sonos audio, Lutron shades). assets/logo.png is a lockup built from their T-sphere mark (their header is plain text) with Poppins SemiBold. assets/hero.jpg is their Projects photo DMD_1776PS (a lit custom home at dusk); assets/process.jpg is their home page photo DMD_1802 (the pool house) cropped to landscape. Brand blue #26529C is their contact band. Voice control and the RadioRA 2 wireless line are Lutron product facts, not claims from their site.",
+ "google": {
+  "rating": 4.6,
+  "count": 19,
+  "maps": "https://maps.google.com/?cid=806842886836908962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png"
+ }
+}

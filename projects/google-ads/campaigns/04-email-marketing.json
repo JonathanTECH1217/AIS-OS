@@ -1,0 +1,218 @@
+{
+  "_note": "The one file the Ads screen and scripts/ads_publish.py read for this campaign. Keywords locked by Jonathan 2026-09-28 (keywords/picks.json). Negatives: every shared list whose 'Applies to' covers this campaign (negatives/shared-lists.md) plus negatives/email-marketing.md. Ad drafted 2026-09-28 from the brief and page spec, Jonathan's to approve. Approvals clear when what they cover changes.",
+  "nn": "04",
+  "service": "email-marketing",
+  "name": "04 Email marketing",
+  "brief": "projects/google-ads/campaigns/04-email-marketing.md",
+  "page": "https://monarcbuild.com/email-marketing/",
+  "page_label": "email_marketing",
+  "slot": "test",
+  "daily_budget": 20,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "email marketing services for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "av integrator email marketing",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "email marketing agency for home automation companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "electrician email marketing services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "hvac email marketing services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "email marketing agency for hvac",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "roofing email marketing services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "plumber email marketing services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "email marketing services for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "contractor email marketing agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "email marketing agency for home services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "lead nurturing service for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "email marketing agency for av integrators",
+    "roofing email marketing",
+    "customer reactivation campaign for contractors"
+  ],
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/email-marketing.md"
+  },
+  "ad": {
+    "headlines": [
+      {
+        "text": "Contractor Email Marketing",
+        "pin": 1
+      },
+      {
+        "text": "AV Integrator Email Marketing",
+        "pin": 1
+      },
+      {
+        "text": "Electrician Email Marketing",
+        "pin": 1
+      },
+      {
+        "text": "HVAC Email Marketing",
+        "pin": 1
+      },
+      {
+        "text": "Home Services Email Marketing",
+        "pin": 1
+      },
+      {
+        "text": "Your Past Clients, Emailed"
+      },
+      {
+        "text": "Every Lead Gets a Sequence"
+      },
+      {
+        "text": "Proposals That Went Quiet"
+      },
+      {
+        "text": "Win Back Past Customers"
+      },
+      {
+        "text": "Follow Up Without the Chasing"
+      },
+      {
+        "text": "Four Sequences, Done for You"
+      },
+      {
+        "text": "Roofing and Plumbing Email"
+      },
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "Close the Open Proposals",
+        "pin": 3
+      },
+      {
+        "text": "Book the Call",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "Four email sequences in your voice: past clients, new leads, open proposals, installs.",
+      "Every new lead gets a sequence. A job like theirs, then the ask to book. No one types.",
+      "Proposals waiting on a yes get a follow up that sounds like you, sent on its own.",
+      "Fifteen minutes. Bring the count of open proposals. You leave with the sequence plan."
+    ],
+    "path1": "Email",
+    "path2": "Contractors"
+  },
+  "approvals": {
+    "spend": {
+      "at": "2026-09-30T01:13:42-04:00",
+      "by": "Jonathan",
+      "fp": "4eee785230b4e0b4"
+    },
+    "negatives": {
+      "Email tools, list buying, and cold outreach": {
+        "at": "2026-09-30T01:13:56-04:00",
+        "by": "Jonathan",
+        "fp": "450b51288533ef63"
+      },
+      "From the research": {
+        "at": "2026-09-30T01:13:58-04:00",
+        "by": "Jonathan",
+        "fp": "6786dd5b84043535"
+      },
+      "Routing": {
+        "at": "2026-09-30T01:13:59-04:00",
+        "by": "Jonathan",
+        "fp": "eba1b2914984e023"
+      }
+    },
+    "keywords": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "762095e8e4aa0d9d"
+    },
+    "ad": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "721e28f830dc7634"
+    }
+  },
+  "google": {}
+}

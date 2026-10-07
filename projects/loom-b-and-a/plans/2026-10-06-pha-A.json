@@ -1,0 +1,28 @@
+{
+ "out": "media/looms/pha-2026-10-06/loom-ba-A.mp4",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "pha.systems",
+ "url": "https://www.pha.systems/smart-lighting-control",
+ "folder": "media/looms/46e5021a-review",
+ "why": "The first Loom B and A, from the PHA lighting-control review he recorded 2026-10-04. Each change he names shows on their page as he names it. A test piece: PHA is a named company, so it is held (not sent) until he says otherwise.",
+ "start_at": 30.0,
+ "end_at": 128.3,
+ "pause": 0.5,
+ "cuts": [
+  [18.5, 30.0, "says they are a prospect (rule 2) and the setup"],
+  [89.3, 118.6, "the solutions and services sections below the first screen: the page cannot show them in the first-screen states yet; one idea, the first screen"]
+ ],
+ "keep_whole": [],
+ "fixes": {"Lightning": "Lighting"},
+ "changes": [
+  {"at": 48.0, "kind": "headline", "text": "Lighting control installation in Annapolis"},
+  {"at": 50.6, "kind": "center"},
+  {"at": 52.4, "kind": "bigger", "percent": 20},
+  {"at": 53.6, "kind": "colors", "text": "#FFFFFF", "background": "#0B0B0B", "background_image": false},
+  {"at": 61.0, "kind": "eyebrow", "text": "Annapolis homeowner"},
+  {"at": 66.5, "kind": "cta", "text": "Book a meeting", "background": "#1E8E3E"},
+  {"at": 80.6, "kind": "note"},
+  {"at": 118.8, "kind": "note"}
+ ]
+}

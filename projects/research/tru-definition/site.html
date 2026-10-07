@@ -1,0 +1,1343 @@
+<!DOCTYPE html><html lang="en" data-theme="light" style="--theme-mix: 0;"><head>
+    <meta charset="UTF-8">
+
+    <!-- Consent Mode v2 and owner opt-out. This must execute before GTM. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+      window.__TRU_NOTRACK = (function () {
+        try {
+          var cookieName = 'tru_notrack';
+          var nt = new URLSearchParams(location.search).get('notrack');
+          var secure = location.protocol === 'https:' ? '; Secure' : '';
+          var domain = /(^|\.)trudefinition\.com$/i.test(location.hostname) ? '; Domain=.trudefinition.com' : '';
+          var writeCookie = function (enabled) {
+            document.cookie = enabled
+              ? cookieName + '=1; Path=/; Max-Age=34560000; SameSite=Lax' + secure + domain
+              : cookieName + '=; Path=/; Max-Age=0; SameSite=Lax' + secure + domain;
+          };
+          if (nt === '1') {
+            localStorage.setItem(cookieName, '1');
+            writeCookie(true);
+          }
+          if (nt === '0') {
+            localStorage.removeItem(cookieName);
+            writeCookie(false);
+          }
+          var stored = localStorage.getItem(cookieName) === '1';
+          if (stored) writeCookie(true);
+          var cookieDisabled = document.cookie.split(';').some(function (part) {
+            return part.trim() === cookieName + '=1';
+          });
+          var adminRoute = location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+          return adminRoute || stored || cookieDisabled;
+        } catch (e) {
+          return location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+        }
+      })();
+      window.__CLIENT_NO_TRACK__ = window.__TRU_NOTRACK;
+      (function () {
+        var analyticsConsent = null;
+        var adsConsent = null;
+        try {
+          analyticsConsent = localStorage.getItem('tru_analytics_consent_v2');
+          adsConsent = localStorage.getItem('tru_ads_consent_v2');
+        } catch (e) {}
+        // Advanced Consent Mode: an undecided visitor defaults to denied, while
+        // Google tags still load and may send consent-aware cookieless pings.
+        var analyticsValue = !window.__CLIENT_NO_TRACK__ && analyticsConsent === 'granted'
+          ? 'granted' : 'denied';
+        var adsValue = !window.__CLIENT_NO_TRACK__ && analyticsValue === 'granted' && adsConsent === 'granted'
+          ? 'granted' : 'denied';
+        window.gtag('consent', 'default', {
+          analytics_storage: analyticsValue,
+          ad_storage: adsValue,
+          ad_user_data: adsValue,
+          ad_personalization: 'denied',
+          functionality_storage: 'granted',
+          security_storage: 'granted'
+        });
+      })();
+    </script>
+
+    <!-- Google Tag Manager. GA4 is configured only inside this container. -->
+    <script>
+      if (!window.__PRERENDERING && !window.__CLIENT_NO_TRACK__) {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PTPPVP63');
+      }
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=Montserrat:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <title>Lighting Control Dallas-Fort Worth | TruDefinition</title>
+    <script type="module" crossorigin="" src="/assets/index-B95XkdPc.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-BpRhLXWi.css">
+  <meta name="description" content="Plan smart lighting control in Dallas-Fort Worth. Compare load compatibility, dimming, keypad placement, scenes, shades, installation scope, and handoff."><meta name="robots" content="index, follow"><link rel="canonical" href="https://www.trudefinition.com/services/lighting-control"><meta property="og:type" content="website"><meta property="og:title" content="Lighting Control Dallas-Fort Worth | TruDefinition"><meta property="og:description" content="Plan smart lighting control in Dallas-Fort Worth. Compare load compatibility, dimming, keypad placement, scenes, shades, installation scope, and handoff."><meta property="og:url" content="https://www.trudefinition.com/services/lighting-control"><meta property="og:site_name" content="TruDefinition"><meta property="og:locale" content="en_US"><meta property="og:image" content="/savant-lighting-systems-dark.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Lighting Control Dallas-Fort Worth | TruDefinition"><meta name="twitter:description" content="Plan smart lighting control in Dallas-Fort Worth. Compare load compatibility, dimming, keypad placement, scenes, shades, installation scope, and handoff."><meta name="twitter:image" content="/savant-lighting-systems-dark.png"><meta name="geo.region" content="US-TX"><meta name="geo.placename" content="Fort Worth, Texas"><meta name="geo.position" content="32.7555;-97.3308"><meta name="ICBM" content="32.7555, -97.3308"><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"Service","name":"Lighting Control","description":"Plan smart lighting control in Dallas-Fort Worth. Compare load compatibility, dimming, keypad placement, scenes, shades, installation scope, and handoff.","url":"https://www.trudefinition.com/services/lighting-control","provider":{"@id":"https://www.trudefinition.com/#organization"},"areaServed":[{"@type":"City","name":"Fort Worth"},{"@type":"City","name":"Dallas"},{"@type":"City","name":"Southlake"}]}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.trudefinition.com/"},{"@type":"ListItem","position":2,"name":"Services","item":"https://www.trudefinition.com/services"},{"@type":"ListItem","position":3,"name":"Lighting Control"}]}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"WebPage","name":"Lighting Control","description":"Plan smart lighting control in Dallas-Fort Worth. Compare load compatibility, dimming, keypad placement, scenes, shades, installation scope, and handoff.","url":"https://www.trudefinition.com/services/lighting-control","dateModified":"2026-09-23","isPartOf":{"@id":"https://www.trudefinition.com/#website"},"about":{"@id":"https://www.trudefinition.com/#organization"},"inLanguage":"en-US","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".ssp-fast-answer",".faq-answer"]}}</script></head>
+  <body>
+    <!-- The static noscript GTM iframe is intentionally omitted because it cannot
+         honor owner exclusion or the automatic /admin route exclusion. -->
+
+    <div id="root"><div style="position: fixed; bottom: 24px; right: 24px; z-index: 10001; display: flex; flex-direction: column; align-items: center; gap: 7px; opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity 0.45s, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);"><button aria-label="Chat with Sage" class="sage-launcher-pulse" style="position: relative; width: 58px; height: 58px; border-radius: 50%; border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); padding: 0px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); color: rgb(197, 165, 90); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 6px 26px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1);"><span style="width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0; background: rgb(12, 26, 46); color: rgb(197, 165, 90); display: flex; align-items: center; justify-content: center; font-size: 18.4px; font-weight: 900; letter-spacing: 0.5px; font-family: &quot;Cormorant Garamond&quot;, Georgia, serif;">S</span><span style="position: absolute; right: 3px; bottom: 3px; width: 12px; height: 12px; border-radius: 50%; background: rgb(22, 163, 74); border: 2px solid color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58));"></span></button><span style="padding: 3px 11px; border-radius: 100px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); color: color-mix(rgba(12, 26, 46, 0.55) 100%, rgba(255, 255, 255, 0.6)); font-size: 10px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; font-family: Montserrat, system-ui, sans-serif; white-space: nowrap; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 3px 12px;">Ask Sage</span></div><style>
+        @keyframes sageSlideUp {
+          from { opacity: 0; transform: translateY(16px) scale(0.97); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        @keyframes sageDotPulse {
+          0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+          40% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes sagePulseRing {
+          0% { box-shadow: 0 0 0 0 rgba(12,26,46,0.4); }
+          70% { box-shadow: 0 0 0 12px rgba(12,26,46,0); }
+          100% { box-shadow: 0 0 0 0 rgba(12,26,46,0); }
+        }
+        .sage-launcher-pulse {
+          animation: sagePulseRing 2s ease-out 3;
+        }
+        .sage-teaser {
+          animation: sageTeaserIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        @keyframes sageTeaserIn {
+          from { opacity: 0; transform: translateY(10px) scale(0.96); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .sage-quick-reply:hover {
+          background: rgba(12,26,46,0.05) !important;
+          transform: translateX(-2px);
+        }
+        .sage-chat-window::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        .sage-chat-window *::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window *::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window *::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        @media (max-width: 480px) {
+          .sage-chat-window {
+            bottom: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 0 !important;
+          }
+        }
+      </style><div class="consent-notice" role="dialog" aria-label="Privacy choices" aria-live="polite"><p>We use privacy-conscious analytics and campaign measurement to understand what works. We do not enable personalized advertising. <a href="/privacy-policy" data-discover="true">Privacy Policy</a></p><div class="consent-notice__actions"><button type="button" class="consent-notice__decline">Decline non-essential</button><button type="button" class="consent-notice__allow">Allow measurement</button></div><style>
+        .consent-notice {
+          position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 12000;
+          max-width: 920px; margin: 0 auto; padding: 1rem 1.15rem;
+          display: flex; align-items: center; justify-content: space-between;
+          gap: 1rem; flex-wrap: wrap;
+          background: var(--surface-card, #fff); color: var(--text-primary, #0c1a2e);
+          border: 1px solid var(--border-firm, rgba(12,26,46,.2)); border-radius: 10px;
+          box-shadow: 0 14px 40px rgba(0,0,0,.22);
+          font-family: 'Montserrat', system-ui, sans-serif; font-size: .78rem;
+        }
+        .consent-notice p { flex: 1 1 430px; margin: 0; line-height: 1.55; }
+        .consent-notice a { color: var(--orange, #9a7c3a); text-decoration: underline; }
+        .consent-notice__actions { display: flex; gap: .65rem; flex-wrap: wrap; }
+        .consent-notice button {
+          min-height: 38px; padding: .55rem .85rem; border-radius: 6px;
+          font: 600 .74rem 'Montserrat', system-ui, sans-serif; cursor: pointer;
+        }
+        .consent-notice__decline {
+          border: 1px solid var(--border-firm, #c9cdd2); color: inherit; background: transparent;
+        }
+        .consent-notice__allow {
+          border: 1px solid #c5a55a; background: #c5a55a; color: #0c1a2e;
+        }
+        @media (max-width: 600px) {
+          .consent-notice { bottom: .5rem; left: .5rem; right: .5rem; }
+          .consent-notice__actions, .consent-notice button { width: 100%; }
+        }
+      </style></div><div class="sp"><header class="hdr   "><div class="hdr__inner"><a class="hdr__logo" href="/" data-discover="true"><img alt="TruDefinition" class="hdr__logo-img" src="/logo-dark.png"></a><nav class="hdr__nav hdr__nav--desktop"><div class="hdr__nav-item "><span class="hdr__nav-link">Residential<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><div class="hdr__nav-item "><span class="hdr__nav-link">Service Areas<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><a class="hdr__nav-item" href="/about" data-discover="true"><span class="hdr__nav-link">About</span></a><a class="hdr__nav-item" href="/contact" data-discover="true"><span class="hdr__nav-link hdr__nav-link--cta">Contact</span></a><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></nav><button class="hdr__burger " aria-label="Toggle menu"><span></span><span></span><span></span></button></div><nav class="hdr__mobile "><div class="mob__section"><button class="mob__toggle">Residential<span class="mob__plus ">+</span></button></div><div class="mob__section"><button class="mob__toggle">Service Areas<span class="mob__plus ">+</span></button></div><a class="mob__link mob__link--top" href="/about" data-discover="true">About</a><a class="mob__link mob__link--top mob__link--cta" href="/contact" data-discover="true">Contact</a><div class="mob__theme-row"><span>Theme</span><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></div></nav><style>
+ /* ===== HEADER BAR ===== */
+ .hdr {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+ background: var(--header-bg, #ffffff);
+ transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
+ border-bottom: 1px solid var(--border-soft, rgba(12, 26, 46, 0.06));
+ }
+ [data-theme="dark"] .hdr {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Home page header — seamless cream-to-transparent gradient that fades into
+    the hero image. No blur, no border — pure soft fade so the nav appears to
+    be part of the image itself. */
+ /* Home header: cream gradient whose alpha is driven by the dimmer with a
+    quadratic curve — the cream stays subtle through most of the slide and
+    only ramps up to full presence near the bright end, so it tracks the
+    perceived rate of the hero image crossfade rather than changing faster. */
+ .hdr--home,
+ [data-theme="dark"] .hdr--home {
+ background: linear-gradient(180deg,
+   rgba(247, 240, 225, calc(0.66 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 0%,
+   rgba(247, 240, 225, calc(0.49 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 45%,
+   rgba(247, 240, 225, calc(0.25 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 80%,
+   rgba(247, 240, 225, 0) 100%);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ border-bottom: none;
+ box-shadow: none;
+ }
+
+ .hdr--scrolled {
+ background: var(--header-bg, #ffffff);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ box-shadow: var(--shadow-soft, 0 6px 32px rgba(12, 26, 46, 0.06));
+ border-bottom-color: var(--border-firm, rgba(12, 26, 46, 0.08));
+ }
+ [data-theme="dark"] .hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+ /* Home + scrolled: pinned header goes solid white — the cream is only for
+    the top position where it needs to blend into the hero image. */
+ .hdr--home.hdr--scrolled {
+ background: #ffffff;
+ }
+ [data-theme="dark"] .hdr--home.hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Transparent variant — used only on the home page while at the top.
+    Logo inverts to white via filter; nav links / CTA flip to white; bg goes clear. */
+ .hdr--transparent {
+ background: transparent;
+ border-bottom-color: transparent;
+ box-shadow: none;
+ }
+ /* Logo asset itself swaps (white-gradient version) — no CSS filter needed */
+ .hdr--transparent .hdr__nav-link {
+ color: #ffffff;
+ text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+ }
+ .hdr--transparent .hdr__nav-link:hover,
+ .hdr--transparent .hdr__nav-item--active .hdr__nav-link {
+ color: var(--orange, #c5a55a);
+ }
+ .hdr--transparent .hdr__nav-link--cta {
+ color: #ffffff;
+ border-color: rgba(255,255,255,0.7);
+ text-shadow: none;
+ }
+ .hdr--transparent .hdr__nav-link--cta:hover {
+ background: #ffffff;
+ color: var(--black, #0c1a2e);
+ border-color: #ffffff;
+ }
+ .hdr--transparent .hdr__burger span {
+ background: #ffffff;
+ }
+ .hdr__inner {
+ max-width: 1280px; margin: 0 auto; padding: 0 2.5rem;
+ display: flex; align-items: center; justify-content: space-between; height: 88px;
+ }
+ .hdr__logo { display: flex; align-items: center; text-decoration: none; }
+ .hdr__logo:hover { opacity: 0.85; }
+ .hdr__logo-img { height: 42px; width: auto; object-fit: contain; }
+
+ .hdr__nav--desktop { display: flex; align-items: center; gap: 0.25rem; }
+ .hdr__nav-item { position: relative; text-decoration: none; }
+ .hdr__nav-link {
+ display: flex; align-items: center; gap: 6px;
+ padding: 1.25rem 1.1rem; font-size: 0.72rem; font-weight: 500;
+ letter-spacing: 2.2px; text-transform: uppercase;
+ color: var(--text-body, #2a3547); cursor: pointer; transition: color 0.3s ease;
+ }
+ .hdr__nav-link:hover, .hdr__nav-item--active .hdr__nav-link { color: var(--orange, #c5a55a); }
+ .hdr__nav-link--cta {
+ color: var(--orange, #c5a55a); font-weight: 600;
+ padding: 0.6rem 1.4rem; margin-left: 0.8rem;
+ border: 1px solid var(--orange, #c5a55a);
+ letter-spacing: 2.4px;
+ transition: background 0.3s ease, color 0.3s ease;
+ }
+ .hdr__nav-link--cta:hover { background: var(--orange, #c5a55a); color: #ffffff; }
+ .hdr__chev { width: 9px; height: 9px; transition: transform 0.3s; }
+ .hdr__nav-item--active .hdr__chev { transform: rotate(180deg); }
+
+ /* ===== MEGA DROPDOWN ===== */
+ /* Theme-aware tokens — defaults are the LIGHT theme */
+ .mega {
+ position: fixed; top: 88px; left: 0; right: 0;
+ background: #ffffff;
+ color: #0c1a2e;
+ box-shadow: 0 18px 50px rgba(12, 26, 46, 0.12);
+ animation: megaFade 0.25s ease;
+ z-index: 999;
+ --mega-text: #0c1a2e;
+ --mega-text-muted: #2a3547;
+ --mega-accent: #9a7c3a;
+ --mega-divider: rgba(154, 124, 58, 0.35);
+ --mega-active-bg: transparent;
+ }
+ [data-theme="dark"] .mega {
+ background: #060708;
+ color: var(--soft-white, #e8e9ed);
+ box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+ --mega-text: var(--soft-white, #e8e9ed);
+ --mega-text-muted: color-mix(in oklab, var(--soft-white, #e8e9ed), transparent 14%);
+ --mega-accent: #b08c42;
+ --mega-divider: rgba(176, 140, 66, 0.4);
+ --mega-active-bg: transparent;
+ }
+ @keyframes megaFade {
+ from { opacity: 0; transform: translateY(-4px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+ .mega__inner {
+ max-width: 1200px; margin: 0 auto; padding: 1.75rem 2.5rem;
+ display: grid; grid-template-columns: 230px 1fr 1.4fr; gap: 0;
+ min-height: 0;
+ }
+
+ /* Left: service links */
+ .mega__services {
+ border-right: 1px solid var(--mega-divider);
+ padding-right: 1.25rem;
+ display: flex; flex-direction: column; gap: 0.05rem;
+ }
+ .mega__svc-link {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 0.55rem 0.95rem; font-size: 0.88rem; font-weight: 400;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease, border-color 0.15s ease;
+ border: 1px solid transparent;
+ background: var(--mega-active-bg);
+ }
+ .mega__svc-link:hover {
+ color: var(--mega-accent);
+ }
+ .mega__svc-link--active {
+ color: var(--mega-accent);
+ border-color: var(--mega-accent);
+ font-weight: 500;
+ }
+ .mega__arrow { font-size: 1.15rem; opacity: 0.55; }
+ .mega__svc-link--active .mega__arrow { opacity: 1; color: var(--mega-accent); }
+ .mega__svc-link:hover .mega__arrow { opacity: 1; color: var(--mega-accent); }
+
+ /* Middle: sub-services */
+ .mega__subs {
+ padding: 0 2rem;
+ border-right: none;
+ }
+ .mega__subs-title {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1rem; padding-bottom: 0;
+ border-bottom: none;
+ }
+ .mega__sub-link {
+ display: block; padding: 0.4rem 0; font-size: 0.88rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__sub-link:hover { color: var(--mega-accent); padding-left: 0; }
+ .mega__view-all {
+ display: inline-flex; align-items: center; gap: 0.5rem;
+ margin-top: 1rem; font-size: 0.88rem;
+ font-weight: 500; color: var(--mega-accent); text-decoration: none;
+ letter-spacing: 0;
+ }
+ .mega__view-all:hover { text-decoration: none; opacity: 0.8; }
+
+ /* Right: image — anchored to top so it sits in the same place every time,
+    with a fixed height so its size never changes from one service to the next. */
+ .mega__image {
+ display: flex; align-items: flex-start; justify-content: center;
+ padding-left: 1.5rem; overflow: hidden;
+ }
+ .mega__image img {
+ width: 100%; height: 240px; object-fit: cover;
+ border-radius: 8px; opacity: 1;
+ box-shadow: 0 8px 24px rgba(12, 26, 46, 0.12);
+ display: block;
+ }
+
+ /* ===== AREAS MEGA ===== */
+ .mega__inner--areas {
+ grid-template-columns: 1fr; gap: 2rem;
+ min-height: auto;
+ }
+ .mega__tier { }
+ .mega__tier-label {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1.25rem; padding-bottom: 0.6rem;
+ border-bottom: 1px solid var(--mega-divider);
+ }
+ .mega__tier-cities { display: flex; flex-direction: column; gap: 0; }
+ .mega__inner--areas .mega__tier-cities {
+ display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 2.5rem;
+ }
+ .mega__inner--areas .mega__tier + .mega__tier { margin-top: 1.5rem; }
+ .mega__city-link {
+ display: block; padding: 0.5rem 0; font-size: 0.92rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__city-link:hover { color: var(--mega-accent); padding-left: 0; }
+
+ /* ===== HAMBURGER ===== */
+ .hdr__burger {
+ display: none; flex-direction: column; gap: 5px;
+ background: none; border: none; cursor: pointer; padding: 5px;
+ }
+ .hdr__burger span {
+ display: block; width: 24px; height: 2px;
+ background: var(--black, #0c1a2e); transition: all 0.3s;
+ }
+ /* Dark theme: hamburger + X bars need to be white to read on the dark header */
+ [data-theme="dark"] .hdr__burger span { background: #ffffff; }
+ .hdr__burger--open span:nth-child(1) { transform: rotate(45deg) translateY(5px) translateX(5px); }
+ .hdr__burger--open span:nth-child(2) { opacity: 0; }
+ .hdr__burger--open span:nth-child(3) { transform: rotate(-45deg) translateY(-5px) translateX(5px); }
+
+ /* ===== MOBILE NAV ===== */
+ .hdr__mobile {
+ display: none;
+ position: fixed; top: 88px; left: 0; right: 0; bottom: 0;
+ background: #fff; overflow-y: auto;
+ transform: translateX(100%); opacity: 0;
+ transition: all 0.3s ease; pointer-events: none;
+ z-index: 998;
+ }
+ .hdr__mobile--open {
+ transform: translateX(0); opacity: 1; pointer-events: all;
+ }
+
+ .mob__section { border-bottom: 1px solid #eee; }
+ .mob__toggle {
+ display: flex; align-items: center; justify-content: space-between;
+ width: 100%; padding: 1.1rem 1.5rem; background: none; border: none;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ cursor: pointer; text-align: left;
+ }
+ .mob__plus {
+ font-size: 1.3rem; color: var(--orange, #c5a55a); font-weight: 300;
+ transition: transform 0.3s;
+ }
+ .mob__plus--open { transform: rotate(45deg); }
+ .mob__panel { padding: 0 0 1rem; background: #fafafa; }
+ .mob__link {
+ display: block; text-decoration: none; color: var(--gray-dark, #333);
+ transition: color 0.2s;
+ }
+ .mob__link--top {
+ padding: 1.1rem 1.5rem; font-size: 0.9rem; font-weight: 600;
+ border-bottom: 1px solid #eee;
+ }
+ .mob__link--parent {
+ padding: 0.75rem 1.5rem; font-size: 0.88rem; font-weight: 600;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__link--child {
+ padding: 0.45rem 1.5rem 0.45rem 2.5rem; font-size: 0.82rem;
+ color: var(--gray-text, #555);
+ }
+ .mob__link:hover { color: var(--orange, #c5a55a); }
+ .mob__link--cta { color: var(--orange, #c5a55a); }
+ .mob__tier-label {
+ padding: 0.75rem 1.5rem 0.25rem; font-size: 0.68rem;
+ font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__theme-row {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 1.1rem 1.5rem; border-top: 1px solid #eee;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ }
+
+ /* ===== RESPONSIVE ===== */
+ @media (max-width: 960px) {
+ .hdr__nav--desktop { display: none; }
+ .hdr__burger { display: flex; }
+ .hdr__mobile { display: block; }
+ .mega { display: none; }
+ }
+ </style></header><section class="sp-hero" data-slug="lighting-control"><div class="sp-hero__copy"><div class="sp-hero__copy-inner"><nav class="sp-crumbs" aria-label="Breadcrumb"><a class="sp-crumbs__link" href="/" data-discover="true">Home</a><span class="sp-crumbs__sep">/</span><a class="sp-crumbs__link" href="/services" data-discover="true">Services</a><span class="sp-crumbs__sep">/</span><span class="sp-crumbs__link sp-crumbs__link--current">Lighting Control</span></nav><h1 class="sp-hero__title">Lighting Control in Dallas-Fort Worth</h1><span class="sp-rule" aria-hidden="true"></span><p class="sp-hero__subhead">Architectural light, intuitive control, and scenes for every hour.</p><p class="sp-hero__lede">Plan fixtures, dimming, keypads, scenes, shades and daylight control around the room, the electrical loads and the controls your household wants to use.</p><ul class="sp-hero__bullets"><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/savant-lighting-systems" data-discover="true">Savant &amp; Lutron Lighting Systems</a></li><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/lighting-scene-programming" data-discover="true">Scene Programming &amp; Automation</a></li><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/circadian-rhythm-lighting" data-discover="true">Circadian Rhythm Tuning</a></li><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/landscape-exterior-lighting" data-discover="true">Landscape &amp; Exterior Lighting</a></li><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/tunable-led-lighting" data-discover="true">Architectural Accent Lighting</a></li><li class="sp-hero__bullet"><span class="sp-hero__bullet-mark" aria-hidden="true">›</span><a href="/services/lighting-control/lighting-scene-programming" data-discover="true">Security Lighting Automation</a></li></ul></div></div><div class="sp-hero__image" aria-hidden="true"><img alt="" loading="eager" src="/savant-lighting-systems-dark.png"></div></section><section class="sp-intro"><div class="sp-intro__inner"><p class="sp-eyebrow">Planning Lighting Control Before the Fixtures Go In</p><p>A lighting-control plan starts with the fixtures, drivers and dimmers—not just a list of scenes. Record the load type and control method for each circuit, verify minimum dim levels with the selected equipment, and mock up critical fixtures where color and low-end performance matter. Compatibility and dimming behavior are product-specific and should be confirmed before installation.</p><p>TruDefinition coordinates lighting control, keypads, scenes, shades and home automation for Dallas-Fort Worth projects. Plan keypad locations, natural light, shade behavior and the controls guests will use before programming begins so the proposal reflects the rooms and electrical loads in the home.</p><span class="sp-rule sp-rule--center" aria-hidden="true"></span></div></section><section class="sp-moments"><div class="sp-moments__grid"><article class="sp-moment"><div class="sp-moment__image"><img alt="" loading="lazy" src="/savant-lighting-systems-light.png"></div><div class="sp-moment__shade" aria-hidden="true"></div><div class="sp-moment__copy"><p class="sp-moment__num">01</p><h2>Verify the Lighting Loads</h2><p>Record each fixture, driver, lamp and control method. Confirm the selected dimmer supports the load, and mock up critical circuits when low-end appearance, color or flicker performance matters.</p></div></article><article class="sp-moment"><div class="sp-moment__image"><img alt="" loading="lazy" src="/circadian-rhythm-lighting-light.png"></div><div class="sp-moment__shade" aria-hidden="true"></div><div class="sp-moment__copy"><p class="sp-moment__num">02</p><h2>Choose Everyday Controls</h2><p>Map keypad locations, engraved scenes, app access and useful manual controls. Decide how household members and guests will turn lights on, adjust a room and recover when a schedule is not appropriate.</p></div></article><article class="sp-moment"><div class="sp-moment__image"><img alt="" loading="lazy" src="/tunable-led-lighting-light.png"></div><div class="sp-moment__shade" aria-hidden="true"></div><div class="sp-moment__copy"><p class="sp-moment__num">03</p><h2>Coordinate Light and Shades</h2><p>Decide which lighting and shade scenes are manual, scheduled or daylight-driven, and which rooms should remain independent. Confirm compatibility with the exact fixtures, shade motors and control platform selected.</p></div></article></div></section><section class="sp-evening"><div class="sp-evening__inner"><div class="sp-evening__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"></circle><circle cx="17" cy="9" r="2.5"></circle><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><path d="M15 14c2.5 0 6 1.5 6 5"></path></svg></div><div class="sp-evening__copy"><h2>Tell us about your <span class="sp-evening__last">evening<em>.</em></span></h2><p>Describe how you want each hour to feel. We'll tune the light to match.</p></div><button data-cta="service_final_estimate" class="sp-btn sp-btn--gold">Begin the Conversation</button></div></section><section class="sp-proof"><div class="sp-proof__grid"><article class="sp-proof-card"><div class="sp-proof-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l4-1 11-11-3-3L5 16l-1 4Z"></path><path d="M14 5l3 3"></path></svg></div><p class="sp-proof-card__num">01</p><h2>New Construction or Retrofit?</h2><p>New construction allows panel locations, wiring, fixture loads, keypad positions and shade power to be coordinated before walls close. Put the control method and device schedule on the electrical and interior plans before rough-in.</p><p>A retrofit begins with the existing wall boxes, neutral wires, fixtures, wireless conditions and practical access routes. Inspect those constraints before promising concealed wiring or a particular control architecture.</p></article><article class="sp-proof-card"><div class="sp-proof-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5Z"></path><path d="M3 13l9 5 9-5"></path><path d="M3 18l9 5 9-5"></path></svg></div><p class="sp-proof-card__num">02</p><h2>What Determines the Scope and Cost?</h2><p>Circuit count, fixture and driver compatibility, the control architecture, keypad count and finish, shade integration, programming, electrical work and installation access all affect the scope. A few retrofit rooms and a whole-home panelized system are different projects.</p><p>Compare proposals by the loads and rooms included, electrical or builder coordination, programming, training and support. Ask which subscriptions, fixtures, finish work or future changes are separate.</p></article><article class="sp-proof-card"><div class="sp-proof-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0"></path><path d="M4 12v4a2 2 0 0 0 2 2h1v-6H4Z"></path><path d="M20 12v4a2 2 0 0 1-2 2h-1v-6h3Z"></path><path d="M8 20h3a3 3 0 0 0 3-3v-1"></path></svg></div><p class="sp-proof-card__num">03</p><h2>Testing and Handoff</h2><p>Before handoff, test every controlled load through its intended range and verify scenes, keypads, schedules, shade coordination and manual control. Record any fixture-specific limits rather than hiding them in programming.</p><p>Keep the device and circuit schedule, account ownership and agreed programming with the project records. Warranty coverage, future adjustments and support terms should be written into the agreement rather than assumed.</p></article></div></section><section class="sp-details"><div class="sp-details__heading"><p class="sp-eyebrow">The Details That Matter</p><h2>Lighting Control — The Detailed Side.</h2></div><div class="sp-details__grid"><a class="sp-detail-card" href="/services/lighting-control/savant-lighting-systems" data-discover="true"><div class="sp-detail-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M5.5 10.5V20h13v-9.5"></path><path d="M9.5 20v-6h5v6"></path></svg></div><div><h3>Savant Lighting Systems</h3><p>The quiet language every great home speaks at dusk.</p><span class="sp-detail-card__link">Explore →</span></div></a><a class="sp-detail-card" href="/services/lighting-control/tunable-led-lighting" data-discover="true"><div class="sp-detail-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v3"></path></svg></div><div><h3>Tunable LED Lighting</h3><p>Morning light at breakfast. Candleglow at dinner. The same fixture, all day long.</p><span class="sp-detail-card__link">Explore →</span></div></a><a class="sp-detail-card" href="/services/lighting-control/landscape-exterior-lighting" data-discover="true"><div class="sp-detail-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path d="M8 8h8M8 12h8M8 16h8"></path></svg></div><div><h3>Landscape &amp; Exterior Lighting</h3><p>You pull into the drive. The house knows you're home.</p><span class="sp-detail-card__link">Explore →</span></div></a><a class="sp-detail-card" href="/services/lighting-control/circadian-rhythm-lighting" data-discover="true"><div class="sp-detail-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M7 9h10M7 13h4M14 13h3"></path></svg></div><div><h3>Circadian Rhythm Lighting</h3><p>Light that wakes you gently and lets you sleep when the day is done.</p><span class="sp-detail-card__link">Explore →</span></div></a><a class="sp-detail-card" href="/services/lighting-control/lighting-scene-programming" data-discover="true"><div class="sp-detail-card__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"></circle><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 0 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 0 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.6-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1A2 2 0 0 1 7.1 4l.1.1a1.7 1.7 0 0 0 1.9.3 1.7 1.7 0 0 0 1-1.6V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1A2 2 0 0 1 19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.1a2 2 0 0 1 0 4H21a1.7 1.7 0 0 0-1.6 1Z"></path></svg></div><div><h3>Lighting Scene Programming</h3><p>One button. Dinner becomes a memory waiting to happen.</p><span class="sp-detail-card__link">Explore →</span></div></a></div></section><footer class="footer"><div class="footer__main"><div class="footer__inner"><div class="footer__brand"><img alt="TruDefinition" class="footer__logo" src="/logo-dark.png"><p class="footer__tagline">Thoughtful technology.<br>Beautifully integrated.<br>Dallas–Fort Worth and beyond.</p><div class="footer__social"><a href="https://www.instagram.com/trudefinition/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle></svg></a><a href="https://www.linkedin.com/company/trudefinition" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v15H0V8zm7.5 0H12v2.05h.07c.62-1.17 2.14-2.4 4.41-2.4 4.72 0 5.59 3.1 5.59 7.13V23h-5v-6.85c0-1.63-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V23h-5V8z"></path></svg></a><a href="mailto:info@trudefinition.com" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></a></div></div><div class="footer__col"><h4>Company</h4><a href="/about" data-discover="true">About Us</a><a href="/our-process" data-discover="true">Our Approach</a></div><div class="footer__col"><h4>Services</h4><a href="/services/lighting-control" data-discover="true">Lighting</a><a href="/services/motorized-shades" data-discover="true">Shades</a><a href="/services/home-audio" data-discover="true">Audio</a><a href="/services/security-surveillance" data-discover="true">Security</a><a href="/services/energy-management" data-discover="true">Climate</a><a href="/services/home-theaters" data-discover="true">Entertainment</a></div><div class="footer__col"><h4>Service Areas</h4><a href="/areas-served/fort-worth" data-discover="true">Fort Worth</a><a href="/areas-served/southlake" data-discover="true">Southlake</a><a href="/areas-served/westlake" data-discover="true">Westlake</a><a href="/areas-served/highland-park" data-discover="true">Highland Park</a><a href="/areas-served" data-discover="true">All Areas</a></div><div class="footer__col footer__col--contact"><h4>Contact</h4><a href="tel:8179651042" data-cta="footer_call">(817) 965-1042</a><a href="mailto:info@trudefinition.com">info@trudefinition.com</a><a href="/contact" data-discover="true">Start a Project</a></div></div></div><div class="footer__bottom-wrap"><div class="footer__bottom"><span>© 2026 TruDefinition. All rights reserved.</span><div class="footer__legal"><a href="/privacy-policy" data-discover="true">Privacy</a><button type="button">Privacy Choices</button><a href="/terms-of-service" data-discover="true">Terms</a><a href="/accessibility" data-discover="true">Accessibility</a></div></div></div><style>
+        .footer {
+          background: var(--footer-bg, #ffffff);
+          color: var(--footer-text, #5a6577);
+          border-top: 1px solid var(--footer-top-border, rgba(12, 26, 46, 0.18));
+        }
+        .footer__main {
+          padding: 5rem 2.5rem 3.5rem;
+        }
+        .footer__inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
+          gap: 3rem;
+          align-items: start;
+        }
+
+        /* Brand column */
+        .footer__brand { }
+        .footer__logo {
+          height: 39px;
+          width: auto;
+          object-fit: contain;
+          margin-bottom: 1.5rem;
+          display: block;
+        }
+        .footer__tagline {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.85rem;
+          line-height: 1.8;
+          color: var(--footer-text, #5a6577);
+          margin: 0 0 1.75rem;
+        }
+        .footer__social {
+          display: flex;
+          gap: 1.1rem;
+          align-items: center;
+        }
+        .footer__social a {
+          color: var(--footer-icon, #2a3547);
+          transition: color 0.2s ease, opacity 0.2s ease;
+          display: inline-flex;
+        }
+        .footer__social a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Columns */
+        .footer__col h4 {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          color: var(--footer-heading, #0c1a2e);
+          margin: 0 0 1.5rem;
+        }
+        .footer__col a {
+          display: block;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem;
+          color: var(--footer-text, #5a6577);
+          text-decoration: none;
+          padding: 0.4rem 0;
+          transition: color 0.2s ease;
+        }
+        .footer__col a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Bottom bar */
+        .footer__bottom-wrap {
+          border-top: 1px solid var(--footer-divider, rgba(12, 26, 46, 0.08));
+        }
+        .footer__bottom {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 1.5rem 2.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.74rem;
+          color: var(--footer-muted, #8893a3);
+        }
+        .footer__legal {
+          display: flex;
+          gap: 1.75rem;
+        }
+        .footer__legal a,
+        .footer__legal button {
+          color: var(--footer-muted, #8893a3);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          background: none;
+          border: 0;
+          padding: 0;
+          font: inherit;
+          cursor: pointer;
+        }
+        .footer__legal a:hover,
+        .footer__legal button:hover { color: var(--orange, #9a7c3a); }
+
+        /* Light theme tokens (default) */
+        [data-theme="light"] .footer,
+        :root .footer {
+          --footer-bg: #ffffff;
+          --footer-text: #5a6577;
+          --footer-heading: #0c1a2e;
+          --footer-icon: #2a3547;
+          --footer-divider: rgba(12, 26, 46, 0.08);
+          --footer-muted: #8893a3;
+          --footer-top-border: rgba(12, 26, 46, 0.18);
+        }
+
+        /* Dark theme — deep near-black footer with brighter top border divider */
+        [data-theme="dark"] .footer {
+          --footer-bg: #05080d;
+          --footer-text: rgba(255, 255, 255, 0.6);
+          --footer-heading: #ffffff;
+          --footer-icon: rgba(255, 255, 255, 0.75);
+          --footer-divider: rgba(255, 255, 255, 0.1);
+          --footer-muted: rgba(255, 255, 255, 0.35);
+          --footer-top-border: rgba(197, 165, 90, 0.3);
+        }
+
+        @media (max-width: 1024px) {
+          .footer__inner {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2.5rem;
+          }
+          .footer__brand { grid-column: 1 / -1; }
+        }
+        @media (max-width: 640px) {
+          .footer__inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+          .footer__brand { grid-column: 1 / -1; }
+          .footer__main { padding: 3.5rem 1.5rem 2.5rem; }
+          .footer__bottom {
+            flex-direction: column;
+            gap: 0.75rem;
+            text-align: center;
+            padding: 1.25rem 1.5rem;
+          }
+        }
+      </style></footer><style>
+        .sp {
+          background: var(--surface-base);
+          color: var(--text-body);
+          --sp-inset: calc(4rem + 60px);
+          --sp-gold: var(--orange, #9a7c3a);
+          --sp-cream: #fefdf7;
+          --sp-cream-soft: #f3ece0;
+        }
+        .sp * { box-sizing: border-box; }
+
+        /* ===== DARK THEME OVERRIDES ===== */
+        [data-theme="dark"] .sp,
+        [data-theme="dark"] .sp-intro,
+        [data-theme="dark"] .sp-statement,
+        [data-theme="dark"] .sp-moments,
+        [data-theme="dark"] .sp-evening,
+        [data-theme="dark"] .sp-proof,
+        [data-theme="dark"] .sp-details {
+          background: #060708;
+        }
+        [data-theme="dark"] .sp-evening__inner { background: #14161a; }
+        [data-theme="dark"] .sp-proof-card,
+        [data-theme="dark"] .sp-detail-card {
+          background: #14161a;
+          border-color: rgba(255, 255, 255, 0.05);
+        }
+        [data-theme="dark"] .sp-proof-card:hover,
+        [data-theme="dark"] .sp-detail-card:hover {
+          border-color: var(--sp-gold);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        /* ===== HERO — mirrors .ssp-hero exactly: split grid, theme-aware ===== */
+        .sp-hero {
+          position: relative;
+          padding-top: 88px;
+          min-height: 560px;
+          background: #fefdf7;
+          display: grid;
+          grid-template-columns: 1.05fr 0.95fr;
+          align-items: stretch;
+          overflow: hidden;
+          border-bottom: 1px solid rgba(12, 26, 46, 0.14);
+        }
+        [data-theme="dark"] .sp-hero {
+          background: #060708;
+          border-bottom-color: rgba(154, 124, 58, 0.32);
+        }
+        .sp-hero__copy {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          padding: 3.5rem 1.5rem 3.5rem var(--sp-inset);
+        }
+        .sp-hero__copy-inner {
+          max-width: 880px;
+          width: 100%;
+        }
+        .sp-hero__image {
+          position: relative;
+          overflow: hidden;
+          height: 560px;
+          margin-left: -160px;
+        }
+        .sp-hero__image img {
+          position: absolute;
+          inset: 0;
+          width: 100%; height: 100%;
+          object-fit: cover; display: block;
+        }
+        .sp-hero__image::before {
+          content: ''; position: absolute; inset: 0; z-index: 1;
+          background: linear-gradient(90deg,
+            rgba(254, 253, 247, 1) 0%,
+            rgba(254, 253, 247, 0.96) 4%,
+            rgba(254, 253, 247, 0.85) 8%,
+            rgba(254, 253, 247, 0.68) 13%,
+            rgba(254, 253, 247, 0.48) 18%,
+            rgba(254, 253, 247, 0.28) 23%,
+            rgba(254, 253, 247, 0.10) 28%,
+            rgba(254, 253, 247, 0) 32%);
+          pointer-events: none;
+        }
+        [data-theme="dark"] .sp-hero__image::before {
+          background: linear-gradient(90deg,
+            rgba(6, 7, 8, 1) 0%,
+            rgba(6, 7, 8, 0.96) 4%,
+            rgba(6, 7, 8, 0.85) 8%,
+            rgba(6, 7, 8, 0.68) 13%,
+            rgba(6, 7, 8, 0.48) 18%,
+            rgba(6, 7, 8, 0.28) 23%,
+            rgba(6, 7, 8, 0.10) 28%,
+            rgba(6, 7, 8, 0) 32%);
+        }
+
+        .sp-crumbs {
+          display: flex; flex-wrap: wrap; align-items: center;
+          margin-bottom: 2.25rem;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem; font-weight: 600;
+          letter-spacing: 0.18em; text-transform: uppercase;
+          color: var(--text-muted, #5a6577);
+        }
+        .sp-crumbs__sep {
+          color: var(--text-muted, #5a6577);
+          opacity: 0.55;
+          padding: 0 1.1rem;
+        }
+        .sp-crumbs__link {
+          color: var(--text-muted, #5a6577);
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+        .sp-crumbs__link:hover { color: var(--sp-gold); }
+        .sp-crumbs__link--current { color: var(--sp-gold); }
+
+        .sp-hero__title {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(2.4rem, 3.6vw, 3.5rem);
+          line-height: 1.08;
+          letter-spacing: -0.02em;
+          font-weight: 500;
+          color: var(--text-primary, #0c1a2e);
+          margin: 0;
+          text-wrap: balance;
+          max-width: 760px;
+        }
+
+        .sp-rule {
+          display: block;
+          width: 56px;
+          height: 2px;
+          background: var(--sp-gold);
+          margin: 1.5rem 0 1.35rem;
+        }
+        .sp-rule--center {
+          margin: 2.5rem auto 0;
+        }
+
+        .sp-hero__subhead {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+          font-style: italic;
+          font-weight: 400;
+          color: var(--text-body, #2a3547);
+          margin: 0 0 1.25rem;
+          letter-spacing: 0.005em;
+        }
+        .sp-hero__lede {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 1rem;
+          line-height: 1.75;
+          color: var(--text-muted, #5a6577);
+          margin: 0 0 2rem;
+          max-width: 600px;
+        }
+
+        .sp-hero__bullets {
+          list-style: none; padding: 0; margin: 0;
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 0.85rem 2.5rem;
+          max-width: 720px;
+        }
+        .sp-hero__bullet {
+          display: flex; align-items: center; gap: 0.75rem;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem; font-weight: 600;
+          color: var(--text-body, #2a3547);
+        }
+        .sp-hero__bullet a {
+          color: inherit;
+          text-decoration: none;
+          transition: color 0.18s ease;
+        }
+        .sp-hero__bullet a:hover { color: var(--sp-gold); }
+        .sp-hero__bullet-mark {
+          color: var(--sp-gold);
+          font-size: 1.15rem;
+          line-height: 1;
+          flex-shrink: 0;
+        }
+
+        /* ===== INTRO ===== */
+        .sp-intro {
+          padding: 6rem 2rem 3rem;
+          background: var(--surface-base);
+        }
+        .sp-intro__inner {
+          max-width: 760px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .sp-eyebrow {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 1.5rem;
+          color: var(--sp-gold);
+          font-size: 0.96rem; font-weight: 800;
+          letter-spacing: 0.28em; text-transform: uppercase;
+        }
+        .sp-intro p:not(.sp-eyebrow) {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 auto 1.4rem;
+          color: var(--text-body, #2a3547);
+          font-size: 1rem;
+          line-height: 1.85;
+        }
+        .sp-intro p:last-of-type { margin-bottom: 0; }
+        [data-theme="dark"] .sp-intro p:not(.sp-eyebrow) { color: rgba(255, 255, 255, 0.78); }
+
+        /* ===== STATEMENT — huge serif lines, stacked ===== */
+        .sp-statement {
+          padding: 4rem 2rem 5.5rem;
+          background: var(--surface-base);
+        }
+        .sp-statement__inner {
+          max-width: 1080px;
+          margin: 0 auto;
+          text-align: center;
+          display: flex; flex-direction: column;
+        }
+        .sp-statement__line {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          font-size: clamp(2.4rem, 5.5vw, 5rem);
+          line-height: 1.12;
+          letter-spacing: -0.025em;
+          font-weight: 400;
+          color: var(--text-primary, #0c1a2e);
+        }
+        [data-theme="dark"] .sp-statement__line { color: #ffffff; }
+
+        /* ===== MOMENTS — full-bleed overlay cards ===== */
+        .sp-moments {
+          padding: 1rem 2rem 5rem;
+          background: var(--surface-base);
+        }
+        .sp-moments__grid {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 0.55rem;
+        }
+        .sp-moment {
+          position: relative;
+          aspect-ratio: 25 / 24;
+          overflow: hidden;
+          isolation: isolate;
+          color: #ffffff;
+          transition: transform 0.25s ease, box-shadow 0.25s ease;
+          background: #14161a;
+        }
+        .sp-moment:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 24px 50px rgba(0, 0, 0, 0.32);
+        }
+        .sp-moment__image {
+          position: absolute; inset: 0; z-index: 1;
+          overflow: hidden;
+          background: #14161a;
+        }
+        .sp-moment__image img {
+          width: 100%; height: 100%; object-fit: cover; display: block;
+          transform: scale(1);
+          transition: transform 0.4s ease;
+        }
+        .sp-moment:hover .sp-moment__image img { transform: scale(1.05); }
+        .sp-moment__shade {
+          position: absolute; inset: 0; z-index: 2;
+          pointer-events: none;
+          background:
+            linear-gradient(180deg,
+              rgba(6, 7, 8, 0.78) 0%,
+              rgba(6, 7, 8, 0.55) 35%,
+              rgba(6, 7, 8, 0.40) 65%,
+              rgba(6, 7, 8, 0.55) 100%),
+            linear-gradient(180deg, rgba(6, 7, 8, 0.15), rgba(6, 7, 8, 0.15));
+        }
+        .sp-moment__copy {
+          position: absolute;
+          left: 1.6rem; right: 50%; top: 1.5rem;
+          z-index: 3;
+          text-align: left;
+        }
+        .sp-moment__num {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.8rem;
+          color: var(--sp-gold);
+          font-size: 1.1rem; font-weight: 800;
+          letter-spacing: 0.22em;
+          text-shadow: 0 1px 12px rgba(0, 0, 0, 0.45);
+        }
+        .sp-moment h2 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          margin: 0 0 0.65rem;
+          font-size: clamp(1.35rem, 1.8vw, 1.7rem);
+          line-height: 1.18;
+          letter-spacing: -0.018em;
+          font-weight: 500;
+          color: #ffffff;
+          text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+        }
+        [data-theme="dark"] .sp-moment h2 { color: #ffffff; }
+        .sp-moment__copy p:not(.sp-moment__num) {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0;
+          font-size: 0.88rem;
+          line-height: 1.6;
+          color: #ffffff;
+          text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55);
+        }
+
+        /* ===== EVENING CTA — cream pill ===== */
+        .sp-evening {
+          padding: 2rem var(--sp-inset) 4.5rem;
+          background: transparent;
+        }
+        .sp-evening__inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 2rem 2.25rem;
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          align-items: center;
+          gap: 2rem;
+          background: var(--sp-cream-soft);
+        }
+        .sp-evening__icon {
+          width: 56px; height: 56px;
+          border: 1px solid var(--sp-gold);
+          border-radius: 50%;
+          color: var(--sp-gold);
+          display: flex; align-items: center; justify-content: center;
+        }
+        .sp-evening__icon svg { width: 24px; height: 24px; }
+        .sp-evening__copy { min-width: 0; }
+        .sp-evening h2 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          margin: 0 0 0.4rem;
+          color: var(--text-primary, #0c1a2e);
+          font-size: clamp(1.4rem, 2.1vw, 2rem);
+          line-height: 1.15;
+          letter-spacing: -0.02em;
+          font-weight: 500;
+        }
+        .sp-evening h2 em,
+        .sp-evening__last em {
+          color: var(--sp-gold);
+          font-style: italic;
+          font-weight: 500;
+        }
+        [data-theme="dark"] .sp-evening h2 { color: #ffffff; }
+        .sp-evening p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0;
+          color: var(--text-body, #2a3547);
+          font-size: 0.92rem;
+          line-height: 1.6;
+        }
+        [data-theme="dark"] .sp-evening p { color: rgba(255, 255, 255, 0.78); }
+
+        /* ===== BUTTONS ===== */
+        .sp-btn {
+          display: inline-flex; align-items: center; justify-content: center;
+          min-height: 50px; padding: 0 2rem;
+          border: 2px solid var(--sp-gold);
+          background: transparent;
+          color: var(--sp-gold);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem; font-weight: 800; letter-spacing: 0.22em;
+          text-transform: uppercase;
+          cursor: pointer; text-decoration: none;
+          transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+          white-space: nowrap;
+        }
+        .sp-btn--gold {
+          background: var(--sp-gold);
+          color: #ffffff;
+        }
+        .sp-btn:hover {
+          transform: translateY(-1px);
+          background: var(--sp-gold);
+          color: #ffffff;
+        }
+        .sp-btn--gold:hover {
+          background: transparent;
+          color: var(--sp-gold);
+        }
+
+        /* ===== PROOF — three cards with icons ===== */
+        .sp-proof {
+          padding: 2rem 2rem 5rem;
+          background: var(--surface-base);
+        }
+        .sp-proof__grid {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 1.75rem;
+        }
+        .sp-proof-card {
+          background: #ffffff;
+          border: 1px solid var(--border-soft, rgba(12,26,46,0.08));
+          padding: 2.25rem 1.85rem 2rem;
+          transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+        .sp-proof-card:hover {
+          transform: translateY(-2px);
+          border-color: var(--sp-gold);
+          box-shadow: 0 20px 50px rgba(12, 26, 46, 0.10);
+        }
+        .sp-proof-card__icon {
+          width: 52px; height: 52px;
+          border: 1px solid var(--sp-gold);
+          border-radius: 50%;
+          color: var(--sp-gold);
+          display: flex; align-items: center; justify-content: center;
+          margin-bottom: 1.5rem;
+        }
+        .sp-proof-card__icon svg { width: 22px; height: 22px; }
+        .sp-proof-card__num {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.85rem;
+          color: var(--sp-gold);
+          font-size: 0.72rem; font-weight: 800;
+          letter-spacing: 0.2em;
+        }
+        .sp-proof-card h2 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          margin: 0 0 1.1rem;
+          color: var(--text-primary, #0c1a2e);
+          font-size: clamp(1.25rem, 1.7vw, 1.55rem);
+          line-height: 1.18;
+          letter-spacing: -0.015em;
+          font-weight: 500;
+          text-transform: none;
+        }
+        [data-theme="dark"] .sp-proof-card h2 { color: #ffffff; }
+        .sp-proof-card p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.85rem;
+          color: var(--text-body, #2a3547);
+          font-size: 0.9rem;
+          line-height: 1.78;
+        }
+        .sp-proof-card p:last-child { margin-bottom: 0; }
+        [data-theme="dark"] .sp-proof-card p { color: rgba(255, 255, 255, 0.78); }
+
+        /* ===== DETAILS / SUB-SERVICES ===== */
+        .sp-details {
+          padding: 2rem 2rem 6rem;
+          background: var(--surface-base);
+        }
+        .sp-details__heading {
+          max-width: 1280px;
+          margin: 0 auto 2.75rem;
+          text-align: center;
+        }
+        .sp-details__heading h2 {
+          font-family: var(--font-display-serif, 'Playfair Display', Georgia, serif);
+          margin: 0;
+          color: var(--text-primary, #0c1a2e);
+          font-size: clamp(1.8rem, 2.8vw, 2.6rem);
+          line-height: 1.1;
+          letter-spacing: -0.02em;
+          font-weight: 500;
+        }
+        [data-theme="dark"] .sp-details__heading h2 { color: #ffffff; }
+        .sp-details__grid {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 1.5rem;
+        }
+        .sp-detail-card {
+          padding: 1.85rem 1.6rem;
+          border: 1px solid var(--border-soft, rgba(12,26,46,0.08));
+          background: #ffffff;
+          display: flex; flex-direction: column;
+          gap: 1.1rem;
+          text-decoration: none;
+          color: inherit;
+          transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+        }
+        .sp-detail-card:hover {
+          transform: translateY(-2px);
+          border-color: var(--sp-gold);
+          box-shadow: 0 18px 50px rgba(12, 26, 46, 0.10);
+        }
+        .sp-detail-card__icon {
+          width: 44px; height: 44px;
+          border: 1px solid var(--sp-gold);
+          border-radius: 50%;
+          color: var(--sp-gold);
+          display: flex; align-items: center; justify-content: center;
+        }
+        .sp-detail-card__icon svg { width: 20px; height: 20px; }
+        .sp-detail-card h3 {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.55rem;
+          color: var(--text-primary, #0c1a2e);
+          font-size: 0.78rem; line-height: 1.35;
+          font-weight: 800;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+        }
+        [data-theme="dark"] .sp-detail-card h3 { color: #ffffff; }
+        .sp-detail-card p {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          margin: 0 0 0.9rem;
+          color: var(--text-body, #2a3547);
+          font-size: 0.86rem; line-height: 1.65;
+        }
+        [data-theme="dark"] .sp-detail-card p { color: rgba(255, 255, 255, 0.78); }
+        .sp-detail-card__link {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          color: var(--sp-gold);
+          font-size: 0.7rem; font-weight: 800;
+          letter-spacing: 0.18em; text-transform: uppercase;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1280px) { .sp { --sp-inset: 4rem; } }
+        @media (max-width: 1020px) {
+          .sp-hero {
+            grid-template-columns: 1fr;
+            min-height: auto;
+          }
+          .sp-hero__copy {
+            padding: 3rem var(--sp-inset) 2.5rem;
+          }
+          .sp-hero__image { min-height: 360px; margin-left: 0; height: auto; }
+          .sp-hero__image::before {
+            background: linear-gradient(180deg, transparent 0%, rgba(254, 253, 247, 0.4) 100%);
+          }
+          [data-theme="dark"] .sp-hero__image::before {
+            background: linear-gradient(180deg, transparent 0%, rgba(12, 18, 24, 0.4) 100%);
+          }
+        }
+        @media (max-width: 1080px) {
+          .sp { --sp-inset: 2.5rem; }
+          .sp-moments__grid { grid-template-columns: 1fr; gap: 1.25rem; }
+          .sp-moment { aspect-ratio: 16 / 10; }
+          .sp-moment__copy { right: 1.6rem; }
+          .sp-proof__grid { grid-template-columns: 1fr; gap: 1.5rem; }
+          .sp-details__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+          .sp-evening__inner {
+            grid-template-columns: auto 1fr;
+            gap: 1.25rem 1.5rem;
+          }
+          .sp-evening .sp-btn { grid-column: 1 / -1; justify-self: start; }
+        }
+        @media (max-width: 640px) {
+          .sp { --sp-inset: 1.25rem; }
+          .sp-hero__title { font-size: clamp(2rem, 8vw, 2.8rem); }
+          .sp-hero__bullets { grid-template-columns: 1fr; }
+          .sp-intro { padding: 4rem 1.25rem 2.5rem; }
+          .sp-statement { padding: 2.5rem 1.25rem 3.5rem; }
+          .sp-statement__line { font-size: clamp(1.9rem, 8vw, 2.8rem); }
+          .sp-moments { padding: 0.5rem 1.25rem 3.5rem; }
+          /* Mobile moments — taller cards so all copy fits, with the
+             copy anchored to the bottom over a strong bottom scrim. */
+          .sp-moment {
+            aspect-ratio: auto;
+            min-height: 420px;
+          }
+          .sp-moment__copy {
+            top: auto; bottom: 1.5rem;
+            left: 1.5rem; right: 1.5rem;
+          }
+          .sp-moment__shade {
+            background:
+              linear-gradient(180deg,
+                rgba(6, 7, 8, 0.08) 0%,
+                rgba(6, 7, 8, 0.20) 40%,
+                rgba(6, 7, 8, 0.75) 75%,
+                rgba(6, 7, 8, 0.95) 100%);
+          }
+          .sp-evening { padding: 1.25rem var(--sp-inset) 3.5rem; }
+          .sp-evening__inner {
+            grid-template-columns: 1fr;
+            padding: 1.5rem;
+            gap: 1rem;
+          }
+          .sp-evening__icon { width: 48px; height: 48px; }
+          .sp-evening__icon svg { width: 22px; height: 22px; }
+          .sp-proof { padding: 1rem 1.25rem 3.5rem; }
+          .sp-proof-card { padding: 1.75rem 1.5rem; }
+          .sp-details { padding: 1rem 1.25rem 4rem; }
+          .sp-details__grid { grid-template-columns: 1fr; }
+          .sp-details__heading { margin: 0 auto 1.75rem; }
+        }
+        @media (max-width: 420px) {
+          .sp-hero__title { font-size: clamp(1.85rem, 9vw, 2.4rem); }
+          .sp-statement__line { font-size: clamp(1.7rem, 9vw, 2.4rem); }
+          .sp-evening h2 { font-size: clamp(1.3rem, 6vw, 1.7rem); }
+        }
+      </style></div></div>
+  
+
+</body></html>

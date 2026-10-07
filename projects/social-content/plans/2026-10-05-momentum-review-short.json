@@ -1,0 +1,22 @@
+{
+ "out": "media/looms/momentum-2026-10-05/short-first-screen.mp4",
+ "kind": "review-short",
+ "company_key": "momentum-electric.com",
+ "idea": "the first screen of a landing page: one service, the buyer's words, the ask in the middle. Said to home service companies.",
+ "folder": "media/looms/ba7df3a7-momentum",
+ "pause": 0.5,
+ "segments": [
+  [0.7, 10.6],
+  [21.9, 29.5],
+  [36.5, 43.3],
+  [43.6, 49.3],
+  [74.0, 80.1],
+  [81.0, 89.4]
+ ],
+ "close": [[81.0, 89.4]],
+ "fixes": {"homeloading": "Home lighting", "forum": "form", "motors": "owners"},
+ "face": false,
+ "post": {
+  "caption": "For home service companies running ads to a page that does not book calls.\n\nOne service a page. The buyer's words in the headline. The ask in the middle of the first screen, and it opens a short form.\n\nBook a page review: link in bio."
+ }
+}

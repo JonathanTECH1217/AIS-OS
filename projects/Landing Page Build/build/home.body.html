@@ -1,0 +1,120 @@
+<!-- The homepage, round 3 (Jonathan, 2026-09-27: "it should use the google type and copy but not look like a google search
+     results page"). A Google product-site layout with a Works for and Not for block (Q29), the butterfly's four hues (Q30),
+     the search bar under the sub (Q31). themes/monarc.json; Section Spec "Homepage"; brainstorms/2026-09-26-homepage-google-rebuild.md.
+     Copy carried from round 1; every line is a draft for Jonathan's approval. -->
+<header class="hp-head">
+<div class="col hp-bar">
+<a class="lockup" href="/" aria-label="Monarc Build home"><!-- brand-lockup --></a>
+<nav class="hp-nav" aria-label="Sections"><a href="#services">Services</a><a href="#proof">Results</a><a href="#questions">Questions</a><a href="/about/">About</a></nav>
+<a class="btn hp-btn" data-open href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3L5Jkwx6J345Nhh80VcpdcJJ4ecY1B5-EwKup0DJLadI9ccKviFeXwYMStSeViy-R2P3v_ieO2" target="_blank" rel="noopener">Book an appointment</a>
+</div>
+</header>
+<main>
+
+<!-- 1. HERO, centered like a Google product page: the eyebrow, the h1, the sub, the search bar (Q31), the button. -->
+<section id="hero" class="hp-hero"><div class="col">
+<span class="label">For the trades</span>
+<h1><span>Marketing for contractors.</span> <span>Built by installers.</span></h1>
+<p class="sub">Monarc Build runs Google Ads, websites, SEO, email, Facebook ads, and automation for home service contractors. We sold and installed the work first.</p>
+<div class="svc-search" aria-label="The search: marketing for contractors"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg><span class="q" id="q">marketing for contractors</span></div>
+<a class="btn" id="open-hero" data-open href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3L5Jkwx6J345Nhh80VcpdcJJ4ecY1B5-EwKup0DJLadI9ccKviFeXwYMStSeViy-R2P3v_ieO2" target="_blank" rel="noopener">Book an appointment</a>
+</div></section>
+
+<section id="sent" hidden><div class="col">
+<span class="label">Received</span>
+<h2>Received.</h2>
+<p class="sub" id="sent-sub">Jonathan emails you two times for a fifteen minute call.</p>
+<p id="sent-cal" hidden></p>
+<p class="fine" id="sent-note" hidden></p>
+<p class="fine">Questions before then: <a href="mailto:jonathan@monarcbuild.com">jonathan@monarcbuild.com</a></p>
+</div></section>
+
+<!-- 1b. THE LOGO BANNER (Jonathan, 2026-09-27: "Add the rolling citation banner with big brand names to the section right
+     below the fold"; the label "We list your business on" from 2026-09-28): the logo banner template, full color (Style
+     Guide Media 6), filled by scripts/build_service_page.py like the service pages'. -->
+<!-- logo-banner -->
+
+<!-- 2. THE SIX SERVICES: one card per page, its render on top, its h1 as the title, its sub as the line. The whole card links. -->
+<section id="services"><div class="col reveal">
+<div class="head center"><span class="label">Services</span><h2>Six services. One fifteen minute call.</h2><p class="sub">Each has its own page. Book the call for one or all six.</p></div>
+<ul class="hp-cards">
+<li><a class="hp-card" href="/google-ads/"><span class="media"><img src="assets/generated/google-ads/tile.jpg" alt="Illustration: a fly fisherman on a riverbank, a salmon jumping" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">Google Ads</span><h3>Managed Google Ads for contractors.</h3><span class="hp-line">More exposure across every service you sell. One page per search, every lead tagged to the keyword that paid.</span></a></li>
+<li><a class="hp-card" href="/website-build/"><span class="media"><img src="assets/generated/website-build/tile.jpg" alt="Illustration: a small shopfront at dusk, the door open" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">Website design</span><h3>Contractor website design that books the job.</h3><span class="hp-line">One page per service and per area, a three field form above the fold, copy matched to the search.</span></a></li>
+<li><a class="hp-card" href="/seo/"><span class="media"><img src="assets/generated/seo/tile.jpg" alt="Illustration: a contractor on a town map roping in a map pin and a review card" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">SEO</span><h3>SEO for home services. Found first, everywhere.</h3><span class="hp-line">Your map listing, your pages, and AI answers, all pointing at your company. Written in your trade's words.</span></a></li>
+<li><a class="hp-card" href="/email-marketing/"><span class="media"><img src="assets/generated/email-marketing/tile.jpg" alt="Illustration: a golf ball on the lip of the cup beside a red flag" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">Email marketing</span><h3>Email marketing for contractors with open proposals.</h3><span class="hp-line">Four sequences in your voice: past clients, new leads, open proposals, finished installs. Sent without anyone typing.</span></a></li>
+<li><a class="hp-card" href="/facebook-ads/"><span class="media"><img src="assets/generated/facebook-ads/tile.jpg" alt="Illustration: a billboard over a neighborhood street at dusk" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">Facebook ads</span><h3>Facebook and Instagram ads for contractors.</h3><span class="hp-line">Your finished jobs in front of homeowners and builders in your service area. Then again for everyone who visited.</span></a></li>
+<li><a class="hp-card" href="/ai-automation/"><span class="media"><img src="assets/generated/ai-automation/tile.jpg" alt="Illustration: a house in the evening, the work truck in the drive" loading="lazy" decoding="async" width="600" height="450"></span><span class="hp-name">AI automation</span><h3>AI automation for contractors. Your hours back.</h3><span class="hp-line">Proposals, follow-up, invoices, and the books run without you typing. A missed call gets a text back.</span></a></li>
+</ul>
+</div></section>
+
+<!-- 3. RESULTS: the three jobs as photo cards on the band. Camera photos only (Media 1). No dollar figures, the scope of
+     each job instead (Jonathan, 2026-09-27: "Take the number figures out of the jobs", then "remove the figures and keep
+     scope"); the Georgian card shows the interior rough-in (same day). -->
+<section id="proof" class="band"><div class="col reveal">
+<div class="head center"><span class="label">Results</span><h2>Three jobs our marketing brought in.</h2><p class="sub">From one ranked page and one Google Ads account.</p></div>
+<div class="proof-cards">
+<article class="proof-card"><div class="media"><img src="assets/projects/cards/georgian.jpg" alt="Rough-in of the Georgian Colonial: exposed joists and low voltage wire runs" loading="lazy" decoding="async"></div>
+<div class="cap"><span class="title">Georgian Colonial restoration</span><span class="txt">Whole home audio. The contractor found our #1 page for whole home audio in Annapolis.</span></div></article>
+<article class="proof-card"><div class="media"><img src="assets/projects/cards/waterfront.jpg" alt="Waterfront great room: wood ceiling with recessed lighting and a glass wall to the dock" loading="lazy" decoding="async"></div>
+<div class="cap"><span class="title">Waterfront great room</span><span class="txt">Lutron Ketra lighting through the great room. The lead came from Google Ads.</span></div></article>
+<article class="proof-card"><div class="media"><img src="assets/projects/cards/penthouse.jpg" alt="Baltimore harbor high-rise with the marina in front" loading="lazy" decoding="async"></div>
+<div class="cap"><span class="title">Baltimore penthouse</span><span class="txt">Control4 and Lutron retrofit. From the same ranked page and ad account.</span></div></article>
+</div>
+</div></section>
+
+<!-- 4. WHO IT IS FOR, WHO IT IS NOT FOR (Q29, his words: "a who its for and who its not for section"): teal and coral on the
+     24px headings and the marks only (Color 3). -->
+<section id="fit"><div class="col reveal">
+<div class="head center"><span class="label">Fit</span><h2>Built for a specific kind of shop.</h2></div>
+<div class="svc-fit">
+<div class="yes"><h3><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>Who it is for</h3>
+<ul>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>Residential companies selling high ticket work</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>Owners who want their own accounts</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>A service area where buyers search</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>Someone to call every lead back</li>
+</ul></div>
+<div class="no"><h3><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Who it is not for</h3>
+<ul>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>A promised number of leads</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>No budget for ad spend</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Repair calls as the whole business</li>
+<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>A template site by Friday</li>
+</ul></div>
+</div>
+</div></section>
+
+<!-- 5. ABOUT: the round 1 business panel as a strip. No years (Copy 3). -->
+<section id="about" class="band"><div class="col reveal hp-about">
+<img src="assets/brand/butterfly.svg" alt="The Monarc Build butterfly" width="88" height="88">
+<div class="hp-about-text">
+<span class="label">About</span>
+<h2>Sold and installed before we marketed.</h2>
+<p class="sub">Built by someone who wired the rough-in and closed the six figure proposal. A marketing agency in Annapolis, Maryland.</p>
+<ul class="hp-creds"><li>Lutron certified</li><li>AIA presentations</li><li>CEDIA workshops</li></ul>
+<p class="hp-works">Works with integrators, electricians, roofers, HVAC, and plumbers.</p>
+</div>
+</div></section>
+
+<!-- 6. QUESTIONS (Q19, named Q27): the service pages' rows. -->
+<section id="questions" class="faq"><div class="col reveal">
+<div class="head center"><span class="label">Questions</span><h2>Questions contractors ask</h2></div>
+<details open><summary><h3>What does it cost?</h3><span class="plus" aria-hidden="true"></span></summary><p>Quoted on the call, after we see your account and which services you need. Ad spend is yours, paid straight to the platform.</p></details>
+<details><summary><h3>What happens on the call?</h3><span class="plus" aria-hidden="true"></span></summary><p>Fifteen minutes. We look at your site, your ads, and your map listing first. You leave with what to fix first.</p></details>
+<details><summary><h3>Which trades do you work with?</h3><span class="plus" aria-hidden="true"></span></summary><p>Integrators, electricians, roofers, HVAC, and plumbers. Residential companies that sell high ticket work.</p></details>
+<details><summary><h3>What if it does not work?</h3><span class="plus" aria-hidden="true"></span></summary><p>No one can promise leads. Once fees are paid, the accounts, the pages, and the data are yours.</p></details>
+</div></section>
+
+<!-- 7. THE CLOSING ASK -->
+<section id="book" class="final band"><div class="col reveal">
+<span class="label">Next step</span>
+<h2>Your next high ticket job is searching now.</h2>
+<a class="btn" id="open-final" data-open href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3L5Jkwx6J345Nhh80VcpdcJJ4ecY1B5-EwKup0DJLadI9ccKviFeXwYMStSeViy-R2P3v_ieO2" target="_blank" rel="noopener">Book an appointment</a>
+<p class="svc-micro">Fifteen minutes. Bring nothing.</p>
+</div></section>
+
+</main>
+<footer><div class="col">
+<div>Monarc Build, LLC &middot; Annapolis, Maryland</div>
+<div><a href="/about/">About</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="mailto:jonathan@monarcbuild.com">jonathan@monarcbuild.com</a></div>
+</div></footer>

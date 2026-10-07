@@ -1,0 +1,119 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.trudefinition.com/services",
+ "title": "Services | TruDefinition",
+ "description": "Explore TruDefinition's luxury smart home services across the Dallas-Fort Worth metroplex — home automation, theaters, lighting, audio, security, networking, energy, and outdoor entertainment.",
+ "words": 345,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Integrated Living."
+  },
+  {
+   "tag": "h2",
+   "text": "Solutions for every space."
+  },
+  {
+   "tag": "h2",
+   "text": "Across the Dallas-Fort Worth metroplex. One standard."
+  },
+  {
+   "tag": "h2",
+   "text": "Ready to elevate your home?"
+  },
+  {
+   "tag": "h3",
+   "text": "Home Automation"
+  },
+  {
+   "tag": "h3",
+   "text": "Home Theaters"
+  },
+  {
+   "tag": "h3",
+   "text": "Home Audio"
+  },
+  {
+   "tag": "h3",
+   "text": "Lighting Control"
+  },
+  {
+   "tag": "h3",
+   "text": "Motorized Shades"
+  },
+  {
+   "tag": "h3",
+   "text": "Security & Surveillance"
+  },
+  {
+   "tag": "h3",
+   "text": "Energy Management"
+  },
+  {
+   "tag": "h3",
+   "text": "Home Networking"
+  },
+  {
+   "tag": "h3",
+   "text": "Outdoor Entertainment"
+  },
+  {
+   "tag": "h3",
+   "text": "One Team"
+  },
+  {
+   "tag": "h3",
+   "text": "One Standard"
+  },
+  {
+   "tag": "h3",
+   "text": "One Experience"
+  },
+  {
+   "tag": "h3",
+   "text": "Ongoing Support"
+  }
+ ],
+ "phones": [
+  "(817) 965-1042"
+ ],
+ "colors": [
+  "#ffffff",
+  "#0c1a2e",
+  "#c5a55a",
+  "#5a6577",
+  "#2a3547",
+  "#9a7c3a",
+  "#0d1117",
+  "#060708",
+  "#e8e9ed",
+  "#8893a3"
+ ],
+ "faces": [
+  "&quot",
+  "Montserrat",
+  "inherit",
+  "var(--font-display-serif"
+ ],
+ "social": [
+  "https://www.instagram.com/trudefinition/",
+  "https://www.linkedin.com/company/trudefinition"
+ ],
+ "pictures": [
+  {
+   "url": "https://www.trudefinition.com/logo-dark.png",
+   "alt": "TruDefinition",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://www.trudefinition.com/luxury-dfw-living-room-hero.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://www.trudefinition.com/services-cta-light.png",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

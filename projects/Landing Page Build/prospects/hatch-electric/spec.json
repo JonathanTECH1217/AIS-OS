@@ -1,0 +1,198 @@
+{
+ "company": "Hatch Electric",
+ "short": "Hatch",
+ "page": "https://www.hatchelectric.com/",
+ "loom": "https://www.loom.com/share/d7c4866a24bc46df874651dba6744721",
+ "phone": "530-541-3035",
+ "address": "921 Eloise Ave, South Lake Tahoe, CA 96150",
+ "areas": "South Lake Tahoe and the Lake Tahoe basin",
+ "brand": {
+  "color": "#B78C00",
+  "dark": "#9A7600",
+  "accent": "#C19C36",
+  "serif": true,
+  "head": "Manrope",
+  "body": "Poppins",
+  "mist": "#F6F3EA"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "For Lake Tahoe homeowners",
+  "h1": "Lighting Control Installation in South Lake Tahoe",
+  "sub": "Every light and shade in the house from one keypad, a remote, or your phone. Scenes for the morning, dinner, and bedtime, set once and there every day.",
+  "photo": "assets/hero.jpg"
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "If only all businesses were so helpful! I called these guys early one morning after a tenant phone call stating their power was off. Chip the owner returned my call at 7:30 AM on a Friday.",
+    "who": "Joby C.",
+    "stars": 5
+   },
+   {
+    "p": "Hatch was great! We had to replace our incoming electrical panel per our insurance company, and Hatch got us a prompt quote and fit us into their schedule so we could finish the work before our insurance company was going to drop us.",
+    "who": "Ryan E.",
+    "stars": 5
+   },
+   {
+    "p": "Best electricians in town with the fairest prices. Won't try to gauge you on initial assessment fees just charge a basic hourly fee and do the work that's necessary.",
+    "who": "Natasha V.",
+    "stars": 5
+   }
+  ]
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads built for your rooms",
+    "p": "One button sets the whole room: cooking, dinner, a movie, bedtime. Each keypad is programmed to how you live in that room."
+   },
+   {
+    "icon": "sun",
+    "h3": "Light that follows the day",
+    "p": "Cooler light by day, warm light at night, tuned to your body clock. The house feels calm and you sleep better."
+   },
+   {
+    "icon": "star",
+    "h3": "Engravings and finishes",
+    "p": "Every button engraved with what it does, so no guest hunts for a switch. Keypad finishes picked to match your hardware and trim."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "Serving South Lake Tahoe since 1962",
+  "p": "Leonard Hatch founded Hatch Electric in 1951 and moved it to South Lake Tahoe in 1962. Chip Henderson started here as an apprentice electrician in 1976 and has run the company since 2002, and we still serve clients Leonard Hatch first signed."
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/process.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the plans with you and the owner and settle how each room is lit and controlled."
+   },
+   {
+    "h3": "Lighting plan",
+    "p": "Fixtures, keypads, shades, and loads on paper before the walls close, so nothing is pulled twice."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Our own technicians install, program every scene, and test the system with the owner."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "Scenes adjusted once the home is lived in, and our own technicians to call when anything needs a look."
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-kitchen.jpg",
+    "alt": "A kitchen island under three pendants with the cabinets lit"
+   },
+   {
+    "src": "assets/work-living.jpg",
+    "alt": "A living room with drum pendants, picture lights, and a lit TV wall"
+   },
+   {
+    "src": "assets/work-bath.jpg",
+    "alt": "A bathroom with a lit vanity and a tub, dimmed for the evening"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Can lighting control go into a finished home?",
+    "a": "Yes. Wireless keypads and dimmers replace the switches you have, with no new wiring in most rooms."
+   },
+   {
+    "q": "What do I control it from?",
+    "a": "A keypad on the wall, a handheld remote, a tabletop control, or your phone or tablet."
+   },
+   {
+    "q": "What is a scene?",
+    "a": "One button that sets several lights at once, like dinner, movie, or bedtime. We program each one with you."
+   },
+   {
+    "q": "Does it run the shades and the heat too?",
+    "a": "Yes. Shades and temperature can run from the same keypads and schedules as the lights."
+   },
+   {
+    "q": "Will it cut my power bill?",
+    "a": "Dimmed lights use less power than full brightness, and sensors turn lights off in empty rooms."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "p": "One team for the whole house.",
+  "items": [
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "p": "Shades that cut glare, keep the view, and move with the lights.",
+    "href": "https://www.hatchelectric.com/home-controls"
+   },
+   {
+    "icon": "wrench",
+    "h3": "Remodels and retrofits",
+    "p": "Dimmers, keypads, and temperature control added to the home you have.",
+    "href": "https://www.hatchelectric.com/remodel-retrofit"
+   },
+   {
+    "icon": "home",
+    "h3": "Planning and consulting",
+    "p": "Lighting and control planned with you and your architect before the build.",
+    "href": "https://www.hatchelectric.com/planning-consulting"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Start with a conversation about your home",
+  "p": "Tell us about the rooms and pick a time to talk."
+ },
+ "footer": {
+  "creds": "Factory certified Lutron designer and installer: HomeWorks QS and RadioRA 2. A California corporation."
+ },
+ "form": {
+  "hint": "A line or two is plenty: which rooms, a new build or the home you have.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "reviews",
+  "cards",
+  "about",
+  "process",
+  "work",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom audit of hatchelectric.com (3:48). Their gold: #C19C36 on the nav and the foot band; #B78C00 is the fixed header's gold in the same CSS and is the fill colour here because white words read better on it (2.6:1 on #C19C36, 3.1:1 on #B78C00). The logo is their grey mark refilled in ink: same shape, same alpha; the grey would not read on the white header he asked for. The hero is slide 1 of their home page, the one on screen when he said 'I like this photo'. The work photos are the three lighting slides from the same slider; their file names (Kit_Cell_Preset, DinRmLV_Dim, Bath_Modern_Dim on the inner pages) look like Lutron library photos, so ask them for their own jobs before this goes anywhere. No owner or team photo on their site, no reviews or rating on their site: both stay as marked empty boxes. The reviews band sits straight under the hero because he said 'right below that would be a little banner for Google Reviews'. Their site has no audio or theater pages, so the secondary services link to the three pages they do have. City: South Lake Tahoe (their contact page), not the Bay Area.",
+ "logo_height": 64,
+ "google": {
+  "rating": 4.4,
+  "count": 13,
+  "maps": "https://maps.google.com/?cid=5574486795132338961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png"
+ }
+}

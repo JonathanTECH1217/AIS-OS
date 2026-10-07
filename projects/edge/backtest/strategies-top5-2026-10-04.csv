@@ -1,0 +1,27 @@
+strategy,bets,won,return per $1,t,luck band (5% to 95%),CLV vs Pinnacle,2015 to 2020,2020 to 2026,"quarter Kelly 2% cap, $1,000 ->",worst drop,verdict
+Bet365 price 1+ pts under Pinnacle fair (closing),129,40%,-2.4%,-0.2,-22.3% to +19.5%,+1.7,too few,"-2.2% (t -0.2, n 112)",$943,14%,luck or nothing
+Bet365 price 2+ pts under Pinnacle fair (closing),22,32%,-17.0%,-0.5,-64.8% to +43.1%,+3.4,too few,too few,$952,8%,luck or nothing
+Bet365 price 3+ pts under Pinnacle fair (closing),9,22%,-38.3%,-0.9,-100.0% to +37.2%,+4.8,too few,too few,$949,6%,luck or nothing
+Bet365 price 5+ pts under Pinnacle fair (closing),2,50%,+70.0%,0.4,-100.0% to +240.0%,+6.7,too few,too few,"$1,030",2%,luck or nothing
+Best book price 1+ pts under Pinnacle fair (closing),5801,44%,+3.4%,1.8,+0.3% to +6.7%,+2.0,"+7.2% (t 1.5, n 951)","+2.7% (t 1.3, n 4850)","$4,332",39%,"positive, not proven"
+Best book price 2+ pts under Pinnacle fair (closing),1905,49%,+5.4%,1.8,+0.7% to +10.3%,+3.2,"+12.5% (t 1.8, n 344)","+3.8% (t 1.2, n 1561)","$3,257",42%,"positive, not proven"
+Best book price 3+ pts under Pinnacle fair (closing),706,53%,+5.0%,1.1,-1.8% to +12.6%,+4.5,"+1.7% (t 0.2, n 119)","+5.7% (t 1.2, n 587)","$1,641",26%,"positive, not proven"
+Best book price 5+ pts under Pinnacle fair (closing),158,55%,+8.7%,0.9,-6.7% to +24.2%,+7.3,too few,"+9.5% (t 0.9, n 133)","$1,246",23%,luck or nothing
+"Best price 2+ under Pinnacle fair, no longshots under 20",1812,51%,+4.6%,1.6,-0.0% to +9.2%,+3.2,"+13.7% (t 2.1, n 325)","+2.6% (t 0.8, n 1487)","$2,809",40%,"positive, not proven"
+"Best early price 2+ pts under Pinnacle early fair (bet Friday, scored at close)",333,57%,+1.9%,0.3,-7.3% to +11.6%,+2.8,"-7.7% (t -0.7, n 71)","+4.5% (t 0.7, n 262)","$1,020",26%,luck or nothing
+"Bet365 early price 2+ pts under Pinnacle early fair (bet Friday, scored at close)",5,60%,+76.2%,0.9,-55.6% to +216.2%,+1.3,too few,too few,"$1,060",2%,luck or nothing
+Always the draw (best price),12459,25%,+1.1%,0.7,-1.6% to +3.9%,-0.1,"-1.8% (t -0.4, n 1725)","+1.6% (t 0.9, n 10734)",$417,83%,luck or nothing
+Always the home team (best price),12459,43%,-2.1%,-1.6,-4.2% to +0.1%,+0.5,"+4.5% (t 1.1, n 1725)","-3.2% (t -2.4, n 10734)",$53,97%,luck or nothing
+Always the away team (best price),12459,32%,+0.8%,0.4,-2.2% to +3.8%,+0.2,"+4.5% (t 0.9, n 1725)","+0.2% (t 0.1, n 10734)",$867,92%,luck or nothing
+"Big favorites, 65%+ (best price)",2424,74%,+1.7%,1.4,-0.4% to +3.8%,+1.2,"+0.2% (t 0.1, n 382)","+2.0% (t 1.5, n 2042)","$1,742",26%,"positive, not proven"
+"Longshots, 15% or less (best price)",3644,10%,-1.2%,-0.2,-9.9% to +7.3%,-0.3,"+17.0% (t 1.1, n 584)","-4.7% (t -0.9, n 3060)",$200,95%,luck or nothing
+Away favorites (best price),1832,63%,+4.1%,2.1,+1.0% to +7.2%,+0.8,"+3.7% (t 0.8, n 268)","+4.1% (t 2.0, n 1564)","$1,793",19%,prints cash
+"Home underdogs, 30 to 45% (best price)",3306,37%,+0.2%,0.1,-3.6% to +4.0%,+0.3,"+1.7% (t 0.3, n 515)","-0.1% (t -0.0, n 2791)",$820,53%,luck or nothing
+Model 3+ pts over Pinnacle closing (England),1865,23%,-4.9%,-1.0,-12.8% to +3.2%,-0.9,"+14.2% (t 1.0, n 313)","-8.8% (t -1.8, n 1552)",$272,84%,luck or nothing
+Model 3+ pts over best price (England),2431,24%,+0.1%,0.0,-7.0% to +7.9%,+0.1,"+27.3% (t 1.8, n 376)","-4.9% (t -1.1, n 2055)",$380,77%,luck or nothing
+Model 5+ pts over Pinnacle closing (England),1130,23%,-7.5%,-1.2,-17.3% to +2.3%,-0.9,"+11.6% (t 0.6, n 190)","-11.4% (t -1.9, n 940)",$341,76%,luck or nothing
+Model 5+ pts over best price (England),1526,23%,-1.3%,-0.2,-10.6% to +8.0%,+0.2,"+30.6% (t 1.5, n 254)","-7.7% (t -1.4, n 1272)",$396,69%,luck or nothing
+Model 7+ pts over Pinnacle closing (England),650,23%,-7.1%,-0.8,-20.5% to +6.7%,-0.9,"+32.9% (t 1.0, n 113)","-15.5% (t -2.1, n 537)",$547,69%,luck or nothing
+Model 7+ pts over best price (England),894,24%,+4.7%,0.6,-8.0% to +18.5%,+0.2,"+41.7% (t 1.3, n 151)","-2.8% (t -0.4, n 743)",$676,57%,luck or nothing
+Model AND Pinnacle both say the best price is cheap (England),401,31%,-2.7%,-0.3,-16.5% to +10.6%,+1.9,"+32.9% (t 1.3, n 70)","-10.3% (t -1.2, n 331)",$838,29%,luck or nothing
+"Model 7+ pts over Pinnacle FAIR (our old rule, England)",842,23%,-5.8%,-0.8,-17.1% to +6.7%,-0.9,"+18.2% (t 0.7, n 145)","-10.8% (t -1.6, n 697)",$515,69%,luck or nothing

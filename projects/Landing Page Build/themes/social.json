@@ -1,0 +1,45 @@
+{
+  "name": "social",
+  "label": "Social feed",
+  "pages": ["/facebook-ads/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q34 to Q39",
+  "palette": {
+    "ground": "#F0F2F5",
+    "card": "#FFFFFF",
+    "ink": "#050505",
+    "muted": "#65676B",
+    "border": "#E4E6EB",
+    "accent": "#0866FF",
+    "button": "#0866FF",
+    "button_text": "#FFFFFF",
+    "fit_yes": "#15803D",
+    "fit_no": "#B91C1C",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": ["#F58529", "#DD2A7B", "#8134AF", "#515BD4"],
+  "contrast": [
+    {"fg": "#050505", "bg": "#F0F2F5", "ratio": 18.17, "passes": "AA", "use": "body on the ground"},
+    {"fg": "#65676B", "bg": "#F0F2F5", "ratio": 5.05, "passes": "AA", "use": "muted on the ground"},
+    {"fg": "#65676B", "bg": "#FFFFFF", "ratio": 5.67, "passes": "AA", "use": "muted on a card"},
+    {"fg": "#FFFFFF", "bg": "#0866FF", "ratio": 4.82, "passes": "AA", "use": "button text"},
+    {"fg": "#15803D", "bg": "#F0F2F5", "ratio": 4.47, "passes": "AA-large", "use": "fit yes on the ground: the 24px heading and the check marks; set the fit block on a white card for body-size use"},
+    {"fg": "#B91C1C", "bg": "#F0F2F5", "ratio": 5.77, "passes": "AA", "use": "fit no"},
+    {"fg": "#050505", "bg": "#FFFFFF", "ratio": 20.38, "passes": "AA", "use": "body on a card"}
+  ],
+  "faces": {"heading": "Inter", "body": "Inter", "mono": null},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
+  "weights": [400, 600],
+  "labels": {"hero": "Reach the buyer first", "final": "Book the call"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "3d-render", "radius": "8px", "border": "1px solid #E4E6EB", "ground": "#FFFFFF", "shadow": "0 1px 2px rgba(0,0,0,0.1)"},
+  "shadows": "soft",
+  "section_label": "semibold sentence case, no hairlines",
+  "hero": "split: text left, the render right; stacked on phones",
+  "hero_render": "A billboard over a neighborhood at dusk, a finished room on the board, porch lights on below. 3D cartoonish in feed grey, white, and blue.",
+  "card_renders": ["a photo print (creative from your finished jobs)", "a street map (the audience)", "a boomerang (everyone who visited sees it again)", "a tag (every lead tagged to the ad)"],
+  "marks": "Facebook and Instagram as product names in text only; no Meta, Facebook, or Instagram logo anywhere. The four extra hexes are the one gradient ring on the feed-frame avatar, a design cue, not a logo.",
+  "notes": [
+    "Walk-through: the feed-post frame, gradient-ring avatar, Your company as the name, the waterfront room at 4:5, a Preview label, no like or comment counts.",
+    "The three what-we-run rows are v2."
+  ]
+}

@@ -1,0 +1,217 @@
+{
+ "company": "VME Electrical Contractor Inc.",
+ "short": "VME",
+ "page": "https://vmeelectric.com/light-installations---vme-electrical-contractor-inc",
+ "loom": "https://www.loom.com/share/eab52faaef804c438e0858c2c315569d",
+ "phone": "631-953-5293",
+ "address": "1 Liano Drive, Wainscott, NY 11975",
+ "areas": "East Hampton, Wainscott, Montauk, Southampton, and the rest of the Hamptons",
+ "brand": {
+  "color": "#E37235",
+  "dark": "#C75E26",
+  "accent": "#F2A070",
+  "serif": true,
+  "head": "Roboto Slab",
+  "body": "Roboto",
+  "mist": "#F7F2EC"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 38,
+ "hero": {
+  "eyebrow": "For homeowners from Montauk to Southampton",
+  "h1": "Lighting Control Installation in the Hamptons",
+  "sub": "Every light in the house from one keypad, a schedule, or your phone. Designed, wired, and programmed by our own electricians, in a new build or the home you live in now.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Engraved keypads",
+    "p": "One keypad by the door, each button engraved with the scene it sets: Dinner, Movie, Goodnight."
+   },
+   {
+    "icon": "sun",
+    "h3": "Color temperature",
+    "p": "Warm light in the evening, bright white by day. The color of the light follows the hour by itself."
+   },
+   {
+    "icon": "lamp",
+    "h3": "Recessed, pendants, sconces",
+    "p": "The fixtures you choose, on circuits we plan, every one dimmed from the same keypad."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "From Montauk to Southampton",
+  "p": "VME Electrical Contractor Inc. is an electrical company based in East Hampton, NY, serving homes from Montauk to Southampton. Our own electricians handle the installations, upgrades, repairs, and maintenance for new builds, renovations, and finished homes.",
+  "photo": "assets/team.jpg",
+  "alt": "Two VME electricians on a scaffold hanging a pendant cluster in a two-story entry"
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-dining.jpg",
+    "alt": "A dining room with a branching glass chandelier over a long table"
+   },
+   {
+    "src": "assets/work-stair.jpg",
+    "alt": "A floating stair with a lit edge along the step in a double-height room"
+   },
+   {
+    "src": "assets/work-games.jpg",
+    "alt": "A game room with one long linear pendant over the pool table"
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, builders, and designers",
+  "h2": "Our process",
+  "photo": "assets/process.jpg",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the plans with you and settle where every fixture and keypad goes."
+   },
+   {
+    "h3": "Lighting plan",
+    "p": "Loads, circuits, and controls on paper before the walls close."
+   },
+   {
+    "h3": "Installation",
+    "p": "Our electricians wire it, install it, and program it, then walk the owner through every keypad."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "One number to call for changes, additions, and anything that needs a look after move-in."
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "Victor and his team did an amazing job, they were on time, worked fast, and went above and beyond. (Even cleaning out a vent while they were working in the same area which was not their responsibility at all!).",
+    "who": "Neil C.",
+    "stars": 5
+   },
+   {
+    "p": "Victor was great to work with and he was able to schedule the work that needed to be done in a timely manner. His crew was outstanding and really did a great job that was clean and efficient!",
+    "who": "david d.",
+    "stars": 5
+   },
+   {
+    "p": "Great response time and nothing but professionalism from Victor and his team, every single time. I am happy to recommend him to all of my family and friends, as his team's work is excellent and the billing is fair and transparent.",
+    "who": "Brian E.",
+    "stars": 5
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "p": "Lighting control pairs with the rest of the house. Each of these is its own page.",
+  "items": [
+   {
+    "icon": "sun",
+    "h3": "Landscape lighting",
+    "p": "Gardens, pathways, and the outside of the house, lit at dusk.",
+    "href": "https://vmeelectric.com/landscape-lighting"
+   },
+   {
+    "icon": "speaker",
+    "h3": "Outdoor audio",
+    "p": "Coastal Source speakers and lighting built for the Atlantic coast.",
+    "href": "https://vmeelectric.com/coastal-source"
+   },
+   {
+    "icon": "phone",
+    "h3": "Whole-home control",
+    "p": "AVA ties the audio and video in the house together on one remote.",
+    "href": "https://vmeelectric.com/ava-remote-os"
+   },
+   {
+    "icon": "bolt",
+    "h3": "New construction",
+    "p": "The whole electrical package for a new home, from the plans up.",
+    "href": "https://vmeelectric.com/new-construction-residential-and-commercial"
+   },
+   {
+    "icon": "wrench",
+    "h3": "Renovations",
+    "p": "Wiring brought up to date while the walls are open.",
+    "href": "https://vmeelectric.com/renovations-residential-and-commercial-vme-electrical-contractor-inc"
+   },
+   {
+    "icon": "drop",
+    "h3": "Pool electrical",
+    "p": "Power and lighting for the pool and the yard around it.",
+    "href": "https://vmeelectric.com/pool-electrical-services---vme-electrical-contractor-inc"
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Does lighting control work in a finished home?",
+    "a": "Yes. Keypads and dimmers take the place of the switches you have, room by room, with the fixtures already in place."
+   },
+   {
+    "q": "Do I have to replace my fixtures?",
+    "a": "Most recessed, pendant, and sconce fixtures dim from the new keypads as they are. A few older ones need a new driver or bulb."
+   },
+   {
+    "q": "Can I still use the wall switch?",
+    "a": "Yes. The keypad goes where the switch was, and every button is engraved with what it does."
+   },
+   {
+    "q": "What happens when the internet goes down?",
+    "a": "The keypads keep working. They talk to the lights directly, not through the internet."
+   },
+   {
+    "q": "Can it run on a schedule?",
+    "a": "Yes. Outside lights at dusk, a bright kitchen in the morning, everything off at midnight, set once."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Tell us about the house",
+  "p": "The rooms, the plans, new build or finished home. We will set up a time to walk through it with you."
+ },
+ "footer": {
+  "creds": "Licensed and insured. Lutron Pro Installer. Coastal Source dealer and installer. AVA Remote Pro Installer."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new build or a finished home.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "work",
+  "process",
+  "reviews",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom (5 min 52 s). The order is the order he named the sections in: hero, the offering cards, about, portfolio, our process, reviews, secondary services, the second ask. He named no FAQ in this Loom, so the faq block is written but left out of the order; add \"faq\" before \"final\" if he wants it. No pattern block: he has not said which color is A, B, or C, so the page keeps the PHA look. The hero photo is the carousel photo he pointed at (0:80 to 0:89: the restaurant with the pendant cluster and the cove on the wall); the octagon cove room with the lantern pendants, the carousel's first photo, is behind the process band. Their site shows no Google rating, so the hero has no trust line and the reviews have no rating line; the three reviews are the three on their home page, last names cut. The site's own fonts are Roboto Slab and Roboto (Google); headings use the engine's light serif because the buyer is a high-end Hamptons homeowner. The orange is the site's own button color (#E37235). \"The Hamptons\" is the AIOS's reading of their own line \"from Montauk to Southampton\"; the site never uses the word, his to change to \"East Hampton\". Nothing on this page was made up: no year founded, no job count, no rating. The form sends nothing.",
+ "google": {
+  "rating": 5,
+  "count": 12,
+  "maps": "https://maps.google.com/?cid=4551597474412721262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png"
+ }
+}

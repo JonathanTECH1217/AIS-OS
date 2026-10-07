@@ -1,0 +1,75 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/",
+ "title": "Fresno Electrician & Smart Home Experts | Reliant Electrical",
+ "description": "Trusted electrical contractor serving Fresno, Clovis & Central California. Panels, generators, smart homes & energy upgrades.",
+ "words": 2191,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Electrical, Automation, and Energy Experts Serving Fresno, Clovis, and Madera"
+  },
+  {
+   "tag": "h2",
+   "text": "Electrical Contractor Serving Fresno, Clovis, Madera & Central California"
+  },
+  {
+   "tag": "h2",
+   "text": "Reliable Local Electrical Contracting in Fresno, Clovis & Madera"
+  },
+  {
+   "tag": "h2",
+   "text": "Residential & Commercial Electrical Services"
+  },
+  {
+   "tag": "h2",
+   "text": "Smart Lighting , Home Automation & Entertainment Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Electrical Repair & Troubleshooting"
+  },
+  {
+   "tag": "h2",
+   "text": "Our Process"
+  },
+  {
+   "tag": "h2",
+   "text": "Our Partners"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#ffffff",
+  "#444444",
+  "#2d3748",
+  "#555555",
+  "#3182ce",
+  "#2b6cb0",
+  "#edf2f7",
+  "#4a5568",
+  "#e3e5eb",
+  "#f76a0c"
+ ],
+ "faces": [
+  "Days One",
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var( --global-heading-font-family",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

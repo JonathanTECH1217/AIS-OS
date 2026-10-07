@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monarc Build: booked appointments with high ticket prospects</title>
+<meta name="description" content="Monarc runs top of funnel for custom home integrators: the site, landing pages per service and area, managed Google Ads, SEO, and a person who calls every lead within five minutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--oak:#61534E;--blue:#2F334D;--charcoal:#4B4C5C;--stone:#6E6E78;--sand:#C2B3A9;--paper:#F6F3EF;--white:#FFFFFF;
+--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+--col:960px;--pad:96px;--gap:56px;--stack:24px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:light}
+body{background:var(--paper);color:var(--charcoal);font:400 18px/1.6 var(--sans)}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:var(--serif);font-weight:400;color:var(--blue);text-wrap:balance}
+h1{font-size:56px;line-height:1.1;letter-spacing:-0.01em}
+h2{font-size:40px;line-height:1.15}
+h3{font-size:24px;line-height:1.25}
+.sub{font-family:var(--serif);font-size:22px;line-height:1.4;color:var(--charcoal);max-width:34em}
+.label{font-family:var(--sans);font-size:13px;letter-spacing:0.12em;text-transform:uppercase;color:var(--stone)}
+.col{max-width:var(--col);margin:0 auto;padding:0 24px}
+section{padding:var(--pad) 0}
+section.band{background:var(--sand)}
+.head{display:grid;gap:var(--stack);margin-bottom:var(--gap)}
+.stack{display:grid;gap:var(--stack)}
+.btn{display:inline-block;background:var(--oak);color:var(--white);font-family:var(--sans);font-size:16px;padding:16px 28px;border-radius:999px;letter-spacing:0.01em}
+.nav{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--sand);z-index:2}
+.nav .col{display:flex;align-items:center;justify-content:space-between;height:80px;max-width:1200px}
+.nav .brand{font-family:var(--serif);font-size:22px;letter-spacing:0.18em;text-transform:uppercase;color:var(--blue)}
+.nav nav{display:flex;gap:28px;font-size:14px;color:var(--stone)}
+.banner{background:var(--blue);color:var(--white);font-size:13px;padding:10px 24px;text-align:center}
+.banner small{display:block;opacity:.75;margin-top:4px}
+.media{background:var(--sand);overflow:hidden;position:relative}
+.media.r169{aspect-ratio:16/9}.media.r43{aspect-ratio:4/3}.media.r45{aspect-ratio:4/5}.media.r1610{aspect-ratio:16/10}
+.media .tag{position:absolute;left:12px;bottom:12px;background:rgba(246,243,239,.92);color:var(--charcoal);font-size:12px;padding:6px 10px}
+.placeholder{display:flex;align-items:center;justify-content:center;color:var(--stone);font-size:14px;text-align:center;padding:16px;background:rgba(255,255,255,.5);border:1px dashed var(--stone)}
+.hero .col{text-align:center;display:grid;gap:var(--stack);justify-items:center}
+.hero .sub{margin:0 auto}
+.vsl{width:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.vsl .media{aspect-ratio:16/9}
+.vsl-caption{font-size:14px;color:var(--stone)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);align-items:start}
+.split.flip>.text{order:2}.split.flip>.visual{order:1}
+.thirds{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.tile{display:grid;gap:12px}
+.tile .num{font-family:var(--serif);font-size:40px;color:var(--blue);line-height:1}
+.tile p{font-size:16px}
+ol.steps{list-style:none;display:grid;gap:28px;counter-reset:s}
+ol.steps li{display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:start}
+ol.steps li::before{counter-increment:s;content:counter(s);font-family:var(--serif);font-size:40px;line-height:1;color:var(--blue)}
+ol.steps li.loop::before{content:"\21BB";font-size:40px}
+ol.steps h3{font-size:22px}
+ol.steps p{font-size:16px}
+.tier{background:var(--white);padding:32px;display:grid;gap:16px}
+.tier ul{list-style:none;display:grid;gap:8px;font-size:16px;border-top:1px solid var(--sand);padding-top:16px}
+.tier ul li::before{content:"\00B7\00A0";color:var(--stone)}
+.final .col{text-align:center;display:grid;gap:var(--stack);justify-items:center}
+footer{padding:40px 0;border-top:1px solid var(--sand);font-size:14px;color:var(--stone)}
+footer .col{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+footer nav{display:flex;gap:20px}
+.center{text-align:center}
+.center .sub{margin:0 auto}
+.center .stack{justify-items:center}
+.center .stack p{max-width:60ch}
+.center .split{grid-template-columns:1fr;justify-items:center}
+.center .split .visual{width:min(420px,100%)}
+.center ol.steps{width:min(640px,100%);margin:0 auto;text-align:left}
+.center .tile{text-align:center}
+.center .tier{text-align:center}
+.center .tier ul{text-align:left}
+.left{text-align:left}
+.left .head{margin-bottom:var(--stack)}
+@media (max-width:767px){
+:root{--pad:64px;--gap:32px;--stack:16px}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:22px}.sub{font-size:19px}
+body{font-size:17px}
+.nav nav{display:none}.nav .col{height:64px}.nav .brand{font-size:18px}.nav .btn{padding:10px 16px;font-size:14px}
+.split,.split.flip,.thirds,.two,.vsl{grid-template-columns:1fr}
+.split.flip>.text{order:1}.split.flip>.visual{order:2}
+.center .split .visual{width:100%}
+ol.steps li{grid-template-columns:40px 1fr}
+ol.steps li::before{font-size:30px}
+}
+</style>
+</head><body>
+<div class="banner">Variant C. Alternating 50/50. Headings left inside the text half, media side alternates down the page. Hero and final ask stay centered.<small>Placeholders in this render: faces (Cormorant Garamond, Inter), ground (#F6F3EF with Sand bands), 96px rhythm, founder photo, portfolio screenshots, VSL stills, calendar link.</small></div>
+<header class="nav"><div class="col"><a class="brand" href="#hero">Monarc Build</a>
+<nav><a href="#about">About</a><a href="#how">How it works</a><a href="#results">Results</a><a href="#portfolio">Portfolio</a><a href="#offer">The offer</a></nav>
+<a class="btn" href="#book">Book a 15 minute call</a></div></header>
+<main>
+<section id="hero" class="hero"><div class="col">
+<h1>Booked appointments with high ticket prospects.</h1>
+<p class="sub">You run the marketing, the sales calls, the appointments, and the installs. Monarc runs top of funnel so high ticket work keeps coming.</p>
+<a class="btn" href="#book">Book a 15 minute call</a>
+<div class="vsl"><div class="media"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/hero/hero-rough-in.jpg" alt="Rough-in wiring in a Georgian Colonial"></div><div class="media"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/hero/hero-waterfront.jpg" alt="Waterfront great room at sunset"></div><div class="media"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/hero/hero-exterior.jpg" alt="Front elevation of a Georgian Colonial"></div></div>
+<p class="vsl-caption">Video coming. The VSL slot is 16:9 and centered; these stills hold it until Jonathan records it.</p>
+</div></section>
+<section id="about" class="band"><div class="col left"><div class="split"><div class="text stack"><div class="head"><span class="label">About</span><h2>Sold and installed before we marketed.</h2><p class="sub">Lutron certified. AIA presentations to architects. CEDIA workshops. Monarc was built by someone who has wired the rough-in and closed the six figure proposal.</p></div><div class="stack"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Body copy is not written yet. It will be short, specific, and in the register of references/voice.md.</p><p>Lutron certified. AIA presentations to architects. CEDIA workshops.</p></div></div><div class="visual"><div class="media r45 placeholder">Founder photo pending</div></div></div></div></section>
+<section id="how" class=""><div class="col left"><div class="split flip"><div class="text stack"><div class="head"><span class="label">Our process</span><h2>How it works. Seven steps, one loop.</h2><p class="sub">One kickoff meeting, then the pages, the ads, and the phone. Step seven runs every month.</p></div></div><div class="visual"><ol class="steps"><li class=""><div class="stack" style="gap:6px"><h3>Onboarding.</h3><p>New landing pages mapped to your service area and the brands you spec.</p></div></li><li class=""><div class="stack" style="gap:6px"><h3>Targeting and offering.</h3><p>Which searches each page is built for, and the offer on it. Copy pending.</p></div></li><li class=""><div class="stack" style="gap:6px"><h3>Managed Google Ads on every page.</h3><p>Each landing page gets its own campaign pointing at it.</p></div></li><li class=""><div class="stack" style="gap:6px"><h3>The phone starts ringing.</h3><p>Buyers already searching land on the page built for that search.</p></div></li><li class=""><div class="stack" style="gap:6px"><h3>5 minute response, meeting booked (Level 2).</h3><p>A person calls the lead and books your calendar.</p></div></li><li class=""><div class="stack" style="gap:6px"><h3>You close the meetings.</h3><p>You show up to the appointment. That is the whole job.</p></div></li><li class="loop"><div class="stack" style="gap:6px"><h3>The loop.</h3><p>Optimize the pages and the messaging. More revenue, more ad spend, repeat.</p></div></li></ol></div></div></div></section>
+<section id="results" class="band"><div class="col left"><div class="split"><div class="text stack"><div class="head"><span class="label">Similar results</span><h2>One search term. $500k and counting.</h2><p class="sub">Three jobs from one ranked page and $2.5k of ads. Numbers from the winning proposals.</p></div><p class="sub" style="font-size:18px">That one contractor is now over $500k in lifetime value.</p></div><div class="visual"><div class="stack"><div class="tile"><div class="media r43"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/hero/hero-rough-in.jpg" alt="Rough-in of a Georgian Colonial with low voltage wire runs"></div><div class="num">$70k</div><p>Georgian Colonial restoration. Whole home audio, James Loudspeaker indoors and out, wired from rough-in. Found the #1 page for "whole home audio in Annapolis."</p></div><div class="tile"><div class="media r43"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/hero/hero-waterfront.jpg" alt="Waterfront great room at sunset with recessed lighting"></div><div class="num">$91k</div><p>Waterfront great room. Lutron Ketra lighting, from $2.5k of Google Ads.</p></div><div class="tile"><div class="media r43"><img src="file:///C:/Users/sumre/Documents/GitHub/AIS-OS/projects/monarcbuild-site/public_html/assets/projects/baltimore-penthouse-frame-01.jpg" alt="Baltimore penthouse at night, lighting scene"></div><div class="num">$50k</div><p>Baltimore penthouse. Control4 and Lutron retrofit.</p></div></div></div></div></div></section>
+<section id="portfolio" class=""><div class="col left"><div class="split flip"><div class="text stack"><div class="head"><span class="label">Portfolio</span><h2>What we build.</h2><p class="sub">Sites, landing pages per service and area, and the ads behind them.</p></div></div><div class="visual"><div class="stack"><div class="media r1610 placeholder">Portfolio screenshot pending<br>Client site</div><div class="media r1610 placeholder">Portfolio screenshot pending<br>Landing page per service and area</div><div class="media r1610 placeholder">Portfolio screenshot pending<br>The ad and the #1 ranking</div></div></div></div></div></section>
+<section id="offer" class="band"><div class="col left"><div class="split"><div class="text stack"><div class="head"><span class="label">The offer</span><h2>Two tiers. Both start with a pilot.</h2><p class="sub">Start on Level 1 for 60 days, no setup fee, $1,000 of ad spend matched. Day 60: continue or walk and keep the site.</p></div><p style="font-size:16px;margin-top:24px">60 day pilot. No setup fee. $1,000 of ad spend matched. Day 60: continue on a 6 month term, or walk with the site, the pages, and the data.</p></div><div class="visual"><div class="stack"><div class="tier"><span class="label">Level 1</span><h3>Site, search, and ads. Reported weekly.</h3><ul><li>Website: new build, or takeover of yours</li><li>One landing page per service and per service area</li><li>Managed Google Ads behind those pages</li><li>SEO: local, Google Business Profile, content, technical</li><li>Weekly PDF report. One 15 minute meeting a month</li><li>Ad spend paid on top. $1,000 a month minimum recommended</li></ul></div><div class="tier"><span class="label">Level 2</span><h3>Everything in Level 1, plus First Responder.</h3><ul><li>A person calls every lead within 5 minutes</li><li>9am to 7pm Eastern, Monday to Friday</li><li>Qualified on your pricing floor and service area</li><li>Booked into your calendar, email follow-up after</li><li>Month to month. Add it or drop it any time</li></ul></div></div></div></div></div></section>
+<section id="book" class="final"><div class="col">
+<span class="label">Next step</span>
+<h2>Your next high ticket job is searching now.</h2>
+<p class="sub">Fifteen minutes. Bring nothing.</p>
+<a class="btn" href="#book">Book a 15 minute call</a>
+<p class="vsl-caption">Calendar link pending. Button goes to the Google Calendar appointment schedule.</p>
+</div></section>
+</main>
+<footer><div class="col">
+<div>Monarc Build, LLC &middot; Annapolis, Maryland<br><a href="mailto:jonathan@monarcbuild.com">jonathan@monarcbuild.com</a> &middot; phone pending</div>
+<nav><a href="#about">About</a><a href="#how">How it works</a><a href="#results">Results</a><a href="#portfolio">Portfolio</a><a href="#offer">The offer</a></nav>
+</div></footer>
+</body></html>

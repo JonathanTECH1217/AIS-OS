@@ -1,0 +1,105 @@
+{
+ "read": "2026-10-07",
+ "query": "Liberty Bell Smart Home 1522 Lincoln Way, Auburn, CA 95603",
+ "place_id": "ChIJY3q8p77EmoARTGcE7SWUa1Q",
+ "name": "Liberty Bell Smart Home",
+ "address": "1522 Lincoln Way, Auburn, CA 95603, USA",
+ "website": "http://www.lbsmarthome.com/",
+ "maps": "https://maps.google.com/?cid=6083118612305176396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+ "rating": 4.4,
+ "reviews_count": 155,
+ "reviews": [
+  {
+   "name": "Cassia E.",
+   "rating": 1,
+   "date": "2026-05-01",
+   "text": "We moved into a new home in Feb 2024 and Liberty Bell came out to install the sound, home alarm connections and control panel on our Elliot-built house. They installed a panel that was actually obsolete (one which we cannot get batteries for anymore--it's like they sold us the leftovers they wanted to get rid of). In order to deal with this battery issue, they charged us $250 for a service call in order come and to tell us the panel was obsolete--they did not offer a replacement or take any ownership. We also had a two-year contract which they renewed without our permission. We are moving now and have to pay the balance of the contract we cannot use and do not want to hook up at our new home (more costs incurred, plus they are terrible--why would we we renew?) and this is for a control panel the new homeowner will not even be able to use either--the new owner will have to replace a panel that is just two years old because of Liberty Bell's sub-par equipment. Furthermore, the remote they gave us for our system was a dinosaur, cost us $800 and was clunky and difficult to use--did not consistently work. If their equipment breaks, fails or is sub-par, they take zero responsibility and this is a theme across the negative reviews. They just want to make more money replacing the bad equipment. We ended up having to hire Geek squad to re-do the audio and to get our Sonos running with Apple TV installed and could not even use most of what Liberty Bell gave us. It was a lot of wasted money at the outset and we ended up only having them for the alarm. At one point they got a new emergency response team and did not tell us, so when we had a false alarm we were unable to turn it off. We do not recommend this company to the people buying our house or to anyone else. There were a couple of service men who were nice enough, but the customer service is lacking overall when they put janky old equipment in a brand new home and hope we won't notice. In short, sub-par equipment and policies that extend extra costs to the consumer make it totally not worth it. If I could give them 0 stars I could."
+  },
+  {
+   "name": "Leeann T.",
+   "rating": 1,
+   "date": "2026-06-02",
+   "text": "Liberty Bell came pre-installed with my Elliot home I bought in 2020, so I signed up with them to continue service. I have had many issues with their equipment since, from the main panel glitching and not making noise for any alerts, to their sensors being faulty and incorrectly alerting to alarms that are not accurate. I had to eventually manually turn two of my sensors off because they were constantly alerting when I set the alarm for no reason, and they wanted to charge me to have someone come out to fix it. I tried almost 6 years to suck it up and rectify with them, but no more. My final straw was this week when my IQ main Panel started glitching and showing a screen overlapped with Spanish so I could barely use it. I reached out for assistance and was told I could reboot but if that didn’t work a replacement would be needed at my own cost because after 1 year of contract the equipment is the responsibility of the homeowner (per their “policies”). So now, not only do I have two sensors not working but a main panel that is unusable unless I pay a good chunk of money for a new one, and am paying $40 monthly for security that is basically useless at this time.\n\nTheir customer service was dismissive of my complaints and did not care for my concerns. I’m making the switch to a bigger brand company that offers more equipment for half the price and half the monthly price for monitoring, with lifetime equipment guarantee. With the number of options out there for home security, you’d think they’d try a little harder to update “policies” and help retain long time customers."
+  },
+  {
+   "name": "Edward H.",
+   "rating": 5,
+   "date": "2025-12-23",
+   "text": "We have used Liberty Bell in our home for 32 years.  Service and equipment have been exceptionally reliable.  We recently upgraded the system.  Again, service was great.  Will in the office and Ryan, the installing technician, were very courteous, timely, knowledgeable, and professional.  It is a great system, we are very happy."
+  },
+  {
+   "name": "Ryan R.",
+   "rating": 1,
+   "date": "2025-11-27",
+   "text": "This has to be one of the worst security companies out there. We just cancelled our service because of how bad it is.\n\nLocking down the alarm panel for a system that I own in my own home, preventing me from managing my own zwave devices that I paid for, is absolutely absurd. What's even worse is when you want to make a change, it requires a service call...that they then want to charge you for. Charging me to manage my own devices that I paid for, because they intentionally locked me out of the panel. The entire system is a scam.\n\nDon't even get me started on the original installation they did. They installed the cat6 network and original alarm cables in our home as a new build, and I've had to re-terminate every single one. When AT&T installed our fiber they said the cables they saw were some of the worst for a new build. They all had to be re-terminated.\n\nThey installed speakers and we have several ports that go nowhere. When we asked about them they said the owner did the install, and he had no documentation and had no idea where they went. We finally just cut them out of the wall. One of the alarm zones shows as open and is not configured in the panel. It's just....dead. Plugged in, but goes nowhere.\n\nDon't use these guys for anything. I'm now having to buy new zwave door locks now because they want to charge me to disassociate them from their panel and there's no way to do it without the admin/dealer code that they refuse to unlock"
+  },
+  {
+   "name": "Stephen R.",
+   "rating": 5,
+   "date": "2025-06-28",
+   "text": "I recently moved into a home that had Liberty Bell and decided to give them a try. What a great decision! Ryan, the technician that came out to turn on the system was super helpful in getting the system running quickly and answering all my questions.\nI also called in and spoke to Will who answered a couple follow up questions I had. Everyone I’ve talked to so far at Liberty Bell has gone above and beyond. They didn’t try to upsell me on anything and the prices for monitoring are very reasonable. I definitely recommend giving Liberty Bell a try!"
+  }
+ ],
+ "photos": [
+  {
+   "file": "projects/research/lb-smart-home/photos/g00.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Casey White"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g01.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Casey White"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g02.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g03.jpg",
+   "width": 1080,
+   "height": 714,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g04.jpg",
+   "width": 1080,
+   "height": 721,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g05.jpg",
+   "width": 1080,
+   "height": 720,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g06.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g07.jpg",
+   "width": 1440,
+   "height": 889,
+   "by": "Liberty Bell Smart Home"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g08.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Casey White"
+  },
+  {
+   "file": "projects/research/lb-smart-home/photos/g09.jpg",
+   "width": 4800,
+   "height": 3203,
+   "by": "Liberty Bell Smart Home"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "read": "2026-10-06",
+ "url": "https://holmelectric.com/projects/",
+ "title": "Projects - Holm Electric",
+ "description": "",
+ "words": 140,
+ "headings": [],
+ "phones": [
+  "702-818-3781",
+  "775-831-3781"
+ ],
+ "colors": [
+  "#818a91",
+  "#9dbce1",
+  "#272727",
+  "#2d2d2d",
+  "#d9534f",
+  "#d4d4d4",
+  "#799ec8",
+  "#dedede",
+  "#979797",
+  "#161515"
+ ],
+ "faces": [
+  "Arial",
+  "Poppins",
+  "Roboto",
+  "eicons",
+  "inherit",
+  "serif"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/header-logo.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/search.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/hamburger.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/cross.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/lightning.png",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/themes/holmelectric/img/logo2.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://holmelectric.com/wp-content/uploads/2021/04/footer.jpg",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

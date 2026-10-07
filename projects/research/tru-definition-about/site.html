@@ -1,0 +1,1354 @@
+<!DOCTYPE html><html lang="en" data-theme="light" style="--theme-mix: 0;"><head>
+    <meta charset="UTF-8">
+
+    <!-- Consent Mode v2 and owner opt-out. This must execute before GTM. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+      window.__TRU_NOTRACK = (function () {
+        try {
+          var cookieName = 'tru_notrack';
+          var nt = new URLSearchParams(location.search).get('notrack');
+          var secure = location.protocol === 'https:' ? '; Secure' : '';
+          var domain = /(^|\.)trudefinition\.com$/i.test(location.hostname) ? '; Domain=.trudefinition.com' : '';
+          var writeCookie = function (enabled) {
+            document.cookie = enabled
+              ? cookieName + '=1; Path=/; Max-Age=34560000; SameSite=Lax' + secure + domain
+              : cookieName + '=; Path=/; Max-Age=0; SameSite=Lax' + secure + domain;
+          };
+          if (nt === '1') {
+            localStorage.setItem(cookieName, '1');
+            writeCookie(true);
+          }
+          if (nt === '0') {
+            localStorage.removeItem(cookieName);
+            writeCookie(false);
+          }
+          var stored = localStorage.getItem(cookieName) === '1';
+          if (stored) writeCookie(true);
+          var cookieDisabled = document.cookie.split(';').some(function (part) {
+            return part.trim() === cookieName + '=1';
+          });
+          var adminRoute = location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+          return adminRoute || stored || cookieDisabled;
+        } catch (e) {
+          return location.pathname === '/admin' || location.pathname.indexOf('/admin/') === 0;
+        }
+      })();
+      window.__CLIENT_NO_TRACK__ = window.__TRU_NOTRACK;
+      (function () {
+        var analyticsConsent = null;
+        var adsConsent = null;
+        try {
+          analyticsConsent = localStorage.getItem('tru_analytics_consent_v2');
+          adsConsent = localStorage.getItem('tru_ads_consent_v2');
+        } catch (e) {}
+        // Advanced Consent Mode: an undecided visitor defaults to denied, while
+        // Google tags still load and may send consent-aware cookieless pings.
+        var analyticsValue = !window.__CLIENT_NO_TRACK__ && analyticsConsent === 'granted'
+          ? 'granted' : 'denied';
+        var adsValue = !window.__CLIENT_NO_TRACK__ && analyticsValue === 'granted' && adsConsent === 'granted'
+          ? 'granted' : 'denied';
+        window.gtag('consent', 'default', {
+          analytics_storage: analyticsValue,
+          ad_storage: adsValue,
+          ad_user_data: adsValue,
+          ad_personalization: 'denied',
+          functionality_storage: 'granted',
+          security_storage: 'granted'
+        });
+      })();
+    </script>
+
+    <!-- Google Tag Manager. GA4 is configured only inside this container. -->
+    <script>
+      if (!window.__PRERENDERING && !window.__CLIENT_NO_TRACK__) {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PTPPVP63');
+      }
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;family=Montserrat:wght@300;400;500;600;700;800&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <title>About TruDefinition Smart Home Team | TruDefinition</title>
+    <script type="module" crossorigin="" src="/assets/index-B95XkdPc.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-BpRhLXWi.css">
+  <meta name="description" content="Meet the Dallas-Fort Worth team that plans, installs, programs, and supports Savant home automation, theaters, lighting, shades, audio, and networking."><meta name="robots" content="index, follow"><link rel="canonical" href="https://www.trudefinition.com/about"><meta property="og:type" content="website"><meta property="og:title" content="About TruDefinition Smart Home Team | TruDefinition"><meta property="og:description" content="Meet the Dallas-Fort Worth team that plans, installs, programs, and supports Savant home automation, theaters, lighting, shades, audio, and networking."><meta property="og:url" content="https://www.trudefinition.com/about"><meta property="og:site_name" content="TruDefinition"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="About TruDefinition Smart Home Team | TruDefinition"><meta name="twitter:description" content="Meet the Dallas-Fort Worth team that plans, installs, programs, and supports Savant home automation, theaters, lighting, shades, audio, and networking."><meta name="geo.region" content="US-TX"><meta name="geo.placename" content="Fort Worth, Texas"><meta name="geo.position" content="32.7555;-97.3308"><meta name="ICBM" content="32.7555, -97.3308"><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.trudefinition.com/#organization","name":"TruDefinition","url":"https://www.trudefinition.com","logo":"https://www.trudefinition.com/logo-dark.png","telephone":"+1-817-965-1042","email":"info@trudefinition.com","address":{"@type":"PostalAddress","addressLocality":"Fort Worth","addressRegion":"TX","addressCountry":"US"},"areaServed":[{"@type":"City","name":"Fort Worth","@id":"https://en.wikipedia.org/wiki/Fort_Worth,_Texas"},{"@type":"City","name":"Dallas","@id":"https://en.wikipedia.org/wiki/Dallas"},{"@type":"City","name":"Southlake","@id":"https://en.wikipedia.org/wiki/Southlake,_Texas"},{"@type":"City","name":"Westlake","@id":"https://en.wikipedia.org/wiki/Westlake,_Texas"},{"@type":"City","name":"Highland Park","@id":"https://en.wikipedia.org/wiki/Highland_Park,_Texas"},{"@type":"City","name":"Colleyville","@id":"https://en.wikipedia.org/wiki/Colleyville,_Texas"},{"@type":"City","name":"Frisco","@id":"https://en.wikipedia.org/wiki/Frisco,_Texas"}],"knowsAbout":["Home Automation","Smart Home Installation","Home Theater Design","Distributed Audio","Lighting Control","Motorized Shades","Security Systems","Energy Management","Home Networking","Outdoor Entertainment"],"sameAs":["https://www.instagram.com/trudefinition/","https://www.linkedin.com/company/trudefinition"]}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"WebPage","name":"About TruDefinition","description":"TruDefinition designs discreet, luxury smart-home systems for Dallas-Fort Worth residences, with 40+ years of combined experience.","url":"https://www.trudefinition.com/about","isPartOf":{"@id":"https://www.trudefinition.com/#website"},"about":{"@id":"https://www.trudefinition.com/#organization"},"inLanguage":"en-US","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".ssp-fast-answer",".faq-answer"]}}</script><script type="application/ld+json" data-seo-schema="true">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.trudefinition.com/"},{"@type":"ListItem","position":2,"name":"About"}]}</script></head>
+  <body>
+    <!-- The static noscript GTM iframe is intentionally omitted because it cannot
+         honor owner exclusion or the automatic /admin route exclusion. -->
+
+    <div id="root"><div style="position: fixed; bottom: 24px; right: 24px; z-index: 10001; display: flex; flex-direction: column; align-items: center; gap: 7px; opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity 0.45s, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);"><button aria-label="Chat with Sage" class="sage-launcher-pulse" style="position: relative; width: 58px; height: 58px; border-radius: 50%; border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); padding: 0px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); color: rgb(197, 165, 90); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 6px 26px; transition: 0.3s cubic-bezier(0.16, 1, 0.3, 1);"><span style="width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0; background: rgb(12, 26, 46); color: rgb(197, 165, 90); display: flex; align-items: center; justify-content: center; font-size: 18.4px; font-weight: 900; letter-spacing: 0.5px; font-family: &quot;Cormorant Garamond&quot;, Georgia, serif;">S</span><span style="position: absolute; right: 3px; bottom: 3px; width: 12px; height: 12px; border-radius: 50%; background: rgb(22, 163, 74); border: 2px solid color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58));"></span></button><span style="padding: 3px 11px; border-radius: 100px; background: color-mix(rgb(255, 255, 255) 100%, rgb(22, 35, 58)); border: 1px solid color-mix(rgba(12, 26, 46, 0.1) 100%, rgba(255, 255, 255, 0.12)); color: color-mix(rgba(12, 26, 46, 0.55) 100%, rgba(255, 255, 255, 0.6)); font-size: 10px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; font-family: Montserrat, system-ui, sans-serif; white-space: nowrap; box-shadow: color-mix(rgba(12, 26, 46, 0.22) 100%, rgba(0, 0, 0, 0.55)) 0px 3px 12px;">Ask Sage</span></div><style>
+        @keyframes sageSlideUp {
+          from { opacity: 0; transform: translateY(16px) scale(0.97); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        @keyframes sageDotPulse {
+          0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+          40% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes sagePulseRing {
+          0% { box-shadow: 0 0 0 0 rgba(12,26,46,0.4); }
+          70% { box-shadow: 0 0 0 12px rgba(12,26,46,0); }
+          100% { box-shadow: 0 0 0 0 rgba(12,26,46,0); }
+        }
+        .sage-launcher-pulse {
+          animation: sagePulseRing 2s ease-out 3;
+        }
+        .sage-teaser {
+          animation: sageTeaserIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        @keyframes sageTeaserIn {
+          from { opacity: 0; transform: translateY(10px) scale(0.96); }
+          to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .sage-quick-reply:hover {
+          background: rgba(12,26,46,0.05) !important;
+          transform: translateX(-2px);
+        }
+        .sage-chat-window::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        .sage-chat-window *::-webkit-scrollbar { width: 5px; }
+        .sage-chat-window *::-webkit-scrollbar-track { background: transparent; }
+        .sage-chat-window *::-webkit-scrollbar-thumb { background: #d6d9df; border-radius: 10px; }
+        @media (max-width: 480px) {
+          .sage-chat-window {
+            bottom: 0 !important;
+            right: 0 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 0 !important;
+          }
+        }
+      </style><div class="consent-notice" role="dialog" aria-label="Privacy choices" aria-live="polite"><p>We use privacy-conscious analytics and campaign measurement to understand what works. We do not enable personalized advertising. <a href="/privacy-policy" data-discover="true">Privacy Policy</a></p><div class="consent-notice__actions"><button type="button" class="consent-notice__decline">Decline non-essential</button><button type="button" class="consent-notice__allow">Allow measurement</button></div><style>
+        .consent-notice {
+          position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 12000;
+          max-width: 920px; margin: 0 auto; padding: 1rem 1.15rem;
+          display: flex; align-items: center; justify-content: space-between;
+          gap: 1rem; flex-wrap: wrap;
+          background: var(--surface-card, #fff); color: var(--text-primary, #0c1a2e);
+          border: 1px solid var(--border-firm, rgba(12,26,46,.2)); border-radius: 10px;
+          box-shadow: 0 14px 40px rgba(0,0,0,.22);
+          font-family: 'Montserrat', system-ui, sans-serif; font-size: .78rem;
+        }
+        .consent-notice p { flex: 1 1 430px; margin: 0; line-height: 1.55; }
+        .consent-notice a { color: var(--orange, #9a7c3a); text-decoration: underline; }
+        .consent-notice__actions { display: flex; gap: .65rem; flex-wrap: wrap; }
+        .consent-notice button {
+          min-height: 38px; padding: .55rem .85rem; border-radius: 6px;
+          font: 600 .74rem 'Montserrat', system-ui, sans-serif; cursor: pointer;
+        }
+        .consent-notice__decline {
+          border: 1px solid var(--border-firm, #c9cdd2); color: inherit; background: transparent;
+        }
+        .consent-notice__allow {
+          border: 1px solid #c5a55a; background: #c5a55a; color: #0c1a2e;
+        }
+        @media (max-width: 600px) {
+          .consent-notice { bottom: .5rem; left: .5rem; right: .5rem; }
+          .consent-notice__actions, .consent-notice button { width: 100%; }
+        }
+      </style></div><header class="hdr   "><div class="hdr__inner"><a class="hdr__logo" href="/" data-discover="true"><img alt="TruDefinition" class="hdr__logo-img" src="/logo-dark.png"></a><nav class="hdr__nav hdr__nav--desktop"><div class="hdr__nav-item "><span class="hdr__nav-link">Residential<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><div class="hdr__nav-item "><span class="hdr__nav-link">Service Areas<svg class="hdr__chev" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5"></path></svg></span></div><a class="hdr__nav-item" href="/about" data-discover="true"><span class="hdr__nav-link">About</span></a><a class="hdr__nav-item" href="/contact" data-discover="true"><span class="hdr__nav-link hdr__nav-link--cta">Contact</span></a><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></nav><button class="hdr__burger " aria-label="Toggle menu"><span></span><span></span><span></span></button></div><nav class="hdr__mobile "><div class="mob__section"><button class="mob__toggle">Residential<span class="mob__plus ">+</span></button></div><div class="mob__section"><button class="mob__toggle">Service Areas<span class="mob__plus ">+</span></button></div><a class="mob__link mob__link--top" href="/about" data-discover="true">About</a><a class="mob__link mob__link--top mob__link--cta" href="/contact" data-discover="true">Contact</a><div class="mob__theme-row"><span>Theme</span><button type="button" class="theme-toggle  " aria-label="Switch to dark theme" title="Switch to dark theme"><span class="theme-toggle__track"><span class="theme-toggle__thumb"><svg viewBox="0 0 20 20" width="11" height="11" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><line x1="10" y1="2" x2="10" y2="4"></line><line x1="10" y1="16" x2="10" y2="18"></line><line x1="2" y1="10" x2="4" y2="10"></line><line x1="16" y1="10" x2="18" y2="10"></line><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"></line><line x1="14.4" y1="14.4" x2="15.8" y2="15.8"></line><line x1="15.8" y1="4.2" x2="14.4" y2="5.6"></line><line x1="5.6" y1="14.4" x2="4.2" y2="15.8"></line></g></svg></span></span><style>
+        .theme-toggle {
+          background: transparent;
+          border: none;
+          padding: 0.5rem 0.6rem;
+          margin-left: 0.5rem;
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          font-family: inherit;
+        }
+        .theme-toggle:focus-visible {
+          outline: 2px solid var(--orange, #c5a55a);
+          outline-offset: 4px;
+          border-radius: 24px;
+        }
+        .theme-toggle__track {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 22px;
+          border-radius: 22px;
+          background: rgba(12, 26, 46, 0.12);
+          border: 1px solid rgba(12, 26, 46, 0.08);
+          transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__track {
+          background: rgba(197, 165, 90, 0.35);
+          border-color: rgba(197, 165, 90, 0.45);
+        }
+        .theme-toggle__thumb {
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #ffffff;
+          color: var(--orange, #c5a55a);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+          transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease, color 0.3s ease;
+        }
+        .theme-toggle--dark .theme-toggle__thumb {
+          transform: translateX(22px);
+          background: #0c1a2e;
+          color: var(--orange, #c5a55a);
+        }
+
+        /* Forced light variant — used on the transparent hero header
+           (light icon over dark image) */
+        .theme-toggle--force-light .theme-toggle__track {
+          background: rgba(255,255,255,0.18);
+          border-color: rgba(255,255,255,0.3);
+        }
+        .theme-toggle--force-light.theme-toggle--dark .theme-toggle__track {
+          background: rgba(255,255,255,0.25);
+          border-color: rgba(255,255,255,0.4);
+        }
+      </style></button></div></nav><style>
+ /* ===== HEADER BAR ===== */
+ .hdr {
+ position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+ background: var(--header-bg, #ffffff);
+ transition: background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
+ border-bottom: 1px solid var(--border-soft, rgba(12, 26, 46, 0.06));
+ }
+ [data-theme="dark"] .hdr {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Home page header — seamless cream-to-transparent gradient that fades into
+    the hero image. No blur, no border — pure soft fade so the nav appears to
+    be part of the image itself. */
+ /* Home header: cream gradient whose alpha is driven by the dimmer with a
+    quadratic curve — the cream stays subtle through most of the slide and
+    only ramps up to full presence near the bright end, so it tracks the
+    perceived rate of the hero image crossfade rather than changing faster. */
+ .hdr--home,
+ [data-theme="dark"] .hdr--home {
+ background: linear-gradient(180deg,
+   rgba(247, 240, 225, calc(0.66 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 0%,
+   rgba(247, 240, 225, calc(0.49 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 45%,
+   rgba(247, 240, 225, calc(0.25 * (1 - var(--theme-mix, 0)) * (1 - var(--theme-mix, 0)))) 80%,
+   rgba(247, 240, 225, 0) 100%);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ border-bottom: none;
+ box-shadow: none;
+ }
+
+ .hdr--scrolled {
+ background: var(--header-bg, #ffffff);
+ backdrop-filter: none;
+ -webkit-backdrop-filter: none;
+ box-shadow: var(--shadow-soft, 0 6px 32px rgba(12, 26, 46, 0.06));
+ border-bottom-color: var(--border-firm, rgba(12, 26, 46, 0.08));
+ }
+ [data-theme="dark"] .hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+ /* Home + scrolled: pinned header goes solid white — the cream is only for
+    the top position where it needs to blend into the hero image. */
+ .hdr--home.hdr--scrolled {
+ background: #ffffff;
+ }
+ [data-theme="dark"] .hdr--home.hdr--scrolled {
+ background: var(--header-bg, #0d1117);
+ }
+
+ /* Transparent variant — used only on the home page while at the top.
+    Logo inverts to white via filter; nav links / CTA flip to white; bg goes clear. */
+ .hdr--transparent {
+ background: transparent;
+ border-bottom-color: transparent;
+ box-shadow: none;
+ }
+ /* Logo asset itself swaps (white-gradient version) — no CSS filter needed */
+ .hdr--transparent .hdr__nav-link {
+ color: #ffffff;
+ text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+ }
+ .hdr--transparent .hdr__nav-link:hover,
+ .hdr--transparent .hdr__nav-item--active .hdr__nav-link {
+ color: var(--orange, #c5a55a);
+ }
+ .hdr--transparent .hdr__nav-link--cta {
+ color: #ffffff;
+ border-color: rgba(255,255,255,0.7);
+ text-shadow: none;
+ }
+ .hdr--transparent .hdr__nav-link--cta:hover {
+ background: #ffffff;
+ color: var(--black, #0c1a2e);
+ border-color: #ffffff;
+ }
+ .hdr--transparent .hdr__burger span {
+ background: #ffffff;
+ }
+ .hdr__inner {
+ max-width: 1280px; margin: 0 auto; padding: 0 2.5rem;
+ display: flex; align-items: center; justify-content: space-between; height: 88px;
+ }
+ .hdr__logo { display: flex; align-items: center; text-decoration: none; }
+ .hdr__logo:hover { opacity: 0.85; }
+ .hdr__logo-img { height: 42px; width: auto; object-fit: contain; }
+
+ .hdr__nav--desktop { display: flex; align-items: center; gap: 0.25rem; }
+ .hdr__nav-item { position: relative; text-decoration: none; }
+ .hdr__nav-link {
+ display: flex; align-items: center; gap: 6px;
+ padding: 1.25rem 1.1rem; font-size: 0.72rem; font-weight: 500;
+ letter-spacing: 2.2px; text-transform: uppercase;
+ color: var(--text-body, #2a3547); cursor: pointer; transition: color 0.3s ease;
+ }
+ .hdr__nav-link:hover, .hdr__nav-item--active .hdr__nav-link { color: var(--orange, #c5a55a); }
+ .hdr__nav-link--cta {
+ color: var(--orange, #c5a55a); font-weight: 600;
+ padding: 0.6rem 1.4rem; margin-left: 0.8rem;
+ border: 1px solid var(--orange, #c5a55a);
+ letter-spacing: 2.4px;
+ transition: background 0.3s ease, color 0.3s ease;
+ }
+ .hdr__nav-link--cta:hover { background: var(--orange, #c5a55a); color: #ffffff; }
+ .hdr__chev { width: 9px; height: 9px; transition: transform 0.3s; }
+ .hdr__nav-item--active .hdr__chev { transform: rotate(180deg); }
+
+ /* ===== MEGA DROPDOWN ===== */
+ /* Theme-aware tokens — defaults are the LIGHT theme */
+ .mega {
+ position: fixed; top: 88px; left: 0; right: 0;
+ background: #ffffff;
+ color: #0c1a2e;
+ box-shadow: 0 18px 50px rgba(12, 26, 46, 0.12);
+ animation: megaFade 0.25s ease;
+ z-index: 999;
+ --mega-text: #0c1a2e;
+ --mega-text-muted: #2a3547;
+ --mega-accent: #9a7c3a;
+ --mega-divider: rgba(154, 124, 58, 0.35);
+ --mega-active-bg: transparent;
+ }
+ [data-theme="dark"] .mega {
+ background: #060708;
+ color: var(--soft-white, #e8e9ed);
+ box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6);
+ --mega-text: var(--soft-white, #e8e9ed);
+ --mega-text-muted: color-mix(in oklab, var(--soft-white, #e8e9ed), transparent 14%);
+ --mega-accent: #b08c42;
+ --mega-divider: rgba(176, 140, 66, 0.4);
+ --mega-active-bg: transparent;
+ }
+ @keyframes megaFade {
+ from { opacity: 0; transform: translateY(-4px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+ .mega__inner {
+ max-width: 1200px; margin: 0 auto; padding: 1.75rem 2.5rem;
+ display: grid; grid-template-columns: 230px 1fr 1.4fr; gap: 0;
+ min-height: 0;
+ }
+
+ /* Left: service links */
+ .mega__services {
+ border-right: 1px solid var(--mega-divider);
+ padding-right: 1.25rem;
+ display: flex; flex-direction: column; gap: 0.05rem;
+ }
+ .mega__svc-link {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 0.55rem 0.95rem; font-size: 0.88rem; font-weight: 400;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease, border-color 0.15s ease;
+ border: 1px solid transparent;
+ background: var(--mega-active-bg);
+ }
+ .mega__svc-link:hover {
+ color: var(--mega-accent);
+ }
+ .mega__svc-link--active {
+ color: var(--mega-accent);
+ border-color: var(--mega-accent);
+ font-weight: 500;
+ }
+ .mega__arrow { font-size: 1.15rem; opacity: 0.55; }
+ .mega__svc-link--active .mega__arrow { opacity: 1; color: var(--mega-accent); }
+ .mega__svc-link:hover .mega__arrow { opacity: 1; color: var(--mega-accent); }
+
+ /* Middle: sub-services */
+ .mega__subs {
+ padding: 0 2rem;
+ border-right: none;
+ }
+ .mega__subs-title {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1rem; padding-bottom: 0;
+ border-bottom: none;
+ }
+ .mega__sub-link {
+ display: block; padding: 0.4rem 0; font-size: 0.88rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__sub-link:hover { color: var(--mega-accent); padding-left: 0; }
+ .mega__view-all {
+ display: inline-flex; align-items: center; gap: 0.5rem;
+ margin-top: 1rem; font-size: 0.88rem;
+ font-weight: 500; color: var(--mega-accent); text-decoration: none;
+ letter-spacing: 0;
+ }
+ .mega__view-all:hover { text-decoration: none; opacity: 0.8; }
+
+ /* Right: image — anchored to top so it sits in the same place every time,
+    with a fixed height so its size never changes from one service to the next. */
+ .mega__image {
+ display: flex; align-items: flex-start; justify-content: center;
+ padding-left: 1.5rem; overflow: hidden;
+ }
+ .mega__image img {
+ width: 100%; height: 240px; object-fit: cover;
+ border-radius: 8px; opacity: 1;
+ box-shadow: 0 8px 24px rgba(12, 26, 46, 0.12);
+ display: block;
+ }
+
+ /* ===== AREAS MEGA ===== */
+ .mega__inner--areas {
+ grid-template-columns: 1fr; gap: 2rem;
+ min-height: auto;
+ }
+ .mega__tier { }
+ .mega__tier-label {
+ font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
+ letter-spacing: 2.2px; color: var(--mega-accent);
+ margin-bottom: 1.25rem; padding-bottom: 0.6rem;
+ border-bottom: 1px solid var(--mega-divider);
+ }
+ .mega__tier-cities { display: flex; flex-direction: column; gap: 0; }
+ .mega__inner--areas .mega__tier-cities {
+ display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 2.5rem;
+ }
+ .mega__inner--areas .mega__tier + .mega__tier { margin-top: 1.5rem; }
+ .mega__city-link {
+ display: block; padding: 0.5rem 0; font-size: 0.92rem;
+ color: var(--mega-text); text-decoration: none;
+ transition: color 0.15s ease;
+ }
+ .mega__city-link:hover { color: var(--mega-accent); padding-left: 0; }
+
+ /* ===== HAMBURGER ===== */
+ .hdr__burger {
+ display: none; flex-direction: column; gap: 5px;
+ background: none; border: none; cursor: pointer; padding: 5px;
+ }
+ .hdr__burger span {
+ display: block; width: 24px; height: 2px;
+ background: var(--black, #0c1a2e); transition: all 0.3s;
+ }
+ /* Dark theme: hamburger + X bars need to be white to read on the dark header */
+ [data-theme="dark"] .hdr__burger span { background: #ffffff; }
+ .hdr__burger--open span:nth-child(1) { transform: rotate(45deg) translateY(5px) translateX(5px); }
+ .hdr__burger--open span:nth-child(2) { opacity: 0; }
+ .hdr__burger--open span:nth-child(3) { transform: rotate(-45deg) translateY(-5px) translateX(5px); }
+
+ /* ===== MOBILE NAV ===== */
+ .hdr__mobile {
+ display: none;
+ position: fixed; top: 88px; left: 0; right: 0; bottom: 0;
+ background: #fff; overflow-y: auto;
+ transform: translateX(100%); opacity: 0;
+ transition: all 0.3s ease; pointer-events: none;
+ z-index: 998;
+ }
+ .hdr__mobile--open {
+ transform: translateX(0); opacity: 1; pointer-events: all;
+ }
+
+ .mob__section { border-bottom: 1px solid #eee; }
+ .mob__toggle {
+ display: flex; align-items: center; justify-content: space-between;
+ width: 100%; padding: 1.1rem 1.5rem; background: none; border: none;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ cursor: pointer; text-align: left;
+ }
+ .mob__plus {
+ font-size: 1.3rem; color: var(--orange, #c5a55a); font-weight: 300;
+ transition: transform 0.3s;
+ }
+ .mob__plus--open { transform: rotate(45deg); }
+ .mob__panel { padding: 0 0 1rem; background: #fafafa; }
+ .mob__link {
+ display: block; text-decoration: none; color: var(--gray-dark, #333);
+ transition: color 0.2s;
+ }
+ .mob__link--top {
+ padding: 1.1rem 1.5rem; font-size: 0.9rem; font-weight: 600;
+ border-bottom: 1px solid #eee;
+ }
+ .mob__link--parent {
+ padding: 0.75rem 1.5rem; font-size: 0.88rem; font-weight: 600;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__link--child {
+ padding: 0.45rem 1.5rem 0.45rem 2.5rem; font-size: 0.82rem;
+ color: var(--gray-text, #555);
+ }
+ .mob__link:hover { color: var(--orange, #c5a55a); }
+ .mob__link--cta { color: var(--orange, #c5a55a); }
+ .mob__tier-label {
+ padding: 0.75rem 1.5rem 0.25rem; font-size: 0.68rem;
+ font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;
+ color: var(--orange, #c5a55a);
+ }
+ .mob__theme-row {
+ display: flex; align-items: center; justify-content: space-between;
+ padding: 1.1rem 1.5rem; border-top: 1px solid #eee;
+ font-size: 0.9rem; font-weight: 600; color: var(--black, #111);
+ }
+
+ /* ===== RESPONSIVE ===== */
+ @media (max-width: 960px) {
+ .hdr__nav--desktop { display: none; }
+ .hdr__burger { display: flex; }
+ .hdr__mobile { display: block; }
+ .mega { display: none; }
+ }
+ </style></header><main class="ap-page"><section class="ap-hero"><div class="ap-hero__media" aria-hidden="true"><img alt="" loading="lazy" src="/hero-light.png"></div><div class="ap-hero__shade"></div><div class="ap-hero__inner"><div class="ap-hero__content"><p class="ap-kicker">A short story about homes that deserved better.</p><h1>Dallas–Fort Worth Smart Home Design.<em> Built Around How You Live.</em></h1></div></div></section><section class="ap-origin"><div class="ap-origin__inner"><div class="ap-rule" aria-hidden="true"></div><p class="ap-kicker">Out of Frustration.</p><h2>Built Around a Better Question.</h2><p>TruDefinition started, like most good things, out of frustration. We kept walking into beautiful homes with forgettable technology. Six figures of equipment racked behind a closet door, gathering dust. Remote controls stacked on nightstands because nobody could remember which one did what. Owners who’d been sold a “smart home” and ended up with a sulking one.</p><p>So we built something different. Not another integrator. Not another firm racing to cram the most gear into the smallest closet. A company built around a question most companies never bother to ask:</p><p class="ap-origin__question">How do you actually want to live in your home?</p></div></section><section class="ap-designed"><div class="ap-designed__inner"><div class="ap-designed__copy"><p class="ap-kicker">It hasn’t been designed yet.</p><h2>If It Can’t Be Done, It Hasn’t Been Designed Yet.</h2><p>This is how we approach each project: understand the home, document the constraints, and coordinate the technology before installation begins. Complex rooms require a better design conversation, not a larger pile of equipment.</p><p>The speaker locations conflict with the beam layout? We redesign the audio plan so the homeowner never knows there was a constraint. The floor plan leaves no room for a rack in the living space? We pull the equipment back to a single central closet, out of the rooms you live in, and run everything to it. We find a way. Every time.</p><p>Forty-plus years of combined experience informs the questions we ask about wiring, acoustics, lighting, networks, service access, and long-term support. See how that thinking carries through <a class="ap-inline-link" href="/our-process" data-discover="true">our smart home design and installation process</a>.</p></div><div class="ap-designed__image"><img alt="" loading="lazy" src="/About%20us%20cant%20be%20done%20image.png"></div></div></section><section class="ap-rules"><div class="ap-section-heading"><h2>The House Rules.</h2><p>No catalog. No product list. No standard package. We start with you.</p></div><div class="ap-rules__grid"><article class="ap-rule-card"><p class="ap-rule-card__number">01</p><h3>We Listen.</h3><p>Before we sketch a single wire run, we sit with you. We learn how you wake. How you host. What annoys you about the place you’re in now. What you keep imagining for the place you’re moving into. Your life is the brief — not a product catalog.</p></article><article class="ap-rule-card"><p class="ap-rule-card__number">02</p><h3>We Design.</h3><p>Shoulder-to-shoulder with your architect, builder, and interior designer from the very first plans. Technology is woven in, not bolted on. Speakers disappear into architecture. Keypads land where the eye expects them. Nothing is figured out later.</p></article><article class="ap-rule-card"><p class="ap-rule-card__number">03</p><h3>We Build.</h3><p>Every cable, every connection, every line of code is placed with intent. The rack is a quiet work of engineering nobody will ever see — which is the point. The technology vanishes. The evening remains.</p></article><article class="ap-rule-card"><p class="ap-rule-card__number">04</p><h3>We Stay.</h3><p>The relationship doesn’t end at the final walkthrough. When you call, you get someone who already knows your system, your house, and your preferences. Not a ticket number. A partner — for the life of the home.</p></article></div></section><section class="ap-why"><div class="ap-why__inner"><div class="ap-section-heading ap-section-heading--dark"><h2>Why Homeowners and Project Teams Choose TruDefinition.</h2><span aria-hidden="true"></span></div><div class="ap-why__grid"><article class="ap-reason"><div class="ap-reason__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M5.5 10.5V20h13v-9.5"></path><path d="M9.5 20v-6h5v6"></path></svg></div><div><h3>One Home. One Plan.</h3><p>Every system is designed for one house and one set of people. No reused drawings. No standard package. Your home is singular. The technology should be, too.</p></div></article><article class="ap-reason"><div class="ap-reason__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"></path><circle cx="9.5" cy="7" r="3"></circle><path d="M21 20v-2a4 4 0 0 0-3-3.8"></path><path d="M16 4.3a3 3 0 0 1 0 5.4"></path></svg></div><div><h3>Small Team. Real Names.</h3><p>You work directly with the people who design and install your system. No layers, no call centers, no ticket numbers. Just a small group who takes personal ownership of every project that walks through the door.</p></div></article><article class="ap-reason"><div class="ap-reason__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path><path d="m9 12 2 2 4-4"></path></svg></div><div><h3>Outcomes, Not Gear.</h3><p>The question isn’t which processor or speaker. The question is what your Tuesday should feel like at seven. The equipment is just how we get there.</p></div></article></div></div></section><section class="ap-credentials"><div class="ap-credentials__grid"><article class="ap-credential"><div class="ap-credential__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5"></circle><path d="M8.5 13.5 7 22l5-3 5 3-1.5-8.5"></path><path d="m9.8 9 1.4 1.4L14.5 7"></path></svg></div><div><h3>Savant Authorized Dealer</h3><p>Certified to design, install, and support Savant luxury smart home systems.</p></div></article><article class="ap-credential"><div class="ap-credential__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4"></path><path d="M12 18v4"></path><path d="m4.9 4.9 2.8 2.8"></path><path d="m16.3 16.3 2.8 2.8"></path><path d="M2 12h4"></path><path d="M18 12h4"></path><path d="m4.9 19.1 2.8-2.8"></path><path d="m16.3 7.7 2.8-2.8"></path></svg></div><div><h3>CEDIA Member</h3><p>Custom Electronic Design &amp; Installation Association.</p></div></article><article class="ap-credential"><div class="ap-credential__icon" aria-hidden="true"><svg fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="5"></circle><path d="M8.5 12.5 6 22l6-3 6 3-2.5-9.5"></path><path d="M12 5.5v5"></path><path d="M9.5 8h5"></path></svg></div><div><h3>40+ Years Combined</h3><p>Thousands of hours of training, installations, and service.</p></div></article></div></section><section class="ap-final"><div class="ap-final__media" aria-hidden="true"><img alt="" loading="lazy" src="/About%20us%20CTA.png"><div class="ap-final__veil"></div></div><div class="ap-final__content"><h2>Let’s Talk About Your Home.</h2><span class="ap-final__rule" aria-hidden="true"></span><p>No pitch deck. No pressure. No spec sheet sliding across the table. Just a quiet conversation about what’s possible — and whether we’re the right people to build it.</p><p class="ap-final__links">Explore our <a href="/services/home-automation" data-discover="true">home automation systems</a>, <a href="/services/home-theaters" data-discover="true">home theater design</a>, and <a href="/brands" data-discover="true">brands we install</a>.</p><button class="ap-button ap-button--filled" type="button" data-cta="about_final_estimate">Yes, Begin</button></div></section></main><footer class="footer"><div class="footer__main"><div class="footer__inner"><div class="footer__brand"><img alt="TruDefinition" class="footer__logo" src="/logo-dark.png"><p class="footer__tagline">Thoughtful technology.<br>Beautifully integrated.<br>Dallas–Fort Worth and beyond.</p><div class="footer__social"><a href="https://www.instagram.com/trudefinition/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle></svg></a><a href="https://www.linkedin.com/company/trudefinition" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v15H0V8zm7.5 0H12v2.05h.07c.62-1.17 2.14-2.4 4.41-2.4 4.72 0 5.59 3.1 5.59 7.13V23h-5v-6.85c0-1.63-.03-3.74-2.28-3.74-2.28 0-2.63 1.78-2.63 3.62V23h-5V8z"></path></svg></a><a href="mailto:info@trudefinition.com" aria-label="Email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg></a></div></div><div class="footer__col"><h4>Company</h4><a href="/about" data-discover="true">About Us</a><a href="/our-process" data-discover="true">Our Approach</a></div><div class="footer__col"><h4>Services</h4><a href="/services/lighting-control" data-discover="true">Lighting</a><a href="/services/motorized-shades" data-discover="true">Shades</a><a href="/services/home-audio" data-discover="true">Audio</a><a href="/services/security-surveillance" data-discover="true">Security</a><a href="/services/energy-management" data-discover="true">Climate</a><a href="/services/home-theaters" data-discover="true">Entertainment</a></div><div class="footer__col"><h4>Service Areas</h4><a href="/areas-served/fort-worth" data-discover="true">Fort Worth</a><a href="/areas-served/southlake" data-discover="true">Southlake</a><a href="/areas-served/westlake" data-discover="true">Westlake</a><a href="/areas-served/highland-park" data-discover="true">Highland Park</a><a href="/areas-served" data-discover="true">All Areas</a></div><div class="footer__col footer__col--contact"><h4>Contact</h4><a href="tel:8179651042" data-cta="footer_call">(817) 965-1042</a><a href="mailto:info@trudefinition.com">info@trudefinition.com</a><a href="/contact" data-discover="true">Start a Project</a></div></div></div><div class="footer__bottom-wrap"><div class="footer__bottom"><span>© 2026 TruDefinition. All rights reserved.</span><div class="footer__legal"><a href="/privacy-policy" data-discover="true">Privacy</a><button type="button">Privacy Choices</button><a href="/terms-of-service" data-discover="true">Terms</a><a href="/accessibility" data-discover="true">Accessibility</a></div></div></div><style>
+        .footer {
+          background: var(--footer-bg, #ffffff);
+          color: var(--footer-text, #5a6577);
+          border-top: 1px solid var(--footer-top-border, rgba(12, 26, 46, 0.18));
+        }
+        .footer__main {
+          padding: 5rem 2.5rem 3.5rem;
+        }
+        .footer__inner {
+          max-width: 1280px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
+          gap: 3rem;
+          align-items: start;
+        }
+
+        /* Brand column */
+        .footer__brand { }
+        .footer__logo {
+          height: 39px;
+          width: auto;
+          object-fit: contain;
+          margin-bottom: 1.5rem;
+          display: block;
+        }
+        .footer__tagline {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.85rem;
+          line-height: 1.8;
+          color: var(--footer-text, #5a6577);
+          margin: 0 0 1.75rem;
+        }
+        .footer__social {
+          display: flex;
+          gap: 1.1rem;
+          align-items: center;
+        }
+        .footer__social a {
+          color: var(--footer-icon, #2a3547);
+          transition: color 0.2s ease, opacity 0.2s ease;
+          display: inline-flex;
+        }
+        .footer__social a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Columns */
+        .footer__col h4 {
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 2.2px;
+          color: var(--footer-heading, #0c1a2e);
+          margin: 0 0 1.5rem;
+        }
+        .footer__col a {
+          display: block;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.86rem;
+          color: var(--footer-text, #5a6577);
+          text-decoration: none;
+          padding: 0.4rem 0;
+          transition: color 0.2s ease;
+        }
+        .footer__col a:hover {
+          color: var(--orange, #9a7c3a);
+        }
+
+        /* Bottom bar */
+        .footer__bottom-wrap {
+          border-top: 1px solid var(--footer-divider, rgba(12, 26, 46, 0.08));
+        }
+        .footer__bottom {
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 1.5rem 2.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.74rem;
+          color: var(--footer-muted, #8893a3);
+        }
+        .footer__legal {
+          display: flex;
+          gap: 1.75rem;
+        }
+        .footer__legal a,
+        .footer__legal button {
+          color: var(--footer-muted, #8893a3);
+          text-decoration: none;
+          transition: color 0.2s ease;
+          background: none;
+          border: 0;
+          padding: 0;
+          font: inherit;
+          cursor: pointer;
+        }
+        .footer__legal a:hover,
+        .footer__legal button:hover { color: var(--orange, #9a7c3a); }
+
+        /* Light theme tokens (default) */
+        [data-theme="light"] .footer,
+        :root .footer {
+          --footer-bg: #ffffff;
+          --footer-text: #5a6577;
+          --footer-heading: #0c1a2e;
+          --footer-icon: #2a3547;
+          --footer-divider: rgba(12, 26, 46, 0.08);
+          --footer-muted: #8893a3;
+          --footer-top-border: rgba(12, 26, 46, 0.18);
+        }
+
+        /* Dark theme — deep near-black footer with brighter top border divider */
+        [data-theme="dark"] .footer {
+          --footer-bg: #05080d;
+          --footer-text: rgba(255, 255, 255, 0.6);
+          --footer-heading: #ffffff;
+          --footer-icon: rgba(255, 255, 255, 0.75);
+          --footer-divider: rgba(255, 255, 255, 0.1);
+          --footer-muted: rgba(255, 255, 255, 0.35);
+          --footer-top-border: rgba(197, 165, 90, 0.3);
+        }
+
+        @media (max-width: 1024px) {
+          .footer__inner {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2.5rem;
+          }
+          .footer__brand { grid-column: 1 / -1; }
+        }
+        @media (max-width: 640px) {
+          .footer__inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+          .footer__brand { grid-column: 1 / -1; }
+          .footer__main { padding: 3.5rem 1.5rem 2.5rem; }
+          .footer__bottom {
+            flex-direction: column;
+            gap: 0.75rem;
+            text-align: center;
+            padding: 1.25rem 1.5rem;
+          }
+        }
+      </style></footer><style>
+        .ap-page {
+          background: var(--surface-base);
+          color: var(--text-body);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          overflow-x: hidden;
+          padding-top: 72px;
+        }
+
+        .ap-page *,
+        .ap-page *::before,
+        .ap-page *::after {
+          box-sizing: border-box;
+        }
+
+        .ap-page img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .ap-kicker {
+          margin: 0;
+          color: var(--orange);
+          font-size: 0.72rem;
+          line-height: 1.2;
+          font-weight: 900;
+          letter-spacing: 0.28em;
+          text-transform: uppercase;
+        }
+
+        .ap-inline-link,
+        .ap-final__links a {
+          color: var(--orange);
+          font-weight: 700;
+          text-decoration: none;
+        }
+        .ap-inline-link:hover,
+        .ap-final__links a:hover { text-decoration: underline; }
+
+        .ap-hero {
+          position: relative;
+          min-height: clamp(520px, 68vh, 680px);
+          overflow: hidden;
+          background: var(--surface-deep);
+          border-bottom: 1px solid var(--border-soft);
+        }
+
+        .ap-hero__media,
+        .ap-hero__shade {
+          position: absolute;
+          inset: 0;
+        }
+
+        .ap-hero__shade {
+          z-index: 1;
+          background:
+            linear-gradient(
+              90deg,
+              color-mix(in srgb, var(--surface-deep) 82%, transparent) 0%,
+              color-mix(in srgb, var(--surface-deep) 58%, transparent) 38%,
+              color-mix(in srgb, var(--surface-deep) 12%, transparent) 72%,
+              transparent 100%
+            ),
+            linear-gradient(
+              180deg,
+              color-mix(in srgb, var(--surface-deep) 14%, transparent),
+              color-mix(in srgb, var(--surface-deep) 24%, transparent)
+            );
+        }
+
+        .ap-hero__inner {
+          position: relative;
+          z-index: 2;
+          width: min(1280px, calc(100% - 48px));
+          min-height: clamp(520px, 68vh, 680px);
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          padding: 40px 0;
+        }
+
+        .ap-hero__content {
+          width: min(540px, 100%);
+        }
+
+        .ap-hero h1 {
+          margin: 18px 0 0;
+          max-width: 540px;
+          color: #ffffff;
+          font-family: var(--font-display-serif);
+          font-size: clamp(2.4rem, 3.8vw, 3.6rem);
+          line-height: 1.05;
+          letter-spacing: -0.02em;
+          font-weight: 400;
+        }
+
+        .ap-hero h1 em {
+          display: block;
+          color: var(--orange);
+          font-style: italic;
+          letter-spacing: -0.07em;
+        }
+
+        .ap-origin {
+          position: relative;
+          padding: clamp(40px, 4vw, 56px) 0;
+          background:
+            radial-gradient(
+              circle at 50% 10%,
+              color-mix(in srgb, var(--orange) 7%, transparent),
+              transparent 30rem
+            ),
+            var(--surface-base);
+          text-align: center;
+        }
+
+        .ap-origin__inner {
+          width: min(680px, calc(100% - 48px));
+          margin: 0 auto;
+        }
+
+        .ap-rule {
+          width: 44px;
+          height: 2px;
+          margin: 0 auto 18px;
+          background: var(--orange);
+        }
+
+        .ap-origin h2,
+        .ap-section-heading h2,
+        .ap-final h2 {
+          margin: 12px 0 14px;
+          color: var(--text-primary);
+          font-family: var(--font-display-serif);
+          font-size: clamp(1.5rem, 2.1vw, 2rem);
+          line-height: 1.15;
+          letter-spacing: -0.02em;
+          font-weight: 400;
+        }
+
+        .ap-origin p:not(.ap-kicker):not(.ap-origin__question),
+        .ap-section-heading p,
+        .ap-final p {
+          color: var(--text-body);
+          font-size: 0.86rem;
+          line-height: 1.78;
+        }
+
+        .ap-origin p:not(.ap-kicker):not(.ap-origin__question) {
+          margin: 0 auto 14px;
+        }
+
+        .ap-origin__question {
+          margin: 22px 0 0;
+          color: var(--orange);
+          font-family: var(--font-display-serif);
+          font-size: clamp(1.35rem, 2vw, 1.75rem);
+          line-height: 1.3;
+          font-style: italic;
+          letter-spacing: -0.02em;
+        }
+
+        .ap-designed {
+          background: var(--surface-card);
+          border-top: 1px solid var(--border-soft);
+          border-bottom: 1px solid var(--border-soft);
+        }
+
+        .ap-designed__inner {
+          display: grid;
+          grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+          align-items: stretch;
+          min-height: 0;
+        }
+
+        .ap-designed__copy {
+          padding:
+            36px
+            clamp(32px, 4vw, 64px)
+            36px
+            max(32px, calc((100vw - 1280px) / 2));
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .ap-designed h2 {
+          max-width: 480px;
+          color: var(--text-primary);
+          font-family: var(--font-display-serif);
+          font-size: clamp(1.5rem, 2.1vw, 2rem);
+          line-height: 1.15;
+          letter-spacing: -0.02em;
+          font-weight: 400;
+          margin: 10px 0 14px;
+        }
+
+        .ap-designed p:not(.ap-kicker) {
+          max-width: 560px;
+          margin: 0 0 12px;
+          color: var(--text-body);
+          font-size: 0.86rem;
+          line-height: 1.78;
+        }
+
+        .ap-designed__image {
+          min-height: 0;
+          overflow: hidden;
+          background: var(--surface-base);
+        }
+
+        .ap-rules {
+          width: min(1280px, calc(100% - 48px));
+          margin: 0 auto;
+          padding: clamp(40px, 4vw, 56px) 0;
+        }
+
+        .ap-section-heading {
+          max-width: 720px;
+          margin: 0 auto 28px;
+          text-align: center;
+        }
+
+        .ap-section-heading h2 {
+          text-transform: none;
+        }
+
+        .ap-section-heading p {
+          margin: 6px 0 0;
+          color: var(--text-muted);
+          font-size: 0.82rem;
+        }
+
+        .ap-rules__grid {
+          display: grid;
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+          gap: 28px;
+        }
+
+        .ap-rule-card {
+          position: relative;
+          padding-left: 22px;
+          border-left: 1px solid var(--border-soft);
+        }
+
+        .ap-rule-card__number {
+          margin: 0 0 12px;
+          color: var(--orange);
+          font-family: var(--font-display-serif);
+          font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+          line-height: 0.95;
+          letter-spacing: -0.03em;
+        }
+
+        .ap-rule-card h3 {
+          margin: 0 0 10px;
+          color: var(--text-primary);
+          font-size: 0.74rem;
+          line-height: 1.35;
+          font-weight: 800;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+        }
+
+        .ap-rule-card p {
+          margin: 0;
+          color: var(--text-body);
+          font-size: 0.8rem;
+          line-height: 1.72;
+        }
+
+        .ap-why {
+          background: var(--surface-deep);
+          color: var(--surface-base);
+          padding: clamp(40px, 4vw, 56px) 0;
+        }
+
+        .ap-why__inner {
+          width: min(1280px, calc(100% - 48px));
+          margin: 0 auto;
+        }
+
+        .ap-section-heading--dark h2 {
+          color: var(--text-on-deep);
+        }
+
+        .ap-section-heading--dark span {
+          display: block;
+          width: 44px;
+          height: 2px;
+          margin: 14px auto 0;
+          background: var(--orange);
+        }
+
+        .ap-why__grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: clamp(28px, 4vw, 56px);
+        }
+
+        .ap-reason {
+          display: grid;
+          grid-template-columns: 42px 1fr;
+          gap: 16px;
+          align-items: flex-start;
+        }
+
+        .ap-reason__icon {
+          width: 36px;
+          height: 36px;
+          color: var(--orange);
+        }
+
+        .ap-reason__icon svg {
+          width: 100%;
+          height: 100%;
+        }
+
+        .ap-reason h3,
+        .ap-credential h3 {
+          margin: 0 0 8px;
+          color: inherit;
+          font-size: 0.72rem;
+          line-height: 1.35;
+          font-weight: 800;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+        }
+
+        .ap-reason h3 {
+          color: var(--text-on-deep);
+        }
+
+        .ap-reason p {
+          margin: 0;
+          color: color-mix(in srgb, var(--text-on-deep) 75%, transparent);
+          font-size: 0.8rem;
+          line-height: 1.7;
+        }
+
+        .ap-credentials {
+          background: var(--surface-base);
+          border-bottom: 1px solid var(--border-soft);
+        }
+
+        .ap-credentials__grid {
+          width: min(1280px, calc(100% - 48px));
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .ap-credential {
+          min-height: 0;
+          padding: 26px clamp(20px, 3vw, 40px);
+          display: grid;
+          grid-template-columns: 36px 1fr;
+          gap: 14px;
+          align-items: center;
+          border-right: 1px solid var(--border-soft);
+        }
+
+        .ap-credential:first-child {
+          border-left: 1px solid var(--border-soft);
+        }
+
+        .ap-credential h3 {
+          color: var(--text-primary);
+        }
+
+        .ap-credential__icon {
+          color: var(--orange);
+          width: 32px;
+          height: 32px;
+        }
+
+        .ap-credential__icon svg {
+          width: 100%;
+          height: 100%;
+        }
+
+        .ap-credential p {
+          margin: 0;
+          color: var(--text-body);
+          font-size: 0.76rem;
+          line-height: 1.58;
+        }
+
+        .ap-final {
+          position: relative;
+          overflow: hidden;
+          background: var(--surface-card);
+          border-bottom: 1px solid var(--border-soft);
+        }
+
+        .ap-final__media {
+          position: absolute;
+          inset: 0;
+          z-index: 0;
+        }
+
+        .ap-final__veil {
+          position: absolute;
+          inset: 0;
+          background: color-mix(in srgb, var(--surface-base) 35%, transparent);
+        }
+
+        .ap-final__content {
+          position: relative;
+          z-index: 1;
+          width: min(680px, calc(100% - 48px));
+          margin: 0 auto;
+          padding: 48px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+
+        .ap-final h2 {
+          margin: 0 0 10px;
+        }
+
+        .ap-final__rule {
+          display: block;
+          width: 40px;
+          height: 2px;
+          margin: 0 auto 14px;
+          background: var(--orange);
+        }
+
+        .ap-final p {
+          max-width: 580px;
+          margin: 0 0 22px;
+        }
+
+        .ap-button {
+          min-height: 44px;
+          padding: 0 26px;
+          border: 1px solid var(--border-firm);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          background: transparent;
+          color: var(--text-primary);
+          font-family: 'Montserrat', system-ui, sans-serif;
+          font-size: 0.72rem;
+          font-weight: 900;
+          letter-spacing: 0.18em;
+          text-transform: uppercase;
+          cursor: pointer;
+          transition:
+            transform 180ms ease,
+            background 180ms ease,
+            border-color 180ms ease,
+            color 180ms ease,
+            box-shadow 180ms ease;
+        }
+
+        .ap-button:hover {
+          transform: translateY(-1px);
+        }
+
+        .ap-button--filled {
+          background: var(--orange);
+          border-color: var(--orange);
+          color: #ffffff;
+          box-shadow: 0 18px 42px color-mix(in srgb, var(--surface-deep) 12%, transparent);
+        }
+
+        .ap-button--filled:hover {
+          background: var(--orange-hover);
+          border-color: var(--orange-hover);
+        }
+
+        [data-theme="dark"] .ap-page {
+          background: var(--surface-base);
+        }
+
+        [data-theme="dark"] .ap-hero__media img,
+        [data-theme="dark"] .ap-designed__image img,
+        [data-theme="dark"] .ap-final__media img {
+          filter: saturate(0.96) contrast(1.04) brightness(0.88);
+        }
+
+        [data-theme="dark"] .ap-hero__shade {
+          background:
+            linear-gradient(
+              90deg,
+              color-mix(in srgb, var(--surface-deep) 94%, transparent) 0%,
+              color-mix(in srgb, var(--surface-deep) 78%, transparent) 42%,
+              color-mix(in srgb, var(--surface-deep) 24%, transparent) 78%,
+              transparent 100%
+            );
+        }
+
+        [data-theme="dark"] .ap-origin {
+          background:
+            radial-gradient(
+              circle at 50% 10%,
+              color-mix(in srgb, var(--orange) 8%, transparent),
+              transparent 30rem
+            ),
+            var(--surface-base);
+        }
+
+        [data-theme="dark"] .ap-designed,
+        [data-theme="dark"] .ap-final {
+          background: var(--surface-card);
+        }
+
+        [data-theme="dark"] .ap-credential:first-child,
+        [data-theme="dark"] .ap-credential {
+          border-color: color-mix(in srgb, var(--orange) 14%, var(--border-soft));
+        }
+
+        @media (max-width: 1020px) {
+          .ap-designed__inner {
+            grid-template-columns: 1fr;
+          }
+
+          .ap-designed__copy {
+            padding-left: 48px;
+            padding-right: 48px;
+          }
+
+          .ap-rules__grid,
+          .ap-credentials__grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          .ap-why__grid {
+            grid-template-columns: 1fr;
+            gap: 40px;
+          }
+
+          .ap-credential:nth-child(3) {
+            grid-column: 1 / -1;
+            border-left: 1px solid var(--border-soft);
+          }
+        }
+
+        @media (max-width: 900px) {
+          /* Tablet+mobile: full-coverage scrim so the headline reads
+             against a solid surface, not the bright photo */
+          .ap-hero__shade {
+            background: linear-gradient(180deg,
+              color-mix(in srgb, var(--surface-deep) 72%, transparent) 0%,
+              color-mix(in srgb, var(--surface-deep) 68%, transparent) 55%,
+              color-mix(in srgb, var(--surface-deep) 80%, transparent) 100%);
+          }
+        }
+        @media (max-width: 720px) {
+          .ap-hero__inner,
+          .ap-origin__inner,
+          .ap-rules,
+          .ap-why__inner,
+          .ap-credentials__grid {
+            width: min(100% - 32px, 1280px);
+          }
+
+          .ap-hero {
+            min-height: 560px;
+          }
+
+          .ap-hero__inner {
+            min-height: 560px;
+            padding: 48px 0;
+          }
+
+          .ap-hero h1 {
+            font-size: clamp(1.9rem, 7vw, 2.6rem);
+          }
+
+          .ap-designed__copy {
+            padding: 56px 24px;
+          }
+
+          .ap-final__content {
+            padding: 48px 24px;
+          }
+
+          .ap-designed__image {
+            min-height: 280px;
+          }
+
+          .ap-rules__grid,
+          .ap-credentials__grid {
+            grid-template-columns: 1fr;
+          }
+
+          .ap-rule-card {
+            padding-left: 20px;
+          }
+
+          .ap-credential,
+          .ap-credential:first-child,
+          .ap-credential:nth-child(3) {
+            border-left: 1px solid var(--border-soft);
+            border-right: 1px solid var(--border-soft);
+          }
+        }
+
+        @media (max-width: 460px) {
+          .ap-reason,
+          .ap-credential {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style></div>
+  
+
+</body></html>

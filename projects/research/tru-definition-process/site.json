@@ -1,0 +1,106 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.trudefinition.com/our-process",
+ "title": "Smart Home Design Process | TruDefinition",
+ "description": "See how TruDefinition plans, installs, programs, calibrates, and supports Dallas-Fort Worth smart homes with homeowners, architects, builders, and designers.",
+ "words": 755,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Smart home design, coordinated from the first drawing."
+  },
+  {
+   "tag": "h2",
+   "text": "What the smart home design and installation process includes."
+  },
+  {
+   "tag": "h2",
+   "text": "Anyone can buy the technology. Far fewer can make it disappear into a home."
+  },
+  {
+   "tag": "h2",
+   "text": "One technology partner for everyone at the table."
+  },
+  {
+   "tag": "h2",
+   "text": "Let’s plan it properly, from the very first drawing."
+  },
+  {
+   "tag": "h3",
+   "text": "Discovery"
+  },
+  {
+   "tag": "h3",
+   "text": "System Design"
+  },
+  {
+   "tag": "h3",
+   "text": "Infrastructure"
+  },
+  {
+   "tag": "h3",
+   "text": "Installation"
+  },
+  {
+   "tag": "h3",
+   "text": "Programming & Calibration"
+  },
+  {
+   "tag": "h3",
+   "text": "Handoff & Support"
+  },
+  {
+   "tag": "h3",
+   "text": "Architects"
+  },
+  {
+   "tag": "h3",
+   "text": "Custom Builders"
+  },
+  {
+   "tag": "h3",
+   "text": "Interior Designers"
+  },
+  {
+   "tag": "h3",
+   "text": "Homeowners"
+  }
+ ],
+ "phones": [
+  "(817) 965-1042"
+ ],
+ "colors": [
+  "#ffffff",
+  "#0c1a2e",
+  "#c5a55a",
+  "#2a3547",
+  "#9a7c3a",
+  "#5a6577",
+  "#fefdf7",
+  "#14161a",
+  "#0d1117",
+  "#060708"
+ ],
+ "faces": [
+  "&quot",
+  "Montserrat",
+  "inherit",
+  "var(--font-display-serif"
+ ],
+ "social": [
+  "https://www.instagram.com/trudefinition/",
+  "https://www.linkedin.com/company/trudefinition"
+ ],
+ "pictures": [
+  {
+   "url": "https://www.trudefinition.com/logo-dark.png",
+   "alt": "TruDefinition",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://www.trudefinition.com/luxury-dfw-living-room-hero.png",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

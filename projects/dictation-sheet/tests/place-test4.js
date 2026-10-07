@@ -1,0 +1,57 @@
+// place-test4: how long the whole flow takes on the REAL clock (run with pagecheck-rt.py): the 55 Blurry lines on a
+// 5-minute synthetic 76 bpm track with a synthetic voice. Runs synchronously at the end of the body; the fetch stub
+// resolves in microtasks, so everything is done before the load event.
+var BLURRY_LRC = "[00:23.09] Everything's so blurry and everyone's so fake\n[00:28.96] And everybody's empty and everything is so messed up\n[00:34.96] Preoccupied without you, I cannot live at all\n[00:41.24] My whole world surrounds you, I stumble and I crawl\n[00:47.21] You could be my someone, you could be my scene\n[00:53.37] You know that I'll protect you from all of the obscene\n[00:59.31] I wonder what you're doing, imagine where you are\n[01:05.42] There's oceans in between us, but that's not very far\n[01:12.94] Can you take it all away?\n[01:15.94] Can you take it all away?\n[01:19.01] Well, you shoved it in my face\n[01:22.25] This pain you gave to me\n[01:25.18] Can you take it all away?\n[01:28.23] Can you take it all away?\n[01:31.16] Well, you shoved it in my face\n[01:36.25] Everyone is changing, there's no one left that's real\n[01:42.19] So make up your own ending and let me know just how you feel\n[01:48.22] 'Cause I am lost without you, I cannot live at all\n[01:54.46] My whole world surrounds you, I stumble then I crawl\n[02:00.67] You could be my someone, you could be my scene\n[02:06.55] You know that I will save you from all of the unclean\n[02:12.76] I wonder what you're doing, I wonder where you are\n[02:18.70] There's oceans in between us, but that's not very far\n[02:26.18] Can you take it all away?\n[02:29.33] Can you take it all away?\n[02:32.30] Well, you shoved it in my face\n[02:35.57] This pain you gave to me\n[02:38.45] Can you take it all away?\n[02:41.52] Can you take it all away?\n[02:44.40] Well, you shoved it in my face\n[02:47.95] This pain you gave to me\n[02:51.16] \n[03:01.91] Nobo-, nobody told me what you thought\n[03:06.17] Nobody told me what to say\n[03:09.11] Everyone showed you where to turn\n[03:12.36] Told you when to run away\n[03:15.48] Nobody told you where to hide\n[03:18.49] Nobody told you what to say\n[03:21.57] Everyone showed you where to turn\n[03:24.30] Showed you when to run away\n[03:27.13] Can you take it all away?\n[03:30.21] Can you take it all away?\n[03:33.21] Well, you shoved it in my face\n[03:36.48] This pain you gave to me\n[03:39.30] Can you take it all away?\n[03:42.35] Can you take it all away?\n[03:45.45] Well, you shoved it in my face\n[03:48.85] This pain you gave to me, no\n[03:53.59] \n[03:56.55] This pain you gave to me\n[03:59.80] \n[04:08.78] This pain you gave to me\n[04:12.54] \n[04:19.52] Can you take it all, take it all away?\n[04:24.32] This pain you gave to me\n[04:27.03] Can you take it all away?\n[04:30.29] This pain you gave to me\n[04:32.93] Can you take it all away?\n[04:36.10] This pain you gave to me\n[04:37.40] ";
+var d = window.__ds, out = document.getElementById('__out');
+function say(t) { out.textContent += '\n' + t; }
+function r0(x) { return Math.round(x); }
+if (!d || !d.S()) { say('FAIL no sheet at end of body: __ds ' + !!d + ' S ' + !!(d && d.S())); }
+else {
+  var fps = 100, DUR = 300, N = fps * DUR, BPM = 76, BEAT = 60 / BPM, T0 = 1.0;
+  function bump(env, t, amp, decay) { var k0 = Math.round(t * fps), k; for (k = 0; k < decay && k0 + k < env.length; k++) { var v = (k < 2 ? amp * (k + 1) / 2 : amp * (1 - (k - 2) / (decay - 2))); if (v > env[k0 + k]) env[k0 + k] = v; } }
+  function sing(env, on, off) { var k0 = Math.round(on * fps), k1 = Math.round(off * fps), f; if (k0 < env.length && env[k0] < 1.4) env[k0] = 1.4; for (f = k0 + 1; f < k1 && f < env.length; f++) if (env[f] < 2.3) env[f] = 2.3; }
+  var tb0 = performance.now();
+  var full = new Float32Array(N), low = new Float32Array(N), voice = new Float32Array(N), i, k = 0, t;
+  for (i = 0; i < N; i++) { full[i] = 0.5; low[i] = 0.4; voice[i] = 0.4; }
+  for (t = T0; t < DUR - 1; t += BEAT, k++) { var pos = k % 4; if (pos === 0) { bump(low, t, 2.2, 12); bump(full, t, 2.0, 10); } else if (pos === 2) { bump(low, t, 1.8, 12); bump(full, t, 1.9, 10); } else { bump(full, t, 2.5, 8); bump(low, t, 0.9, 6); } bump(full, t + BEAT / 2, 1.0, 4); }
+  var lrc = d.parseLrc(BLURRY_LRC);
+  lrc.forEach(function (l) { if (!l.text) return; var K = d.syllableTexts(l.text).length; for (var q = 0; q < K; q++) sing(voice, l.t + 0.2 + q * 0.25, l.t + 0.4 + q * 0.25); });
+  say('LOG clock probe: building the synthetic track took ' + r0(performance.now() - tb0) + ' ms (a real number means the clock runs)');
+  var s = d.S(); s.time = '4/4'; s.bpm = 100; s.audio = null; s.lines = []; s.lyrics = ''; s.title = ''; s.filled = null; s.spotify = null; d.cur().undo = []; d.cur().redo = [];
+  d.cur().audio = { el: { paused: true, currentTime: 0, duration: DUR, playbackRate: 1, pause: function () {}, play: function () { return Promise.resolve(); } }, url: '', name: 'Puddle of Mudd - Blurry.wav', peaks: null, duration: DUR, onset: d.risesOf(full), voice: voice, low: low, blob: false };
+  var realFetch = window.fetch, jsonAt = 0, fetchAt = 0;
+  window.fetch = function (url) { if (String(url).indexOf('/lyrics') === 0) { fetchAt = performance.now(); return Promise.resolve({ ok: true, status: 200, headers: new Headers({ 'content-type': 'application/json' }), json: function () { jsonAt = performance.now(); return Promise.resolve({ ok: true, synced: BLURRY_LRC, plain: '', duration: DUR, track: 'Blurry', artist: 'Puddle of Mudd' }); } }); } return realFetch.apply(this, arguments); };
+  function time(label, fn) { var a = performance.now(), r = fn(); say('LOG   ' + label + ': ' + r0(performance.now() - a) + ' ms'); return r; }
+  var t0 = performance.now();
+  d.autoPlaceWords().then(function () {
+    var t1 = performance.now(), s1 = d.S();
+    say('LOG WHOLE FLOW ' + r0(t1 - t0) + ' ms: before the fetch ' + r0(fetchAt - t0) + ' ms, after the lyrics arrived one synchronous block of ' + r0(t1 - jsonAt) + ' ms (the UI thread is blocked for it); result bpm ' + s1.bpm + ' lines ' + s1.lines.length + ' locked ' + (s1.audio && s1.audio.locked));
+    // second run of the same flow on the same page (a fresh sheet), to see the warm number
+    s1.lines = []; s1.lyrics = ''; s1.title = ''; s1.filled = null; s1.audio = null; s1.bpm = 100; d.cur().undo = [];
+    var t2 = performance.now();
+    return d.autoPlaceWords().then(function () {
+      var t3 = performance.now(); say('LOG WHOLE FLOW again (warm): ' + r0(t3 - t2) + ' ms, sync block ' + r0(t3 - jsonAt) + ' ms');
+      say('LOG the parts by hand on the same data:');
+      var on = d.risesOf(full), s2 = d.S();
+      time('risesOf (30000 frames)', function () { return d.risesOf(full); });
+      var bpm = time('tempoOf', function () { return d.tempoOf(on, fps); });
+      var beats = time('trackBeats', function () { return d.trackBeats(on, fps, bpm); });
+      time('meterOf', function () { return d.meterOf(on, low, fps, beats, 60 / bpm, null); });
+      time('lockToSong(quiet, final, noUndo, bpm): trackBeats again, 2 x beatFit (a full sort of 30000 onsets), 2 renders', function () { d.lockToSong(true, true, true, bpm); });
+      var vc = d.voiceCurve(); vc.rises = d.risesOf(vc.env);
+      var sheetLines = []; s2.lines.forEach(function (l, li) { if (l.kind === 'line' && l.syllables.length) sheetLines.push({ li: li, text: d.sortedSyls(l).map(function (y) { return y.text + (y.hy ? '' : ' '); }).join('').trim() }); });
+      var pairs = time('alignLines (55 x 60)', function () { return d.alignLines(sheetLines, lrc); });
+      var windows = time('lrcWindows', function () { return d.lrcWindows(pairs, lrc, 12); });
+      time('sungSpansIn over all ' + windows.length + ' windows', function () { windows.forEach(function (w) { var K = 0, hy = []; w.lis.forEach(function (li) { d.sortedSyls(s2.lines[li]).forEach(function (y) { if (!y.rest) { K++; hy.push(!!y.hy); } }); }); d.sungSpansIn(vc, w.t0 - 0.12, w.t1 - 0.05, K, hy); }); });
+      time('pushUndo (plain copy of the 55-line sheet)', function () { d.pushUndo(); });
+      time('renderWork (55 lines, VexFlow)', function () { d.renderWork(); });
+      time('renderAll (chrome + tabs + work + inspector + tones)', function () { d.renderAll(); });
+      time('wordsToNotes (parse + renderAll)', function () { d.wordsToNotes(s2.lyrics, s2.title, { noUndo: true, quiet: true }); });
+      time('applyTime (renderWork + inspector + status)', function () { d.applyTime('4/4'); });
+      var tot = 0; time('slotOfSong x 10000 (locked grid, binary search)', function () { for (var q = 0; q < 10000; q++) tot += d.slotOfSong(q * 0.03); });
+      say('LOG done');
+      out.textContent += '\n' + __lines.join('\n');
+      window.fetch = realFetch;
+    });
+  }).catch(function (e) { say('FAIL ' + (e && e.stack || e)); out.textContent += '\n' + __lines.join('\n'); window.fetch = realFetch; });
+}

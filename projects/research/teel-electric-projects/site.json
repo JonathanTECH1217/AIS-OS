@@ -1,0 +1,72 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.teelelectricco.com/projects",
+ "title": "Projects | Teel Electric Company",
+ "description": "",
+ "words": 130,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Custom Homes"
+  },
+  {
+   "tag": "h2",
+   "text": "Lutron Lighting Systems"
+  },
+  {
+   "tag": "h2",
+   "text": "Lutron Shades"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#116dff",
+  "#ffffff",
+  "#5f6360",
+  "#080808"
+ ],
+ "faces": [
+  "Arial",
+  "Helvetica",
+  "poppins",
+  "poppins-extralight",
+  "poppins-semibold",
+  "proxima-n-w01-reg"
+ ],
+ "social": [
+  "https://www.facebook.com/wix",
+  "https://www.linkedin.com/company/wix-com"
+ ],
+ "pictures": [
+  {
+   "url": "https://static.wixstatic.com/media/495cbc_fa2acf5d02c54e90a9a8cefe6a2470bf~mv2.jpg/v1/fill/w_123,h_82,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/495cbc_fa2acf5d02c54e90a9a8cefe6a2470bf~mv2.jpg",
+   "alt": "DMD_1776PS.JPG",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/495cbc_1c70b642e74f4965aa3902b9dbe3e00a~mv2.jpg/v1/fill/w_123,h_80,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/495cbc_1c70b642e74f4965aa3902b9dbe3e00a~mv2.jpg",
+   "alt": "LivRm_Contemp_Dim-Hi.jpg",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/495cbc_a871115db41c48379297a3657dcbe70e~mv2.jpg/v1/fill/w_123,h_91,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/495cbc_a871115db41c48379297a3657dcbe70e~mv2.jpg",
+   "alt": "Drapery_WestCoastFamily1_hi.jpg",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Facebook.png",
+   "alt": "Facebook",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Twitter.png",
+   "alt": "Twitter",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_20,h_20,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LinkedIn.png",
+   "alt": "LinkedIn",
+   "note": ""
+  }
+ ]
+}

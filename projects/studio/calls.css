@@ -1,0 +1,88 @@
+/* Monarc Calls (reworked 2026-10-03): the notes window, about 510 x 780 beside Airtable's grid (Q41). Studio's tokens
+   and parts (style.css), this one column on top: the bar, the live notes and the cards to file, the Airtable footer. */
+.cl-app{display:grid;grid-template-rows:52px minmax(0,1fr) auto;height:100vh}
+.cl-bar{display:flex;align-items:center;gap:10px;padding:0 10px 0 16px;border-bottom:1px solid var(--divider);min-width:0}
+.cl-main{overflow:auto;padding:12px 14px 20px;display:grid;gap:14px;align-content:start}
+.cl-foot{display:flex;align-items:center;gap:10px;min-height:38px;padding:6px 14px;border-top:1px solid var(--divider);font-size:12px}
+.cl-foot .ms{font-size:16px;vertical-align:-3px;margin-right:4px}
+.cl-foot-warn{color:var(--warn);flex:1}
+.cl-foot-bad{color:var(--down);flex:1;cursor:help}
+
+/* ---------------------------------------------------------------- the bar */
+.cl-dot{width:12px;height:12px;border-radius:50%;background:#5F6368;flex:none;transition:transform .15s}
+.cl-dot.on{background:#81C995}
+.cl-dot.on.hear{box-shadow:0 0 0 5px rgba(129,201,149,.22);animation:cl-pulse 0.9s ease-in-out infinite}
+.cl-dot.paused{background:var(--warn)}
+@keyframes cl-pulse{50%{transform:scale(1.25)}}
+.cl-state-label{font:500 14px/20px var(--display);white-space:nowrap}
+.cl-clock{font:500 13px/1 var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.cl-bar .grow{flex:1}
+.cl-key{cursor:default}
+.btn.cl-stop{background:#C5221F;color:#fff}
+.btn.cl-stop:hover{background:#D93025}
+.btn.cl-go{background:#81C995;color:#0B3D1A}
+.btn.cl-go:hover{background:#9ad6aa}
+.btn.cl-go:disabled{background:rgba(227,227,227,.12);color:var(--disabled)}
+
+/* ---------------------------------------------------------------- banners, start */
+.cl-banners{display:grid;gap:8px}
+.cl-banners:empty{display:none}
+.cl-banner{display:flex;align-items:flex-start;gap:8px;background:var(--down-tint);color:var(--down);border-radius:var(--r-sm);padding:9px 12px;font-size:13px;line-height:19px}
+.cl-banner.warn{background:var(--warn-tint);color:var(--warn)}
+.cl-banner .ms{font-size:18px;flex:none}
+.cl-banner .grow{flex:1}
+.cl-start{display:grid;gap:12px;padding:6px 2px}
+.cl-start h1{font:400 26px/34px var(--display)}
+.cl-hint{color:var(--on-surface-variant);font-size:13px;line-height:19px}
+.cl-checks{display:grid;gap:6px}
+.cl-check{display:flex;align-items:flex-start;gap:8px;font-size:13px;line-height:19px;color:var(--on-surface-variant)}
+.cl-check .ms{font-size:18px;margin-top:1px}
+.cl-check.ok .ms{color:var(--up)}
+.cl-check.bad .ms{color:var(--down)}
+.cl-check.bad{color:var(--on-surface)}
+
+/* ---------------------------------------------------------------- sections */
+.cl-sec-head{display:flex;align-items:baseline;gap:10px;padding:2px 2px 6px}
+.cl-sec-title{font:500 12px/16px var(--sans);text-transform:uppercase;letter-spacing:.8px;color:var(--on-surface)}
+.cl-empty{color:var(--muted);font-size:13px;line-height:19px;padding:2px 2px 6px}
+.cl-mb{font:400 11px/1 var(--mono);color:var(--muted)}
+
+/* this call */
+.cl-live{background:var(--surface);border-radius:var(--r-lg);padding:12px 14px;display:grid;gap:8px}
+.cl-group{display:grid;gap:4px}
+.cl-kind{font:500 11px/16px var(--sans);text-transform:uppercase;letter-spacing:.8px;color:var(--muted)}
+.cl-kind.k-offering{color:#8AB4F8}
+.cl-kind.k-constraint{color:#FDD663}
+.cl-kind.k-objection{color:#F28B82}
+.cl-kind.k-email,.cl-kind.k-name,.cl-kind.k-phone,.cl-kind.k-meeting{color:#81C995}
+.cl-note{font-size:14px;line-height:20px;color:var(--on-surface);user-select:text}
+.cl-note b{font-weight:600;color:#fff}
+.cl-heard{font-size:12px;line-height:17px;color:var(--muted)}
+.cl-flag{color:var(--warn);font-size:12px}
+
+/* to file */
+.cl-tofile{display:grid;gap:8px}
+.cl-cards{display:grid;gap:10px}
+.cl-card{background:var(--surface);border-radius:var(--r-lg);padding:10px 12px 10px;display:grid;gap:8px;border:1px solid var(--outline-variant)}
+.cl-card-head{display:flex;align-items:center;gap:8px;min-width:0}
+.cl-card-head .grow{flex:1}
+.cl-card-name{font:500 15px/20px var(--display);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.cl-rows{display:grid;gap:6px}
+.cl-row-wrap{display:grid;gap:2px}
+.cl-row{display:grid;grid-template-columns:104px minmax(0,1fr) 26px;gap:6px;align-items:start}
+.cl-row-kind{background:var(--surface-1);border:1px solid var(--outline-variant);border-radius:var(--r-xs);color:var(--on-surface);font-size:12px;
+  padding:5px 4px;min-height:32px}
+.cl-row-text{background:var(--surface-1);border:1px solid var(--outline-variant);border-radius:var(--r-xs);color:var(--on-surface);font:400 13px/18px var(--sans);
+  padding:6px 8px;min-height:32px;resize:none;overflow:hidden;width:100%}
+.cl-row-text:focus,.cl-row-kind:focus{outline:none;border-color:var(--primary);box-shadow:inset 0 0 0 1px var(--primary)}
+.cl-row.flag .cl-row-text{border-color:var(--warn)}
+.cl-row-under{display:flex;gap:10px;flex-wrap:wrap;padding-left:110px}
+.cl-card-actions{display:flex;align-items:center;gap:6px}
+.cl-card-actions .grow{flex:1}
+
+/* filed */
+.cl-filed{display:grid;gap:2px}
+.cl-filed:empty{display:none}
+.cl-filed-row{display:flex;align-items:center;gap:8px;font-size:13px;line-height:18px;padding:3px 2px;color:var(--on-surface-variant)}
+.cl-filed-row .ms{font-size:16px;color:var(--up)}
+.cl-filed-row .grow{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}

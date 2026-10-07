@@ -1,0 +1,169 @@
+{
+ "version": "a678d3d8",
+ "fit_date": "2026-10-04T04:49:41Z",
+ "features": [
+  "goals",
+  "shots_on_target_x_conversion",
+  "home_advantage",
+  "time_decay",
+  "dixon_coles_rho"
+ ],
+ "training_seasons": [
+  "2425",
+  "2526",
+  "2627"
+ ],
+ "sources": [
+  "football-data.co.uk E0 2024/25 to 2026/27"
+ ],
+ "params": {
+  "teams": {
+   "arsenal": {
+    "attack": 0.211697,
+    "defence": -0.505357
+   },
+   "aston villa": {
+    "attack": 0.07272,
+    "defence": 0.030392
+   },
+   "bournemouth": {
+    "attack": 0.138537,
+    "defence": -0.068473
+   },
+   "brentford": {
+    "attack": 0.102318,
+    "defence": -0.025727
+   },
+   "brighton": {
+    "attack": 0.256032,
+    "defence": -0.114189
+   },
+   "burnley": {
+    "attack": -0.229931,
+    "defence": 0.264839
+   },
+   "chelsea": {
+    "attack": 0.170941,
+    "defence": 0.078326
+   },
+   "coventry": {
+    "attack": -0.375246,
+    "defence": 0.059393
+   },
+   "crystal palace": {
+    "attack": -0.067028,
+    "defence": 0.072023
+   },
+   "everton": {
+    "attack": -0.039897,
+    "defence": -0.105137
+   },
+   "fulham": {
+    "attack": -0.070863,
+    "defence": -0.052036
+   },
+   "hull": {
+    "attack": -0.105429,
+    "defence": -0.187319
+   },
+   "ipswich": {
+    "attack": -0.019289,
+    "defence": 0.294468
+   },
+   "leeds": {
+    "attack": -0.020885,
+    "defence": -0.082334
+   },
+   "leicester": {
+    "attack": -0.256837,
+    "defence": 0.215307
+   },
+   "liverpool": {
+    "attack": 0.201845,
+    "defence": -0.097269
+   },
+   "man city": {
+    "attack": 0.360981,
+    "defence": -0.261077
+   },
+   "man united": {
+    "attack": 0.272097,
+    "defence": -0.068847
+   },
+   "newcastle": {
+    "attack": 0.144403,
+    "defence": 0.079473
+   },
+   "nottm forest": {
+    "attack": -0.019356,
+    "defence": -0.096798
+   },
+   "southampton": {
+    "attack": -0.285804,
+    "defence": 0.336137
+   },
+   "sunderland": {
+    "attack": -0.069989,
+    "defence": -0.026902
+   },
+   "tottenham": {
+    "attack": -0.078755,
+    "defence": 0.039816
+   },
+   "west ham": {
+    "attack": -0.037588,
+    "defence": 0.105466
+   },
+   "wolves": {
+    "attack": -0.254676,
+    "defence": 0.115826
+   }
+  },
+  "mu": 0.20988651020815946,
+  "home": 0.15118664357839454,
+  "rho": -0.10700385150756798,
+  "xi": 0.004,
+  "sot_blend": 0.5,
+  "conv": 0.3241169651249375,
+  "prior": [
+   -0.1367946716623565,
+   0.0536907308690134
+  ],
+  "as_of": "2026-10-04T04:49:41Z",
+  "n_rows": 810,
+  "loglik": -372.9938461739552,
+  "seasons": [
+   "2425",
+   "2526",
+   "2627"
+  ],
+  "temperature": 0.9447957656632184,
+  "centres": {
+   "arsenal": "average",
+   "aston villa": "average",
+   "bournemouth": "average",
+   "brentford": "average",
+   "brighton": "average",
+   "burnley": "prior",
+   "chelsea": "average",
+   "coventry": "prior",
+   "crystal palace": "average",
+   "everton": "average",
+   "fulham": "average",
+   "hull": "prior",
+   "ipswich": "average",
+   "leeds": "prior",
+   "leicester": "average",
+   "liverpool": "average",
+   "man city": "average",
+   "man united": "average",
+   "newcastle": "average",
+   "nottm forest": "average",
+   "southampton": "average",
+   "sunderland": "prior",
+   "tottenham": "average",
+   "west ham": "average",
+   "wolves": "average"
+  }
+ }
+}

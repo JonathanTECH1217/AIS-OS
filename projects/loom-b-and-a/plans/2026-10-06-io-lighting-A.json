@@ -1,0 +1,269 @@
+{
+ "out": "media/loom-ba/2026-10-06/io-lighting/io-lighting-loom-ba.mp4",
+ "states_dir": "media/looms/io-lighting-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "io-lightingandaudio.com",
+ "url": "https://io-lightingandaudio.com/copy-of-holiday-event-lifghting",
+ "render": "projects/Landing Page Build/prospects/io-lighting/index.html",
+ "folder": "media/looms/6b2cdd19-rebuild-your-outdoor-lighting-landing-page",
+ "why": "The Innovative Outdoor Lighting and Audio audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-io-lighting.md: the first-screen changes made on their live Custom Lighting Design page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "246:246:31:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 1.2,
+ "end_at": 199.95,
+ "pause": 0.5,
+ "cuts": [
+  [
+   2.6,
+   12.0,
+   "the recording starts mid-sentence (designers, the media assets for a low voltage, as well as doing the installation design process): its start is missing, so it does no work"
+  ],
+  [
+   35.45,
+   39.3,
+   "a false start (to custom lighting design, or); the headline lands on outdoor lighting design"
+  ],
+  [
+   46.88,
+   47.7,
+   "a false start (right below)"
+  ],
+  [
+   77.456,
+   78.66,
+   "a stumble (book in a meeting); said right the next time"
+  ],
+  [
+   81.0,
+   83.28,
+   "a false start and a hedge (in this, um, I think)"
+  ],
+  [
+   103.5,
+   111.55,
+   "a line that trails off (and then, but, just another, works well)"
+  ],
+  [
+   120.08,
+   129.78,
+   "the section order recapped mid-thought (so they go, so hero, services, then the about section)"
+  ],
+  [
+   158.768,
+   159.85,
+   "'about lighting control': they sell outdoor lighting, not lighting control; the FAQ on screen is outdoor lighting"
+  ],
+  [
+   163.216,
+   164.4,
+   "'your network': not on their site; the services on screen are their own six pages"
+  ],
+  [
+   166.9,
+   174.35,
+   "distributed media and indoor lighting control: integrator items not on their site; the cards on screen are their outdoor audio, security, holiday, installation, maintenance, and repairs pages"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "SDO": "SEO",
+  "It": ""
+ },
+ "changes": [
+  {
+   "at": 28.46,
+   "kind": "css",
+   "selector": "#SITE_HEADER",
+   "style": "height:80px !important; min-height:80px !important; max-height:80px !important; overflow:hidden !important"
+  },
+  {
+   "at": 28.46,
+   "kind": "css",
+   "selector": "#comp-kfexpwtt",
+   "style": "transform-origin:0 0 !important; transform:translate(-302px,-6px) scale(0.3675) !important"
+  },
+  {
+   "at": 28.46,
+   "kind": "center"
+  },
+  {
+   "at": 28.46,
+   "kind": "css",
+   "selector": "#comp-lo0galie6",
+   "style": "margin:0 auto !important; width:960px !important; max-width:960px !important; align-self:center !important; justify-self:center !important; left:auto !important"
+  },
+  {
+   "at": 28.46,
+   "kind": "css",
+   "selector": "#comp-lo0galie6 h1",
+   "style": "margin-left:auto !important; margin-right:auto !important; text-align:center !important"
+  },
+  {
+   "at": 28.46,
+   "kind": "header"
+  },
+  {
+   "at": 33.17,
+   "kind": "headline",
+   "text": "Outdoor Lighting Design in Palm Desert"
+  },
+  {
+   "at": 33.17,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 33.17,
+   "kind": "font",
+   "selector": "#SITE_HEADER",
+   "family": "Newsreader:opsz,wght@6..72,300&family=Manrope",
+   "weight": 600
+  },
+  {
+   "at": 33.17,
+   "kind": "css",
+   "selector": "#comp-lo0galie6 h1, #comp-lo0galie6 h1 *",
+   "style": "font-size:72px !important; line-height:75.6px !important; letter-spacing:-0.72px !important; font-family:Newsreader, Georgia, serif !important; font-weight:300 !important; text-wrap:balance !important"
+  },
+  {
+   "at": 47.76,
+   "kind": "font",
+   "selector": "#SITE_HEADER",
+   "family": "Manrope",
+   "weight": 600
+  },
+  {
+   "at": 47.76,
+   "kind": "eyebrow",
+   "reuse": true
+  },
+  {
+   "at": 47.76,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "margin:0 auto 26px !important; text-align:center !important; font-family:Manrope, Arial, sans-serif !important; font-weight:600 !important; font-size:14px !important; letter-spacing:2.24px !important; line-height:19.6px !important; text-transform:uppercase !important"
+  },
+  {
+   "at": 59.31,
+   "kind": "css",
+   "selector": "#comp-lo0galif1",
+   "style": "position:fixed !important; top:429.4px !important; left:50% !important; transform:translateX(-50%) !important; width:640px !important; margin:0 !important; z-index:50 !important"
+  },
+  {
+   "at": 59.31,
+   "kind": "copy",
+   "selector": "#comp-lo0galif1 p",
+   "keep": "Path lights, step lights, well lights, up lights, and wall washers, in warm white, cool white, or full color. Our designers lay out the property, show you a night-time demo, then our installers set and aim every light."
+  },
+  {
+   "at": 59.31,
+   "kind": "font",
+   "selector": "#SITE_HEADER",
+   "family": "Poppins",
+   "weight": 400
+  },
+  {
+   "at": 59.31,
+   "kind": "css",
+   "selector": "#comp-lo0galif1 p, #comp-lo0galif1 p *",
+   "style": "font-family:Poppins, Arial, sans-serif !important; font-weight:400 !important; letter-spacing:normal !important; text-align:center !important; font-size:21px !important; line-height:31.5px !important"
+  },
+  {
+   "at": 75.7,
+   "kind": "font",
+   "selector": "#SITE_HEADER",
+   "family": "Manrope",
+   "weight": 700
+  },
+  {
+   "at": 75.7,
+   "kind": "cta",
+   "text": "Book a meeting",
+   "background": "#116DFF",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 75.7,
+   "kind": "css",
+   "selector": "[data-mb-cta] .login-social-bar__avatar-icon",
+   "style": "display:none !important"
+  },
+  {
+   "at": 75.7,
+   "kind": "css",
+   "selector": "[data-mb-cta] *",
+   "style": "margin:0 !important; padding:0 !important"
+  },
+  {
+   "at": 75.7,
+   "kind": "css",
+   "selector": "[data-mb-cta]",
+   "style": "position:fixed !important; top:591.4px !important; left:50% !important; transform:translateX(-50%) !important; margin:0 !important; z-index:50 !important; font-family:Manrope, Arial, sans-serif !important; font-weight:700 !important; letter-spacing:normal !important; font-size:20px !important; gap:0 !important"
+  },
+  {
+   "at": 90.83,
+   "kind": "css",
+   "selector": "#img_comp-lo0galif17 img",
+   "style": "filter:brightness(0.5) !important"
+  },
+  {
+   "at": 90.83,
+   "kind": "css",
+   "selector": "#comp-lo0galif1 p, #comp-lo0galif1 p *",
+   "style": "color:rgba(255,255,255,0.9) !important"
+  },
+  {
+   "at": 96.5,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 98.02,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 119.39,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 139.62,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 143.76,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 154.93,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 161.62,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 184.91,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 188.86,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

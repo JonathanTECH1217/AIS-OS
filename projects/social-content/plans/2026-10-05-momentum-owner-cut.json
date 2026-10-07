@@ -1,0 +1,78 @@
+{
+ "out": "media/looms/momentum-2026-10-05/owner-cut-tight.mp4",
+ "why": "The owner's version of the Momentum review joined to the after. Jonathan, 2026-10-05: \"take out the part where it talks about them being my prospect\" and \"When the things I'm saying don't do a lot of work as far as keeping people engaged or the information that I'm saying is kind of inaccurate, it should just be cut.\"",
+ "pause": 0.5,
+ "parts": [
+  {
+   "folder": "media/looms/ba7df3a7-momentum",
+   "cuts": [
+    [
+     0.0,
+     21.85,
+     "the opener for a general audience and the line that calls them a prospect"
+    ],
+    [
+     137.15,
+     141.0,
+     "a guess about them, not a fact: the copy being written by ChatGPT"
+    ],
+    [
+     156.0,
+     159.83,
+     "a repeat: reviews closer to the call to action was said 30 seconds earlier"
+    ],
+    [
+     188.0,
+     196.0,
+     "the close trails off and promises work 'automatically'"
+    ]
+   ]
+  },
+  {
+   "folder": "media/looms/44a700d9-momentum-after",
+   "keep_whole": [
+    [
+     87.0,
+     117.9
+    ]
+   ],
+   "cuts": [
+    [
+     0.0,
+     24.5,
+     "'Okie dokie' and 23 seconds of silence"
+    ],
+    [
+     36.25,
+     41.28,
+     "undersells the work: it did not take much time to put together"
+    ],
+    [
+     69.35,
+     73.35,
+     "a repeat of the line before it: what the buyer gets from the offering"
+    ],
+    [
+     118.6,
+     123.45,
+     "not accurate: the render's form sends nothing to his inbox"
+    ],
+    [
+     146.3,
+     154.85,
+     "not accurate and muddled: the 'neighbors' band was not made smaller"
+    ],
+    [
+     191.1,
+     197.3,
+     "false starts and a line about enjoying the work"
+    ],
+    [
+     208.55,
+     999.0,
+     "trails off after the ask to use the page as a reference"
+    ]
+   ]
+  }
+ ]
+}

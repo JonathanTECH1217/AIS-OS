@@ -1,0 +1,276 @@
+{
+ "out": "media/loom-ba/2026-10-06/sierra-integrated/sierra-integrated-loom-ba.mp4",
+ "states_dir": "media/looms/sierra-integrated-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "sierraintegratedsystems.com",
+ "url": "https://sierraintegratedsystems.com/solutions/lighting-design",
+ "render": "projects/Landing Page Build/prospects/sierra-integrated/index.html",
+ "folder": "media/looms/8c241718-increase-landing-page-conversions-for-lighting",
+ "why": "The Sierra Integrated Systems audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-sierra-integrated.md: the first-screen changes made on their live lighting design page one by one as he names them, then the rebuilt page section by section as he walks the order. His words only; the competitor talk is out.",
+ "face": {
+  "crop": "244:244:34:745",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.86,
+ "end_at": 275.5,
+ "pause": 0.5,
+ "cuts": [
+  [
+   9.55,
+   10.43,
+   "a stammer: their currently"
+  ],
+  [
+   24.42,
+   31.9,
+   "competitor talk: this company works with multiple integrators in your target market, so I'm going to tell you why; the page point is already made"
+  ],
+  [
+   39.6,
+   44.0,
+   "a lead-in with nothing in it: coming up, so, first thing I'll say is"
+  ],
+  [
+   50.82,
+   55.2,
+   "a guess that is not right: the page is lighting design, not lighting control installation"
+  ],
+  [
+   59.6,
+   64.0,
+   "a misspeak he corrects in the next breath: increase the header by about 20 percent"
+  ],
+  [
+   159.1,
+   160.3,
+   "right below the call to action, said a second time"
+  ],
+  [
+   176.3,
+   177.05,
+   "a restart: that would"
+  ],
+  [
+   194.34,
+   195.4,
+   "filler: that just, yeah"
+  ],
+  [
+   201.3,
+   204.35,
+   "a restart: and then, this is a"
+  ],
+  [
+   231.84,
+   251.3,
+   "competitor talk: a guess that they are locked into a contract and a claim that the agency sells their leads to other integrators; nothing on screen shows it and it is not his ask"
+  ],
+  [
+   252.9,
+   266.0,
+   "competitor talk: way more than the agency does, I know their operation, a little bit of a spy; not his ask"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "Chew": "to",
+  "hour": "our",
+  "constellation": "consultation",
+  "heroes": "hero"
+ },
+ "changes": [
+  {
+   "at": 0.0,
+   "kind": "text",
+   "selector": "head > style:last-of-type",
+   "text": "*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important} .lhn-chat-container,#lhnHocButton,.lhnNotification{display:none!important}"
+  },
+  {
+   "at": 60.29,
+   "kind": "header"
+  },
+  {
+   "at": 64.02,
+   "kind": "css",
+   "selector": ".tm-header .uk-navbar-container, .tm-header .uk-navbar, .tm-header .uk-navbar-right, .tm-header .uk-navbar-left, .tm-header .uk-navbar-nav, .tm-header .uk-navbar-nav > li > a, .tm-header .uk-navbar-item, .tm-header .uk-logo",
+   "style": "height:112px !important;min-height:112px !important"
+  },
+  {
+   "at": 67.62,
+   "kind": "css",
+   "selector": "[id=\"page#1\"]",
+   "style": "width:100% !important;max-width:100% !important;flex:0 0 100% !important;text-align:center !important"
+  },
+  {
+   "at": 67.62,
+   "kind": "center"
+  },
+  {
+   "at": 67.62,
+   "kind": "css",
+   "selector": "[id=\"page#1\"]",
+   "style": "display:flex !important;flex-direction:column !important;align-items:center !important"
+  },
+  {
+   "at": 67.62,
+   "kind": "css",
+   "selector": "[id=\"page#1\"] > *",
+   "style": "margin-left:auto !important;margin-right:auto !important;text-align:center !important;max-width:100% !important"
+  },
+  {
+   "at": 67.62,
+   "kind": "css",
+   "selector": "[id=\"page#1\"] .uk-grid",
+   "style": "justify-content:center !important;margin-left:0 !important;flex-wrap:nowrap !important;gap:24px !important;width:auto !important"
+  },
+  {
+   "at": 67.62,
+   "kind": "css",
+   "selector": "[id=\"page#1\"] .uk-grid > *",
+   "style": "padding-left:0 !important;width:auto !important;flex:0 0 auto !important;margin:0 !important"
+  },
+  {
+   "at": 70.02,
+   "kind": "cta",
+   "text": "Schedule a Private Consultation",
+   "background": "#EBA900",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 75.97,
+   "kind": "css",
+   "selector": "[id=\"page#2\"] .uk-position-cover",
+   "style": "background:linear-gradient(180deg,rgba(18,19,22,.80),rgba(18,19,22,.62)) !important;opacity:1 !important"
+  },
+  {
+   "at": 88.37,
+   "kind": "headline",
+   "text": "Lighting Design for Your Nevada Home"
+  },
+  {
+   "at": 88.37,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 97.33,
+   "kind": "eyebrow",
+   "text": "For homeowners in Reno, Tahoe, and Truckee",
+   "color": "#FFC247"
+  },
+  {
+   "at": 97.33,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family:'Roboto Condensed',Roboto,Arial,sans-serif !important;font-size:14px !important;font-weight:600 !important;letter-spacing:2.24px !important;line-height:19.6px !important;color:#FFC247 !important;margin:0 auto 26px !important;text-align:center !important"
+  },
+  {
+   "at": 97.33,
+   "kind": "css",
+   "selector": "[data-mb-head]",
+   "style": "margin-top:0 !important;margin-bottom:0 !important"
+  },
+  {
+   "at": 108.64,
+   "kind": "css",
+   "selector": "[data-mb-head] + *",
+   "style": "margin-top:26px !important"
+  },
+  {
+   "at": 108.64,
+   "kind": "copy",
+   "keep": "Lighting has the power to shape how your home looks and feels. Our lighting design services bring intention, comfort, and performance to every space."
+  },
+  {
+   "at": 120.48,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 123.28,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 146.3,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 160.37,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 161.33,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 174.42,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 183.36,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 191.62,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 199.92,
+   "kind": "section",
+   "band": "faq"
+  },
+  {
+   "at": 206.82,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 210.82,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 211.14,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 212.42,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 216.03,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 221.84,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 227.68,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 229.68,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

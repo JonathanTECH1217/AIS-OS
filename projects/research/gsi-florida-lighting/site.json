@@ -1,0 +1,52 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.gsi-fl.com/booking-calendar/lighting-installation",
+ "title": "Lighting Installation - GSI-FL.com",
+ "description": "",
+ "words": 73,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Schedule your service"
+  },
+  {
+   "tag": "h1",
+   "text": "Subscribe Form"
+  }
+ ],
+ "phones": [
+  "561-419-9449"
+ ],
+ "colors": [
+  "#3899ec",
+  "#162d3d",
+  "#df3131",
+  "#4eb7f5",
+  "#116dff",
+  "#eaf7ff",
+  "#aa4dc8",
+  "#2b81cb",
+  "#ee5951",
+  "#32536a"
+ ],
+ "faces": [
+  "Arial",
+  "Helvetica",
+  "Madefor",
+  "fahkwang",
+  "helvetica-w01-roman",
+  "inherit!important",
+  "playfair display",
+  "var(--bookButtonTextFont-family)",
+  "var(--bookings-viewer-ui-multiselect-dro",
+  "var(--bookings-viewer-ui-timezone-select"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://static.wixstatic.com/media/6d3f9b_b74a0eed1c4247c8a7c5c17fa5300cdf~mv2.png/v1/fill/w_1024,h_110,al_c,q_85,enc_avif,quality_auto/Electrical%20plan%20room%20with%20blue%20prints_ed.png",
+   "alt": "Electrical plan room with blue prints_ed",
+   "note": ""
+  }
+ ]
+}

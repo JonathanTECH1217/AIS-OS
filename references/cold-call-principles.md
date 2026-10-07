@@ -12,7 +12,7 @@ Extracted 2026-09-07 from Jonathan's own script (`references/voice.md`, Sample 1
 
 ## Every line has one job
 
-Label each line with exactly one of these. No job, cut it. Two jobs, split it.
+Label each line with exactly one of these. No job, cut it. Two jobs, split it. Video adaptation of this table (HOOK, BOUND, FILTER, PROVE, NAME, ASK, LOCK, HOLD): `templates/vsl-draft.md`.
 
 | Job | What the line does | In the current script |
 |---|---|---|
@@ -30,4 +30,6 @@ Label each line with exactly one of these. No job, cut it. Two jobs, split it.
 - Under 45 seconds read aloud, so a 60 second promise is kept with room.
 - Every ASK line has three written objections under it with a one-sentence return to the ask.
 - No em dashes. Short lines. Plain words.
+- No hedges. Never "I think," "I believe," "probably." State it or cut it.
+- One job per email. A case email books the call; the call and the pilot close.
 - Never impersonate Jonathan on a live call or send in his name without a draft approved first.

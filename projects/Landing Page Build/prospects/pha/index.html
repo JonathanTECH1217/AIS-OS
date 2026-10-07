@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Lighting Control Installation in Annapolis | Performance Home Automation</title>
+<!-- A render, not their live page (2026-10-05). Built from Jonathan's Loom review of pha.systems/smart-lighting-control
+     (brief.md beside this file). Their logo, faces, photos, and words come from their public site. The form sends
+     nothing anywhere. Local only: this company is never named in Monarc's own pages or copy. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&family=Manrope:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* --leaf is the green of their logo: used where it sits on black or as a line. --green is the same hue, deeper, for
+   the button and the cards, so white text on it can be read (white on the logo's own green measures 2.1 to 1). */
+:root{--leaf:#8CC440;--green:#3F7A17;--green-dark:#356B12;--black:#000000;--ink:#111111;--grey:#3A3A3A;--mist:#F3F6F0;--line:#E1E5DC;--white:#FFFFFF;
+  /* A company that sells to high-end homes gets a serif for its headings: light, soft, not sharp, not Victorian
+     (Jonathan, 2026-10-05). --head is their own sans, kept for buttons, eyebrows, and small labels. */
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;--head:"Manrope",Arial,sans-serif;--body:"Poppins",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.65 var(--body);color:var(--grey);background:var(--white);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+.col{width:100%;max-width:960px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);color:var(--ink);text-wrap:balance}
+h1{font-size:72px;line-height:1.05;font-weight:300;letter-spacing:-.01em}
+h2{font-size:44px;line-height:1.12;font-weight:300;letter-spacing:-.005em}
+h3{font-size:25px;line-height:1.22;font-weight:400}
+.eyebrow{font:600 14px/1 var(--head);letter-spacing:.16em;text-transform:uppercase}
+.center{text-align:center}
+section{padding:96px 0}
+.lead{margin-top:56px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:64px;padding:0 46px;border:0;border-radius:8px;background:var(--green);color:var(--white);font:700 20px/1 var(--head);transition:background .15s ease,transform .15s ease}
+.btn:hover{background:var(--green-dark);transform:translateY(-1px)}
+.btn:focus-visible,.ghost:focus-visible{outline:3px solid var(--leaf);outline-offset:3px}
+.btn.small{min-height:46px;padding:0 22px;font-size:16px}
+
+.top{position:sticky;top:0;z-index:5;background:var(--white);border-bottom:1px solid var(--line)}
+.top .col{display:flex;align-items:center;gap:24px;height:80px;max-width:1120px}
+.top img{height:46px;width:auto}
+.top .phone{margin-left:auto;font:600 16px/1 var(--head);color:var(--ink)}
+
+/* hero: white on a dark photo, everything centered, one thing to do. The photo is the front of the Georgian Colonial,
+   the one behind the hero of monarcbuild.com/av_marketing/ (assets/georgian.jpg). He tried their vans here first and
+   flipped the two the same evening (Jonathan, 2026-10-05: "Flip the hero and our process background photos"). */
+.hero{position:relative;display:grid;place-items:center;min-height:min(84vh,700px);padding:96px 0;color:var(--white);text-align:center;background:var(--black);overflow:hidden}
+/* The house is scaled up a little and slid so its portico sits in the middle, around the button: the columns frame
+   the one thing to press (Jonathan, 2026-10-05). In the photo the portico's middle is 53 percent across; the scale
+   grows from that point and the slide brings it to the centre line. */
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform-origin:53% 66%;transform:translate(-3%,1%) scale(1.16)}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,19,22,.82),rgba(18,19,22,.64))}
+.hero .col{position:relative;display:grid;justify-items:center;gap:26px}
+/* The line at the top of the hero is their press, in green, with nothing behind it (Jonathan, 2026-10-05: first "in
+   the dark green text", then "take out the white background behind the text"). The button's dark green measures about
+   3 to 1 on the dark photo and cannot be read, so this is the deepest green of the same hue that still can: about
+   4.9 to 1 here, darker than the logo's own green. */
+.hero .eyebrow{color:#5E9A1F;line-height:1.4;max-width:92%}
+.hero h1{color:var(--white);max-width:900px}
+.hero .sub{font-size:21px;line-height:1.5;max-width:640px;color:rgba(255,255,255,.9)}
+.hero .btn{margin-top:10px}
+.trust{font:500 14px/1.5 var(--head);letter-spacing:.02em;color:rgba(255,255,255,.72);max-width:620px}
+
+/* reviews, straight under the ask */
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.quote{border-radius:12px;padding:28px;display:grid;gap:12px;align-content:start;background:var(--mist)}
+.quote p{font-size:16px;line-height:1.6;color:var(--ink)}
+.quote .who{font:600 14px/1.3 var(--head);color:var(--grey)}
+.rating{margin-top:14px;text-align:center;font:600 15px/1.4 var(--head);color:var(--ink)}
+.rating .stars{margin-right:6px}
+.stars{color:#F2B01E;font-size:19px;letter-spacing:3px}
+
+/* what you get: green cards, white words */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.card{background:var(--green);color:var(--white);border-radius:12px;padding:32px 28px;display:grid;gap:14px;align-content:start}
+.card h3{color:var(--white)}
+.card svg{width:44px;height:44px;color:var(--white)}
+.card p{font-size:16px;line-height:1.6;color:rgba(255,255,255,.95)}
+.ask{display:grid;justify-items:center;gap:14px;margin-top:56px}
+.ask .micro{font-size:14px;color:var(--grey)}
+
+.about{background:var(--mist)}
+.about .col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}
+.about .eyebrow{color:var(--green)}
+.about p{margin-top:20px}
+/* the team photo he supplied (2026-10-05): wide, so the box is wide and nobody at the edges is cut off */
+.team{aspect-ratio:5/4;border-radius:12px;overflow:hidden;background:var(--white)}
+.team img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+
+.work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.shot{aspect-ratio:4/5;border-radius:12px;overflow:hidden;background:var(--mist)}
+.shot img{width:100%;height:100%;object-fit:cover}
+
+/* the process, for the people who bring them work. Behind it: their own vans lined up outside the shop, from their
+   Google Business Profile (assets/vans.jpg), under a scrim dark enough for the small words. */
+.process{color:var(--white);background:linear-gradient(180deg,rgba(8,9,11,.84),rgba(8,9,11,.88)),#000 url("assets/vans.jpg") center 55%/cover no-repeat}
+.process h2{color:var(--white)}
+.process .eyebrow{color:var(--leaf)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;counter-reset:step}
+.step-card{border-top:3px solid var(--leaf);padding-top:20px;display:grid;gap:10px;align-content:start;counter-increment:step}
+.step-card::before{content:counter(step);font:700 34px/1 var(--head);color:var(--leaf)}
+.step-card h3{color:var(--white);font-size:20px}
+.step-card p{font-size:15px;line-height:1.6;color:rgba(255,255,255,.82)}
+.process .ask .micro{color:rgba(255,255,255,.7)}
+
+.final{text-align:center}
+.final p{margin-top:16px;font-size:19px}
+.final .btn{margin-top:40px}
+
+footer{background:var(--black);color:rgba(255,255,255,.78);padding:36px 0;font-size:14px}
+footer .col{display:flex;flex-wrap:wrap;align-items:center;gap:12px 36px;max-width:1120px}
+footer strong{font:600 15px/1 var(--head);color:var(--white)}
+footer .right{margin-left:auto}
+footer .creds{flex-basis:100%;padding-top:12px;border-top:1px solid rgba(255,255,255,.16);font-size:13px;color:rgba(255,255,255,.6)}
+
+.veil{position:fixed;inset:0;z-index:20;display:none;place-items:center;padding:24px;background:rgba(0,0,0,.66)}
+.veil.open{display:grid}
+.sheet{position:relative;width:100%;max-width:520px;background:var(--white);border-radius:14px;padding:40px 36px 32px;display:grid;gap:24px}
+.sheet .x{position:absolute;top:10px;right:12px;width:40px;height:40px;border:0;background:none;font-size:26px;line-height:1;color:var(--grey);border-radius:50%}
+.sheet .x:hover{background:var(--mist)}
+.bar{height:6px;border-radius:3px;background:var(--mist);overflow:hidden}
+.bar b{display:block;height:100%;width:25%;background:var(--green);transition:width .2s ease}
+.count{font:600 13px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--grey)}
+.step{display:none;gap:14px}
+.step.on{display:grid}
+.step label{font:700 26px/1.2 var(--head);color:var(--ink)}
+.step .hint{font-size:15px;color:var(--grey)}
+.step input,.step textarea{width:100%;border:2px solid #C5CCBD;border-radius:8px;padding:14px 16px;font:400 18px/1.4 var(--body);color:var(--ink)}
+.step textarea{min-height:120px;resize:vertical}
+.step input:focus,.step textarea:focus{border-color:var(--green);outline:4px solid rgba(63,122,23,.2)}
+.err{min-height:20px;font-size:14px;color:#B3261E}
+.nav{display:flex;align-items:center;gap:16px}
+.ghost{border:0;background:none;font:600 16px/1 var(--head);color:var(--grey);padding:12px 8px;border-radius:6px}
+.ghost:hover{color:var(--ink)}
+.nav .btn{margin-left:auto;min-height:54px;padding:0 34px;font-size:18px}
+.sent{display:none;gap:16px;text-align:center;justify-items:center}
+.sent.on{display:grid}
+.sent .tick{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:var(--green);color:var(--white)}
+.sent .tick svg{width:32px;height:32px}
+.sent h3{font-size:28px}
+.cal{display:none;width:100%;border:2px dashed #AEB7A4;border-radius:10px;padding:26px 16px;font:600 14px/1.45 var(--head);color:#55604B;background:var(--mist)}
+.cal.on{display:block}
+
+@media (max-width:860px){
+  h1{font-size:42px}h2{font-size:32px}body{font-size:16px}
+  section{padding:72px 0}
+  .cards,.quotes,.work{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr;gap:32px 20px}
+  .about .col{grid-template-columns:1fr;gap:32px}
+  .hero .sub{font-size:18px}
+  .hero .eyebrow{font-size:12px}
+  .top .phone{display:none}
+  .top .btn{margin-left:auto}
+  .btn{width:100%;max-width:360px}
+  .top .btn{width:auto}
+  .sheet{padding:36px 22px 24px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;scroll-behavior:auto !important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="col">
+    <img src="assets/logo.png" alt="PHA, Performance Home Automation">
+    <a class="phone" href="tel:+14109569676">410-956-9676</a>
+    <button class="btn small" type="button" data-book>Book a meeting</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="hero-bg"><img src="assets/georgian.jpg" alt=""></div>
+  <div class="col">
+    <div class="eyebrow">Projects featured in Architectural Digest and Annapolis Home Magazine</div>
+    <h1>Lighting Control Installation in Annapolis</h1>
+    <p class="sub">Scenes, schedules, and every light in the house from a keypad, an app, or your voice.</p>
+    <button class="btn" type="button" data-book>Book a meeting</button>
+    <div class="trust"><span class="stars" aria-hidden="true">★★★★★</span><br>4.8 on Google from 19 reviews</div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="col">
+    <div class="center"><h2>What lighting control gives you</h2></div>
+    <div class="cards lead">
+      <div class="card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="13" y="5" width="22" height="38" rx="4"/><path d="M19 14h10M19 22h10M19 30h10"/></svg>
+        <h3>Keypads</h3>
+        <p>One button sets the whole room. Scenes for mornings, entertaining, relaxing, and bedtime.</p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="17"/><path d="M24 14v10l7 5"/></svg>
+        <h3>Automation</h3>
+        <p>Lights follow your schedule. Motorized shades and the rest of the house can move with them.</p>
+      </div>
+      <div class="card">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 5l15 6v11c0 10-6.500 17-15 21-8.500-4-15-11-15-21V11z"/><path d="M17.500 24l4.500 4.500 8.500-9"/></svg>
+        <h3>Security</h3>
+        <p>Lit walkways, driveways, and entries. Lights that keep running while you travel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="col">
+    <div class="center">
+      <div class="eyebrow">For architects, builders, and designers</div>
+      <h2 style="margin-top:16px">Our process</h2>
+    </div>
+    <div class="steps lead">
+      <div class="step-card"><h3>Design consultation</h3><p>We settle the layout, where each fixture goes, and how every space is controlled.</p></div>
+      <div class="step-card"><h3>Plan drawings</h3><p>A lighting plan on paper before fixtures, wiring, and ceilings are final.</p></div>
+      <div class="step-card"><h3>Wire schedule</h3><p>Every run and every load listed, so your electrician pulls it once.</p></div>
+      <div class="step-card"><h3>Installation and adjustments</h3><p>Installed, programmed, and tested, then tuned once the home is lived in.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="col">
+    <div class="center"><h2>Our work</h2></div>
+    <div class="work lead">
+      <div class="shot"><img src="assets/coastal.jpg" alt="A living room with wall lights, shelf lighting, and shades"></div>
+      <div class="shot"><img src="assets/about-a.jpg" alt="Hanging glass lights lit in a stairwell at dusk"></div>
+      <div class="shot"><img src="assets/work-lounge.jpg" alt="A double-height lounge with long hanging lights under a beamed ceiling"></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="col">
+    <div class="team"><img src="assets/team.jpg" alt="Seven of the Performance Home Automation team in company shirts at a trade show"></div>
+    <div>
+      <div class="eyebrow">About us</div>
+      <h2 style="margin-top:16px">Serving Maryland homes since 2001</h2>
+      <p>Performance Home Automation designs and installs lighting control for new construction, renovations, and existing homes. One team takes it from the first design through installation, programming, testing, and support.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="col">
+    <div class="center"><h2>What our clients say</h2></div>
+    <div class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4.8 on Google from 19 reviews</div>
+    <!-- Their Google Business Profile, read 2026-10-05 through the Places API. Every sentence is word for word; the
+         first two reviews are shortened by leaving whole sentences out. On a live page, Google's terms for showing
+         its reviews apply. -->
+    <div class="quotes lead">
+      <div class="quote">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>PHA was fabulous during my home renovation. We automated Lutron lighting throughout the house, built in sonos speakers and security cameras, all operated from the phone. They are reliable, reasonable and professional.</p>
+        <div class="who">Barbara N.</div>
+      </div>
+      <div class="quote">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>We have been working with PHA for almost six years on various home electronics projects and couldn't recommend them more.</p>
+        <div class="who">Gene H.</div>
+      </div>
+      <div class="quote">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>Fantastic job getting my home AV set up with all the accoutrements. Very friendly, efficient and priced well. Very pleased.</p>
+        <div class="who">Michael M.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="book">
+  <div class="col">
+    <h2>Free lighting consultation</h2>
+    <p>Tell us about your home and pick a time.</p>
+    <button class="btn" type="button" data-book>Book a meeting</button>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="col">
+    <strong>Performance Home Automation</strong>
+    <span>2014 Renard Ct, Annapolis, MD 21401</span>
+    <a href="tel:+14109569676">410-956-9676</a>
+    <span class="right">Annapolis, Baltimore, Washington, D.C., Northern Virginia</span>
+    <!-- Credentials sit here and nowhere else (Jonathan, 2026-10-05: "High-profile companies don't need to post their
+         credentials anywhere besides in the footer"). -->
+    <span class="creds">Lutron Gold Star Dealer.</span>
+  </div>
+</footer>
+
+<!-- The form: first name, phone, email, a short message. One question a screen. Nothing is sent from this render. -->
+<div class="veil" id="veil" role="dialog" aria-modal="true" aria-labelledby="form-title">
+  <form class="sheet" id="form" novalidate>
+    <button class="x" type="button" id="close" aria-label="Close">&times;</button>
+    <div id="steps-wrap" style="display:grid;gap:24px">
+      <div style="display:grid;gap:12px">
+        <div class="count" id="count">Step 1 of 4</div>
+        <div class="bar"><b id="bar"></b></div>
+      </div>
+      <div class="step on" data-step="1">
+        <label for="f-name" id="form-title">What is your first name?</label>
+        <input id="f-name" name="first_name" type="text" autocomplete="given-name" required>
+      </div>
+      <div class="step" data-step="2">
+        <label for="f-phone">What is the best number to call?</label>
+        <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+      </div>
+      <div class="step" data-step="3">
+        <label for="f-email">What is your email?</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+      </div>
+      <div class="step" data-step="4">
+        <label for="f-msg">What would you like done?</label>
+        <div class="hint">A line or two is plenty: the rooms, new build or a retrofit.</div>
+        <textarea id="f-msg" name="message" required></textarea>
+      </div>
+      <div class="err" id="err" role="alert"></div>
+      <div class="nav">
+        <button class="ghost" type="button" id="back" hidden>Back</button>
+        <button class="btn" type="submit" id="next">OK</button>
+      </div>
+    </div>
+    <div class="sent" id="sent">
+      <div class="tick"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="3.500" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l6 6 12-13"/></svg></div>
+      <h3 id="sent-title">Thank you.</h3>
+      <p id="sent-line">Now pick a time for your consultation.</p>
+      <button class="btn" type="button" id="pick">Pick a time</button>
+      <div class="cal" id="cal">The owner's calendar opens here</div>
+      <button class="ghost" type="button" id="done">Close</button>
+    </div>
+  </form>
+</div>
+
+<script>
+(function () {
+  var veil = document.getElementById("veil"), form = document.getElementById("form");
+  var steps = [].slice.call(form.querySelectorAll(".step")), wrap = document.getElementById("steps-wrap");
+  var bar = document.getElementById("bar"), count = document.getElementById("count"), err = document.getElementById("err");
+  var back = document.getElementById("back"), next = document.getElementById("next"), sent = document.getElementById("sent");
+  var cal = document.getElementById("cal"), at = 0, opener = null;
+
+  function field(i) { return steps[i].querySelector("input, textarea"); }
+  function show(i) {
+    at = i;
+    steps.forEach(function (s, n) { s.classList.toggle("on", n === i); });
+    bar.style.width = ((i + 1) / steps.length * 100) + "%";
+    count.textContent = "Step " + (i + 1) + " of " + steps.length;
+    back.hidden = i === 0;
+    next.textContent = i === steps.length - 1 ? "Send" : "OK";
+    err.textContent = "";
+    field(i).focus();
+  }
+  function problem(i) {
+    var f = field(i), v = f.value.trim();
+    if (!v) return "Please fill this in.";
+    if (f.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) return "That email does not look right.";
+    if (f.type === "tel" && v.replace(/\D/g, "").length < 10) return "Please enter a 10 digit number.";
+    return "";
+  }
+  function open(from) {
+    opener = from || null;
+    wrap.style.display = "grid";
+    sent.classList.remove("on");
+    cal.classList.remove("on");
+    veil.classList.add("open");
+    document.body.style.overflow = "hidden";
+    show(0);
+  }
+  function close() {
+    veil.classList.remove("open");
+    document.body.style.overflow = "";
+    if (opener) opener.focus();
+  }
+  [].forEach.call(document.querySelectorAll("[data-book]"), function (b) {
+    b.addEventListener("click", function () { open(b); });
+  });
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var p = problem(at);
+    if (p) { err.textContent = p; field(at).focus(); return; }
+    if (at < steps.length - 1) { show(at + 1); return; }
+    // a render: the answers go nowhere. On the live page this is where the lead is sent and the calendar opens.
+    document.getElementById("sent-title").textContent = "Thank you, " + field(0).value.trim().split(/\s+/)[0] + ".";
+    wrap.style.display = "none";
+    sent.classList.add("on");
+    form.reset();
+  });
+  form.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && e.target.tagName === "INPUT") { e.preventDefault(); next.click(); }
+  });
+  back.addEventListener("click", function () { if (at > 0) show(at - 1); });
+  document.getElementById("pick").addEventListener("click", function () { cal.classList.add("on"); });
+  document.getElementById("close").addEventListener("click", close);
+  document.getElementById("done").addEventListener("click", close);
+  veil.addEventListener("mousedown", function (e) { if (e.target === veil) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && veil.classList.contains("open")) close(); });
+  // ?step=N opens the form at that step and ?sent=1 shows the sent state, for renders
+  var q = new URLSearchParams(location.search);
+  if (q.get("step")) { open(); show(Math.max(0, Math.min(steps.length - 1, parseInt(q.get("step"), 10) - 1))); }
+  if (q.get("sent")) { open(); wrap.style.display = "none"; sent.classList.add("on"); }
+})();
+</script>
+</body>
+</html>

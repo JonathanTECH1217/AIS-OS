@@ -1,0 +1,181 @@
+{
+ "_note": "Keywords per campaign, picked on buying intent (Jonathan, 2026-09-28: no volume tool; 'transactional assumptions for high-intent buyers', like an AV installer bidding 'whole home audio installation' into a whole home audio page). Each keyword names the trade that buys and the service it hires, and lands on the one page that sells that service. Widened from 5 to about 12 the same day (Jonathan: '5 was too hard a limit'): integrators first, then electricians, HVAC, roofing, plumbing, and a contractor or home services catch-all. Each goes in as exact and phrase. Bench = next in line for a swap. Every term is a row in keywords/<service>.csv.",
+ "locked": "2026-09-28, Jonathan: 'Lock all 72'",
+ "campaigns": [
+  {
+   "nn": "01",
+   "service": "google-ads",
+   "page": "https://monarcbuild.com/google-ads/",
+   "picks": [
+    "google ads agency for av integrators",
+    "google ads management for home automation companies",
+    "ppc agency for smart home installers",
+    "google ads agency for low voltage contractors",
+    "google ads management for electricians",
+    "electrician google ads agency",
+    "google ads agency for hvac contractors",
+    "hvac google ads management",
+    "ppc management for roofers",
+    "google ads management for plumbers",
+    "google ads management for contractors",
+    "home services google ads agency"
+   ],
+   "bench": [
+    "google ads agency for home theater companies",
+    "ppc agency for electricians",
+    "google ads services for plumbing companies"
+   ]
+  },
+  {
+   "nn": "02",
+   "service": "website-build",
+   "page": "https://monarcbuild.com/website-build/",
+   "picks": [
+    "av integrator website design",
+    "website design for av integrators",
+    "smart home company website design",
+    "low voltage contractor website design",
+    "electrician website design company",
+    "electrical contractor website design",
+    "hvac website design company",
+    "hvac web design",
+    "roofing website design company",
+    "plumbing website design company",
+    "contractor website design company",
+    "website design services for contractors"
+   ],
+   "bench": [
+    "smart home installer website design",
+    "roofing web design company",
+    "plumber website design company"
+   ]
+  },
+  {
+   "nn": "03",
+   "service": "seo",
+   "page": "https://monarcbuild.com/seo/",
+   "picks": [
+    "seo agency for av integrators",
+    "seo services for av integrators",
+    "local seo for smart home installers",
+    "electrician seo company",
+    "electrician seo services",
+    "hvac seo agency",
+    "hvac seo services",
+    "roofing seo company",
+    "plumber seo company",
+    "local seo services for contractors",
+    "contractor seo services",
+    "google business profile management for contractors"
+   ],
+   "bench": [
+    "av integrator seo",
+    "roofing seo services",
+    "plumbing seo services"
+   ]
+  },
+  {
+   "nn": "04",
+   "service": "email-marketing",
+   "page": "https://monarcbuild.com/email-marketing/",
+   "picks": [
+    "email marketing services for av integrators",
+    "av integrator email marketing",
+    "email marketing agency for home automation companies",
+    "electrician email marketing services",
+    "hvac email marketing services",
+    "email marketing agency for hvac",
+    "roofing email marketing services",
+    "plumber email marketing services",
+    "email marketing services for contractors",
+    "contractor email marketing agency",
+    "email marketing agency for home services",
+    "lead nurturing service for contractors"
+   ],
+   "bench": [
+    "email marketing agency for av integrators",
+    "roofing email marketing",
+    "customer reactivation campaign for contractors"
+   ]
+  },
+  {
+   "nn": "05",
+   "service": "facebook-ads",
+   "page": "https://monarcbuild.com/facebook-ads/",
+   "picks": [
+    "facebook ads agency for av integrators",
+    "facebook ads agency for home automation companies",
+    "facebook ads agency for electricians",
+    "facebook ads agency for hvac companies",
+    "facebook ads management for contractors",
+    "facebook ads agency for home services",
+    "meta ads agency for av integrators",
+    "meta ads agency for smart home installers",
+    "meta ads agency for electricians",
+    "meta ads agency for hvac companies",
+    "meta ads agency for contractors",
+    "roofing meta ads agency"
+   ],
+   "bench": [
+    "facebook ads agency for smart home installers",
+    "roofing facebook ads agency",
+    "facebook ads agency for plumbers",
+    "facebook ad management services for contractors",
+    "facebook ads agency for contractors",
+    "facebook advertising agency for home service companies",
+    "hvac meta ads"
+   ],
+   "changed": "2026-09-30, Jonathan: six keywords for meta ads and six for facebook ads."
+  },
+  {
+   "nn": "06",
+   "service": "ai-automation",
+   "page": "https://monarcbuild.com/ai-automation/",
+   "picks": [
+    "ai automation agency for contractors",
+    "ai automation services for contractors",
+    "done for you ai automation for contractors",
+    "ai automation setup for contractors",
+    "ai automation agency for electricians",
+    "ai automation agency for hvac companies",
+    "ai automation agency for roofing companies",
+    "ai automation services for plumbers",
+    "ai automation agency for home services companies",
+    "back office automation for contractors",
+    "contractor lead follow up service",
+    "ai consultant for contractors"
+   ],
+   "bench": [
+    "ai automation for home service contractors",
+    "automate contractor lead follow up",
+    "ai agency for contractors"
+   ]
+  },
+  {
+   "nn": "07",
+   "service": "av-marketing",
+   "page": "https://monarcbuild.com/av_marketing/",
+   "picks": [
+    "marketing agency for av integrators",
+    "av integrator marketing agency",
+    "marketing company for av integrators",
+    "av integrator marketing services",
+    "marketing agency for av contractors",
+    "home theater marketing agency",
+    "smart home marketing agency",
+    "home automation marketing agency",
+    "control4 dealer marketing",
+    "lutron dealer marketing",
+    "crestron dealer marketing",
+    "savant dealer marketing"
+   ],
+   "bench": [
+    "low voltage contractor marketing agency",
+    "custom integrator marketing agency",
+    "av contractor marketing company",
+    "home automation marketing company"
+   ],
+   "changed": "2026-09-30, drafted by the AIOS from Jonathan's interview; his to approve in the CRM."
+  }
+ ]
+}

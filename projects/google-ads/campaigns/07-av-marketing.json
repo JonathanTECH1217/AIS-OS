@@ -1,0 +1,537 @@
+{
+  "_note": "The one file the Google Ads page in the CRM and scripts/ads_publish.py read for this campaign. Drafted 2026-09-30 from Jonathan's interview (brainstorms/2026-09-30-av-marketing-google-look.md, Q7 to Q10), his to approve in the CRM: keywords on buying intent with four dealer-brand terms (keywords only; no brand name in the ad text), the ad echoing the page's new eyebrow \"Marketing for AV integrators\". Negatives: every shared list whose 'Applies to' covers 07 plus negatives/av-marketing.md. Approvals clear when what they cover changes.",
+  "nn": "07",
+  "service": "av-marketing",
+  "name": "07 AV marketing",
+  "brief": "projects/google-ads/campaigns/07-av-marketing.md",
+  "page": "https://monarcbuild.com/av_marketing/",
+  "page_label": "av_marketing",
+  "slot": "funded",
+  "daily_budget": 30,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/av-marketing.md"
+  },
+  "keywords": [
+    {
+      "text": "marketing agency for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "av integrator marketing agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "marketing company for av integrators",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "av integrator marketing services",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "marketing agency for av contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "home theater marketing agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "smart home marketing agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "home automation marketing agency",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "control4 dealer marketing",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "lutron dealer marketing",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "low voltage contractor marketing agency",
+    "custom integrator marketing agency",
+    "av contractor marketing company",
+    "home automation marketing company",
+    "crestron dealer marketing",
+    "savant dealer marketing"
+  ],
+  "ad": {
+    "headlines": [
+      {
+        "text": "Marketing for AV Integrators",
+        "pin": 1
+      },
+      {
+        "text": "Marketing for AV Contractors",
+        "pin": 1
+      },
+      {
+        "text": "AV Integrator Marketing",
+        "pin": 1
+      },
+      {
+        "text": "More High Ticket Installs",
+        "pin": 2
+      },
+      {
+        "text": "Page 1 for What You Install",
+        "pin": 2
+      },
+      {
+        "text": "Leads for High Profile Homes",
+        "pin": 2
+      },
+      {
+        "text": "Book the Audit",
+        "pin": 3
+      },
+      {
+        "text": "Fifteen Minutes, Bring Nothing",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "Marketing built for AV companies looking to close more lighting control and AV jobs",
+      "If you want your company to get specified by an Architect, market to them",
+      "Spend less time focused on your marketing and more time on high end installs",
+      "Increase your revenue with marketing that matches you buyers' intent."
+    ],
+    "path1": "AV-Marketing",
+    "path2": "Integrators"
+  },
+  "approvals": {
+    "keywords": {
+      "at": "2026-10-01T18:22:18-04:00",
+      "by": "Jonathan",
+      "fp": "2a0cf11ffd459f01"
+    },
+    "negatives": {
+      "Routing": {
+        "at": "2026-10-01T18:21:50-04:00",
+        "by": "Jonathan",
+        "fp": "2132dd3f06185663"
+      },
+      "Not the residential integrator": {
+        "at": "2026-10-01T18:22:12-04:00",
+        "by": "Jonathan",
+        "fp": "c044bee5d690f6f5"
+      }
+    },
+    "spend": {
+      "at": "2026-10-01T18:22:06-04:00",
+      "by": "Jonathan",
+      "fp": "b644e0b25203f885"
+    },
+    "ad": {
+      "at": "2026-10-01T18:23:27-04:00",
+      "by": "Jonathan",
+      "fp": "e60117559426b5da"
+    }
+  },
+  "ad_bench": {
+    "headlines": [
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "Every Lead Tagged by Keyword"
+      },
+      {
+        "text": "Home Theater and Smart Home"
+      },
+      {
+        "text": "You Own the Account and Data"
+      },
+      {
+        "text": "Monthly Report: Cost per Lead"
+      },
+      {
+        "text": "Seven Services, One Team"
+      },
+      {
+        "text": "Sold and Installed First"
+      }
+    ],
+    "descriptions": [
+      "Search, site, and ads built for integrators. Every lead tagged to the search that sent it.",
+      "A waterfront great room and a Georgian Colonial came from one page and one ad account.",
+      "We sold and installed these systems before we marketed them. You leave with the audit.",
+      "You own the account and the data. Monthly report: spend, leads by source, cost per lead."
+    ]
+  },
+  "google": {
+    "budget": "customers/4185774900/campaignBudgets/15911379971",
+    "budget_micros": "30000000",
+    "campaign": "customers/4185774900/campaigns/24305562864",
+    "cpc_micros": "12000000",
+    "status": "ENABLED",
+    "geo": {
+      "geoTargetConstants/1012873": "customers/4185774900/campaignCriteria/24305562864~1012873",
+      "geoTargetConstants/1012954": "customers/4185774900/campaignCriteria/24305562864~1012954",
+      "geoTargetConstants/1013042": "customers/4185774900/campaignCriteria/24305562864~1013042",
+      "geoTargetConstants/1013268": "customers/4185774900/campaignCriteria/24305562864~1013268",
+      "geoTargetConstants/1013457": "customers/4185774900/campaignCriteria/24305562864~1013457",
+      "geoTargetConstants/1013462": "customers/4185774900/campaignCriteria/24305562864~1013462",
+      "geoTargetConstants/1013482": "customers/4185774900/campaignCriteria/24305562864~1013482",
+      "geoTargetConstants/1013483": "customers/4185774900/campaignCriteria/24305562864~1013483",
+      "geoTargetConstants/1013509": "customers/4185774900/campaignCriteria/24305562864~1013509",
+      "geoTargetConstants/1013560": "customers/4185774900/campaignCriteria/24305562864~1013560",
+      "geoTargetConstants/1013570": "customers/4185774900/campaignCriteria/24305562864~1013570",
+      "geoTargetConstants/1013587": "customers/4185774900/campaignCriteria/24305562864~1013587",
+      "geoTargetConstants/1013652": "customers/4185774900/campaignCriteria/24305562864~1013652",
+      "geoTargetConstants/1013804": "customers/4185774900/campaignCriteria/24305562864~1013804",
+      "geoTargetConstants/1013883": "customers/4185774900/campaignCriteria/24305562864~1013883",
+      "geoTargetConstants/1013958": "customers/4185774900/campaignCriteria/24305562864~1013958",
+      "geoTargetConstants/1013961": "customers/4185774900/campaignCriteria/24305562864~1013961",
+      "geoTargetConstants/1013962": "customers/4185774900/campaignCriteria/24305562864~1013962",
+      "geoTargetConstants/1013978": "customers/4185774900/campaignCriteria/24305562864~1013978",
+      "geoTargetConstants/1014046": "customers/4185774900/campaignCriteria/24305562864~1014046",
+      "geoTargetConstants/1014058": "customers/4185774900/campaignCriteria/24305562864~1014058",
+      "geoTargetConstants/1014080": "customers/4185774900/campaignCriteria/24305562864~1014080",
+      "geoTargetConstants/1014106": "customers/4185774900/campaignCriteria/24305562864~1014106",
+      "geoTargetConstants/1014107": "customers/4185774900/campaignCriteria/24305562864~1014107",
+      "geoTargetConstants/1014109": "customers/4185774900/campaignCriteria/24305562864~1014109",
+      "geoTargetConstants/1014118": "customers/4185774900/campaignCriteria/24305562864~1014118",
+      "geoTargetConstants/1014170": "customers/4185774900/campaignCriteria/24305562864~1014170",
+      "geoTargetConstants/1014197": "customers/4185774900/campaignCriteria/24305562864~1014197",
+      "geoTargetConstants/1014208": "customers/4185774900/campaignCriteria/24305562864~1014208",
+      "geoTargetConstants/1014218": "customers/4185774900/campaignCriteria/24305562864~1014218",
+      "geoTargetConstants/1014221": "customers/4185774900/campaignCriteria/24305562864~1014221",
+      "geoTargetConstants/1014226": "customers/4185774900/campaignCriteria/24305562864~1014226",
+      "geoTargetConstants/1014248": "customers/4185774900/campaignCriteria/24305562864~1014248",
+      "geoTargetConstants/1014257": "customers/4185774900/campaignCriteria/24305562864~1014257",
+      "geoTargetConstants/1014293": "customers/4185774900/campaignCriteria/24305562864~1014293",
+      "geoTargetConstants/1014332": "customers/4185774900/campaignCriteria/24305562864~1014332",
+      "geoTargetConstants/1014346": "customers/4185774900/campaignCriteria/24305562864~1014346",
+      "geoTargetConstants/1014377": "customers/4185774900/campaignCriteria/24305562864~1014377",
+      "geoTargetConstants/1014435": "customers/4185774900/campaignCriteria/24305562864~1014435",
+      "geoTargetConstants/1014448": "customers/4185774900/campaignCriteria/24305562864~1014448",
+      "geoTargetConstants/1014471": "customers/4185774900/campaignCriteria/24305562864~1014471",
+      "geoTargetConstants/1014485": "customers/4185774900/campaignCriteria/24305562864~1014485",
+      "geoTargetConstants/1014517": "customers/4185774900/campaignCriteria/24305562864~1014517",
+      "geoTargetConstants/1014633": "customers/4185774900/campaignCriteria/24305562864~1014633",
+      "geoTargetConstants/1014638": "customers/4185774900/campaignCriteria/24305562864~1014638",
+      "geoTargetConstants/1014642": "customers/4185774900/campaignCriteria/24305562864~1014642",
+      "geoTargetConstants/1014706": "customers/4185774900/campaignCriteria/24305562864~1014706",
+      "geoTargetConstants/1014737": "customers/4185774900/campaignCriteria/24305562864~1014737",
+      "geoTargetConstants/1014743": "customers/4185774900/campaignCriteria/24305562864~1014743",
+      "geoTargetConstants/1014778": "customers/4185774900/campaignCriteria/24305562864~1014778",
+      "geoTargetConstants/1014843": "customers/4185774900/campaignCriteria/24305562864~1014843",
+      "geoTargetConstants/1014880": "customers/4185774900/campaignCriteria/24305562864~1014880",
+      "geoTargetConstants/1014895": "customers/4185774900/campaignCriteria/24305562864~1014895",
+      "geoTargetConstants/1014959": "customers/4185774900/campaignCriteria/24305562864~1014959",
+      "geoTargetConstants/1015001": "customers/4185774900/campaignCriteria/24305562864~1015001",
+      "geoTargetConstants/1015009": "customers/4185774900/campaignCriteria/24305562864~1015009",
+      "geoTargetConstants/1015027": "customers/4185774900/campaignCriteria/24305562864~1015027",
+      "geoTargetConstants/1015029": "customers/4185774900/campaignCriteria/24305562864~1015029",
+      "geoTargetConstants/1015033": "customers/4185774900/campaignCriteria/24305562864~1015033",
+      "geoTargetConstants/1015067": "customers/4185774900/campaignCriteria/24305562864~1015067",
+      "geoTargetConstants/1015072": "customers/4185774900/campaignCriteria/24305562864~1015072",
+      "geoTargetConstants/1015075": "customers/4185774900/campaignCriteria/24305562864~1015075",
+      "geoTargetConstants/1015116": "customers/4185774900/campaignCriteria/24305562864~1015116",
+      "geoTargetConstants/1015129": "customers/4185774900/campaignCriteria/24305562864~1015129",
+      "geoTargetConstants/1015150": "customers/4185774900/campaignCriteria/24305562864~1015150",
+      "geoTargetConstants/1015158": "customers/4185774900/campaignCriteria/24305562864~1015158",
+      "geoTargetConstants/1015167": "customers/4185774900/campaignCriteria/24305562864~1015167",
+      "geoTargetConstants/1015192": "customers/4185774900/campaignCriteria/24305562864~1015192",
+      "geoTargetConstants/1015213": "customers/4185774900/campaignCriteria/24305562864~1015213",
+      "geoTargetConstants/1015214": "customers/4185774900/campaignCriteria/24305562864~1015214",
+      "geoTargetConstants/1015225": "customers/4185774900/campaignCriteria/24305562864~1015225",
+      "geoTargetConstants/1015229": "customers/4185774900/campaignCriteria/24305562864~1015229",
+      "geoTargetConstants/1015249": "customers/4185774900/campaignCriteria/24305562864~1015249",
+      "geoTargetConstants/1015254": "customers/4185774900/campaignCriteria/24305562864~1015254",
+      "geoTargetConstants/1015256": "customers/4185774900/campaignCriteria/24305562864~1015256",
+      "geoTargetConstants/1015277": "customers/4185774900/campaignCriteria/24305562864~1015277",
+      "geoTargetConstants/1015501": "customers/4185774900/campaignCriteria/24305562864~1015501",
+      "geoTargetConstants/1015579": "customers/4185774900/campaignCriteria/24305562864~1015579",
+      "geoTargetConstants/1015746": "customers/4185774900/campaignCriteria/24305562864~1015746",
+      "geoTargetConstants/1016131": "customers/4185774900/campaignCriteria/24305562864~1016131",
+      "geoTargetConstants/1016240": "customers/4185774900/campaignCriteria/24305562864~1016240",
+      "geoTargetConstants/1016283": "customers/4185774900/campaignCriteria/24305562864~1016283",
+      "geoTargetConstants/1016367": "customers/4185774900/campaignCriteria/24305562864~1016367",
+      "geoTargetConstants/1016557": "customers/4185774900/campaignCriteria/24305562864~1016557",
+      "geoTargetConstants/1016606": "customers/4185774900/campaignCriteria/24305562864~1016606",
+      "geoTargetConstants/1016710": "customers/4185774900/campaignCriteria/24305562864~1016710",
+      "geoTargetConstants/1017108": "customers/4185774900/campaignCriteria/24305562864~1017108",
+      "geoTargetConstants/1017146": "customers/4185774900/campaignCriteria/24305562864~1017146",
+      "geoTargetConstants/1017539": "customers/4185774900/campaignCriteria/24305562864~1017539",
+      "geoTargetConstants/1017673": "customers/4185774900/campaignCriteria/24305562864~1017673",
+      "geoTargetConstants/1017818": "customers/4185774900/campaignCriteria/24305562864~1017818",
+      "geoTargetConstants/1017825": "customers/4185774900/campaignCriteria/24305562864~1017825",
+      "geoTargetConstants/1017934": "customers/4185774900/campaignCriteria/24305562864~1017934",
+      "geoTargetConstants/1018036": "customers/4185774900/campaignCriteria/24305562864~1018036",
+      "geoTargetConstants/1018127": "customers/4185774900/campaignCriteria/24305562864~1018127",
+      "geoTargetConstants/1018457": "customers/4185774900/campaignCriteria/24305562864~1018457",
+      "geoTargetConstants/1018507": "customers/4185774900/campaignCriteria/24305562864~1018507",
+      "geoTargetConstants/1018511": "customers/4185774900/campaignCriteria/24305562864~1018511",
+      "geoTargetConstants/1018516": "customers/4185774900/campaignCriteria/24305562864~1018516",
+      "geoTargetConstants/1018573": "customers/4185774900/campaignCriteria/24305562864~1018573",
+      "geoTargetConstants/1018688": "customers/4185774900/campaignCriteria/24305562864~1018688",
+      "geoTargetConstants/1018719": "customers/4185774900/campaignCriteria/24305562864~1018719",
+      "geoTargetConstants/1019006": "customers/4185774900/campaignCriteria/24305562864~1019006",
+      "geoTargetConstants/1019126": "customers/4185774900/campaignCriteria/24305562864~1019126",
+      "geoTargetConstants/1019250": "customers/4185774900/campaignCriteria/24305562864~1019250",
+      "geoTargetConstants/1019316": "customers/4185774900/campaignCriteria/24305562864~1019316",
+      "geoTargetConstants/1019973": "customers/4185774900/campaignCriteria/24305562864~1019973",
+      "geoTargetConstants/1020414": "customers/4185774900/campaignCriteria/24305562864~1020414",
+      "geoTargetConstants/1020618": "customers/4185774900/campaignCriteria/24305562864~1020618",
+      "geoTargetConstants/1020760": "customers/4185774900/campaignCriteria/24305562864~1020760",
+      "geoTargetConstants/1020851": "customers/4185774900/campaignCriteria/24305562864~1020851",
+      "geoTargetConstants/1020972": "customers/4185774900/campaignCriteria/24305562864~1020972",
+      "geoTargetConstants/1020991": "customers/4185774900/campaignCriteria/24305562864~1020991",
+      "geoTargetConstants/1021042": "customers/4185774900/campaignCriteria/24305562864~1021042",
+      "geoTargetConstants/1021048": "customers/4185774900/campaignCriteria/24305562864~1021048",
+      "geoTargetConstants/1021085": "customers/4185774900/campaignCriteria/24305562864~1021085",
+      "geoTargetConstants/1021129": "customers/4185774900/campaignCriteria/24305562864~1021129",
+      "geoTargetConstants/1021150": "customers/4185774900/campaignCriteria/24305562864~1021150",
+      "geoTargetConstants/1021263": "customers/4185774900/campaignCriteria/24305562864~1021263",
+      "geoTargetConstants/1021278": "customers/4185774900/campaignCriteria/24305562864~1021278",
+      "geoTargetConstants/1021374": "customers/4185774900/campaignCriteria/24305562864~1021374",
+      "geoTargetConstants/1021721": "customers/4185774900/campaignCriteria/24305562864~1021721",
+      "geoTargetConstants/1021947": "customers/4185774900/campaignCriteria/24305562864~1021947",
+      "geoTargetConstants/1022002": "customers/4185774900/campaignCriteria/24305562864~1022002",
+      "geoTargetConstants/1022280": "customers/4185774900/campaignCriteria/24305562864~1022280",
+      "geoTargetConstants/1022300": "customers/4185774900/campaignCriteria/24305562864~1022300",
+      "geoTargetConstants/1022361": "customers/4185774900/campaignCriteria/24305562864~1022361",
+      "geoTargetConstants/1022406": "customers/4185774900/campaignCriteria/24305562864~1022406",
+      "geoTargetConstants/1022494": "customers/4185774900/campaignCriteria/24305562864~1022494",
+      "geoTargetConstants/1022636": "customers/4185774900/campaignCriteria/24305562864~1022636",
+      "geoTargetConstants/1022639": "customers/4185774900/campaignCriteria/24305562864~1022639",
+      "geoTargetConstants/1022653": "customers/4185774900/campaignCriteria/24305562864~1022653",
+      "geoTargetConstants/1022672": "customers/4185774900/campaignCriteria/24305562864~1022672",
+      "geoTargetConstants/1022764": "customers/4185774900/campaignCriteria/24305562864~1022764",
+      "geoTargetConstants/1022874": "customers/4185774900/campaignCriteria/24305562864~1022874",
+      "geoTargetConstants/1023103": "customers/4185774900/campaignCriteria/24305562864~1023103",
+      "geoTargetConstants/1023191": "customers/4185774900/campaignCriteria/24305562864~1023191",
+      "geoTargetConstants/1023315": "customers/4185774900/campaignCriteria/24305562864~1023315",
+      "geoTargetConstants/1023334": "customers/4185774900/campaignCriteria/24305562864~1023334",
+      "geoTargetConstants/1023348": "customers/4185774900/campaignCriteria/24305562864~1023348",
+      "geoTargetConstants/1023386": "customers/4185774900/campaignCriteria/24305562864~1023386",
+      "geoTargetConstants/1023626": "customers/4185774900/campaignCriteria/24305562864~1023626",
+      "geoTargetConstants/1023631": "customers/4185774900/campaignCriteria/24305562864~1023631",
+      "geoTargetConstants/1023640": "customers/4185774900/campaignCriteria/24305562864~1023640",
+      "geoTargetConstants/1023657": "customers/4185774900/campaignCriteria/24305562864~1023657",
+      "geoTargetConstants/1024290": "customers/4185774900/campaignCriteria/24305562864~1024290",
+      "geoTargetConstants/1024352": "customers/4185774900/campaignCriteria/24305562864~1024352",
+      "geoTargetConstants/1024400": "customers/4185774900/campaignCriteria/24305562864~1024400",
+      "geoTargetConstants/1024495": "customers/4185774900/campaignCriteria/24305562864~1024495",
+      "geoTargetConstants/1024543": "customers/4185774900/campaignCriteria/24305562864~1024543",
+      "geoTargetConstants/1024922": "customers/4185774900/campaignCriteria/24305562864~1024922",
+      "geoTargetConstants/1025197": "customers/4185774900/campaignCriteria/24305562864~1025197",
+      "geoTargetConstants/1025202": "customers/4185774900/campaignCriteria/24305562864~1025202",
+      "geoTargetConstants/1025467": "customers/4185774900/campaignCriteria/24305562864~1025467",
+      "geoTargetConstants/1025477": "customers/4185774900/campaignCriteria/24305562864~1025477",
+      "geoTargetConstants/1025521": "customers/4185774900/campaignCriteria/24305562864~1025521",
+      "geoTargetConstants/1025530": "customers/4185774900/campaignCriteria/24305562864~1025530",
+      "geoTargetConstants/1025565": "customers/4185774900/campaignCriteria/24305562864~1025565",
+      "geoTargetConstants/1025573": "customers/4185774900/campaignCriteria/24305562864~1025573",
+      "geoTargetConstants/1025928": "customers/4185774900/campaignCriteria/24305562864~1025928",
+      "geoTargetConstants/1025943": "customers/4185774900/campaignCriteria/24305562864~1025943",
+      "geoTargetConstants/1025990": "customers/4185774900/campaignCriteria/24305562864~1025990",
+      "geoTargetConstants/1026036": "customers/4185774900/campaignCriteria/24305562864~1026036",
+      "geoTargetConstants/1026069": "customers/4185774900/campaignCriteria/24305562864~1026069",
+      "geoTargetConstants/1026083": "customers/4185774900/campaignCriteria/24305562864~1026083",
+      "geoTargetConstants/1026201": "customers/4185774900/campaignCriteria/24305562864~1026201",
+      "geoTargetConstants/1026319": "customers/4185774900/campaignCriteria/24305562864~1026319",
+      "geoTargetConstants/1026339": "customers/4185774900/campaignCriteria/24305562864~1026339",
+      "geoTargetConstants/1026376": "customers/4185774900/campaignCriteria/24305562864~1026376",
+      "geoTargetConstants/1026403": "customers/4185774900/campaignCriteria/24305562864~1026403",
+      "geoTargetConstants/1026407": "customers/4185774900/campaignCriteria/24305562864~1026407",
+      "geoTargetConstants/1026411": "customers/4185774900/campaignCriteria/24305562864~1026411",
+      "geoTargetConstants/1026481": "customers/4185774900/campaignCriteria/24305562864~1026481",
+      "geoTargetConstants/1026609": "customers/4185774900/campaignCriteria/24305562864~1026609",
+      "geoTargetConstants/1026695": "customers/4185774900/campaignCriteria/24305562864~1026695",
+      "geoTargetConstants/1026759": "customers/4185774900/campaignCriteria/24305562864~1026759",
+      "geoTargetConstants/1026804": "customers/4185774900/campaignCriteria/24305562864~1026804",
+      "geoTargetConstants/1026973": "customers/4185774900/campaignCriteria/24305562864~1026973",
+      "geoTargetConstants/1026990": "customers/4185774900/campaignCriteria/24305562864~1026990",
+      "geoTargetConstants/1027147": "customers/4185774900/campaignCriteria/24305562864~1027147",
+      "geoTargetConstants/1027213": "customers/4185774900/campaignCriteria/24305562864~1027213",
+      "geoTargetConstants/1027270": "customers/4185774900/campaignCriteria/24305562864~1027270",
+      "geoTargetConstants/1027320": "customers/4185774900/campaignCriteria/24305562864~1027320",
+      "geoTargetConstants/1027363": "customers/4185774900/campaignCriteria/24305562864~1027363",
+      "geoTargetConstants/1027506": "customers/4185774900/campaignCriteria/24305562864~1027506",
+      "geoTargetConstants/1027509": "customers/4185774900/campaignCriteria/24305562864~1027509",
+      "geoTargetConstants/1027662": "customers/4185774900/campaignCriteria/24305562864~1027662",
+      "geoTargetConstants/1027744": "customers/4185774900/campaignCriteria/24305562864~1027744",
+      "geoTargetConstants/1027760": "customers/4185774900/campaignCriteria/24305562864~1027760",
+      "geoTargetConstants/1027773": "customers/4185774900/campaignCriteria/24305562864~1027773",
+      "geoTargetConstants/1028041": "customers/4185774900/campaignCriteria/24305562864~1028041",
+      "geoTargetConstants/1028057": "customers/4185774900/campaignCriteria/24305562864~1028057",
+      "geoTargetConstants/1028087": "customers/4185774900/campaignCriteria/24305562864~1028087",
+      "geoTargetConstants/1028477": "customers/4185774900/campaignCriteria/24305562864~1028477",
+      "geoTargetConstants/9051721": "customers/4185774900/campaignCriteria/24305562864~9051721",
+      "geoTargetConstants/9052131": "customers/4185774900/campaignCriteria/24305562864~9052131",
+      "geoTargetConstants/9052163": "customers/4185774900/campaignCriteria/24305562864~9052163",
+      "geoTargetConstants/9052225": "customers/4185774900/campaignCriteria/24305562864~9052225",
+      "geoTargetConstants/9052234": "customers/4185774900/campaignCriteria/24305562864~9052234",
+      "geoTargetConstants/9052256": "customers/4185774900/campaignCriteria/24305562864~9052256",
+      "geoTargetConstants/9052467": "customers/4185774900/campaignCriteria/24305562864~9052467",
+      "geoTargetConstants/9052976": "customers/4185774900/campaignCriteria/24305562864~9052976",
+      "geoTargetConstants/9053138": "customers/4185774900/campaignCriteria/24305562864~9053138",
+      "geoTargetConstants/9057309": "customers/4185774900/campaignCriteria/24305562864~9057309",
+      "geoTargetConstants/9058130": "customers/4185774900/campaignCriteria/24305562864~9058130",
+      "geoTargetConstants/9058139": "customers/4185774900/campaignCriteria/24305562864~9058139",
+      "geoTargetConstants/9058785": "customers/4185774900/campaignCriteria/24305562864~9058785",
+      "geoTargetConstants/9059726": "customers/4185774900/campaignCriteria/24305562864~9059726",
+      "geoTargetConstants/9061180": "customers/4185774900/campaignCriteria/24305562864~9061180",
+      "geoTargetConstants/9192568": "customers/4185774900/campaignCriteria/24305562864~9192568"
+    },
+    "language": "customers/4185774900/campaignCriteria/24305562864~1000",
+    "negatives": {
+      "PHRASE|commercial av": "customers/4185774900/campaignCriteria/24305562864~301977198895",
+      "PHRASE|av rental": "customers/4185774900/campaignCriteria/24305562864~10095151",
+      "PHRASE|av rentals": "customers/4185774900/campaignCriteria/24305562864~110462903",
+      "PHRASE|event av": "customers/4185774900/campaignCriteria/24305562864~295628085249",
+      "PHRASE|event production": "customers/4185774900/campaignCriteria/24305562864~34376340",
+      "PHRASE|live sound": "customers/4185774900/campaignCriteria/24305562864~300751762716",
+      "PHRASE|conference room": "customers/4185774900/campaignCriteria/24305562864~11183301",
+      "PHRASE|meeting room": "customers/4185774900/campaignCriteria/24305562864~10374191",
+      "BROAD|classroom": "customers/4185774900/campaignCriteria/24305562864~11126450",
+      "BROAD|church": "customers/4185774900/campaignCriteria/24305562864~10028411",
+      "PHRASE|house of worship": "customers/4185774900/campaignCriteria/24305562864~300978855806",
+      "BROAD|hospital": "customers/4185774900/campaignCriteria/24305562864~10285811",
+      "BROAD|stadium": "customers/4185774900/campaignCriteria/24305562864~10223306",
+      "PHRASE|digital signage": "customers/4185774900/campaignCriteria/24305562864~41313831",
+      "PHRASE|car audio": "customers/4185774900/campaignCriteria/24305562864~15379813",
+      "PHRASE|marine audio": "customers/4185774900/campaignCriteria/24305562864~41009226",
+      "PHRASE|boat audio": "customers/4185774900/campaignCriteria/24305562864~150400210",
+      "PHRASE|security camera": "customers/4185774900/campaignCriteria/24305562864~10049011",
+      "PHRASE|security cameras": "customers/4185774900/campaignCriteria/24305562864~10049021",
+      "PHRASE|alarm company": "customers/4185774900/campaignCriteria/24305562864~92293013",
+      "PHRASE|alarm dealer": "customers/4185774900/campaignCriteria/24305562864~55662400",
+      "PHRASE|google ads": "customers/4185774900/campaignCriteria/24305562864~17813021",
+      "BROAD|ppc": "customers/4185774900/campaignCriteria/24305562864~10932021",
+      "BROAD|adwords": "customers/4185774900/campaignCriteria/24305562864~11285220",
+      "PHRASE|paid search": "customers/4185774900/campaignCriteria/24305562864~18045511",
+      "BROAD|seo": "customers/4185774900/campaignCriteria/24305562864~10013101",
+      "PHRASE|search engine optimization": "customers/4185774900/campaignCriteria/24305562864~10089541",
+      "PHRASE|website design": "customers/4185774900/campaignCriteria/24305562864~10067740",
+      "PHRASE|web design": "customers/4185774900/campaignCriteria/24305562864~10186881",
+      "PHRASE|website designer": "customers/4185774900/campaignCriteria/24305562864~15466821",
+      "PHRASE|facebook ads": "customers/4185774900/campaignCriteria/24305562864~5658380610",
+      "PHRASE|meta ads": "customers/4185774900/campaignCriteria/24305562864~953585690794",
+      "PHRASE|instagram ads": "customers/4185774900/campaignCriteria/24305562864~47368862967",
+      "PHRASE|email marketing": "customers/4185774900/campaignCriteria/24305562864~10201851",
+      "PHRASE|ai automation": "customers/4185774900/campaignCriteria/24305562864~325792590376"
+    },
+    "shared_links": {
+      "Jobs and careers": "customers/4185774900/campaignSharedSets/24305562864~12252575382",
+      "Learn and do it yourself": "customers/4185774900/campaignSharedSets/24305562864~12252575421",
+      "Cheap and free": "customers/4185774900/campaignSharedSets/24305562864~12252575385",
+      "Software and tools": "customers/4185774900/campaignSharedSets/24305562864~12252575427",
+      "Homeowner": "customers/4185774900/campaignSharedSets/24305562864~12252575430",
+      "Other meanings of our words": "customers/4185774900/campaignSharedSets/24305562864~12252575391",
+      "Lead buyers": "customers/4185774900/campaignSharedSets/24305562864~12256657901",
+      "Labor shoppers": "customers/4185774900/campaignSharedSets/24305562864~12252575394",
+      "Wrong country or language": "customers/4185774900/campaignSharedSets/24305562864~12256657904",
+      "Other industries": "customers/4185774900/campaignSharedSets/24305562864~12252575436",
+      "Account and support": "customers/4185774900/campaignSharedSets/24305562864~12252575439",
+      "Compare words (launch only)": "customers/4185774900/campaignSharedSets/24305562864~12252575403"
+    },
+    "ad_group": "customers/4185774900/adGroups/195988063130",
+    "keywords": {
+      "EXACT|marketing agency for av integrators": "customers/4185774900/adGroupCriteria/195988063130~2515412435724",
+      "PHRASE|marketing agency for av integrators": "customers/4185774900/adGroupCriteria/195988063130~2502779165441",
+      "EXACT|av integrator marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2485504499696",
+      "PHRASE|av integrator marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2488856907071",
+      "EXACT|marketing company for av integrators": "customers/4185774900/adGroupCriteria/195988063130~2679860208912",
+      "PHRASE|marketing company for av integrators": "customers/4185774900/adGroupCriteria/195988063130~2502779165481",
+      "EXACT|av integrator marketing services": "customers/4185774900/adGroupCriteria/195988063130~2502779165641",
+      "PHRASE|av integrator marketing services": "customers/4185774900/adGroupCriteria/195988063130~2502779165681",
+      "EXACT|marketing agency for av contractors": "customers/4185774900/adGroupCriteria/195988063130~2515412397964",
+      "PHRASE|marketing agency for av contractors": "customers/4185774900/adGroupCriteria/195988063130~2502779165721",
+      "EXACT|home theater marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2531579242727",
+      "PHRASE|home theater marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2502779165921",
+      "EXACT|smart home marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2548468058047",
+      "PHRASE|smart home marketing agency": "customers/4185774900/adGroupCriteria/195988063130~2502779165961",
+      "EXACT|home automation marketing agency": "customers/4185774900/adGroupCriteria/195988063130~539497258228",
+      "PHRASE|home automation marketing agency": "customers/4185774900/adGroupCriteria/195988063130~1393164613435",
+      "EXACT|control4 dealer marketing": "customers/4185774900/adGroupCriteria/195988063130~2502877034631",
+      "PHRASE|control4 dealer marketing": "customers/4185774900/adGroupCriteria/195988063130~2498665918300",
+      "EXACT|lutron dealer marketing": "customers/4185774900/adGroupCriteria/195988063130~2502877062951",
+      "PHRASE|lutron dealer marketing": "customers/4185774900/adGroupCriteria/195988063130~2498665918740"
+    },
+    "ad": "customers/4185774900/adGroupAds/195988063130~826600686135",
+    "ad_fp": "e60117559426b5da",
+    "published_at": "2026-10-01T18:23:41-04:00",
+    "published": {
+      "spend": "b644e0b25203f885",
+      "keywords": "2a0cf11ffd459f01",
+      "ad": "e60117559426b5da",
+      "negatives": {
+        "shared:Jobs and careers": "da3c1b89493c5937",
+        "shared:Learn and do it yourself": "199c144b2a16a4f5",
+        "shared:Cheap and free": "f55442c6243343c4",
+        "shared:Software and tools": "f8e469b04a9aabc2",
+        "shared:Homeowner": "fca0df085fbce46d",
+        "shared:Other meanings of our words": "f99a6e31d55ff9c4",
+        "shared:Lead buyers": "53170fdcd9350651",
+        "shared:Labor shoppers": "305c6d7bf9878fb7",
+        "shared:Wrong country or language": "1e8eabc4f5294529",
+        "shared:Other industries": "8615880920f2856c",
+        "shared:Account and support": "79ae848a6e4525bd",
+        "shared:Compare words (launch only)": "56c838916958b0d4",
+        "campaign:Not the residential integrator": "c044bee5d690f6f5",
+        "campaign:Routing": "2132dd3f06185663"
+      }
+    },
+    "live": {
+      "cost": 0.0,
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0,
+      "at": "2026-10-06T10:20:59-04:00"
+    }
+  }
+}

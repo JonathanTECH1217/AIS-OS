@@ -1,0 +1,633 @@
+{
+ "built": "2026-10-03T18:57:35",
+ "company": {
+  "mb": "",
+  "record_id": null,
+  "name": "Lighthouse Electric",
+  "website": "lighthouseelectric.co",
+  "phone": "",
+  "city": "Louisville",
+  "state": "KY",
+  "vertical": "",
+  "email": "",
+  "owner": "",
+  "rating": null,
+  "review_count": null,
+  "trade": "electrician",
+  "domain": "lighthouseelectric.co"
+ },
+ "site": {
+  "ok": true,
+  "error": null,
+  "final_url": "https://lighthouseelectric.co/",
+  "https_ok": true,
+  "platform": "wordpress",
+  "title": "Home - Lighthouse Electric",
+  "headings": [
+   "Looking for Reliable Electrical Services?",
+   "WE SPECIALIZE IN",
+   "Do you need dependable, high-quality electrical services for your home or project?",
+   "Tailored Electrical Solutions for Every Need",
+   "Why Wait for Reliable Electrical Services?",
+   "Services",
+   "Testimonials",
+   "The Lighthouse Electrical Team",
+   "Why Choose Lighthouse Electric?",
+   "Ready for Reliable and Quality Electrical Services?",
+   "Contact Us Today!"
+  ],
+  "nav": [
+   "Services",
+   "Team",
+   "Home",
+   "Privacy Policy"
+  ],
+  "subpages": [
+   {
+    "url": "https://lighthouseelectric.co/services/",
+    "title": "Services - Lighthouse Electric",
+    "text": "Services - Lighthouse Electric Home Services Team Contact Us Select Page Comprehensive Electrical Solutions for Every Need At Lighthouse Electric, we are committed to providing reliable and customized electrical services tailored to your home’s unique needs. With a focus on quality, safety, and customer satisfaction, we offer a range of services designed to enhance your living environment with the expertise and support you can trust. Let's get connected! Call Us: ( 502)849-3920 Residential Remodels Whether you are upgrading your home’s electrical system or undertaking a full remodel, our team is here to ensure your project is completed safely and efficiently. We specialize in modernizing electrical systems to meet current standards and enhance your home’s functionality, offering innovative solutions that blend seamlessly with your design vision. Electrical Services From routine maintenance to emergency repairs, our electrical service team is ready to handle any issue with professionalism and precision. We offer comprehensive diagnostics, troubleshooting, and repair services to keep your home safe and your electrical systems running smoothly. Rely on us for prompt, reliable solutions when you need them most. Custom Lighting Create the perfect atmosphere in your home with our custom lighting solutions. Our team works closely with you to design and install lighting that complements your style and enhances the functionality of your space. Whether you need task lighting, accent lighting, or energy-efficient solutions, we provide expert guidance every step of the way. Lighting Controls Take control of your home’s lighting with our advanced lighting control systems. From dimmers to smart home integrations, we offer a variety of options that provide seamless control over your lighting environment. Our systems are designed to enhance convenience, energy efficiency, and comfort, putting the power of light at your fingertips. Ready for Reliable and Quality Electrical Services?"
+   }
+  ]
+ },
+ "llm": null,
+ "service_hits": {
+  "panel": 0,
+  "generator": 1,
+  "ev": 0,
+  "lighting": 18,
+  "rewire": 0,
+  "general": 54
+ },
+ "main": {
+  "key": "general",
+  "label": "Residential electrician",
+  "phrases": [
+   "residential electrician",
+   "licensed electrician",
+   "electrician"
+  ],
+  "words": [
+   "electric"
+  ]
+ },
+ "second": {
+  "key": "lighting",
+  "label": "Lighting",
+  "phrases": [
+   "recessed lighting installation",
+   "landscape lighting installer",
+   "lighting installation electrician"
+  ]
+ },
+ "brands": [],
+ "places": {
+  "query": "residential electrician in Louisville, KY",
+  "own": {
+   "Name": "Lighthouse Electric",
+   "Address": "308 Production Ct, Louisville, KY 40299",
+   "State": "KY",
+   "County": "Jefferson County",
+   "Phone": "(502) 251-3464",
+   "Website": "http://lighthouseelectric.co/",
+   "Rating": 5,
+   "Review count": 305,
+   "Place ID": "ChIJYyfaDRaRaYgRyhd0dXIIQco",
+   "Google Maps URL": "https://maps.google.com/?cid=14573939156837472202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "Primary type": "electrician",
+   "Business status": "OPERATIONAL",
+   "City": "Louisville",
+   "Zip": "40299",
+   "Query": "electrician in Louisville, KY"
+  },
+  "market": [
+   {
+    "Name": "Allen Electrical Services",
+    "Address": "1430 Selinda Ave, Louisville, KY 40213",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 636-4357",
+    "Website": "https://www.allenelectrical.com/",
+    "Rating": 4.8,
+    "Review count": 1144,
+    "Place ID": "ChIJAxuCYG4NaYgRnkytoNaPrpw",
+    "Google Maps URL": "https://maps.google.com/?cid=11290119467845897374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40213",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Mr. Electric of Louisville",
+    "Address": "6301 Fern Valley Pass Suite B, Louisville, KY 40228",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 233-1908",
+    "Website": "https://mrelectric.com/louisville",
+    "Rating": 4.9,
+    "Review count": 229,
+    "Place ID": "ChIJ32oq7G0NaYgRGWvAcF9el3E",
+    "Google Maps URL": "https://maps.google.com/?cid=8185114611775728409&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40228",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Durbin Electric LLC",
+    "Address": "12005 Shelbyville Rd Ste B, Louisville, KY 40243",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 516-3448",
+    "Website": "https://durbinelectricco.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb_louisville",
+    "Rating": 5,
+    "Review count": 180,
+    "Place ID": "ChIJVyNSMocKaYgR-JhHDcZa0oY",
+    "Google Maps URL": "https://maps.google.com/?cid=9714927152864401656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40243",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Laswell Electric & Security",
+    "Address": "922 Ulrich Ave, Louisville, KY 40219",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 231-6326",
+    "Website": "http://www.laswellco.com/",
+    "Rating": 4.9,
+    "Review count": 524,
+    "Place ID": "ChIJK3wKL6-gaYgRIDEd_KjHJTQ",
+    "Google Maps URL": "https://maps.google.com/?cid=3757628992708751648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40219",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Mister Sparky",
+    "Address": "2148 Lancashire Ave, Louisville, KY 40205",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 450-8432",
+    "Website": "https://www.mistersparky.com/louisville/?utm_source=GMB&utm_medium=organic&utm_campaign=louisville",
+    "Rating": 4.7,
+    "Review count": 584,
+    "Place ID": "ChIJLc8ZE6oLaYgRIm4CgAsKPUQ",
+    "Google Maps URL": "https://maps.google.com/?cid=4917097412667010594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40205",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Bald Eagle Electrical LLC",
+    "Address": "2610 Gleeson Ln Ste 2B, Louisville, KY 40299",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 888-2994",
+    "Website": "https://baldeagleelectricalreviews.com/",
+    "Rating": 4.8,
+    "Review count": 43,
+    "Place ID": "ChIJIXiTSrenaYgRJxTiErGSVPQ",
+    "Google Maps URL": "https://maps.google.com/?cid=17605858132521784359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40299",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Hardwire Electric - Louisville's Most Affordable Electric Company",
+    "Address": "1416 Dellwood Dr, Louisville, KY 40216",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 631-8296",
+    "Website": "https://hardwireky.com/",
+    "Rating": 4.8,
+    "Review count": 62,
+    "Place ID": "ChIJV7pPWNETaYgRRce7D-Qxn2U",
+    "Google Maps URL": "https://maps.google.com/?cid=7322626374713984837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40216",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Dr. Electric",
+    "Address": "2105 Appleton Ln, Louisville, KY 40216",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 447-6795",
+    "Website": "",
+    "Rating": 5,
+    "Review count": 7,
+    "Place ID": "ChIJU8GemgETaYgRDSjHv_th1s8",
+    "Google Maps URL": "https://maps.google.com/?cid=14976265344749348877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40216",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Lighthouse Electric",
+    "Address": "308 Production Ct, Louisville, KY 40299",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 251-3464",
+    "Website": "http://lighthouseelectric.co/",
+    "Rating": 5,
+    "Review count": 310,
+    "Place ID": "ChIJYyfaDRaRaYgRyhd0dXIIQco",
+    "Google Maps URL": "https://maps.google.com/?cid=14573939156837472202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40299",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "JD Electric LLC",
+    "Address": "4702 Pinewood Rd, Louisville, KY 40218",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 203-1813",
+    "Website": "https://www.jdelectricky.com/",
+    "Rating": 5,
+    "Review count": 33,
+    "Place ID": "ChIJmcerw5QTaYgRbgtKcHDB51U",
+    "Google Maps URL": "https://maps.google.com/?cid=6190128901508434798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40218",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Thompson Electrical Service",
+    "Address": "6521 Upper Hunters Trace, Louisville, KY 40216",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 653-9027",
+    "Website": "",
+    "Rating": 4.7,
+    "Review count": 16,
+    "Place ID": "ChIJQ6Mccxd_O20RfAhUpCnUKm4",
+    "Google Maps URL": "https://maps.google.com/?cid=7938390568509638780&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40216",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Mullins Electric, Inc.",
+    "Address": "342 Production Ct, Louisville, KY 40299",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 495-5071",
+    "Website": "http://www.mullinselectriclouisville.com/",
+    "Rating": 5,
+    "Review count": 33,
+    "Place ID": "ChIJH0xxcDKgaYgRHk0xWteYDyM",
+    "Google Maps URL": "https://maps.google.com/?cid=2526405966676708638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "general_contractor",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40299",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "St. Matthews Electric",
+    "Address": "106 Production Ct, Louisville, KY 40299",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 431-1855",
+    "Website": "https://www.stmatthewselectric.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb_louisville",
+    "Rating": 4.9,
+    "Review count": 234,
+    "Place ID": "ChIJ6ctgpfahaYgREzxvVwEMOI0",
+    "Google Maps URL": "https://maps.google.com/?cid=10175896557945043987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40299",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Tom Drexler Plumbing, Air & Electric",
+    "Address": "3718 Bardstown Rd, Louisville, KY 40218",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 206-4261",
+    "Website": "https://tomdrexlerplumbing.com/?utm_source=google&utm_medium=organic&utm_campaign=GMBListing-Louisville-KY",
+    "Rating": 4.8,
+    "Review count": 21451,
+    "Place ID": "ChIJ1cYSV6QMaYgRUdg_qJSt70o",
+    "Google Maps URL": "https://maps.google.com/?cid=5399725332230035537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "plumber",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40218",
+    "Query": "residential electrician in Louisville, KY"
+   },
+   {
+    "Name": "Steadfast Electric, LLC",
+    "Address": "4520 Mason Dixon Ln Suite 100, Louisville, KY 40213",
+    "State": "KY",
+    "County": "Jefferson County",
+    "Phone": "(502) 717-1499",
+    "Website": "https://www.steadfastelec.com/",
+    "Rating": 5,
+    "Review count": 74,
+    "Place ID": "ChIJh0t-L0dzaYgRalxqzefzfoQ",
+    "Google Maps URL": "https://maps.google.com/?cid=9547336436981324906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "Primary type": "electrician",
+    "Business status": "OPERATIONAL",
+    "City": "Louisville",
+    "Zip": "40213",
+    "Query": "residential electrician in Louisville, KY"
+   }
+  ]
+ },
+ "serp": {
+  "source": "none",
+  "why": "--no-serp",
+  "location": null,
+  "queries": [
+   "residential electrician Louisville",
+   "licensed electrician Louisville",
+   "recessed lighting installation Louisville KY"
+  ],
+  "presence": []
+ },
+ "page": {
+  "url": "https://lighthouseelectric.co/services/",
+  "fetched": true,
+  "has_service_page": true,
+  "final_url": "https://lighthouseelectric.co/services/",
+  "https": true,
+  "tel_link": true,
+  "phone_in_text": true,
+  "form": true,
+  "h1": "Comprehensive Electrical Solutions for Every Need",
+  "title": "Services - Lighthouse Electric",
+  "words": 424,
+  "testimonials": false,
+  "h1_says_service": true,
+  "h1_says_city": false,
+  "title_says_city": false
+ },
+ "fixes": [
+  {
+   "what": "The headline does not say residential electrician and Louisville",
+   "fix": "Make the headline say residential electrician in Louisville, the words the ad and the search use. Read: the h1 is \"Comprehensive Electrical Solutions for Every Need\"."
+  },
+  {
+   "what": "The page title does not say Louisville",
+   "fix": "Put Louisville in the page title. Read: the title is \"Services - Lighthouse Electric\"."
+  },
+  {
+   "what": "No reviews on the page",
+   "fix": "Put three Google reviews on the page, with names. Read: no review or testimonial words on the page."
+  }
+ ],
+ "volume": {
+  "rows": {},
+  "source": "none"
+ },
+ "budget": {
+  "usd": 10,
+  "why": "no bid data; $10 a day as the floor"
+ },
+ "campaign": {
+  "keywords": [
+   {
+    "text": "residential electrician louisville",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "residential electrician louisville ky",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "residential electrician near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "licensed electrician louisville",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "licensed electrician louisville ky",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "licensed electrician near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "electrician louisville",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "electrician near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "recessed lighting installation louisville",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "recessed lighting installation near me",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "landscape lighting installer louisville",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   },
+   {
+    "text": "electrician louisville ky",
+    "match": [
+     "exact",
+     "phrase"
+    ]
+   }
+  ],
+  "negatives": 322,
+  "negatives_dropped": [],
+  "ads": [
+   {
+    "name": "Service",
+    "headlines": [
+     {
+      "text": "Electrician in Louisville",
+      "pin": 1
+     },
+     {
+      "text": "Louisville Electrician",
+      "pin": 1
+     },
+     {
+      "text": "Electrician, Louisville KY",
+      "pin": 1
+     },
+     {
+      "text": "Designed and Installed for You",
+      "pin": 2
+     },
+     {
+      "text": "Built for Louisville Homes",
+      "pin": 2
+     },
+     {
+      "text": "One Team, Start to Finish",
+      "pin": 2
+     },
+     {
+      "text": "Call for an Estimate",
+      "pin": 3
+     },
+     {
+      "text": "Book a Home Visit",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "Lighthouse Electric handles electrical work for homes in Louisville. Call for an estimate.",
+     "One team from the first visit to the last test. Serving Louisville and nearby.",
+     "Tell us about your home in Louisville. We plan the work and do it ourselves."
+    ]
+   },
+   {
+    "name": "Proof",
+    "headlines": [
+     {
+      "text": "Electrician in Louisville",
+      "pin": 1
+     },
+     {
+      "text": "Louisville Electrician",
+      "pin": 1
+     },
+     {
+      "text": "5 Stars on Google",
+      "pin": 2
+     },
+     {
+      "text": "305 Google Reviews",
+      "pin": 2
+     },
+     {
+      "text": "Built for Louisville Homes",
+      "pin": 2
+     },
+     {
+      "text": "Call for an Estimate",
+      "pin": 3
+     },
+     {
+      "text": "Get a Quote Today",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "Rated 5 stars by 305 Google reviews. Call today and talk to the people who do the work.",
+     "Lighthouse Electric handles electrical work for homes in Louisville. Call for an estimate.",
+     "One team from the first visit to the last test. Serving Louisville and nearby."
+    ]
+   },
+   {
+    "name": "Home",
+    "headlines": [
+     {
+      "text": "Louisville Electrician",
+      "pin": 1
+     },
+     {
+      "text": "Electrician, Louisville KY",
+      "pin": 1
+     },
+     {
+      "text": "Electrician in Louisville",
+      "pin": 1
+     },
+     {
+      "text": "One Team, Start to Finish",
+      "pin": 2
+     },
+     {
+      "text": "Done Right the First Time",
+      "pin": 2
+     },
+     {
+      "text": "Designed and Installed for You",
+      "pin": 2
+     },
+     {
+      "text": "Get a Quote Today",
+      "pin": 3
+     },
+     {
+      "text": "Call Today",
+      "pin": 3
+     }
+    ],
+    "descriptions": [
+     "One team from the first visit to the last test. Serving Louisville and nearby.",
+     "Tell us about your home in Louisville. We plan the work and do it ourselves.",
+     "Lighthouse Electric handles electrical work for homes in Louisville. Call for an estimate."
+    ]
+   }
+  ],
+  "lint": [],
+  "daily_budget": 10,
+  "editor_rows": 351
+ },
+ "cost": {
+  "cap_usd": 0.25,
+  "spent_usd": 0,
+  "by_item": {}
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/networking/",
+ "title": "Networking - Reliant Electrical and Automation Inc.",
+ "description": "Professional home networking services including Wi-Fi, hardwired Ethernet, smart device integration, and 24/7 remote support. Reliable, fast, and secure.",
+ "words": 540,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Home Networking Solutions"
+  },
+  {
+   "tag": "h2",
+   "text": "Fast. Reliable. Seamless Connectivity."
+  },
+  {
+   "tag": "h2",
+   "text": "What We Offer:"
+  },
+  {
+   "tag": "h2",
+   "text": "Ready for a Better Connection?"
+  },
+  {
+   "tag": "h2",
+   "text": "Why Choose Reliant ?"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#edf2f7",
+  "#444444",
+  "#ffffff",
+  "#2d3748",
+  "#4a5568",
+  "#3182ce",
+  "#2b6cb0",
+  "#555555",
+  "#e3e5eb",
+  "#f76a0c"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/ruckus-networks-logo-800x800-1.png",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/1036929511-1024x297.webp",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/AN_logo_no-tagline_color-1024x379.webp",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/ARCC-Logo-Grey.webp",
+   "alt": "",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/L_Araknis-Color.webp",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/L_Binary_Color-254x28-e580440.webp",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/L_Ovrc_Color.webp",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/08/download.webp",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

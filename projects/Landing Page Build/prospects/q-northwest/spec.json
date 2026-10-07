@@ -1,0 +1,200 @@
+{
+ "company": "Qnorthwest",
+ "short": "Qnorthwest",
+ "page": "https://www.qnorthwest.com/residential",
+ "loom": "https://www.loom.com/share/62f8953c51b949cfbdcabc6ea163c362",
+ "phone": "866.444.1224",
+ "address": "Seattle, Washington",
+ "areas": "Seattle, the Pacific Northwest, and the San Francisco Bay Area",
+ "brand": {
+  "color": "#2F4858",
+  "dark": "#223644",
+  "accent": "#A9C3D3",
+  "serif": true,
+  "head": "Montserrat",
+  "body": "Poppins",
+  "mist": "#F1F4F6"
+ },
+ "logo": "assets/logo.png",
+ "logo_height": 50,
+ "hero": {
+  "eyebrow": "Lighting control for homeowners",
+  "h1": "Lighting Control Installation in Seattle",
+  "sub": "Every light in the house on keypads, scenes, and schedules. Designed and installed by our team for new construction and remodels.",
+  "photo": "assets/hero.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads",
+    "p": "One button sets the room: morning, dinner, movie, goodnight."
+   },
+   {
+    "icon": "speaker",
+    "h3": "Voice and app",
+    "p": "Say a scene out loud, or run the lights from your phone."
+   },
+   {
+    "icon": "clock",
+    "h3": "Automation",
+    "p": "Lights follow your schedule. Shades can move with them."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "The people with your technology solutions",
+  "p": "Qnorthwest has been at work since 2011, when our first employee joined, and is headquartered in Seattle. More than 30 of our people know Lutron's systems in depth, and we design, wire, program, and service every system we install.",
+  "photo": "assets/team.jpg",
+  "alt": "The Qnorthwest team together at a 2023 Best Workplaces event"
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "A Masterclass in Electrical Work! From the very first interaction, Joe and his entire team set the bar high. The estimate process was clear, fair, and professional — and the execution was nothing short of exceptional.",
+    "who": "Robert F.",
+    "stars": 5
+   },
+   {
+    "p": "I recently purchased my house and the inspector I hired identified significant issues with the electrical. I was referred to Qnorthwest by a colleague. Joe and Blake assessed my home’s electrical systems professionally, efficiently and thoroughly.",
+    "who": "Eric S.",
+    "stars": 5
+   },
+   {
+    "p": "I used on line chat to make an appointment, it was easy and quick. The electrician - Joe came on time and diagnose the problem right away. Fortunately, it's an easy job that my husband can do it by himself.",
+    "who": "Hui-Ju C.",
+    "stars": 5
+   }
+  ]
+ },
+ "process": {
+  "eyebrow": "For architects, designers, and builders",
+  "h2": "How we work with your project",
+  "photo": "assets/project-dusk.jpg",
+  "steps": [
+   {
+    "h3": "Plan with your team",
+    "p": "We work with you, the builder, or the general contractor from the first planning stages."
+   },
+   {
+    "h3": "Wire it ourselves",
+    "p": "Our line voltage and low voltage electricians run the wire, so one crew owns the lighting."
+   },
+   {
+    "h3": "Program and test",
+    "p": "Every scene is programmed, then the system is commissioned and tested before move-in."
+   },
+   {
+    "h3": "Train and support",
+    "p": "The owners learn the system, and we service every system we install."
+   }
+  ]
+ },
+ "faq": {
+  "h2": "Questions we get asked",
+  "items": [
+   {
+    "q": "Can you add lighting control to the home I live in now?",
+    "a": "Yes. We modernize existing homes and work alongside the technology you already have."
+   },
+   {
+    "q": "When should we bring you in on a new build?",
+    "a": "At the first planning stages. We work with your builder or architect through move-in day."
+   },
+   {
+    "q": "Which lighting systems do you install?",
+    "a": "Every Lutron system, including HomeWorks QSX, RadioRA 3, and Ketra, plus Vantage, Crestron, and Control4."
+   },
+   {
+    "q": "We have an old LiteTouch system. Can you help?",
+    "a": "Yes. We fix, change, or upgrade older LiteTouch and other legacy systems."
+   },
+   {
+    "q": "Do you do the electrical work too?",
+    "a": "Yes. Our team includes line voltage and low voltage electricians."
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "items": [
+   {
+    "icon": "network",
+    "h3": "Home control",
+    "p": "Every system in the house on one easy platform.",
+    "href": "https://www.qnorthwest.com/residential"
+   },
+   {
+    "icon": "speaker",
+    "h3": "Home audio",
+    "p": "Whole home, single room, and outdoor sound.",
+    "href": "https://www.qnorthwest.com/residential"
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "p": "Natural light where you want it, UV kept off art.",
+    "href": "https://www.qnorthwest.com/residential"
+   },
+   {
+    "icon": "tv",
+    "h3": "Media rooms and home theater",
+    "p": "The movie experience at home, calibrated.",
+    "href": "https://www.qnorthwest.com/residential"
+   },
+   {
+    "icon": "shield",
+    "h3": "Security",
+    "p": "Cameras, doorbells, and alarms sized to your needs.",
+    "href": "https://www.qnorthwest.com/residential"
+   },
+   {
+    "icon": "wifi",
+    "h3": "Network",
+    "p": "Strong WiFi in every room, wired with cable and fiber.",
+    "href": "https://www.qnorthwest.com/residential"
+   }
+  ]
+ },
+ "final": {
+  "h2": "Tell us about your home",
+  "p": "New build or remodel, a line or two is enough. We will set a time to talk."
+ },
+ "footer": {
+  "creds": "Lutron Diamond Dealer. Licensed line voltage and low voltage electricians."
+ },
+ "form": {
+  "hint": "A line or two is plenty: new build or remodel, and the rooms you want on keypads.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "reviews",
+  "process",
+  "faq",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from Jonathan's Loom audit of https://qnorthwest.com/residential. Hero photo: the strongest of the three carousel slides, but all three are iStock photos (file names iStock-...), so it is stock; swap in a real project photo when they send one. Process photo: the dark modern home behind their 'We would love to learn more about your project.' band (file name image-asset.jpeg, not marked iStock); not confirmed as their own project, Jonathan said 'if this is an actual project'. Logo: their white lockup recolored to their header slate #2F4858 so it reads on the engine's white header (the engine has no dark header). No rating or reviews on their site: the hero trust bar is left out and the three review boxes are marked empty; pull them from their Google profile. No separate page per secondary service on their site: every services card links to /residential until those pages exist. 'Since 2011' comes from the Meet the Team page (Peter Schuldt: 'In 2011, I became the first Qnorthwest employee').",
+ "google": {
+  "rating": 4.9,
+  "count": 25,
+  "maps": "https://maps.google.com/?cid=16950385776774187714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ },
+ "header": {
+  "dark": true,
+  "logo": "assets/logo-light.png",
+  "bg": "#2C4C54"
+ }
+}

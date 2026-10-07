@@ -1,0 +1,83 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+LOG hyphenator: object, en-us patterns: true
+LOG perf: syllableTexts x55 lines: pass 1 0.0 ms, pass 2 0.0 ms; parseLyrics 0.0 ms
+LOG parseLrc entries 60, with text 55, parseLyrics lines 55
+LINE|0|23.09|Everything's so blurry and everyone's so fake|10|Every-thing's so blur-ry and every-one's so fake
+LINE|1|28.96|And everybody's empty and everything is so messed up|13|And every-body's emp-ty and every-thing is so mes-sed up
+LINE|2|34.96|Preoccupied without you, I cannot live at all|13|Pre-oc-cu-pied with-out you, I can-not live at all
+LINE|3|41.24|My whole world surrounds you, I stumble and I crawl|12|My whole world sur-rounds you, I stum-ble and I crawl
+LINE|4|47.21|You could be my someone, you could be my scene|11|You could be my some-one, you could be my scene
+LINE|5|53.37|You know that I'll protect you from all of the obscene|13|You know that I'll pro-tect you from all of the ob-scene
+LINE|6|59.31|I wonder what you're doing, imagine where you are|12|I won-der what you're do-ing, imag-ine where you are
+LINE|7|65.42|There's oceans in between us, but that's not very far|14|The-re's o-ceans in be-tween us, but that's not ve-ry far
+LINE|8|72.94|Can you take it all away?|7|Can you take it all a-way?
+LINE|9|75.94|Can you take it all away?|7|Can you take it all a-way?
+LINE|10|79.01|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|11|82.25|This pain you gave to me|6|This pain you gave to me
+LINE|12|85.18|Can you take it all away?|7|Can you take it all a-way?
+LINE|13|88.23|Can you take it all away?|7|Can you take it all a-way?
+LINE|14|91.16|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|15|96.25|Everyone is changing, there's no one left that's real|13|Every-one is chang-ing, the-re's no one left that's re-al
+LINE|16|102.19|So make up your own ending and let me know just how you feel|15|So make up your own end-ing and let me know just how you feel
+LINE|17|108.22|'Cause I am lost without you, I cannot live at all|13|'Cause I am lost with-out you, I can-not live at all
+LINE|18|114.46|My whole world surrounds you, I stumble then I crawl|12|My whole world sur-rounds you, I stum-ble then I crawl
+LINE|19|120.67|You could be my someone, you could be my scene|11|You could be my some-one, you could be my scene
+LINE|20|126.55|You know that I will save you from all of the unclean|13|You know that I will save you from all of the un-clean
+LINE|21|132.76|I wonder what you're doing, I wonder where you are|13|I won-der what you're do-ing, I won-der where you are
+LINE|22|138.70|There's oceans in between us, but that's not very far|14|The-re's o-ceans in be-tween us, but that's not ve-ry far
+LINE|23|146.18|Can you take it all away?|7|Can you take it all a-way?
+LINE|24|149.33|Can you take it all away?|7|Can you take it all a-way?
+LINE|25|152.30|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|26|155.57|This pain you gave to me|6|This pain you gave to me
+LINE|27|158.45|Can you take it all away?|7|Can you take it all a-way?
+LINE|28|161.52|Can you take it all away?|7|Can you take it all a-way?
+LINE|29|164.40|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|30|167.95|This pain you gave to me|6|This pain you gave to me
+LINE|31|171.16||0|
+LINE|32|181.91|Nobo-, nobody told me what you thought|9|Nobo-, no-body told me what you thought
+LINE|33|186.17|Nobody told me what to say|7|No-body told me what to say
+LINE|34|189.11|Everyone showed you where to turn|8|Every-one sho-wed you where to turn
+LINE|35|192.36|Told you when to run away|7|Told you when to run a-way
+LINE|36|195.48|Nobody told you where to hide|7|No-body told you where to hide
+LINE|37|198.49|Nobody told you what to say|7|No-body told you what to say
+LINE|38|201.57|Everyone showed you where to turn|8|Every-one sho-wed you where to turn
+LINE|39|204.30|Showed you when to run away|8|Sho-wed you when to run a-way
+LINE|40|207.13|Can you take it all away?|7|Can you take it all a-way?
+LINE|41|210.21|Can you take it all away?|7|Can you take it all a-way?
+LINE|42|213.21|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|43|216.48|This pain you gave to me|6|This pain you gave to me
+LINE|44|219.30|Can you take it all away?|7|Can you take it all a-way?
+LINE|45|222.35|Can you take it all away?|7|Can you take it all a-way?
+LINE|46|225.45|Well, you shoved it in my face|8|Well, you sho-ved it in my face
+LINE|47|228.85|This pain you gave to me, no|7|This pain you gave to me, no
+LINE|48|233.59||0|
+LINE|49|236.55|This pain you gave to me|6|This pain you gave to me
+LINE|50|239.80||0|
+LINE|51|248.78|This pain you gave to me|6|This pain you gave to me
+LINE|52|252.54||0|
+LINE|53|259.52|Can you take it all, take it all away?|10|Can you take it all, take it all a-way?
+LINE|54|264.32|This pain you gave to me|6|This pain you gave to me
+LINE|55|267.03|Can you take it all away?|7|Can you take it all a-way?
+LINE|56|270.29|This pain you gave to me|6|This pain you gave to me
+LINE|57|272.93|Can you take it all away?|7|Can you take it all a-way?
+LINE|58|276.10|This pain you gave to me|6|This pain you gave to me
+LINE|59|277.40||0|
+LOG syllableTexts on an empty string gives [{"text":"","hy":false}] (parseLyrics skips blank lines)
+PASS parseLyrics line counts equal syllableTexts counts: 0 differ
+LOG perf: wordsToNotes (parse + render) 0.0 ms
+PASS wordsToNotes made 55 lines: 55
+PASS line 5 (You could be my someone, you could be my scene) holds 11 syllable records: records 11 text "You could be my someone, you could be my scene"
+LOG records per line after wordsToNotes: 10 13 13 12 11 13 12 14 7 7 8 6 7 7 8 13 15 13 12 11 13 13 14 7 7 8 6 7 7 8 6 9 7 8 7 7 7 8 8 7 7 8 6 7 7 8 7 6 6 10 6 7 6 7 6
+LOG perf: autoPlaceWords (blind) 0.0 ms; bpm 100 time 4/4 offsetSec 23.09 filled null
+PASS syllable records per line unchanged by the fill: 10 13 13 12 11 13 12 14 7 7 8 6 7 7 8 13 15 13 12 11 13 13 14 7 7 8 6 7 7 8 6 9 7 8 7 7 7 8 8 7 7 8 6 7 7 8 7 6 6 10 6 7 6 7 6
+LOG line:records/drawnHeads after the blind fill: 0:10/15 1:13/18 2:13/16 3:12/13 4:11/15 5:13/17 6:12/17 7:14/19 8:7/8 9:7/8 10:8/11 11:6/7 12:7/8 13:7/8 14:8/9 15:13/16 16:15/18 17:13/15 18:12/17 19:11/15 20:13/17 21:13/15 22:14/20 23:7/8 24:7/8 25:8/10 26:6/10 27:7/8 28:7/9 29:8/10 30:6/7 31:9/13 32:7/9 33:8/11 34:7/8 35:7/8 36:7/9 37:8/9 38:8/9 39:7/10 40:7/8 41:8/10 42:6/7 43:7/9 44:7/8 45:8/10 46:7/13 47:6/10 48:6/9 49:10/15 50:6/7 51:7/9 52:6/7 53:7/9 54:6/6
+LOG line 5 after the fill: You@1x3 could@4x3 be@7x3 my@10x3 some@13x4 one,@17x3 you@20x3 could@23x3 be@26x3 my@29x3 scene@33x9 bars 3 drawn heads 15
+LOG perf: alignLines 55x60 0.0 ms
+PASS every sheet line pairs (55): 55 pairs
+PASS every pair sim 1
+PASS pairs in order
+LOG unpaired LRC entries: 31(blank) 48(blank) 50(blank) 52(blank) 59(blank)
+LOG crafted line: 6 records, 8 drawn heads: You:8 could:8 be:8 my:16+8 some:8 some(carry):8 one,:8
+DONE

@@ -1,0 +1,113 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/partnerships/",
+ "title": "Partnerships - Reliant Electrical and Automation Inc.",
+ "description": "Experience smoother transactions and increased property values by partnering with an electrician for all your electrical needs.",
+ "words": 746,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Partnering With a Professional Electrician:"
+  },
+  {
+   "tag": "h2",
+   "text": "A Smart Advantage for Real Estate Agents & Contractors"
+  },
+  {
+   "tag": "h2",
+   "text": "Benefits for Real Estate Agents"
+  },
+  {
+   "tag": "h2",
+   "text": "Benefits for Contractors & Builders"
+  },
+  {
+   "tag": "h2",
+   "text": "Seamless Coordination With All Trades"
+  },
+  {
+   "tag": "h2",
+   "text": "Code-Compliant, Future-Ready Installations"
+  },
+  {
+   "tag": "h2",
+   "text": "Consistent Quality That Enhances Your Reputation"
+  },
+  {
+   "tag": "h2",
+   "text": "Faster Project Timelines & Fewer Change Orders"
+  },
+  {
+   "tag": "h2",
+   "text": "Shared Benefits for Both Real Estate Agents & Contractors"
+  },
+  {
+   "tag": "h2",
+   "text": "Access to a Full-Service Electrical Team"
+  },
+  {
+   "tag": "h2",
+   "text": "Professional Documentation & Reporting"
+  },
+  {
+   "tag": "h2",
+   "text": "Strong Client Impressions"
+  },
+  {
+   "tag": "h2",
+   "text": "Why Choose Reliant Electrical & Automation Inc.?"
+  },
+  {
+   "tag": "h2",
+   "text": "Get started now"
+  },
+  {
+   "tag": "h3",
+   "text": "Faster Closings & Smoother Transactions"
+  },
+  {
+   "tag": "h3",
+   "text": "Increased Property Value & Market Appeal"
+  },
+  {
+   "tag": "h3",
+   "text": "Reliable, On-Call Support for Tight Deadlines"
+  },
+  {
+   "tag": "h3",
+   "text": "Reduced Liability & Increased Buyer Trust"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#718096",
+  "#edf2f7",
+  "#3182ce",
+  "#ffffff",
+  "#2d3748",
+  "#eeeeee",
+  "#4a5568",
+  "#2b6cb0",
+  "#1a202c",
+  "#f76a0c"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

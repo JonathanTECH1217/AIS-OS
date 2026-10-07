@@ -1,0 +1,12 @@
+{
+  "batch": "2026-09-26 SEO card 1, second redo (Jonathan: just a map icon with a house, scale the house up slightly). Image edit of candidate card-1-5 (job 827c7dce) as the reference, requested as nano_banana_pro, 2k, 1:1, four generations, 8 credits",
+  "prompts": {
+    "seo/card-1-house-only": "Edit this icon: keep the same glossy 3D cartoon map location pin with the white round head and the house inside it, same indigo and white, same light and lavender ground. Remove the wrench, bolt, shingles, and fan so only the pin and the house remain. Make the house slightly larger."
+  },
+  "jobs": [
+    {"index": 0, "file": "seo/card-1-9.jpg", "job_id": "56afd9ea-d7b5-42a8-83e7-c4e055437c31", "prompt": "seo/card-1-house-only"},
+    {"index": 1, "file": "seo/card-1-10.jpg", "job_id": "244b85af-1841-44cc-91fd-4f932ebbde4a", "prompt": "seo/card-1-house-only"},
+    {"index": 2, "file": "seo/card-1-11.jpg", "job_id": "5d5a0f05-cfa0-49ab-94e6-126eddbb18bc", "prompt": "seo/card-1-house-only"},
+    {"index": 3, "file": "seo/card-1-12.jpg", "job_id": "cadcfcee-b552-4b90-a4ee-0b328ebfd6b1", "prompt": "seo/card-1-house-only"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "time",
+  "label": "Time",
+  "pages": ["/ai-automation/"],
+  "source": "brainstorms/2026-09-25-google-ads-pages.md Q40 to Q45; Jonathan: the page centers on saving the business owner time",
+  "palette": {
+    "ground": "#0B1220",
+    "panel": "#121B2E",
+    "ink": "#F5F7FA",
+    "muted": "#9AA4B2",
+    "hairline": "#223049",
+    "accent": "#7CF5C8",
+    "button": "#7CF5C8",
+    "button_text": "#0B1220",
+    "fit_yes": "#4ADE80",
+    "fit_no": "#F87171",
+    "white": "#FFFFFF"
+  },
+  "extra_hexes": [],
+  "contrast": [
+    {"fg": "#F5F7FA", "bg": "#0B1220", "ratio": 17.45, "passes": "AA", "use": "body"},
+    {"fg": "#9AA4B2", "bg": "#0B1220", "ratio": 7.42, "passes": "AA", "use": "muted"},
+    {"fg": "#9AA4B2", "bg": "#121B2E", "ratio": 6.81, "passes": "AA", "use": "muted on a panel"},
+    {"fg": "#0B1220", "bg": "#7CF5C8", "ratio": 14.04, "passes": "AA", "use": "button text"},
+    {"fg": "#7CF5C8", "bg": "#0B1220", "ratio": 14.04, "passes": "AA", "use": "accent text and icons"},
+    {"fg": "#4ADE80", "bg": "#0B1220", "ratio": 10.74, "passes": "AA", "use": "fit yes"},
+    {"fg": "#F87171", "bg": "#0B1220", "ratio": 6.77, "passes": "AA", "use": "fit no"},
+    {"fg": "#F5F7FA", "bg": "#121B2E", "ratio": 16.01, "passes": "AA", "use": "body on a panel"}
+  ],
+  "faces": {"heading": "Space Grotesk", "body": "Inter", "mono": "IBM Plex Mono"},
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=Inter:wght@400&family=IBM+Plex+Mono:wght@400&display=swap",
+  "weights": [400, 500],
+  "labels": {"hero": "Get your hours back", "final": "Book the call"},
+  "button": {"shape": "pill", "radius": "999px"},
+  "cards": {"opener": "lucide", "opener_icons": ["file-text", "mail", "receipt", "book-open"], "opener_color": "#7CF5C8", "radius": "12px", "border": "1px solid #223049", "ground": "#121B2E", "shadow": "none"},
+  "shadows": "none",
+  "section_label": "mono caps, tracked, in muted",
+  "hero": "split: text left, the render right as a sticker (Jonathan, 2026-09-26): the warm-home render cut out with a white border and a soft shadow on the dark ground; stacked on phones",
+  "hero_render": "An evening porch, lights on, the work truck in the drive. 3D cartoonish on the dark ground, mint highlights.",
+  "card_renders": null,
+  "notes": [
+    "Walk-through: A week, before and after; two five-day CSS grids, admin blocks (proposals, follow-up, invoicing, bookkeeping, missed calls) in the first, site time in the second, labels in the mono face. No hours figure unless Jonathan supplies a measured one.",
+    "No answer-time promise anywhere (Copy 9). The tool behind each card is named before anything prints, and runs on Monarc's own line first.",
+    "A light alternate (white ground, panels #F3F4F6, ink #0B1220, teal #0F766E) was offered and declined 2026-09-25."
+  ]
+}

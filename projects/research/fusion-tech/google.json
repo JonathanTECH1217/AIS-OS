@@ -1,0 +1,69 @@
+{
+ "read": "2026-10-07",
+ "query": "Fusion Tech Companies 1254 Hanley Industrial Ct, Brentwood, MO 63144",
+ "place_id": "ChIJUUPl5dDM2IcR1tVh38F04uI",
+ "name": "Fusion Tech Companies",
+ "address": "1254 Hanley Industrial Ct, Brentwood, MO 63144, USA",
+ "website": "http://fusion-companies.com/",
+ "maps": "https://maps.google.com/?cid=16348757973333562838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+ "rating": 4.4,
+ "reviews_count": 13,
+ "reviews": [
+  {
+   "name": "Samantha M.",
+   "rating": 5,
+   "date": "2024-02-28",
+   "text": "My family did a huge home renovation project and new build addition that took 4 years and Fusion did a phenomenal job. Smart lighting, smart TVs, security system, and speaker systems with complicated cabling and setups all within one app. Chris, Jeff, Joe and all the techs that I've worked with have been professional and knowledgeable."
+  },
+  {
+   "name": "Barb B.",
+   "rating": 5,
+   "date": "2021-04-20",
+   "text": "We have used Fusion for two major tech installs at two homes. They are great to work with. The team is not just  technically capable but very easy to work with, great communication and plain ole good guys. Patient with customers who may not be tech-savvy. Lots of companies can have great equip and techs, but it’s guys like the Fusion team that make a real difference."
+  },
+  {
+   "name": "ashley f.",
+   "rating": 5,
+   "date": "2018-08-12",
+   "text": "We had motorized dual shades by Alta installed on the first level of our home. We absolutely love them! After first seeing a similar product on a home tour, I took a photo of the blinds and reached out to Chris to see if he offered anything like them. He was able to bring me a working sample and a book full of fabric choices. They installed all of the blinds perfectly and we couldn’t be more pleased with the finished product. Thank you Fusion Media Systems!"
+  },
+  {
+   "name": "Stephen P.",
+   "rating": 5,
+   "date": "2018-07-26",
+   "text": "Chris and David gave our staff a great presentation.  They are very professional and always available for technical assistance."
+  },
+  {
+   "name": "Bob S.",
+   "rating": 5,
+   "date": "2018-07-25",
+   "text": "We just had some Lutron motorized shades installed by Fusion Media Systems and we couldn't be more pleased with the final product and the entire process. Shawn's crew was exceptional and Stacy did a wonderful job of helping us select the best product for our home. Thank you!"
+  }
+ ],
+ "photos": [
+  {
+   "file": "projects/research/fusion-tech/photos/g00.jpg",
+   "width": 2048,
+   "height": 1536,
+   "by": "Chris Paz"
+  },
+  {
+   "file": "projects/research/fusion-tech/photos/g01.jpg",
+   "width": 2048,
+   "height": 1536,
+   "by": "Stephen Patton"
+  },
+  {
+   "file": "projects/research/fusion-tech/photos/g02.jpg",
+   "width": 2048,
+   "height": 1536,
+   "by": "Stephen Patton"
+  },
+  {
+   "file": "projects/research/fusion-tech/photos/g03.jpg",
+   "width": 464,
+   "height": 327,
+   "by": "Chris Paz"
+  }
+ ]
+}

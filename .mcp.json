@@ -4,6 +4,14 @@
       "type": "http",
       "url": "https://mcp.stripe.com"
     },
+    "airtable": {
+      "type": "http",
+      "url": "https://mcp.airtable.com/mcp"
+    },
+    "opusclip": {
+      "type": "http",
+      "url": "https://mcp.opus.pro/mcp"
+    },
     "hostinger-hosting": {
       "command": "npx.cmd",
       "args": ["--package=hostinger-api-mcp@latest", "hostinger-hosting-mcp"],

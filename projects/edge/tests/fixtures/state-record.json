@@ -1,0 +1,1264 @@
+{
+ "rev": 412,
+ "now": "2026-10-10T22:30:00Z",
+ "config": {
+  "env": "demo",
+  "dry_run": true,
+  "paper_auto": true,
+  "rehearsal_passed": false,
+  "mode": "approve",
+  "port": 8800,
+  "league_id": 39,
+  "season": 2026,
+  "kalshi_series": "KXEPLGAME",
+  "gap_floor_points": 7,
+  "stake": {
+   "floor_pct": 6.0,
+   "cap_pct": 8.0,
+   "cap_from_points": 17.0
+  },
+  "fees": {
+   "taker_rate": 0.07,
+   "maker_rate": 0.0175,
+   "assume_taker": true,
+   "schedule_checked": ""
+  },
+  "busy": {
+   "min_volume_contracts": 10000,
+   "max_spread_cents": 2,
+   "min_depth_multiple": 1.0
+  },
+  "bankroll_usd": 1000.0,
+  "drawdown": {
+   "on": true,
+   "auto_only": true,
+   "pct": 25.0
+  },
+  "window": {
+   "snapshot_minutes": 60,
+   "lineup_from_minutes": 75,
+   "lineup_poll_minutes": 5,
+   "decide_by_minutes": 20,
+   "decide_without_lineups": false,
+   "cancel_before_kickoff_minutes": 2,
+   "listing_lookahead_days": 16
+  },
+  "auto_windows": {
+   "lineup_hour": true,
+   "clv_proven_bands": true,
+   "min_band_cards": 30
+  },
+  "gate": {
+   "min_settled": 200,
+   "band_width_points": 10,
+   "band_tolerance_points": 5.0,
+   "min_band_n": 30,
+   "pooled_tolerance_points": 3.0,
+   "min_clv_points": 5.0
+  },
+  "model": {
+   "version": "",
+   "window_matches": 10,
+   "venue_weight": 0.6,
+   "sot_blend": 0.5
+  },
+  "polymarket": {
+   "on": true,
+   "disagree_points": 5.0,
+   "block_when_disagree": false
+  },
+  "claude": {
+   "on": true,
+   "max_usd_per_day": 1.0,
+   "model": ""
+  },
+  "api_football": {
+   "daily_budget": 6000,
+   "odds_witness": false,
+   "cache_hours": {
+    "fixtures": 6,
+    "team_stats": 24,
+    "players": 24,
+    "h2h": 168,
+    "injuries": 6,
+    "odds": 3,
+    "lineups_pending": 0
+   }
+  },
+  "legal_watch": {
+   "note": "Maryland v. Kalshi, 4th Cir., argued 2026-05-07, enforcement paused pending ruling",
+   "checked": "2026-10-04"
+  }
+ },
+ "halted": false,
+ "halts": [],
+ "cards": [
+  {
+   "id": "c-ars-away",
+   "fixture_id": "fx-1",
+   "event_ticker": "KXEPLGAME-26OCT11NFOARS",
+   "ticker": "KXEPLGAME-26OCT11NFOARS-ARS",
+   "outcome": "away",
+   "outcome_name": "Arsenal",
+   "home": "Nottingham Forest",
+   "away": "Arsenal",
+   "kickoff_utc": "2026-10-11T18:30:00Z",
+   "side": "yes",
+   "state": "ready",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.38,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.25,
+   "market_yes_ask": 0.26,
+   "market_price": 0.26,
+   "market_mid": 0.255,
+   "poly_mid": 0.29,
+   "fee_points": 1.3,
+   "break_even": 0.273,
+   "gap_points": 10.7,
+   "color": "green",
+   "stake_usd": 67.4,
+   "count": 259,
+   "limit_price": 0.26,
+   "band": "30-40",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": true,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": null,
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "Arsenal have won eight of their last ten away and kept four clean sheets in that run. Forest have scored once in their last five at home and lost their first-choice keeper on Tuesday. Our model puts Arsenal at 38%. Kalshi asks 26c, which breaks even at 27.3% after the fee. That is a 10.7 point gap. Polymarket sits at 29c, 9 points under us, so the second witness disagrees. Lineups are not out yet.",
+   "flags": [
+    "second witness disagrees",
+    "no lineups"
+   ],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-nfo-draw",
+   "fixture_id": "fx-1",
+   "event_ticker": "KXEPLGAME-26OCT11NFOARS",
+   "ticker": "KXEPLGAME-26OCT11NFOARS-TIE",
+   "outcome": "draw",
+   "outcome_name": "Tie",
+   "home": "Nottingham Forest",
+   "away": "Arsenal",
+   "kickoff_utc": "2026-10-11T18:30:00Z",
+   "side": "no",
+   "state": "watching",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.24,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.29,
+   "market_yes_ask": 0.3,
+   "market_price": 0.71,
+   "market_mid": 0.295,
+   "poly_mid": 0.27,
+   "fee_points": 1.4,
+   "break_even": 0.724,
+   "gap_points": 3.6,
+   "color": "amber",
+   "stake_usd": null,
+   "count": null,
+   "limit_price": null,
+   "band": "70-80",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": null,
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "",
+   "flags": [
+    "no lineups"
+   ],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-nfo-home",
+   "fixture_id": "fx-1",
+   "event_ticker": "KXEPLGAME-26OCT11NFOARS",
+   "ticker": "KXEPLGAME-26OCT11NFOARS-NOT",
+   "outcome": "home",
+   "outcome_name": "Nottingham Forest",
+   "home": "Nottingham Forest",
+   "away": "Arsenal",
+   "kickoff_utc": "2026-10-11T18:30:00Z",
+   "side": null,
+   "state": "no_edge",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.36,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.43,
+   "market_yes_ask": 0.44,
+   "market_price": 0.44,
+   "market_mid": 0.435,
+   "poly_mid": 0.42,
+   "fee_points": 1.7,
+   "break_even": 0.457,
+   "gap_points": -9.7,
+   "color": "red",
+   "stake_usd": null,
+   "count": null,
+   "limit_price": null,
+   "band": "30-40",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": null,
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "",
+   "flags": [],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-mci-away",
+   "fixture_id": "fx-2",
+   "event_ticker": "KXEPLGAME-26OCT11BREMCI",
+   "ticker": "KXEPLGAME-26OCT11BREMCI-MAN",
+   "outcome": "away",
+   "outcome_name": "Manchester City",
+   "home": "Brentford",
+   "away": "Manchester City",
+   "kickoff_utc": "2026-10-11T16:00:00Z",
+   "side": "yes",
+   "state": "no_edge",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.72,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.58,
+   "market_yes_ask": 0.62,
+   "market_price": 0.62,
+   "market_mid": 0.6,
+   "poly_mid": 0.64,
+   "fee_points": 1.6,
+   "break_even": 0.636,
+   "gap_points": 8.4,
+   "color": "green",
+   "stake_usd": 62.8,
+   "count": 101,
+   "limit_price": 0.62,
+   "band": "70-80",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": null,
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "",
+   "flags": [],
+   "lineups_seen": 0,
+   "busy_ok": 0,
+   "busy_reason": "spread 4c, over the 2c limit",
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-bre-draw",
+   "fixture_id": "fx-2",
+   "event_ticker": "KXEPLGAME-26OCT11BREMCI",
+   "ticker": "KXEPLGAME-26OCT11BREMCI-TIE",
+   "outcome": "draw",
+   "outcome_name": "Tie",
+   "home": "Brentford",
+   "away": "Manchester City",
+   "kickoff_utc": "2026-10-11T16:00:00Z",
+   "side": "yes",
+   "state": "placed",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.34,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.24,
+   "market_yes_ask": 0.25,
+   "market_price": 0.25,
+   "market_mid": 0.245,
+   "poly_mid": 0.3,
+   "fee_points": 1.3,
+   "break_even": 0.263,
+   "gap_points": 7.7,
+   "color": "green",
+   "stake_usd": 61.4,
+   "count": 245,
+   "limit_price": 0.25,
+   "band": "30-40",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": "2026-10-10T21:40:00Z",
+   "passed_at": null,
+   "order_id": "ord-2201",
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "Both sides have drawn three of their last six. Brentford score early at home and City rest players before Europe. Our model puts the draw at 34% against an ask of 25c.",
+   "flags": [],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-bre-home",
+   "fixture_id": "fx-2",
+   "event_ticker": "KXEPLGAME-26OCT11BREMCI",
+   "ticker": "KXEPLGAME-26OCT11BREMCI-BRE",
+   "outcome": "home",
+   "outcome_name": "Brentford",
+   "home": "Brentford",
+   "away": "Manchester City",
+   "kickoff_utc": "2026-10-11T16:00:00Z",
+   "side": "yes",
+   "state": "filled",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.22,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.12,
+   "market_yes_ask": 0.13,
+   "market_price": 0.13,
+   "market_mid": 0.125,
+   "poly_mid": 0.15,
+   "fee_points": 0.8,
+   "break_even": 0.138,
+   "gap_points": 8.2,
+   "color": "green",
+   "stake_usd": 62.4,
+   "count": 479,
+   "limit_price": 0.13,
+   "band": "20-30",
+   "hours_band": "12-24h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": "2026-10-10T20:05:00Z",
+   "passed_at": null,
+   "order_id": "ord-2188",
+   "fill_count": 479,
+   "avg_fill": 0.13,
+   "fees_paid": 3.79,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "Brentford have beaten two top-six sides at home this season. City travel after a midweek Champions League match. Our model puts Brentford at 22% against an ask of 13c.",
+   "flags": [],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-liv-away",
+   "fixture_id": "fx-3",
+   "event_ticker": "KXEPLGAME-26OCT10EVELIV",
+   "ticker": "KXEPLGAME-26OCT10EVELIV-LIV",
+   "outcome": "away",
+   "outcome_name": "Liverpool",
+   "home": "Everton",
+   "away": "Liverpool",
+   "kickoff_utc": "2026-10-10T16:30:00Z",
+   "side": "yes",
+   "state": "settled",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": "2026-10-10T18:35:00Z",
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.58,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.48,
+   "market_yes_ask": 0.49,
+   "market_price": 0.49,
+   "market_mid": 0.485,
+   "poly_mid": 0.52,
+   "fee_points": 1.7,
+   "break_even": 0.507,
+   "gap_points": 7.3,
+   "color": "green",
+   "stake_usd": 60.6,
+   "count": 123,
+   "limit_price": 0.49,
+   "band": "50-60",
+   "hours_band": "0-1h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": "ord-2150",
+   "fill_count": 123,
+   "avg_fill": 0.49,
+   "fees_paid": 2.15,
+   "result": "yes",
+   "pnl_usd": 60.58,
+   "clv_points": 3.2,
+   "closing_fair": 0.53,
+   "reasoning": "Liverpool unbeaten in nine at Goodison. Our model had them at 58% against an ask of 49c.",
+   "flags": [
+    "lineups posted"
+   ],
+   "lineups_seen": 1,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-eve-draw",
+   "fixture_id": "fx-3",
+   "event_ticker": "KXEPLGAME-26OCT10EVELIV",
+   "ticker": "KXEPLGAME-26OCT10EVELIV-TIE",
+   "outcome": "draw",
+   "outcome_name": "Tie",
+   "home": "Everton",
+   "away": "Liverpool",
+   "kickoff_utc": "2026-10-10T16:30:00Z",
+   "side": "yes",
+   "state": "settled",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": "2026-10-10T18:35:00Z",
+   "expires_at": null,
+   "model_version": "m1",
+   "model_p": 0.31,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.21,
+   "market_yes_ask": 0.22,
+   "market_price": 0.22,
+   "market_mid": 0.215,
+   "poly_mid": 0.26,
+   "fee_points": 1.2,
+   "break_even": 0.232,
+   "gap_points": 7.8,
+   "color": "green",
+   "stake_usd": 61.6,
+   "count": 280,
+   "limit_price": 0.22,
+   "band": "30-40",
+   "hours_band": "0-1h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": "ord-2151",
+   "fill_count": 280,
+   "avg_fill": 0.22,
+   "fees_paid": 3.36,
+   "result": "no",
+   "pnl_usd": -64.96,
+   "clv_points": -1.4,
+   "closing_fair": 0.21,
+   "reasoning": "Four of the last six derbies were level at the hour. Our model had the draw at 31% against 22c.",
+   "flags": [
+    "lineups posted"
+   ],
+   "lineups_seen": 1,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  },
+  {
+   "id": "c-eve-home",
+   "fixture_id": "fx-3",
+   "event_ticker": "KXEPLGAME-26OCT10EVELIV",
+   "ticker": "KXEPLGAME-26OCT10EVELIV-EVE",
+   "outcome": "home",
+   "outcome_name": "Everton",
+   "home": "Everton",
+   "away": "Liverpool",
+   "kickoff_utc": "2026-10-10T16:30:00Z",
+   "side": "yes",
+   "state": "expired",
+   "created": "2026-10-10T18:30:00Z",
+   "decided_at": null,
+   "expires_at": "2026-10-10T16:10:00Z",
+   "model_version": "m1",
+   "model_p": 0.26,
+   "p_home": null,
+   "p_draw": null,
+   "p_away": null,
+   "market_yes_bid": 0.23,
+   "market_yes_ask": 0.24,
+   "market_price": 0.24,
+   "market_mid": 0.235,
+   "poly_mid": 0.25,
+   "fee_points": 1.3,
+   "break_even": 0.253,
+   "gap_points": 0.7,
+   "color": "amber",
+   "stake_usd": null,
+   "count": null,
+   "limit_price": null,
+   "band": "20-30",
+   "hours_band": "0-1h",
+   "mode": "approve",
+   "can_approve": false,
+   "approved_at": null,
+   "passed_at": null,
+   "order_id": null,
+   "fill_count": null,
+   "avg_fill": null,
+   "fees_paid": null,
+   "result": null,
+   "pnl_usd": null,
+   "clv_points": null,
+   "closing_fair": null,
+   "reasoning": "",
+   "flags": [
+    "key player out: Calvert-Lewin"
+   ],
+   "lineups_seen": 0,
+   "busy_ok": 1,
+   "busy_reason": null,
+   "sources": [
+    "football-data.co.uk E0 2024/25 to 2026/27",
+    "Kalshi KXEPLGAME",
+    "Polymarket"
+   ],
+   "paper": 1,
+   "updated": "2026-10-10T22:30:00Z"
+  }
+ ],
+ "record": {
+  "settled": 37,
+  "bets": 40,
+  "hit_rate": 0.432,
+  "pnl_usd": -12.4,
+  "return_pct": -1.0,
+  "staked_usd": 1240.0,
+  "bankroll": {
+   "start": 1000.0,
+   "balance": 987.6,
+   "equity": 1012.3,
+   "peak": 1041.2,
+   "drawdown_pct": 2.8
+  },
+  "bands": [
+   {
+    "band": "20-30",
+    "n": 6,
+    "model_mean": 0.251,
+    "hit_rate": 0.333,
+    "lo": 0.097,
+    "hi": 0.7,
+    "within": true,
+    "light": "grey"
+   },
+   {
+    "band": "30-40",
+    "n": 31,
+    "model_mean": 0.348,
+    "hit_rate": 0.387,
+    "lo": 0.236,
+    "hi": 0.561,
+    "within": true,
+    "light": "green"
+   }
+  ],
+  "clv": {
+   "mean": null,
+   "n": 0,
+   "positive_share": null,
+   "by_hours": []
+  },
+  "brier": {
+   "model": 0.221,
+   "market": 0.2154,
+   "n": 37
+  },
+  "by_side": [
+   {
+    "side": "yes",
+    "n": 29,
+    "pnl_usd": -40.1
+   },
+   {
+    "side": "no",
+    "n": 11,
+    "pnl_usd": 27.7
+   }
+  ],
+  "by_outcome": [
+   {
+    "outcome": "home",
+    "n": 15,
+    "pnl_usd": -20.3
+   },
+   {
+    "outcome": "draw",
+    "n": 12,
+    "pnl_usd": -31.0
+   },
+   {
+    "outcome": "away",
+    "n": 13,
+    "pnl_usd": 38.9
+   }
+  ],
+  "equity": [
+   {
+    "ts": "2026-09-12T14:00:00Z",
+    "balance": 1000.0
+   },
+   {
+    "ts": "2026-09-12T15:07:00Z",
+    "balance": 994.02
+   },
+   {
+    "ts": "2026-09-13T16:14:00Z",
+    "balance": 1010.63
+   },
+   {
+    "ts": "2026-09-14T17:21:00Z",
+    "balance": 1012.55
+   },
+   {
+    "ts": "2026-09-14T18:28:00Z",
+    "balance": 1000.29
+   },
+   {
+    "ts": "2026-09-15T19:35:00Z",
+    "balance": 1009.08
+   },
+   {
+    "ts": "2026-09-16T20:42:00Z",
+    "balance": 1011.96
+   },
+   {
+    "ts": "2026-09-16T21:49:00Z",
+    "balance": 1013.83
+   },
+   {
+    "ts": "2026-09-17T22:56:00Z",
+    "balance": 1016.8
+   },
+   {
+    "ts": "2026-09-18T23:03:00Z",
+    "balance": 1010.26
+   },
+   {
+    "ts": "2026-09-19T00:10:00Z",
+    "balance": 1012.41
+   },
+   {
+    "ts": "2026-09-19T01:17:00Z",
+    "balance": 1014.1
+   },
+   {
+    "ts": "2026-09-20T02:24:00Z",
+    "balance": 1029.38
+   },
+   {
+    "ts": "2026-09-21T03:31:00Z",
+    "balance": 1030.8
+   },
+   {
+    "ts": "2026-09-21T04:38:00Z",
+    "balance": 1033.22
+   },
+   {
+    "ts": "2026-09-22T05:45:00Z",
+    "balance": 1030.89
+   },
+   {
+    "ts": "2026-09-23T06:52:00Z",
+    "balance": 1032.71
+   },
+   {
+    "ts": "2026-09-23T07:59:00Z",
+    "balance": 1036.09
+   },
+   {
+    "ts": "2026-09-24T08:06:00Z",
+    "balance": 1027.17
+   },
+   {
+    "ts": "2026-09-25T09:13:00Z",
+    "balance": 1037.63
+   },
+   {
+    "ts": "2026-09-26T10:20:00Z",
+    "balance": 1035.54
+   },
+   {
+    "ts": "2026-09-26T11:27:00Z",
+    "balance": 1041.2
+   },
+   {
+    "ts": "2026-09-27T12:34:00Z",
+    "balance": 1041.2
+   },
+   {
+    "ts": "2026-09-28T13:41:00Z",
+    "balance": 1034.85
+   },
+   {
+    "ts": "2026-09-28T14:48:00Z",
+    "balance": 1041.2
+   },
+   {
+    "ts": "2026-09-29T15:55:00Z",
+    "balance": 1038.72
+   },
+   {
+    "ts": "2026-09-30T16:02:00Z",
+    "balance": 1027.52
+   },
+   {
+    "ts": "2026-09-30T17:09:00Z",
+    "balance": 1031.07
+   },
+   {
+    "ts": "2026-10-01T18:16:00Z",
+    "balance": 1030.31
+   },
+   {
+    "ts": "2026-10-02T19:23:00Z",
+    "balance": 1024.09
+   },
+   {
+    "ts": "2026-10-03T20:30:00Z",
+    "balance": 1020.73
+   },
+   {
+    "ts": "2026-10-03T21:37:00Z",
+    "balance": 1016.13
+   },
+   {
+    "ts": "2026-10-04T22:44:00Z",
+    "balance": 1018.75
+   },
+   {
+    "ts": "2026-10-05T23:51:00Z",
+    "balance": 1008.76
+   },
+   {
+    "ts": "2026-10-05T00:58:00Z",
+    "balance": 1009.95
+   },
+   {
+    "ts": "2026-10-06T01:05:00Z",
+    "balance": 1007.62
+   },
+   {
+    "ts": "2026-10-07T02:12:00Z",
+    "balance": 1006.54
+   },
+   {
+    "ts": "2026-10-07T03:19:00Z",
+    "balance": 990.8
+   },
+   {
+    "ts": "2026-10-08T04:26:00Z",
+    "balance": 1000.41
+   },
+   {
+    "ts": "2026-10-09T05:33:00Z",
+    "balance": 989.16
+   },
+   {
+    "ts": "2026-10-10T06:40:00Z",
+    "balance": 987.6
+   }
+  ],
+  "ledger": [
+   {
+    "id": 140,
+    "ts": "2026-10-10T06:40:00Z",
+    "kind": "settle",
+    "card_id": "c-1040",
+    "amount_usd": -1.56,
+    "balance_after": 987.6,
+    "note": "lost"
+   },
+   {
+    "id": 139,
+    "ts": "2026-10-09T05:33:00Z",
+    "kind": "settle",
+    "card_id": "c-1039",
+    "amount_usd": -11.25,
+    "balance_after": 989.16,
+    "note": "lost"
+   },
+   {
+    "id": 138,
+    "ts": "2026-10-08T04:26:00Z",
+    "kind": "settle",
+    "card_id": "c-1038",
+    "amount_usd": 9.61,
+    "balance_after": 1000.41,
+    "note": "won"
+   },
+   {
+    "id": 137,
+    "ts": "2026-10-07T03:19:00Z",
+    "kind": "fee",
+    "card_id": "c-1037",
+    "amount_usd": -15.74,
+    "balance_after": 990.8,
+    "note": "taker fee"
+   },
+   {
+    "id": 136,
+    "ts": "2026-10-07T02:12:00Z",
+    "kind": "settle",
+    "card_id": "c-1036",
+    "amount_usd": -1.08,
+    "balance_after": 1006.54,
+    "note": "lost"
+   },
+   {
+    "id": 135,
+    "ts": "2026-10-06T01:05:00Z",
+    "kind": "settle",
+    "card_id": "c-1035",
+    "amount_usd": -2.33,
+    "balance_after": 1007.62,
+    "note": "lost"
+   },
+   {
+    "id": 134,
+    "ts": "2026-10-05T00:58:00Z",
+    "kind": "settle",
+    "card_id": "c-1034",
+    "amount_usd": 1.19,
+    "balance_after": 1009.95,
+    "note": "won"
+   },
+   {
+    "id": 133,
+    "ts": "2026-10-05T23:51:00Z",
+    "kind": "settle",
+    "card_id": "c-1033",
+    "amount_usd": -9.99,
+    "balance_after": 1008.76,
+    "note": "lost"
+   },
+   {
+    "id": 132,
+    "ts": "2026-10-04T22:44:00Z",
+    "kind": "fee",
+    "card_id": "c-1032",
+    "amount_usd": 2.62,
+    "balance_after": 1018.75,
+    "note": "taker fee"
+   },
+   {
+    "id": 131,
+    "ts": "2026-10-03T21:37:00Z",
+    "kind": "settle",
+    "card_id": "c-1031",
+    "amount_usd": -4.6,
+    "balance_after": 1016.13,
+    "note": "lost"
+   },
+   {
+    "id": 130,
+    "ts": "2026-10-03T20:30:00Z",
+    "kind": "settle",
+    "card_id": "c-1030",
+    "amount_usd": -3.36,
+    "balance_after": 1020.73,
+    "note": "lost"
+   },
+   {
+    "id": 129,
+    "ts": "2026-10-02T19:23:00Z",
+    "kind": "settle",
+    "card_id": "c-1029",
+    "amount_usd": -6.22,
+    "balance_after": 1024.09,
+    "note": "lost"
+   },
+   {
+    "id": 128,
+    "ts": "2026-10-01T18:16:00Z",
+    "kind": "settle",
+    "card_id": "c-1028",
+    "amount_usd": -0.76,
+    "balance_after": 1030.31,
+    "note": "lost"
+   },
+   {
+    "id": 127,
+    "ts": "2026-09-30T17:09:00Z",
+    "kind": "fee",
+    "card_id": "c-1027",
+    "amount_usd": 3.55,
+    "balance_after": 1031.07,
+    "note": "taker fee"
+   },
+   {
+    "id": 126,
+    "ts": "2026-09-30T16:02:00Z",
+    "kind": "settle",
+    "card_id": "c-1026",
+    "amount_usd": -11.2,
+    "balance_after": 1027.52,
+    "note": "lost"
+   },
+   {
+    "id": 125,
+    "ts": "2026-09-29T15:55:00Z",
+    "kind": "settle",
+    "card_id": "c-1025",
+    "amount_usd": -2.48,
+    "balance_after": 1038.72,
+    "note": "lost"
+   },
+   {
+    "id": 124,
+    "ts": "2026-09-28T14:48:00Z",
+    "kind": "settle",
+    "card_id": "c-1024",
+    "amount_usd": 6.35,
+    "balance_after": 1041.2,
+    "note": "won"
+   },
+   {
+    "id": 123,
+    "ts": "2026-09-28T13:41:00Z",
+    "kind": "settle",
+    "card_id": "c-1023",
+    "amount_usd": -6.35,
+    "balance_after": 1034.85,
+    "note": "lost"
+   },
+   {
+    "id": 122,
+    "ts": "2026-09-27T12:34:00Z",
+    "kind": "fee",
+    "card_id": "c-1022",
+    "amount_usd": 0.0,
+    "balance_after": 1041.2,
+    "note": "taker fee"
+   },
+   {
+    "id": 121,
+    "ts": "2026-09-26T11:27:00Z",
+    "kind": "settle",
+    "card_id": "c-1021",
+    "amount_usd": 5.66,
+    "balance_after": 1041.2,
+    "note": "won"
+   },
+   {
+    "id": 120,
+    "ts": "2026-09-26T10:20:00Z",
+    "kind": "settle",
+    "card_id": "c-1020",
+    "amount_usd": -2.09,
+    "balance_after": 1035.54,
+    "note": "lost"
+   },
+   {
+    "id": 119,
+    "ts": "2026-09-25T09:13:00Z",
+    "kind": "settle",
+    "card_id": "c-1019",
+    "amount_usd": 10.46,
+    "balance_after": 1037.63,
+    "note": "won"
+   },
+   {
+    "id": 118,
+    "ts": "2026-09-24T08:06:00Z",
+    "kind": "settle",
+    "card_id": "c-1018",
+    "amount_usd": -8.92,
+    "balance_after": 1027.17,
+    "note": "lost"
+   },
+   {
+    "id": 117,
+    "ts": "2026-09-23T07:59:00Z",
+    "kind": "fee",
+    "card_id": "c-1017",
+    "amount_usd": 3.38,
+    "balance_after": 1036.09,
+    "note": "taker fee"
+   },
+   {
+    "id": 116,
+    "ts": "2026-09-23T06:52:00Z",
+    "kind": "settle",
+    "card_id": "c-1016",
+    "amount_usd": 1.82,
+    "balance_after": 1032.71,
+    "note": "won"
+   },
+   {
+    "id": 115,
+    "ts": "2026-09-22T05:45:00Z",
+    "kind": "settle",
+    "card_id": "c-1015",
+    "amount_usd": -2.33,
+    "balance_after": 1030.89,
+    "note": "lost"
+   },
+   {
+    "id": 114,
+    "ts": "2026-09-21T04:38:00Z",
+    "kind": "settle",
+    "card_id": "c-1014",
+    "amount_usd": 2.42,
+    "balance_after": 1033.22,
+    "note": "won"
+   },
+   {
+    "id": 113,
+    "ts": "2026-09-21T03:31:00Z",
+    "kind": "settle",
+    "card_id": "c-1013",
+    "amount_usd": 1.42,
+    "balance_after": 1030.8,
+    "note": "won"
+   },
+   {
+    "id": 112,
+    "ts": "2026-09-20T02:24:00Z",
+    "kind": "fee",
+    "card_id": "c-1012",
+    "amount_usd": 15.28,
+    "balance_after": 1029.38,
+    "note": "taker fee"
+   },
+   {
+    "id": 111,
+    "ts": "2026-09-19T01:17:00Z",
+    "kind": "settle",
+    "card_id": "c-1011",
+    "amount_usd": 1.69,
+    "balance_after": 1014.1,
+    "note": "won"
+   }
+  ],
+  "market_bands": [
+   {
+    "band": "10-20",
+    "n": 5,
+    "market_mean": 0.15,
+    "hit_rate": 0.2
+   },
+   {
+    "band": "20-30",
+    "n": 14,
+    "market_mean": 0.246,
+    "hit_rate": 0.286
+   },
+   {
+    "band": "30-40",
+    "n": 12,
+    "market_mean": 0.344,
+    "hit_rate": 0.417
+   },
+   {
+    "band": "40-50",
+    "n": 4,
+    "market_mean": 0.455,
+    "hit_rate": 0.5
+   },
+   {
+    "band": "50-60",
+    "n": 2,
+    "market_mean": 0.56,
+    "hit_rate": 0.5
+   }
+  ]
+ },
+ "gate": {
+  "settled": 37,
+  "lights": {
+   "count": {
+    "ok": false,
+    "value": 37,
+    "need": 200
+   },
+   "calibration": {
+    "ok": true,
+    "bands": [
+     {
+      "band": "20-30",
+      "n": 6,
+      "model_mean": 0.251,
+      "hit_rate": 0.333,
+      "lo": 0.097,
+      "hi": 0.7,
+      "within": true,
+      "light": "grey"
+     },
+     {
+      "band": "30-40",
+      "n": 31,
+      "model_mean": 0.348,
+      "hit_rate": 0.387,
+      "lo": 0.236,
+      "hi": 0.561,
+      "within": true,
+      "light": "green"
+     }
+    ],
+    "pooled": {
+     "n": 40,
+     "model_mean": 0.331,
+     "hit_rate": 0.375,
+     "within": true
+    }
+   },
+   "profit": {
+    "ok": false,
+    "value": -12.4
+   },
+   "clv": {
+    "ok": false,
+    "value": null,
+    "need": 5.0,
+    "n": 0
+   }
+  },
+  "passed": false,
+  "reasons": [
+   "Settled 37 of 200",
+   "Profit -$12.40 is under 0",
+   "CLV has no cards yet"
+  ]
+ },
+ "account": null,
+ "sync": {
+  "fixtures_at": "2026-10-10T22:05:00Z",
+  "markets_at": "2026-10-10T22:28:00Z",
+  "open_markets": 27,
+  "football_remaining": 6120,
+  "poly_ok": true,
+  "last_error": null
+ },
+ "unlinked": [
+  {
+   "fixture_id": null,
+   "kalshi_event": "KXEPLGAME-26OCT12WOLBHA",
+   "poly_slug": null,
+   "names": [
+    "Wolves",
+    "Brighton & Hove Albion"
+   ]
+  }
+ ],
+ "version": "0.1.0"
+}

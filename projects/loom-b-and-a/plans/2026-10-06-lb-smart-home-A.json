@@ -1,0 +1,215 @@
+{
+ "out": "media/loom-ba/2026-10-06/lb-smart-home/lb-smart-home-loom-ba.mp4",
+ "states_dir": "media/looms/lb-smart-home-ba-2026-10-06/states",
+ "kind": "loom-ba",
+ "variation": "A",
+ "company_key": "lbsmarthome.com",
+ "url": "file:///C:/Users/sumre/Documents/GitHub/AIS-OS/media/looms/lb-smart-home-ba-2026-10-06/live/residential-solutions.html",
+ "page_seen": "https://lbsmarthome.com/residential-solutions#lighting-and-shades",
+ "url_note": "The live page answers headless Edge with a Press & Hold bot check, which the clone does not get around. 'url' is a still copy of that same page from the research read of 2026-10-06 (projects/research/lb-smart-home/site.html): scripts out, a <base> to their site so their styles and photos load from it, and the page's scroll-in fades shown at rest. Two working additions that show nothing until his words: an empty hidden link under their headline (#mb-book) where the cta step builds the button (their hero has none, and the engine would otherwise restyle the first icon link), and the render's Montserrat loaded under a name of its own ('MB Render Montserrat') so only the button and the eyebrow take it (their CSS names Montserrat on its own text without loading it, so loading it by that name would change their page).",
+ "render": "projects/Landing Page Build/prospects/lb-smart-home/index.html",
+ "folder": "media/looms/0fd362d6-boost-landing-page-conversions-for-services",
+ "why": "Liberty Bell Smart Home cold audit (2026-10-06), cut step by step from the director's script projects/loom-b-and-a/scripts/2026-10-06-lb-smart-home.md: the first-screen changes made on their live Residential Services page one by one as he names them, then the rebuilt lighting control page section by section as he walks the order. His words only.",
+ "face": {
+  "crop": "244:244:32:744",
+  "size": 260,
+  "pos": [
+   48,
+   772
+  ]
+ },
+ "start_at": 0.6,
+ "end_at": 266.05,
+ "pause": 0.5,
+ "cuts": [
+  [
+   1.9,
+   3.0,
+   "a question that does no work (you don't know me yet)"
+  ],
+  [
+   13.2,
+   15.6,
+   "'over the course of three minutes, if you want to tune in': the cut is not three minutes, so the line is not accurate"
+  ],
+  [
+   56.6,
+   65.6,
+   "talk about the making of the video (I'm going to make a few suggestions, let's just say this one)"
+  ],
+  [
+   90.1,
+   99.0,
+   "the background said a second time, the header staying the same, and a line that trails off (with this)"
+  ],
+  [
+   115.3,
+   120.05,
+   "'featured in X Magazine or': a magazine their site does not name; the page shows the line he lands on, for luxury homeowners"
+  ],
+  [
+   137.9,
+   140.45,
+   "a line that does no work (all of this sort of good stuff you guys have)"
+  ],
+  [
+   149.6,
+   150.6,
+   "trails off (all of that sort)"
+  ],
+  [
+   201.0,
+   208.6,
+   "a line that does not land (so that just peace up the conversion rate for that offering there)"
+  ],
+  [
+   224.0,
+   225.9,
+   "a false start (does work, good work); the portfolio is named and said plainly in the next line"
+  ],
+  [
+   229.1,
+   231.5,
+   "just three said a second time"
+  ]
+ ],
+ "keep_whole": [],
+ "fixes": {
+  "hour": "our",
+  "bre": ""
+ },
+ "changes": [
+  {
+   "at": 69.26,
+   "kind": "image",
+   "file": "projects/Landing Page Build/prospects/lb-smart-home/assets/hero.jpg"
+  },
+  {
+   "at": 92.0,
+   "kind": "header"
+  },
+  {
+   "at": 100.0,
+   "kind": "cta",
+   "selector": "#mb-book",
+   "text": "Book a meeting",
+   "background": "#003865",
+   "color": "#FFFFFF"
+  },
+  {
+   "at": 100.0,
+   "kind": "css",
+   "selector": "#mb-book",
+   "style": "font-family:'MB Render Montserrat',Arial,sans-serif !important"
+  },
+  {
+   "at": 104.4,
+   "kind": "headline",
+   "text": "Lighting Control Installation in Downtown Historic Auburn"
+  },
+  {
+   "at": 104.4,
+   "kind": "font",
+   "family": "Newsreader",
+   "weight": 300
+  },
+  {
+   "at": 104.4,
+   "kind": "css",
+   "selector": "[data-mb-head]",
+   "style": "display:block;max-width:860px !important;margin-left:auto;margin-right:auto;text-align:center;text-wrap:balance !important;color:#FFFFFF"
+  },
+  {
+   "at": 104.4,
+   "kind": "center"
+  },
+  {
+   "at": 104.4,
+   "kind": "css",
+   "selector": "#mb-book",
+   "style": "margin-top:109px"
+  },
+  {
+   "at": 111.5,
+   "kind": "eyebrow",
+   "text": "For luxury homeowners",
+   "color": "#009CDE"
+  },
+  {
+   "at": 111.5,
+   "kind": "css",
+   "selector": "[data-mb-eyebrow]",
+   "style": "font-family:'MB Render Montserrat',Arial,sans-serif !important;font-size:14px;font-weight:600;letter-spacing:2.24px;line-height:19.6px;text-transform:uppercase;color:#009CDE;margin:0 auto 26px;text-align:center"
+  },
+  {
+   "at": 121.6,
+   "kind": "section",
+   "band": "hero"
+  },
+  {
+   "at": 123.44,
+   "kind": "section",
+   "band": "cards"
+  },
+  {
+   "at": 152.05,
+   "kind": "section",
+   "band": "about"
+  },
+  {
+   "at": 163.98,
+   "kind": "section",
+   "band": "process"
+  },
+  {
+   "at": 187.76,
+   "kind": "section",
+   "band": "reviews"
+  },
+  {
+   "at": 210.7,
+   "kind": "section",
+   "band": "services"
+  },
+  {
+   "at": 223.23,
+   "kind": "section",
+   "band": "work"
+  },
+  {
+   "at": 232.74,
+   "kind": "section",
+   "band": "final"
+  },
+  {
+   "at": 236.26,
+   "kind": "form",
+   "step": 1
+  },
+  {
+   "at": 236.82,
+   "kind": "form",
+   "step": 2
+  },
+  {
+   "at": 237.22,
+   "kind": "form",
+   "step": 3
+  },
+  {
+   "at": 237.94,
+   "kind": "form",
+   "step": 4
+  },
+  {
+   "at": 239.62,
+   "kind": "form",
+   "step": "sent"
+  },
+  {
+   "at": 256.3,
+   "kind": "section",
+   "band": "hero"
+  }
+ ]
+}

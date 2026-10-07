@@ -1,0 +1,36 @@
+{
+  "_about": "What each company is owed at each stage, the list the CRM's company file triages against (Jonathan, 2026-10-04: a meeting booked on a call, the Loom brief not sent yet). One list per deal stage, in order. id: stable, never reused. text: the step as he reads it. why: one line under it. doc: the file that carries it (opens from the step). auto: what the CRM can see for itself, so he does not tick it (has_person, has_next_action, has_meeting). mail_body: words that, found in a message he sent to the company, mark the step done (the Loom link). mail_sent: true marks it done once any email to the company is in Sent. when: the step shows only after another step of the stage got that answer (the three no-show steps show once \"show\" is answered No-show; Jonathan, 2026-10-05: \"we need a protocol for the no show\"). Drawn from references/pipeline-process.md; edit here and the page follows on the next load. Ticks are kept in triage.json.",
+  "stages": {
+    "Contacted": [
+      {"id": "who", "text": "Log who you spoke with: name and role", "why": "The next call opens with their name.", "auto": "has_person"},
+      {"id": "promised", "text": "Send what you promised on the call", "why": "The email they asked for, in your copy.", "doc": "references/mycopy.md"},
+      {"id": "next", "text": "Set the next action and its date", "why": "A contacted company with no date goes quiet.", "auto": "has_next_action"}
+    ],
+    "Booked": [
+      {"id": "calendar", "text": "Meeting on the Monarc Build calendar with the Meet link, in their time zone", "why": "From jonathan@monarcbuild.com only.", "auto": "has_meeting"},
+      {"id": "who", "text": "Log who booked it: name, role, email", "why": "The invite and the Loom go to a person, not an info@ box.", "auto": "has_person"},
+      {"id": "confirm", "text": "Send the confirmation the same day", "why": "The yes in writing, while it is warm.", "doc": "templates/follow-up-email.md", "mail_sent": true},
+      {"id": "loom-brief", "text": "Send the Loom brief: what we will set up so their lead flow runs smooth", "why": "Record it from the script, link it in an email before the meeting. A sent email to them with a loom.com link ticks this by itself.", "doc": "templates/loom-brief-script.md", "mail_body": "loom.com"},
+      {"id": "reminder", "text": "Send the reminder the day before", "why": "Same link, one line.", "doc": "templates/follow-up-email.md"},
+      {"id": "show", "text": "Log show or no-show after the meeting", "why": "Move the deal to Held, or rebook. The answer feeds the show rate by Loom variation on Reports.", "ask": ["Showed", "No-show"]},
+      {"id": "noshow-email", "text": "No-show: send the rebook email the same day", "why": "On the confirmation's thread: we missed each other, two new times in their zone, the same link. The SDR drafts it (.claude/skills/sdr/workflows/no-show.md).", "when": {"step": "show", "answer": "No-show"}},
+      {"id": "noshow-linkedin", "text": "No-show: send the LinkedIn message the same day", "why": "One line that points at the email, to the person who booked.", "when": {"step": "show", "answer": "No-show"}},
+      {"id": "noshow-outcome", "text": "No-show: log the new time, or the close reason after three business days of silence", "why": "A no-show with no answer is closed with a reason, not left open.", "when": {"step": "show", "answer": "No-show"}}
+    ],
+    "Held": [
+      {"id": "outcome", "text": "Log the close or the objection that stopped it", "why": "One line on the deal; it feeds the Friday tally."},
+      {"id": "terms", "text": "Send the terms email with the signing link", "why": "Pilot terms on one screen, the DocuSeal link.", "doc": "references/mycopy.md"},
+      {"id": "next", "text": "Set the follow-up and its date", "why": "Terms with no follow-up date sit.", "auto": "has_next_action"}
+    ],
+    "Proposed": [
+      {"id": "followup", "text": "Follow up by the next action date", "why": "Two times and a length, in your copy.", "auto": "has_next_action"},
+      {"id": "signed", "text": "Agreement signed in DocuSeal", "why": "Then the deal moves to Won."}
+    ],
+    "Won": [
+      {"id": "invoice", "text": "Invoice sent the same day", "why": "The money book: references/books.md.", "doc": "references/books.md"},
+      {"id": "contract", "text": "Signed contract filed in records/contracts/", "why": "One row in records/README.md."},
+      {"id": "kickoff", "text": "Kickoff booked and the questionnaire sent (/kickoff prep)", "why": "The 45 minute call, five business days out.", "doc": "templates/onboarding-questionnaire.md"},
+      {"id": "checklist", "text": "Per-client checklist copied into tasks.md", "why": "Under the client's tier."}
+    ]
+  }
+}

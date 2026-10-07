@@ -1,0 +1,64 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.hatchelectric.com/our-services",
+ "title": "Services | Hatch Electric",
+ "description": "",
+ "words": 162,
+ "headings": [],
+ "phones": [
+  "530-541-3035"
+ ],
+ "colors": [
+  "#32373c",
+  "#000000",
+  "#313131",
+  "#00d084",
+  "#0693e3",
+  "#7a00df",
+  "#007cba",
+  "#006ba1",
+  "#005a87",
+  "#34e2e4"
+ ],
+ "faces": [
+  "inherit"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/hatchGREY300.png",
+   "alt": "Hatch Electric",
+   "note": ""
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/03/LutronWholeHouserenderinghi.jpg",
+   "alt": "Hatch Electric, electrical services",
+   "note": ""
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/03/Kit_Cell_Preset_hi.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/Lutron-logo.png",
+   "alt": "Lutron Electonics",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/Lutron-energy-logo.png",
+   "alt": "save energy",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/RadioRA-2-Logo_Black.png",
+   "alt": "Wireless Control Systems",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "http://www.hatchelectric.com/wp-content/uploads/2016/04/HomeWorks-QS-Logo_K1.png",
+   "alt": "total electronic home control",
+   "note": "a logo or an icon"
+  }
+ ]
+}

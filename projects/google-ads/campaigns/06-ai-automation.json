@@ -1,0 +1,228 @@
+{
+  "_note": "The one file the Ads screen and scripts/ads_publish.py read for this campaign. Keywords locked by Jonathan 2026-09-28 (keywords/picks.json). Negatives: every shared list whose 'Applies to' covers this campaign (negatives/shared-lists.md) plus negatives/ai-automation.md. Ad drafted 2026-09-28 from the brief and page spec, Jonathan's to approve. Approvals clear when what they cover changes.",
+  "nn": "06",
+  "service": "ai-automation",
+  "name": "06 AI automation",
+  "brief": "projects/google-ads/campaigns/06-ai-automation.md",
+  "page": "https://monarcbuild.com/ai-automation/",
+  "page_label": "ai_automation",
+  "slot": "test",
+  "daily_budget": 20,
+  "bidding": {
+    "strategy": "maximize_clicks",
+    "max_cpc": 12
+  },
+  "network": {
+    "search_partners": false,
+    "display": false
+  },
+  "geo": {
+    "file": "projects/google-ads/geo-targets.txt",
+    "presence_only": true
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "ai automation agency for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation services for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "done for you ai automation for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation setup for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation agency for electricians",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation agency for hvac companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation agency for roofing companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation services for plumbers",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai automation agency for home services companies",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "back office automation for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "contractor lead follow up service",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    },
+    {
+      "text": "ai consultant for contractors",
+      "match": [
+        "exact",
+        "phrase"
+      ]
+    }
+  ],
+  "bench": [
+    "ai automation for home service contractors",
+    "automate contractor lead follow up",
+    "ai agency for contractors"
+  ],
+  "negatives": {
+    "shared": "projects/google-ads/negatives/shared-lists.md",
+    "campaign": "projects/google-ads/negatives/ai-automation.md"
+  },
+  "ad": {
+    "headlines": [
+      {
+        "text": "AI Automation for Contractors",
+        "pin": 1
+      },
+      {
+        "text": "AI Automation for Electricians",
+        "pin": 1
+      },
+      {
+        "text": "AI Automation for HVAC",
+        "pin": 1
+      },
+      {
+        "text": "Back Office Automation",
+        "pin": 1
+      },
+      {
+        "text": "Lead Follow Up, Done for You",
+        "pin": 1
+      },
+      {
+        "text": "Proposals From Your Call Notes"
+      },
+      {
+        "text": "Invoices Sent at the Milestone"
+      },
+      {
+        "text": "The Books, Closed Monthly"
+      },
+      {
+        "text": "Every Lead Gets a Reply"
+      },
+      {
+        "text": "A Missed Call Gets a Text"
+      },
+      {
+        "text": "For Roofers and Plumbers"
+      },
+      {
+        "text": "Done for You, Not an App"
+      },
+      {
+        "text": "Built by a Low Voltage Guy"
+      },
+      {
+        "text": "Get Your Hours Back",
+        "pin": 3
+      },
+      {
+        "text": "Book the Call",
+        "pin": 3
+      }
+    ],
+    "descriptions": [
+      "Proposals, follow up, invoices, and the books run without you typing at night.",
+      "Your call notes become a proposal draft. You review it and send it. The typing is gone.",
+      "Every lead gets a reply and a sequence. A missed call gets a text back.",
+      "Fifteen minutes. We find the first job to take off your evenings."
+    ],
+    "path1": "AI-Automation",
+    "path2": "Contractors"
+  },
+  "approvals": {
+    "negatives": {
+      "AI, other meanings": {
+        "at": "2026-09-30T11:04:20-04:00",
+        "by": "Jonathan",
+        "fp": "53fe29c0bbe59cee"
+      },
+      "Automation, other meanings": {
+        "at": "2026-09-30T11:04:21-04:00",
+        "by": "Jonathan",
+        "fp": "13e5f7fabac90196"
+      },
+      "Builders, developers, and learners": {
+        "at": "2026-09-30T11:04:22-04:00",
+        "by": "Jonathan",
+        "fp": "e0186459e3c22f28"
+      },
+      "Wrong kind of help": {
+        "at": "2026-09-30T11:04:23-04:00",
+        "by": "Jonathan",
+        "fp": "5409b9ec041c96db"
+      },
+      "Routing": {
+        "at": "2026-09-30T11:04:25-04:00",
+        "by": "Jonathan",
+        "fp": "1e7255d5db474d00"
+      }
+    },
+    "spend": {
+      "at": "2026-09-30T11:04:27-04:00",
+      "by": "Jonathan",
+      "fp": "4eee785230b4e0b4"
+    },
+    "keywords": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "ffeacaf8ae564dbc"
+    },
+    "ad": {
+      "at": "2026-09-30T11:08:37-04:00",
+      "by": "Jonathan (told the AIOS in chat 2026-09-30: all campaigns approved)",
+      "fp": "ce8d4f316a2bfa85"
+    }
+  },
+  "google": {}
+}

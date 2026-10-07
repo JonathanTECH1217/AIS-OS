@@ -22,6 +22,7 @@ Bridge requires a paid Proton plan (Mail Plus, Proton Unlimited, or Proton for B
    ```
 4. **First contact, read only:** `python scripts/proton_mail.py folders`, then `python scripts/proton_mail.py recent 10`. Expect folder names and the ten newest subjects.
 5. **Attachments:** `python scripts/proton_mail.py attachments "<subject or sender fragment>" <out_dir>` saves image and document attachments from matching messages.
+6. **Drafts (added 2026-09-09):** `python scripts/proton_mail.py draft <spec.txt> [attachment ...]` places an unsent message in the Drafts folder. The spec file is `To:`, optional `Cc:`, `Subject:` lines, a blank line, then the body. Drafts appear in Proton within seconds through Bridge. Jonathan reviews and sends from Proton. The script has no send path.
 
 ## Fallbacks when Bridge is not an option today
 
@@ -45,4 +46,4 @@ Bridge requires a paid Proton plan (Mail Plus, Proton Unlimited, or Proton for B
 
 Notes: Bridge advertises STARTTLS with a self-signed localhost certificate; the script uses an unverified TLS context for 127.0.0.1 only. Search is by SUBJECT or FROM substring per folder.
 
-Last checked: 2026-09-08. Connected, read-only.
+Last checked: 2026-09-09. Connected: read, plus drafts. First draft placed 2026-09-09 ("Proof" to Criteria of Naples, one attachment) and verified in the Drafts listing.

@@ -1,0 +1,158 @@
+{
+ "_about": "The batch of 2026-10-06: one row a company. to and first come from their own site (projects/research/<slug>*/site.html) or his own words in the Loom; blank to means no address on file, so no draft. service and company fill the email (templates/loom-ba-email.md). The campaign row is Airtable Campaigns recSBUxwNpumAhvYO, 'Loom B and A: cold audits', on the Email channel.",
+ "date": "2026-10-06",
+ "campaign": "recSBUxwNpumAhvYO",
+ "rows": [
+  {
+   "slug": "pha-v2",
+   "company": "Performance Home Automation",
+   "service": "lighting control",
+   "to": "sales@pha.systems",
+   "first": "",
+   "loom": "https://www.loom.com/share/f4f2b05e6a1048dea7e9e53ffb4beda1",
+   "note": "sales@ found by the free crawl of their contact pages, 2026-10-06; he names Farrell in the Loom",
+   "domain": "pha.systems"
+  },
+  {
+   "slug": "vme-electric",
+   "company": "VME Electrical Contractor",
+   "service": "lighting control",
+   "to": "victor@vmeelectric.com",
+   "first": "Victor",
+   "loom": "https://www.loom.com/share/eab52faaef804c438e0858c2c315569d",
+   "note": "victor@ found by the free crawl, 2026-10-06 (office@vmeelectric.com also listed); the first name is read off the address",
+   "domain": "vmeelectric.com"
+  },
+  {
+   "slug": "lighthouse-vail",
+   "company": "Lighthouse Outdoor Lighting of Vail",
+   "service": "landscape lighting",
+   "to": "Mark.N@Lighthouse-lights.com",
+   "first": "Mark",
+   "loom": "https://www.loom.com/share/0257f9eee6ff464aa8911e2ee4d9b105",
+   "domain": "lighthouse-lights.com"
+  },
+  {
+   "slug": "fusion-tech",
+   "company": "Fusion Tech Companies",
+   "service": "lighting control",
+   "to": "",
+   "first": "",
+   "loom": "https://www.loom.com/share/ea3b44a355c742e8ad842211b82ee3e4",
+   "note": "no address on their site; the free crawl names the owner, Kevin Boone",
+   "domain": "fusiontechcompanies.com"
+  },
+  {
+   "slug": "hatch-electric",
+   "company": "Hatch Electric",
+   "service": "lighting control",
+   "to": "chip@hatchelectric.com",
+   "first": "Chip",
+   "loom": "https://www.loom.com/share/d7c4866a24bc46df874651dba6744721",
+   "domain": "hatchelectric.com"
+  },
+  {
+   "slug": "tru-definition",
+   "company": "TruDefinition",
+   "service": "lighting control",
+   "to": "info@trudefinition.com",
+   "first": "Tommy",
+   "loom": "https://www.loom.com/share/86afd9c475584fe6a1fe40d59a7f6932",
+   "note": "he opens the Loom with 'Hey Tommy'",
+   "domain": "trudefinition.com"
+  },
+  {
+   "slug": "sierra-integrated",
+   "company": "Sierra Integrated Systems",
+   "service": "lighting design",
+   "to": "",
+   "first": "",
+   "loom": "https://www.loom.com/share/8c241718d7e543b0a3531d6d49266967",
+   "note": "no address on their site",
+   "domain": "sierraintegratedsystems.com"
+  },
+  {
+   "slug": "lb-smart-home",
+   "company": "Liberty Bell Smart Home",
+   "service": "lighting control",
+   "to": "scheduling@lbsmarthome.com",
+   "first": "Mike",
+   "loom": "https://www.loom.com/share/0fd362d61f2942178544367a6491544a",
+   "note": "he says Mike in the Loom; their site names Mark Buzzard as president",
+   "domain": "lbsmarthome.com"
+  },
+  {
+   "slug": "holm-electric",
+   "company": "Holm Electric",
+   "service": "lighting control",
+   "to": "info@holmelectric.com",
+   "first": "",
+   "loom": "https://www.loom.com/share/56cfa2fd6f6644148769298a61285b5e",
+   "domain": "holmelectric.com"
+  },
+  {
+   "slug": "gsi-florida",
+   "company": "Gold Standard Integration",
+   "service": "lighting control",
+   "to": "Support@GSintegration.org",
+   "first": "",
+   "loom": "https://www.loom.com/share/65e163700465418b8f6705154b8fe34d",
+   "domain": "gsi-fl.com"
+  },
+  {
+   "slug": "reliant-theater",
+   "company": "Reliant Electrical and Automation",
+   "service": "home theater",
+   "to": "info@reliant.services",
+   "first": "",
+   "loom": "https://www.loom.com/share/6c3519b9bb5e48558e7e9846d1da1289",
+   "domain": "reliant.services"
+  },
+  {
+   "slug": "teel-electric",
+   "company": "Teel Electric Company",
+   "service": "lighting control",
+   "to": "David.teelelectric@gmail.com",
+   "first": "David",
+   "loom": "https://www.loom.com/share/c8b55c6b28a242fbad943c322ba0393e",
+   "domain": "teelelectricco.com"
+  },
+  {
+   "slug": "io-lighting",
+   "company": "Innovative Outdoor Lighting and Audio",
+   "service": "outdoor lighting",
+   "to": "sabrina@io-lightingandaudio.com",
+   "first": "Sabrina",
+   "loom": "https://www.loom.com/share/6b2cdd19f09945af8381b03f1445d8ee",
+   "domain": "io-lightingandaudio.com"
+  },
+  {
+   "slug": "pavs",
+   "company": "PAVS",
+   "service": "lighting control",
+   "to": "",
+   "first": "",
+   "loom": "https://www.loom.com/share/43385752eb5640fda728044d9cf90829",
+   "note": "no address on their site; the owner is Ross",
+   "domain": "pavs.tech"
+  },
+  {
+   "slug": "q-northwest",
+   "company": "Qnorthwest",
+   "service": "lighting control",
+   "to": "info@qnorthwest.com",
+   "first": "",
+   "loom": "https://www.loom.com/share/62f8953c51b949cfbdcabc6ea163c362",
+   "domain": "qnorthwest.com"
+  },
+  {
+   "slug": "fortech-electric",
+   "company": "For-Tech Electric",
+   "service": "home automation",
+   "to": "info@fortechelectric.com",
+   "first": "",
+   "loom": "https://www.loom.com/share/4aaccade87a24ebbbc9cd6ee238fe5be",
+   "domain": "fortechelectric.com"
+  }
+ ]
+}

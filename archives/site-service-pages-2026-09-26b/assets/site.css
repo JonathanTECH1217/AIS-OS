@@ -1,0 +1,206 @@
+/* Monarc Build page-level styles. Loaded after the build stylesheet, so rules here win.
+   Live edits land here (see /landing-page live). Type and color shifts also go in the Style Guide. */
+
+/* Section template: logo banner (Jonathan, 2026-09-25, "National citations we work with").
+   A centered label with hairlines, then a full-width bar between two Sand hairlines where the logos scroll left,
+   36 seconds a loop, paused on hover, faded at both edges (the brands ticker's mechanics, Style Guide 6.12).
+   Markup: projects/Landing Page Build/templates/logo-banner.html. Logos: assets/logos/*.svg.
+   Default is one tone (grey, near Stone) so the strip keeps to one accent (Color 4); add class "logos-color" to the
+   section for the full-color marks. Jonathan picks on the render. */
+.logos{padding:var(--pad, 96px) 0}
+.logos .col{text-align:center;display:grid;justify-items:center}
+.logo-ticker{overflow:hidden;margin-top:40px;padding:28px 0;border-top:1px solid var(--sand, #C2B3A9);border-bottom:1px solid var(--sand, #C2B3A9);-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.logo-track{display:flex;width:max-content;animation:logo-ticker 36s linear infinite}
+.logo-ticker:hover .logo-track{animation-play-state:paused}
+.logo-set{display:flex;align-items:center;gap:88px;padding-right:88px;flex:none}
+.logo-set img{display:block;width:auto;height:30px;max-width:none;object-fit:contain;filter:grayscale(1) opacity(0.62);transition:filter 0.3s ease}
+.logos-color .logo-set img,.logo-ticker:hover .logo-set img{filter:none}
+/* each mark trimmed to read at one visual weight next to the others */
+.logo-set .logo-yelp{height:34px}
+.logo-set .logo-google{height:30px}
+.logo-set .logo-apple{height:34px}
+.logo-set .logo-facebook{height:22px}
+.logo-set .logo-bing{height:36px}
+.logo-set .logo-angi{height:38px}
+.logo-set .logo-tripadvisor{height:26px}
+@keyframes logo-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (max-width:767px){.logos .label.rule{display:block}.logos .label.rule::before,.logos .label.rule::after{display:none}.logo-set{gap:56px;padding-right:56px}.logo-set img{height:24px}.logo-set .logo-yelp,.logo-set .logo-apple{height:28px}.logo-set .logo-bing{height:30px}.logo-set .logo-angi{height:30px}.logo-set .logo-facebook{height:18px}.logo-set .logo-tripadvisor{height:22px}}
+@media (prefers-reduced-motion:reduce){.logo-track{animation:none}}
+
+/* ---------------------------------------------------------------------------------------------
+   Theme layer (Style Guide section 8, Jonathan 2026-09-25). One scope per theme, values from
+   projects/Landing Page Build/themes/<name>.json. A page sets <html data-theme="<name>"> and
+   <meta name="mb-theme" content="<name>">. The house names the ad page already uses (--oak, --blue,
+   --charcoal, --stone, --sand, --paper, --white, --serif, --sans) are mapped onto the theme roles so
+   the popup, the footer, and the pill copied from /av_marketing/ take the theme without a rewrite.
+   Spacing, the column, and the ratios are the invariants and stay in each page's own CSS.
+   --------------------------------------------------------------------------------------------- */
+html[data-theme]{
+  --oak:var(--button);--blue:var(--ink);--charcoal:var(--body);--stone:var(--muted);--sand:var(--hairline);
+  --paper:var(--ground);--white:var(--card);--serif:var(--font-heading);--sans:var(--font-body);
+  --btn-text:var(--button-text);--btn-radius:var(--radius-button);
+}
+html[data-theme="house"]{
+  --ground:#F6F3EF;--band:#C2B3A9;--ink:#2F334D;--body:#4B4C5C;--muted:#6E6E78;--hairline:#C2B3A9;--card:#FFFFFF;
+  --button:#61534E;--button-text:#FFFFFF;--fit-yes:#2F334D;--fit-no:#2F334D;
+  --font-heading:'Cormorant Garamond',Georgia,serif;--font-body:Inter,system-ui,sans-serif;--font-mono:Inter,system-ui,sans-serif;
+  --radius-button:999px;--radius-card:0;--card-border:none;--card-shadow:none;
+}
+html[data-theme="google"]{
+  --ground:#FFFFFF;--band:#F8F9FA;--ink:#202124;--body:#202124;--muted:#5F6368;--hairline:#DADCE0;--card:#FFFFFF;
+  --button:#1A73E8;--button-text:#FFFFFF;--fit-yes:#34A853;--fit-no:#EA4335;
+  --g-blue:#4285F4;--g-red:#EA4335;--g-yellow:#FBBC04;--g-green:#34A853;
+  --font-heading:Roboto,system-ui,sans-serif;--font-body:Roboto,system-ui,sans-serif;--font-mono:Roboto,system-ui,sans-serif;
+  --radius-button:999px;--radius-card:8px;--card-border:1px solid #DADCE0;--card-shadow:none;
+}
+html[data-theme="editorial"]{
+  --ground:#FFFFFF;--band:#F4F4F2;--ink:#111111;--body:#111111;--muted:#6B6B6B;--hairline:#E6E6E6;--card:#F4F4F2;
+  --button:#111111;--button-text:#FFFFFF;--fit-yes:#15803D;--fit-no:#B91C1C;
+  --font-heading:Fraunces,'Instrument Serif',Georgia,serif;--font-body:Inter,system-ui,sans-serif;--font-mono:Inter,system-ui,sans-serif;
+  --radius-button:999px;--radius-card:20px;--card-border:none;--card-shadow:none;
+}
+html[data-theme="saas"]{
+  --ground:#FFFFFF;--band:#EEF2FF;--ink:#0A0A0A;--body:#0A0A0A;--muted:#6B7280;--hairline:#E5E7EB;--card:#FAFAFA;
+  --button:#4F46E5;--button-text:#FFFFFF;--fit-yes:#15803D;--fit-no:#B91C1C;--accent:#4F46E5;--tint:#EEF2FF;
+  --font-heading:Manrope,'Plus Jakarta Sans',system-ui,sans-serif;--font-body:Manrope,system-ui,sans-serif;--font-mono:Manrope,system-ui,sans-serif;
+  --radius-button:999px;--radius-card:16px;--card-border:1px solid #E5E7EB;--card-shadow:none;
+}
+html[data-theme="commercial"]{
+  --ground:#FAF6EE;--band:#FFFFFF;--ink:#1A1A1A;--body:#1A1A1A;--muted:#1A1A1A;--hairline:#D9D2C5;--card:#FFFFFF;
+  --button:#1E5E3A;--button-text:#FFFFFF;--fit-yes:#1E5E3A;--fit-no:#D7263D;--flag:#D7263D;
+  --font-heading:'Zilla Slab','Roboto Slab',Georgia,serif;--font-body:'Work Sans',system-ui,sans-serif;--font-mono:'Work Sans',system-ui,sans-serif;
+  --radius-button:0;--radius-card:0;--card-border:2px solid #1A1A1A;--card-shadow:4px 4px 0 #1A1A1A;
+}
+html[data-theme="social"]{
+  --ground:#F0F2F5;--band:#FFFFFF;--ink:#050505;--body:#050505;--muted:#65676B;--hairline:#E4E6EB;--card:#FFFFFF;
+  --button:#0866FF;--button-text:#FFFFFF;--fit-yes:#15803D;--fit-no:#B91C1C;
+  --font-heading:Inter,system-ui,sans-serif;--font-body:Inter,system-ui,sans-serif;--font-mono:Inter,system-ui,sans-serif;
+  --radius-button:999px;--radius-card:8px;--card-border:1px solid #E4E6EB;--card-shadow:0 1px 2px rgba(0,0,0,0.1);
+}
+html[data-theme="time"]{
+  --ground:#0B1220;--band:#121B2E;--ink:#F5F7FA;--body:#F5F7FA;--muted:#9AA4B2;--hairline:#223049;--card:#121B2E;
+  --button:#7CF5C8;--button-text:#0B1220;--fit-yes:#4ADE80;--fit-no:#F87171;--accent:#7CF5C8;
+  --font-heading:'Space Grotesk',system-ui,sans-serif;--font-body:Inter,system-ui,sans-serif;--font-mono:'IBM Plex Mono',ui-monospace,monospace;
+  --radius-button:999px;--radius-card:12px;--card-border:1px solid #223049;--card-shadow:none;
+}
+
+/* Service-page components (Style Guide 6.16). Sizes are the invariant scale; colors, faces, radii, and shadows
+   come from the theme scope above. Class names start with svc- so nothing here touches the house pages. */
+html[data-theme] body{background:var(--ground);color:var(--body);font:400 18px/1.6 var(--font-body)}
+html[data-theme] h1,html[data-theme] h2,html[data-theme] h3{font-family:var(--font-heading);font-weight:400;color:var(--ink)}
+html[data-theme] .sub{font-family:var(--font-heading);color:var(--body)}
+html[data-theme] .label{font-family:var(--font-body);color:var(--muted)}
+html[data-theme] .btn,html[data-theme] .step-btn.primary{background:var(--button);color:var(--button-text);border-radius:var(--radius-button);font-family:var(--font-body)}
+html[data-theme] .btn:focus-visible,html[data-theme] .step-btn:focus-visible{outline-color:var(--ink)}
+html[data-theme] section.band{background:var(--band);color:var(--ink)}
+html[data-theme] .band .sub,html[data-theme] .band .caption,html[data-theme] .band p{color:var(--body)}
+html[data-theme] footer{border-top:1px solid var(--hairline);color:var(--muted)}
+html[data-theme] .dialog{background:var(--ground)}
+html[data-theme] .close{background:var(--card);border-color:var(--hairline);color:var(--muted)}
+html[data-theme] .field input{background:var(--card);border-color:var(--hairline);color:var(--body)}
+html[data-theme] .opt{background:var(--card);border-color:var(--hairline);color:var(--body)}
+html[data-theme] .opt:has(input:checked),html[data-theme] .opt.is-checked{border-color:var(--ink);background:var(--band)}
+html[data-theme] .day.open{background:var(--card);border-color:var(--hairline);color:var(--ink)}
+html[data-theme] .day.picked{background:var(--band);border-color:var(--ink)}
+html[data-theme] .modal{background:rgba(0,0,0,0.55)}
+
+/* split hero: text left, the render right; stacked on phones with the render under the sub (Layout 2 exception) */
+.svc-hero{padding:48px 0 var(--pad,96px)}
+.svc-hero .col{display:grid;gap:32px;align-items:center}
+.svc-hero-text{display:grid;gap:var(--stack,24px);justify-items:start}
+.svc-hero-text .sub{max-width:30em}
+.svc-render{aspect-ratio:4/3;width:100%;overflow:hidden;border-radius:var(--radius-card);background:var(--band);display:grid;place-items:center}
+.svc-render img{width:100%;height:100%;object-fit:cover;display:block}
+.svc-render .placeholder{border:1px dashed var(--muted);background:transparent;color:var(--muted);height:100%;width:100%;display:grid;place-items:center;font-size:14px;text-align:center;padding:24px}
+@media (min-width:1024px){.svc-hero .col{grid-template-columns:1.1fr 1fr;gap:56px}.svc-hero h1{font-size:64px;line-height:1.05;letter-spacing:-0.015em}}
+@media (max-width:1023px){.svc-hero .col{grid-template-columns:minmax(0,1fr)}.svc-hero-text{order:1}.svc-render{order:2}}
+.svc-hero .col > *{min-width:0}
+
+/* the Google page's search bar (theme google only): a slim rounded bar under the sub, the buyer queries typing and clearing */
+.svc-search{display:flex;align-items:center;gap:12px;width:100%;max-width:30em;padding:12px 18px;border:1px solid var(--hairline);border-radius:999px;background:var(--card);color:var(--muted);font-size:16px}
+.svc-search svg{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+.svc-search{min-width:0}
+.svc-search .q{color:var(--body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;font-size:16px}
+.svc-search .q::after{content:"|";margin-left:1px;animation:svc-caret 1s steps(1) infinite}
+@keyframes svc-caret{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.svc-search .q::after{animation:none}}
+
+/* four static cards */
+.svc-cards{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:24px;padding:0;margin:0}
+.svc-card{background:var(--card);border:var(--card-border);border-radius:var(--radius-card);box-shadow:var(--card-shadow);padding:28px;display:grid;gap:12px;align-content:start}
+.svc-card .opener{display:flex;align-items:center;justify-content:space-between;min-height:40px}
+.svc-card .opener svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.svc-card .opener .num{font-family:var(--font-heading);font-size:32px;line-height:1;color:var(--ink);font-style:italic}
+.svc-card .opener .mini{width:64px;height:64px;border-radius:var(--radius-card);overflow:hidden;background:var(--band);display:grid;place-items:center;color:var(--muted);font-size:11px;text-align:center}
+.svc-card .opener .mini img{width:100%;height:100%;object-fit:cover;display:block}
+.svc-card .ttl{font-family:var(--font-heading);font-size:24px;line-height:1.25;color:var(--ink)}
+.svc-card .line{font-size:17px;color:var(--body)}
+.svc-card .txt{font-size:16px;line-height:1.55;color:var(--body)}
+@media (max-width:767px){.svc-cards{grid-template-columns:1fr}}
+
+/* Works for and Not for: two columns, green and red on the 24px headings and the marks only (Color 3) */
+.svc-fit{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.svc-fit h3{font-size:24px;display:flex;align-items:center;gap:10px}
+.svc-fit .yes h3{color:var(--fit-yes)}
+.svc-fit .no h3{color:var(--fit-no)}
+.svc-fit ul{list-style:none;display:grid;gap:12px;margin:16px 0 0;padding:0}
+.svc-fit li{display:flex;gap:12px;align-items:flex-start;font-size:17px;color:var(--body)}
+.svc-fit li svg{width:20px;height:20px;flex:none;margin-top:4px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.svc-fit .yes li svg{color:var(--fit-yes)}
+.svc-fit .no li svg{color:var(--fit-no)}
+@media (max-width:767px){.svc-fit{grid-template-columns:1fr;gap:32px}}
+
+/* FAQ, three details */
+html[data-theme] .faq details{border-top:1px solid var(--hairline)}
+html[data-theme] .faq details:last-of-type{border-bottom:1px solid var(--hairline)}
+html[data-theme] .faq .plus::before,html[data-theme] .faq .plus::after{background:var(--ink)}
+
+/* browser-framed screenshots (the website page's portfolio, Media 3): 16:10, three dots in the top bar */
+.svc-frames{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.browser{background:var(--card);border-radius:var(--radius-card);overflow:hidden;display:grid}
+.browser .bar{height:30px;display:flex;gap:6px;align-items:center;padding:0 14px}
+.browser .bar i{width:9px;height:9px;border-radius:50%;background:var(--hairline);display:block}
+.browser .shot{aspect-ratio:16/10;overflow:hidden;background:var(--ground)}
+.browser .shot img{width:100%;height:100%;object-fit:cover;object-position:top}
+.browser .shot .placeholder{height:100%;border:1px dashed var(--muted);color:var(--muted);background:transparent}
+.browser figcaption{padding:12px 16px 16px;font-size:15px;color:var(--body)}
+@media (max-width:767px){.svc-frames{grid-template-columns:1fr}}
+
+/* the final ask's micro-line and the pill */
+.svc-micro{font-size:14px;color:var(--muted)}
+html[data-theme] .pill .btn{box-shadow:0 2px 12px rgba(0,0,0,0.18)}
+
+/* theme-specific touches */
+html[data-theme="google"] .label.rule::before,html[data-theme="google"] .label.rule::after{display:none}
+html[data-theme="google"] .label.dots::before{content:"";display:inline-block;width:40px;height:10px;margin-right:12px;vertical-align:middle;background:radial-gradient(circle at 5px 5px,var(--g-blue) 4px,transparent 5px),radial-gradient(circle at 15px 5px,var(--g-red) 4px,transparent 5px),radial-gradient(circle at 25px 5px,var(--g-yellow) 4px,transparent 5px),radial-gradient(circle at 35px 5px,var(--g-green) 4px,transparent 5px)}
+html[data-theme="google"] .svc-card:nth-child(1) .opener svg{color:var(--g-blue)}
+html[data-theme="google"] .svc-card:nth-child(2) .opener svg{color:var(--g-red)}
+html[data-theme="google"] .svc-card:nth-child(3) .opener svg{color:var(--g-yellow)}
+html[data-theme="google"] .svc-card:nth-child(4) .opener svg{color:var(--g-green)}
+html[data-theme="google"] .svc-card:hover{transform:translateY(-1px)}
+/* the word Google in the h1, one Google color per letter (Jonathan, 2026-09-26; Style Guide Media 7 exception) */
+html[data-theme="google"] .g-word .g-b{color:var(--g-blue)}
+html[data-theme="google"] .g-word .g-r{color:var(--g-red)}
+html[data-theme="google"] .g-word .g-y{color:var(--g-yellow)}
+html[data-theme="google"] .g-word .g-g{color:var(--g-green)}
+html[data-theme="editorial"] .label.rule::before,html[data-theme="editorial"] .label.rule::after{display:none}
+html[data-theme="editorial"] .label{text-transform:none;letter-spacing:0.02em;font-size:15px}
+html[data-theme="editorial"] .label .num{font-family:var(--font-heading);font-style:italic;font-size:22px;margin-right:10px;color:var(--ink)}
+html[data-theme="saas"] .label{color:var(--accent);font-weight:600;text-transform:none;letter-spacing:0;font-size:14px}
+html[data-theme="saas"] .label.rule::before,html[data-theme="saas"] .label.rule::after{display:none}
+html[data-theme="saas"] .svc-card:hover{border-color:var(--muted)}
+html[data-theme="saas"] .svc-card .opener .mini{background:var(--tint);width:104px;height:104px;border-radius:14px}
+html[data-theme="saas"] .btn svg{width:18px;height:18px;margin-left:8px;vertical-align:-3px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+html[data-theme="commercial"] h1,html[data-theme="commercial"] h2,html[data-theme="commercial"] h3{font-weight:700}
+html[data-theme="commercial"] .label{font-family:var(--font-heading);font-weight:700;color:var(--ink);border-bottom:2px solid var(--ink);padding-bottom:6px;letter-spacing:0.08em}
+html[data-theme="commercial"] .label.rule::before,html[data-theme="commercial"] .label.rule::after{display:none}
+html[data-theme="commercial"] .svc-render{border:2px solid var(--ink);border-radius:0}
+html[data-theme="commercial"] .svc-card .opener svg{stroke-width:2.2;width:32px;height:32px;color:var(--ink)}
+html[data-theme="social"] .label{text-transform:none;letter-spacing:0;font-weight:600;font-size:15px;color:var(--ink)}
+html[data-theme="social"] .label.rule::before,html[data-theme="social"] .label.rule::after{display:none}
+html[data-theme="social"] h1,html[data-theme="social"] h2,html[data-theme="social"] h3{font-weight:600;letter-spacing:-0.01em}
+html[data-theme="time"] .label{font-family:var(--font-mono);color:var(--muted)}
+html[data-theme="time"] .label.rule::before,html[data-theme="time"] .label.rule::after{display:none}
+html[data-theme="time"] .svc-card .opener svg{color:var(--accent)}
+html[data-theme="time"] .svc-week{font-family:var(--font-mono)}
+html[data-theme="time"] .svc-render .placeholder{border-color:var(--hairline)}

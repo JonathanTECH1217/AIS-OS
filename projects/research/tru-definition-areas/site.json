@@ -1,0 +1,86 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.trudefinition.com/areas-served",
+ "title": "Dallas-Fort Worth Smart Home Service Areas | TruDefinition",
+ "description": "Explore TruDefinition smart home service areas across Dallas-Fort Worth, including Dallas, Fort Worth, Southlake, Westlake, the Park Cities, Frisco, and Plano.",
+ "words": 258,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Smart Home Service Areas Across Dallas–Fort Worth ."
+  },
+  {
+   "tag": "h2",
+   "text": "Dallas, Fort Worth, and the Communities We Serve Most Often."
+  },
+  {
+   "tag": "h2",
+   "text": "More North Texas communities with dedicated local pages."
+  },
+  {
+   "tag": "h2",
+   "text": "Projects Across the Metroplex and Beyond."
+  },
+  {
+   "tag": "h2",
+   "text": "Let’s Bring Your Vision to Life."
+  },
+  {
+   "tag": "h3",
+   "text": "Dallas"
+  },
+  {
+   "tag": "h3",
+   "text": "Fort Worth"
+  },
+  {
+   "tag": "h3",
+   "text": "Southlake"
+  },
+  {
+   "tag": "h3",
+   "text": "Westlake"
+  },
+  {
+   "tag": "h3",
+   "text": "Park Cities"
+  }
+ ],
+ "phones": [
+  "(817) 965-1042"
+ ],
+ "colors": [
+  "#ffffff",
+  "#c5a55a",
+  "#0c1a2e",
+  "#5a6577",
+  "#9a7c3a",
+  "#2a3547",
+  "#0d1117",
+  "#060708",
+  "#e8e9ed",
+  "#8893a3"
+ ],
+ "faces": [
+  "&quot",
+  "Montserrat",
+  "inherit",
+  "var(--font-display-serif"
+ ],
+ "social": [
+  "https://www.instagram.com/trudefinition/",
+  "https://www.linkedin.com/company/trudefinition"
+ ],
+ "pictures": [
+  {
+   "url": "https://www.trudefinition.com/logo-dark.png",
+   "alt": "TruDefinition",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://www.trudefinition.com/service-areas-dallas-skyline-light.png",
+   "alt": "",
+   "note": "AI-made by its file name"
+  }
+ ]
+}

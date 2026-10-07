@@ -1,0 +1,104 @@
+{
+ "read": "2026-10-06",
+ "url": "https://www.io-lightingandaudio.com/copy-of-our-story",
+ "title": "Why Choose Us | IO - Light and Audio",
+ "description": "",
+ "words": 273,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Why Choose Us?"
+  }
+ ],
+ "phones": [
+  "(760) 880-2722",
+  "760.880.2722"
+ ],
+ "colors": [
+  "#2f2f30",
+  "#ffffff",
+  "#2b5672",
+  "#116dff",
+  "#e03939",
+  "#5d5d61",
+  "#080808",
+  "#0f2ccf",
+  "#2f5dff",
+  "#597dff"
+ ],
+ "faces": [
+  "Arial",
+  "Consolas",
+  "Helvetica",
+  "HelveticaNeueW01-45Ligh",
+  "HelveticaNeueW01-55Roma",
+  "HelveticaNeueW01-Thin",
+  "HelveticaNeueW01-UltLt",
+  "Madefor",
+  "avenir-lt-w01_35-light1475496",
+  "avenir-lt-w01_85-heavy1475544"
+ ],
+ "social": [],
+ "pictures": [
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_8e0d6f2e2ce14a11883f9319f075d93e~mv2.png/v1/fill/w_468,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/innovative-outdoor-lighting-logo_final_p.png",
+   "alt": "innovative-outdoor-lighting-logo_final.p",
+   "note": "a logo or an icon"
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_ce30ca04f736494e9ade046324d804d8~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/2a92a8_ce30ca04f736494e9ade046324d804d8~mv2.jpg",
+   "alt": "shutterstock_2267894.jpg",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_a1eb5792e7c242f39ecaac1fd014d132~mv2.jpg/v1/fit/w_480,h_745,q_90,enc_avif,quality_auto/2a92a8_a1eb5792e7c242f39ecaac1fd014d132~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_c8b846445e5f45a8a29713ffe45238ec~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/2a92a8_c8b846445e5f45a8a29713ffe45238ec~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_cb9c28bc5acf495dbc32f5f8895a02f9~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/2a92a8_cb9c28bc5acf495dbc32f5f8895a02f9~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_0b4b0d0f05cd4913a9de5f9d6194d6ce~mv2.jpg/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/2a92a8_0b4b0d0f05cd4913a9de5f9d6194d6ce~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_adc294eed0fd4556afc2f9c80b45a1b3~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/2a92a8_adc294eed0fd4556afc2f9c80b45a1b3~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_88abb258b77f41709312c90f90c41886~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/2a92a8_88abb258b77f41709312c90f90c41886~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_6a9ef548f2bb4f1da665454db90543ea~mv2.jpg/v1/fit/w_960,h_1281,q_90,enc_avif,quality_auto/2a92a8_6a9ef548f2bb4f1da665454db90543ea~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_dc76b7f8b1a84e2c90bff6b025816c1c~mv2.jpg/v1/fit/w_960,h_1281,q_90,enc_avif,quality_auto/2a92a8_dc76b7f8b1a84e2c90bff6b025816c1c~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_91dc2122dcdf47f6bcea77b90c0068c1~mv2.jpg/v1/fit/w_960,h_1281,q_90,enc_avif,quality_auto/2a92a8_91dc2122dcdf47f6bcea77b90c0068c1~mv2.jpg",
+   "alt": "",
+   "note": ""
+  },
+  {
+   "url": "https://static.wixstatic.com/media/2a92a8_4f48e0508c344d08b3252bcfe1ed70c0~mv2.jpg/v1/fit/w_960,h_721,q_90,enc_avif,quality_auto/2a92a8_4f48e0508c344d08b3252bcfe1ed70c0~mv2.jpg",
+   "alt": "",
+   "note": ""
+  }
+ ]
+}

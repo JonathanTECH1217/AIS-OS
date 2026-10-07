@@ -1,0 +1,61 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/clovis/",
+ "title": "Clovis - Reliant Electrical and Automation Inc.",
+ "description": "Reliant Electrical is your expert Clovis electrician, offering a full range of services for homes and businesses in the Clovis area.",
+ "words": 647,
+ "headings": [
+  {
+   "tag": "h2",
+   "text": "Clovis Electrician — Trusted Local Electrical Services"
+  },
+  {
+   "tag": "h2",
+   "text": "Find us"
+  },
+  {
+   "tag": "h3",
+   "text": "Comprehensive Electrical Services in Clovi s"
+  },
+  {
+   "tag": "h3",
+   "text": "Why Choose Us as Your Clovis Electrician"
+  },
+  {
+   "tag": "h3",
+   "text": "Electrical Safety & Quality You Can Count On"
+  }
+ ],
+ "phones": [],
+ "colors": [
+  "#ffffff",
+  "#e3e5eb",
+  "#f76a0c",
+  "#24a148",
+  "#ed9700",
+  "#f44337",
+  "#41454f",
+  "#5b616f",
+  "#767c8e",
+  "#757c8e"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

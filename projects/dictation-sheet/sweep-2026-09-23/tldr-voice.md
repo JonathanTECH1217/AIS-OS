@@ -1,0 +1,40 @@
+# voice
+
+## Tested
+- `voice-extract.py` pulls risesOf, pctl, lineLevels, sungEndAfter, onsetCandidatesIn, assignVirtual, sungSpansIn, evenSpans, lrcWindows, voiceIR, lowIR, bandOf, voiceOf, lowOf out of index.html (lines 2121-3003) into `voice-fns.js` and glues the test bodies on. All runs PROFILE=prof-voice.
+- `runjs.py voice-robust.full.js`: 19 conditions x 100 random lines (K 4-12, syllables 120-450 ms, words 50-350 ms apart, legato inside words, the app's window t0-0.12..t1-0.05): clean, noise sd 0.10/0.25, vibrato, consonant burst, backing swell, rap 90 ms (3 closure depths), breath, snare, legato words, backing bumps (N>K) at 1.9/2.3/2.5, stamp late, next line leaking in, all mild; plus the null rule and timing.
+- `runjs.py voice-diag.full.js`: which onsets go missing and why, a spacing sweep, sungEndAfter alone, whole-line and mid-line swell, the last-syllable rule.
+- `runjs.py voice-band.full.js` (load event held by `slowserver.py` so 16 OfflineAudioContext renders finish): tones 60/300/1k/1.5k/2k/3k/5k Hz through voiceOf and lowOf at 44.1k and 48k, alignment, length, stereo, 22050 Hz.
+- `pagecheck.py stage.html` with `voice-listen.js` (15 listener states for voiceCurve/beatCurve, the evenSpans fallback end to end), `voice-lrcwin.js` (lrcWindows edges), `voice-late.js` (a timed line whose voice starts 100 or 250 ms before its stamp, end to end).
+
+## Findings
+1. HIGH Short or fast syllables are dropped. Spacing sweep, 8 equal syllables: 90-170 ms apart -> 0-1 onsets found -> sungSpansIn null (evenSpans) at every closure depth 0.8/1.3/1.6; 200 ms -> 6-8 found. Clean random lines: 9.4% of onsets missed (229 of 2392, 194 of them under 170 ms: word-final syllables before a gap 18%, continuations before legato 16%, short one-syllable words 7%, word starts before legato 0%) -> N<K on 58% of lines, 17% of syllables land more than 60 ms off, and the DP names a wrong owner on 48% of the N<K lines (82 of 170).
+2. HIGH One extra onset in the window displaces a true one and shifts the rest of the line. Backing/doubled bumps between words: 46-55% of syllables wrong (194 of 292 bumps at 2.3 picked). A next line starting 50-300 ms before its stamp is picked in 83 of 100 lines (48.5% of syllables wrong). End to end (voice-late.js, next voice 100 ms before its stamp): line 1 drops "lent", "night" lands at 24.38 s x1 (sung 22.35), line 2 "All is calm" is pushed to 25.00/25.13/25.25 (sung 24.35/24.65/25.10). A stamp more than 120 ms late loses the first onset: 42 of 100 lines, first-syllable error mean 196 ms, worst 947. A snare under 160 ms before a syllable is taken as the onset in 15 of 100 lines.
+3. MEDIUM Release under a backing swell = the next onset. Floor 1.2 under the whole sung part (the line floor stays 0.4 because of the 0.3 s margins): every release held to the next onset (2.52->3.02 for a true 2.8); mid-line swell: release error mean 62 ms, worst 1008.
+4. MEDIUM The evenSpans fallback is silent and wide: the toast only counts ("each syllable as long as it is sung on 2 of them"); the even line starts at the stamp (28.00 s, voice at 28.40) and covers 85% of the window, the last line 12 s: 6 syllables of 13-14 sixteenths over 6 bars.
+5. MEDIUM Noise/vibrato: sd 0.10 -> 19% of onsets missed, 22% of syllables off; sd 0.25 -> 139 false + 250 missed of ~800, 39% off; vibrato 0.4 at 6 Hz -> 33% missed (within-word), no false ones; a breath at 0.9 is never picked; a consonant burst that fills the legato dip hides within-word onsets (26 of 100 lines null) though the burst itself is placed to 5 ms. Clean bias: onset +21 ms (middle of a 30 ms attack), release +30 to +40 ms.
+6. LOW voiceIR is not 250-3500 Hz. Measured at 48k: 60 Hz -21.3 dB, 300 +1.2, 1 k -1.2, 1.5 k -2.9, 2 k -5.5, 3 k -17.1, 5 k -13.1 (box sidelobe; theory within 0.1 dB); -3 dB band 190-1510 Hz. lowIR is fine: 60 Hz -0.7, 300 -3.4, 1.5 k -37, 2 k and up under -70. Alignment right (300 Hz from 3.000 s: frame 299 0.59 pre-ring, 300 2.18; 60 Hz low band: 99 0.09, 100 2.02); 1000 frames = floor(dur*100) at 44.1k and 48k for 10.0000 and 10.0037 s; stereo averaged (left only -6.1 dB). hop = round(sr/100) is 221 at 22050 Hz -> 99.77 fps, 997 frames, 0.68 s drift in 5 min (only if the AudioContext itself runs at 22.05k).
+7. LOW Listener path behaves as written (15 of 15): voice needs midOk, more than 500 mid frames, t0 and pairs; beats need more than 1500 env frames; between 5 and 15 s heard the voice curve exists with no grid (the reverse when mid is short); a file's onset beats the listener while its voice band still renders; an old serve.py (no mid) leaves midOk false, so evenSpans and a toast asking to play it again, forever. Timing: 0.87 ms per sungSpansIn (12 s window, K=20, 300 s curve), 1.4 ms at 30 s; K=60 -> null.
+
+## Root causes
+- onsetCandidatesIn (2887-2903): the gate needs `low` = min env 80-160 ms after the rise >= floor+0.4(top-floor), and v = (low-pre)/(top-pre) with pre = min of the 80 ms before. A syllable under ~170 ms puts its own release or the next dip in that look-ahead (gate fails or v = 0); in a stream of equal syllables pre == low, so only the first survives (keys 0.195, 0, 0, 0, ...).
+- The cut to the K strongest keys (2906) plus assignVirtual (2915-2927) forcing owner[0] = 0 and owner[K-1] = N-1 (the backtrack starts at best[K-1][N-1]): there is no move that skips a candidate, so an extra onset pushes out the weakest true one and everything after it moves one syllable.
+- Window at 3042: `w.t0-0.12 .. w.t1-0.05` assumes a stamp at most 120 ms late and the next voice never more than 50 ms before its stamp; neighbouring windows overlap 70 ms, so one onset can serve both lines.
+- sungEndAfter (2872-2879): the floor is the line's 10th percentile over window +-0.3 s and is only ever lowered; T = floor+0.4(peak-floor) sits under a swell.
+- autoPlaceWords 3042-3048 with evenSpans (2983): fallback per window without a mark; spread from the stamp over 0.85*(t1-t0), t1 up to 12 s.
+- voiceIR (2130): a box of sr/3500 taps has its -3 dB at 0.44*3500 Hz and -13 dB sidelobes (same design in build_desktop.py's listener).
+
+## Overlaps
+- Notation (8 heads for 6 syllables): sungSpansIn/quantizeSpans give any sixteenth count (5, 7, 9...) and lenFromSlots/xs draws the rest as tied heads; the screenshot's "some - one" is a beamed group plus a tie over the barline. Shifted onsets from findings 1-2 also change which syllable straddles the barline.
+- Grid: bar 1 comes from firstOn (3060), so a lost first onset moves bar 1. Listener/serve.py: midOk and latency. The playhead skips are not in this part.
+
+## Fixes
+1. onsetCandidatesIn: bound the look-ahead by the next rise (`low` over [k+3, min(k+16, nextRise-1)]), score v from the jump (peak in the 50 ms after k minus pre), gate at floor+0.25(top-floor). Re-run voice-diag.full.js: the spacing floor should fall from 200 ms to about 60.
+2. Keep every candidate above 0.2*max (no cut at K) and give assignVirtual a third move "candidate j unused" (cost about 1.5, free for a trailing one), so extras and next-line pickups are skipped instead of displacing true onsets.
+3. Window: start at stamp-0.35, end at next stamp-0.05; candidates in the last 0.35 s before the next stamp skippable at no cost; a candidate taken by line i+1 is removed from line i.
+4. sungEndAfter: floor = 10th percentile of [tOn-0.4, tLimit+0.4] (local), T = max(floor+0.4(peak-floor), peak-0.8).
+5. Fallback: mark rec.even, name the lines in the toast, spread from stamp+0.15 with steps of at most 0.45 s (last line: K*0.45 s, not 12 s).
+6. voiceIR: nh = round(sr/7000) (-3 dB near 3 kHz) or two biquads at 250 and 3500 Hz, mirrored in build_desktop.py. bandOf: `j = skip + Math.round(i*sr/100)` for an exact 100 fps.
+
+## Confidence
+High on findings 1-4, 6 and 7 (pure-function runs of 100 lines a condition, confirmed end to end in the page). Medium on how often real LRC stamps run late (not measured on real songs) and on the absolute error figures: the synthetic ramps (30/60 ms) are cleaner than real singing, so real numbers are worse, not better.

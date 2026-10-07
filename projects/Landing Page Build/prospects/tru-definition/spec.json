@@ -1,0 +1,183 @@
+{
+ "company": "TruDefinition",
+ "short": "TruDefinition",
+ "page": "https://www.trudefinition.com/services/lighting-control",
+ "loom": "https://www.loom.com/share/86afd9c475584fe6a1fe40d59a7f6932",
+ "phone": "(817) 965-1042",
+ "address": "Dallas-Fort Worth Metroplex",
+ "areas": "Dallas, Fort Worth, Southlake, Westlake, Highland Park, Frisco, and the Park Cities",
+ "brand": {
+  "color": "#0C1A2E",
+  "dark": "#060F1E",
+  "accent": "#2A3547",
+  "serif": true,
+  "head": "Montserrat",
+  "body": "Montserrat",
+  "mist": "#E8E9ED"
+ },
+ "logo": "assets/logo.png",
+ "hero": {
+  "eyebrow": "Lighting design for residential",
+  "h1": "Lighting Control in Dallas Fort Worth",
+  "sub": "Keypads, scenes, and shades set around how you live, from one Dallas-Fort Worth team.",
+  "photo": "assets/hero-google.jpg"
+ },
+ "cards": {
+  "h2": "What lighting control gives you",
+  "items": [
+   {
+    "icon": "keypad",
+    "h3": "Keypads and scenes",
+    "p": "One engraved button sets the room: dinner, movie night, bedtime. Keypads go where the eye expects them."
+   },
+   {
+    "icon": "sun",
+    "h3": "Tunable color temperature",
+    "p": "Morning light at breakfast, candleglow at dinner, from the same fixture. Light that wakes you gently and lets you sleep."
+   },
+   {
+    "icon": "cog",
+    "h3": "Control and automation",
+    "p": "Lights and shades follow a schedule, the daylight, or a touch on the app. Guests still get a switch that works."
+   }
+  ]
+ },
+ "about": {
+  "eyebrow": "About us",
+  "h2": "A small team. Real names.",
+  "p": "TruDefinition designs, installs, programs, and supports integrated technology for new construction, renovations, and existing homes across Dallas-Fort Worth. You work directly with the people who design and install your system, with forty-plus years of combined experience behind every question we ask."
+ },
+ "process": {
+  "eyebrow": "For builders, architects, and designers",
+  "h2": "Our process",
+  "steps": [
+   {
+    "h3": "Design consultation",
+    "p": "We walk the home or the plans with you, set the priorities, and write down the constraints before a wire is drawn."
+   },
+   {
+    "h3": "Plans and coordination",
+    "p": "Keypad locations, loads, shade power, and equipment rooms go on the electrical and interior plans before rough-in."
+   },
+   {
+    "h3": "Installation and programming",
+    "p": "Cabling and panels go in behind the finished surfaces. Every scene, keypad, and schedule is tested room by room."
+   },
+   {
+    "h3": "Ongoing service",
+    "p": "We train the household, hand over the records, and adjust the programming as the home changes."
+   }
+  ]
+ },
+ "work": {
+  "h2": "Our work",
+  "photos": [
+   {
+    "src": "assets/work-theater.jpg",
+    "alt": "A home theater with lit coves and red recliners"
+   },
+   {
+    "src": "assets/work-living.jpg",
+    "alt": "A living room with recessed lights and a lit tray ceiling"
+   },
+   {
+    "src": "assets/work-foyer.jpg",
+    "alt": "A foyer with a lit pendant over a glass table"
+   }
+  ]
+ },
+ "reviews": {
+  "h2": "What our clients say",
+  "items": [
+   {
+    "p": "First off, I would like to again thank Tommy and his team for all the phenomenal work they did to complete our home automation system.",
+    "who": "Bryan H.",
+    "stars": 5
+   },
+   {
+    "p": "This is not the first time I have used TruDefinition and it will definitely not be the last!",
+    "who": "Brett C.",
+    "stars": 5
+   },
+   {
+    "p": "I found TruDefinition a few years back, and use their services exclusively. Tommy and team are VERY knowledgeable, and happy to give up time to explain and educate.",
+    "who": "A Google reviewer",
+    "stars": 5
+   }
+  ]
+ },
+ "services": {
+  "h2": "Everything else we install",
+  "items": [
+   {
+    "icon": "speaker",
+    "h3": "Whole-home audio",
+    "href": "https://www.trudefinition.com/services/home-audio",
+    "p": "Multi-room music with speakers built into the architecture."
+   },
+   {
+    "icon": "tv",
+    "h3": "Home theaters",
+    "href": "https://www.trudefinition.com/services/home-theaters",
+    "p": "Dedicated cinemas with reference picture and immersive sound."
+   },
+   {
+    "icon": "shade",
+    "h3": "Motorized shades",
+    "href": "https://www.trudefinition.com/services/motorized-shades",
+    "p": "Privacy, comfort, and efficiency at the touch of a button."
+   },
+   {
+    "icon": "home",
+    "h3": "Home automation",
+    "href": "https://www.trudefinition.com/services/home-automation",
+    "p": "Lighting, climate, shades, audio, and security in one app."
+   },
+   {
+    "icon": "wifi",
+    "h3": "Home networking",
+    "href": "https://www.trudefinition.com/services/home-networking",
+    "p": "Fast, reliable connections throughout your home."
+   },
+   {
+    "icon": "star",
+    "h3": "The team",
+    "href": "https://www.trudefinition.com/about",
+    "p": "Design, engineering, and support under one roof. Forty-plus years of combined experience."
+   }
+  ]
+ },
+ "final": {
+  "h2": "Let's talk about your home.",
+  "p": "Tell us about the rooms and pick a time. A real person replies within one business day."
+ },
+ "footer": {
+  "creds": "Savant Authorized Dealer. CEDIA member. Forty-plus years of combined experience."
+ },
+ "form": {
+  "hint": "A line or two is plenty: the rooms, new construction or a retrofit, and when the walls close.",
+  "order": [
+   "first_name",
+   "email",
+   "phone",
+   "message"
+  ]
+ },
+ "order": [
+  "hero",
+  "cards",
+  "about",
+  "process",
+  "work",
+  "reviews",
+  "services",
+  "final"
+ ],
+ "notes": "Built 2026-10-06 from his Loom (86afd9c4). No photo anywhere on purpose: every picture on trudefinition.com is AI-made or a vendor's stock (Savant marketing shots, a stock couple over blueprints), none is their own work, so the hero is white with dark words (his white overlay, no photo under it yet), the about box and the three work boxes stay marked empty. Their Instagram (instagram.com/trudefinition) is the likely source of real work photos; the Instagram pull is not wired. The reviews are the three on /reviews that touch lighting, the builder, or the team; the site withholds names, so `who` carries the label the site shows (buyer and community). Two em dashes inside the quotes became a colon and commas. No rating anywhere: the site says no public star total is claimed, so no trust line and no star banner. Fonts: the engine's serif setting draws Newsreader for headings, not their Playfair Display; Montserrat is theirs. No `pattern` block: his A B A C A B A colors are not settled. Primary #0C1A2E is their navy from the site CSS; the gold (#C5A55A) is left off on his word.",
+ "google": {
+  "rating": 5,
+  "count": 26,
+  "maps": "https://maps.google.com/?cid=13371289379805928955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "read": "2026-10-07"
+ }
+}

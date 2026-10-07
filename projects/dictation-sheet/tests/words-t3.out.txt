@@ -1,0 +1,23 @@
+﻿WARN Please upgrade to the newest release of VexFlow.
+See: https://github.com/0xfe/vexflow for more information.
+This page uses version 3.0.9, which is no longer supported.
+LOG before: bars 4 Twin@0x8=E4 kle@8x8=E4 twin@16x8=E4 kle@24x8=E4 lit@32x8=E4 tle@40x8=E4 star@48x8=E4 || bars 4 How@0x8=E4 I@8x8=E4 won@16x8=E4 der@24x8=E4 what@32x8=E4 you@40x8=E4 are@48x8=E4
+LOG after (a): bars 4 Twin@0x8=E4 kle@8x8=E4 twin@16x8=E4 kle@24x8=E4 lit@32x8=E4 tle@40x8=E4 star@48x8=E4 || bars 1 How@0x8=E4 I@4x8=E4 won@8x8=E4 der@12x8=E4 what@16x8=E4 YOU@20x4 are@24x8=E4
+PASS (a) unchanged line keeps its syllable objects and bars: same objects true bars 4
+PASS (a) changed line: matching syllables keep their notes: How=E4 I=E4 won=E4 der=E4 what=E4 YOU=- are=E4
+PASS (a) changed line: the changed word is fresh (no note): YOU=
+PASS (a) changed line: positions reset to one quarter per syllable: 0,4,8,12,16,20,24
+PASS (a) changed line: bars reset to 1: 1
+FAIL (a) kept notes do not overlap the next note (lengths kept while positions reset): 5 of 7 overlap: kept len h (8 slots) at quarter spacing
+PASS (a) without noUndo the undo stack grew by one: 0 -> 1
+PASS (a) the Words panel flag is closed by wordsToNotes: false
+LOG after (b): bars 1 Oh@0x4 how@4x4 I@8x4 won@12x4 der@16x4 what@20x4 you@24x4 are@28x4
+FAIL (b) one word added at the start: notes on the same words are kept: 0 of 6 old words kept a note (matching is by index, not by word)
+LOG after (c): bars 1 How@0x8=E4 I@4x4 won@8x4 der@12x4 what@16x4 you@20x4 are@24x4
+FAIL (c) same text with an old rest record in the line: all 7 notes kept: 1 of 7 kept
+PASS (d) noUndo: undo stack untouched: 3 -> 3
+PASS (d) side flag closed even with noUndo + quiet (Place words path): false
+PASS (d) identical lines keep notes, the new line is fresh
+PASS (e) the same text keeps every line as it was
+FAIL (f) a header added above: the 14 notes are kept: 0 of 14 kept (lines are matched by index, a header shifts them)
+LOG sheet.lyrics after: "[Verse]\nTwinkle twinkle little star\nHow " title "T"

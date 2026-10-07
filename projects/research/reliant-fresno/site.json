@@ -1,0 +1,83 @@
+{
+ "read": "2026-10-06",
+ "url": "https://reliant.services/fresno/",
+ "title": "Fresno - Reliant Electrical and Automation Inc.",
+ "description": "Licensed electrician in Fresno, CA for residential and commercial work. From smart home upgrades to panel repairs, Reliant delivers safe, expert service.",
+ "words": 1340,
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Electricians Serving Fresno, CA"
+  },
+  {
+   "tag": "h2",
+   "text": "Residential Electrical Services in Fresno"
+  },
+  {
+   "tag": "h2",
+   "text": "Electrical Panel Upgrades in Fresno"
+  },
+  {
+   "tag": "h2",
+   "text": "Generator Installation & Backup Power for Fresno Homes"
+  },
+  {
+   "tag": "h2",
+   "text": "Smart Home & Automation Services in Fresno"
+  },
+  {
+   "tag": "h2",
+   "text": "EV Charger Installation in Fresno"
+  },
+  {
+   "tag": "h2",
+   "text": "Why Fresno Homeowners Choose Reliant Electrical & Automation Inc."
+  },
+  {
+   "tag": "h2",
+   "text": "Our Process: Built for Today, Ready for Tomorrow"
+  },
+  {
+   "tag": "h2",
+   "text": "Schedule Electrical Service in Fresno"
+  },
+  {
+   "tag": "h2",
+   "text": "Proudly Serving Fresno Neighborhoods"
+  }
+ ],
+ "phones": [
+  "855-856-3532"
+ ],
+ "colors": [
+  "#f76a0c",
+  "#1a202c",
+  "#2d3748",
+  "#ffffff",
+  "#4a5568",
+  "#e3e5eb",
+  "#24a148",
+  "#ed9700",
+  "#f44337",
+  "#41454f"
+ ],
+ "faces": [
+  "Inter",
+  "Montserrat",
+  "inherit",
+  "tutor",
+  "tutor !important",
+  "var(--global-body-font-family)",
+  "var(--global-heading-font-family)"
+ ],
+ "social": [
+  "https://www.facebook.com/reliantautomation/"
+ ],
+ "pictures": [
+  {
+   "url": "https://reliant.services/wp-content/uploads/2025/06/Reliant_Electrical_and_Automation_PNG_File-01.png",
+   "alt": "Reliant Electrical and Automation Inc. logo",
+   "note": ""
+  }
+ ]
+}

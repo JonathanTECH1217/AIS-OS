@@ -1,0 +1,31 @@
+{
+ "out": "media/looms/pha-2026-10-06/loom-ba-B.mp4",
+ "kind": "loom-ba",
+ "variation": "B",
+ "company_key": "pha.systems",
+ "url": "https://www.pha.systems/smart-lighting-control",
+ "folder": "media/looms/46e5021a-review",
+ "states_dir": "media/looms/pha-2026-10-06/states",
+ "why": "The same PHA review cut as variation B: the finished page scrolls under his first words, then the changes one by one, then the finished page again under his last words. A test piece; this Loom has no 'who I am' part, so the trailer leads straight into the changes. Held (not sent) until he says otherwise.",
+ "start_at": 30.0,
+ "end_at": 128.3,
+ "pause": 0.5,
+ "cuts": [
+  [18.5, 30.0, "says they are a prospect (rule 2) and the setup"],
+  [89.3, 118.6, "the solutions and services sections below the first screen: the page cannot show them in the first-screen states yet; one idea, the first screen"]
+ ],
+ "keep_whole": [],
+ "fixes": {"Lightning": "Lighting"},
+ "changes": [
+  {"at": 48.0, "kind": "headline", "text": "Lighting control installation in Annapolis"},
+  {"at": 50.6, "kind": "center"},
+  {"at": 52.4, "kind": "bigger", "percent": 20},
+  {"at": 53.6, "kind": "colors", "text": "#FFFFFF", "background": "#0B0B0B", "background_image": false},
+  {"at": 61.0, "kind": "eyebrow", "text": "Annapolis homeowner"},
+  {"at": 66.5, "kind": "cta", "text": "Book a meeting", "background": "#1E8E3E"},
+  {"at": 80.6, "kind": "note"},
+  {"at": 118.8, "kind": "note"}
+ ],
+ "trailer": {"under": [30.0, 39.4], "screens": 4},
+ "final": {"under": [118.8, 128.3]}
+}

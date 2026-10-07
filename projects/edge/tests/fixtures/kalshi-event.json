@@ -1,0 +1,187 @@
+{
+ "_about": "GET /trade-api/v2/events?series_ticker=KXEPLGAME&status=open&with_nested_markets=true, one event as listed, api.elections.kalshi.com, read 2026-10-04",
+ "event": {
+  "category": "Sports",
+  "collateral_return_type": "MECNET",
+  "event_ticker": "KXEPLGAME-26OCT18NFOARS",
+  "exchange_index": 0,
+  "last_updated_ts": "2026-10-04T00:32:14.989924Z",
+  "markets": [
+   {
+    "can_close_early": true,
+    "close_time": "2026-10-20T15:30:00Z",
+    "created_time": "2026-10-04T00:30:35.64488Z",
+    "custom_strike": {
+     "soccer_team": "8d0773c5-7765-4da5-9be1-84707ae9ddce"
+    },
+    "early_close_condition": "This market will close and expire after a winner is declared.",
+    "event_ticker": "KXEPLGAME-26OCT18NFOARS",
+    "exchange_index": 0,
+    "expected_expiration_time": "2026-10-18T18:30:00Z",
+    "expiration_time": "2026-10-20T15:30:00Z",
+    "expiration_value": "",
+    "last_price_dollars": "0.0000",
+    "latest_expiration_time": "2026-10-20T15:30:00Z",
+    "market_type": "binary",
+    "no_ask_dollars": "0.8700",
+    "no_bid_dollars": "0.8400",
+    "no_sub_title": "Nottingham Forest",
+    "notional_value_dollars": "1.0000",
+    "occurrence_datetime": "2026-10-18T18:30:00Z",
+    "open_interest_fp": "0.00",
+    "open_time": "2026-10-04T00:38:00Z",
+    "previous_price_dollars": "0.0000",
+    "previous_yes_ask_dollars": "0.0000",
+    "previous_yes_bid_dollars": "0.0000",
+    "price_level_structure": "linear_cent",
+    "price_ranges": [
+     {
+      "end": "1.0000",
+      "start": "0.0000",
+      "step": "0.0100"
+     }
+    ],
+    "result": "",
+    "rules_primary": "If Nottingham Forest wins the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+    "rules_secondary": "The following market refers to the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+    "settlement_bounds_type": "default",
+    "settlement_timer_seconds": 0,
+    "status": "active",
+    "strike_type": "structured",
+    "ticker": "KXEPLGAME-26OCT18NFOARS-NFO",
+    "title": "Nottingham Forest wins",
+    "updated_time": "2026-10-04T00:38:00.059326Z",
+    "volume_24h_fp": "0.00",
+    "volume_fp": "0.00",
+    "yes_ask_dollars": "0.1600",
+    "yes_ask_size_fp": "2429.00",
+    "yes_bid_dollars": "0.1300",
+    "yes_bid_size_fp": "200.00",
+    "yes_sub_title": "Nottingham Forest"
+   },
+   {
+    "can_close_early": true,
+    "close_time": "2026-10-20T15:30:00Z",
+    "created_time": "2026-10-04T00:30:35.64488Z",
+    "custom_strike": {
+     "soccer_team": "246a91c5-f145-401f-bf0d-2a436e25a5f6"
+    },
+    "early_close_condition": "This market will close and expire after a winner is declared.",
+    "event_ticker": "KXEPLGAME-26OCT18NFOARS",
+    "exchange_index": 0,
+    "expected_expiration_time": "2026-10-18T18:30:00Z",
+    "expiration_time": "2026-10-20T15:30:00Z",
+    "expiration_value": "",
+    "last_price_dollars": "0.0000",
+    "latest_expiration_time": "2026-10-20T15:30:00Z",
+    "market_type": "binary",
+    "no_ask_dollars": "0.4200",
+    "no_bid_dollars": "0.4000",
+    "no_sub_title": "Arsenal",
+    "notional_value_dollars": "1.0000",
+    "occurrence_datetime": "2026-10-18T18:30:00Z",
+    "open_interest_fp": "0.00",
+    "open_time": "2026-10-04T00:38:00Z",
+    "previous_price_dollars": "0.0000",
+    "previous_yes_ask_dollars": "0.0000",
+    "previous_yes_bid_dollars": "0.0000",
+    "price_level_structure": "linear_cent",
+    "price_ranges": [
+     {
+      "end": "1.0000",
+      "start": "0.0000",
+      "step": "0.0100"
+     }
+    ],
+    "result": "",
+    "rules_primary": "If Arsenal wins the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+    "rules_secondary": "The following market refers to the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+    "settlement_bounds_type": "default",
+    "settlement_timer_seconds": 0,
+    "status": "active",
+    "strike_type": "structured",
+    "ticker": "KXEPLGAME-26OCT18NFOARS-ARS",
+    "title": "Arsenal wins",
+    "updated_time": "2026-10-04T00:38:00.059326Z",
+    "volume_24h_fp": "0.00",
+    "volume_fp": "0.00",
+    "yes_ask_dollars": "0.6000",
+    "yes_ask_size_fp": "500.00",
+    "yes_bid_dollars": "0.5800",
+    "yes_bid_size_fp": "875.00",
+    "yes_sub_title": "Arsenal"
+   },
+   {
+    "can_close_early": true,
+    "close_time": "2026-10-20T15:30:00Z",
+    "created_time": "2026-10-04T00:30:35.64488Z",
+    "custom_strike": {
+     "soccer_team": "111193d4-9b1f-4bd8-ab7c-9de252737f05"
+    },
+    "early_close_condition": "This market will close and expire after a winner is declared.",
+    "event_ticker": "KXEPLGAME-26OCT18NFOARS",
+    "exchange_index": 0,
+    "expected_expiration_time": "2026-10-18T18:30:00Z",
+    "expiration_time": "2026-10-20T15:30:00Z",
+    "expiration_value": "",
+    "last_price_dollars": "0.0000",
+    "latest_expiration_time": "2026-10-20T15:30:00Z",
+    "market_type": "binary",
+    "no_ask_dollars": "0.7700",
+    "no_bid_dollars": "0.7400",
+    "no_sub_title": "Tie",
+    "notional_value_dollars": "1.0000",
+    "occurrence_datetime": "2026-10-18T18:30:00Z",
+    "open_interest_fp": "0.00",
+    "open_time": "2026-10-04T00:38:00Z",
+    "previous_price_dollars": "0.0000",
+    "previous_yes_ask_dollars": "0.0000",
+    "previous_yes_bid_dollars": "0.0000",
+    "price_level_structure": "linear_cent",
+    "price_ranges": [
+     {
+      "end": "1.0000",
+      "start": "0.0000",
+      "step": "0.0100"
+     }
+    ],
+    "result": "",
+    "rules_primary": "If Tie is the result of the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+    "rules_secondary": "The following market refers to the Nottingham Forest vs Arsenal professional EPL soccer game originally scheduled for Oct 18, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+    "settlement_bounds_type": "default",
+    "settlement_timer_seconds": 0,
+    "status": "active",
+    "strike_type": "structured",
+    "ticker": "KXEPLGAME-26OCT18NFOARS-TIE",
+    "title": "Tie is the result",
+    "updated_time": "2026-10-04T00:38:00.059326Z",
+    "volume_24h_fp": "0.00",
+    "volume_fp": "0.00",
+    "yes_ask_dollars": "0.2600",
+    "yes_ask_size_fp": "5460.00",
+    "yes_bid_dollars": "0.2300",
+    "yes_bid_size_fp": "200.00",
+    "yes_sub_title": "Tie"
+   }
+  ],
+  "mutually_exclusive": true,
+  "product_metadata": {
+   "competition": "EPL",
+   "competition_scope": "Game"
+  },
+  "series_ticker": "KXEPLGAME",
+  "settlement_sources": [
+   {
+    "name": "ESPN",
+    "url": "https://www.espn.com/"
+   },
+   {
+    "name": "Fox Sports",
+    "url": "https://www.foxsports.com/"
+   }
+  ],
+  "strike_period": "",
+  "sub_title": "NFO vs ARS (Oct 18)",
+  "title": "Nottingham Forest vs Arsenal"
+ }
+}

@@ -1,0 +1,895 @@
+round,date,league,match,bet,odds,won,bankroll_before,stake_6pct,result,change,bankroll_after
+1,2019-08-09,England,Liverpool v Norwich,draw,10.5,False,2500.0,150.0,lost,-150.0,2350.0
+2,2019-08-10,England,Tottenham v Aston Villa,away,10.0,False,2350.0,141.0,lost,-141.0,2209.0
+3,2019-08-10,England,Crystal Palace v Everton,home,3.55,False,2209.0,132.54,lost,-132.54,2076.46
+4,2019-08-11,England,Man United v Chelsea,away,4.4,False,2076.46,124.59,lost,-124.59,1951.87
+5,2019-08-11,England,Newcastle v Arsenal,home,3.76,False,1951.87,117.11,lost,-117.11,1834.76
+6,2019-08-11,England,Leicester v Wolves,home,2.55,False,1834.76,110.09,lost,-110.09,1724.67
+7,2019-08-17,England,Arsenal v Burnley,away,10.0,False,1724.67,103.48,lost,-103.48,1621.19
+8,2019-08-17,England,Brighton v West Ham,away,3.74,False,1621.19,97.27,lost,-97.27,1523.92
+9,2019-08-24,England,Sheffield United v Leicester,home,3.64,False,1523.92,91.44,lost,-91.44,1432.48
+10,2019-08-24,England,Man United v Crystal Palace,away,10.0,True,1432.48,85.95,won,773.55,2206.03
+11,2019-08-24,England,Norwich v Chelsea,home,4.66,False,2206.03,132.36,lost,-132.36,2073.67
+12,2019-08-25,England,Tottenham v Newcastle,draw,6.35,False,2073.67,124.42,lost,-124.42,1949.25
+13,2019-08-25,England,Tottenham v Newcastle,away,13.0,True,1949.25,116.95,won,1403.4,3352.65
+14,2019-08-31,England,Southampton v Man United,home,4.56,False,3352.65,201.16,lost,-201.16,3151.49
+15,2019-08-31,England,Chelsea v Sheffield United,draw,5.3,True,3151.49,189.09,won,813.09,3964.58
+16,2019-08-31,England,Chelsea v Sheffield United,away,9.5,False,3964.58,237.87,lost,-237.87,3726.71
+17,2019-08-31,England,Newcastle v Watford,home,2.63,False,3726.71,223.6,lost,-223.6,3503.11
+18,2019-08-31,England,West Ham v Norwich,away,4.22,False,3503.11,210.19,lost,-210.19,3292.92
+19,2019-09-14,England,Liverpool v Newcastle,draw,8.05,False,3292.92,197.58,lost,-197.58,3095.34
+20,2019-09-14,England,Tottenham v Crystal Palace,away,8.5,False,3095.34,185.72,lost,-185.72,2909.62
+21,2019-09-14,England,Brighton v Burnley,away,3.8,False,2909.62,174.58,lost,-174.58,2735.04
+22,2019-09-14,England,Norwich v Man City,home,35.0,True,2735.04,164.1,won,5579.4,8314.44
+23,2019-09-14,England,Norwich v Man City,draw,13.63,False,8314.44,498.87,lost,-498.87,7815.57
+24,2019-09-15,England,Bournemouth v Everton,home,3.76,True,7815.57,468.93,won,1294.25,9109.82
+25,2019-09-21,England,Burnley v Norwich,away,3.7,False,9109.82,546.59,lost,-546.59,8563.23
+26,2019-09-21,England,Newcastle v Brighton,home,2.5,False,8563.23,513.79,lost,-513.79,8049.44
+27,2019-09-22,England,Crystal Palace v Wolves,home,2.95,False,8049.44,482.97,lost,-482.97,7566.47
+28,2019-09-22,England,Arsenal v Aston Villa,away,8.0,False,7566.47,453.99,lost,-453.99,7112.48
+29,2019-09-28,England,Aston Villa v Burnley,home,2.4,False,7112.48,426.75,lost,-426.75,6685.73
+30,2019-09-28,England,Sheffield United v Liverpool,draw,5.65,False,6685.73,401.14,lost,-401.14,6284.59
+31,2019-09-29,England,Leicester v Newcastle,away,7.75,False,6284.59,377.08,lost,-377.08,5907.51
+32,2019-09-30,England,Man United v Arsenal,home,2.35,False,5907.51,354.45,lost,-354.45,5553.06
+33,2019-10-06,England,Newcastle v Man United,home,4.18,True,5553.06,333.18,won,1059.51,6612.57
+34,2019-10-06,England,Southampton v Chelsea,home,5.2,False,6612.57,396.75,lost,-396.75,6215.82
+35,2019-10-06,England,Arsenal v Bournemouth,away,8.4,False,6215.82,372.95,lost,-372.95,5842.87
+36,2019-10-19,England,Chelsea v Newcastle,draw,6.5,False,5842.87,350.57,lost,-350.57,5492.3
+37,2019-10-19,England,Chelsea v Newcastle,away,12.0,False,5492.3,329.54,lost,-329.54,5162.76
+38,2019-10-19,England,Aston Villa v Brighton,home,2.45,True,5162.76,309.77,won,449.17,5611.93
+39,2019-10-19,England,Crystal Palace v Man City,home,14.0,False,5611.93,336.72,lost,-336.72,5275.21
+40,2019-10-19,England,Crystal Palace v Man City,draw,8.0,False,5275.21,316.51,lost,-316.51,4958.7
+41,2019-10-21,England,Sheffield United v Arsenal,home,3.96,True,4958.7,297.52,won,880.66,5839.36
+42,2019-10-26,England,Man City v Aston Villa,draw,17.0,False,5839.36,350.36,lost,-350.36,5489.0
+43,2019-10-27,England,Arsenal v Crystal Palace,away,7.2,False,5489.0,329.34,lost,-329.34,5159.66
+44,2019-11-02,England,Arsenal v Wolves,away,5.1,False,5159.66,309.58,lost,-309.58,4850.08
+45,2019-11-02,England,Brighton v Norwich,away,5.87,False,4850.08,291.0,lost,-291.0,4559.08
+46,2019-11-02,England,Aston Villa v Liverpool,home,10.5,False,4559.08,273.54,lost,-273.54,4285.54
+47,2019-11-02,England,Aston Villa v Liverpool,draw,6.95,False,4285.54,257.13,lost,-257.13,4028.41
+48,2019-11-09,England,Tottenham v Sheffield United,draw,4.45,True,4028.41,241.7,won,833.87,4862.28
+49,2019-11-09,England,Tottenham v Sheffield United,away,7.3,False,4862.28,291.74,lost,-291.74,4570.54
+50,2019-11-10,England,Wolves v Aston Villa,away,5.8,False,4570.54,274.23,lost,-274.23,4296.31
+51,2019-11-23,England,West Ham v Tottenham,home,5.0,False,4296.31,257.78,lost,-257.78,4038.53
+52,2019-11-24,England,Sheffield United v Man United,home,4.28,False,4038.53,242.31,lost,-242.31,3796.22
+53,2019-11-30,England,Tottenham v Bournemouth,away,11.0,False,3796.22,227.77,lost,-227.77,3568.45
+54,2019-11-30,England,Newcastle v Man City,home,15.0,False,3568.45,214.11,lost,-214.11,3354.34
+55,2019-11-30,England,Newcastle v Man City,draw,8.5,True,3354.34,201.26,won,1509.45,4863.79
+56,2019-11-30,England,Burnley v Crystal Palace,away,4.18,True,4863.79,291.83,won,928.02,5791.81
+57,2019-12-01,England,Man United v Aston Villa,away,7.9,False,5791.81,347.51,lost,-347.51,5444.3
+58,2019-12-04,England,Chelsea v Aston Villa,away,9.5,False,5444.3,326.66,lost,-326.66,5117.64
+59,2019-12-04,England,Man United v Tottenham,home,2.72,True,5117.64,307.06,won,528.14,5645.78
+60,2019-12-04,England,Liverpool v Everton,home,1.67,True,5645.78,338.75,won,226.96,5872.74
+61,2019-12-07,England,Watford v Crystal Palace,away,3.2,False,5872.74,352.36,lost,-352.36,5520.38
+62,2019-12-07,England,Tottenham v Burnley,away,8.5,False,5520.38,331.22,lost,-331.22,5189.16
+63,2019-12-08,England,Aston Villa v Leicester,home,5.4,False,5189.16,311.35,lost,-311.35,4877.81
+64,2019-12-08,England,Newcastle v Southampton,home,2.7,True,4877.81,292.67,won,497.54,5375.35
+65,2019-12-08,England,Norwich v Sheffield United,away,2.38,True,5375.35,322.52,won,445.08,5820.43
+66,2019-12-08,England,Brighton v Wolves,away,3.13,False,5820.43,349.23,lost,-349.23,5471.2
+67,2019-12-09,England,West Ham v Arsenal,home,4.08,False,5471.2,328.27,lost,-328.27,5142.93
+68,2019-12-14,England,Southampton v West Ham,away,4.4,True,5142.93,308.58,won,1049.17,6192.1
+69,2019-12-14,England,Sheffield United v Aston Villa,away,5.0,False,6192.1,371.53,lost,-371.53,5820.57
+70,2019-12-14,England,Chelsea v Bournemouth,draw,7.2,False,5820.57,349.23,lost,-349.23,5471.34
+71,2019-12-14,England,Chelsea v Bournemouth,away,14.0,True,5471.34,328.28,won,4267.64,9738.98
+72,2019-12-14,England,Burnley v Newcastle,away,4.3,False,9738.98,584.34,lost,-584.34,9154.64
+73,2019-12-16,England,Crystal Palace v Brighton,home,3.0,False,9154.64,549.28,lost,-549.28,8605.36
+74,2019-12-21,England,Aston Villa v Southampton,home,2.6,False,8605.36,516.32,lost,-516.32,8089.04
+75,2019-12-21,England,Brighton v Sheffield United,away,3.8,True,8089.04,485.34,won,1358.95,9447.99
+76,2019-12-21,England,Man City v Leicester,draw,6.15,False,9447.99,566.88,lost,-566.88,8881.11
+77,2019-12-21,England,Man City v Leicester,away,8.0,False,8881.11,532.87,lost,-532.87,8348.24
+78,2019-12-22,England,Tottenham v Chelsea,away,3.3,True,8348.24,500.89,won,1152.05,9500.29
+79,2019-12-26,England,Aston Villa v Norwich,home,2.3,True,9500.29,570.02,won,741.03,10241.32
+80,2019-12-26,England,Man United v Newcastle,draw,5.6,False,10241.32,614.48,lost,-614.48,9626.84
+81,2019-12-26,England,Man United v Newcastle,away,10.0,False,9626.84,577.61,lost,-577.61,9049.23
+82,2019-12-26,England,Bournemouth v Arsenal,home,4.32,False,9049.23,542.95,lost,-542.95,8506.28
+83,2019-12-28,England,West Ham v Leicester,away,2.81,True,8506.28,510.38,won,923.79,9430.07
+84,2019-12-28,England,Watford v Aston Villa,away,4.6,False,9430.07,565.8,lost,-565.8,8864.27
+85,2019-12-28,England,Southampton v Crystal Palace,away,4.5,False,8864.27,531.86,lost,-531.86,8332.41
+86,2019-12-28,England,Brighton v Bournemouth,away,4.66,False,8332.41,499.94,lost,-499.94,7832.47
+87,2019-12-29,England,Man City v Sheffield United,draw,7.6,False,7832.47,469.95,lost,-469.95,7362.52
+88,2020-01-01,England,Arsenal v Man United,away,2.72,False,7362.52,441.75,lost,-441.75,6920.77
+89,2020-01-01,England,West Ham v Bournemouth,away,4.54,False,6920.77,415.25,lost,-415.25,6505.52
+90,2020-01-01,England,Norwich v Crystal Palace,away,3.25,False,6505.52,390.33,lost,-390.33,6115.19
+91,2020-01-01,England,Burnley v Aston Villa,away,4.36,True,6115.19,366.91,won,1232.82,7348.01
+92,2020-01-02,England,Liverpool v Sheffield United,draw,6.05,False,7348.01,440.88,lost,-440.88,6907.13
+93,2020-01-11,England,Wolves v Newcastle,away,8.3,False,6907.13,414.43,lost,-414.43,6492.7
+94,2020-01-11,England,Crystal Palace v Arsenal,home,4.9,False,6492.7,389.56,lost,-389.56,6103.14
+95,2020-01-11,England,Leicester v Southampton,home,1.8,False,6103.14,366.19,lost,-366.19,5736.95
+96,2020-01-12,England,Aston Villa v Man City,home,19.0,False,5736.95,344.22,lost,-344.22,5392.73
+97,2020-01-12,England,Aston Villa v Man City,draw,11.0,False,5392.73,323.56,lost,-323.56,5069.17
+98,2020-01-18,England,Man City v Crystal Palace,draw,13.5,True,5069.17,304.15,won,3801.87,8871.04
+99,2020-01-18,England,Arsenal v Sheffield United,away,4.7,False,8871.04,532.26,lost,-532.26,8338.78
+100,2020-01-18,England,Brighton v Aston Villa,away,5.1,False,8338.78,500.33,lost,-500.33,7838.45
+101,2020-01-21,England,Sheffield United v Man City,home,9.2,False,7838.45,470.31,lost,-470.31,7368.14
+102,2020-01-21,England,Everton v Newcastle,away,7.8,False,7368.14,442.09,lost,-442.09,6926.05
+103,2020-01-21,England,Aston Villa v Watford,home,3.2,True,6926.05,415.56,won,914.23,7840.28
+104,2020-02-01,England,Bournemouth v Aston Villa,away,3.7,False,7840.28,470.42,lost,-470.42,7369.86
+105,2020-02-02,England,Burnley v Arsenal,home,4.26,False,7369.86,442.19,lost,-442.19,6927.67
+106,2020-02-08,England,Everton v Crystal Palace,away,6.35,False,6927.67,415.66,lost,-415.66,6512.01
+107,2020-02-15,England,Southampton v Burnley,away,5.6,True,6512.01,390.72,won,1797.31,8309.32
+108,2020-02-16,England,Arsenal v Newcastle,away,9.0,False,8309.32,498.56,lost,-498.56,7810.76
+109,2020-02-22,England,Southampton v Aston Villa,away,5.1,False,7810.76,468.65,lost,-468.65,7342.11
+110,2020-02-22,England,Leicester v Man City,home,5.75,False,7342.11,440.53,lost,-440.53,6901.58
+111,2020-02-23,England,Arsenal v Everton,away,3.98,False,6901.58,414.09,lost,-414.09,6487.49
+112,2020-03-01,England,Tottenham v Wolves,home,2.9,False,6487.49,389.25,lost,-389.25,6098.24
+113,2020-03-07,England,Arsenal v West Ham,away,5.55,False,6098.24,365.89,lost,-365.89,5732.35
+114,2020-03-07,England,Burnley v Tottenham,away,2.8,False,5732.35,343.94,lost,-343.94,5388.41
+115,2020-06-20,England,West Ham v Wolves,home,4.4,False,5388.41,323.3,lost,-323.3,5065.11
+116,2020-06-24,England,Newcastle v Aston Villa,home,2.45,False,5065.11,303.91,lost,-303.91,4761.2
+117,2020-06-24,England,Man United v Sheffield United,draw,5.3,False,4761.2,285.67,lost,-285.67,4475.53
+118,2020-06-25,England,Southampton v Arsenal,home,2.84,False,4475.53,268.53,lost,-268.53,4207.0
+119,2020-06-25,England,Burnley v Watford,home,3.86,True,4207.0,252.42,won,721.92,4928.92
+120,2020-06-30,England,Brighton v Man United,home,7.6,False,4928.92,295.74,lost,-295.74,4633.18
+121,2020-07-01,England,West Ham v Chelsea,home,8.0,True,4633.18,277.99,won,1945.93,6579.11
+122,2020-07-01,England,Bournemouth v Newcastle,away,3.94,True,6579.11,394.75,won,1160.57,7739.68
+123,2020-07-02,England,Sheffield United v Tottenham,home,5.15,True,7739.68,464.38,won,1927.18,9666.86
+124,2020-07-04,England,Wolves v Arsenal,home,2.48,False,9666.86,580.01,lost,-580.01,9086.85
+125,2020-07-05,England,Burnley v Sheffield United,home,3.36,False,9086.85,545.21,lost,-545.21,8541.64
+126,2020-07-05,England,Southampton v Man City,home,10.5,True,8541.64,512.5,won,4868.75,13410.39
+127,2020-07-07,England,Crystal Palace v Chelsea,home,8.5,False,13410.39,804.62,lost,-804.62,12605.77
+128,2020-07-07,England,Arsenal v Leicester,away,3.55,False,12605.77,756.35,lost,-756.35,11849.42
+129,2020-07-08,England,West Ham v Burnley,away,4.75,True,11849.42,710.97,won,2666.14,14515.56
+130,2020-07-08,England,Sheffield United v Wolves,home,4.32,True,14515.56,870.93,won,2891.49,17407.05
+131,2020-07-09,England,Bournemouth v Tottenham,home,5.3,False,17407.05,1044.42,lost,-1044.42,16362.63
+132,2020-07-09,England,Aston Villa v Man United,home,10.0,False,16362.63,981.76,lost,-981.76,15380.87
+133,2020-07-11,England,Brighton v Man City,home,16.25,False,15380.87,922.85,lost,-922.85,14458.02
+134,2020-07-11,England,Brighton v Man City,draw,7.5,False,14458.02,867.48,lost,-867.48,13590.54
+135,2020-07-11,England,Watford v Newcastle,away,4.55,False,13590.54,815.43,lost,-815.43,12775.11
+136,2020-07-12,England,Tottenham v Arsenal,home,2.88,True,12775.11,766.51,won,1441.04,14216.15
+137,2020-07-15,England,Burnley v Wolves,home,5.0,False,14216.15,852.97,lost,-852.97,13363.18
+138,2020-07-15,England,Newcastle v Tottenham,home,5.75,False,13363.18,801.79,lost,-801.79,12561.39
+139,2020-07-16,England,Everton v Aston Villa,home,2.21,False,12561.39,753.68,lost,-753.68,11807.71
+140,2020-07-16,England,Southampton v Brighton,home,2.38,False,11807.71,708.46,lost,-708.46,11099.25
+141,2020-07-16,England,Crystal Palace v Man United,home,10.25,False,11099.25,665.95,lost,-665.95,10433.3
+142,2020-07-17,England,West Ham v Watford,home,2.6,True,10433.3,626.0,won,1001.6,11434.9
+143,2020-07-20,England,Brighton v Newcastle,away,4.2,False,11434.9,686.09,lost,-686.09,10748.81
+144,2020-07-20,England,Sheffield United v Everton,away,4.4,True,10748.81,644.93,won,2192.76,12941.57
+145,2020-07-20,England,Wolves v Crystal Palace,away,10.3,False,12941.57,776.49,lost,-776.49,12165.08
+146,2020-07-26,England,Crystal Palace v Tottenham,home,8.3,False,12165.08,729.9,lost,-729.9,11435.18
+147,2020-07-26,England,Everton v Bournemouth,home,2.46,False,11435.18,686.11,lost,-686.11,10749.07
+148,2020-07-26,England,Leicester v Man United,home,3.91,False,10749.07,644.94,lost,-644.94,10104.13
+149,2020-07-26,England,Burnley v Brighton,home,2.75,False,10104.13,606.25,lost,-606.25,9497.88
+150,2020-07-26,England,West Ham v Aston Villa,home,2.75,False,9497.88,569.87,lost,-569.87,8928.01
+151,2020-07-26,England,Arsenal v Watford,home,2.09,True,8928.01,535.68,won,583.89,9511.9
+152,2020-09-19,England,Arsenal v West Ham,away,7.16,False,9511.9,570.71,lost,-570.71,8941.19
+153,2020-09-19,England,Leeds v Fulham,home,1.8,True,8941.19,536.47,won,429.18,9370.37
+154,2020-09-20,England,Newcastle v Brighton,home,2.77,False,9370.37,562.22,lost,-562.22,8808.15
+155,2020-09-26,England,Crystal Palace v Everton,home,3.86,False,8808.15,528.49,lost,-528.49,8279.66
+156,2020-09-27,England,Sheffield United v Leeds,home,3.1,False,8279.66,496.78,lost,-496.78,7782.88
+157,2020-10-04,England,Arsenal v Sheffield United,away,7.5,False,7782.88,466.97,lost,-466.97,7315.91
+158,2020-10-04,England,Wolves v Fulham,home,1.83,True,7315.91,438.95,won,364.33,7680.24
+159,2020-10-17,England,Man City v Arsenal,home,1.6,True,7680.24,460.81,won,276.49,7956.73
+160,2020-10-18,England,Crystal Palace v Brighton,home,3.29,False,7956.73,477.4,lost,-477.4,7479.33
+161,2020-10-18,England,Sheffield United v Fulham,home,2.42,False,7479.33,448.76,lost,-448.76,7030.57
+162,2020-10-18,England,Leicester v Aston Villa,home,2.48,False,7030.57,421.83,lost,-421.83,6608.74
+163,2020-10-19,England,Leeds v Wolves,home,2.62,False,6608.74,396.52,lost,-396.52,6212.22
+164,2020-10-23,England,Aston Villa v Leeds,away,3.92,True,6212.22,372.73,won,1088.37,7300.59
+165,2020-10-24,England,Fulham v Crystal Palace,away,3.1,True,7300.59,438.04,won,919.88,8220.47
+166,2020-10-24,England,Liverpool v Sheffield United,draw,7.86,False,8220.47,493.23,lost,-493.23,7727.24
+167,2020-10-25,England,Arsenal v Leicester,away,4.34,True,7727.24,463.63,won,1548.52,9275.76
+168,2020-10-25,England,Southampton v Everton,home,3.27,True,9275.76,556.55,won,1263.37,10539.13
+169,2020-10-26,England,Burnley v Tottenham,home,6.54,False,10539.13,632.35,lost,-632.35,9906.78
+170,2020-10-31,England,Sheffield United v Man City,draw,6.5,False,9906.78,594.41,lost,-594.41,9312.37
+171,2020-11-02,England,Leeds v Leicester,home,2.58,False,9312.37,558.74,lost,-558.74,8753.63
+172,2020-11-06,England,Brighton v Burnley,away,4.53,False,8753.63,525.22,lost,-525.22,8228.41
+173,2020-11-07,England,Crystal Palace v Leeds,away,2.6,False,8228.41,493.7,lost,-493.7,7734.71
+174,2020-11-07,England,West Ham v Fulham,home,1.91,True,7734.71,464.08,won,422.31,8157.02
+175,2020-11-21,England,Newcastle v Chelsea,home,8.0,False,8157.02,489.42,lost,-489.42,7667.6
+176,2020-11-22,England,Leeds v Arsenal,home,3.67,False,7667.6,460.06,lost,-460.06,7207.54
+177,2020-11-29,England,Arsenal v Wolves,away,4.25,True,7207.54,432.45,won,1405.46,8613.0
+178,2020-11-30,England,Leicester v Fulham,home,1.68,False,8613.0,516.78,lost,-516.78,8096.22
+179,2020-12-05,England,Burnley v Everton,home,4.19,False,8096.22,485.77,lost,-485.77,7610.45
+180,2020-12-06,England,Tottenham v Arsenal,home,2.31,True,7610.45,456.63,won,598.19,8208.64
+181,2020-12-12,England,Wolves v Aston Villa,home,2.66,False,8208.64,492.52,lost,-492.52,7716.12
+182,2020-12-12,England,Newcastle v West Brom,home,2.51,True,7716.12,462.97,won,699.08,8415.2
+183,2020-12-12,England,Everton v Chelsea,home,5.02,True,8415.2,504.91,won,2029.74,10444.94
+184,2020-12-13,England,Arsenal v Burnley,away,8.65,True,10444.94,626.7,won,4794.26,15239.2
+185,2020-12-13,England,Leicester v Brighton,home,2.13,True,15239.2,914.35,won,1033.22,16272.42
+186,2020-12-15,England,Wolves v Chelsea,home,5.79,True,16272.42,976.35,won,4676.72,20949.14
+187,2020-12-16,England,Leeds v Newcastle,away,5.9,False,20949.14,1256.95,lost,-1256.95,19692.19
+188,2020-12-19,England,Newcastle v Fulham,home,2.93,False,19692.19,1181.53,lost,-1181.53,18510.66
+189,2020-12-20,England,Brighton v Sheffield United,away,5.0,False,18510.66,1110.64,lost,-1110.64,17400.02
+190,2020-12-26,England,Fulham v Southampton,away,2.68,False,17400.02,1044.0,lost,-1044.0,16356.02
+191,2020-12-26,England,Arsenal v Chelsea,home,5.25,True,16356.02,981.36,won,4170.78,20526.8
+192,2020-12-27,England,Wolves v Tottenham,home,3.78,False,20526.8,1231.61,lost,-1231.61,19295.19
+193,2020-12-29,England,Man United v Wolves,away,7.0,False,19295.19,1157.71,lost,-1157.71,18137.48
+194,2021-01-02,England,Tottenham v Leeds,home,1.92,True,18137.48,1088.25,won,1001.19,19138.67
+195,2021-01-03,England,Newcastle v Leicester,home,7.0,False,19138.67,1148.32,lost,-1148.32,17990.35
+196,2021-01-12,England,Burnley v Man United,home,8.65,False,17990.35,1079.42,lost,-1079.42,16910.93
+197,2021-01-13,England,Tottenham v Fulham,home,1.67,False,16910.93,1014.66,lost,-1014.66,15896.27
+198,2021-01-16,England,Wolves v West Brom,home,1.79,False,15896.27,953.78,lost,-953.78,14942.49
+199,2021-01-16,England,Leeds v Brighton,home,2.35,False,14942.49,896.55,lost,-896.55,14045.94
+200,2021-01-16,England,Leicester v Southampton,away,5.46,False,14045.94,842.76,lost,-842.76,13203.18
+201,2021-01-18,England,Arsenal v Newcastle,away,8.9,False,13203.18,792.19,lost,-792.19,12410.99
+202,2021-01-23,England,Aston Villa v Newcastle,away,6.75,False,12410.99,744.66,lost,-744.66,11666.33
+203,2021-01-26,England,Crystal Palace v West Ham,home,3.81,False,11666.33,699.98,lost,-699.98,10966.35
+204,2021-01-26,England,Southampton v Arsenal,home,3.8,False,10966.35,657.98,lost,-657.98,10308.37
+205,2021-01-26,England,Newcastle v Leeds,home,4.3,False,10308.37,618.5,lost,-618.5,9689.87
+206,2021-01-27,England,Burnley v Aston Villa,home,4.69,True,9689.87,581.39,won,2145.33,11835.2
+207,2021-01-30,England,Southampton v Aston Villa,home,3.49,False,11835.2,710.11,lost,-710.11,11125.09
+208,2021-01-30,England,Everton v Newcastle,away,7.03,True,11125.09,667.51,won,4025.09,15150.18
+209,2021-01-31,England,West Ham v Liverpool,away,2.17,True,15150.18,909.01,won,1063.54,16213.72
+210,2021-02-02,England,Wolves v Arsenal,home,3.92,True,16213.72,972.82,won,2840.63,19054.35
+211,2021-02-02,England,Man United v Southampton,away,8.0,False,19054.35,1143.26,lost,-1143.26,17911.09
+212,2021-02-03,England,Fulham v Leicester,away,2.16,True,17911.09,1074.67,won,1246.62,19157.71
+213,2021-02-04,England,Tottenham v Chelsea,home,4.2,False,19157.71,1149.46,lost,-1149.46,18008.25
+214,2021-02-06,England,Burnley v Brighton,home,3.92,False,18008.25,1080.49,lost,-1080.49,16927.76
+215,2021-02-14,England,Everton v Fulham,home,2.1,False,16927.76,1015.67,lost,-1015.67,15912.09
+216,2021-02-14,England,Southampton v Wolves,away,3.65,True,15912.09,954.73,won,2530.03,18442.12
+217,2021-02-17,England,Burnley v Fulham,home,3.06,False,18442.12,1106.53,lost,-1106.53,17335.59
+218,2021-02-20,England,Burnley v West Brom,home,2.26,False,17335.59,1040.14,lost,-1040.14,16295.45
+219,2021-02-20,England,Fulham v Sheffield United,away,4.5,False,16295.45,977.73,lost,-977.73,15317.72
+220,2021-02-21,England,Aston Villa v Leicester,home,4.16,False,15317.72,919.06,lost,-919.06,14398.66
+221,2021-02-22,England,Brighton v Crystal Palace,away,5.82,True,14398.66,863.92,won,4164.09,18562.75
+222,2021-02-28,England,Leicester v Arsenal,home,2.58,False,18562.75,1113.76,lost,-1113.76,17448.99
+223,2021-02-28,England,Crystal Palace v Fulham,home,3.6,False,17448.99,1046.94,lost,-1046.94,16402.05
+224,2021-03-02,England,Man City v Wolves,draw,7.3,False,16402.05,984.12,lost,-984.12,15417.93
+225,2021-03-03,England,Crystal Palace v Man United,home,8.5,False,15417.93,925.08,lost,-925.08,14492.85
+226,2021-03-04,England,West Brom v Everton,away,2.08,True,14492.85,869.57,won,939.14,15431.99
+227,2021-03-06,England,Sheffield United v Southampton,home,4.29,False,15431.99,925.92,lost,-925.92,14506.07
+228,2021-03-06,England,Brighton v Leicester,away,3.15,True,14506.07,870.36,won,1871.27,16377.34
+229,2021-03-06,England,Burnley v Arsenal,home,5.47,False,16377.34,982.64,lost,-982.64,15394.7
+230,2021-03-07,England,West Brom v Newcastle,away,3.6,False,15394.7,923.68,lost,-923.68,14471.02
+231,2021-03-07,England,Liverpool v Fulham,home,1.71,False,14471.02,868.26,lost,-868.26,13602.76
+232,2021-03-12,England,Newcastle v Aston Villa,home,3.93,False,13602.76,816.17,lost,-816.17,12786.59
+233,2021-03-13,England,Crystal Palace v West Brom,home,2.45,True,12786.59,767.2,won,1112.44,13899.03
+234,2021-03-13,England,Leeds v Chelsea,home,5.83,False,13899.03,833.94,lost,-833.94,13065.09
+235,2021-03-14,England,Southampton v Brighton,home,3.35,False,13065.09,783.91,lost,-783.91,12281.18
+236,2021-03-15,England,Wolves v Liverpool,home,6.0,False,12281.18,736.87,lost,-736.87,11544.31
+237,2021-03-19,England,Fulham v Leeds,away,2.94,True,11544.31,692.66,won,1343.76,12888.07
+238,2021-03-20,England,Brighton v Newcastle,away,6.5,False,12888.07,773.28,lost,-773.28,12114.79
+239,2021-03-21,England,West Ham v Arsenal,home,3.99,False,12114.79,726.89,lost,-726.89,11387.9
+240,2021-04-04,England,Newcastle v Tottenham,home,6.16,False,11387.9,683.27,lost,-683.27,10704.63
+241,2021-04-04,England,Aston Villa v Fulham,home,2.65,True,10704.63,642.28,won,1059.76,11764.39
+242,2021-04-05,England,Wolves v West Ham,home,3.05,False,11764.39,705.86,lost,-705.86,11058.53
+243,2021-04-09,England,Fulham v Wolves,away,3.04,True,11058.53,663.51,won,1353.56,12412.09
+244,2021-04-10,England,Man City v Leeds,home,1.42,False,12412.09,744.73,lost,-744.73,11667.36
+245,2021-04-10,England,Crystal Palace v Chelsea,home,8.43,False,11667.36,700.04,lost,-700.04,10967.32
+246,2021-04-12,England,Brighton v Everton,away,3.7,False,10967.32,658.04,lost,-658.04,10309.28
+247,2021-04-22,England,Leicester v West Brom,home,1.67,True,10309.28,618.56,won,414.44,10723.72
+248,2021-04-24,England,West Ham v Chelsea,home,5.75,False,10723.72,643.42,lost,-643.42,10080.3
+249,2021-04-24,England,Sheffield United v Brighton,home,6.7,True,10080.3,604.82,won,3447.47,13527.77
+250,2021-04-24,England,Sheffield United v Brighton,draw,4.1,False,13527.77,811.67,lost,-811.67,12716.1
+251,2021-04-25,England,Wolves v Burnley,home,2.46,False,12716.1,762.97,lost,-762.97,11953.13
+252,2021-04-25,England,Aston Villa v West Brom,home,2.22,False,11953.13,717.19,lost,-717.19,11235.94
+253,2021-05-01,England,Brighton v Leeds,away,3.82,False,11235.94,674.16,lost,-674.16,10561.78
+254,2021-05-03,England,West Brom v Wolves,away,3.2,False,10561.78,633.71,lost,-633.71,9928.07
+255,2021-05-08,England,Man City v Chelsea,home,2.15,False,9928.07,595.68,lost,-595.68,9332.39
+256,2021-05-08,England,Leeds v Tottenham,home,4.33,True,9332.39,559.94,won,1864.6,11196.99
+257,2021-05-09,England,Wolves v Brighton,home,4.25,True,11196.99,671.82,won,2183.41,13380.4
+258,2021-05-11,England,Man United v Leicester,home,3.96,False,13380.4,802.82,lost,-802.82,12577.58
+259,2021-05-13,England,Aston Villa v Everton,home,3.26,False,12577.58,754.65,lost,-754.65,11822.93
+260,2021-05-15,England,Brighton v West Ham,home,3.75,False,11822.93,709.38,lost,-709.38,11113.55
+261,2021-05-16,England,Everton v Sheffield United,draw,5.5,False,11113.55,666.81,lost,-666.81,10446.74
+262,2021-05-16,England,Everton v Sheffield United,away,9.87,True,10446.74,626.8,won,5559.72,16006.46
+263,2021-05-16,England,Tottenham v Wolves,away,6.5,False,16006.46,960.39,lost,-960.39,15046.07
+264,2021-05-18,England,Chelsea v Leicester,away,5.6,False,15046.07,902.76,lost,-902.76,14143.31
+265,2021-05-19,England,Burnley v Liverpool,home,12.0,False,14143.31,848.6,lost,-848.6,13294.71
+266,2021-05-19,England,Burnley v Liverpool,draw,6.75,False,13294.71,797.68,lost,-797.68,12497.03
+267,2021-05-19,England,Crystal Palace v Arsenal,home,6.5,False,12497.03,749.82,lost,-749.82,11747.21
+268,2021-05-19,England,Everton v Wolves,away,5.1,False,11747.21,704.83,lost,-704.83,11042.38
+269,2021-05-23,England,Aston Villa v Chelsea,home,7.5,True,11042.38,662.54,won,4306.51,15348.89
+270,2021-05-23,England,Liverpool v Crystal Palace,draw,9.5,False,15348.89,920.93,lost,-920.93,14427.96
+271,2021-05-23,England,Wolves v Man United,away,3.4,True,14427.96,865.68,won,2077.63,16505.59
+272,2021-05-23,England,Leicester v Tottenham,away,4.5,True,16505.59,990.34,won,3466.19,19971.78
+273,2021-05-23,England,West Ham v Southampton,away,4.92,False,19971.78,1198.31,lost,-1198.31,18773.47
+274,2021-08-14,England,Norwich v Liverpool,away,1.5,True,18773.47,1126.41,won,563.21,19336.68
+275,2021-08-21,England,Crystal Palace v Brentford,away,3.0,False,19336.68,1160.2,lost,-1160.2,18176.48
+276,2021-08-21,England,Brighton v Watford,away,6.0,False,18176.48,1090.59,lost,-1090.59,17085.89
+277,2021-08-22,England,Arsenal v Chelsea,home,4.98,False,17085.89,1025.15,lost,-1025.15,16060.74
+278,2021-08-23,England,West Ham v Leicester,away,3.1,False,16060.74,963.64,lost,-963.64,15097.1
+279,2021-08-28,England,West Ham v Crystal Palace,away,7.0,False,15097.1,905.83,lost,-905.83,14191.27
+280,2021-08-28,England,Aston Villa v Brentford,away,4.1,False,14191.27,851.48,lost,-851.48,13339.79
+281,2021-08-28,England,Norwich v Leicester,away,1.96,True,13339.79,800.39,won,768.37,14108.16
+282,2021-08-29,England,Tottenham v Watford,away,9.34,False,14108.16,846.49,lost,-846.49,13261.67
+283,2021-09-11,England,Man United v Newcastle,draw,8.06,False,13261.67,795.7,lost,-795.7,12465.97
+284,2021-09-11,England,Man United v Newcastle,away,19.13,False,12465.97,747.96,lost,-747.96,11718.01
+285,2021-09-11,England,Chelsea v Aston Villa,away,12.3,False,11718.01,703.08,lost,-703.08,11014.93
+286,2021-09-18,England,Norwich v Watford,away,3.52,True,11014.93,660.9,won,1665.47,12680.4
+287,2021-09-18,England,Aston Villa v Everton,away,3.65,False,12680.4,760.82,lost,-760.82,11919.58
+288,2021-09-18,England,Wolves v Brentford,away,5.61,True,11919.58,715.17,won,3296.93,15216.51
+289,2021-09-19,England,West Ham v Man United,home,4.63,False,15216.51,912.99,lost,-912.99,14303.52
+290,2021-09-19,England,Tottenham v Chelsea,home,4.82,False,14303.52,858.21,lost,-858.21,13445.31
+291,2021-09-19,England,Brighton v Leicester,away,3.16,False,13445.31,806.72,lost,-806.72,12638.59
+292,2021-09-25,England,Brentford v Liverpool,home,8.3,False,12638.59,758.32,lost,-758.32,11880.27
+293,2021-09-25,England,Brentford v Liverpool,draw,5.25,True,11880.27,712.82,won,3029.49,14909.76
+294,2021-09-25,England,Watford v Newcastle,away,3.76,False,14909.76,894.59,lost,-894.59,14015.17
+295,2021-09-25,England,Leeds v West Ham,home,3.19,False,14015.17,840.91,lost,-840.91,13174.26
+296,2021-09-25,England,Everton v Norwich,home,1.75,True,13174.26,790.46,won,592.85,13767.11
+297,2021-09-25,England,Man United v Aston Villa,away,8.83,True,13767.11,826.03,won,6467.81,20234.92
+298,2021-09-25,England,Chelsea v Man City,away,2.75,True,20234.92,1214.1,won,2124.67,22359.59
+299,2021-09-26,England,Southampton v Wolves,away,3.83,True,22359.59,1341.58,won,3796.67,26156.26
+300,2021-09-26,England,Arsenal v Tottenham,away,3.74,False,26156.26,1569.38,lost,-1569.38,24586.88
+301,2021-10-02,England,Wolves v Newcastle,away,5.31,False,24586.88,1475.21,lost,-1475.21,23111.67
+302,2021-10-03,England,Crystal Palace v Leicester,away,2.75,False,23111.67,1386.7,lost,-1386.7,21724.97
+303,2021-10-03,England,West Ham v Brentford,away,5.13,True,21724.97,1303.5,won,5383.45,27108.42
+304,2021-10-16,England,Leicester v Man United,home,3.9,True,27108.42,1626.51,won,4716.88,31825.3
+305,2021-10-16,England,Brentford v Chelsea,home,6.4,False,31825.3,1909.52,lost,-1909.52,29915.78
+306,2021-10-16,England,Southampton v Leeds,away,3.55,False,29915.78,1794.95,lost,-1794.95,28120.83
+307,2021-10-23,England,Crystal Palace v Newcastle,away,4.62,False,28120.83,1687.25,lost,-1687.25,26433.58
+308,2021-10-24,England,Brentford v Leicester,home,3.05,False,26433.58,1586.01,lost,-1586.01,24847.57
+309,2021-10-30,England,Watford v Southampton,home,3.62,False,24847.57,1490.85,lost,-1490.85,23356.72
+310,2021-10-30,England,Leicester v Arsenal,home,2.69,False,23356.72,1401.4,lost,-1401.4,21955.32
+311,2021-10-30,England,Burnley v Brentford,away,3.0,False,21955.32,1317.32,lost,-1317.32,20638.0
+312,2021-10-31,England,Norwich v Leeds,away,2.1,True,20638.0,1238.28,won,1362.11,22000.11
+313,2021-11-05,England,Southampton v Aston Villa,away,4.0,False,22000.11,1320.01,lost,-1320.01,20680.1
+314,2021-11-06,England,Brighton v Newcastle,away,6.25,False,20680.1,1240.81,lost,-1240.81,19439.29
+315,2021-11-06,England,Crystal Palace v Wolves,away,3.6,False,19439.29,1166.36,lost,-1166.36,18272.93
+316,2021-11-06,England,Brentford v Norwich,home,1.73,False,18272.93,1096.38,lost,-1096.38,17176.55
+317,2021-11-07,England,Leeds v Leicester,away,2.8,False,17176.55,1030.59,lost,-1030.59,16145.96
+318,2021-11-07,England,Everton v Tottenham,home,3.77,False,16145.96,968.76,lost,-968.76,15177.2
+319,2021-11-07,England,Arsenal v Watford,away,8.06,False,15177.2,910.63,lost,-910.63,14266.57
+320,2021-11-20,England,Leicester v Chelsea,home,5.12,False,14266.57,855.99,lost,-855.99,13410.58
+321,2021-11-20,England,Newcastle v Brentford,away,3.07,False,13410.58,804.63,lost,-804.63,12605.95
+322,2021-11-20,England,Norwich v Southampton,away,2.21,False,12605.95,756.36,lost,-756.36,11849.59
+323,2021-11-21,England,Tottenham v Leeds,away,6.59,False,11849.59,710.98,lost,-710.98,11138.61
+324,2021-11-27,England,Arsenal v Newcastle,away,7.0,False,11138.61,668.32,lost,-668.32,10470.29
+325,2021-11-27,England,Crystal Palace v Aston Villa,away,3.45,True,10470.29,628.22,won,1539.14,12009.43
+326,2021-11-27,England,Norwich v Wolves,away,2.29,False,12009.43,720.57,lost,-720.57,11288.86
+327,2021-11-27,England,Brighton v Leeds,away,3.7,False,11288.86,677.33,lost,-677.33,10611.53
+328,2021-11-28,England,Brentford v Everton,away,3.79,False,10611.53,636.69,lost,-636.69,9974.84
+329,2021-11-28,England,Chelsea v Man United,away,7.16,False,9974.84,598.49,lost,-598.49,9376.35
+330,2021-11-30,England,Newcastle v Norwich,home,2.21,False,9376.35,562.58,lost,-562.58,8813.77
+331,2021-12-01,England,Everton v Liverpool,home,9.5,False,8813.77,528.83,lost,-528.83,8284.94
+332,2021-12-01,England,Watford v Chelsea,home,11.12,False,8284.94,497.1,lost,-497.1,7787.84
+333,2021-12-01,England,Southampton v Leicester,away,3.25,False,7787.84,467.27,lost,-467.27,7320.57
+334,2021-12-02,England,Tottenham v Brentford,away,6.06,False,7320.57,439.23,lost,-439.23,6881.34
+335,2021-12-04,England,Wolves v Liverpool,home,9.6,False,6881.34,412.88,lost,-412.88,6468.46
+336,2021-12-05,England,Aston Villa v Leicester,away,3.51,False,6468.46,388.11,lost,-388.11,6080.35
+337,2021-12-05,England,Leeds v Brentford,away,5.2,False,6080.35,364.82,lost,-364.82,5715.53
+338,2021-12-06,England,Everton v Arsenal,home,3.95,True,5715.53,342.93,won,1011.64,6727.17
+339,2021-12-10,England,Brentford v Watford,home,2.63,True,6727.17,403.63,won,657.92,7385.09
+340,2021-12-11,England,Man City v Wolves,draw,8.64,False,7385.09,443.11,lost,-443.11,6941.98
+341,2021-12-11,England,Chelsea v Leeds,draw,7.63,False,6941.98,416.52,lost,-416.52,6525.46
+342,2021-12-11,England,Chelsea v Leeds,away,14.75,False,6525.46,391.53,lost,-391.53,6133.93
+343,2021-12-12,England,Crystal Palace v Everton,away,3.8,False,6133.93,368.04,lost,-368.04,5765.89
+344,2021-12-14,England,Norwich v Aston Villa,away,2.19,True,5765.89,345.95,won,411.68,6177.57
+345,2021-12-15,England,Crystal Palace v Southampton,away,4.25,False,6177.57,370.65,lost,-370.65,5806.92
+346,2021-12-15,England,Brighton v Wolves,away,4.65,True,5806.92,348.42,won,1271.73,7078.65
+347,2021-12-16,England,Chelsea v Everton,draw,7.83,True,7078.65,424.72,won,2900.84,9979.49
+348,2021-12-16,England,Chelsea v Everton,away,21.0,False,9979.49,598.77,lost,-598.77,9380.72
+349,2021-12-16,England,Liverpool v Newcastle,draw,13.0,False,9380.72,562.84,lost,-562.84,8817.88
+350,2021-12-18,England,Leeds v Arsenal,home,6.4,False,8817.88,529.07,lost,-529.07,8288.81
+351,2021-12-19,England,Newcastle v Man City,draw,11.0,False,8288.81,497.33,lost,-497.33,7791.48
+352,2021-12-26,England,Brighton v Brentford,away,4.7,False,7791.48,467.49,lost,-467.49,7323.99
+353,2021-12-26,England,Man City v Leicester,draw,11.5,False,7323.99,439.44,lost,-439.44,6884.55
+354,2021-12-26,England,Man City v Leicester,away,23.0,False,6884.55,413.07,lost,-413.07,6471.48
+355,2021-12-27,England,Newcastle v Man United,home,7.23,False,6471.48,388.29,lost,-388.29,6083.19
+356,2021-12-28,England,Leicester v Liverpool,home,9.85,True,6083.19,364.99,won,3230.16,9313.35
+357,2021-12-28,England,Leicester v Liverpool,draw,6.56,False,9313.35,558.8,lost,-558.8,8754.55
+358,2021-12-29,England,Brentford v Man City,draw,10.1,False,8754.55,525.27,lost,-525.27,8229.28
+359,2022-01-01,England,Watford v Tottenham,home,6.45,False,8229.28,493.76,lost,-493.76,7735.52
+360,2022-01-02,England,Everton v Brighton,home,3.12,False,7735.52,464.13,lost,-464.13,7271.39
+361,2022-01-11,England,Southampton v Brentford,away,3.99,False,7271.39,436.28,lost,-436.28,6835.11
+362,2022-01-15,England,Aston Villa v Man United,away,2.95,False,6835.11,410.11,lost,-410.11,6425.0
+363,2022-01-15,England,Norwich v Everton,away,2.32,False,6425.0,385.5,lost,-385.5,6039.5
+364,2022-01-15,England,Newcastle v Watford,away,4.61,False,6039.5,362.37,lost,-362.37,5677.13
+365,2022-01-16,England,West Ham v Leeds,away,5.2,True,5677.13,340.63,won,1430.65,7107.78
+366,2022-01-19,England,Leicester v Tottenham,home,3.45,False,7107.78,426.47,lost,-426.47,6681.31
+367,2022-01-21,England,Watford v Norwich,home,2.1,False,6681.31,400.88,lost,-400.88,6280.43
+368,2022-01-22,England,Everton v Aston Villa,home,3.02,False,6280.43,376.83,lost,-376.83,5903.6
+369,2022-01-22,England,Brentford v Wolves,away,3.4,True,5903.6,354.22,won,850.13,6753.73
+370,2022-01-23,England,Arsenal v Burnley,draw,5.93,True,6753.73,405.22,won,1997.73,8751.46
+371,2022-01-23,England,Arsenal v Burnley,away,12.3,False,8751.46,525.09,lost,-525.09,8226.37
+372,2022-01-23,England,Leicester v Brighton,home,2.74,False,8226.37,493.58,lost,-493.58,7732.79
+373,2022-02-08,England,Burnley v Man United,home,6.8,False,7732.79,463.97,lost,-463.97,7268.82
+374,2022-02-09,England,Aston Villa v Leeds,away,4.31,False,7268.82,436.13,lost,-436.13,6832.69
+375,2022-02-09,England,Tottenham v Southampton,away,6.5,True,6832.69,409.96,won,2254.78,9087.47
+376,2022-02-10,England,Liverpool v Leicester,draw,8.2,False,9087.47,545.25,lost,-545.25,8542.22
+377,2022-02-10,England,Liverpool v Leicester,away,15.0,False,8542.22,512.53,lost,-512.53,8029.69
+378,2022-02-10,England,Wolves v Arsenal,home,4.16,False,8029.69,481.78,lost,-481.78,7547.91
+379,2022-02-12,England,Brentford v Crystal Palace,home,3.29,False,7547.91,452.87,lost,-452.87,7095.04
+380,2022-02-12,England,Watford v Brighton,home,4.29,False,7095.04,425.7,lost,-425.7,6669.34
+381,2022-02-13,England,Leicester v West Ham,home,3.05,False,6669.34,400.16,lost,-400.16,6269.18
+382,2022-02-13,England,Tottenham v Wolves,away,5.9,True,6269.18,376.15,won,1843.13,8112.31
+383,2022-02-13,England,Burnley v Liverpool,draw,7.3,False,8112.31,486.74,lost,-486.74,7625.57
+384,2022-02-19,England,Aston Villa v Watford,away,6.35,True,7625.57,457.53,won,2447.79,10073.36
+385,2022-02-19,England,Arsenal v Brentford,away,8.0,False,10073.36,604.4,lost,-604.4,9468.96
+386,2022-02-19,England,Brighton v Burnley,away,7.1,True,9468.96,568.14,won,3465.65,12934.61
+387,2022-02-19,England,Southampton v Everton,away,3.97,False,12934.61,776.08,lost,-776.08,12158.53
+388,2022-02-20,England,Leeds v Man United,home,5.32,False,12158.53,729.51,lost,-729.51,11429.02
+389,2022-02-20,England,Wolves v Leicester,away,3.85,False,11429.02,685.74,lost,-685.74,10743.28
+390,2022-02-24,England,Arsenal v Wolves,away,6.3,False,10743.28,644.6,lost,-644.6,10098.68
+391,2022-02-26,England,Leeds v Tottenham,home,4.18,False,10098.68,605.92,lost,-605.92,9492.76
+392,2022-02-26,England,Crystal Palace v Burnley,away,5.2,False,9492.76,569.57,lost,-569.57,8923.19
+393,2022-02-27,England,West Ham v Wolves,away,4.73,False,8923.19,535.39,lost,-535.39,8387.8
+394,2022-03-01,England,Burnley v Leicester,away,2.65,True,8387.8,503.27,won,830.4,9218.2
+395,2022-03-05,England,Leicester v Leeds,home,2.14,True,9218.2,553.09,won,630.52,9848.72
+396,2022-03-05,England,Liverpool v West Ham,away,13.0,False,9848.72,590.92,lost,-590.92,9257.8
+397,2022-03-06,England,Watford v Arsenal,home,7.17,False,9257.8,555.47,lost,-555.47,8702.33
+398,2022-03-12,England,Brentford v Burnley,away,4.02,False,8702.33,522.14,lost,-522.14,8180.19
+399,2022-03-13,England,Arsenal v Leicester,away,8.1,False,8180.19,490.81,lost,-490.81,7689.38
+400,2022-03-13,England,West Ham v Aston Villa,home,2.62,True,7689.38,461.36,won,747.4,8436.78
+401,2022-03-13,England,Everton v Wolves,away,3.84,True,8436.78,506.21,won,1437.64,9874.42
+402,2022-03-13,England,Southampton v Watford,away,5.6,True,9874.42,592.47,won,2725.36,12599.78
+403,2022-03-20,England,Tottenham v West Ham,away,5.35,False,12599.78,755.99,lost,-755.99,11843.79
+404,2022-03-20,England,Leicester v Brentford,home,2.21,True,11843.79,710.63,won,859.86,12703.65
+405,2022-04-02,England,Wolves v Aston Villa,home,3.16,True,12703.65,762.22,won,1646.4,14350.05
+406,2022-04-02,England,Man United v Leicester,away,6.05,False,14350.05,861.0,lost,-861.0,13489.05
+407,2022-04-08,England,Newcastle v Wolves,away,4.6,False,13489.05,809.34,lost,-809.34,12679.71
+408,2022-04-10,England,Leicester v Crystal Palace,home,2.64,True,12679.71,760.78,won,1247.68,13927.39
+409,2022-04-10,England,Brentford v West Ham,away,2.95,False,13927.39,835.64,lost,-835.64,13091.75
+410,2022-04-16,England,Southampton v Arsenal,home,4.22,True,13091.75,785.5,won,2529.31,15621.06
+411,2022-04-17,England,Newcastle v Leicester,away,4.0,False,15621.06,937.26,lost,-937.26,14683.8
+412,2022-04-19,England,Liverpool v Man United,away,9.6,False,14683.8,881.03,lost,-881.03,13802.77
+413,2022-04-20,England,Newcastle v Crystal Palace,away,3.65,False,13802.77,828.17,lost,-828.17,12974.6
+414,2022-04-20,England,Everton v Leicester,away,3.0,False,12974.6,778.48,lost,-778.48,12196.12
+415,2022-04-23,England,Brentford v Tottenham,home,5.32,False,12196.12,731.77,lost,-731.77,11464.35
+416,2022-04-23,England,Arsenal v Man United,away,3.8,False,11464.35,687.86,lost,-687.86,10776.49
+417,2022-04-23,England,Leicester v Aston Villa,home,3.13,False,10776.49,646.59,lost,-646.59,10129.9
+418,2022-04-24,England,Brighton v Southampton,away,4.1,False,10129.9,607.79,lost,-607.79,9522.11
+419,2022-04-24,England,Chelsea v West Ham,away,8.6,False,9522.11,571.33,lost,-571.33,8950.78
+420,2022-04-24,England,Burnley v Wolves,away,3.17,False,8950.78,537.05,lost,-537.05,8413.73
+421,2022-05-01,England,Tottenham v Leicester,away,10.0,False,8413.73,504.82,lost,-504.82,7908.91
+422,2022-05-01,England,West Ham v Arsenal,home,4.62,False,7908.91,474.53,lost,-474.53,7434.38
+423,2022-05-07,England,Chelsea v Wolves,away,11.0,False,7434.38,446.06,lost,-446.06,6988.32
+424,2022-05-08,England,Leicester v Everton,home,2.79,False,6988.32,419.3,lost,-419.3,6569.02
+425,2022-05-11,England,Watford v Everton,home,6.4,False,6569.02,394.14,lost,-394.14,6174.88
+426,2022-05-15,England,Aston Villa v Crystal Palace,away,4.99,False,6174.88,370.49,lost,-370.49,5804.39
+427,2022-05-15,England,Everton v Brentford,away,4.72,True,5804.39,348.26,won,1295.53,7099.92
+428,2022-05-15,England,Tottenham v Burnley,away,11.5,False,7099.92,426.0,lost,-426.0,6673.92
+429,2022-05-19,England,Everton v Crystal Palace,away,4.95,False,6673.92,400.44,lost,-400.44,6273.48
+430,2022-05-19,England,Chelsea v Leicester,away,8.17,False,6273.48,376.41,lost,-376.41,5897.07
+431,2022-05-22,England,Arsenal v Everton,draw,5.88,False,5897.07,353.82,lost,-353.82,5543.25
+432,2022-05-22,England,Arsenal v Everton,away,10.0,False,5543.25,332.59,lost,-332.59,5210.66
+433,2022-05-22,England,Brentford v Leeds,home,2.43,False,5210.66,312.64,lost,-312.64,4898.02
+434,2022-05-22,England,Liverpool v Wolves,draw,10.9,False,4898.02,293.88,lost,-293.88,4604.14
+435,2022-05-22,England,Liverpool v Wolves,away,24.0,False,4604.14,276.25,lost,-276.25,4327.89
+436,2022-08-05,England,Crystal Palace v Arsenal,home,5.01,False,4327.89,259.67,lost,-259.67,4068.22
+437,2022-08-06,England,Tottenham v Southampton,away,10.0,False,4068.22,244.09,lost,-244.09,3824.13
+438,2022-08-06,England,Newcastle v Nott'm Forest,away,7.0,False,3824.13,229.45,lost,-229.45,3594.68
+439,2022-08-06,England,Leeds v Wolves,away,3.18,False,3594.68,215.68,lost,-215.68,3379.0
+440,2022-08-06,England,Bournemouth v Aston Villa,home,4.25,True,3379.0,202.74,won,658.9,4037.9
+441,2022-08-13,England,Aston Villa v Everton,away,5.37,False,4037.9,242.27,lost,-242.27,3795.63
+442,2022-08-13,England,Arsenal v Leicester,away,6.25,False,3795.63,227.74,lost,-227.74,3567.89
+443,2022-08-13,England,Man City v Bournemouth,draw,15.0,False,3567.89,214.07,lost,-214.07,3353.82
+444,2022-08-13,England,Brentford v Man United,home,5.05,True,3353.82,201.23,won,814.98,4168.8
+445,2022-08-14,England,Nott'm Forest v West Ham,away,2.02,False,4168.8,250.13,lost,-250.13,3918.67
+446,2022-08-20,England,Bournemouth v Arsenal,home,8.5,False,3918.67,235.12,lost,-235.12,3683.55
+447,2022-08-20,England,Tottenham v Wolves,away,8.5,False,3683.55,221.01,lost,-221.01,3462.54
+448,2022-08-27,England,Arsenal v Fulham,away,9.5,False,3462.54,207.75,lost,-207.75,3254.79
+449,2022-08-27,England,Chelsea v Leicester,away,9.0,False,3254.79,195.29,lost,-195.29,3059.5
+450,2022-08-27,England,Brighton v Leeds,away,5.25,False,3059.5,183.57,lost,-183.57,2875.93
+451,2022-08-27,England,Southampton v Man United,home,4.3,False,2875.93,172.56,lost,-172.56,2703.37
+452,2022-08-28,England,Aston Villa v West Ham,away,3.9,True,2703.37,162.2,won,470.38,3173.75
+453,2022-08-30,England,Leeds v Everton,away,3.75,False,3173.75,190.42,lost,-190.42,2983.33
+454,2022-08-31,England,Arsenal v Aston Villa,away,6.7,False,2983.33,179.0,lost,-179.0,2804.33
+455,2022-09-01,England,Leicester v Man United,home,3.56,False,2804.33,168.26,lost,-168.26,2636.07
+456,2022-09-03,England,Newcastle v Crystal Palace,away,4.23,False,2636.07,158.16,lost,-158.16,2477.91
+457,2022-09-03,England,Nott'm Forest v Bournemouth,away,3.76,True,2477.91,148.67,won,410.33,2888.24
+458,2022-09-04,England,Brighton v Leicester,away,4.69,False,2888.24,173.29,lost,-173.29,2714.95
+459,2022-09-16,England,Nott'm Forest v Fulham,away,2.68,True,2714.95,162.9,won,273.67,2988.62
+460,2022-09-17,England,Tottenham v Leicester,away,7.06,False,2988.62,179.32,lost,-179.32,2809.3
+461,2022-09-17,England,Newcastle v Bournemouth,away,8.6,False,2809.3,168.56,lost,-168.56,2640.74
+462,2022-09-18,England,Brentford v Arsenal,home,4.96,False,2640.74,158.44,lost,-158.44,2482.3
+463,2022-10-01,England,Arsenal v Tottenham,away,3.95,False,2482.3,148.94,lost,-148.94,2333.36
+464,2022-10-02,England,Leeds v Aston Villa,away,3.2,False,2333.36,140.0,lost,-140.0,2193.36
+465,2022-10-03,England,Leicester v Nott'm Forest,home,1.75,True,2193.36,131.6,won,98.7,2292.06
+466,2022-10-08,England,Bournemouth v Leicester,away,2.28,False,2292.06,137.52,lost,-137.52,2154.54
+467,2022-10-08,England,Newcastle v Brentford,away,5.5,False,2154.54,129.27,lost,-129.27,2025.27
+468,2022-10-08,England,Brighton v Tottenham,away,2.96,True,2025.27,121.52,won,238.18,2263.45
+469,2022-10-09,England,Arsenal v Liverpool,away,2.8,False,2263.45,135.81,lost,-135.81,2127.64
+470,2022-10-10,England,Nott'm Forest v Aston Villa,away,2.05,False,2127.64,127.66,lost,-127.66,1999.98
+471,2022-10-15,England,Wolves v Nott'm Forest,home,1.78,True,1999.98,120.0,won,93.6,2093.58
+472,2022-10-16,England,Liverpool v Man City,home,4.18,True,2093.58,125.61,won,399.44,2493.02
+473,2022-10-19,England,Man United v Tottenham,away,3.25,False,2493.02,149.58,lost,-149.58,2343.44
+474,2022-10-19,England,Newcastle v Everton,away,5.75,False,2343.44,140.61,lost,-140.61,2202.83
+475,2022-10-19,England,Bournemouth v Southampton,away,3.03,True,2202.83,132.17,won,268.31,2471.14
+476,2022-10-20,England,Leicester v Leeds,home,2.4,True,2471.14,148.27,won,207.58,2678.72
+477,2022-10-22,England,Nott'm Forest v Liverpool,away,1.37,False,2678.72,160.72,lost,-160.72,2518.0
+478,2022-10-23,England,Tottenham v Newcastle,home,2.3,False,2518.0,151.08,lost,-151.08,2366.92
+479,2022-10-23,England,Southampton v Arsenal,home,7.3,False,2366.92,142.02,lost,-142.02,2224.9
+480,2022-10-23,England,Wolves v Leicester,away,3.4,True,2224.9,133.49,won,320.38,2545.28
+481,2022-10-29,England,Newcastle v Aston Villa,away,4.92,False,2545.28,152.72,lost,-152.72,2392.56
+482,2022-11-05,England,Nott'm Forest v Brentford,away,2.98,False,2392.56,143.55,lost,-143.55,2249.01
+483,2022-11-05,England,Everton v Leicester,away,3.15,True,2249.01,134.94,won,290.12,2539.13
+484,2022-11-06,England,Southampton v Newcastle,home,4.66,False,2539.13,152.35,lost,-152.35,2386.78
+485,2022-11-06,England,Chelsea v Arsenal,home,2.93,False,2386.78,143.21,lost,-143.21,2243.57
+486,2022-11-12,England,Nott'm Forest v Crystal Palace,away,2.44,False,2243.57,134.61,lost,-134.61,2108.96
+487,2022-11-12,England,West Ham v Leicester,away,4.03,True,2108.96,126.54,won,383.42,2492.38
+488,2022-11-12,England,Newcastle v Chelsea,away,3.75,False,2492.38,149.54,lost,-149.54,2342.84
+489,2022-11-12,England,Wolves v Arsenal,home,7.16,False,2342.84,140.57,lost,-140.57,2202.27
+490,2022-11-13,England,Brighton v Aston Villa,away,5.6,True,2202.27,132.14,won,607.84,2810.11
+491,2022-12-26,England,Leicester v Newcastle,home,3.65,False,2810.11,168.61,lost,-168.61,2641.5
+492,2022-12-30,England,Liverpool v Leicester,away,13.25,False,2641.5,158.49,lost,-158.49,2483.01
+493,2022-12-31,England,Brighton v Arsenal,home,4.78,False,2483.01,148.98,lost,-148.98,2334.03
+494,2022-12-31,England,Newcastle v Leeds,away,7.7,False,2334.03,140.04,lost,-140.04,2193.99
+495,2022-12-31,England,Fulham v Southampton,away,4.67,False,2193.99,131.64,lost,-131.64,2062.35
+496,2023-01-03,England,Leicester v Fulham,home,2.42,False,2062.35,123.74,lost,-123.74,1938.61
+497,2023-01-04,England,Southampton v Nott'm Forest,home,2.45,False,1938.61,116.32,lost,-116.32,1822.29
+498,2023-01-14,England,Nott'm Forest v Leicester,away,2.89,False,1822.29,109.34,lost,-109.34,1712.95
+499,2023-01-14,England,Brighton v Liverpool,away,2.43,False,1712.95,102.78,lost,-102.78,1610.17
+500,2023-01-15,England,Newcastle v Fulham,away,7.33,False,1610.17,96.61,lost,-96.61,1513.56
+501,2023-01-15,England,Tottenham v Arsenal,home,3.67,False,1513.56,90.81,lost,-90.81,1422.75
+502,2023-01-18,England,Crystal Palace v Man United,home,5.89,False,1422.75,85.36,lost,-85.36,1337.39
+503,2023-01-21,England,Crystal Palace v Newcastle,home,4.8,False,1337.39,80.24,lost,-80.24,1257.15
+504,2023-01-21,England,Leicester v Brighton,home,4.35,False,1257.15,75.43,lost,-75.43,1181.72
+505,2023-01-21,England,Bournemouth v Nott'm Forest,home,3.03,False,1181.72,70.9,lost,-70.9,1110.82
+506,2023-02-04,England,Brentford v Southampton,away,5.5,False,1110.82,66.65,lost,-66.65,1044.17
+507,2023-02-04,England,Everton v Arsenal,home,9.29,True,1044.17,62.65,won,519.37,1563.54
+508,2023-02-04,England,Aston Villa v Leicester,away,3.75,True,1563.54,93.81,won,257.98,1821.52
+509,2023-02-04,England,Newcastle v West Ham,away,5.85,False,1821.52,109.29,lost,-109.29,1712.23
+510,2023-02-04,England,Wolves v Liverpool,away,2.0,False,1712.23,102.73,lost,-102.73,1609.5
+511,2023-02-04,England,Man United v Crystal Palace,away,10.0,False,1609.5,96.57,lost,-96.57,1512.93
+512,2023-02-11,England,Bournemouth v Newcastle,home,6.4,False,1512.93,90.78,lost,-90.78,1422.15
+513,2023-02-11,England,Crystal Palace v Brighton,home,5.15,False,1422.15,85.33,lost,-85.33,1336.82
+514,2023-02-11,England,Leicester v Tottenham,home,3.8,True,1336.82,80.21,won,224.59,1561.41
+515,2023-02-11,England,Southampton v Wolves,home,3.3,False,1561.41,93.68,lost,-93.68,1467.73
+516,2023-02-13,England,Liverpool v Everton,home,1.64,True,1467.73,88.06,won,56.36,1524.09
+517,2023-02-18,England,Aston Villa v Arsenal,home,4.81,False,1524.09,91.45,lost,-91.45,1432.64
+518,2023-02-18,England,Brentford v Crystal Palace,away,5.1,False,1432.64,85.96,lost,-85.96,1346.68
+519,2023-02-18,England,Brighton v Fulham,away,6.6,True,1346.68,80.8,won,452.48,1799.16
+520,2023-02-18,England,Newcastle v Liverpool,away,2.95,True,1799.16,107.95,won,210.5,2009.66
+521,2023-02-19,England,Man United v Leicester,away,6.1,False,2009.66,120.58,lost,-120.58,1889.08
+522,2023-02-24,England,Fulham v Wolves,home,2.8,False,1889.08,113.34,lost,-113.34,1775.74
+523,2023-02-25,England,Leicester v Arsenal,home,6.5,False,1775.74,106.54,lost,-106.54,1669.2
+524,2023-02-25,England,Leeds v Southampton,away,4.1,False,1669.2,100.15,lost,-100.15,1569.05
+525,2023-02-26,England,Tottenham v Chelsea,home,3.13,True,1569.05,94.14,won,200.52,1769.57
+526,2023-03-04,England,Southampton v Leicester,away,2.87,False,1769.57,106.17,lost,-106.17,1663.4
+527,2023-03-04,England,Brighton v West Ham,away,5.61,False,1663.4,99.8,lost,-99.8,1563.6
+528,2023-03-05,England,Liverpool v Man United,home,2.7,True,1563.6,93.82,won,159.49,1723.09
+529,2023-03-11,England,Leicester v Chelsea,home,4.2,False,1723.09,103.39,lost,-103.39,1619.7
+530,2023-03-12,England,Man United v Southampton,away,12.1,False,1619.7,97.18,lost,-97.18,1522.52
+531,2023-03-12,England,Fulham v Arsenal,home,8.25,False,1522.52,91.35,lost,-91.35,1431.17
+532,2023-03-12,England,Newcastle v Wolves,away,6.3,False,1431.17,85.87,lost,-85.87,1345.3
+533,2023-03-15,England,Southampton v Brentford,home,3.37,False,1345.3,80.72,lost,-80.72,1264.58
+534,2023-03-15,England,Brighton v Crystal Palace,draw,5.3,False,1264.58,75.87,lost,-75.87,1188.71
+535,2023-03-15,England,Brighton v Crystal Palace,away,9.7,False,1188.71,71.32,lost,-71.32,1117.39
+536,2023-03-17,England,Nott'm Forest v Newcastle,home,5.8,False,1117.39,67.04,lost,-67.04,1050.35
+537,2023-03-18,England,Brentford v Leicester,away,4.21,False,1050.35,63.02,lost,-63.02,987.33
+538,2023-03-19,England,Arsenal v Crystal Palace,draw,6.39,False,987.33,59.24,lost,-59.24,928.09
+539,2023-03-19,England,Arsenal v Crystal Palace,away,14.0,False,928.09,55.69,lost,-55.69,872.4
+540,2023-04-01,England,Crystal Palace v Leicester,away,3.33,False,872.4,52.34,lost,-52.34,820.06
+541,2023-04-01,England,Brighton v Brentford,away,6.0,False,820.06,49.2,lost,-49.2,770.86
+542,2023-04-01,England,Bournemouth v Fulham,away,2.99,False,770.86,46.25,lost,-46.25,724.61
+543,2023-04-04,England,Chelsea v Liverpool,away,3.63,False,724.61,43.48,lost,-43.48,681.13
+544,2023-04-04,England,Bournemouth v Brighton,home,6.25,False,681.13,40.87,lost,-40.87,640.26
+545,2023-04-04,England,Leicester v Aston Villa,home,3.01,False,640.26,38.42,lost,-38.42,601.84
+546,2023-04-05,England,West Ham v Newcastle,home,3.61,False,601.84,36.11,lost,-36.11,565.73
+547,2023-04-08,England,Wolves v Chelsea,home,5.31,True,565.73,33.94,won,146.28,712.01
+548,2023-04-08,England,Tottenham v Brighton,home,2.85,True,712.01,42.72,won,79.03,791.04
+549,2023-04-08,England,Leicester v Bournemouth,home,2.17,False,791.04,47.46,lost,-47.46,743.58
+550,2023-04-08,England,Brentford v Newcastle,home,4.3,False,743.58,44.61,lost,-44.61,698.97
+551,2023-04-09,England,Leeds v Crystal Palace,away,3.95,True,698.97,41.94,won,123.72,822.69
+552,2023-04-09,England,Liverpool v Arsenal,home,2.81,False,822.69,49.36,lost,-49.36,773.33
+553,2023-04-15,England,Aston Villa v Newcastle,home,3.97,True,773.33,46.4,won,137.81,911.14
+554,2023-04-15,England,Chelsea v Brighton,home,3.12,False,911.14,54.67,lost,-54.67,856.47
+555,2023-04-15,England,Everton v Fulham,away,3.77,True,856.47,51.39,won,142.35,998.82
+556,2023-04-16,England,West Ham v Arsenal,home,6.2,False,998.82,59.93,lost,-59.93,938.89
+557,2023-04-21,England,Arsenal v Southampton,away,16.0,False,938.89,56.33,lost,-56.33,882.56
+558,2023-04-22,England,Fulham v Leeds,home,2.51,True,882.56,52.95,won,79.95,962.51
+559,2023-04-23,England,Newcastle v Tottenham,away,4.3,False,962.51,57.75,lost,-57.75,904.76
+560,2023-04-25,England,Aston Villa v Fulham,away,5.28,False,904.76,54.29,lost,-54.29,850.47
+561,2023-04-25,England,Leeds v Leicester,away,3.1,False,850.47,51.03,lost,-51.03,799.44
+562,2023-04-27,England,Southampton v Bournemouth,home,2.65,False,799.44,47.97,lost,-47.97,751.47
+563,2023-04-27,England,Everton v Newcastle,home,4.8,False,751.47,45.09,lost,-45.09,706.38
+564,2023-04-27,England,Tottenham v Man United,home,2.95,False,706.38,42.38,lost,-42.38,664.0
+565,2023-04-30,England,Newcastle v Southampton,draw,6.6,False,664.0,39.84,lost,-39.84,624.16
+566,2023-04-30,England,Newcastle v Southampton,away,15.0,False,624.16,37.45,lost,-37.45,586.71
+567,2023-05-02,England,Arsenal v Chelsea,away,5.9,False,586.71,35.2,lost,-35.2,551.51
+568,2023-05-07,England,West Ham v Man United,home,3.97,True,551.51,33.09,won,98.28,649.79
+569,2023-05-08,England,Nott'm Forest v Southampton,away,4.25,False,649.79,38.99,lost,-38.99,610.8
+570,2023-05-13,England,Aston Villa v Tottenham,away,3.2,False,610.8,36.65,lost,-36.65,574.15
+571,2023-05-13,England,Leeds v Newcastle,home,5.4,False,574.15,34.45,lost,-34.45,539.7
+572,2023-05-13,England,Man United v Wolves,away,8.5,False,539.7,32.38,lost,-32.38,507.32
+573,2023-05-14,England,Brentford v West Ham,away,4.8,False,507.32,30.44,lost,-30.44,476.88
+574,2023-05-18,England,Newcastle v Brighton,away,4.38,False,476.88,28.61,lost,-28.61,448.27
+575,2023-05-20,England,Bournemouth v Man United,home,8.0,False,448.27,26.9,lost,-26.9,421.37
+576,2023-05-20,England,Wolves v Everton,home,3.25,False,421.37,25.28,lost,-25.28,396.09
+577,2023-05-21,England,West Ham v Leeds,home,2.74,True,396.09,23.77,won,41.36,437.45
+578,2023-05-21,England,Brighton v Southampton,draw,8.1,False,437.45,26.25,lost,-26.25,411.2
+579,2023-05-21,England,Brighton v Southampton,away,16.5,False,411.2,24.67,lost,-24.67,386.53
+580,2023-05-22,England,Newcastle v Leicester,away,10.28,False,386.53,23.19,lost,-23.19,363.34
+581,2023-05-25,England,Man United v Chelsea,away,6.54,False,363.34,21.8,lost,-21.8,341.54
+582,2023-05-28,England,Aston Villa v Brighton,away,4.1,False,341.54,20.49,lost,-20.49,321.05
+583,2023-05-28,England,Chelsea v Newcastle,home,3.35,False,321.05,19.26,lost,-19.26,301.79
+584,2023-05-28,England,Everton v Bournemouth,away,6.0,False,301.79,18.11,lost,-18.11,283.68
+585,2023-05-28,England,Leeds v Tottenham,away,2.45,True,283.68,17.02,won,24.68,308.36
+586,2023-05-28,England,Brentford v Man City,away,2.25,False,308.36,18.5,lost,-18.5,289.86
+587,2023-05-28,England,Arsenal v Wolves,away,12.0,False,289.86,17.39,lost,-17.39,272.47
+588,2023-08-12,England,Sheffield United v Crystal Palace,home,4.0,False,272.47,16.35,lost,-16.35,256.12
+589,2023-08-12,England,Everton v Fulham,away,3.56,True,256.12,15.37,won,39.35,295.47
+590,2023-08-14,England,Man United v Wolves,draw,8.67,False,295.47,17.73,lost,-17.73,277.74
+591,2023-08-14,England,Man United v Wolves,away,13.0,False,277.74,16.66,lost,-16.66,261.08
+592,2023-08-19,England,Man City v Newcastle,home,1.91,True,261.08,15.66,won,14.25,275.33
+593,2023-08-19,England,Tottenham v Man United,home,3.38,True,275.33,16.52,won,39.32,314.65
+594,2023-08-20,England,West Ham v Chelsea,home,3.6,True,314.65,18.88,won,49.09,363.74
+595,2023-08-21,England,Crystal Palace v Arsenal,home,4.95,False,363.74,21.82,lost,-21.82,341.92
+596,2023-08-26,England,Arsenal v Fulham,away,13.5,False,341.92,20.52,lost,-20.52,321.4
+597,2023-09-02,England,Burnley v Tottenham,away,2.06,True,321.4,19.28,won,20.44,341.84
+598,2023-09-02,England,Chelsea v Nott'm Forest,away,8.5,True,341.84,20.51,won,153.83,495.67
+599,2023-09-02,England,Brighton v Newcastle,home,2.83,True,495.67,29.74,won,54.42,550.09
+600,2023-09-16,England,Fulham v Luton,home,1.71,True,550.09,33.01,won,23.44,573.53
+601,2023-09-16,England,Man United v Brighton,away,3.78,True,573.53,34.41,won,95.66,669.19
+602,2023-09-17,England,Bournemouth v Chelsea,home,4.34,False,669.19,40.15,lost,-40.15,629.04
+603,2023-09-17,England,Everton v Arsenal,home,6.68,False,629.04,37.74,lost,-37.74,591.3
+604,2023-09-18,England,Nott'm Forest v Burnley,home,2.2,False,591.3,35.48,lost,-35.48,555.82
+605,2023-09-24,England,Brighton v Bournemouth,home,1.54,True,555.82,33.35,won,18.01,573.83
+606,2023-09-24,England,Chelsea v Aston Villa,away,4.4,True,573.83,34.43,won,117.06,690.89
+607,2023-09-30,England,Man United v Crystal Palace,away,6.5,True,690.89,41.45,won,227.98,918.87
+608,2023-10-01,England,Nott'm Forest v Brentford,away,3.17,False,918.87,55.13,lost,-55.13,863.74
+609,2023-10-02,England,Fulham v Chelsea,home,3.82,False,863.74,51.82,lost,-51.82,811.92
+610,2023-10-07,England,Crystal Palace v Nott'm Forest,home,2.42,False,811.92,48.72,lost,-48.72,763.2
+611,2023-10-07,England,Burnley v Chelsea,home,5.64,False,763.2,45.79,lost,-45.79,717.41
+612,2023-10-07,England,Man United v Brentford,away,5.5,False,717.41,43.04,lost,-43.04,674.37
+613,2023-10-08,England,Brighton v Liverpool,home,3.5,False,674.37,40.46,lost,-40.46,633.91
+614,2023-10-08,England,West Ham v Newcastle,away,2.23,False,633.91,38.03,lost,-38.03,595.88
+615,2023-10-21,England,Newcastle v Crystal Palace,away,8.5,False,595.88,35.75,lost,-35.75,560.13
+616,2023-10-21,England,Brentford v Burnley,home,1.83,True,560.13,33.61,won,27.9,588.03
+617,2023-10-27,England,Crystal Palace v Tottenham,home,5.0,False,588.03,35.28,lost,-35.28,552.75
+618,2023-10-28,England,Chelsea v Brentford,away,5.9,True,552.75,33.16,won,162.48,715.23
+619,2023-11-04,England,Newcastle v Arsenal,home,2.94,True,715.23,42.91,won,83.25,798.48
+620,2023-11-04,England,Everton v Brighton,away,2.55,False,798.48,47.91,lost,-47.91,750.57
+621,2023-11-04,England,Burnley v Crystal Palace,away,2.46,True,750.57,45.03,won,65.74,816.31
+622,2023-11-06,England,Tottenham v Chelsea,home,2.4,False,816.31,48.98,lost,-48.98,767.33
+623,2023-11-11,England,Bournemouth v Newcastle,away,2.0,False,767.33,46.04,lost,-46.04,721.29
+624,2023-11-11,England,Wolves v Tottenham,away,2.38,False,721.29,43.28,lost,-43.28,678.01
+625,2023-11-11,England,Crystal Palace v Everton,home,2.8,False,678.01,40.68,lost,-40.68,637.33
+626,2023-11-12,England,Brighton v Sheffield United,home,1.33,False,637.33,38.24,lost,-38.24,599.09
+627,2023-11-12,England,Liverpool v Brentford,away,8.5,False,599.09,35.95,lost,-35.95,563.14
+628,2023-11-25,England,Newcastle v Chelsea,home,2.78,True,563.14,33.79,won,60.15,623.29
+629,2023-11-25,England,Brentford v Arsenal,home,6.18,False,623.29,37.4,lost,-37.4,585.89
+630,2023-11-26,England,Tottenham v Aston Villa,home,2.75,False,585.89,35.15,lost,-35.15,550.74
+631,2023-12-02,England,Nott'm Forest v Everton,home,3.04,False,550.74,33.04,lost,-33.04,517.7
+632,2023-12-02,England,Newcastle v Man United,home,2.08,True,517.7,31.06,won,33.54,551.24
+633,2023-12-03,England,Bournemouth v Aston Villa,away,2.19,False,551.24,33.07,lost,-33.07,518.17
+634,2023-12-03,England,Chelsea v Brighton,away,5.7,False,518.17,31.09,lost,-31.09,487.08
+635,2023-12-03,England,West Ham v Crystal Palace,away,4.6,False,487.08,29.22,lost,-29.22,457.86
+636,2023-12-05,England,Luton v Arsenal,home,19.0,False,457.86,27.47,lost,-27.47,430.39
+637,2023-12-06,England,Aston Villa v Man City,home,5.74,True,430.39,25.82,won,122.39,552.78
+638,2023-12-06,England,Man United v Chelsea,home,2.96,True,552.78,33.17,won,65.01,617.79
+639,2023-12-06,England,Crystal Palace v Bournemouth,home,2.36,False,617.79,37.07,lost,-37.07,580.72
+640,2023-12-07,England,Everton v Newcastle,away,2.5,False,580.72,34.84,lost,-34.84,545.88
+641,2023-12-09,England,Aston Villa v Arsenal,home,3.8,True,545.88,32.75,won,91.7,637.58
+642,2023-12-09,England,Wolves v Nott'm Forest,away,4.92,False,637.58,38.25,lost,-38.25,599.33
+643,2023-12-09,England,Sheffield United v Brentford,away,1.82,False,599.33,35.96,lost,-35.96,563.37
+644,2023-12-09,England,Brighton v Burnley,home,1.57,False,563.37,33.8,lost,-33.8,529.57
+645,2023-12-09,England,Crystal Palace v Liverpool,home,7.5,False,529.57,31.77,lost,-31.77,497.8
+646,2023-12-10,England,Tottenham v Newcastle,away,3.5,False,497.8,29.87,lost,-29.87,467.93
+647,2023-12-15,England,Nott'm Forest v Tottenham,home,5.5,False,467.93,28.08,lost,-28.08,439.85
+648,2023-12-16,England,Newcastle v Fulham,home,1.95,True,439.85,26.39,won,25.07,464.92
+649,2023-12-17,England,Brentford v Aston Villa,home,3.5,False,464.92,27.9,lost,-27.9,437.02
+650,2023-12-17,England,Arsenal v Brighton,away,7.3,False,437.02,26.22,lost,-26.22,410.8
+651,2023-12-17,England,Liverpool v Man United,away,9.9,False,410.8,24.65,lost,-24.65,386.15
+652,2023-12-23,England,Liverpool v Arsenal,home,2.56,False,386.15,23.17,lost,-23.17,362.98
+653,2023-12-23,England,West Ham v Man United,away,3.39,False,362.98,21.78,lost,-21.78,341.2
+654,2023-12-24,England,Wolves v Chelsea,home,3.7,True,341.2,20.47,won,55.27,396.47
+655,2023-12-26,England,Bournemouth v Fulham,away,3.97,False,396.47,23.79,lost,-23.79,372.68
+656,2023-12-26,England,Sheffield United v Luton,away,3.3,True,372.68,22.36,won,51.43,424.11
+657,2023-12-27,England,Brentford v Wolves,home,2.35,False,424.11,25.45,lost,-25.45,398.66
+658,2023-12-28,England,Brighton v Tottenham,home,2.81,True,398.66,23.92,won,43.3,441.96
+659,2023-12-30,England,Crystal Palace v Brentford,away,3.97,False,441.96,26.52,lost,-26.52,415.44
+660,2023-12-30,England,Luton v Chelsea,home,5.9,False,415.44,24.93,lost,-24.93,390.51
+661,2023-12-31,England,Tottenham v Bournemouth,home,1.8,True,390.51,23.43,won,18.74,409.25
+662,2023-12-31,England,Fulham v Arsenal,home,6.66,True,409.25,24.55,won,138.95,548.2
+663,2024-01-01,England,Liverpool v Newcastle,away,8.0,False,548.2,32.89,lost,-32.89,515.31
+664,2024-01-12,England,Burnley v Luton,away,3.95,False,515.31,30.92,lost,-30.92,484.39
+665,2024-01-13,England,Chelsea v Fulham,away,5.5,False,484.39,29.06,lost,-29.06,455.33
+666,2024-01-13,England,Newcastle v Man City,home,5.25,False,455.33,27.32,lost,-27.32,428.01
+667,2024-01-14,England,Man United v Tottenham,away,3.59,False,428.01,25.68,lost,-25.68,402.33
+668,2024-01-20,England,Arsenal v Crystal Palace,away,13.5,False,402.33,24.14,lost,-24.14,378.19
+669,2024-01-21,England,Sheffield United v West Ham,away,2.67,False,378.19,22.69,lost,-22.69,355.5
+670,2024-01-30,England,Nott'm Forest v Arsenal,home,9.52,False,355.5,21.33,lost,-21.33,334.17
+671,2024-01-31,England,Liverpool v Chelsea,home,1.73,True,334.17,20.05,won,14.64,348.81
+672,2024-02-01,England,West Ham v Bournemouth,home,2.55,False,348.81,20.93,lost,-20.93,327.88
+673,2024-02-04,England,Man United v West Ham,away,6.5,False,327.88,19.67,lost,-19.67,308.21
+674,2024-02-04,England,Chelsea v Wolves,away,6.5,True,308.21,18.49,won,101.69,409.9
+675,2024-02-04,England,Bournemouth v Nott'm Forest,away,5.2,False,409.9,24.59,lost,-24.59,385.31
+676,2024-02-05,England,Brentford v Man City,home,8.65,False,385.31,23.12,lost,-23.12,362.19
+677,2024-02-10,England,Tottenham v Brighton,away,4.28,False,362.19,21.73,lost,-21.73,340.46
+678,2024-02-10,England,Fulham v Bournemouth,home,2.69,True,340.46,20.43,won,34.53,374.99
+679,2024-02-10,England,Luton v Sheffield United,home,1.75,False,374.99,22.5,lost,-22.5,352.49
+680,2024-02-11,England,West Ham v Arsenal,home,6.75,False,352.49,21.15,lost,-21.15,331.34
+681,2024-02-12,England,Crystal Palace v Chelsea,home,5.26,False,331.34,19.88,lost,-19.88,311.46
+682,2024-02-17,England,Newcastle v Bournemouth,home,2.06,False,311.46,18.69,lost,-18.69,292.77
+683,2024-02-18,England,Luton v Man United,home,4.32,False,292.77,17.57,lost,-17.57,275.2
+684,2024-02-19,England,Everton v Crystal Palace,away,5.25,False,275.2,16.51,lost,-16.51,258.69
+685,2024-03-02,England,Brentford v Chelsea,home,3.43,False,258.69,15.52,lost,-15.52,243.17
+686,2024-03-02,England,Fulham v Brighton,away,2.89,False,243.17,14.59,lost,-14.59,228.58
+687,2024-03-03,England,Man City v Man United,away,12.0,False,228.58,13.71,lost,-13.71,214.87
+688,2024-03-10,England,Liverpool v Man City,home,3.63,False,214.87,12.89,lost,-12.89,201.98
+689,2024-03-10,England,Aston Villa v Tottenham,home,2.55,False,201.98,12.12,lost,-12.12,189.86
+690,2024-03-11,England,Chelsea v Newcastle,away,4.15,False,189.86,11.39,lost,-11.39,178.47
+691,2024-03-13,England,Bournemouth v Luton,away,6.0,False,178.47,10.71,lost,-10.71,167.76
+692,2024-03-17,England,West Ham v Aston Villa,away,2.88,False,167.76,10.07,lost,-10.07,157.69
+693,2024-03-30,England,Newcastle v West Ham,home,1.9,True,157.69,9.46,won,8.51,166.2
+694,2024-03-30,England,Brentford v Man United,home,3.47,False,166.2,9.97,lost,-9.97,156.23
+695,2024-03-30,England,Aston Villa v Wolves,away,6.74,False,156.23,9.37,lost,-9.37,146.86
+696,2024-03-30,England,Chelsea v Burnley,away,11.5,False,146.86,8.81,lost,-8.81,138.05
+697,2024-03-31,England,Liverpool v Brighton,away,9.65,False,138.05,8.28,lost,-8.28,129.77
+698,2024-04-02,England,Bournemouth v Crystal Palace,away,4.25,False,129.77,7.79,lost,-7.79,121.98
+699,2024-04-02,England,Burnley v Wolves,away,3.25,False,121.98,7.32,lost,-7.32,114.66
+700,2024-04-03,England,Man City v Aston Villa,draw,8.0,False,114.66,6.88,lost,-6.88,107.78
+701,2024-04-03,England,Man City v Aston Villa,away,16.0,False,107.78,6.47,lost,-6.47,101.31
+702,2024-04-03,England,Brentford v Brighton,away,2.8,False,101.31,6.08,lost,-6.08,95.23
+703,2024-04-04,England,Chelsea v Man United,away,4.1,False,95.23,5.71,lost,-5.71,89.52
+704,2024-04-06,England,Brighton v Arsenal,home,7.0,False,89.52,5.37,lost,-5.37,84.15
+705,2024-04-06,England,Wolves v West Ham,home,3.0,False,84.15,5.05,lost,-5.05,79.1
+706,2024-04-06,England,Luton v Bournemouth,home,3.9,True,79.1,4.75,won,13.78,92.88
+707,2024-04-06,England,Crystal Palace v Man City,home,11.0,False,92.88,5.57,lost,-5.57,87.31
+708,2024-04-13,England,Newcastle v Tottenham,home,2.75,True,87.31,5.24,won,9.17,96.48
+709,2024-04-20,England,Wolves v Arsenal,home,12.5,False,96.48,5.79,lost,-5.79,90.69
+710,2024-04-24,England,Everton v Liverpool,home,8.5,True,90.69,5.44,won,40.8,131.49
+711,2024-04-24,England,Wolves v Bournemouth,home,2.85,False,131.49,7.89,lost,-7.89,123.6
+712,2024-04-25,England,Brighton v Man City,home,9.0,False,123.6,7.42,lost,-7.42,116.18
+713,2024-04-28,England,Bournemouth v Brighton,away,3.66,False,116.18,6.97,lost,-6.97,109.21
+714,2024-05-04,England,Man City v Wolves,draw,14.7,False,109.21,6.55,lost,-6.55,102.66
+715,2024-05-04,England,Sheffield United v Nott'm Forest,home,5.08,False,102.66,6.16,lost,-6.16,96.5
+716,2024-05-11,England,Nott'm Forest v Chelsea,home,4.5,False,96.5,5.79,lost,-5.79,90.71
+717,2024-05-11,England,Newcastle v Brighton,away,5.5,False,90.71,5.44,lost,-5.44,85.27
+718,2024-05-11,England,Fulham v Man City,home,14.52,False,85.27,5.12,lost,-5.12,80.15
+719,2024-05-11,England,Fulham v Man City,draw,7.6,False,80.15,4.81,lost,-4.81,75.34
+720,2024-05-12,England,Man United v Arsenal,home,9.81,False,75.34,4.52,lost,-4.52,70.82
+721,2024-05-12,England,Man United v Arsenal,draw,7.05,False,70.82,4.25,lost,-4.25,66.57
+722,2024-05-15,England,Brighton v Chelsea,home,3.44,False,66.57,3.99,lost,-3.99,62.58
+723,2024-05-19,England,Brighton v Man United,home,2.76,False,62.58,3.75,lost,-3.75,58.83
+724,2024-05-19,England,Chelsea v Bournemouth,away,7.52,False,58.83,3.53,lost,-3.53,55.3
+725,2024-05-19,England,Crystal Palace v Aston Villa,away,5.0,False,55.3,3.32,lost,-3.32,51.98
+726,2024-08-16,England,Man United v Fulham,away,5.5,False,51.98,3.12,lost,-3.12,48.86
+727,2024-08-17,England,West Ham v Aston Villa,away,2.91,True,48.86,2.93,won,5.6,54.46
+728,2024-08-18,England,Chelsea v Man City,away,2.05,True,54.46,3.27,won,3.43,57.89
+729,2024-08-19,England,Leicester v Tottenham,home,4.9,False,57.89,3.47,lost,-3.47,54.42
+730,2024-08-24,England,Tottenham v Everton,away,8.5,False,54.42,3.27,lost,-3.27,51.15
+731,2024-08-24,England,Fulham v Leicester,away,4.7,False,51.15,3.07,lost,-3.07,48.08
+732,2024-08-24,England,Crystal Palace v West Ham,home,2.15,False,48.08,2.88,lost,-2.88,45.2
+733,2024-08-24,England,Brighton v Man United,home,2.57,True,45.2,2.71,won,4.25,49.45
+734,2024-08-25,England,Bournemouth v Newcastle,away,2.74,False,49.45,2.97,lost,-2.97,46.48
+735,2024-08-31,England,Leicester v Aston Villa,home,4.2,False,46.48,2.79,lost,-2.79,43.69
+736,2024-09-14,England,Fulham v West Ham,home,2.39,False,43.69,2.62,lost,-2.62,41.07
+737,2024-09-14,England,Southampton v Man United,home,4.5,False,41.07,2.46,lost,-2.46,38.61
+738,2024-09-15,England,Tottenham v Arsenal,away,2.63,True,38.61,2.32,won,3.78,42.39
+739,2024-09-21,England,Tottenham v Brentford,away,6.5,False,42.39,2.54,lost,-2.54,39.85
+740,2024-09-21,England,Crystal Palace v Man United,home,3.0,False,39.85,2.39,lost,-2.39,37.46
+741,2024-09-22,England,Man City v Arsenal,away,5.37,False,37.46,2.25,lost,-2.25,35.21
+742,2024-09-28,England,Brentford v West Ham,home,2.33,False,35.21,2.11,lost,-2.11,33.1
+743,2024-09-29,England,Man United v Tottenham,away,3.46,True,33.1,1.99,won,4.9,38.0
+744,2024-10-05,England,West Ham v Ipswich,away,4.18,False,38.0,2.28,lost,-2.28,35.72
+745,2024-10-05,England,Leicester v Bournemouth,home,3.7,True,35.72,2.14,won,5.78,41.5
+746,2024-10-19,England,Man United v Brentford,away,5.09,False,41.5,2.49,lost,-2.49,39.01
+747,2024-10-19,England,Bournemouth v Arsenal,away,1.85,False,39.01,2.34,lost,-2.34,36.67
+748,2024-10-19,England,Newcastle v Brighton,away,4.9,True,36.67,2.2,won,8.58,45.25
+749,2024-10-19,England,Southampton v Leicester,away,3.45,True,45.25,2.71,won,6.64,51.89
+750,2024-10-27,England,Crystal Palace v Tottenham,home,4.0,True,51.89,3.11,won,9.33,61.22
+751,2024-11-02,England,Ipswich v Leicester,away,3.23,False,61.22,3.67,lost,-3.67,57.55
+752,2024-11-02,England,Wolves v Crystal Palace,away,3.16,False,57.55,3.45,lost,-3.45,54.1
+753,2024-11-09,England,Crystal Palace v Fulham,home,3.52,False,54.1,3.25,lost,-3.25,50.85
+754,2024-11-10,England,Man United v Leicester,away,9.86,False,50.85,3.05,lost,-3.05,47.8
+755,2024-11-23,England,Aston Villa v Crystal Palace,away,5.5,False,47.8,2.87,lost,-2.87,44.93
+756,2024-11-23,England,Leicester v Chelsea,home,7.56,False,44.93,2.7,lost,-2.7,42.23
+757,2024-11-30,England,Crystal Palace v Newcastle,home,3.43,False,42.23,2.53,lost,-2.53,39.7
+758,2024-12-01,England,Tottenham v Fulham,home,2.02,False,39.7,2.38,lost,-2.38,37.32
+759,2024-12-04,England,Aston Villa v Brentford,away,5.15,False,37.32,2.24,lost,-2.24,35.08
+760,2024-12-04,England,Southampton v Chelsea,home,9.4,False,35.08,2.1,lost,-2.1,32.98
+761,2024-12-05,England,Bournemouth v Tottenham,away,3.2,False,32.98,1.98,lost,-1.98,31.0
+762,2024-12-07,England,Man United v Nott'm Forest,away,5.74,True,31.0,1.86,won,8.82,39.82
+763,2024-12-08,England,Tottenham v Chelsea,home,3.12,False,39.82,2.39,lost,-2.39,37.43
+764,2024-12-14,England,Newcastle v Leicester,away,11.0,False,37.43,2.25,lost,-2.25,35.18
+765,2024-12-21,England,Crystal Palace v Arsenal,home,7.68,False,35.18,2.11,lost,-2.11,33.07
+766,2024-12-22,England,Fulham v Southampton,home,1.68,False,33.07,1.98,lost,-1.98,31.09
+767,2024-12-22,England,Tottenham v Liverpool,home,5.1,False,31.09,1.87,lost,-1.87,29.22
+768,2024-12-26,England,Wolves v Man United,home,4.69,True,29.22,1.75,won,6.46,35.68
+769,2024-12-26,England,Nott'm Forest v Tottenham,away,3.25,False,35.68,2.14,lost,-2.14,33.54
+770,2024-12-26,England,Chelsea v Fulham,away,6.86,True,33.54,2.01,won,11.78,45.32
+771,2024-12-30,England,Aston Villa v Brighton,away,4.37,False,45.32,2.72,lost,-2.72,42.6
+772,2025-01-04,England,Crystal Palace v Chelsea,home,3.89,False,42.6,2.56,lost,-2.56,40.04
+773,2025-01-04,England,Tottenham v Newcastle,home,3.9,False,40.04,2.4,lost,-2.4,37.64
+774,2025-01-06,England,Wolves v Nott'm Forest,home,4.18,False,37.64,2.26,lost,-2.26,35.38
+775,2025-01-14,England,Chelsea v Bournemouth,away,6.0,False,35.38,2.12,lost,-2.12,33.26
+776,2025-01-18,England,Newcastle v Bournemouth,away,5.5,True,33.26,2.0,won,9.0,42.26
+777,2025-01-19,England,Everton v Tottenham,away,2.85,False,42.26,2.54,lost,-2.54,39.72
+778,2025-01-25,England,Man City v Chelsea,home,2.4,True,39.72,2.38,won,3.33,43.05
+779,2025-01-26,England,Aston Villa v West Ham,away,7.38,False,43.05,2.58,lost,-2.58,40.47
+780,2025-02-01,England,Newcastle v Fulham,away,5.12,True,40.47,2.43,won,10.01,50.48
+781,2025-02-02,England,Brentford v Tottenham,away,3.52,True,50.48,3.03,won,7.64,58.12
+782,2025-02-02,England,Man United v Crystal Palace,away,5.09,True,58.12,3.49,won,14.27,72.39
+783,2025-02-15,England,Man City v Newcastle,home,2.12,True,72.39,4.34,won,4.86,77.25
+784,2025-02-15,England,West Ham v Brentford,away,2.94,True,77.25,4.63,won,8.98,86.23
+785,2025-02-22,England,Ipswich v Tottenham,away,2.16,True,86.23,5.17,won,6.0,92.23
+786,2025-02-23,England,Man City v Liverpool,home,3.31,False,92.23,5.53,lost,-5.53,86.7
+787,2025-02-25,England,Wolves v Fulham,away,3.21,True,86.7,5.2,won,11.49,98.19
+788,2025-02-26,England,Liverpool v Newcastle,away,8.5,False,98.19,5.89,lost,-5.89,92.3
+789,2025-03-09,England,Tottenham v Bournemouth,home,2.89,False,92.3,5.54,lost,-5.54,86.76
+790,2025-03-15,England,Southampton v Wolves,away,2.1,True,86.76,5.21,won,5.73,92.49
+791,2025-03-16,England,Fulham v Tottenham,away,4.24,False,92.49,5.55,lost,-5.55,86.94
+792,2025-04-02,England,Newcastle v Brentford,away,5.0,False,86.94,5.22,lost,-5.22,81.72
+793,2025-04-03,England,Chelsea v Tottenham,away,4.9,False,81.72,4.9,lost,-4.9,76.82
+794,2025-04-05,England,Aston Villa v Nott'm Forest,away,3.73,False,76.82,4.61,lost,-4.61,72.21
+795,2025-04-05,England,Ipswich v Wolves,away,2.7,True,72.21,4.33,won,7.36,79.57
+796,2025-04-12,England,Nott'm Forest v Everton,away,4.48,True,79.57,4.77,won,16.6,96.17
+797,2025-04-13,England,Wolves v Tottenham,away,3.33,False,96.17,5.77,lost,-5.77,90.4
+798,2025-04-13,England,Newcastle v Man United,away,5.54,False,90.4,5.42,lost,-5.42,84.98
+799,2025-04-16,England,Newcastle v Crystal Palace,away,5.37,False,84.98,5.1,lost,-5.1,79.88
+800,2025-04-20,England,Man United v Wolves,home,2.6,False,79.88,4.79,lost,-4.79,75.09
+801,2025-04-22,England,Man City v Aston Villa,home,1.98,True,75.09,4.51,won,4.42,79.51
+802,2025-04-26,England,Newcastle v Ipswich,away,18.0,False,79.51,4.77,lost,-4.77,74.74
+803,2025-04-26,England,Chelsea v Everton,away,7.7,False,74.74,4.48,lost,-4.48,70.26
+804,2025-04-27,England,Liverpool v Tottenham,away,15.0,False,70.26,4.22,lost,-4.22,66.04
+805,2025-05-03,England,Aston Villa v Fulham,away,4.4,False,66.04,3.96,lost,-3.96,62.08
+806,2025-05-04,England,Brentford v Man United,away,5.2,False,62.08,3.72,lost,-3.72,58.36
+807,2025-05-04,England,Brighton v Newcastle,home,3.35,False,58.36,3.5,lost,-3.5,54.86
+808,2025-05-04,England,West Ham v Tottenham,away,4.22,False,54.86,3.29,lost,-3.29,51.57
+809,2025-05-04,England,Chelsea v Liverpool,away,2.98,False,51.57,3.09,lost,-3.09,48.48
+810,2025-05-10,England,Fulham v Everton,away,5.09,True,48.48,2.91,won,11.9,60.38
+811,2025-05-11,England,Tottenham v Crystal Palace,home,3.15,False,60.38,3.62,lost,-3.62,56.76
+812,2025-05-16,England,Chelsea v Man United,away,5.99,False,56.76,3.41,lost,-3.41,53.35
+813,2025-05-16,England,Aston Villa v Tottenham,draw,7.0,False,53.35,3.2,lost,-3.2,50.15
+814,2025-05-16,England,Aston Villa v Tottenham,away,11.22,False,50.15,3.01,lost,-3.01,47.14
+815,2025-05-19,England,Brighton v Liverpool,away,3.09,False,47.14,2.83,lost,-2.83,44.31
+816,2025-05-20,England,Man City v Bournemouth,away,9.2,False,44.31,2.66,lost,-2.66,41.65
+817,2025-05-25,England,Tottenham v Brighton,home,3.9,False,41.65,2.5,lost,-2.5,39.15
+818,2025-05-25,England,Newcastle v Everton,draw,6.6,False,39.15,2.35,lost,-2.35,36.8
+819,2025-05-25,England,Newcastle v Everton,away,12.5,True,36.8,2.21,won,25.41,62.21
+820,2025-05-25,England,Man United v Aston Villa,home,5.21,True,62.21,3.73,won,15.7,77.91
+821,2025-05-25,England,Fulham v Man City,home,6.32,False,77.91,4.67,lost,-4.67,73.24
+822,2025-08-15,England,Liverpool v Bournemouth,away,9.5,False,73.24,4.39,lost,-4.39,68.85
+823,2025-08-16,England,Tottenham v Burnley,away,6.5,False,68.85,4.13,lost,-4.13,64.72
+824,2025-08-16,England,Sunderland v West Ham,home,3.55,True,64.72,3.88,won,9.89,74.61
+825,2025-08-17,England,Nott'm Forest v Brentford,away,4.3,False,74.61,4.48,lost,-4.48,70.13
+826,2025-08-23,England,Brentford v Aston Villa,home,3.5,True,70.13,4.21,won,10.53,80.66
+827,2025-08-23,England,Burnley v Sunderland,away,3.3,False,80.66,4.84,lost,-4.84,75.82
+828,2025-08-24,England,Fulham v Man United,home,3.65,False,75.82,4.55,lost,-4.55,71.27
+829,2025-08-30,England,Man United v Burnley,away,8.0,False,71.27,4.28,lost,-4.28,66.99
+830,2025-08-30,England,Tottenham v Bournemouth,away,4.0,True,66.99,4.02,won,12.06,79.05
+831,2025-08-30,England,Leeds v Newcastle,away,2.25,False,79.05,4.74,lost,-4.74,74.31
+832,2025-09-13,England,Brentford v Chelsea,home,4.33,False,74.31,4.46,lost,-4.46,69.85
+833,2025-09-13,England,Newcastle v Wolves,away,9.5,False,69.85,4.19,lost,-4.19,65.66
+834,2025-09-20,England,West Ham v Crystal Palace,away,2.4,True,65.66,3.94,won,5.52,71.18
+835,2025-09-20,England,Wolves v Leeds,home,3.1,False,71.18,4.27,lost,-4.27,66.91
+836,2025-09-20,England,Fulham v Brentford,away,3.8,False,66.91,4.01,lost,-4.01,62.9
+837,2025-09-27,England,Brentford v Man United,home,3.6,True,62.9,3.77,won,9.8,72.7
+838,2025-09-27,England,Nott'm Forest v Sunderland,away,5.0,True,72.7,4.36,won,17.44,90.14
+839,2025-09-27,England,Tottenham v Wolves,away,6.5,False,90.14,5.41,lost,-5.41,84.73
+840,2025-10-04,England,Man United v Sunderland,draw,4.5,False,84.73,5.08,lost,-5.08,79.65
+841,2025-10-04,England,Man United v Sunderland,away,5.5,False,79.65,4.78,lost,-4.78,74.87
+842,2025-10-05,England,Newcastle v Nott'm Forest,away,6.5,False,74.87,4.49,lost,-4.49,70.38
+843,2025-10-24,England,Leeds v West Ham,away,5.1,False,70.38,4.22,lost,-4.22,66.16
+844,2025-10-25,England,Newcastle v Fulham,away,6.25,False,66.16,3.97,lost,-3.97,62.19
+845,2025-10-25,England,Man United v Brighton,away,3.5,False,62.19,3.73,lost,-3.73,58.46
+846,2025-10-26,England,Arsenal v Crystal Palace,away,8.5,False,58.46,3.51,lost,-3.51,54.95
+847,2025-11-01,England,Burnley v Arsenal,home,17.0,False,54.95,3.3,lost,-3.3,51.65
+848,2025-11-03,England,Sunderland v Everton,home,3.4,False,51.65,3.1,lost,-3.1,48.55
+849,2025-12-03,England,Liverpool v Sunderland,away,8.5,False,48.55,2.91,lost,-2.91,45.64
+850,2025-12-03,England,Leeds v Chelsea,away,2.0,False,45.64,2.74,lost,-2.74,42.9
+851,2025-12-08,England,Wolves v Man United,home,5.5,False,42.9,2.57,lost,-2.57,40.33
+852,2025-12-14,England,Brentford v Leeds,home,2.23,False,40.33,2.42,lost,-2.42,37.91
+853,2025-12-22,England,Fulham v Nott'm Forest,home,2.63,True,37.91,2.27,won,3.7,41.61
+854,2025-12-30,England,Arsenal v Aston Villa,away,9.0,False,41.61,2.5,lost,-2.5,39.11
+855,2025-12-30,England,Nott'm Forest v Everton,away,4.4,True,39.11,2.35,won,7.99,47.1
+856,2025-12-30,England,Burnley v Newcastle,home,6.0,False,47.1,2.83,lost,-2.83,44.27
+857,2026-01-01,England,Sunderland v Man City,home,8.0,False,44.27,2.66,lost,-2.66,41.61
+858,2026-01-01,England,Liverpool v Leeds,away,7.0,False,41.61,2.5,lost,-2.5,39.11
+859,2026-01-04,England,Newcastle v Crystal Palace,away,5.1,False,39.11,2.35,lost,-2.35,36.76
+860,2026-01-04,England,Fulham v Liverpool,home,4.25,False,36.76,2.21,lost,-2.21,34.55
+861,2026-01-04,England,Man City v Chelsea,away,6.5,False,34.55,2.07,lost,-2.07,32.48
+862,2026-01-07,England,Newcastle v Leeds,away,6.0,False,32.48,1.95,lost,-1.95,30.53
+863,2026-01-24,England,Bournemouth v Liverpool,home,4.5,True,30.53,1.83,won,6.41,36.94
+864,2026-01-24,England,West Ham v Sunderland,away,3.4,False,36.94,2.22,lost,-2.22,34.72
+865,2026-01-31,England,Liverpool v Newcastle,away,5.0,False,34.72,2.08,lost,-2.08,32.64
+866,2026-02-07,England,Arsenal v Sunderland,draw,6.25,False,32.64,1.96,lost,-1.96,30.68
+867,2026-02-18,England,Wolves v Arsenal,draw,6.5,True,30.68,1.84,won,10.12,40.8
+868,2026-03-01,England,Man United v Crystal Palace,away,6.4,False,40.8,2.45,lost,-2.45,38.35
+869,2026-03-03,England,Wolves v Liverpool,home,7.5,True,38.35,2.3,won,14.95,53.3
+870,2026-03-04,England,Fulham v West Ham,home,2.28,False,53.3,3.2,lost,-3.2,50.1
+871,2026-03-15,England,Liverpool v Tottenham,away,9.0,False,50.1,3.01,lost,-3.01,47.09
+872,2026-04-10,England,West Ham v Wolves,away,4.75,False,47.09,2.83,lost,-2.83,44.26
+873,2026-04-18,England,Leeds v Wolves,away,6.66,False,44.26,2.66,lost,-2.66,41.6
+874,2026-04-19,England,Man City v Arsenal,away,4.5,False,41.6,2.5,lost,-2.5,39.1
+875,2026-04-20,England,Crystal Palace v West Ham,home,2.63,False,39.1,2.35,lost,-2.35,36.75
+876,2026-04-22,England,Burnley v Man City,draw,9.5,False,36.75,2.21,lost,-2.21,34.54
+877,2026-04-22,England,Bournemouth v Leeds,away,4.33,False,34.54,2.07,lost,-2.07,32.47
+878,2026-04-25,England,Wolves v Tottenham,home,5.0,False,32.47,1.95,lost,-1.95,30.52
+879,2026-05-02,England,Wolves v Sunderland,home,3.82,False,30.52,1.83,lost,-1.83,28.69
+880,2026-05-03,England,Bournemouth v Crystal Palace,away,5.66,False,28.69,1.72,lost,-1.72,26.97
+881,2026-05-04,England,Everton v Man City,home,7.0,False,26.97,1.62,lost,-1.62,25.35
+882,2026-05-04,England,Everton v Man City,draw,5.0,True,25.35,1.52,won,6.08,31.43
+883,2026-05-04,England,Chelsea v Nott'm Forest,draw,5.0,False,31.43,1.89,lost,-1.89,29.54
+884,2026-05-04,England,Chelsea v Nott'm Forest,away,8.2,True,29.54,1.77,won,12.74,42.28
+885,2026-05-09,England,Brighton v Wolves,draw,6.25,False,42.28,2.54,lost,-2.54,39.74
+886,2026-05-09,England,Brighton v Wolves,away,11.0,False,39.74,2.38,lost,-2.38,37.36
+887,2026-05-10,England,Burnley v Aston Villa,home,7.0,False,37.36,2.24,lost,-2.24,35.12
+888,2026-05-10,England,Nott'm Forest v Newcastle,home,3.5,False,35.12,2.11,lost,-2.11,33.01
+889,2026-05-11,England,Tottenham v Leeds,away,4.4,False,33.01,1.98,lost,-1.98,31.03
+890,2026-05-17,England,Leeds v Brighton,home,3.66,True,31.03,1.86,won,4.95,35.98
+891,2026-05-17,England,Newcastle v West Ham,home,2.15,True,35.98,2.16,won,2.48,38.46
+892,2026-05-24,England,West Ham v Leeds,away,4.5,False,38.46,2.31,lost,-2.31,36.15
+893,2026-05-24,England,Tottenham v Everton,away,4.4,False,36.15,2.17,lost,-2.17,33.98
+894,2026-05-24,England,Nott'm Forest v Bournemouth,home,3.81,False,33.98,2.04,lost,-2.04,31.94
